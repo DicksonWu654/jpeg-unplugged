@@ -1,0 +1,8 @@
+# hosts uses a SEPARATE venv (not the shared .venv):  python3 -m venv $SCRATCH/w8venv && $SCRATCH/w8venv/bin/pip install -r scripts/hosts/requirements.txt
+tldextract
+dnspython
+aiohttp
+pyarrow
+pandas
+duckdb
+tabulate

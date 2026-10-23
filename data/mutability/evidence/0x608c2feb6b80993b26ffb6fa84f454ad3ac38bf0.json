@@ -1,0 +1,459 @@
+{
+ "address": "0x608c2feb6b80993b26ffb6fa84f454ad3ac38bf0",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:25Z",
+ "code_raw": "data/raw/rpc-mutability/0x608c2feb6b80993b26ffb6fa84f454ad3ac38bf0_code.json",
+ "code_len": 21607,
+ "slots": {
+  "slot0": "0x476f617420536f75700000000000000000000000000000000000000000000012"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0x608c2feb6b80993b26ffb6fa84f454ad3ac38bf0_slots.json",
+ "verified": true,
+ "contract_name": "GoatSoup",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [
+   {
+    "hash": "0x7f735963b2c88cff04b8cf3fbff967c0a15374bdb7783b9afa5fcd896e5225e1",
+    "timestamp": "2021-11-30T23:57:07.000000Z",
+    "method": "addAttributes",
+    "from": "0xDffa053E43C3285F2E865c4619EddA94f84284bC",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13717834,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xc7d07726c067c902b7bd432d66c297dcda4f6d0d2ab5d9e7502e18656abed8c5",
+    "timestamp": "2021-11-30T23:56:53.000000Z",
+    "method": "addAttributes",
+    "from": "0xDffa053E43C3285F2E865c4619EddA94f84284bC",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13717833,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xe4cea3fe65e04ee8237f375ea95ec89cae26bd70d7aa6f032a055061e2faa631",
+    "timestamp": "2021-11-30T23:56:53.000000Z",
+    "method": "addAttributes",
+    "from": "0xDffa053E43C3285F2E865c4619EddA94f84284bC",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13717833,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x9be7c9389bb50dabb39a4181e1958788cb3c14dc897950bacc1a439f496c5908",
+    "timestamp": "2021-11-30T23:56:05.000000Z",
+    "method": "addAttributes",
+    "from": "0xDffa053E43C3285F2E865c4619EddA94f84284bC",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13717831,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xd9cad8e10a263b1fb18a965273a830638362d6a63ea404af3ede97108a1e504d",
+    "timestamp": "2021-11-30T23:55:15.000000Z",
+    "method": "addAttributes",
+    "from": "0xDffa053E43C3285F2E865c4619EddA94f84284bC",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13717825,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xb97ff8bdbdd7ac773491ec94572d1539201e351a6348c8f6043b8a4d64a386e6",
+    "timestamp": "2021-11-30T23:55:06.000000Z",
+    "method": "addAttributes",
+    "from": "0xDffa053E43C3285F2E865c4619EddA94f84284bC",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13717824,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x6c6ea2dd0c04afc640d6bec185b4d6af4b95fc843106580eed35dc0989ab09b5",
+    "timestamp": "2021-11-30T23:55:06.000000Z",
+    "method": "addAttributes",
+    "from": "0xDffa053E43C3285F2E865c4619EddA94f84284bC",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13717824,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xe4e68252d137d2702fc9f79e341acb3404d1608353b262041b9296c340b5b478",
+    "timestamp": "2021-11-30T23:55:06.000000Z",
+    "method": "addAttributes",
+    "from": "0xDffa053E43C3285F2E865c4619EddA94f84284bC",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13717824,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x728e5d051cf0fdc5f49c4cc66099878cb849d1e6d6ff292bb983f875411cf96c",
+    "timestamp": "2021-11-30T23:53:34.000000Z",
+    "method": "addAttributes",
+    "from": "0xDffa053E43C3285F2E865c4619EddA94f84284bC",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13717817,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x1a232ab515b7c8f2c4bdf454dcf973ebb2a620e183325c5520313e882417a395",
+    "timestamp": "2021-11-30T23:23:50.000000Z",
+    "method": "addAttributes",
+    "from": "0xDffa053E43C3285F2E865c4619EddA94f84284bC",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13717690,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x1ab9d06d27c3754727582b646a72db860833f1369064e9277218e65711e07f1b",
+    "timestamp": "2021-11-30T23:21:14.000000Z",
+    "method": "addAttributes",
+    "from": "0xDffa053E43C3285F2E865c4619EddA94f84284bC",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13717679,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x660bbde63c8021c5b621fa1e3b469509abac4c412232882d297260d6ebd34a26",
+    "timestamp": "2021-11-30T23:20:45.000000Z",
+    "method": "addAttributes",
+    "from": "0xDffa053E43C3285F2E865c4619EddA94f84284bC",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13717677,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xfe8a52a002396bcab9508786f092ddbe026bd4afc289b127eb3efc562ca7571c",
+    "timestamp": "2021-11-30T23:20:45.000000Z",
+    "method": "addAttributes",
+    "from": "0xDffa053E43C3285F2E865c4619EddA94f84284bC",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13717677,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xb90ea94518fe5c96a3c85702aaea497efe2ead3c38db3b2776bdea6d9c3be52a",
+    "timestamp": "2021-11-30T23:20:45.000000Z",
+    "method": "addAttributes",
+    "from": "0xDffa053E43C3285F2E865c4619EddA94f84284bC",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13717677,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x6b3561d623de896001883ea0a6db2d5c9bff364c28bef772acfa6343634436e9",
+    "timestamp": "2021-11-30T23:20:45.000000Z",
+    "method": "addAttributes",
+    "from": "0xDffa053E43C3285F2E865c4619EddA94f84284bC",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13717677,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x19af8c7a3c4646dd8e15a0f7a953696c03d5102032210621349b3eb533cbf4d0",
+    "timestamp": "2021-11-30T23:19:59.000000Z",
+    "method": "addAttributes",
+    "from": "0xDffa053E43C3285F2E865c4619EddA94f84284bC",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13717672,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xe7f880a981529fbef94df629bcd358652c9a70c3a573e542d49cec2245e119aa",
+    "timestamp": "2021-11-30T23:19:59.000000Z",
+    "method": "addAttributes",
+    "from": "0xDffa053E43C3285F2E865c4619EddA94f84284bC",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13717672,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xfe057907e110c963e0575b263d13716c35178acd86da0bd82a9089528358676a",
+    "timestamp": "2021-11-30T23:19:59.000000Z",
+    "method": "addAttributes",
+    "from": "0xDffa053E43C3285F2E865c4619EddA94f84284bC",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13717672,
+    "category": "renderer"
+   }
+  ],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 1,
+    "first": "2021-11-30",
+    "last": "2021-11-30",
+    "last_tx": "0xbcec3d4ffcbd623f2bc0f6ede2c8fff5a4387c321a8afd6f2b0a6521b6baa13d",
+    "list": [
+     {
+      "date": "2021-11-30",
+      "tx": "0xbcec3d4ffcbd623f2bc0f6ede2c8fff5a4387c321a8afd6f2b0a6521b6baa13d",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "dffa053e43c3285f2e865c4619edda94f84284bc"
+      ],
+      "data": "0x"
+     }
+    ]
+   }
+  },
+  "decoded": [
+   {
+    "hash": "0x19af8c7a3c4646dd8e15a0f7a953696c03d5102032210621349b3eb533cbf4d0",
+    "timestamp": "2021-11-30T23:19:59.000000Z",
+    "method": "addAttributes",
+    "category": "renderer",
+    "from": "0xDffa053E43C3285F2E865c4619EddA94f84284bC",
+    "params": [
+     {
+      "name": "raw",
+      "type": "bytes",
+      "value": "0000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0xe7f880a981529fbef94df629bcd358652c9a70c3a573e542d49cec2245e119aa",
+    "timestamp": "2021-11-30T23:19:59.000000Z",
+    "method": "addAttributes",
+    "category": "renderer",
+    "from": "0xDffa053E43C3285F2E865c4619EddA94f84284bC",
+    "params": [
+     {
+      "name": "raw",
+      "type": "bytes",
+      "value": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0xfe057907e110c963e0575b263d13716c35178acd86da0bd82a9089528358676a",
+    "timestamp": "2021-11-30T23:19:59.000000Z",
+    "method": "addAttributes",
+    "category": "renderer",
+    "from": "0xDffa053E43C3285F2E865c4619EddA94f84284bC",
+    "params": [
+     {
+      "name": "raw",
+      "type": "bytes",
+      "value": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0xd9cad8e10a263b1fb18a965273a830638362d6a63ea404af3ede97108a1e504d",
+    "timestamp": "2021-11-30T23:55:15.000000Z",
+    "method": "addAttributes",
+    "category": "renderer",
+    "from": "0xDffa053E43C3285F2E865c4619EddA94f84284bC",
+    "params": [
+     {
+      "name": "raw",
+      "type": "bytes",
+      "value": "0000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0x9be7c9389bb50dabb39a4181e1958788cb3c14dc897950bacc1a439f496c5908",
+    "timestamp": "2021-11-30T23:56:05.000000Z",
+    "method": "addAttributes",
+    "category": "renderer",
+    "from": "0xDffa053E43C3285F2E865c4619EddA94f84284bC",
+    "params": [
+     {
+      "name": "raw",
+      "type": "bytes",
+      "value": "0000000000000000000000000000000000000000000000000000000000000003000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0xc7d07726c067c902b7bd432d66c297dcda4f6d0d2ab5d9e7502e18656abed8c5",
+    "timestamp": "2021-11-30T23:56:53.000000Z",
+    "method": "addAttributes",
+    "category": "renderer",
+    "from": "0xDffa053E43C3285F2E865c4619EddA94f84284bC",
+    "params": [
+     {
+      "name": "raw",
+      "type": "bytes",
+      "value": "0000000000000000000000000000000000000000000000000000000000000005000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0xe4cea3fe65e04ee8237f375ea95ec89cae26bd70d7aa6f032a055061e2faa631",
+    "timestamp": "2021-11-30T23:56:53.000000Z",
+    "method": "addAttributes",
+    "category": "renderer",
+    "from": "0xDffa053E43C3285F2E865c4619EddA94f84284bC",
+    "params": [
+     {
+      "name": "raw",
+      "type": "bytes",
+      "value": "0000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0x7f735963b2c88cff04b8cf3fbff967c0a15374bdb7783b9afa5fcd896e5225e1",
+    "timestamp": "2021-11-30T23:57:07.000000Z",
+    "method": "addAttributes",
+    "category": "renderer",
+    "from": "0xDffa053E43C3285F2E865c4619EddA94f84284bC",
+    "params": [
+     {
+      "name": "raw",
+      "type": "bytes",
+      "value": "0000000000000000000000000000000000000000000000000000000000000006000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   }
+  ],
+  "ownership_transfers": [
+   {
+    "date": "2021-11-30",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0xdffa053e43c3285f2e865c4619edda94f84284bc",
+    "tx": "0xbcec3d4ffcbd623f2bc0f6ede2c8fff5a4387c321a8afd6f2b0a6521b6baa13d"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0x608c2feb6b80993b26ffb6fa84f454ad3ac38bf0_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0xdffa053e43c3285f2e865c4619edda94f84284bc",
+  "code_raw": "data/raw/rpc-mutability/0xdffa053e43c3285f2e865c4619edda94f84284bc_holdercode.json",
+  "type": "eoa",
+  "bs_name": null,
+  "ens": null,
+  "bs_impl_names": [],
+  "bs_tags": [],
+  "is_contract": false,
+  "creator": null,
+  "is_verified": false,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "override",
+ "lock_functions": [],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [
+  {
+   "name": "addAttributes",
+   "sig": "addAttributes(uint256,(string,string,string,uint256)[])",
+   "selector": "0x4d0ca03e",
+   "category": "renderer",
+   "inputs": [
+    "uint256",
+    "tuple[]"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "for(uint8 i = 0; i < attributes.length; i++) {\r\n            _attributes[_attributeIndex].push(\r\n                Attribute(\r\n                    attributes[i].na",
+   "writes": [],
+   "effective": "unknown",
+   "power": "eoa",
+   "holder_addrs": [
+    "0xdffa053e43c3285f2e865c4619edda94f84284bc"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xdffa053e43c3285f2e865c4619edda94f84284bc",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  }
+ ],
+ "class_direct": "eoa-mutable",
+ "class_reason": "live setters (eoa): addAttributes",
+ "live_mutators": [
+  "addAttributes"
+ ],
+ "dependencies": [],
+ "meta": {
+  "address": "0x608c2feb6b80993b26ffb6fa84f454ad3ac38bf0",
+  "name": "Goat Soup",
+  "w5_claim_strength": null,
+  "w5_claim_text": null,
+  "w5_source_type": null,
+  "w5_source_url": null,
+  "holders_count": 2064.0,
+  "in_w5": false,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": "onchain-renderer",
+  "census_media_class": "data-uri",
+  "census_liveness": "alive",
+  "in_census_onchain": true,
+  "standard": "ERC-721",
+  "creator": "0xdffa053e43c3285f2e865c4619edda94f84284bc",
+  "deploy_block": 13717052.0
+ },
+ "class_deps_all": "none",
+ "class_deps": "none",
+ "class_final": "eoa-mutable",
+ "pointer_power": null
+}

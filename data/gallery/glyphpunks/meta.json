@@ -1,0 +1,53 @@
+{
+ "collection": "Glyphpunks",
+ "slug": "glyphpunks",
+ "contract": "0x104Fc28f88eAB7eD311b6A776a590B418019905e",
+ "token_id": 1,
+ "chain_method": "data URI (contract-assembled; technique labelled from verified source flags)",
+ "chain_call": "tokenURI(1)",
+ "json_name": "Glyphpunk #1",
+ "fields": {
+  "image": "data:image/svg+xml",
+  "animation_url": null,
+  "external_url": null,
+  "json_how": "data-uri-base64"
+ },
+ "rpc": {
+  "default_public_ok": true,
+  "highgas_drpc_ok": null,
+  "highgas_blxr_ok": null,
+  "fork_ok": null,
+  "rpc": "public-default",
+  "needed_fork": false,
+  "unreadable_from_default_public_call": false,
+  "gas_estimate": null
+ },
+ "medium": "svg (image data URI)",
+ "primary": "image",
+ "source_flags": {
+  "verified": true,
+  "contract_name": "Glyphpunks",
+  "proxy": false,
+  "implementation": null,
+  "sstore2": false,
+  "ethfs": false,
+  "scripty": false,
+  "base64": false,
+  "gzip": false,
+  "data_uri": false,
+  "http_literals": [],
+  "ipfs_literal": false,
+  "setters": [
+   "setRenderer"
+  ]
+ },
+ "artwork_file": "artwork.svg",
+ "doc_type": "image/svg+xml; charset=utf-8",
+ "artwork_bytes": 111627,
+ "artwork_sha256": "e0cdfa6e6a98370beec71c5b1df2cba9171a375e6f1f661cec5e4dec076daee6",
+ "declared": {
+  "load": [],
+  "literals": []
+ },
+ "built_at": "2026-10-21T20:18:49Z"
+}

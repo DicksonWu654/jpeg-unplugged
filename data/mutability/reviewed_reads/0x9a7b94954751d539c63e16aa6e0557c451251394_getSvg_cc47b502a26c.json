@@ -1,0 +1,21 @@
+{
+ "url": "https://ethereum-rpc.publicnode.com",
+ "method": "POST",
+ "request": {
+  "jsonrpc": "2.0",
+  "id": 1,
+  "method": "eth_call",
+  "params": [
+   {
+    "to": "0x9a7b94954751d539c63e16aa6e0557c451251394",
+    "data": "0x6de9c65f000000000000000000000000000000000000000000000000000000000000270f",
+    "gas": "0x8f0d180"
+   },
+   "0x1907fbb"
+  ]
+ },
+ "status": 200,
+ "retrieved_at": "2026-10-22T08:58:31Z",
+ "sha256": "ea51831244b8775e5ee1d8b4a04bf06757585f1cc1f332f39d9375c0e56c5a1e",
+ "response_text": "{\"jsonrpc\":\"2.0\",\"id\":1,\"error\":{\"code\":-32003,\"message\":\"out of gas: gas exhausted during memory expansion: 50000000\"}}\n"
+}

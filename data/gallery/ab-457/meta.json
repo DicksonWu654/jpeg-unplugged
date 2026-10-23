@@ -1,0 +1,37 @@
+{
+ "collection": "Art Blocks #457 Dopamine Machines (Steve Pikelny)",
+ "slug": "ab-457",
+ "contract": "0x99a9B7c1116f9ceEB1652de04d5969CcE509B069",
+ "token_id": 457000000,
+ "project_id": 457,
+ "project_name": "Dopamine Machines",
+ "artist": "Steve Pikelny",
+ "script_type": "twemoji@14.0.2",
+ "script_count": 3,
+ "script_bytes": 53453,
+ "token_hash": "0xdb4704956dce21b6b3f77848186e49d1ba52996b9448620eeecac2d7c395991e",
+ "chain_method": "Art Blocks: project script on core contract + libraries from on-chain Dependency Registry, assembled by on-chain Generator getTokenHtml()",
+ "chain_call": "GenArt721Generator.getTokenHtml(0x99a9B7c1116f9ceEB1652de04d5969CcE509B069, 457000000) @ 0x953D288708bB771F969FCfD9BA0819eF506Ac718",
+ "medium": "html+js (twemoji@14.0.2)",
+ "fields": {},
+ "rpc": {
+  "public_rpc_ok": true,
+  "rpc": "public",
+  "gas_estimate": 1972340
+ },
+ "generator_embeds_project_script": true,
+ "note": "tokenURI of the core contract is an HTTPS URL on the Art Blocks API; B uses the on-chain Generator output instead (the honest on-chain test)",
+ "artwork_file": "artwork.html",
+ "doc_type": "text/html; charset=utf-8",
+ "artwork_bytes": 60272,
+ "artwork_sha256": "b23822069ee2a47d8a8bab9293a995635828e52de2292d5f042a5162e728f31a",
+ "declared": {
+  "load": [
+   "https://unpkg.com/twemoji@14.0.2/dist/twemoji.min.js"
+  ],
+  "literals": [
+   "http://fastcashmoneyplus.biz"
+  ]
+ },
+ "built_at": "2026-10-21T20:21:43Z"
+}

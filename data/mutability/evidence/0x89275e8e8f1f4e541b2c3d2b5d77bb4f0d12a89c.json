@@ -1,0 +1,154 @@
+{
+ "address": "0x89275e8e8f1f4e541b2c3d2b5d77bb4f0d12a89c",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:20Z",
+ "code_raw": "data/raw/rpc-mutability/0x89275e8e8f1f4e541b2c3d2b5d77bb4f0d12a89c_code.json",
+ "code_len": 17529,
+ "slots": {},
+ "slots_raw": "data/raw/rpc-mutability/0x89275e8e8f1f4e541b2c3d2b5d77bb4f0d12a89c_slots.json",
+ "verified": true,
+ "contract_name": "LoomlockCoupon",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [],
+  "events": {
+   "URI(string,uint256)": {
+    "n": 0
+   },
+   "URIChanged(string)": {
+    "n": 0
+   }
+  },
+  "decoded": [],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0x89275e8e8f1f4e541b2c3d2b5d77bb4f0d12a89c_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0x8b595e3cef68579adeff3b446522a5cc4ec5906b",
+  "code_raw": "data/raw/rpc-mutability/0x8b595e3cef68579adeff3b446522a5cc4ec5906b_holdercode.json",
+  "type": "eoa",
+  "bs_name": null,
+  "ens": null,
+  "bs_impl_names": [],
+  "bs_tags": [],
+  "is_contract": false,
+  "creator": null,
+  "is_verified": false,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "inherited",
+ "lock_functions": [
+  "renounceRole"
+ ],
+ "lock_flags_true": {},
+ "roles": {
+  "ADMIN": {
+   "value": "0xdf8b4c520ffe197c5343c6f5aec59570151ef9a492f2c624fd45ddde6135ec42",
+   "members": [
+    "0x8b595e3cef68579adeff3b446522a5cc4ec5906b",
+    "0xfc00a0d648cbc705ba9688454e385717798c6040"
+   ],
+   "source": "RoleGranted logs + hasRole"
+  },
+  "DEFAULT_ADMIN_ROLE": {
+   "value": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "members": [
+    "0x8b595e3cef68579adeff3b446522a5cc4ec5906b"
+   ],
+   "source": "RoleGranted logs + hasRole"
+  }
+ },
+ "mutators": [
+  {
+   "name": "setURI",
+   "sig": "setURI(string)",
+   "selector": "0x02fe5305",
+   "category": "uri",
+   "inputs": [
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "role",
+     "ref": "ADMIN"
+    }
+   ],
+   "modifiers": [
+    "onlyRole(ADMIN)"
+   ],
+   "body_head": "_setURI(newURI_);\n    emit URIChanged(newURI_);",
+   "writes": [],
+   "effective": "unknown",
+   "power": "eoa",
+   "holder_addrs": [
+    "0x8b595e3cef68579adeff3b446522a5cc4ec5906b",
+    "0xfc00a0d648cbc705ba9688454e385717798c6040"
+   ],
+   "holder_how": [
+    "role:ADMIN"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x8b595e3cef68579adeff3b446522a5cc4ec5906b",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    },
+    {
+     "addr": "0xfc00a0d648cbc705ba9688454e385717798c6040",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  }
+ ],
+ "class_direct": "eoa-mutable",
+ "class_reason": "live setters (eoa): setURI",
+ "live_mutators": [
+  "setURI"
+ ],
+ "dependencies": [],
+ "meta": {
+  "address": "0x89275e8e8f1f4e541b2c3d2b5d77bb4f0d12a89c",
+  "name": "loomlockCoupons",
+  "w5_claim_strength": "on-chain-generic",
+  "w5_claim_text": "* @dev The remote token is assumed at the same address on the destination chain (CREATE2 / deterministic",
+  "w5_source_type": "contract-source",
+  "w5_source_url": "https://etherscan.io/address/0x89275e8e8f1f4e541b2c3d2b5d77bb4f0d12a89c#code (@blessnet/bridge-resilient-tokens/src/BridgeResilient1155.sol:23)",
+  "holders_count": 2600.0,
+  "in_w5": true,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": null,
+  "census_media_class": null,
+  "census_liveness": null,
+  "in_census_onchain": false,
+  "standard": "ERC-1155",
+  "creator": "0xfc00a0d648cbc705ba9688454e385717798c6040",
+  "deploy_block": 25185559.0
+ },
+ "class_deps_all": "none",
+ "class_deps": "none",
+ "class_final": "eoa-mutable",
+ "pointer_power": "eoa"
+}

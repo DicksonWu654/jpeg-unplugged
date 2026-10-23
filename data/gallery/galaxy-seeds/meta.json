@@ -1,0 +1,60 @@
+{
+ "collection": "Galaxy Seeds",
+ "slug": "galaxy-seeds",
+ "contract": "0x1A6bb2C6Ab8b325fcb920E5F49a70A12106E38d0",
+ "token_id": 100,
+ "chain_method": "data URI (contract-assembled; technique labelled from verified source flags)",
+ "chain_call": "tokenURI(100)",
+ "json_name": "Galaxy Seeds #100",
+ "fields": {
+  "image": "data:image/svg+xml",
+  "animation_url": null,
+  "external_url": null,
+  "json_how": "data-uri-base64"
+ },
+ "rpc": {
+  "default_public_ok": true,
+  "highgas_drpc_ok": null,
+  "highgas_blxr_ok": null,
+  "fork_ok": null,
+  "rpc": "public-default",
+  "needed_fork": false,
+  "unreadable_from_default_public_call": false,
+  "gas_estimate": null
+ },
+ "medium": "svg (image data URI)",
+ "primary": "image",
+ "source_flags": {
+  "verified": true,
+  "contract_name": "GalaxyNFT",
+  "proxy": false,
+  "implementation": null,
+  "sstore2": false,
+  "ethfs": false,
+  "scripty": false,
+  "base64": true,
+  "gzip": false,
+  "data_uri": true,
+  "http_literals": [
+   "https://datatracker.ietf.org/doc/html/rfc4648",
+   "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf",
+   "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/lastIndexOf",
+   "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice",
+   "https://en.wikipedia.org/wiki/Fermat",
+   "https://graphics.stanford.edu/",
+   "https://www.rfc-editor.org/rfc/rfc4648",
+   "https://xn--2-umb.com/21/muldiv"
+  ],
+  "ipfs_literal": false,
+  "setters": []
+ },
+ "artwork_file": "artwork.svg",
+ "doc_type": "image/svg+xml; charset=utf-8",
+ "artwork_bytes": 2715,
+ "artwork_sha256": "0894f6561ff06ec7109a7bcd370215bb4add465c4a51e6306cc4cd8aabfbb7ed",
+ "declared": {
+  "load": [],
+  "literals": []
+ },
+ "built_at": "2026-10-21T20:19:11Z"
+}

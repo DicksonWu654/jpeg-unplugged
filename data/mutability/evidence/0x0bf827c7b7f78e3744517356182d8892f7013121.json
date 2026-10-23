@@ -1,0 +1,111 @@
+{
+ "address": "0x0bf827c7b7f78e3744517356182d8892f7013121",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:36Z",
+ "code_raw": "data/raw/rpc-mutability/0x0bf827c7b7f78e3744517356182d8892f7013121_code.json",
+ "code_len": 21236,
+ "slots": {
+  "slot0": "0x436f6d6d6f6e000000000000000000000000000000000000000000000000000c"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0x0bf827c7b7f78e3744517356182d8892f7013121_slots.json",
+ "verified": false,
+ "contract_name": "",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": false,
+ "abi_from": null,
+ "unverified_selector_hits": [
+  "owner()",
+  "renounceOwnership()",
+  "setBaseURI(string)",
+  "setContractURI(string)",
+  "setRenderer(address)",
+  "transferOwnership(address)"
+ ],
+ "history": {
+  "txs": [],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 1,
+    "first": "2026-05-22",
+    "last": "2026-05-22",
+    "last_tx": "0xcb3501c123d4a21fc68632d17995bbaa4a58dc696b570623825dd1f350a204ef",
+    "list": [
+     {
+      "date": "2026-05-22",
+      "tx": "0xcb3501c123d4a21fc68632d17995bbaa4a58dc696b570623825dd1f350a204ef",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "206529715b09f7bb24da16c93f6cf1076ac0732b"
+      ],
+      "data": "0x"
+     }
+    ]
+   }
+  },
+  "decoded": [],
+  "ownership_transfers": [
+   {
+    "date": "2026-05-22",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0x206529715b09f7bb24da16c93f6cf1076ac0732b",
+    "tx": "0xcb3501c123d4a21fc68632d17995bbaa4a58dc696b570623825dd1f350a204ef"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0x0bf827c7b7f78e3744517356182d8892f7013121_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0x206529715b09f7bb24da16c93f6cf1076ac0732b",
+  "code_raw": "data/raw/rpc-mutability/0x206529715b09f7bb24da16c93f6cf1076ac0732b_holdercode.json",
+  "type": "eoa",
+  "bs_name": null,
+  "ens": null,
+  "bs_impl_names": [],
+  "bs_tags": [],
+  "is_contract": false,
+  "creator": null,
+  "is_verified": false,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "n/a",
+ "lock_functions": [],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [],
+ "likely_class_if_setters": "eoa",
+ "class_direct": "unknown",
+ "class_reason": "unverified source; selector hits: owner(),renounceOwnership(),setBaseURI(string),setContractURI(string),setRenderer(address),transferOwnership(address)",
+ "live_mutators": [],
+ "dependencies": [],
+ "meta": {
+  "address": "0x0bf827c7b7f78e3744517356182d8892f7013121",
+  "name": "GlyphVoid",
+  "w5_claim_strength": null,
+  "w5_claim_text": null,
+  "w5_source_type": null,
+  "w5_source_url": null,
+  "holders_count": 358.0,
+  "in_w5": false,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": "onchain-renderer",
+  "census_media_class": "data-uri",
+  "census_liveness": "alive",
+  "in_census_onchain": true,
+  "standard": "ERC-721",
+  "creator": "0x206529715b09f7bb24da16c93f6cf1076ac0732b",
+  "deploy_block": 25148214.0
+ },
+ "class_deps_all": "none",
+ "class_deps": "none",
+ "class_final": "unknown",
+ "pointer_power": null
+}

@@ -1,0 +1,417 @@
+{
+ "address": "0xb3621eddc7fdb2ecf9f2f0d4fbc37303017ec83b",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:05Z",
+ "code_raw": "data/raw/rpc-mutability/0xb3621eddc7fdb2ecf9f2f0d4fbc37303017ec83b_code.json",
+ "code_len": 5743,
+ "slots": {
+  "slot0": "0x0000000000000000000000000000000000000000000000000000000000002710"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0xb3621eddc7fdb2ecf9f2f0d4fbc37303017ec83b_slots.json",
+ "verified": true,
+ "contract_name": "DDOSPunks",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [
+   {
+    "hash": "0x80246482467d70eb3127e43a391c925ba75316a29a7596d18aa44cc233be28e3",
+    "timestamp": "2026-06-07T20:49:59.000000Z",
+    "method": "setRenderer",
+    "from": "0x356097d658Bc8463DF43FB1DEDE226427B4d4747",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25268014,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x85c26d42bc19341b993c0c07fc7e3fd0b0b633f3e85b29f3acb114e5f40cd8fd",
+    "timestamp": "2026-06-07T20:43:59.000000Z",
+    "method": "setRenderer",
+    "from": "0x356097d658Bc8463DF43FB1DEDE226427B4d4747",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25267985,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x5583c958d923e364cc51889901ab505d02ca6e45860ac9bce2fc012684e6b39d",
+    "timestamp": "2026-06-07T20:32:47.000000Z",
+    "method": "setContractURI",
+    "from": "0x356097d658Bc8463DF43FB1DEDE226427B4d4747",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25267929,
+    "category": "contracturi"
+   },
+   {
+    "hash": "0x7b919a3efc84e53a598188b23d072b6c261f2a091180b7959063ae9d180f136b",
+    "timestamp": "2026-06-07T15:30:59.000000Z",
+    "method": "setContractURI",
+    "from": "0x356097d658Bc8463DF43FB1DEDE226427B4d4747",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25266427,
+    "category": "contracturi"
+   },
+   {
+    "hash": "0x89b1caae221f37814c2e764a37c86e2da3e76223b4cee2620989f7d512872d95",
+    "timestamp": "2026-06-07T15:16:35.000000Z",
+    "method": "setContractURI",
+    "from": "0x356097d658Bc8463DF43FB1DEDE226427B4d4747",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25266355,
+    "category": "contracturi"
+   },
+   {
+    "hash": "0x1c2b66feeeb5a6bf622c0147e51f5facedfdb3438fc1c3b379c4101bcaf80bfb",
+    "timestamp": "2026-06-07T15:15:47.000000Z",
+    "method": "setRenderer",
+    "from": "0x356097d658Bc8463DF43FB1DEDE226427B4d4747",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25266351,
+    "category": "renderer"
+   }
+  ],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 1,
+    "first": "2026-06-07",
+    "last": "2026-06-07",
+    "last_tx": "0x5c4e4d4d98f3945661309b1a18ef201c0b24e19bd2ac670f2030bac1b33c7e79",
+    "list": [
+     {
+      "date": "2026-06-07",
+      "tx": "0x5c4e4d4d98f3945661309b1a18ef201c0b24e19bd2ac670f2030bac1b33c7e79",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "356097d658bc8463df43fb1dede226427b4d4747"
+      ],
+      "data": "0x"
+     }
+    ]
+   },
+   "RendererSet(address)": {
+    "n": 3,
+    "first": "2026-06-07",
+    "last": "2026-06-07",
+    "last_tx": "0x80246482467d70eb3127e43a391c925ba75316a29a7596d18aa44cc233be28e3",
+    "list": [
+     {
+      "date": "2026-06-07",
+      "tx": "0x1c2b66feeeb5a6bf622c0147e51f5facedfdb3438fc1c3b379c4101bcaf80bfb",
+      "topics": [],
+      "data": "0x0000000000000000000000002ef9b23042bb29d1b716c71fe9a5ca2f47970d4c"
+     },
+     {
+      "date": "2026-06-07",
+      "tx": "0x85c26d42bc19341b993c0c07fc7e3fd0b0b633f3e85b29f3acb114e5f40cd8fd",
+      "topics": [],
+      "data": "0x000000000000000000000000f77be635e9bc02d3a9fe72f0ed0018c10b67405e"
+     },
+     {
+      "date": "2026-06-07",
+      "tx": "0x80246482467d70eb3127e43a391c925ba75316a29a7596d18aa44cc233be28e3",
+      "topics": [],
+      "data": "0x000000000000000000000000134eb72d37e55810fca746d4ba55e7e74c1ac6a0"
+     }
+    ]
+   }
+  },
+  "decoded": [
+   {
+    "hash": "0x1c2b66feeeb5a6bf622c0147e51f5facedfdb3438fc1c3b379c4101bcaf80bfb",
+    "timestamp": "2026-06-07T15:15:47.000000Z",
+    "method": "setRenderer",
+    "category": "renderer",
+    "from": "0x356097d658Bc8463DF43FB1DEDE226427B4d4747",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0x2ef9b23042bb29d1b716c71fe9a5ca2f47970d4c"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0x89b1caae221f37814c2e764a37c86e2da3e76223b4cee2620989f7d512872d95",
+    "timestamp": "2026-06-07T15:16:35.000000Z",
+    "method": "setContractURI",
+    "category": "contracturi",
+    "from": "0x356097d658Bc8463DF43FB1DEDE226427B4d4747",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "string",
+      "value": "ipfs://bafkreifynjbigtsyufz3cku42sh2k3wr4kd3py3ijhofzlstnmltoywz6u"
+     }
+    ],
+    "value_kinds": [
+     "ipfs"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0x7b919a3efc84e53a598188b23d072b6c261f2a091180b7959063ae9d180f136b",
+    "timestamp": "2026-06-07T15:30:59.000000Z",
+    "method": "setContractURI",
+    "category": "contracturi",
+    "from": "0x356097d658Bc8463DF43FB1DEDE226427B4d4747",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "string",
+      "value": "https://gateway.pinata.cloud/ipfs/bafkreihygrphomwai2kkdy5fubtxxvuyyzhdxvwzyh2bzpmczrb7wrltky"
+     }
+    ],
+    "value_kinds": [
+     "http"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0x5583c958d923e364cc51889901ab505d02ca6e45860ac9bce2fc012684e6b39d",
+    "timestamp": "2026-06-07T20:32:47.000000Z",
+    "method": "setContractURI",
+    "category": "contracturi",
+    "from": "0x356097d658Bc8463DF43FB1DEDE226427B4d4747",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "string",
+      "value": "https://gateway.pinata.cloud/ipfs/bafkreic2kcaydre2ti4kanyev5tbevbdqyk7wkfrg4gdysvw6ooww73tuy"
+     }
+    ],
+    "value_kinds": [
+     "http"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0x85c26d42bc19341b993c0c07fc7e3fd0b0b633f3e85b29f3acb114e5f40cd8fd",
+    "timestamp": "2026-06-07T20:43:59.000000Z",
+    "method": "setRenderer",
+    "category": "renderer",
+    "from": "0x356097d658Bc8463DF43FB1DEDE226427B4d4747",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0xf77be635e9bc02d3a9fe72f0ed0018c10b67405e"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0x80246482467d70eb3127e43a391c925ba75316a29a7596d18aa44cc233be28e3",
+    "timestamp": "2026-06-07T20:49:59.000000Z",
+    "method": "setRenderer",
+    "category": "renderer",
+    "from": "0x356097d658Bc8463DF43FB1DEDE226427B4d4747",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0x134eb72d37e55810fca746d4ba55e7e74c1ac6a0"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   }
+  ],
+  "ownership_transfers": [
+   {
+    "date": "2026-06-07",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0x356097d658bc8463df43fb1dede226427b4d4747",
+    "tx": "0x5c4e4d4d98f3945661309b1a18ef201c0b24e19bd2ac670f2030bac1b33c7e79"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0xb3621eddc7fdb2ecf9f2f0d4fbc37303017ec83b_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0x356097d658bc8463df43fb1dede226427b4d4747",
+  "code_raw": "data/raw/rpc-mutability/0x356097d658bc8463df43fb1dede226427b4d4747_holdercode.json",
+  "type": "eoa",
+  "bs_name": null,
+  "ens": null,
+  "bs_impl_names": [],
+  "bs_tags": [],
+  "is_contract": false,
+  "creator": null,
+  "is_verified": false,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "override",
+ "lock_functions": [],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [
+  {
+   "name": "setRenderer",
+   "sig": "setRenderer(address)",
+   "selector": "0x56d3163d",
+   "category": "renderer",
+   "inputs": [
+    "address"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "renderer = _r;\n        emit RendererSet(_r);",
+   "writes": [
+    "renderer"
+   ],
+   "effective": "yes",
+   "power": "eoa",
+   "holder_addrs": [
+    "0x356097d658bc8463df43fb1dede226427b4d4747"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x356097d658bc8463df43fb1dede226427b4d4747",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "setContractURI",
+   "sig": "setContractURI(string)",
+   "selector": "0x938e3d7b",
+   "category": "contracturi",
+   "inputs": [
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "_contractURI = uri;",
+   "writes": [
+    "_contractURI"
+   ],
+   "power": "eoa",
+   "holder_addrs": [
+    "0x356097d658bc8463df43fb1dede226427b4d4747"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x356097d658bc8463df43fb1dede226427b4d4747",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  }
+ ],
+ "class_direct": "eoa-mutable",
+ "class_reason": "live setters (eoa): setRenderer",
+ "live_mutators": [
+  "setRenderer"
+ ],
+ "dependencies": [
+  {
+   "address": "0x134eb72d37e55810fca746d4ba55e7e74c1ac6a0",
+   "via": "renderer()",
+   "in_tokenuri_path": true,
+   "via_setter": true,
+   "analysis": {
+    "address": "0x134eb72d37e55810fca746d4ba55e7e74c1ac6a0",
+    "verified": true,
+    "contract_name": "DDOSRenderer",
+    "proxy": {
+     "kind": null
+    },
+    "owner": null,
+    "admin_fn": null,
+    "uups": false,
+    "lock_views": {},
+    "lock_flags_true": {},
+    "lock_functions": [],
+    "class_direct": "immutable",
+    "class_reason": "no uri/renderer/upgrade function in ABI and not a proxy",
+    "live_mutators": [],
+    "mutators": [],
+    "history": {},
+    "unverified_selector_hits": [],
+    "tokenuri_path": "override"
+   }
+  }
+ ],
+ "meta": {
+  "address": "0xb3621eddc7fdb2ecf9f2f0d4fbc37303017ec83b",
+  "name": "DDOS PUNKS",
+  "w5_claim_strength": "explicit-100%/fully",
+  "w5_claim_text": "'\",\"description\":\"10,000 corrupted CryptoPunks delivered through a degraded network connection. Fully on-chain derivative - pixels live-read from Larva Labs CryptoPunksData and re-rendered with packet-drop corruption.\",\"image\":\"data:image/svg+xml;base64,',",
+  "w5_source_type": "contract-source",
+  "w5_source_url": "https://etherscan.io/address/0xb3621eddc7fdb2ecf9f2f0d4fbc37303017ec83b#code (contracts/DDOSRenderer.sol:103)",
+  "holders_count": 7316.0,
+  "in_w5": true,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": "onchain-renderer",
+  "census_media_class": "data-uri",
+  "census_liveness": "alive",
+  "in_census_onchain": true,
+  "standard": "ERC-721",
+  "creator": "0x356097d658bc8463df43fb1dede226427b4d4747",
+  "deploy_block": 25266349.0
+ },
+ "class_deps_all": "immutable",
+ "class_deps": "immutable",
+ "class_final": "eoa-mutable",
+ "pointer_power": "eoa"
+}

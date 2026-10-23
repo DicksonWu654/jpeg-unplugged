@@ -1,0 +1,23 @@
+[
+ {
+  "t": 0.189,
+  "url": "https://onchain.invalid/",
+  "type": "document",
+  "method": "GET",
+  "frame": "about:blank",
+  "action": "served-from-chain",
+  "status": 200,
+  "bytes": null
+ },
+ {
+  "t": 0.288,
+  "url": "https://unpkg.com/zdog@1/dist/zdog.dist.min.js",
+  "type": "script",
+  "method": "GET",
+  "frame": "https://onchain.invalid/",
+  "action": "archive",
+  "sha256": "2baede641561fa7f00490809a3357ce66a70a47c4c46385b078b8e10027c14f0",
+  "status": 200,
+  "bytes": 29737
+ }
+]

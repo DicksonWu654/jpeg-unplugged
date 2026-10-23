@@ -1,0 +1,75 @@
+{
+ "collection": "Generative Exploration Edition (Reflections) [ERC-1155]",
+ "slug": "generative-exploration",
+ "contract": "0xD1AE247309a89953B06b18446a3f54dB453BA065",
+ "token_id": 1,
+ "chain_method": "ERC-1155 uri(): data URI (contract-assembled)",
+ "chain_call": "uri(1)",
+ "json_name": "Reflections",
+ "fields": {
+  "image": "ar",
+  "animation_url": "data:text/html",
+  "external_url": null,
+  "json_how": "data-uri-utf8"
+ },
+ "rpc": {
+  "default_public_ok": true,
+  "highgas_drpc_ok": null,
+  "highgas_blxr_ok": null,
+  "fork_ok": null,
+  "rpc": "public-default",
+  "needed_fork": false,
+  "unreadable_from_default_public_call": false,
+  "gas_estimate": null
+ },
+ "medium": "html+js (animation_url data URI)",
+ "primary": "animation_url",
+ "source_flags": {
+  "verified": true,
+  "contract_name": "GENEe",
+  "proxy": true,
+  "implementation": "0x6bf5ed59de0e19999d264746843ff931c0133090",
+  "sstore2": false,
+  "ethfs": false,
+  "scripty": false,
+  "base64": false,
+  "gzip": false,
+  "data_uri": false,
+  "http_literals": [],
+  "ipfs_literal": false,
+  "setters": [],
+  "implementation_flags": {
+   "verified": true,
+   "contract_name": "ERC1155CreatorImplementation",
+   "proxy": false,
+   "implementation": null,
+   "sstore2": false,
+   "ethfs": false,
+   "scripty": false,
+   "base64": false,
+   "gzip": false,
+   "data_uri": false,
+   "http_literals": [
+    "http://token2.com",
+    "https://en.wikipedia.org/wiki/Set_",
+    "https://token-cdn-domain/",
+    "https://token-cdn-domain/000000000000000000000000000000000000000000000000000000000004cce0.json"
+   ],
+   "ipfs_literal": false,
+   "setters": [
+    "setTokenURI"
+   ]
+  }
+ },
+ "artwork_file": "artwork.html",
+ "doc_type": "text/html; charset=utf-8",
+ "artwork_bytes": 1379,
+ "artwork_sha256": "e2d213c990cca10da3211563e0eb596f84be8b4a6c33e333603998b6f101c1ba",
+ "declared": {
+  "load": [
+   "https://api.ipify.org?format=json"
+  ],
+  "literals": []
+ },
+ "built_at": "2026-10-21T20:26:34Z"
+}

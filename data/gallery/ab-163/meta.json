@@ -1,0 +1,33 @@
+{
+ "collection": "Art Blocks #163 Meridian (Matt DesLauriers)",
+ "slug": "ab-163",
+ "contract": "0xa7d8d9ef8D8Ce8992Df33D8b8CF4Aebabd5bD270",
+ "token_id": 163000000,
+ "project_id": 163,
+ "project_name": "Meridian",
+ "artist": "Matt DesLauriers",
+ "script_type": "js",
+ "script_count": 1,
+ "script_bytes": 15295,
+ "token_hash": "0x6061312f705b151a7acacd7aa3547c917ca9287c7b3972f895508b6d9b917761",
+ "chain_method": "Art Blocks: project script on core contract + libraries from on-chain Dependency Registry, assembled by on-chain Generator getTokenHtml()",
+ "chain_call": "GenArt721Generator.getTokenHtml(0xa7d8d9ef8D8Ce8992Df33D8b8CF4Aebabd5bD270, 163000000) @ 0x953D288708bB771F969FCfD9BA0819eF506Ac718",
+ "medium": "html+js (js)",
+ "fields": {},
+ "rpc": {
+  "public_rpc_ok": true,
+  "rpc": "public",
+  "gas_estimate": 1792073
+ },
+ "generator_embeds_project_script": true,
+ "note": "tokenURI of the core contract is an HTTPS URL on the Art Blocks API; B uses the on-chain Generator output instead (the honest on-chain test)",
+ "artwork_file": "artwork.html",
+ "doc_type": "text/html; charset=utf-8",
+ "artwork_bytes": 22047,
+ "artwork_sha256": "f6b7ec431573da2a7f2bc76603d5e8c8d64bb3f0a774bfeb6df11b1de7bb0881",
+ "declared": {
+  "load": [],
+  "literals": []
+ },
+ "built_at": "2026-10-21T20:18:26Z"
+}

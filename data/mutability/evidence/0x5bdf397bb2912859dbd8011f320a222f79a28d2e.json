@@ -1,0 +1,635 @@
+{
+ "address": "0x5bdf397bb2912859dbd8011f320a222f79a28d2e",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:49Z",
+ "code_raw": "data/raw/rpc-mutability/0x5bdf397bb2912859dbd8011f320a222f79a28d2e_code.json",
+ "code_len": 9049,
+ "slots": {
+  "slot0": "0x436f7272757074696f6e73000000000000000000000000000000000000000016"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0x5bdf397bb2912859dbd8011f320a222f79a28d2e_slots.json",
+ "verified": true,
+ "contract_name": "Corruptions",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [
+   {
+    "hash": "0x98fb05fcf92dc64d7928993085d0923222d1705fdf91e935f28125ed6968e8b0",
+    "timestamp": "2023-09-03T17:03:11.000000Z",
+    "method": "transferOwnership",
+    "from": "0xF296178d553C8Ec21A2fBD2c5dDa8CA9ac905A00",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 18057329,
+    "category": "ownership"
+   },
+   {
+    "hash": "0x6b5a4e70c6a30fad04b6ea27adc143fedd052a899359c74be6de91aaba836e67",
+    "timestamp": "2023-08-03T14:30:35.000000Z",
+    "method": "setMetadataAddress",
+    "from": "0xF296178d553C8Ec21A2fBD2c5dDa8CA9ac905A00",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 17835073,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xedf4efc40eacbebd3cb4d38e11176acecfb56912fbcb9c14f874742a515fab66",
+    "timestamp": "2023-08-03T11:24:11.000000Z",
+    "method": "setMetadataAddress",
+    "from": "0xF296178d553C8Ec21A2fBD2c5dDa8CA9ac905A00",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 17834151,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x67cbd003cd7ca8062ae2b30a537555b191b76847a14b788c163423a6a2b848c0",
+    "timestamp": "2022-08-11T16:46:27.000000Z",
+    "method": "setMetadataAddress",
+    "from": "0xF296178d553C8Ec21A2fBD2c5dDa8CA9ac905A00",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15321831,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x86a9e960caa04dd7dd8c9b6d5b50c563ad29576d806654343a88854f938260b8",
+    "timestamp": "2021-12-14T00:52:12.000000Z",
+    "method": "setMetadataAddress",
+    "from": "0xF296178d553C8Ec21A2fBD2c5dDa8CA9ac905A00",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13800229,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xf304628c91ceadfd4b3a097854224357473b4800089afbcd4438095c6a3b153c",
+    "timestamp": "2021-11-29T20:15:08.000000Z",
+    "method": "setMetadataAddress",
+    "from": "0xF296178d553C8Ec21A2fBD2c5dDa8CA9ac905A00",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13710606,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x3d8b4d3ccb965d53c7c9dfb9e1ad2c5c8217216dc0868b0b0b28171e6133b81c",
+    "timestamp": "2021-11-29T15:00:15.000000Z",
+    "method": "setMetadataAddress",
+    "from": "0xF296178d553C8Ec21A2fBD2c5dDa8CA9ac905A00",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13709272,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x49ea2feec8025a7f8c93a8b637f1b87cbb712a03aeb18839f7a48aead8ae551c",
+    "timestamp": "2021-11-19T17:20:57.000000Z",
+    "method": "setMetadataAddress",
+    "from": "0xF296178d553C8Ec21A2fBD2c5dDa8CA9ac905A00",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13646848,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x9e164ac5348c0e361d42140c4a9aaf510847063660723dfb89410bb85608ca51",
+    "timestamp": "2021-11-15T17:01:15.000000Z",
+    "method": "setMetadataAddress",
+    "from": "0xF296178d553C8Ec21A2fBD2c5dDa8CA9ac905A00",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13621524,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xec5aef4e9c5d62940b607dc926a3c888fba33b5cd764056dafb327cbc22ecadb",
+    "timestamp": "2021-11-13T00:14:26.000000Z",
+    "method": "setMetadataAddress",
+    "from": "0xF296178d553C8Ec21A2fBD2c5dDa8CA9ac905A00",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13604435,
+    "category": "renderer"
+   }
+  ],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 2,
+    "first": "2021-11-13",
+    "last": "2023-09-03",
+    "last_tx": "0x98fb05fcf92dc64d7928993085d0923222d1705fdf91e935f28125ed6968e8b0",
+    "list": [
+     {
+      "date": "2021-11-13",
+      "tx": "0xb8c7f78e92300186c0408ed3c5041f5a0c99fa61491f819dd04d8e9eb615ce53",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "f296178d553c8ec21a2fbd2c5dda8ca9ac905a00"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2023-09-03",
+      "tx": "0x98fb05fcf92dc64d7928993085d0923222d1705fdf91e935f28125ed6968e8b0",
+      "topics": [
+       "f296178d553c8ec21a2fbd2c5dda8ca9ac905a00",
+       "bf7e3c8b16ae63fc74e8d35c3f5ea8a6a2a7995e"
+      ],
+      "data": "0x"
+     }
+    ]
+   }
+  },
+  "decoded": [
+   {
+    "hash": "0xec5aef4e9c5d62940b607dc926a3c888fba33b5cd764056dafb327cbc22ecadb",
+    "timestamp": "2021-11-13T00:14:26.000000Z",
+    "method": "setMetadataAddress",
+    "category": "renderer",
+    "from": "0xF296178d553C8Ec21A2fBD2c5dDa8CA9ac905A00",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0x14309d7255fcf71cf39cafff2e0a52c78f63d0cb"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0x9e164ac5348c0e361d42140c4a9aaf510847063660723dfb89410bb85608ca51",
+    "timestamp": "2021-11-15T17:01:15.000000Z",
+    "method": "setMetadataAddress",
+    "category": "renderer",
+    "from": "0xF296178d553C8Ec21A2fBD2c5dDa8CA9ac905A00",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0x64449bc72c47dc79d840ba724f53afdb3a8d64b6"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0x49ea2feec8025a7f8c93a8b637f1b87cbb712a03aeb18839f7a48aead8ae551c",
+    "timestamp": "2021-11-19T17:20:57.000000Z",
+    "method": "setMetadataAddress",
+    "category": "renderer",
+    "from": "0xF296178d553C8Ec21A2fBD2c5dDa8CA9ac905A00",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0xf566d22043c8ea405bcda31bfb7ff860966b8caa"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0xf304628c91ceadfd4b3a097854224357473b4800089afbcd4438095c6a3b153c",
+    "timestamp": "2021-11-29T20:15:08.000000Z",
+    "method": "setMetadataAddress",
+    "category": "renderer",
+    "from": "0xF296178d553C8Ec21A2fBD2c5dDa8CA9ac905A00",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0x2688212b769b693254d054f7e4b0d86e9462373b"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0x86a9e960caa04dd7dd8c9b6d5b50c563ad29576d806654343a88854f938260b8",
+    "timestamp": "2021-12-14T00:52:12.000000Z",
+    "method": "setMetadataAddress",
+    "category": "renderer",
+    "from": "0xF296178d553C8Ec21A2fBD2c5dDa8CA9ac905A00",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0x95bdec5b5249f217ac9e0d30aedbdd479611a00b"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0x67cbd003cd7ca8062ae2b30a537555b191b76847a14b788c163423a6a2b848c0",
+    "timestamp": "2022-08-11T16:46:27.000000Z",
+    "method": "setMetadataAddress",
+    "category": "renderer",
+    "from": "0xF296178d553C8Ec21A2fBD2c5dDa8CA9ac905A00",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0xad0324a93858c39a2007ceaf0a7ab927d3c7e0ca"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0xedf4efc40eacbebd3cb4d38e11176acecfb56912fbcb9c14f874742a515fab66",
+    "timestamp": "2023-08-03T11:24:11.000000Z",
+    "method": "setMetadataAddress",
+    "category": "renderer",
+    "from": "0xF296178d553C8Ec21A2fBD2c5dDa8CA9ac905A00",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0x1c50b9a14309de0850bac036c9c7a0075336e9b6"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0x6b5a4e70c6a30fad04b6ea27adc143fedd052a899359c74be6de91aaba836e67",
+    "timestamp": "2023-08-03T14:30:35.000000Z",
+    "method": "setMetadataAddress",
+    "category": "renderer",
+    "from": "0xF296178d553C8Ec21A2fBD2c5dDa8CA9ac905A00",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0x9097dc933d545f2af4ed226a8feb237e08b01eab"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0x98fb05fcf92dc64d7928993085d0923222d1705fdf91e935f28125ed6968e8b0",
+    "timestamp": "2023-09-03T17:03:11.000000Z",
+    "method": "transferOwnership",
+    "category": "ownership",
+    "from": "0xF296178d553C8Ec21A2fBD2c5dDa8CA9ac905A00",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0xbf7e3c8b16ae63fc74e8d35c3f5ea8a6a2a7995e"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   }
+  ],
+  "ownership_transfers": [
+   {
+    "date": "2021-11-13",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0xf296178d553c8ec21a2fbd2c5dda8ca9ac905a00",
+    "tx": "0xb8c7f78e92300186c0408ed3c5041f5a0c99fa61491f819dd04d8e9eb615ce53"
+   },
+   {
+    "date": "2023-09-03",
+    "from": "0xf296178d553c8ec21a2fbd2c5dda8ca9ac905a00",
+    "to": "0xbf7e3c8b16ae63fc74e8d35c3f5ea8a6a2a7995e",
+    "tx": "0x98fb05fcf92dc64d7928993085d0923222d1705fdf91e935f28125ed6968e8b0"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0x5bdf397bb2912859dbd8011f320a222f79a28d2e_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0xbf7e3c8b16ae63fc74e8d35c3f5ea8a6a2a7995e",
+  "code_raw": "data/raw/rpc-mutability/0xbf7e3c8b16ae63fc74e8d35c3f5ea8a6a2a7995e_holdercode.json",
+  "type": "eoa",
+  "bs_name": null,
+  "ens": null,
+  "bs_impl_names": [],
+  "bs_tags": [],
+  "is_contract": false,
+  "creator": null,
+  "is_verified": false,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "override",
+ "lock_functions": [],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [
+  {
+   "name": "setMetadataAddress",
+   "sig": "setMetadataAddress(address)",
+   "selector": "0xe17b25af",
+   "category": "renderer",
+   "inputs": [
+    "address"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "metadataAddress = addr;",
+   "writes": [
+    "metadataAddress"
+   ],
+   "effective": "yes",
+   "power": "eoa",
+   "holder_addrs": [
+    "0xbf7e3c8b16ae63fc74e8d35c3f5ea8a6a2a7995e"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xbf7e3c8b16ae63fc74e8d35c3f5ea8a6a2a7995e",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  }
+ ],
+ "class_direct": "eoa-mutable",
+ "class_reason": "live setters (eoa): setMetadataAddress",
+ "live_mutators": [
+  "setMetadataAddress"
+ ],
+ "dependencies": [
+  {
+   "address": "0x9097dc933d545f2af4ed226a8feb237e08b01eab",
+   "via": "metadataAddress()",
+   "in_tokenuri_path": true,
+   "via_setter": true,
+   "analysis": {
+    "address": "0x9097dc933d545f2af4ed226a8feb237e08b01eab",
+    "verified": true,
+    "contract_name": "CorruptionsMetadata",
+    "proxy": {
+     "kind": null
+    },
+    "owner": {
+     "addr": "0xf296178d553c8ec21a2fbd2c5dda8ca9ac905a00",
+     "code_raw": "data/raw/rpc-mutability/0xf296178d553c8ec21a2fbd2c5dda8ca9ac905a00_holdercode.json",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "bs_impl_names": [],
+     "bs_tags": [],
+     "is_contract": false,
+     "creator": null,
+     "is_verified": false,
+     "bs_reputation": "ok"
+    },
+    "admin_fn": null,
+    "uups": false,
+    "lock_views": {},
+    "lock_flags_true": {},
+    "lock_functions": [],
+    "class_direct": "eoa-mutable",
+    "class_reason": "live setters (eoa): setDescription",
+    "live_mutators": [
+     "setDescription"
+    ],
+    "mutators": [
+     {
+      "name": "setBetaRendererUri",
+      "sig": "setBetaRendererUri(string)",
+      "selector": "0xa9ff46ec",
+      "category": "uri",
+      "inputs": [
+       "string"
+      ],
+      "gates": [
+       {
+        "type": "owner",
+        "ref": "owner"
+       }
+      ],
+      "modifiers": [
+       "onlyOwner"
+      ],
+      "body_head": "betaRendererUri = uri;",
+      "writes": [
+       "betaRendererUri"
+      ],
+      "effective": "no",
+      "power": "eoa",
+      "holder_addrs": [
+       "0xf296178d553c8ec21a2fbd2c5dda8ca9ac905a00"
+      ],
+      "holder_how": [
+       "owner()"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0xf296178d553c8ec21a2fbd2c5dda8ca9ac905a00",
+        "type": "eoa",
+        "bs_name": null,
+        "ens": null,
+        "desc": "eoa",
+        "simple": "eoa"
+       }
+      ]
+     },
+     {
+      "name": "setDescription",
+      "sig": "setDescription(string)",
+      "selector": "0x90c3f38f",
+      "category": "renderer",
+      "inputs": [
+       "string"
+      ],
+      "gates": [
+       {
+        "type": "owner",
+        "ref": "owner"
+       }
+      ],
+      "modifiers": [
+       "onlyOwner"
+      ],
+      "body_head": "description = desc;",
+      "writes": [
+       "description"
+      ],
+      "effective": "yes",
+      "power": "eoa",
+      "holder_addrs": [
+       "0xf296178d553c8ec21a2fbd2c5dda8ca9ac905a00"
+      ],
+      "holder_how": [
+       "owner()"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0xf296178d553c8ec21a2fbd2c5dda8ca9ac905a00",
+        "type": "eoa",
+        "bs_name": null,
+        "ens": null,
+        "desc": "eoa",
+        "simple": "eoa"
+       }
+      ]
+     },
+     {
+      "name": "setFont",
+      "sig": "setFont(address)",
+      "selector": "0x2b153459",
+      "category": "renderer",
+      "inputs": [
+       "address"
+      ],
+      "gates": [
+       {
+        "type": "owner",
+        "ref": "owner"
+       }
+      ],
+      "modifiers": [
+       "onlyOwner"
+      ],
+      "body_head": "font = ICorruptionsFont(fontAddress);",
+      "writes": [
+       "font"
+      ],
+      "effective": "no",
+      "power": "eoa",
+      "holder_addrs": [
+       "0xf296178d553c8ec21a2fbd2c5dda8ca9ac905a00"
+      ],
+      "holder_how": [
+       "owner()"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0xf296178d553c8ec21a2fbd2c5dda8ca9ac905a00",
+        "type": "eoa",
+        "bs_name": null,
+        "ens": null,
+        "desc": "eoa",
+        "simple": "eoa"
+       }
+      ]
+     }
+    ],
+    "history": {
+     "txs": [],
+     "events": {
+      "OwnershipTransferred(address,address)": {
+       "n": 1,
+       "first": "2023-08-03",
+       "last": "2023-08-03",
+       "last_tx": "0xdd59851c14231f49cd677f44f4554e916d3b270b22f46395bd270046e8f0068e",
+       "list": [
+        {
+         "date": "2023-08-03",
+         "tx": "0xdd59851c14231f49cd677f44f4554e916d3b270b22f46395bd270046e8f0068e",
+         "topics": [
+          "0000000000000000000000000000000000000000",
+          "f296178d553c8ec21a2fbd2c5dda8ca9ac905a00"
+         ],
+         "data": "0x"
+        }
+       ]
+      }
+     },
+     "decoded": [],
+     "ownership_transfers": [
+      {
+       "date": "2023-08-03",
+       "from": "0x0000000000000000000000000000000000000000",
+       "to": "0xf296178d553c8ec21a2fbd2c5dda8ca9ac905a00",
+       "tx": "0xdd59851c14231f49cd677f44f4554e916d3b270b22f46395bd270046e8f0068e"
+      }
+     ],
+     "incomplete": false
+    },
+    "unverified_selector_hits": [],
+    "tokenuri_path": "override"
+   }
+  }
+ ],
+ "meta": {
+  "address": "0x5bdf397bb2912859dbd8011f320a222f79a28d2e",
+  "name": "Corruption(s)",
+  "w5_claim_strength": null,
+  "w5_claim_text": null,
+  "w5_source_type": null,
+  "w5_source_url": null,
+  "holders_count": null,
+  "in_w5": false,
+  "gallery_slugs": "corruption",
+  "gallery_tokens": "1",
+  "in_gallery": true,
+  "census_meta_class": null,
+  "census_media_class": null,
+  "census_liveness": null,
+  "in_census_onchain": false,
+  "standard": "ERC-721",
+  "creator": "0xf296178d553c8ec21a2fbd2c5dda8ca9ac905a00",
+  "deploy_block": 13604427.0
+ },
+ "class_deps_all": "eoa-mutable",
+ "class_deps": "eoa-mutable",
+ "class_final": "eoa-mutable",
+ "pointer_power": "eoa"
+}

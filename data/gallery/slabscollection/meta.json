@@ -1,0 +1,53 @@
+{
+ "collection": "slabscollection",
+ "slug": "slabscollection",
+ "contract": "0xdC7eE2E7DFa298179164919B79B3fb79b1d13712",
+ "token_id": 1,
+ "chain_method": "data URI (contract-assembled; technique labelled from verified source flags)",
+ "chain_call": "tokenURI(1)",
+ "json_name": "Moru #1",
+ "fields": {
+  "image": "data:image/svg+xml",
+  "animation_url": "data:text/html",
+  "external_url": null,
+  "json_how": "data-uri-base64"
+ },
+ "rpc": {
+  "default_public_ok": true,
+  "highgas_drpc_ok": null,
+  "highgas_blxr_ok": null,
+  "fork_ok": null,
+  "rpc": "public-default",
+  "needed_fork": false,
+  "unreadable_from_default_public_call": false,
+  "gas_estimate": null
+ },
+ "medium": "html+js (animation_url data URI)",
+ "primary": "animation_url",
+ "source_flags": {
+  "verified": true,
+  "contract_name": "Slabs",
+  "proxy": false,
+  "implementation": null,
+  "sstore2": false,
+  "ethfs": false,
+  "scripty": false,
+  "base64": false,
+  "gzip": false,
+  "data_uri": false,
+  "http_literals": [],
+  "ipfs_literal": false,
+  "setters": [
+   "setRenderer"
+  ]
+ },
+ "artwork_file": "artwork.html",
+ "doc_type": "text/html; charset=utf-8",
+ "artwork_bytes": 4719,
+ "artwork_sha256": "5c20339b3773fb48faecef9b6b07c043d0f71ce0e4ce035ac96a0cc88f862459",
+ "declared": {
+  "load": [],
+  "literals": []
+ },
+ "built_at": "2026-10-21T20:18:13Z"
+}

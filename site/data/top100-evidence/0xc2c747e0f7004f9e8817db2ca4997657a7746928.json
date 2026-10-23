@@ -1,0 +1,596 @@
+{
+  "collection": {
+    "rank": 15,
+    "source_rank": 15,
+    "name": "Hashmasks",
+    "contract": "0xc2c747e0f7004f9e8817db2ca4997657a7746928",
+    "contracts": [
+      "0xc2c747e0f7004f9e8817db2ca4997657a7746928"
+    ],
+    "slug": "hashmasks",
+    "volume_usd": 332043619.48,
+    "volume_source": "CryptoSlam all-time Ethereum owner-to-owner sales, wash-filtered USD",
+    "source_url": "https://web-api.cryptoslam.io/v1/sales/rank-by-volume?timeRange=all&orderBy=rank&sortDirection=asc&offset=0&limit=100&blockchainId=0&hideInscriptions=false",
+    "ranking_evidence": "data/raw/top100-api/cryptoslam-ranking-0.json",
+    "identity_evidence": "data/raw/top100-api/cryptoslam-info-hashmasks.json",
+    "token_count": 16384,
+    "all_time_volume": 332043619.48,
+    "volume_currency": "USD",
+    "kind": "art-avatar",
+    "metadata_location": "http",
+    "metadata_classes": [
+      "http"
+    ],
+    "media_location": "http",
+    "primary_image_location": "http",
+    "media_classes": [
+      "http"
+    ],
+    "liveness": "alive",
+    "liveness_exact": "alive",
+    "all_declared_media_liveness": "alive",
+    "metadata_failed": false,
+    "n_alive": 3,
+    "n_dead": 0,
+    "n_unknown": 0,
+    "n_degraded": 0,
+    "key_domain_or_gateway": "hashmap.azurewebsites.net; hashmasksstore.blob.core.windows.net",
+    "hosts": [
+      "hashmap.azurewebsites.net",
+      "hashmasksstore.blob.core.windows.net"
+    ],
+    "hardcoded_gateways": [],
+    "http_origin_dependency": true,
+    "uses_ipfs": false,
+    "uses_arweave": false,
+    "fully_onchain_all_declared_media": false,
+    "metadata_and_primary_image_onchain": false,
+    "mutability_class": "immutable",
+    "single_key_mutable": false,
+    "single_key_repointable": false,
+    "base_uri_or_renderer": "external metadata adapter: https://hashmap.azurewebsites.net/getMask/0; external metadata adapter: https://hashmap.azurewebsites.net/getMask/8192; external metadata adapter: https://hashmap.azurewebsites.net/getMask/16383",
+    "control": [
+      {
+        "contract": "0xc2c747e0f7004f9e8817db2ca4997657a7746928",
+        "class": "immutable",
+        "pointer_power": null,
+        "reason": "no uri/renderer/upgrade function in ABI and not a proxy",
+        "owner": {
+          "addr": "0x2d2502becc9b6e01220ca3101e52cf1a76e16c39",
+          "code_raw": "data/raw/rpc-mutability/0x2d2502becc9b6e01220ca3101e52cf1a76e16c39_holdercode.json",
+          "type": "eoa",
+          "bs_name": null,
+          "ens": null,
+          "bs_impl_names": [],
+          "bs_tags": [],
+          "is_contract": false,
+          "creator": null,
+          "is_verified": false,
+          "bs_reputation": "ok"
+        },
+        "proxy": {
+          "kind": null
+        },
+        "live_mutators": [],
+        "lock_flags": {},
+        "dependencies": [],
+        "pointer_getters": [],
+        "analyzed_at": "2026-10-23T02:50:49Z",
+        "history_incomplete": false,
+        "evidence": "data/raw/top100-mutability/0xc2c747e0f7004f9e8817db2ca4997657a7746928.json"
+      }
+    ],
+    "samples": 3,
+    "distinct_token_ids": 3,
+    "sample_note": null,
+    "source_contracts_without_sampleable_nfts": [],
+    "ownership_scope_gaps": [],
+    "refreshed_at": "2026-10-23T03:05:01Z",
+    "opensea_rank": 19,
+    "ranking_scope_disagreement": false,
+    "metadata_adapter": true,
+    "evidence": [
+      "data/raw/top100-census/0xc2c747e0f7004f9e8817db2ca4997657a7746928/result.json.gz"
+    ],
+    "delivery_note": null
+  },
+  "samples": [
+    {
+      "contract": "0xc2c747e0f7004f9e8817db2ca4997657a7746928",
+      "token_id": "0",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(0) [low; totalSupply=16384]",
+      "metadata_location": "http",
+      "metadata_uri": "https://hashmap.azurewebsites.net/getMask/0",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "hashmap.azurewebsites.net",
+          "url": "https://hashmap.azurewebsites.net/getMask/0",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 31,
+          "final_url": "https://hashmap.azurewebsites.net/getMask/0",
+          "content_type": "application/json; charset=utf-8",
+          "size": 530,
+          "content_length": 530,
+          "sha256": "5267993303e4498efc5189e56a12df6e0a9702aa96a0bc4dd4f8cb62df46220a",
+          "t": "2026-10-23T03:02:13Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "http",
+          "host": "hashmasksstore.blob.core.windows.net",
+          "gateway": null,
+          "uri": "https://hashmasksstore.blob.core.windows.net/hashmasks/10141.jpg",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "hashmasksstore.blob.core.windows.net",
+              "url": "https://hashmasksstore.blob.core.windows.net/hashmasks/10141.jpg",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 32,
+              "final_url": "https://hashmasksstore.blob.core.windows.net/hashmasks/10141.jpg",
+              "content_type": "image/jpeg",
+              "size": 65536,
+              "content_length": 3505815,
+              "sha256": "e4c51dcd6daed0ae0a9a3b3f29a14203c1515a2463c450a0901a5fc910c15246",
+              "t": "2026-10-23T03:02:14Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "http",
+        "anim_class": null,
+        "image_verdict": "alive",
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "http"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "alive",
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": "external-metadata-adapter-no-tokenURI",
+      "adapter_evidence": "data/raw/top100-api/legacy-asset-0xc2c747e0f7004f9e8817db2ca4997657a7746928-0.html",
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000000000",
+          "endpoint": "https://eth.drpc.org",
+          "ok": false,
+          "revert": true,
+          "error": "3: execution reverted",
+          "raw_result_len": 0,
+          "fallback": [
+            {
+              "endpoint": "https://rpc.mevblocker.io",
+              "ok": false,
+              "revert": true,
+              "error": "3: execution reverted"
+            },
+            {
+              "endpoint": "https://eth-mainnet.public.blastapi.io",
+              "ok": false,
+              "revert": true,
+              "error": "3: execution reverted"
+            }
+          ],
+          "revert_confirmed_on_fallback": true
+        },
+        {
+          "fn": "uri",
+          "calldata": "0x0e89341c0000000000000000000000000000000000000000000000000000000000000000",
+          "endpoint": "https://eth.rpc.blxrbdn.com",
+          "ok": false,
+          "revert": true,
+          "error": "3: execution reverted",
+          "raw_result_len": 0,
+          "fallback": [
+            {
+              "endpoint": "https://rpc.mevblocker.io",
+              "ok": false,
+              "revert": true,
+              "error": "3: execution reverted"
+            },
+            {
+              "endpoint": "https://eth-mainnet.public.blastapi.io",
+              "ok": false,
+              "revert": true,
+              "error": "3: execution reverted"
+            }
+          ],
+          "revert_confirmed_on_fallback": true
+        }
+      ],
+      "evidence": "data/raw/top100-census/0xc2c747e0f7004f9e8817db2ca4997657a7746928/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0xc2c747e0f7004f9e8817db2ca4997657a7746928",
+      "token_id": "8192",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(8192) [mid; totalSupply=16384]",
+      "metadata_location": "http",
+      "metadata_uri": "https://hashmap.azurewebsites.net/getMask/8192",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "hashmap.azurewebsites.net",
+          "url": "https://hashmap.azurewebsites.net/getMask/8192",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 33,
+          "final_url": "https://hashmap.azurewebsites.net/getMask/8192",
+          "content_type": "application/json; charset=utf-8",
+          "size": 535,
+          "content_length": 535,
+          "sha256": "fd119b05ce8d6a5a9ee4981061bb5be6d84837d4c2c211865ac2d427a1254cbb",
+          "t": "2026-10-23T03:02:15Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "http",
+          "host": "hashmasksstore.blob.core.windows.net",
+          "gateway": null,
+          "uri": "https://hashmasksstore.blob.core.windows.net/hashmasks/1949.jpg",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "hashmasksstore.blob.core.windows.net",
+              "url": "https://hashmasksstore.blob.core.windows.net/hashmasks/1949.jpg",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 34,
+              "final_url": "https://hashmasksstore.blob.core.windows.net/hashmasks/1949.jpg",
+              "content_type": "image/jpeg",
+              "size": 65536,
+              "content_length": 3673524,
+              "sha256": "7cbdfdfe1e4feccfaa2ab7520a25484cc8e5c804e2b23fd29fae3398826e2a76",
+              "t": "2026-10-23T03:02:15Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "http",
+        "anim_class": null,
+        "image_verdict": "alive",
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "http"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "alive",
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": "external-metadata-adapter-no-tokenURI",
+      "adapter_evidence": "data/raw/top100-api/legacy-asset-0xc2c747e0f7004f9e8817db2ca4997657a7746928-8192.html",
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000002000",
+          "endpoint": "https://eth.drpc.org",
+          "ok": false,
+          "revert": true,
+          "error": "3: execution reverted",
+          "raw_result_len": 0,
+          "fallback": [
+            {
+              "endpoint": "https://rpc.mevblocker.io",
+              "ok": false,
+              "revert": true,
+              "error": "3: execution reverted"
+            },
+            {
+              "endpoint": "https://eth-mainnet.public.blastapi.io",
+              "ok": false,
+              "revert": true,
+              "error": "3: execution reverted"
+            }
+          ],
+          "revert_confirmed_on_fallback": true
+        },
+        {
+          "fn": "uri",
+          "calldata": "0x0e89341c0000000000000000000000000000000000000000000000000000000000002000",
+          "endpoint": "https://eth.drpc.org",
+          "ok": false,
+          "revert": true,
+          "error": "3: execution reverted",
+          "raw_result_len": 0,
+          "fallback": [
+            {
+              "endpoint": "https://rpc.mevblocker.io",
+              "ok": false,
+              "revert": true,
+              "error": "3: execution reverted"
+            },
+            {
+              "endpoint": "https://eth-mainnet.public.blastapi.io",
+              "ok": false,
+              "revert": true,
+              "error": "3: execution reverted"
+            }
+          ],
+          "revert_confirmed_on_fallback": true
+        }
+      ],
+      "evidence": "data/raw/top100-census/0xc2c747e0f7004f9e8817db2ca4997657a7746928/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0xc2c747e0f7004f9e8817db2ca4997657a7746928",
+      "token_id": "16383",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(16383) [recent; totalSupply=16384]",
+      "metadata_location": "http",
+      "metadata_uri": "https://hashmap.azurewebsites.net/getMask/16383",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "hashmap.azurewebsites.net",
+          "url": "https://hashmap.azurewebsites.net/getMask/16383",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 35,
+          "final_url": "https://hashmap.azurewebsites.net/getMask/16383",
+          "content_type": "application/json; charset=utf-8",
+          "size": 509,
+          "content_length": 509,
+          "sha256": "8c7e1004130a765a593237bda5c2eb01a98d4be350e372677eb0e1d2a5d3ca6a",
+          "t": "2026-10-23T03:02:15Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "http",
+          "host": "hashmasksstore.blob.core.windows.net",
+          "gateway": null,
+          "uri": "https://hashmasksstore.blob.core.windows.net/hashmasks/10140.jpg",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "hashmasksstore.blob.core.windows.net",
+              "url": "https://hashmasksstore.blob.core.windows.net/hashmasks/10140.jpg",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 36,
+              "final_url": "https://hashmasksstore.blob.core.windows.net/hashmasks/10140.jpg",
+              "content_type": "image/jpeg",
+              "size": 65536,
+              "content_length": 2489480,
+              "sha256": "367e18216d7cb3e5ab53b8df606b94e77f04cc2b8531a0478434459713940386",
+              "t": "2026-10-23T03:02:16Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "http",
+        "anim_class": null,
+        "image_verdict": "alive",
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "http"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "alive",
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": "external-metadata-adapter-no-tokenURI",
+      "adapter_evidence": "data/raw/top100-api/legacy-asset-0xc2c747e0f7004f9e8817db2ca4997657a7746928-16383.html",
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000003fff",
+          "endpoint": "https://eth.drpc.org",
+          "ok": false,
+          "revert": true,
+          "error": "3: execution reverted",
+          "raw_result_len": 0,
+          "fallback": [
+            {
+              "endpoint": "https://rpc.mevblocker.io",
+              "ok": false,
+              "revert": true,
+              "error": "3: execution reverted"
+            },
+            {
+              "endpoint": "https://eth-mainnet.public.blastapi.io",
+              "ok": false,
+              "revert": true,
+              "error": "3: execution reverted"
+            }
+          ],
+          "revert_confirmed_on_fallback": true
+        },
+        {
+          "fn": "uri",
+          "calldata": "0x0e89341c0000000000000000000000000000000000000000000000000000000000003fff",
+          "endpoint": "https://eth.rpc.blxrbdn.com",
+          "ok": false,
+          "revert": true,
+          "error": "3: execution reverted",
+          "raw_result_len": 0,
+          "fallback": [
+            {
+              "endpoint": "https://rpc.mevblocker.io",
+              "ok": false,
+              "revert": true,
+              "error": "3: execution reverted"
+            },
+            {
+              "endpoint": "https://eth-mainnet.public.blastapi.io",
+              "ok": false,
+              "revert": true,
+              "error": "3: execution reverted"
+            }
+          ],
+          "revert_confirmed_on_fallback": true
+        }
+      ],
+      "evidence": "data/raw/top100-census/0xc2c747e0f7004f9e8817db2ca4997657a7746928/evidence.jsonl.gz"
+    }
+  ],
+  "saved_packet_index": [
+    {
+      "path": "data/raw/top100-api/opensea-contract-0xc2c747e0f7004f9e8817db2ca4997657a7746928-attempt1-1792724278575466446.body",
+      "sha256": "abd449980ec8daf5fa1a92f4753469f3a647c1fceb196e2c6e447ce11dd46d7c",
+      "retrieved_at": "2026-10-23T02:57:58Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0xc2c747e0f7004f9e8817db2ca4997657a7746928",
+      "method": "GET",
+      "status": 200,
+      "error": null,
+      "bytes": 174,
+      "truncated": false
+    },
+    {
+      "path": "data/raw/top100-api/opensea-contract-0xc2c747e0f7004f9e8817db2ca4997657a7746928.json",
+      "sha256": "abd449980ec8daf5fa1a92f4753469f3a647c1fceb196e2c6e447ce11dd46d7c",
+      "retrieved_at": "2026-10-23T02:57:58Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0xc2c747e0f7004f9e8817db2ca4997657a7746928",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "data/raw/top100-api/legacy-asset-0xc2c747e0f7004f9e8817db2ca4997657a7746928-0.html",
+      "sha256": "5df0593f7c2eceff4e8250327b1f0142840e34d3b2e7227e48e744b84b5d2b6a",
+      "retrieved_at": "2026-10-23T03:00:38Z",
+      "url": "https://opensea.io/assets/ethereum/0xc2c747e0f7004f9e8817db2ca4997657a7746928/0",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "data/raw/top100-api/legacy-asset-0xc2c747e0f7004f9e8817db2ca4997657a7746928-8192.html",
+      "sha256": "ace223a57f1640d7e6f4ef1e8d15f7dafe0a0d84dccf5b6dd58426e0cfa49b66",
+      "retrieved_at": "2026-10-23T03:00:40Z",
+      "url": "https://opensea.io/assets/ethereum/0xc2c747e0f7004f9e8817db2ca4997657a7746928/8192",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "data/raw/top100-api/legacy-asset-0xc2c747e0f7004f9e8817db2ca4997657a7746928-16383.html",
+      "sha256": "ccc0d962e015165f891dd59a8feb2658c8b75cb7f6079b7e3db96db194f88d19",
+      "retrieved_at": "2026-10-23T03:00:42Z",
+      "url": "https://opensea.io/assets/ethereum/0xc2c747e0f7004f9e8817db2ca4997657a7746928/16383",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "data/raw/top100-census/0xc2c747e0f7004f9e8817db2ca4997657a7746928/bodies.zip",
+      "sha256": "191e799cb74c066fd87854963cefe1825b1adc793ca2062c8f7b43c22407ab6f",
+      "bytes": 35940
+    },
+    {
+      "path": "data/raw/top100-census/0xc2c747e0f7004f9e8817db2ca4997657a7746928/evidence.jsonl.gz",
+      "sha256": "876580027ba5d19a32598715beb4e6e6dcb4ebb8ac19728a395392ee0c63d5fc",
+      "bytes": 3483
+    },
+    {
+      "path": "data/raw/top100-census/0xc2c747e0f7004f9e8817db2ca4997657a7746928/result.json.gz",
+      "sha256": "264a6a31fe1e1bf1ded7421a607b223c4a6cb483025beccfbdc5a5e3d017d2e1",
+      "bytes": 1929
+    },
+    {
+      "path": "data/raw/top100-mutability/0xc2c747e0f7004f9e8817db2ca4997657a7746928.json",
+      "sha256": "2779005a2327c3ef58c4ca5aae98f6142cd0ec7705af1d5bd6f125e614674b7c",
+      "bytes": 12687
+    },
+    {
+      "path": "data/raw/top100-pointers/0xc2c747e0f7004f9e8817db2ca4997657a7746928/result.json",
+      "sha256": "9c3b2e8a50564c276c1a6376c1474c6d426126a4553023bf4892449ed7466f7e",
+      "bytes": 203
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0xc2c747e0f7004f9e8817db2ca4997657a7746928/bodies.zip",
+      "sha256": "c96f47ac853885d13035d199cf0f15dfd3baa0f0f780622810496ec241eb6ccd",
+      "bytes": 626
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0xc2c747e0f7004f9e8817db2ca4997657a7746928/evidence.jsonl.gz",
+      "sha256": "cbabb98a62abc04c3993ac801f9c92f40d2aa40266a1f1e3b00474bc1af6dec3",
+      "bytes": 687
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0xc2c747e0f7004f9e8817db2ca4997657a7746928/result.json",
+      "sha256": "811b51b3a25934f1cb8fe022ee04580febfbd9e1bb25805db8f1f88db146547d",
+      "bytes": 300
+    }
+  ],
+  "interpretation": "Liveness describes sampled metadata and primary-image delivery, not permanent loss of the artwork."
+}

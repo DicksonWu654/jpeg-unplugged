@@ -1,0 +1,291 @@
+{
+ "address": "0x7c10c8816575e8fdfb11463dd3811cc794a1d407",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:07Z",
+ "code_raw": "data/raw/rpc-mutability/0x7c10c8816575e8fdfb11463dd3811cc794a1d407_code.json",
+ "code_len": 24428,
+ "slots": {
+  "slot0": "0x00000000000000000000000000000000000000000000000000000000000098cd"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0x7c10c8816575e8fdfb11463dd3811cc794a1d407_slots.json",
+ "verified": true,
+ "contract_name": "Uints",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 1,
+    "first": "2023-02-06",
+    "last": "2023-02-06",
+    "last_tx": "0x961e2119b7e8f8e0933f4dbd3d0544619b128b0ee33777e73bb66f07175874fa",
+    "list": [
+     {
+      "date": "2023-02-06",
+      "tx": "0x961e2119b7e8f8e0933f4dbd3d0544619b128b0ee33777e73bb66f07175874fa",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "1763e6109c60572f2188e9dd1fc8a5c8514aab9f"
+      ],
+      "data": "0x"
+     }
+    ]
+   },
+   "MetadataUpdate(uint256)": {
+    "n": 2000,
+    "first": "2023-02-18",
+    "last": "2023-02-18",
+    "last_tx": "0xd69a4290bdb31d0a6b2ce72dca38b71c8f288cda6bebed6a6de0e411ad844f65",
+    "list": [
+     {
+      "date": "2023-02-18",
+      "tx": "0xcc35a6b4c7c4698da5ac8ceb824b3dd56b73feb33386cf40152c5bbf4bfc1fef",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000005689"
+     },
+     {
+      "date": "2023-02-18",
+      "tx": "0xcc35a6b4c7c4698da5ac8ceb824b3dd56b73feb33386cf40152c5bbf4bfc1fef",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000005009"
+     },
+     {
+      "date": "2023-02-18",
+      "tx": "0xedf16b8548ee5f64d7e86c90c09fe20e085f122ef59f90a4c6c07b9fe4bee1a2",
+      "topics": [],
+      "data": "0x000000000000000000000000000000000000000000000000000000000000434b"
+     },
+     {
+      "date": "2023-02-18",
+      "tx": "0xedf16b8548ee5f64d7e86c90c09fe20e085f122ef59f90a4c6c07b9fe4bee1a2",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000008845"
+     },
+     {
+      "date": "2023-02-18",
+      "tx": "0x49ca21427094132d9f0479da08406f293b0d99bee129b479f028582f5b7f5ed7",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000001b32"
+     },
+     {
+      "date": "2023-02-18",
+      "tx": "0x49ca21427094132d9f0479da08406f293b0d99bee129b479f028582f5b7f5ed7",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000920"
+     },
+     {
+      "date": "2023-02-18",
+      "tx": "0x49ca21427094132d9f0479da08406f293b0d99bee129b479f028582f5b7f5ed7",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000e92"
+     },
+     {
+      "date": "2023-02-18",
+      "tx": "0x49ca21427094132d9f0479da08406f293b0d99bee129b479f028582f5b7f5ed7",
+      "topics": [],
+      "data": "0x00000000000000000000000000000000000000000000000000000000000012bd"
+     },
+     {
+      "date": "2023-02-18",
+      "tx": "0x439e4639510bc61e0238640f16020861b10156c87aae51d0244634c7ffe648e0",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000cff"
+     },
+     {
+      "date": "2023-02-18",
+      "tx": "0x439e4639510bc61e0238640f16020861b10156c87aae51d0244634c7ffe648e0",
+      "topics": [],
+      "data": "0x00000000000000000000000000000000000000000000000000000000000015d1"
+     },
+     {
+      "date": "2023-02-18",
+      "tx": "0x439e4639510bc61e0238640f16020861b10156c87aae51d0244634c7ffe648e0",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000d23"
+     },
+     {
+      "date": "2023-02-18",
+      "tx": "0x439e4639510bc61e0238640f16020861b10156c87aae51d0244634c7ffe648e0",
+      "topics": [],
+      "data": "0x000000000000000000000000000000000000000000000000000000000000214b"
+     },
+     {
+      "date": "2023-02-18",
+      "tx": "0x439e4639510bc61e0238640f16020861b10156c87aae51d0244634c7ffe648e0",
+      "topics": [],
+      "data": "0x00000000000000000000000000000000000000000000000000000000000013b5"
+     },
+     {
+      "date": "2023-02-18",
+      "tx": "0x439e4639510bc61e0238640f16020861b10156c87aae51d0244634c7ffe648e0",
+      "topics": [],
+      "data": "0x000000000000000000000000000000000000000000000000000000000000190a"
+     },
+     {
+      "date": "2023-02-18",
+      "tx": "0x439e4639510bc61e0238640f16020861b10156c87aae51d0244634c7ffe648e0",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000d21"
+     },
+     {
+      "date": "2023-02-18",
+      "tx": "0x2a6b1de6eb016536eda8f9de14cb553230819ea286a58d4d36b0ae236fe2b775",
+      "topics": [],
+      "data": "0x00000000000000000000000000000000000000000000000000000000000005fb"
+     },
+     {
+      "date": "2023-02-18",
+      "tx": "0x2a6b1de6eb016536eda8f9de14cb553230819ea286a58d4d36b0ae236fe2b775",
+      "topics": [],
+      "data": "0x00000000000000000000000000000000000000000000000000000000000015d2"
+     },
+     {
+      "date": "2023-02-18",
+      "tx": "0xa5607637ba87965c183574486d701eba2a0fd55e6cc7b69a6aae365a1dccabb8",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000b9e"
+     },
+     {
+      "date": "2023-02-18",
+      "tx": "0xa5607637ba87965c183574486d701eba2a0fd55e6cc7b69a6aae365a1dccabb8",
+      "topics": [],
+      "data": "0x00000000000000000000000000000000000000000000000000000000000001c2"
+     },
+     {
+      "date": "2023-02-18",
+      "tx": "0x63fad7a0498f15e9eb0a6fb3f254df884d2c29b9388f4b2ff901b97e2b99e14e",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000001022"
+     },
+     {
+      "date": "2023-02-18",
+      "tx": "0x63fad7a0498f15e9eb0a6fb3f254df884d2c29b9388f4b2ff901b97e2b99e14e",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000001713"
+     },
+     {
+      "date": "2023-02-18",
+      "tx": "0xd9f9206b0581ccc532fcba2a9c8dfc6ccc7ab02d4f4f6f3abad364dd9f1671fa",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000004eec"
+     },
+     {
+      "date": "2023-02-18",
+      "tx": "0xd9f9206b0581ccc532fcba2a9c8dfc6ccc7ab02d4f4f6f3abad364dd9f1671fa",
+      "topics": [],
+      "data": "0x00000000000000000000000000000000000000000000000000000000000002cb"
+     },
+     {
+      "date": "2023-02-18",
+      "tx": "0xfebae54bbc0fd5e165376a13ece6444e5a6247f39208dc7cba7ea3b866725025",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000bb6"
+     },
+     {
+      "date": "2023-02-18",
+      "tx": "0xfebae54bbc0fd5e165376a13ece6444e5a6247f39208dc7cba7ea3b866725025",
+      "topics": [],
+      "data": "0x000000000000000000000000000000000000000000000000000000000000103c"
+     },
+     {
+      "date": "2023-02-18",
+      "tx": "0xfebae54bbc0fd5e165376a13ece6444e5a6247f39208dc7cba7ea3b866725025",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000008845"
+     },
+     {
+      "date": "2023-02-18",
+      "tx": "0x70dc6c6b593c87066c2694c89ad272d51aa91947cf50ef986f6c02fa4798e6de",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000b1e"
+     },
+     {
+      "date": "2023-02-18",
+      "tx": "0x70dc6c6b593c87066c2694c89ad272d51aa91947cf50ef986f6c02fa4798e6de",
+      "topics": [],
+      "data": "0x00000000000000000000000000000000000000000000000000000000000002dd"
+     },
+     {
+      "date": "2023-02-18",
+      "tx": "0x5eb0a695f566134e2b9360a590c76755f49d581dc59645ecbdc2136d5bfd8e09",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000c13"
+     },
+     {
+      "date": "2023-02-18",
+      "tx": "0x5eb0a695f566134e2b9360a590c76755f49d581dc59645ecbdc2136d5bfd8e09",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000001380"
+     }
+    ]
+   }
+  },
+  "decoded": [],
+  "ownership_transfers": [
+   {
+    "date": "2023-02-06",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0x1763e6109c60572f2188e9dd1fc8a5c8514aab9f",
+    "tx": "0x961e2119b7e8f8e0933f4dbd3d0544619b128b0ee33777e73bb66f07175874fa"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0x7c10c8816575e8fdfb11463dd3811cc794a1d407_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0x1763e6109c60572f2188e9dd1fc8a5c8514aab9f",
+  "code_raw": "data/raw/rpc-mutability/0x1763e6109c60572f2188e9dd1fc8a5c8514aab9f_holdercode.json",
+  "type": "eoa",
+  "bs_name": null,
+  "ens": "uints.eth",
+  "bs_impl_names": [],
+  "bs_tags": [],
+  "is_contract": false,
+  "creator": null,
+  "is_verified": false,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "override",
+ "lock_functions": [],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [],
+ "class_direct": "immutable",
+ "class_reason": "no uri/renderer/upgrade function in ABI and not a proxy",
+ "live_mutators": [],
+ "dependencies": [],
+ "meta": {
+  "address": "0x7c10c8816575e8fdfb11463dd3811cc794a1d407",
+  "name": "UINTS",
+  "w5_claim_strength": null,
+  "w5_claim_text": null,
+  "w5_source_type": null,
+  "w5_source_url": null,
+  "holders_count": 5923.0,
+  "in_w5": false,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": "onchain-renderer",
+  "census_media_class": "data-uri",
+  "census_liveness": "alive",
+  "in_census_onchain": true,
+  "standard": "ERC-721",
+  "creator": "0x1763e6109c60572f2188e9dd1fc8a5c8514aab9f",
+  "deploy_block": 16567742.0
+ },
+ "class_deps_all": "none",
+ "class_deps": "none",
+ "class_final": "immutable",
+ "pointer_power": null
+}

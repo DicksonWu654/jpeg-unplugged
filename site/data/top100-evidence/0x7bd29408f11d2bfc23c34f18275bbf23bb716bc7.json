@@ -1,0 +1,457 @@
+{
+  "collection": {
+    "rank": 12,
+    "source_rank": 12,
+    "name": "Meebits",
+    "contract": "0x7bd29408f11d2bfc23c34f18275bbf23bb716bc7",
+    "contracts": [
+      "0x7bd29408f11d2bfc23c34f18275bbf23bb716bc7"
+    ],
+    "slug": "meebits",
+    "volume_usd": 568742627.46,
+    "volume_source": "CryptoSlam all-time Ethereum owner-to-owner sales, wash-filtered USD",
+    "source_url": "https://web-api.cryptoslam.io/v1/sales/rank-by-volume?timeRange=all&orderBy=rank&sortDirection=asc&offset=0&limit=100&blockchainId=0&hideInscriptions=false",
+    "ranking_evidence": "data/raw/top100-api/cryptoslam-ranking-0.json",
+    "identity_evidence": "data/raw/top100-api/cryptoslam-info-meebits.json",
+    "token_count": 20000,
+    "all_time_volume": 568742627.46,
+    "volume_currency": "USD",
+    "kind": "art-avatar",
+    "metadata_location": "http",
+    "metadata_classes": [
+      "http"
+    ],
+    "media_location": "unresolved",
+    "primary_image_location": "unresolved",
+    "media_classes": [],
+    "liveness": "unknown",
+    "liveness_exact": "unknown",
+    "all_declared_media_liveness": "unknown",
+    "metadata_failed": false,
+    "n_alive": 0,
+    "n_dead": 0,
+    "n_unknown": 3,
+    "n_degraded": 0,
+    "key_domain_or_gateway": "meebits.larvalabs.com",
+    "hosts": [
+      "meebits.larvalabs.com"
+    ],
+    "hardcoded_gateways": [],
+    "http_origin_dependency": true,
+    "uses_ipfs": false,
+    "uses_arweave": false,
+    "fully_onchain_all_declared_media": false,
+    "metadata_and_primary_image_onchain": false,
+    "mutability_class": "immutable",
+    "single_key_mutable": false,
+    "single_key_repointable": false,
+    "base_uri_or_renderer": "0x7bd29408f11d2bfc23c34f18275bbf23bb716bc7.tokenURI/uri",
+    "control": [
+      {
+        "contract": "0x7bd29408f11d2bfc23c34f18275bbf23bb716bc7",
+        "class": "immutable",
+        "pointer_power": null,
+        "reason": "no uri/renderer/upgrade function in ABI and not a proxy",
+        "owner": null,
+        "proxy": {
+          "kind": null
+        },
+        "live_mutators": [],
+        "lock_flags": {
+          "contractSealed": 0
+        },
+        "dependencies": [],
+        "pointer_getters": [],
+        "analyzed_at": "2026-10-23T02:50:45Z",
+        "history_incomplete": false,
+        "evidence": "data/raw/top100-mutability/0x7bd29408f11d2bfc23c34f18275bbf23bb716bc7.json"
+      }
+    ],
+    "samples": 3,
+    "distinct_token_ids": 3,
+    "sample_note": null,
+    "source_contracts_without_sampleable_nfts": [],
+    "ownership_scope_gaps": [],
+    "refreshed_at": "2026-10-23T03:05:03Z",
+    "opensea_rank": 12,
+    "ranking_scope_disagreement": false,
+    "metadata_adapter": false,
+    "evidence": [
+      "data/raw/top100-census/0x7bd29408f11d2bfc23c34f18275bbf23bb716bc7/result.json.gz"
+    ],
+    "delivery_note": null
+  },
+  "samples": [
+    {
+      "contract": "0x7bd29408f11d2bfc23c34f18275bbf23bb716bc7",
+      "token_id": "1",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(0) [low; totalSupply=20000]",
+      "metadata_location": "http",
+      "metadata_uri": "https://meebits.larvalabs.com/meebit/1",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "meebits.larvalabs.com",
+          "url": "https://meebits.larvalabs.com/meebit/1",
+          "status": 403,
+          "error_kind": null,
+          "v": "unknown",
+          "reason": "bot-wall:http-4xx",
+          "seq": 2,
+          "final_url": "https://meebits.larvalabs.com/meebit/1",
+          "content_type": "text/html; charset=UTF-8",
+          "size": 4549,
+          "content_length": null,
+          "sha256": "5f966ed47eafaf740d2005dc548d7143bde660d98d54a4dc9c72f6c7f849554f",
+          "t": "2026-10-23T02:50:19Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "meebits.larvalabs.com",
+          "url": "https://meebits.larvalabs.com/meebit/1",
+          "status": 403,
+          "error_kind": null,
+          "v": "unknown",
+          "reason": "bot-wall:http-4xx",
+          "seq": 7,
+          "final_url": "https://meebits.larvalabs.com/meebit/1",
+          "content_type": "text/html; charset=UTF-8",
+          "size": 4549,
+          "content_length": null,
+          "sha256": "e66a79f9623d22c8dca5810e94420109433166cf195710a5d2bf702d88cd830f",
+          "t": "2026-10-23T02:58:40Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "meebits.larvalabs.com",
+          "url": "https://meebits.larvalabs.com/meebit/1",
+          "status": 403,
+          "error_kind": null,
+          "v": "unknown",
+          "reason": "bot-wall:http-4xx",
+          "seq": 10,
+          "final_url": "https://meebits.larvalabs.com/meebit/1",
+          "content_type": "text/html; charset=UTF-8",
+          "size": 4549,
+          "content_length": null,
+          "sha256": "86618a129433b9170627c418defdf23400ee8120a0a5ded0ece326e0a36263d4",
+          "t": "2026-10-23T03:05:01Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [],
+      "derived": {
+        "meta_verdict": "unknown",
+        "meta_verdict_reason": "bot-wall:http-4xx",
+        "image_class": null,
+        "anim_class": null,
+        "image_verdict": null,
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {},
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "unknown",
+        "liveness_reason": "bot-wall:http-4xx",
+        "liveness_exact": "unknown",
+        "liveness_exact_reason": "bot-wall:http-4xx",
+        "meta_verdict_exact": "unknown",
+        "image_verdict_exact": null,
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "bot-wall:http-4xx"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000000001",
+          "endpoint": "https://eth.rpc.blxrbdn.com",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x7bd29408f11d2bfc23c34f18275bbf23bb716bc7/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0x7bd29408f11d2bfc23c34f18275bbf23bb716bc7",
+      "token_id": "10001",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(10000) [mid; totalSupply=20000]",
+      "metadata_location": "http",
+      "metadata_uri": "https://meebits.larvalabs.com/meebit/10001",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "meebits.larvalabs.com",
+          "url": "https://meebits.larvalabs.com/meebit/10001",
+          "status": 403,
+          "error_kind": null,
+          "v": "unknown",
+          "reason": "bot-wall:http-4xx",
+          "seq": 4,
+          "final_url": "https://meebits.larvalabs.com/meebit/10001",
+          "content_type": "text/html; charset=UTF-8",
+          "size": 4549,
+          "content_length": null,
+          "sha256": "de20080b94a80e2c4e5ccb086e0581dc088bcb801d902e0cb9b9fdcd42637b82",
+          "t": "2026-10-23T02:50:19Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "meebits.larvalabs.com",
+          "url": "https://meebits.larvalabs.com/meebit/10001",
+          "status": 403,
+          "error_kind": null,
+          "v": "unknown",
+          "reason": "bot-wall:http-4xx",
+          "seq": 8,
+          "final_url": "https://meebits.larvalabs.com/meebit/10001",
+          "content_type": "text/html; charset=UTF-8",
+          "size": 4549,
+          "content_length": null,
+          "sha256": "d41c982a97c05a4d267f8208b1f5a575e2f07e2a6a4c3c691c4d47b21fffb1db",
+          "t": "2026-10-23T02:58:40Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "meebits.larvalabs.com",
+          "url": "https://meebits.larvalabs.com/meebit/10001",
+          "status": 403,
+          "error_kind": null,
+          "v": "unknown",
+          "reason": "bot-wall:http-4xx",
+          "seq": 11,
+          "final_url": "https://meebits.larvalabs.com/meebit/10001",
+          "content_type": "text/html; charset=UTF-8",
+          "size": 4549,
+          "content_length": null,
+          "sha256": "7fff1e497cfae8ff443244dfd9db9920f37b5de28527603c8add6962598ef0c5",
+          "t": "2026-10-23T03:05:03Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [],
+      "derived": {
+        "meta_verdict": "unknown",
+        "meta_verdict_reason": "bot-wall:http-4xx",
+        "image_class": null,
+        "anim_class": null,
+        "image_verdict": null,
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {},
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "unknown",
+        "liveness_reason": "bot-wall:http-4xx",
+        "liveness_exact": "unknown",
+        "liveness_exact_reason": "bot-wall:http-4xx",
+        "meta_verdict_exact": "unknown",
+        "image_verdict_exact": null,
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "bot-wall:http-4xx"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000002711",
+          "endpoint": "https://eth.rpc.blxrbdn.com",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x7bd29408f11d2bfc23c34f18275bbf23bb716bc7/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0x7bd29408f11d2bfc23c34f18275bbf23bb716bc7",
+      "token_id": "20000",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(19999) [recent; totalSupply=20000]",
+      "metadata_location": "http",
+      "metadata_uri": "https://meebits.larvalabs.com/meebit/20000",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "meebits.larvalabs.com",
+          "url": "https://meebits.larvalabs.com/meebit/20000",
+          "status": 403,
+          "error_kind": null,
+          "v": "unknown",
+          "reason": "bot-wall:http-4xx",
+          "seq": 6,
+          "final_url": "https://meebits.larvalabs.com/meebit/20000",
+          "content_type": "text/html; charset=UTF-8",
+          "size": 4549,
+          "content_length": null,
+          "sha256": "dabbbdba4e888d8fd426b4341331196d3ea9277a7db8f707132a9e6767941acc",
+          "t": "2026-10-23T02:50:20Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "meebits.larvalabs.com",
+          "url": "https://meebits.larvalabs.com/meebit/20000",
+          "status": 403,
+          "error_kind": null,
+          "v": "unknown",
+          "reason": "bot-wall:http-4xx",
+          "seq": 9,
+          "final_url": "https://meebits.larvalabs.com/meebit/20000",
+          "content_type": "text/html; charset=UTF-8",
+          "size": 4549,
+          "content_length": null,
+          "sha256": "f9de0af28e014639bd287b010e455afc26e902f620168186779a594574067e37",
+          "t": "2026-10-23T02:58:40Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "meebits.larvalabs.com",
+          "url": "https://meebits.larvalabs.com/meebit/20000",
+          "status": 403,
+          "error_kind": null,
+          "v": "unknown",
+          "reason": "bot-wall:http-4xx",
+          "seq": 12,
+          "final_url": "https://meebits.larvalabs.com/meebit/20000",
+          "content_type": "text/html; charset=UTF-8",
+          "size": 4549,
+          "content_length": null,
+          "sha256": "7752eb1ed131f19e4103495db6a53c1d17bc654f9f7e56318f693efd8d3c726a",
+          "t": "2026-10-23T03:05:03Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [],
+      "derived": {
+        "meta_verdict": "unknown",
+        "meta_verdict_reason": "bot-wall:http-4xx",
+        "image_class": null,
+        "anim_class": null,
+        "image_verdict": null,
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {},
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "unknown",
+        "liveness_reason": "bot-wall:http-4xx",
+        "liveness_exact": "unknown",
+        "liveness_exact_reason": "bot-wall:http-4xx",
+        "meta_verdict_exact": "unknown",
+        "image_verdict_exact": null,
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "bot-wall:http-4xx"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000004e20",
+          "endpoint": "https://eth.rpc.blxrbdn.com",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x7bd29408f11d2bfc23c34f18275bbf23bb716bc7/evidence.jsonl.gz"
+    }
+  ],
+  "saved_packet_index": [
+    {
+      "path": "data/raw/top100-api/opensea-contract-0x7bd29408f11d2bfc23c34f18275bbf23bb716bc7-attempt1-1792724276092329684.body",
+      "sha256": "e7435fbb1c5ad5f3795889b78db8f659dff6d30c6b8b48d4369204d05b353f74",
+      "retrieved_at": "2026-10-23T02:57:56Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0x7bd29408f11d2bfc23c34f18275bbf23bb716bc7",
+      "method": "GET",
+      "status": 401,
+      "error": null,
+      "bytes": 70,
+      "truncated": false
+    },
+    {
+      "path": "data/raw/top100-api/opensea-contract-0x7bd29408f11d2bfc23c34f18275bbf23bb716bc7-attempt1-1792724721904978403.body",
+      "sha256": "e7435fbb1c5ad5f3795889b78db8f659dff6d30c6b8b48d4369204d05b353f74",
+      "retrieved_at": "2026-10-23T03:05:21Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0x7bd29408f11d2bfc23c34f18275bbf23bb716bc7",
+      "method": "GET",
+      "status": 401,
+      "error": null,
+      "bytes": 70,
+      "truncated": false
+    },
+    {
+      "path": "data/raw/top100-census/0x7bd29408f11d2bfc23c34f18275bbf23bb716bc7/bodies.zip",
+      "sha256": "c1ea0555b1c3ac9436a5b1c1c8c7ae41a3d4af452bbb201e0e5780565bd28ccf",
+      "bytes": 17271
+    },
+    {
+      "path": "data/raw/top100-census/0x7bd29408f11d2bfc23c34f18275bbf23bb716bc7/evidence.jsonl.gz",
+      "sha256": "6638a1b6aabc8954e0824fc2f4995e21db29809a7a1c6511a3e2f9ee6f0a1042",
+      "bytes": 1863
+    },
+    {
+      "path": "data/raw/top100-census/0x7bd29408f11d2bfc23c34f18275bbf23bb716bc7/result.json.gz",
+      "sha256": "8f3aba6551adc75ed331dfe79a35d4d5b12f9002882d220ca43425c692c16845",
+      "bytes": 1506
+    },
+    {
+      "path": "data/raw/top100-mutability/0x7bd29408f11d2bfc23c34f18275bbf23bb716bc7.json",
+      "sha256": "64b5659b7998681706b9e42518c03d158bc838ebe17c8fb416bb2434fd3e0a50",
+      "bytes": 1364
+    },
+    {
+      "path": "data/raw/top100-pointers/0x7bd29408f11d2bfc23c34f18275bbf23bb716bc7/result.json",
+      "sha256": "3ced563b0a71a773b51fb8586a29a0b48f5748ccf3c8a0e8c9c2f01c34d9867e",
+      "bytes": 203
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x7bd29408f11d2bfc23c34f18275bbf23bb716bc7/bodies.zip",
+      "sha256": "c2c7429d3dd06d9e58055359bb77aa9ef8520f53e1cf97655eb256fc4451de65",
+      "bytes": 634
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x7bd29408f11d2bfc23c34f18275bbf23bb716bc7/evidence.jsonl.gz",
+      "sha256": "d678b9e12e1e705e1be8ca415b05e0deec7ca316479a21e8eaeecd1524572640",
+      "bytes": 696
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x7bd29408f11d2bfc23c34f18275bbf23bb716bc7/result.json",
+      "sha256": "da6788c3255b1402a810fa5ec5ee369471ebe2c448ff5faaf216b47bb664dcb3",
+      "bytes": 301
+    }
+  ],
+  "interpretation": "Liveness describes sampled metadata and primary-image delivery, not permanent loss of the artwork."
+}

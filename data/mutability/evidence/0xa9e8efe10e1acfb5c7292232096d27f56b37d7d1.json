@@ -1,0 +1,69 @@
+{
+ "address": "0xa9e8efe10e1acfb5c7292232096d27f56b37d7d1",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:30Z",
+ "code_raw": "data/raw/rpc-mutability/0xa9e8efe10e1acfb5c7292232096d27f56b37d7d1_code.json",
+ "code_len": 235,
+ "slots": {
+  "slot0": "0x4d617962652d417a756b692d323200000000000000000000000000000000001c"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0xa9e8efe10e1acfb5c7292232096d27f56b37d7d1_slots.json",
+ "verified": false,
+ "contract_name": "",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": false,
+ "abi_from": null,
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 0
+   }
+  },
+  "decoded": [],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0xa9e8efe10e1acfb5c7292232096d27f56b37d7d1_reads1.json",
+ "eip4906": false,
+ "owner": null,
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "n/a",
+ "lock_functions": [],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [],
+ "class_direct": "unknown",
+ "class_reason": "unverified source; no known setter selectors in bytecode",
+ "live_mutators": [],
+ "dependencies": [],
+ "meta": {
+  "address": "0xa9e8efe10e1acfb5c7292232096d27f56b37d7d1",
+  "name": "Maybe-Azuki-22",
+  "w5_claim_strength": null,
+  "w5_claim_text": null,
+  "w5_source_type": null,
+  "w5_source_url": null,
+  "holders_count": 944.0,
+  "in_w5": false,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": "onchain-renderer",
+  "census_media_class": "data-uri",
+  "census_liveness": "alive",
+  "in_census_onchain": true,
+  "standard": "ERC-721",
+  "creator": "0xda912a08c19b41e210704d477e424919c8e43129",
+  "deploy_block": 16881007.0
+ },
+ "class_deps_all": "none",
+ "class_deps": "none",
+ "class_final": "unknown",
+ "pointer_power": null
+}

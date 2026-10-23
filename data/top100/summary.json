@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "as_of_utc": "2026-10-23T03:59:23Z",
+  "ranking_definition": "CryptoSlam Ethereum all-time wash-filtered owner-to-owner sales in historical USD; duplicate contract aliases removed, higher total retained",
+  "counts": {
+    "collections": 100,
+    "sampled_units": 306,
+    "fully_onchain_all_declared_media": 6,
+    "metadata_and_primary_image_onchain": 6,
+    "http_origin_dependency": 49,
+    "uses_ipfs": 49,
+    "uses_arweave": 6,
+    "dead_or_degraded": 13,
+    "metadata_failed": 12,
+    "unknown_liveness": 4,
+    "single_key_mutable": 53,
+    "single_key_repointable": 52,
+    "hardcoded_gateway": 15,
+    "secondary_top100_contract_overlap": 72,
+    "scope_disagreements": 1,
+    "secondary_identity_gaps": 7,
+    "secondary_stats_available": 78,
+    "three_distinct_id_exceptions": 1,
+    "liveness": {
+      "alive": 83,
+      "unknown": 4,
+      "degraded": 5,
+      "dead": 8
+    },
+    "all_declared_media_liveness": {
+      "alive": 81,
+      "unknown": 5,
+      "degraded": 6,
+      "dead": 8
+    },
+    "mutability": {
+      "immutable": 20,
+      "multisig-mutable": 23,
+      "eoa-mutable": 53,
+      "unknown": 3,
+      "dao-or-timelock-mutable": 1
+    }
+  },
+  "headlines": [
+    "6 of the top 100 route metadata and every sampled declared media field fully on-chain (including the CryptoPunks data-contract special case).",
+    "6 have on-chain metadata and primary images; additional animation fields can still be off-chain.",
+    "49 depend on operator-controlled HTTP servers for sampled metadata or media.",
+    "49 use IPFS for sampled metadata or media; categories overlap.",
+    "13 have dead or degraded metadata/image delivery; 12 have at least one failed metadata sample.",
+    "4 remain unknown, not dead.",
+    "53 have a live EOA-controlled URI, renderer, upgrade or artwork-data mutation path in the W6 audit; 52 can repoint delivery."
+  ],
+  "onchain_names": [
+    "CryptoPunks",
+    "$LOOT",
+    "Wolf Game",
+    "The n project",
+    "Autoglyphs",
+    "Neo Tokyo: Outer Identities"
+  ],
+  "definitions": {
+    "fully_onchain": "W2 clean static metadata + ALL declared media test; CryptoPunks uses its separately sealed data renderer. This is a delivery-route test, not an inventory of every recovery contract.",
+    "liveness": "W2 collection collapse of metadata and primary-image verdicts; all-declared-media status is separate.",
+    "metadata_failed": "At least one sampled metadata target has repeated negative evidence, including reverting tokenURI; unknown excluded.",
+    "http_origin_dependency": "Any ordinary HTTP metadata/media target; content-addressed IPFS/Arweave gateways excluded. This does not establish legal company ownership.",
+    "single_key_mutable": "W6 eoa-mutable class for sampled NFT contracts and in-path dependencies. Does not include arbitrary web-server operators.",
+    "mutability_dates": "Reused W6 results retain their analyzed_at; new audits use the same W6 analyzer. Pointer getter values refreshed separately."
+  },
+  "caveats": [
+    "Source-specific top 100, not an exhaustive global market census; rankings differ by USD/ETH, filters, coverage and project aggregation.",
+    "Small token samples do not prove collection-wide health, permanence or offline rendering.",
+    "Only two distinct IDs are indexed for 888 Inner Circle; three fungible units were checked.",
+    "Source-listed companion contracts with no sampleable NFT IDs are preserved as scope gaps.",
+    "Some Art Blocks and SuperRare source totals aggregate projects; a contract is not always one marketplace collection.",
+    "Alternate on-chain recovery contracts can exist even when the ordinary image URI is IPFS/HTTP (e.g. CyberBrokers)."
+  ],
+  "sources": [
+    "https://www.cryptoslam.io/collections",
+    "https://opensea.io/collections/top?chains=ethereum&sortBy=volume&timeframe=all_time"
+  ],
+  "evidence_index": "data/top100/evidence_index.json"
+}

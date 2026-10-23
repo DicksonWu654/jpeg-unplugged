@@ -1,0 +1,111 @@
+{
+ "address": "0x0a12ec2889dd4f523ce433a760e07f08ea9c64b2",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:12Z",
+ "code_raw": "data/raw/rpc-mutability/0x0a12ec2889dd4f523ce433a760e07f08ea9c64b2_code.json",
+ "code_len": 17271,
+ "slots": {
+  "slot0": "0x446562697473000000000000000000000000000000000000000000000000000c"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0x0a12ec2889dd4f523ce433a760e07f08ea9c64b2_slots.json",
+ "verified": false,
+ "contract_name": "",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": false,
+ "abi_from": null,
+ "unverified_selector_hits": [
+  "owner()",
+  "renounceOwnership()",
+  "transferOwnership(address)"
+ ],
+ "history": {
+  "txs": [],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 1,
+    "first": "2026-09-29",
+    "last": "2026-09-29",
+    "last_tx": "0x99b2d9c75413a76cd5e208f50d498bcac67106a862a3065a412c6e824f28e990",
+    "list": [
+     {
+      "date": "2026-09-29",
+      "tx": "0x99b2d9c75413a76cd5e208f50d498bcac67106a862a3065a412c6e824f28e990",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "02b165144c45f30452ccbbda356de42316b89626"
+      ],
+      "data": "0x"
+     }
+    ]
+   }
+  },
+  "decoded": [],
+  "ownership_transfers": [
+   {
+    "date": "2026-09-29",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0x02b165144c45f30452ccbbda356de42316b89626",
+    "tx": "0x99b2d9c75413a76cd5e208f50d498bcac67106a862a3065a412c6e824f28e990"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0x0a12ec2889dd4f523ce433a760e07f08ea9c64b2_reads1.json",
+ "eip4906": true,
+ "owner": {
+  "addr": "0x02b165144c45f30452ccbbda356de42316b89626",
+  "code_raw": "data/raw/rpc-mutability/0x02b165144c45f30452ccbbda356de42316b89626_holdercode.json",
+  "type": "eoa",
+  "note": "EIP-7702 delegated EOA",
+  "bs_name": null,
+  "ens": null,
+  "bs_impl_names": [
+   "EIP7702StatelessDeleGator"
+  ],
+  "bs_tags": [],
+  "is_contract": true,
+  "creator": null,
+  "is_verified": true,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "n/a",
+ "lock_functions": [],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [],
+ "likely_class_if_setters": "eoa",
+ "class_direct": "unknown",
+ "class_reason": "unverified source; selector hits: owner(),renounceOwnership(),transferOwnership(address)",
+ "live_mutators": [],
+ "dependencies": [],
+ "meta": {
+  "address": "0x0a12ec2889dd4f523ce433a760e07f08ea9c64b2",
+  "name": "Debits",
+  "w5_claim_strength": null,
+  "w5_claim_text": null,
+  "w5_source_type": null,
+  "w5_source_url": null,
+  "holders_count": 4429.0,
+  "in_w5": false,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": "onchain-renderer",
+  "census_media_class": "data-uri",
+  "census_liveness": "alive",
+  "in_census_onchain": true,
+  "standard": "ERC-721",
+  "creator": "0xbaf342f15b954eacc5d64598e26e68f6c3cfd3c2",
+  "deploy_block": 26080182.0
+ },
+ "class_deps_all": "none",
+ "class_deps": "none",
+ "class_final": "unknown",
+ "pointer_power": null
+}

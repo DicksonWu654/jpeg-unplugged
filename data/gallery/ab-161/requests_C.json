@@ -1,0 +1,23 @@
+[
+ {
+  "t": 0.191,
+  "url": "https://onchain.invalid/",
+  "type": "document",
+  "method": "GET",
+  "frame": "about:blank",
+  "action": "served-from-chain",
+  "status": 200,
+  "bytes": null
+ },
+ {
+  "t": 0.221,
+  "url": "https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.15/paper-full.min.js",
+  "type": "script",
+  "method": "GET",
+  "frame": "https://onchain.invalid/",
+  "action": "archive",
+  "sha256": "7cef19f56270df49c30d5c6246f3806e3990d847ff9e3b6f9cdf1e4db72d16e9",
+  "status": 200,
+  "bytes": 235545
+ }
+]

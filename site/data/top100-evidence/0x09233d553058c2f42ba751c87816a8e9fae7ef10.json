@@ -1,0 +1,483 @@
+{
+  "collection": {
+    "rank": 81,
+    "source_rank": 86,
+    "name": "My Pet Hooligan",
+    "contract": "0x09233d553058c2f42ba751c87816a8e9fae7ef10",
+    "contracts": [
+      "0x09233d553058c2f42ba751c87816a8e9fae7ef10"
+    ],
+    "slug": "my-pet-hooligan",
+    "volume_usd": 68239716.76,
+    "volume_source": "CryptoSlam all-time Ethereum owner-to-owner sales, wash-filtered USD",
+    "source_url": "https://web-api.cryptoslam.io/v1/sales/rank-by-volume?timeRange=all&orderBy=rank&sortDirection=asc&offset=0&limit=100&blockchainId=0&hideInscriptions=false",
+    "ranking_evidence": "data/raw/top100-api/cryptoslam-ranking-0.json",
+    "identity_evidence": "data/raw/top100-api/cryptoslam-info-my-pet-hooligan.json",
+    "token_count": 8888,
+    "all_time_volume": 68239716.76,
+    "volume_currency": "USD",
+    "kind": "art-avatar",
+    "metadata_location": "http",
+    "metadata_classes": [
+      "http"
+    ],
+    "media_location": "unresolved",
+    "primary_image_location": "unresolved",
+    "media_classes": [],
+    "liveness": "unknown",
+    "liveness_exact": "unknown",
+    "all_declared_media_liveness": "unknown",
+    "metadata_failed": false,
+    "n_alive": 0,
+    "n_dead": 0,
+    "n_unknown": 3,
+    "n_degraded": 0,
+    "key_domain_or_gateway": "api.mypethooligan.com",
+    "hosts": [
+      "api.mypethooligan.com"
+    ],
+    "hardcoded_gateways": [],
+    "http_origin_dependency": true,
+    "uses_ipfs": false,
+    "uses_arweave": false,
+    "fully_onchain_all_declared_media": false,
+    "metadata_and_primary_image_onchain": false,
+    "mutability_class": "eoa-mutable",
+    "single_key_mutable": true,
+    "single_key_repointable": true,
+    "base_uri_or_renderer": "0x09233d553058c2f42ba751c87816a8e9fae7ef10.tokenURI/uri",
+    "control": [
+      {
+        "contract": "0x09233d553058c2f42ba751c87816a8e9fae7ef10",
+        "class": "eoa-mutable",
+        "pointer_power": "eoa",
+        "reason": "live setters (eoa): setBaseURI",
+        "owner": {
+          "addr": "0x9a7a0670a66a6efe1a15b97f3dc0f8f47d7b11c3",
+          "code_raw": "data/raw/rpc-mutability/0x9a7a0670a66a6efe1a15b97f3dc0f8f47d7b11c3_holdercode.json",
+          "type": "eoa",
+          "bs_name": null,
+          "ens": null,
+          "bs_impl_names": [],
+          "bs_tags": [],
+          "is_contract": false,
+          "creator": null,
+          "is_verified": false,
+          "bs_reputation": "ok"
+        },
+        "proxy": {
+          "kind": null
+        },
+        "live_mutators": [
+          {
+            "name": "setBaseURI",
+            "sig": "setBaseURI(string)",
+            "category": "uri",
+            "power": "eoa",
+            "holders": [
+              {
+                "addr": "0x9a7a0670a66a6efe1a15b97f3dc0f8f47d7b11c3",
+                "type": "eoa",
+                "bs_name": null,
+                "ens": null,
+                "desc": "eoa",
+                "simple": "eoa"
+              }
+            ],
+            "effective": "yes",
+            "reason": null
+          }
+        ],
+        "lock_flags": {},
+        "dependencies": [],
+        "pointer_getters": [],
+        "analyzed_at": "2026-10-23T02:53:02Z",
+        "history_incomplete": false,
+        "evidence": "data/raw/top100-mutability/0x09233d553058c2f42ba751c87816a8e9fae7ef10.json"
+      }
+    ],
+    "samples": 3,
+    "distinct_token_ids": 3,
+    "sample_note": null,
+    "source_contracts_without_sampleable_nfts": [],
+    "ownership_scope_gaps": [],
+    "refreshed_at": "2026-10-23T03:05:43Z",
+    "opensea_rank": 84,
+    "ranking_scope_disagreement": false,
+    "metadata_adapter": false,
+    "evidence": [
+      "data/raw/top100-census/0x09233d553058c2f42ba751c87816a8e9fae7ef10/result.json.gz"
+    ],
+    "delivery_note": null
+  },
+  "samples": [
+    {
+      "contract": "0x09233d553058c2f42ba751c87816a8e9fae7ef10",
+      "token_id": "0",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(0) [low; totalSupply=8888]",
+      "metadata_location": "http",
+      "metadata_uri": "https://api.mypethooligan.com/meta/0",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "api.mypethooligan.com",
+          "url": "https://api.mypethooligan.com/meta/0",
+          "status": null,
+          "error_kind": "timeout",
+          "v": "unknown",
+          "reason": "timeout",
+          "seq": 4,
+          "final_url": "https://api.mypethooligan.com/meta/0",
+          "content_type": null,
+          "size": 0,
+          "content_length": null,
+          "sha256": null,
+          "t": "2026-10-23T02:51:03Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "api.mypethooligan.com",
+          "url": "https://api.mypethooligan.com/meta/0",
+          "status": null,
+          "error_kind": "timeout",
+          "v": "unknown",
+          "reason": "timeout",
+          "seq": 7,
+          "final_url": "https://api.mypethooligan.com/meta/0",
+          "content_type": null,
+          "size": 0,
+          "content_length": null,
+          "sha256": null,
+          "t": "2026-10-23T02:58:41Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "api.mypethooligan.com",
+          "url": "https://api.mypethooligan.com/meta/0",
+          "status": null,
+          "error_kind": "timeout",
+          "v": "unknown",
+          "reason": "timeout",
+          "seq": 10,
+          "final_url": "https://api.mypethooligan.com/meta/0",
+          "content_type": null,
+          "size": 0,
+          "content_length": null,
+          "sha256": null,
+          "t": "2026-10-23T03:05:04Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [],
+      "derived": {
+        "meta_verdict": "unknown",
+        "meta_verdict_reason": "timeout",
+        "image_class": null,
+        "anim_class": null,
+        "image_verdict": null,
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {},
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "unknown",
+        "liveness_reason": "timeout",
+        "liveness_exact": "unknown",
+        "liveness_exact_reason": "timeout",
+        "meta_verdict_exact": "unknown",
+        "image_verdict_exact": null,
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "timeout"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000000000",
+          "endpoint": "https://eth.rpc.blxrbdn.com",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x09233d553058c2f42ba751c87816a8e9fae7ef10/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0x09233d553058c2f42ba751c87816a8e9fae7ef10",
+      "token_id": "4444",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(4444) [mid; totalSupply=8888]",
+      "metadata_location": "http",
+      "metadata_uri": "https://api.mypethooligan.com/meta/4444",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "api.mypethooligan.com",
+          "url": "https://api.mypethooligan.com/meta/4444",
+          "status": null,
+          "error_kind": "timeout",
+          "v": "unknown",
+          "reason": "timeout",
+          "seq": 5,
+          "final_url": "https://api.mypethooligan.com/meta/4444",
+          "content_type": null,
+          "size": 0,
+          "content_length": null,
+          "sha256": null,
+          "t": "2026-10-23T02:51:04Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "api.mypethooligan.com",
+          "url": "https://api.mypethooligan.com/meta/4444",
+          "status": null,
+          "error_kind": "timeout",
+          "v": "unknown",
+          "reason": "timeout",
+          "seq": 8,
+          "final_url": "https://api.mypethooligan.com/meta/4444",
+          "content_type": null,
+          "size": 0,
+          "content_length": null,
+          "sha256": null,
+          "t": "2026-10-23T02:58:53Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "api.mypethooligan.com",
+          "url": "https://api.mypethooligan.com/meta/4444",
+          "status": null,
+          "error_kind": "timeout",
+          "v": "unknown",
+          "reason": "timeout",
+          "seq": 11,
+          "final_url": "https://api.mypethooligan.com/meta/4444",
+          "content_type": null,
+          "size": 0,
+          "content_length": null,
+          "sha256": null,
+          "t": "2026-10-23T03:05:17Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [],
+      "derived": {
+        "meta_verdict": "unknown",
+        "meta_verdict_reason": "timeout",
+        "image_class": null,
+        "anim_class": null,
+        "image_verdict": null,
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {},
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "unknown",
+        "liveness_reason": "timeout",
+        "liveness_exact": "unknown",
+        "liveness_exact_reason": "timeout",
+        "meta_verdict_exact": "unknown",
+        "image_verdict_exact": null,
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "timeout"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd000000000000000000000000000000000000000000000000000000000000115c",
+          "endpoint": "https://eth.rpc.blxrbdn.com",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x09233d553058c2f42ba751c87816a8e9fae7ef10/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0x09233d553058c2f42ba751c87816a8e9fae7ef10",
+      "token_id": "8887",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(8887) [recent; totalSupply=8888]",
+      "metadata_location": "http",
+      "metadata_uri": "https://api.mypethooligan.com/meta/8887",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "api.mypethooligan.com",
+          "url": "https://api.mypethooligan.com/meta/8887",
+          "status": null,
+          "error_kind": "timeout",
+          "v": "unknown",
+          "reason": "timeout",
+          "seq": 6,
+          "final_url": "https://api.mypethooligan.com/meta/8887",
+          "content_type": null,
+          "size": 0,
+          "content_length": null,
+          "sha256": null,
+          "t": "2026-10-23T02:51:04Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "api.mypethooligan.com",
+          "url": "https://api.mypethooligan.com/meta/8887",
+          "status": null,
+          "error_kind": "timeout",
+          "v": "unknown",
+          "reason": "timeout",
+          "seq": 9,
+          "final_url": "https://api.mypethooligan.com/meta/8887",
+          "content_type": null,
+          "size": 0,
+          "content_length": null,
+          "sha256": null,
+          "t": "2026-10-23T02:59:06Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "api.mypethooligan.com",
+          "url": "https://api.mypethooligan.com/meta/8887",
+          "status": null,
+          "error_kind": "timeout",
+          "v": "unknown",
+          "reason": "timeout",
+          "seq": 12,
+          "final_url": "https://api.mypethooligan.com/meta/8887",
+          "content_type": null,
+          "size": 0,
+          "content_length": null,
+          "sha256": null,
+          "t": "2026-10-23T03:05:30Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [],
+      "derived": {
+        "meta_verdict": "unknown",
+        "meta_verdict_reason": "timeout",
+        "image_class": null,
+        "anim_class": null,
+        "image_verdict": null,
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {},
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "unknown",
+        "liveness_reason": "timeout",
+        "liveness_exact": "unknown",
+        "liveness_exact_reason": "timeout",
+        "meta_verdict_exact": "unknown",
+        "image_verdict_exact": null,
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "timeout"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd00000000000000000000000000000000000000000000000000000000000022b7",
+          "endpoint": "https://eth.rpc.blxrbdn.com",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x09233d553058c2f42ba751c87816a8e9fae7ef10/evidence.jsonl.gz"
+    }
+  ],
+  "saved_packet_index": [
+    {
+      "path": "data/raw/top100-api/opensea-contract-0x09233d553058c2f42ba751c87816a8e9fae7ef10-attempt1-1792724330694282815.body",
+      "sha256": "c33c0ac257a6313bfa913bb36b2aa7bd3fee897f10785644618867570ea36fc2",
+      "retrieved_at": "2026-10-23T02:58:50Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0x09233d553058c2f42ba751c87816a8e9fae7ef10",
+      "method": "GET",
+      "status": 200,
+      "error": null,
+      "bytes": 184,
+      "truncated": false
+    },
+    {
+      "path": "data/raw/top100-api/opensea-contract-0x09233d553058c2f42ba751c87816a8e9fae7ef10.json",
+      "sha256": "c33c0ac257a6313bfa913bb36b2aa7bd3fee897f10785644618867570ea36fc2",
+      "retrieved_at": "2026-10-23T02:58:50Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0x09233d553058c2f42ba751c87816a8e9fae7ef10",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "data/raw/top100-census/0x09233d553058c2f42ba751c87816a8e9fae7ef10/bodies.zip",
+      "sha256": "a5d961c7186b415927de850cc45bec438a641404df2c0981f4240774c8273f9a",
+      "bytes": 741
+    },
+    {
+      "path": "data/raw/top100-census/0x09233d553058c2f42ba751c87816a8e9fae7ef10/evidence.jsonl.gz",
+      "sha256": "3ba0e0afc0e06e10dadb44cd3c34d9b3ae1cbc4fdbb064b6781b4795ffbc96d2",
+      "bytes": 1384
+    },
+    {
+      "path": "data/raw/top100-census/0x09233d553058c2f42ba751c87816a8e9fae7ef10/result.json.gz",
+      "sha256": "d8763eb33710a461f19ced00521aa1865d9806bcba054111df938b411e66f6bf",
+      "bytes": 1087
+    },
+    {
+      "path": "data/raw/top100-mutability/0x09233d553058c2f42ba751c87816a8e9fae7ef10.json",
+      "sha256": "afb4118280bbf70b140363049976ed17f85fc777ab6bdc43374f106795e233bb",
+      "bytes": 3992
+    },
+    {
+      "path": "data/raw/top100-pointers/0x09233d553058c2f42ba751c87816a8e9fae7ef10/result.json",
+      "sha256": "8ff04c6cf195e68cfa596e6fe127f52aa59603580bd902a8b3aff65d12013ad4",
+      "bytes": 203
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x09233d553058c2f42ba751c87816a8e9fae7ef10/bodies.zip",
+      "sha256": "f7936e4a2a81984a9a94db8fa863b5a8c1f09bbf7c0d185efdd5e4e6f20387cf",
+      "bytes": 632
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x09233d553058c2f42ba751c87816a8e9fae7ef10/evidence.jsonl.gz",
+      "sha256": "c21b77aad0a72cbf28c3618220aa45de509c0e8539af082d69a6dc8e826cd717",
+      "bytes": 690
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x09233d553058c2f42ba751c87816a8e9fae7ef10/result.json",
+      "sha256": "ba54c910508b5389c592bf30d5b4da38e2385162bd1546d6d5837ca7f2183ce6",
+      "bytes": 299
+    }
+  ],
+  "interpretation": "Liveness describes sampled metadata and primary-image delivery, not permanent loss of the artwork."
+}

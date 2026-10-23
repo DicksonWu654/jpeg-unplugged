@@ -1,0 +1,50 @@
+{
+ "note": "Aggregate counts by host-level verdict. Host names are deliberately not published. holders_affected and collections are summed per host, so a holder or collection that depends on several hosts is counted once per host.",
+ "by_verdict": {
+  "alive-but-wrong-content": {
+   "hosts": 40,
+   "holders_affected": 291936,
+   "collections": 55
+  },
+  "alive-serving": {
+   "hosts": 1214,
+   "holders_affected": 6749897,
+   "collections": 2886
+  },
+  "dangling-cloud-claimable": {
+   "hosts": 204,
+   "holders_affected": 535214,
+   "collections": 233
+  },
+  "dead-dns": {
+   "hosts": 452,
+   "holders_affected": 1184007,
+   "collections": 547
+  },
+  "dead-http": {
+   "hosts": 823,
+   "holders_affected": 2107697,
+   "collections": 1009
+  },
+  "domain-likely-available": {
+   "hosts": 579,
+   "holders_affected": 1091573,
+   "collections": 956
+  },
+  "parked-or-for-sale": {
+   "hosts": 88,
+   "holders_affected": 167922,
+   "collections": 134
+  },
+  "rereg-after-deploy": {
+   "hosts": 58,
+   "holders_affected": 363361,
+   "collections": 104
+  },
+  "unknown": {
+   "hosts": 163,
+   "holders_affected": 2277005,
+   "collections": 1346
+  }
+ }
+}

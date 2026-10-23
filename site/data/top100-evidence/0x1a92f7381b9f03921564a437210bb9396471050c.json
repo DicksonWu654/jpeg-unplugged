@@ -1,0 +1,498 @@
+{
+  "collection": {
+    "rank": 14,
+    "source_rank": 14,
+    "name": "Cool Cats",
+    "contract": "0x1a92f7381b9f03921564a437210bb9396471050c",
+    "contracts": [
+      "0x1a92f7381b9f03921564a437210bb9396471050c"
+    ],
+    "slug": "cool-cats",
+    "volume_usd": 415512099.72,
+    "volume_source": "CryptoSlam all-time Ethereum owner-to-owner sales, wash-filtered USD",
+    "source_url": "https://web-api.cryptoslam.io/v1/sales/rank-by-volume?timeRange=all&orderBy=rank&sortDirection=asc&offset=0&limit=100&blockchainId=0&hideInscriptions=false",
+    "ranking_evidence": "data/raw/top100-api/cryptoslam-ranking-0.json",
+    "identity_evidence": "data/raw/top100-api/cryptoslam-info-cool-cats.json",
+    "token_count": 9999,
+    "all_time_volume": 415512099.72,
+    "volume_currency": "USD",
+    "kind": "art-avatar",
+    "metadata_location": "http",
+    "metadata_classes": [
+      "http"
+    ],
+    "media_location": "ipfs",
+    "primary_image_location": "ipfs",
+    "media_classes": [
+      "ipfs"
+    ],
+    "liveness": "alive",
+    "liveness_exact": "unknown",
+    "all_declared_media_liveness": "alive",
+    "metadata_failed": false,
+    "n_alive": 3,
+    "n_dead": 0,
+    "n_unknown": 0,
+    "n_degraded": 0,
+    "key_domain_or_gateway": "api.coolcatsnft.com; ipfs.io; ipfs.io",
+    "hosts": [
+      "api.coolcatsnft.com",
+      "ipfs.io"
+    ],
+    "hardcoded_gateways": [
+      "ipfs.io"
+    ],
+    "http_origin_dependency": true,
+    "uses_ipfs": true,
+    "uses_arweave": false,
+    "fully_onchain_all_declared_media": false,
+    "metadata_and_primary_image_onchain": false,
+    "mutability_class": "multisig-mutable",
+    "single_key_mutable": false,
+    "single_key_repointable": false,
+    "base_uri_or_renderer": "0x1a92f7381b9f03921564a437210bb9396471050c.tokenURI/uri",
+    "control": [
+      {
+        "contract": "0x1a92f7381b9f03921564a437210bb9396471050c",
+        "class": "multisig-mutable",
+        "pointer_power": "multisig",
+        "reason": "live setters (multisig): setBaseURI",
+        "owner": {
+          "addr": "0xd5886f211b4ca0aa4df48c4df311437534ac19bf",
+          "code_raw": "data/raw/rpc-mutability/0xd5886f211b4ca0aa4df48c4df311437534ac19bf_holdercode.json",
+          "code_len": 171,
+          "probe_raw": "data/raw/rpc-mutability/0xd5886f211b4ca0aa4df48c4df311437534ac19bf_holderprobe.json",
+          "type": "safe",
+          "threshold": 3,
+          "n_owners": 5,
+          "owners": [
+            "0xa55b9bd19ef2bbbacda80f1de58c7aad2056de45",
+            "0x7d714c3fde40e7433ab95af87c3ab215e785eac9",
+            "0x26117603a249b038e8663eae3c34768468cfb648",
+            "0x57df5874e110148c8055536a0a9dc189615d5284",
+            "0xe495bed8c423615b749369c61fed1f110ce8ae1b"
+          ],
+          "version": "1.3.0",
+          "bs_name": "SafeProxy",
+          "ens": null,
+          "bs_impl_names": [
+            "GnosisSafe"
+          ],
+          "bs_tags": [],
+          "is_contract": true,
+          "creator": "0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2",
+          "is_verified": true,
+          "bs_reputation": "ok"
+        },
+        "proxy": {
+          "kind": null
+        },
+        "live_mutators": [
+          {
+            "name": "setBaseURI",
+            "sig": "setBaseURI(string)",
+            "category": "uri",
+            "power": "multisig",
+            "holders": [
+              {
+                "addr": "0xd5886f211b4ca0aa4df48c4df311437534ac19bf",
+                "type": "safe",
+                "threshold": 3,
+                "n_owners": 5,
+                "bs_name": "SafeProxy",
+                "ens": null,
+                "desc": "safe 3/5",
+                "simple": "multisig"
+              }
+            ],
+            "effective": "yes",
+            "reason": null
+          }
+        ],
+        "lock_flags": {},
+        "dependencies": [],
+        "pointer_getters": [],
+        "analyzed_at": "2026-10-23T02:50:49Z",
+        "history_incomplete": false,
+        "evidence": "data/raw/top100-mutability/0x1a92f7381b9f03921564a437210bb9396471050c.json"
+      }
+    ],
+    "samples": 3,
+    "distinct_token_ids": 3,
+    "sample_note": null,
+    "source_contracts_without_sampleable_nfts": [],
+    "ownership_scope_gaps": [],
+    "refreshed_at": "2026-10-23T03:05:01Z",
+    "opensea_rank": 14,
+    "ranking_scope_disagreement": false,
+    "metadata_adapter": false,
+    "evidence": [
+      "data/raw/top100-census/0x1a92f7381b9f03921564a437210bb9396471050c/result.json.gz"
+    ],
+    "delivery_note": null
+  },
+  "samples": [
+    {
+      "contract": "0x1a92f7381b9f03921564a437210bb9396471050c",
+      "token_id": "0",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(0) [low; totalSupply=9999]",
+      "metadata_location": "http",
+      "metadata_uri": "https://api.coolcatsnft.com/cat/0",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "api.coolcatsnft.com",
+          "url": "https://api.coolcatsnft.com/cat/0",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 2,
+          "final_url": "https://api.coolcatsnft.com/cat/0",
+          "content_type": "application/json",
+          "size": 1178,
+          "content_length": null,
+          "sha256": "b786045ecc11961fc1b5010a30e3ea9cdef611980211c4ce3d24819922d3e3b7",
+          "t": "2026-10-23T02:50:10Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "ipfs",
+          "host": "ipfs.io",
+          "gateway": "ipfs.io",
+          "uri": "https://ipfs.io/ipfs/QmXT9Gaiu6Znoz8hwf4788vTy2MnhpWCLBET1gS5XNvf4r",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "ipfs.blockfrost.dev",
+              "url": "https://ipfs.blockfrost.dev/ipfs/QmXT9Gaiu6Znoz8hwf4788vTy2MnhpWCLBET1gS5XNvf4r",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 5,
+              "final_url": "https://ipfs.blockfrost.dev/ipfs/QmXT9Gaiu6Znoz8hwf4788vTy2MnhpWCLBET1gS5XNvf4r",
+              "content_type": "image/png",
+              "size": 65536,
+              "content_length": 106490,
+              "sha256": "6c4348da5a71b7da0b5abed83a2106ef6aa6b55a9c8e639c7d3613967b07cf44",
+              "t": "2026-10-23T02:50:10Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "ipfs",
+        "anim_class": null,
+        "image_verdict": "alive",
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "ipfs"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "unknown",
+        "liveness_exact_reason": "media-unknown:gateway-bot-walled",
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "unknown",
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000000000",
+          "endpoint": "https://eth.drpc.org",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x1a92f7381b9f03921564a437210bb9396471050c/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0x1a92f7381b9f03921564a437210bb9396471050c",
+      "token_id": "4999",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(4999) [mid; totalSupply=9999]",
+      "metadata_location": "http",
+      "metadata_uri": "https://api.coolcatsnft.com/cat/4999",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "api.coolcatsnft.com",
+          "url": "https://api.coolcatsnft.com/cat/4999",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 4,
+          "final_url": "https://api.coolcatsnft.com/cat/4999",
+          "content_type": "application/json",
+          "size": 1188,
+          "content_length": null,
+          "sha256": "335f7bd6e75ea0a2c150cf9893f6cf890611b0284345acea8195a78ae425c345",
+          "t": "2026-10-23T02:50:11Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "ipfs",
+          "host": "ipfs.io",
+          "gateway": "ipfs.io",
+          "uri": "https://ipfs.io/ipfs/QmVjSLyNHpJSzrB3SAdVCGryFETmfo5AZsgbs5vSAGBLRK",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "magic.decentralized-content.com",
+              "url": "https://magic.decentralized-content.com/ipfs/QmVjSLyNHpJSzrB3SAdVCGryFETmfo5AZsgbs5vSAGBLRK",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 8,
+              "final_url": "https://magic.decentralized-content.com/ipfs/QmVjSLyNHpJSzrB3SAdVCGryFETmfo5AZsgbs5vSAGBLRK",
+              "content_type": "image/png",
+              "size": 65536,
+              "content_length": 82059,
+              "sha256": "cb48f43eeb24b90ab89d447812c2fa339c1365174b5486fcac50a32700f999a1",
+              "t": "2026-10-23T02:50:11Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "ipfs",
+        "anim_class": null,
+        "image_verdict": "alive",
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "ipfs"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "unknown",
+        "liveness_exact_reason": "media-unknown:gateway-bot-walled",
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "unknown",
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000001387",
+          "endpoint": "https://eth.drpc.org",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x1a92f7381b9f03921564a437210bb9396471050c/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0x1a92f7381b9f03921564a437210bb9396471050c",
+      "token_id": "9998",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(9998) [recent; totalSupply=9999]",
+      "metadata_location": "http",
+      "metadata_uri": "https://api.coolcatsnft.com/cat/9998",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "api.coolcatsnft.com",
+          "url": "https://api.coolcatsnft.com/cat/9998",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 7,
+          "final_url": "https://api.coolcatsnft.com/cat/9998",
+          "content_type": "application/json",
+          "size": 937,
+          "content_length": 937,
+          "sha256": "c492b9b2b4b09122e8b1da45eb212b2ce85f3ff8e17000b463f8a4d2f7f98d3a",
+          "t": "2026-10-23T02:50:11Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "ipfs",
+          "host": "ipfs.io",
+          "gateway": "ipfs.io",
+          "uri": "https://ipfs.io/ipfs/QmNw7ny1aEE8eHxcrc4iorTAAfqz7nkiYTwVC9zoeYBXb1",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "ipfs.blockfrost.dev",
+              "url": "https://ipfs.blockfrost.dev/ipfs/QmNw7ny1aEE8eHxcrc4iorTAAfqz7nkiYTwVC9zoeYBXb1",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 9,
+              "final_url": "https://ipfs.blockfrost.dev/ipfs/QmNw7ny1aEE8eHxcrc4iorTAAfqz7nkiYTwVC9zoeYBXb1",
+              "content_type": "image/png",
+              "size": 65536,
+              "content_length": 82847,
+              "sha256": "81df5aeca6589c2f175740608273ed4647397235f7d9000c7a9e852e847fd435",
+              "t": "2026-10-23T02:50:11Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "ipfs",
+        "anim_class": null,
+        "image_verdict": "alive",
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "ipfs"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "unknown",
+        "liveness_exact_reason": "media-unknown:gateway-bot-walled",
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "unknown",
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd000000000000000000000000000000000000000000000000000000000000270e",
+          "endpoint": "https://eth.drpc.org",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x1a92f7381b9f03921564a437210bb9396471050c/evidence.jsonl.gz"
+    }
+  ],
+  "saved_packet_index": [
+    {
+      "path": "data/raw/top100-api/opensea-contract-0x1a92f7381b9f03921564a437210bb9396471050c-attempt1-1792724277631182522.body",
+      "sha256": "b613ebcd8def5854db79354e7b63c753c664a3ca40697223a5ee5ecd254c30de",
+      "retrieved_at": "2026-10-23T02:57:57Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0x1a92f7381b9f03921564a437210bb9396471050c",
+      "method": "GET",
+      "status": 200,
+      "error": null,
+      "bytes": 178,
+      "truncated": false
+    },
+    {
+      "path": "data/raw/top100-api/opensea-contract-0x1a92f7381b9f03921564a437210bb9396471050c.json",
+      "sha256": "b613ebcd8def5854db79354e7b63c753c664a3ca40697223a5ee5ecd254c30de",
+      "retrieved_at": "2026-10-23T02:57:57Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0x1a92f7381b9f03921564a437210bb9396471050c",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "data/raw/top100-census/0x1a92f7381b9f03921564a437210bb9396471050c/bodies.zip",
+      "sha256": "2ce642cc0808116626bb7eb3a95e3879146faeb742484f577df96616bb920bb6",
+      "bytes": 13339
+    },
+    {
+      "path": "data/raw/top100-census/0x1a92f7381b9f03921564a437210bb9396471050c/evidence.jsonl.gz",
+      "sha256": "444347470b11629f11369b2f27f9a7c703342a00fcf0bea04ca3d9533a3ac406",
+      "bytes": 1257
+    },
+    {
+      "path": "data/raw/top100-census/0x1a92f7381b9f03921564a437210bb9396471050c/result.json.gz",
+      "sha256": "f15d0e5eb8132bfd15c6567e06c80ea1d9d5a14cbe5b26ee0ecaaa697eeea908",
+      "bytes": 1902
+    },
+    {
+      "path": "data/raw/top100-mutability/0x1a92f7381b9f03921564a437210bb9396471050c.json",
+      "sha256": "e528e05093c99db403b6fa3c421696da845cd777fa4ca501d5a53c287ffc35da",
+      "bytes": 13063
+    },
+    {
+      "path": "data/raw/top100-pointers/0x1a92f7381b9f03921564a437210bb9396471050c/result.json",
+      "sha256": "572d2323a17baa8149a930e203ec93a6ac1fb5faab880b399f09d88d5bcfb8b1",
+      "bytes": 203
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x1a92f7381b9f03921564a437210bb9396471050c/bodies.zip",
+      "sha256": "5a8a03ab83afe5a0fdf908594f5ab6881ac3f5fb0e30e06ac51d5608f3eec9c3",
+      "bytes": 632
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x1a92f7381b9f03921564a437210bb9396471050c/evidence.jsonl.gz",
+      "sha256": "5adfa30fb3a209bc76d97aecd3810f2592c21c3e73810a66d1f93e25f94033d0",
+      "bytes": 695
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x1a92f7381b9f03921564a437210bb9396471050c/result.json",
+      "sha256": "b5ea5f464dec1a854b09ff6562b939328f5fed1de380cdab09a50f01f151d05e",
+      "bytes": 299
+    }
+  ],
+  "interpretation": "Liveness describes sampled metadata and primary-image delivery, not permanent loss of the artwork."
+}

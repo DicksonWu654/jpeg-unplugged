@@ -1,0 +1,291 @@
+{
+ "address": "0x47e69cbd049c4aa1bbeb74123737b91de95b238b",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:19Z",
+ "code_raw": "data/raw/rpc-mutability/0x47e69cbd049c4aa1bbeb74123737b91de95b238b_code.json",
+ "code_len": 15126,
+ "slots": {
+  "slot0": "0x000000000000000000000000951a5f16faf170de675c4c9e350b1b4b4c4eb215"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0x47e69cbd049c4aa1bbeb74123737b91de95b238b_slots.json",
+ "verified": true,
+ "contract_name": "ProofOfXP",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 1,
+    "first": "2026-10-08",
+    "last": "2026-10-08",
+    "last_tx": "0xfadb9f0b0e59f4f537a94b4c652d519ef9625307a5cc90bab8c0fe11742758fe",
+    "list": [
+     {
+      "date": "2026-10-08",
+      "tx": "0xfadb9f0b0e59f4f537a94b4c652d519ef9625307a5cc90bab8c0fe11742758fe",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "4540fd07c9c586577ddb52bffa9227337e1b7de5"
+      ],
+      "data": "0x"
+     }
+    ]
+   },
+   "Locked(uint256)": {
+    "n": 2000,
+    "first": "2026-10-08",
+    "last": "2026-10-10",
+    "last_tx": "0x20ae504ed5cedf5dd906235461efd76262a8591f5d3e2f55d662d7aad5017c5b",
+    "list": [
+     {
+      "date": "2026-10-08",
+      "tx": "0x6f17abc3ce5da831ac09e281fb120ca6df921659258eb49901b9938e937fc400",
+      "topics": [],
+      "data": "0x000000000000000000000000700d7b774f5af65d26e5b9ae969ca9611ff80f6d"
+     },
+     {
+      "date": "2026-10-08",
+      "tx": "0x25356c81eb9fdf3731934ca00de892bf015ef81c1cde7bdeb6a0bcc8b3bf0a91",
+      "topics": [],
+      "data": "0x00000000000000000000000095e784cc4b0e7e481983834b854dd906446254a7"
+     },
+     {
+      "date": "2026-10-08",
+      "tx": "0x56709480c0c8d31723e32544043ff32b30eb51fda6cc788b600cec6977b7973f",
+      "topics": [],
+      "data": "0x0000000000000000000000002a0828fff4aa10602d3629dfdbd2bf0d1f3965ba"
+     },
+     {
+      "date": "2026-10-08",
+      "tx": "0xb16edb2dc315df29f2a553487d13bd140d1009e2af5d2af51540714bbb38b3d4",
+      "topics": [],
+      "data": "0x0000000000000000000000007d241602796203f28ce400d07edae8e884bcb436"
+     },
+     {
+      "date": "2026-10-08",
+      "tx": "0xe53258580a586c9e29a9c0fdc325485ac2e878cad8a179c1d5baa0c97e5aad7d",
+      "topics": [],
+      "data": "0x00000000000000000000000064566dede363126b91f60072a72a9aeaac94f6ff"
+     },
+     {
+      "date": "2026-10-08",
+      "tx": "0x9b8c39bf10e492664cd08c649266c12578abf410fca6d63777391b00c86cf784",
+      "topics": [],
+      "data": "0x00000000000000000000000002323f3fe4c50c1faeaa38e484b71bdbb6c8fb32"
+     },
+     {
+      "date": "2026-10-08",
+      "tx": "0xd1a0934972c3633fa0ca4634b86805d906a16a8bb254ffbbdff249bfd6d14b49",
+      "topics": [],
+      "data": "0x000000000000000000000000f2ec456eb73ed53679e70e80c14784dbc4cc3599"
+     },
+     {
+      "date": "2026-10-08",
+      "tx": "0xb91e272f1333f8e091f7780d1e826a7d198be93a361900acafa4276cae2b8ee8",
+      "topics": [],
+      "data": "0x000000000000000000000000d1ab5f255d0fa314ab718f4875b90da2f93ee3b7"
+     },
+     {
+      "date": "2026-10-08",
+      "tx": "0xa09c94c679eb93a16ac0469a5cb6f8a4ec60e2beab71d1c033cc27a377a65f19",
+      "topics": [],
+      "data": "0x00000000000000000000000087ca447ea38a1dbbcb6cf97b4305d6d9ea504e44"
+     },
+     {
+      "date": "2026-10-08",
+      "tx": "0x07002748a3014f07944cbb0a25672459d678c91a5e60701e571801664f942089",
+      "topics": [],
+      "data": "0x0000000000000000000000008908b0abb55d7b5fcff3b7cb7532985d166fe4e2"
+     },
+     {
+      "date": "2026-10-08",
+      "tx": "0xd4bfc7e399e303f39c59fca7d41925c6c20bbc44e599bc88e0e4c11dd8ec70fb",
+      "topics": [],
+      "data": "0x000000000000000000000000fce5c277f2cb7c3b7278d00250025f41d9a4657c"
+     },
+     {
+      "date": "2026-10-08",
+      "tx": "0xf12eb78e9429a7d4e4dc6d137c59063e87dbe693f2b395b43af1323a21fb32f0",
+      "topics": [],
+      "data": "0x000000000000000000000000f2f7e708ef447f9a445120ea0dcf5b4b5d19ac1b"
+     },
+     {
+      "date": "2026-10-08",
+      "tx": "0x6a5e5094702123f656f66993d41b21d9cb36b53d7f1329f640655163736a8f29",
+      "topics": [],
+      "data": "0x00000000000000000000000067016b9194c606a23d14b893e63fb1bb24632bfc"
+     },
+     {
+      "date": "2026-10-08",
+      "tx": "0xe229d79a55d202fc42e0c215774e81893d4f14c4751fbe6b649c81ea84089a7a",
+      "topics": [],
+      "data": "0x00000000000000000000000060b781e6a120ed8e03d0f813d5ba18217c9b9f7b"
+     },
+     {
+      "date": "2026-10-08",
+      "tx": "0x375269118845b157c03547146ad13616c0ebe20b5098c9edd67ac0938ce0171c",
+      "topics": [],
+      "data": "0x00000000000000000000000084de6b31cdf65f93c65b713383687ea43b4d75b7"
+     },
+     {
+      "date": "2026-10-08",
+      "tx": "0x8b0d5a060ad8b0d930cda862fd8299f429b0378a8b6ff86147159b910bc823b3",
+      "topics": [],
+      "data": "0x000000000000000000000000817325363bfc062c517ab2605b13f412c16c13e7"
+     },
+     {
+      "date": "2026-10-08",
+      "tx": "0x265d461a019b809c9e7f93858eab2bbe7c1e28458c1f6546fc6c3c5f0fc5b336",
+      "topics": [],
+      "data": "0x000000000000000000000000abee849ab5f4860da2e968720ad62452e4a46e91"
+     },
+     {
+      "date": "2026-10-08",
+      "tx": "0x77c62ff32f4587e74e54c531a1aeec6e71ab188df04dc80821fb7eac01b89d3c",
+      "topics": [],
+      "data": "0x0000000000000000000000008ed75bd1fb3342bed5de0f460285fa0ad5cac991"
+     },
+     {
+      "date": "2026-10-08",
+      "tx": "0x940aa1ce49f83444a27dc29c4c9a230d1f78a9c60c903ce68d3501478ccfb0f5",
+      "topics": [],
+      "data": "0x000000000000000000000000b747190b7394ed19dca4aa4ba7f4bea90790f8dc"
+     },
+     {
+      "date": "2026-10-08",
+      "tx": "0xb6e9c8ecbd015d02243982a6a899b093af140a451e91fad75b13123b9a92778c",
+      "topics": [],
+      "data": "0x000000000000000000000000549370013247c8dba0aac712822f6bafb0e287e9"
+     },
+     {
+      "date": "2026-10-08",
+      "tx": "0xae5a4a0cd93e691b2332c31943a7bbad5498837c96fdf66b73722ae0f5502360",
+      "topics": [],
+      "data": "0x000000000000000000000000032b9c48951e92a22e9e21b9e4f967af1dd5f3b5"
+     },
+     {
+      "date": "2026-10-08",
+      "tx": "0x12e7fea2a3b22ce67274459410dc1adc170d608fe55780dea5f2022a3819c473",
+      "topics": [],
+      "data": "0x000000000000000000000000239a8a4c0738bf399e6b821f42509c4b1c1ffabc"
+     },
+     {
+      "date": "2026-10-08",
+      "tx": "0x71c4f980b5b7c7377f9ceb59a8e3611bee30868bd0562e53c55ab4628d54fdb1",
+      "topics": [],
+      "data": "0x000000000000000000000000838c0891efa420de109e5d5daad7d34ea5a6cfdf"
+     },
+     {
+      "date": "2026-10-08",
+      "tx": "0xb11cfb0be81f65e1b0c94bb9c9d4f737e3027a3e01a4a17e0950c0f7e460fbec",
+      "topics": [],
+      "data": "0x0000000000000000000000007c2125fc8442eea22a83db2cbdb33adb30325349"
+     },
+     {
+      "date": "2026-10-08",
+      "tx": "0x530cb6c937de58ab77752d152f7f30e20d8b4b6db085e4b08c1eb8b995ccf573",
+      "topics": [],
+      "data": "0x0000000000000000000000002b82bcd479b1dbb3509288f5c8bee9e0568aa14c"
+     },
+     {
+      "date": "2026-10-08",
+      "tx": "0x5899e5a3a168544047756ac1294e94d9ef6c7587f962000fb972f06719febd46",
+      "topics": [],
+      "data": "0x000000000000000000000000470820ad2ade09ea4bf9b84afe14c8159e1009e1"
+     },
+     {
+      "date": "2026-10-08",
+      "tx": "0xa89caaae5ed83dc93706b475f4e31bd3cc84f2ec7b6738460e696b8e17d67036",
+      "topics": [],
+      "data": "0x000000000000000000000000614e964b8e03ead0ca95efb3bc140785ffa90c63"
+     },
+     {
+      "date": "2026-10-08",
+      "tx": "0x8affb33da450a5906cd4766aadd37b373dab104e4c0a36be70168cf2a135dd68",
+      "topics": [],
+      "data": "0x0000000000000000000000007b924f8164ff2311680a0431f05e6bcde6a3f954"
+     },
+     {
+      "date": "2026-10-08",
+      "tx": "0x3352c6fc1182877ada2dea8200dbdcd3796e4c17f733ddc93dec2dc45bcc5344",
+      "topics": [],
+      "data": "0x0000000000000000000000007130c97d059ec4d1995846033a008200950a8796"
+     },
+     {
+      "date": "2026-10-08",
+      "tx": "0xe36f161709f2ff88fc97c0d35d6a552960076a8ef89e451cbc4f283450c74074",
+      "topics": [],
+      "data": "0x0000000000000000000000001f7a1735baaaee544d7136291dbb1b1092a46ec5"
+     }
+    ]
+   }
+  },
+  "decoded": [],
+  "ownership_transfers": [
+   {
+    "date": "2026-10-08",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0x4540fd07c9c586577ddb52bffa9227337e1b7de5",
+    "tx": "0xfadb9f0b0e59f4f537a94b4c652d519ef9625307a5cc90bab8c0fe11742758fe"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0x47e69cbd049c4aa1bbeb74123737b91de95b238b_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0x4540fd07c9c586577ddb52bffa9227337e1b7de5",
+  "code_raw": "data/raw/rpc-mutability/0x4540fd07c9c586577ddb52bffa9227337e1b7de5_holdercode.json",
+  "type": "eoa",
+  "bs_name": null,
+  "ens": null,
+  "bs_impl_names": [],
+  "bs_tags": [],
+  "is_contract": false,
+  "creator": null,
+  "is_verified": false,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "override",
+ "lock_functions": [],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [],
+ "class_direct": "immutable",
+ "class_reason": "no uri/renderer/upgrade function in ABI and not a proxy",
+ "live_mutators": [],
+ "dependencies": [],
+ "meta": {
+  "address": "0x47e69cbd049c4aa1bbeb74123737b91de95b238b",
+  "name": "Proof of XP",
+  "w5_claim_strength": "explicit-100%/fully",
+  "w5_claim_text": "/// @notice Fully onchain metadata for an existing token, identified by its source AGW.",
+  "w5_source_type": "contract-source",
+  "w5_source_url": "https://etherscan.io/address/0x47e69cbd049c4aa1bbeb74123737b91de95b238b#code (src/ProofOfXP.sol:200)",
+  "holders_count": 2793.0,
+  "in_w5": true,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": null,
+  "census_media_class": null,
+  "census_liveness": null,
+  "in_census_onchain": false,
+  "standard": "ERC-721",
+  "creator": "0x4540fd07c9c586577ddb52bffa9227337e1b7de5",
+  "deploy_block": 26149309.0
+ },
+ "class_deps_all": "none",
+ "class_deps": "none",
+ "class_final": "immutable",
+ "pointer_power": null
+}

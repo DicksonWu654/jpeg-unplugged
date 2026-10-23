@@ -1,0 +1,57 @@
+{
+ "collection": "BitmapPunks",
+ "slug": "bitmappunks",
+ "contract": "0xBBBBA1eE822c9B8fc134deA6aDfC26603a9cBBBB",
+ "token_id": 1,
+ "chain_method": "data URI (contract-assembled; technique labelled from verified source flags)",
+ "chain_call": "tokenURI(1)",
+ "json_name": "BitmapPunks #1",
+ "fields": {
+  "image": "data:image/svg+xml",
+  "animation_url": null,
+  "external_url": "https",
+  "json_how": "data-uri-base64"
+ },
+ "rpc": {
+  "default_public_ok": true,
+  "highgas_drpc_ok": null,
+  "highgas_blxr_ok": null,
+  "fork_ok": null,
+  "rpc": "public-default",
+  "needed_fork": false,
+  "unreadable_from_default_public_call": false,
+  "gas_estimate": null
+ },
+ "medium": "svg (image data URI)",
+ "primary": "image",
+ "source_flags": {
+  "verified": true,
+  "contract_name": "BitmapPunks721",
+  "proxy": false,
+  "implementation": null,
+  "sstore2": false,
+  "ethfs": false,
+  "scripty": false,
+  "base64": true,
+  "gzip": false,
+  "data_uri": true,
+  "http_literals": [
+   "https://bitmappunks.com",
+   "https://datatracker.ietf.org/doc/html/rfc2396",
+   "https://datatracker.ietf.org/doc/html/rfc3986",
+   "https://datatracker.ietf.org/doc/html/rfc4648",
+   "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/encodeURIComponent"
+  ],
+  "ipfs_literal": false,
+  "setters": []
+ },
+ "artwork_file": "artwork.svg",
+ "doc_type": "image/svg+xml; charset=utf-8",
+ "artwork_bytes": 7979,
+ "artwork_sha256": "f3d9706af151ff09f3300d348f62800dca9efc5b7f2f7266ce15f03873036d12",
+ "declared": {
+  "load": [],
+  "literals": []
+ },
+ "built_at": "2026-10-21T20:18:24Z"
+}

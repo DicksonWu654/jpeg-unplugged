@@ -1,0 +1,148 @@
+{
+ "address": "0xc48dcc4ce6dc018a6ca60ce49c11596db6620e51",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:48Z",
+ "code_raw": "data/raw/rpc-mutability/0xc48dcc4ce6dc018a6ca60ce49c11596db6620e51_code.json",
+ "code_len": 16287,
+ "slots": {
+  "slot0": "0x494e204e4f495345205745205452555354000000000000000000000000000022"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0xc48dcc4ce6dc018a6ca60ce49c11596db6620e51_slots.json",
+ "verified": true,
+ "contract_name": "InNoiseWeTrust",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [
+   {
+    "hash": "0xba39a735f5267c6732f7daeccc0e639ff0000d5eec116f938f08b333185201bf",
+    "timestamp": "2022-04-04T16:54:27.000000Z",
+    "method": "transferOwnership",
+    "from": "0x6C8679BE98CE32cD694a32a7E3203BB7C7e6567B",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 14520696,
+    "category": "ownership"
+   }
+  ],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 2,
+    "first": "2022-04-04",
+    "last": "2022-04-04",
+    "last_tx": "0xba39a735f5267c6732f7daeccc0e639ff0000d5eec116f938f08b333185201bf",
+    "list": [
+     {
+      "date": "2022-04-04",
+      "tx": "0x998c5995a9433eb29a32fd1be8f66e5b2bed4e16d63d86f1ca73286ead1ec118",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "6c8679be98ce32cd694a32a7e3203bb7c7e6567b"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2022-04-04",
+      "tx": "0xba39a735f5267c6732f7daeccc0e639ff0000d5eec116f938f08b333185201bf",
+      "topics": [
+       "6c8679be98ce32cd694a32a7e3203bb7c7e6567b",
+       "571b70ccf8f44b6c4d44dc414752c71ded66e0ea"
+      ],
+      "data": "0x"
+     }
+    ]
+   }
+  },
+  "decoded": [
+   {
+    "hash": "0xba39a735f5267c6732f7daeccc0e639ff0000d5eec116f938f08b333185201bf",
+    "timestamp": "2022-04-04T16:54:27.000000Z",
+    "method": "transferOwnership",
+    "category": "ownership",
+    "from": "0x6C8679BE98CE32cD694a32a7E3203BB7C7e6567B",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0x571b70ccf8f44b6c4d44dc414752c71ded66e0ea"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   }
+  ],
+  "ownership_transfers": [
+   {
+    "date": "2022-04-04",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0x6c8679be98ce32cd694a32a7e3203bb7c7e6567b",
+    "tx": "0x998c5995a9433eb29a32fd1be8f66e5b2bed4e16d63d86f1ca73286ead1ec118"
+   },
+   {
+    "date": "2022-04-04",
+    "from": "0x6c8679be98ce32cd694a32a7e3203bb7c7e6567b",
+    "to": "0x571b70ccf8f44b6c4d44dc414752c71ded66e0ea",
+    "tx": "0xba39a735f5267c6732f7daeccc0e639ff0000d5eec116f938f08b333185201bf"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0xc48dcc4ce6dc018a6ca60ce49c11596db6620e51_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0x571b70ccf8f44b6c4d44dc414752c71ded66e0ea",
+  "code_raw": "data/raw/rpc-mutability/0x571b70ccf8f44b6c4d44dc414752c71ded66e0ea_holdercode.json",
+  "type": "eoa",
+  "bs_name": null,
+  "ens": null,
+  "bs_impl_names": [],
+  "bs_tags": [],
+  "is_contract": false,
+  "creator": null,
+  "is_verified": false,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "override",
+ "lock_functions": [],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [],
+ "class_direct": "immutable",
+ "class_reason": "no uri/renderer/upgrade function in ABI and not a proxy",
+ "live_mutators": [],
+ "dependencies": [],
+ "meta": {
+  "address": "0xc48dcc4ce6dc018a6ca60ce49c11596db6620e51",
+  "name": "IN NOISE WE TRUST",
+  "w5_claim_strength": "on-chain-generic",
+  "w5_claim_text": "INWT is the first, true on-chain real-time generative audio-visual digital art project.",
+  "w5_source_type": "directory",
+  "w5_source_url": "https://www.fullyonchain.art/collections/in-noise-we-trust",
+  "holders_count": 109.0,
+  "in_w5": true,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": null,
+  "census_media_class": null,
+  "census_liveness": null,
+  "in_census_onchain": false,
+  "standard": "ERC-721",
+  "creator": "0x6c8679be98ce32cd694a32a7e3203bb7c7e6567b",
+  "deploy_block": 14520350.0
+ },
+ "class_deps_all": "none",
+ "class_deps": "none",
+ "class_final": "immutable",
+ "pointer_power": null
+}

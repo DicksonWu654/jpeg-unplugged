@@ -1,0 +1,53 @@
+{
+ "collection": "Mangled Drone Crow [ERC-1155]",
+ "slug": "mangled-drone-crow",
+ "contract": "0xd3a0B315023243632A15Fd623D6f33314193df4e",
+ "token_id": 1,
+ "chain_method": "ERC-1155 uri(): data URI (contract-assembled)",
+ "chain_call": "uri(1)",
+ "json_name": "Mangled Drone Crow",
+ "fields": {
+  "image": "data:image/svg+xml",
+  "animation_url": null,
+  "external_url": null,
+  "json_how": "data-uri-utf8"
+ },
+ "rpc": {
+  "default_public_ok": true,
+  "highgas_drpc_ok": null,
+  "highgas_blxr_ok": null,
+  "fork_ok": null,
+  "rpc": "public-default",
+  "needed_fork": false,
+  "unreadable_from_default_public_call": false,
+  "gas_estimate": null
+ },
+ "medium": "svg (image data URI)",
+ "primary": "image",
+ "source_flags": {
+  "verified": true,
+  "contract_name": "Transponders",
+  "proxy": false,
+  "implementation": null,
+  "sstore2": false,
+  "ethfs": false,
+  "scripty": false,
+  "base64": false,
+  "gzip": false,
+  "data_uri": false,
+  "http_literals": [
+   "https://xn--2-umb.com/21/muldiv"
+  ],
+  "ipfs_literal": false,
+  "setters": []
+ },
+ "artwork_file": "artwork.svg",
+ "doc_type": "image/svg+xml; charset=utf-8",
+ "artwork_bytes": 27697,
+ "artwork_sha256": "748de9c0746b6c087afebf21b795c3e6f145b52367432802453e8c8ac6e0575a",
+ "declared": {
+  "load": [],
+  "literals": []
+ },
+ "built_at": "2026-10-21T20:26:32Z"
+}

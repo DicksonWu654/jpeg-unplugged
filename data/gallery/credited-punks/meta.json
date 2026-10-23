@@ -1,0 +1,53 @@
+{
+ "collection": "Credited Punks",
+ "slug": "credited-punks",
+ "contract": "0x5E9F813Aa8D09b744a0E557D06776a484f64446a",
+ "token_id": 1,
+ "chain_method": "data URI (contract-assembled; technique labelled from verified source flags)",
+ "chain_call": "tokenURI(1)",
+ "json_name": "CP #1",
+ "fields": {
+  "image": "data:image/svg+xml",
+  "animation_url": "data:text/html",
+  "external_url": null,
+  "json_how": "data-uri-base64"
+ },
+ "rpc": {
+  "default_public_ok": true,
+  "highgas_drpc_ok": null,
+  "highgas_blxr_ok": null,
+  "fork_ok": null,
+  "rpc": "public-default",
+  "needed_fork": false,
+  "unreadable_from_default_public_call": false,
+  "gas_estimate": null
+ },
+ "medium": "html+js (animation_url data URI)",
+ "primary": "animation_url",
+ "source_flags": {
+  "verified": true,
+  "contract_name": "CreditedPunks",
+  "proxy": false,
+  "implementation": null,
+  "sstore2": false,
+  "ethfs": false,
+  "scripty": false,
+  "base64": false,
+  "gzip": false,
+  "data_uri": false,
+  "http_literals": [],
+  "ipfs_literal": false,
+  "setters": [
+   "setRenderer"
+  ]
+ },
+ "artwork_file": "artwork.html",
+ "doc_type": "text/html; charset=utf-8",
+ "artwork_bytes": 16561,
+ "artwork_sha256": "c8b9803c4d668f5035027c8f78051afe0b6b40d1155427cfb427d01141069d6e",
+ "declared": {
+  "load": [],
+  "literals": []
+ },
+ "built_at": "2026-10-21T20:18:10Z"
+}

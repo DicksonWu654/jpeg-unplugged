@@ -1,0 +1,224 @@
+{
+ "0xc1caf0c19a8ac28c41fe59ba6c754e4b9bd54de9": {
+  "outcome": "onchain-data-offchain-pointer",
+  "reason": "All 10,000 skull indices return attributes and 576 on-chain RGB pixels from CryptoSkullsData at 0x9a7b94954751d539c63e16aa6e0557c451251394. The collection tokenURI still uses IPFS; both data writes and the collection base URI remain owner-controlled.",
+  "evidence": [
+   "data/mutability/reviewed_reads/cryptoskulls_coverage.json",
+   "data/mutability/reviewed_reads/0x9a7b94954751d539c63e16aa6e0557c451251394_source.json",
+   "data/mutability/evidence/0xc1caf0c19a8ac28c41fe59ba6c754e4b9bd54de9.json",
+   "data/mutability/reviewed_reads/0xc1caf0c19a8ac28c41fe59ba6c754e4b9bd54de9_tokenURI_ef7796a30734.json",
+   "data/mutability/reviewed_reads/0x9a7b94954751d539c63e16aa6e0557c451251394_getAttrs_8c99f32e2340.json",
+   "data/mutability/reviewed_reads/0x9a7b94954751d539c63e16aa6e0557c451251394_getAttrs_e03b83e17c0a.json",
+   "data/mutability/reviewed_reads/0x9a7b94954751d539c63e16aa6e0557c451251394_getAttrs_e7521c705927.json",
+   "data/mutability/reviewed_reads/0x9a7b94954751d539c63e16aa6e0557c451251394_getName_0b7fb0ca6d6f.json",
+   "data/mutability/reviewed_reads/0x9a7b94954751d539c63e16aa6e0557c451251394_getName_372795293742.json",
+   "data/mutability/reviewed_reads/0x9a7b94954751d539c63e16aa6e0557c451251394_getName_f7cd39639103.json",
+   "data/mutability/reviewed_reads/0x9a7b94954751d539c63e16aa6e0557c451251394_getPixels_73efa3868cff.json",
+   "data/mutability/reviewed_reads/0x9a7b94954751d539c63e16aa6e0557c451251394_getPixels_a4e0471afd5f.json",
+   "data/mutability/reviewed_reads/0x9a7b94954751d539c63e16aa6e0557c451251394_getPixels_e13f8fa57a35.json",
+   "data/mutability/reviewed_reads/0x9a7b94954751d539c63e16aa6e0557c451251394_getSvg_0d0ac00db6b1.json",
+   "data/mutability/reviewed_reads/0x9a7b94954751d539c63e16aa6e0557c451251394_getSvg_b39ab6c20c29.json",
+   "data/mutability/reviewed_reads/0x9a7b94954751d539c63e16aa6e0557c451251394_getSvg_cc47b502a26c.json",
+   "data/mutability/reviewed_reads/0x9a7b94954751d539c63e16aa6e0557c451251394_owner_649e9401a340.json"
+  ],
+  "data_contracts": [
+   "0x9a7b94954751d539c63e16aa6e0557c451251394"
+  ],
+  "data_control_note": "Separate from the ordinary tokenURI dependency graph: owner EOA 0x9af756e7be065dca83674ec17f3703579a544da1 can overwrite attributes, names, eyes, hair, beards and lord pixel arrays via owner-only add* functions. No freeze guard is present."
+ },
+ "0x8d04a8c79ceb0889bdd12acdf3fa9d207ed3ff63": {
+  "outcome": "onchain-data-offchain-pointer",
+  "reason": "tokenDataOf(1) and tokenSvgDataOf(1) return bitmap data and SVG directly from Blitmap; tokenURI(1) still uses the HTTP API and its base URI remains settable.",
+  "evidence": [
+   "data/mutability/evidence/0x8d04a8c79ceb0889bdd12acdf3fa9d207ed3ff63.json",
+   "data/gallery/blitmap/chain",
+   "data/mutability/reviewed_reads/0x8d04a8c79ceb0889bdd12acdf3fa9d207ed3ff63_tokenDataOf_1f98bb56f34e.json",
+   "data/mutability/reviewed_reads/0x8d04a8c79ceb0889bdd12acdf3fa9d207ed3ff63_tokenSvgDataOf_c5b54e5c41c8.json",
+   "data/mutability/reviewed_reads/0x8d04a8c79ceb0889bdd12acdf3fa9d207ed3ff63_tokenURI_ef7796a30734.json"
+  ]
+ },
+ "0x91047abf3cab8da5a9515c8750ab33b4f1560a7a": {
+  "outcome": "onchain-data-offchain-pointer",
+  "reason": "getFace(1) and getGolfScore(1) return on-chain ASCII art and attributes; tokenURI(1) retains the Azure HTTP pointer. The data claim does not promise that HTTP endpoint will work.",
+  "evidence": [
+   "data/mutability/evidence/0x91047abf3cab8da5a9515c8750ab33b4f1560a7a.json",
+   "data/mutability/reviewed_reads/0x91047abf3cab8da5a9515c8750ab33b4f1560a7a_getFace_a1a100a1e2ff.json",
+   "data/mutability/reviewed_reads/0x91047abf3cab8da5a9515c8750ab33b4f1560a7a_getGolfScore_2398b3e3fb6e.json",
+   "data/mutability/reviewed_reads/0x91047abf3cab8da5a9515c8750ab33b4f1560a7a_tokenURI_ef7796a30734.json"
+  ]
+ },
+ "0xc3f733ca98e0dad0386979eb96fb1722a1a05e69": {
+  "outcome": "onchain-data-offchain-pointer",
+  "reason": "The original 2017 MoonCatRescue contract 0x60cd862c9c687a9de49aecdc3a99b74a4fc54ab6 returns the five-byte cat seed via rescueOrder and getCatDetails; the acclimator wrapper tokenURI uses HTTP and its setBaseURI remains owner-controlled. Reconstructing pixels also requires the published MoonCat parser; this check establishes seed storage.",
+  "evidence": [
+   "data/mutability/reviewed_reads/0x60cd862c9c687a9de49aecdc3a99b74a4fc54ab6_source.json",
+   "data/mutability/evidence/0xc3f733ca98e0dad0386979eb96fb1722a1a05e69.json",
+   "data/mutability/reviewed_reads/0xc3f733ca98e0dad0386979eb96fb1722a1a05e69_tokenURI_ef7796a30734.json",
+   "data/mutability/reviewed_reads/0x60cd862c9c687a9de49aecdc3a99b74a4fc54ab6_getCatDetails_6b3a27ba1fd2.json",
+   "data/mutability/reviewed_reads/0x60cd862c9c687a9de49aecdc3a99b74a4fc54ab6_rescueOrder_0409b64abcb9.json"
+  ],
+  "data_contracts": [
+   "0x60cd862c9c687a9de49aecdc3a99b74a4fc54ab6"
+  ]
+ },
+ "0x97597002980134bea46250aa0510c9b90d87a587": {
+  "outcome": "onchain-data-offchain-pointer",
+  "reason": "The live routing contract's onChainTokenURI(1) returns inline SVG art from a separate on-chain renderer. The collection tokenURI(1) uses an HTTP API; mutable routing is a separate observation, not a false storage claim.",
+  "evidence": [
+   "data/mutability/reviewed_reads/0x78f51427020c5ba128b07e99325d71250b0ed0e1_source.json",
+   "data/gallery/chain-runners/chain",
+   "data/mutability/evidence/0x97597002980134bea46250aa0510c9b90d87a587.json",
+   "data/mutability/reviewed_reads/0x97597002980134bea46250aa0510c9b90d87a587_getDna_610f8dfe3796.json",
+   "data/mutability/reviewed_reads/0x97597002980134bea46250aa0510c9b90d87a587_renderingContractAddress_68372afcdd4b.json",
+   "data/mutability/reviewed_reads/0x97597002980134bea46250aa0510c9b90d87a587_tokenURI_ef7796a30734.json",
+   "data/mutability/reviewed_reads/0x78f51427020c5ba128b07e99325d71250b0ed0e1_onChainRenderer_5447c72538e6.json",
+   "data/mutability/reviewed_reads/0x78f51427020c5ba128b07e99325d71250b0ed0e1_onChainTokenURI_2bc80b2ac020.json"
+  ],
+  "data_contracts": [
+   "0x78f51427020c5ba128b07e99325d71250b0ed0e1",
+   "0xfdac77881ff861ff76a83cc43a1be3c317c6a1cc"
+  ]
+ },
+ "0xf3e778f839934fc819cfa1040aabacecba01e049": {
+  "outcome": "onchain-data-offchain-pointer",
+  "reason": "renderAvastar(1) returns SVG directly from Ethereum and the saved gallery renders it unplugged; the collection tokenURI uses an HTTP metadata pointer.",
+  "evidence": [
+   "data/gallery/avastars/chain",
+   "data/mutability/evidence/0xf3e778f839934fc819cfa1040aabacecba01e049.json",
+   "data/mutability/reviewed_reads/0xf3e778f839934fc819cfa1040aabacecba01e049_renderAvastar_127d5d3a8c9f.json"
+  ]
+ },
+ "0x8754f54074400ce745a7ceddc928fb1b7e985ed6": {
+  "outcome": "onchain-data-offchain-pointer",
+  "reason": "scriptCount() returns four and getScriptAtIndex(0..3) returns transaction hashes. The four saved Blockscout transaction responses contain the JavaScript in raw_input, as the project's own header explains. The ordinary metadata URI still uses HTTP.",
+  "evidence": [
+   "data/mutability/evidence/0x8754f54074400ce745a7ceddc928fb1b7e985ed6.json",
+   "data/mutability/reviewed_reads/0x8754f54074400ce745a7ceddc928fb1b7e985ed6_getScriptAtIndex_3c747a833219.json",
+   "data/mutability/reviewed_reads/0x8754f54074400ce745a7ceddc928fb1b7e985ed6_getScriptAtIndex_5a43dcb6668a.json",
+   "data/mutability/reviewed_reads/0x8754f54074400ce745a7ceddc928fb1b7e985ed6_getScriptAtIndex_89dd3455cb8c.json",
+   "data/mutability/reviewed_reads/0x8754f54074400ce745a7ceddc928fb1b7e985ed6_getScriptAtIndex_9383c7e5a3d9.json",
+   "data/mutability/reviewed_reads/0x8754f54074400ce745a7ceddc928fb1b7e985ed6_scriptCount_4c83f188cf6c.json",
+   "data/mutability/reviewed_reads/euler_script_bs_0x4750d54fea0db07bd2c1846716bbc9262f00a1ebdfb4a3ca4634ca499a8252ef.json",
+   "data/mutability/reviewed_reads/euler_script_bs_0xa7f7bfa0c11fcd9d73f6b33a32e248db91d41492d6937ee6b60cebfac564f94f.json",
+   "data/mutability/reviewed_reads/euler_script_bs_0xb020e5fab5338a6886bcb27aabefaeb7579c01f63ad00438ef50ef99392825f6.json",
+   "data/mutability/reviewed_reads/euler_script_bs_0xdec69dd9dcfb0336eef74bd65cda6f8ef185abd36436dcd399f20fbdb315fe7f.json"
+  ]
+ },
+ "0x059edd72cd353df5106d2b9cc5ab83a52287ac3a": {
+  "outcome": "unverifiable",
+  "reason": "The official documentation combines an on-chain metadata assertion with accessibility and immutability. projectScriptByIndex(0,0) confirms on-chain creative code, but this check does not establish every metadata field, dependency or immutability promise. An HTTP tokenURI alone cannot refute the data claim.",
+  "evidence": [
+   "data/mutability/evidence/0x059edd72cd353df5106d2b9cc5ab83a52287ac3a.json",
+   "data/mutability/reviewed_reads/0x059edd72cd353df5106d2b9cc5ab83a52287ac3a_projectScriptByIndex_98d00cb13c6c.json",
+   "data/mutability/reviewed_reads/0x059edd72cd353df5106d2b9cc5ab83a52287ac3a_tokenIdToHash_b58c041f2cae.json"
+  ]
+ },
+ "0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270": {
+  "outcome": "unverifiable",
+  "reason": "Fidenza projectScriptByIndex(78,0) and tokenIdToHash(78000000) confirm on-chain creative data. The selected documentation also claims complete metadata accessibility and immutability; this is broader than the checked script/hash sample. The HTTP pointer is not itself a contradiction.",
+  "evidence": [
+   "data/mutability/evidence/0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270.json",
+   "data/mutability/reviewed_reads/0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270_projectScriptByIndex_52039f357753.json",
+   "data/mutability/reviewed_reads/0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270_projectScriptByIndex_98d00cb13c6c.json",
+   "data/mutability/reviewed_reads/0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270_tokenIdToHash_b58c041f2cae.json",
+   "data/mutability/reviewed_reads/0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270_tokenIdToHash_c86a0b5a8038.json"
+  ]
+ },
+ "0x23581767a106ae21c074b2276d25e5c3e136a68b": {
+  "outcome": "holds",
+  "reason": "The website claim is scoped to pixelated art. The live renderer's legacyRenderer points to 0xb1befc9e7b76c1e846ebbf3e6e1ab029c86e7435; artworkPixels(1) and artworkURI(1,1) return pixels and an inline BMP directly. The full tokenURI(1) reverted inconclusively; the correctly addressed 15x legacy BMP read hit this provider's 50M gas cap. Illustration/animation URI control remains separate.",
+  "evidence": [
+   "data/mutability/reviewed_reads/0xb1befc9e7b76c1e846ebbf3e6e1ab029c86e7435_source.json",
+   "data/mutability/evidence/0x23581767a106ae21c074b2276d25e5c3e136a68b.json",
+   "data/mutability/reviewed_reads/0x23581767a106ae21c074b2276d25e5c3e136a68b_owner_649e9401a340.json",
+   "data/mutability/reviewed_reads/0x23581767a106ae21c074b2276d25e5c3e136a68b_renderingContract_6841cf3e904f.json",
+   "data/mutability/reviewed_reads/0x23581767a106ae21c074b2276d25e5c3e136a68b_tokenURI_ef7796a30734.json",
+   "data/mutability/reviewed_reads/0xb1befc9e7b76c1e846ebbf3e6e1ab029c86e7435_artworkPixels_611fee5d8f18.json",
+   "data/mutability/reviewed_reads/0xb1befc9e7b76c1e846ebbf3e6e1ab029c86e7435_artworkURI_06b206c0e6f0.json",
+   "data/mutability/reviewed_reads/0xb1befc9e7b76c1e846ebbf3e6e1ab029c86e7435_artworkURI_1877d54f8573.json",
+   "data/mutability/reviewed_reads/0xb1befc9e7b76c1e846ebbf3e6e1ab029c86e7435_artworkURI_60b4563f34a0.json",
+   "data/mutability/reviewed_reads/0xffe53829e5d367d8e3671bbfb95fe0e024f0d8b6_animationBaseUri_5e5ec13bde8b.json",
+   "data/mutability/reviewed_reads/0xffe53829e5d367d8e3671bbfb95fe0e024f0d8b6_artworkUri_96fb61802b70.json",
+   "data/mutability/reviewed_reads/0xffe53829e5d367d8e3671bbfb95fe0e024f0d8b6_baseUri_fc3e8250d826.json",
+   "data/mutability/reviewed_reads/0xffe53829e5d367d8e3671bbfb95fe0e024f0d8b6_legacyRenderer_69ebcafdea40.json",
+   "data/mutability/reviewed_reads/0xffe53829e5d367d8e3671bbfb95fe0e024f0d8b6_owner_649e9401a340.json",
+   "data/mutability/reviewed_reads/0xffe53829e5d367d8e3671bbfb95fe0e024f0d8b6_useNewArtwork_d5936a78d741.json"
+  ],
+  "data_contracts": [
+   "0xffe53829e5d367d8e3671bbfb95fe0e024f0d8b6",
+   "0xb1befc9e7b76c1e846ebbf3e6e1ab029c86e7435"
+  ]
+ },
+ "0x6c1721ca9ad150880edb173cefabe5f10d0de199": {
+  "outcome": "holds",
+  "reason": "The selected statement is specifically about collection-level edition metadata. Its project contractURI constructs that JSON directly on-chain; it is not an all-media or immutability claim.",
+  "evidence": [
+   "data/claims/claims_reviewed.csv"
+  ]
+ },
+ "0xaa023a86e5323c70474d376df1e318dbd4b79b8a": {
+  "outcome": "holds",
+  "reason": "The selected claim concerns per-token metadata. The census reads contract-generated JSON; its external image does not contradict this narrower metadata storage claim.",
+  "evidence": [
+   "data/census/census_tokens.parquet"
+  ]
+ },
+ "0xb3de9857abffd9700fe6310c7b6122f7932c32ad": {
+  "outcome": "holds",
+  "reason": "The selected NatSpec claims on-chain metadata, not on-chain comic image files. The census reads contract-generated JSON, while the comic image uses IPFS.",
+  "evidence": [
+   "data/census/census_tokens.parquet"
+  ]
+ },
+ "0xf08acc2f16ddf2f5d047fcc4d39a6c528a9645af": {
+  "outcome": "holds",
+  "reason": "The selected quote specifically says metadata JSON is built on-chain and discloses optional tailored-image fields. Contract-generated metadata is observed; the quote does not say every image field is on-chain.",
+  "evidence": [
+   "data/census/census_tokens.parquet",
+   "data/mutability/evidence/0xf08acc2f16ddf2f5d047fcc4d39a6c528a9645af.json"
+  ]
+ },
+ "0x7f12316c2cf1b5a21d587dc62eea9de53e95b49d": {
+  "outcome": "onchain-data-offchain-pointer",
+  "reason": "The sampled token has contract-generated metadata and inline HTML/JavaScript animation data, while its preview image uses HTTP. This supports stored artwork code; external browser dependencies and rendering are separate checks.",
+  "evidence": [
+   "data/census/census_tokens.parquet"
+  ]
+ },
+ "0xdebbc3691d42090d899cafe0c4ed80897a7c9d6a": {
+  "outcome": "unverifiable",
+  "reason": "The contract generates traits and JSON on-chain but constructs an HTTP image URL from IMAGE_URL. The broad 'fully On-Chain generated NFTs' wording does not distinguish traits from pixels; no alternate image-data contract has been established. Do not treat the mutable image pointer alone as a false claim.",
+  "evidence": [
+   "data/census/census_tokens.parquet",
+   "data/mutability/evidence/0xdebbc3691d42090d899cafe0c4ed80897a7c9d6a.json"
+  ]
+ },
+ "0x6be69b2a9b153737887cfcdca7781ed1511c7e36": {
+  "outcome": "unverifiable",
+  "reason": "Marketplace wording calls this onchain art, but sampled metadata and images use Arweave. No separately published on-chain art contract has been established; a pointer observation cannot establish absence of alternate data storage.",
+  "evidence": [
+   "data/census/census_tokens.parquet",
+   "data/mutability/evidence/0x6be69b2a9b153737887cfcdca7781ed1511c7e36.json"
+  ]
+ },
+ "0x892848074ddea461a15f337250da3ce55580ca85": {
+  "outcome": "onchain-data-offchain-pointer",
+  "reason": "CyberBrokersMetadata.getTokenData(1) returns on-chain art bytes and renderBroker(1,0) returns an SVG page. The ordinary JSON image field uses IPFS. Full page assembly/rendering is separate from storage and this sampled data claim is supported.",
+  "evidence": [
+   "data/mutability/reviewed_reads/0xec3e38e536ad4fa55a378b14b257976148b618ac__renderBroker_94d2e6d41e85.json",
+   "data/mutability/reviewed_reads/0xec3e38e536ad4fa55a378b14b257976148b618ac_getTokenData_47c8196f265b.json",
+   "data/mutability/reviewed_reads/0xec3e38e536ad4fa55a378b14b257976148b618ac_renderBroker_7a27d0a68170.json"
+  ],
+  "data_contracts": [
+   "0xec3e38e536ad4fa55a378b14b257976148b618ac"
+  ]
+ },
+ "0x6c7c97caff156473f6c9836522ae6e1d6448abe7": {
+  "outcome": "onchain-data-offchain-pointer",
+  "reason": "tokenScript(1) returns the interactive HTML/JavaScript art program directly from Ethereum; the ordinary token image remains an HTTP JPEG. Rendering dependencies and preview service availability are separate from stored program data.",
+  "evidence": [
+   "data/mutability/reviewed_reads/0x6c7c97caff156473f6c9836522ae6e1d6448abe7_reviewed_tokenuri.json",
+   "data/mutability/reviewed_reads/0x6c7c97caff156473f6c9836522ae6e1d6448abe7_tokenScript_e1d1869425b2.json"
+  ]
+ }
+}

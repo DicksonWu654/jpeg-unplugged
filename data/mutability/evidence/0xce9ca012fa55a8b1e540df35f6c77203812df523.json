@@ -1,0 +1,1143 @@
+{
+ "address": "0xce9ca012fa55a8b1e540df35f6c77203812df523",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:31Z",
+ "code_raw": "data/raw/rpc-mutability/0xce9ca012fa55a8b1e540df35f6c77203812df523_code.json",
+ "code_len": 20928,
+ "slots": {
+  "slot0": "0x00000000000000000000000000000000000000000000000000000000000007d1"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0xce9ca012fa55a8b1e540df35f6c77203812df523_slots.json",
+ "verified": true,
+ "contract_name": "CryptoCoaster",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 1,
+    "first": "2023-03-12",
+    "last": "2023-03-12",
+    "last_tx": "0xc0e11cee5a393f336a434cb7873b0ee3cafa13ccc1cdd03f5d4e77ce2ba17dcf",
+    "list": [
+     {
+      "date": "2023-03-12",
+      "tx": "0xc0e11cee5a393f336a434cb7873b0ee3cafa13ccc1cdd03f5d4e77ce2ba17dcf",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "e1d1fef5ec32bc6328bbf80f1863905602c80acf"
+      ],
+      "data": "0x"
+     }
+    ]
+   }
+  },
+  "decoded": [],
+  "ownership_transfers": [
+   {
+    "date": "2023-03-12",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0xe1d1fef5ec32bc6328bbf80f1863905602c80acf",
+    "tx": "0xc0e11cee5a393f336a434cb7873b0ee3cafa13ccc1cdd03f5d4e77ce2ba17dcf"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0xce9ca012fa55a8b1e540df35f6c77203812df523_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0xe1d1fef5ec32bc6328bbf80f1863905602c80acf",
+  "code_raw": "data/raw/rpc-mutability/0xe1d1fef5ec32bc6328bbf80f1863905602c80acf_holdercode.json",
+  "type": "eoa",
+  "bs_name": null,
+  "ens": null,
+  "bs_impl_names": [],
+  "bs_tags": [],
+  "is_contract": false,
+  "creator": null,
+  "is_verified": false,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "override",
+ "lock_functions": [],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [],
+ "class_direct": "immutable",
+ "class_reason": "no uri/renderer/upgrade function in ABI and not a proxy",
+ "live_mutators": [],
+ "dependencies": [
+  {
+   "address": "0xfc7453da7bf4d0c739c1c53da57b3636dab0e11e",
+   "via": "_ethfsFileStorageAddress()",
+   "in_tokenuri_path": false,
+   "via_setter": false,
+   "analysis": {
+    "address": "0xfc7453da7bf4d0c739c1c53da57b3636dab0e11e",
+    "verified": true,
+    "contract_name": "ETHFSFileStorage",
+    "proxy": {
+     "kind": null
+    },
+    "owner": null,
+    "admin_fn": null,
+    "uups": false,
+    "lock_views": {},
+    "lock_flags_true": {},
+    "lock_functions": [],
+    "class_direct": "immutable",
+    "class_reason": "no uri/renderer/upgrade function in ABI and not a proxy",
+    "live_mutators": [],
+    "mutators": [],
+    "history": {},
+    "unverified_selector_hits": [],
+    "tokenuri_path": "none"
+   }
+  },
+  {
+   "address": "0x16b727a2fc9322c724f4bc562910c99a5eda5084",
+   "via": "_scriptyBuilderAddress()",
+   "in_tokenuri_path": false,
+   "via_setter": false,
+   "analysis": {
+    "address": "0x16b727a2fc9322c724f4bc562910c99a5eda5084",
+    "verified": true,
+    "contract_name": "ScriptyBuilder",
+    "proxy": {
+     "kind": null
+    },
+    "owner": null,
+    "admin_fn": null,
+    "uups": false,
+    "lock_views": {},
+    "lock_flags_true": {},
+    "lock_functions": [],
+    "class_direct": "immutable",
+    "class_reason": "no uri/renderer/upgrade function in ABI and not a proxy",
+    "live_mutators": [],
+    "mutators": [],
+    "history": {},
+    "unverified_selector_hits": [],
+    "tokenuri_path": "none"
+   }
+  },
+  {
+   "address": "0x096451f43800f207fc32b4ff86f286edaf736ee3",
+   "via": "_scriptyStorageAddress()",
+   "in_tokenuri_path": false,
+   "via_setter": false,
+   "analysis": {
+    "address": "0x096451f43800f207fc32b4ff86f286edaf736ee3",
+    "verified": true,
+    "contract_name": "ScriptyStorage",
+    "proxy": {
+     "kind": null
+    },
+    "owner": {
+     "addr": "0xbae9802ac9dd899c1ecdebf319fa270a09fd81c7",
+     "code_raw": "data/raw/rpc-mutability/0xbae9802ac9dd899c1ecdebf319fa270a09fd81c7_holdercode.json",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "bs_impl_names": [],
+     "bs_tags": [],
+     "is_contract": false,
+     "creator": null,
+     "is_verified": false,
+     "bs_reputation": "ok"
+    },
+    "admin_fn": null,
+    "uups": false,
+    "lock_views": {},
+    "lock_flags_true": {},
+    "lock_functions": [],
+    "class_direct": "eoa-mutable",
+    "class_reason": "live setters (eoa): updateScriptVerification",
+    "live_mutators": [
+     "addChunkToScript",
+     "createScript",
+     "updateScriptVerification"
+    ],
+    "mutators": [
+     {
+      "name": "addChunkToScript",
+      "sig": "addChunkToScript(string,bytes)",
+      "selector": "0x3b7aa8d9",
+      "category": "renderer",
+      "inputs": [
+       "string",
+       "bytes"
+      ],
+      "gates": [
+       {
+        "type": "unknown",
+        "ref": "scriptOwner"
+       }
+      ],
+      "modifiers": [
+       "scriptOwner(name)"
+      ],
+      "body_head": "(, address pointer) = contentStore.addContent(chunk);\n        scripts[name].chunks.push(pointer);\n        scripts[name].size += chunk.length;\n        emit Chunk",
+      "writes": [],
+      "effective": "unknown",
+      "power": "unknown",
+      "holder_addrs": [],
+      "holder_how": [
+       "unknown gate scriptOwner"
+      ],
+      "unknown_gate": true,
+      "token_owner_gated": false,
+      "lock_linked": [],
+      "frozen": false,
+      "holders": []
+     },
+     {
+      "name": "createScript",
+      "sig": "createScript(string,bytes)",
+      "selector": "0x8652d669",
+      "category": "renderer",
+      "inputs": [
+       "string",
+       "bytes"
+      ],
+      "gates": [],
+      "modifiers": [
+       "canCreate(name)"
+      ],
+      "body_head": "scripts[name] = Script(false, msg.sender, 0, details, new address[](0));\n        emit ScriptCreated(name, msg.sender, details);",
+      "writes": [
+       "scripts"
+      ],
+      "effective": "unknown",
+      "power": "unknown",
+      "holder_addrs": [],
+      "holder_how": [
+       "no access check found in header/body head"
+      ],
+      "unknown_gate": true,
+      "token_owner_gated": false,
+      "lock_linked": [],
+      "frozen": false,
+      "holders": []
+     },
+     {
+      "name": "updateScriptVerification",
+      "sig": "updateScriptVerification(string,bool)",
+      "selector": "0xf66188a4",
+      "category": "renderer",
+      "inputs": [
+       "string",
+       "bool"
+      ],
+      "gates": [
+       {
+        "type": "owner",
+        "ref": "owner"
+       }
+      ],
+      "modifiers": [
+       "onlyOwner"
+      ],
+      "body_head": "scripts[name].isVerified = isVerified;\n        emit ScriptVerificationUpdated(name, isVerified);",
+      "writes": [
+       "isVerified"
+      ],
+      "effective": "unknown",
+      "power": "eoa",
+      "holder_addrs": [
+       "0xbae9802ac9dd899c1ecdebf319fa270a09fd81c7"
+      ],
+      "holder_how": [
+       "owner()"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0xbae9802ac9dd899c1ecdebf319fa270a09fd81c7",
+        "type": "eoa",
+        "bs_name": null,
+        "ens": null,
+        "desc": "eoa",
+        "simple": "eoa"
+       }
+      ]
+     }
+    ],
+    "history": {
+     "txs": [
+      {
+       "hash": "0x205924462a84da8749f433acb2b1009124787dba5cf92d1f7aeaef9fe4e5e7f5",
+       "timestamp": "2023-12-23T16:24:11.000000Z",
+       "method": "addChunkToScript",
+       "from": "0x20Ec68Ba5dC8aF5380BDb37465b3F9BDE75f9635",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 18849680,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x4a6cfefcdc435765a833b626df10197b290b17371b302627ac878d588e36c5fc",
+       "timestamp": "2023-12-23T16:23:59.000000Z",
+       "method": "addChunkToScript",
+       "from": "0x20Ec68Ba5dC8aF5380BDb37465b3F9BDE75f9635",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 18849679,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x406b653c26f3e2b0813703f1f225725fe936ba46dd7e3001703c8fc2df4d58d9",
+       "timestamp": "2023-12-23T16:23:47.000000Z",
+       "method": "createScript",
+       "from": "0x20Ec68Ba5dC8aF5380BDb37465b3F9BDE75f9635",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 18849678,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xebe69b488cb49c0a2200d411aa300935d58b5c82baa483c8048e219220afbcd8",
+       "timestamp": "2023-11-25T17:51:11.000000Z",
+       "method": "addChunkToScript",
+       "from": "0xBAe9802ac9Dd899c1eCdEBF319fA270a09Fd81c7",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 18650313,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xb221af5a6faa5d67625c48bec39f58c6314280a18ad123fc74af4f1907736612",
+       "timestamp": "2023-11-25T17:50:59.000000Z",
+       "method": "createScript",
+       "from": "0xBAe9802ac9Dd899c1eCdEBF319fA270a09Fd81c7",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 18650312,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xe4b6bcc984d084a04c1de816a76ad7ddd351f20c33b70fed2d7f50cf17e05b64",
+       "timestamp": "2023-07-03T19:31:11.000000Z",
+       "method": "addChunkToScript",
+       "from": "0x20Ec68Ba5dC8aF5380BDb37465b3F9BDE75f9635",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17615527,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x528831750c76506a202164291b64e319065e24c18fc7f94d6323617bde0a7d5b",
+       "timestamp": "2023-07-03T19:30:59.000000Z",
+       "method": "addChunkToScript",
+       "from": "0x20Ec68Ba5dC8aF5380BDb37465b3F9BDE75f9635",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17615526,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x3102d4a655848d8162e5ac0920438797fade59c1a3e3fe15eafe5c208d43cf67",
+       "timestamp": "2023-07-03T19:30:47.000000Z",
+       "method": "createScript",
+       "from": "0x20Ec68Ba5dC8aF5380BDb37465b3F9BDE75f9635",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17615525,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x952266635789ae58ed89f409df162b5df45007adf50e022040ff4a187e1ec9c3",
+       "timestamp": "2023-06-19T18:28:59.000000Z",
+       "method": "addChunkToScript",
+       "from": "0x20Ec68Ba5dC8aF5380BDb37465b3F9BDE75f9635",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17515572,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x4047dbb64e62bbf8827263a1a5ccf931eca1124481ec8fd71db95943690ccb0d",
+       "timestamp": "2023-06-19T18:28:47.000000Z",
+       "method": "createScript",
+       "from": "0x20Ec68Ba5dC8aF5380BDb37465b3F9BDE75f9635",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17515571,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xeb13b98808315b605c205abdc4d5f06d19bf11d50c00881609ffd2e9db9341d6",
+       "timestamp": "2023-06-19T18:23:35.000000Z",
+       "method": "addChunkToScript",
+       "from": "0x20Ec68Ba5dC8aF5380BDb37465b3F9BDE75f9635",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17515545,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x721376dacf57acb705684dcd3318db3217359fa67b380721057250d9399d2024",
+       "timestamp": "2023-06-19T18:23:23.000000Z",
+       "method": "addChunkToScript",
+       "from": "0x20Ec68Ba5dC8aF5380BDb37465b3F9BDE75f9635",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17515544,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x30d983d3e8833788cfec55f42484a359519a4af820ad422b21c4c9b235e72936",
+       "timestamp": "2023-06-19T18:23:11.000000Z",
+       "method": "createScript",
+       "from": "0x20Ec68Ba5dC8aF5380BDb37465b3F9BDE75f9635",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17515543,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xaf0de5123328f5997379d511b6a1970a54d436da14c3d8b3e896b8fa2d0c3cd7",
+       "timestamp": "2023-06-19T18:22:59.000000Z",
+       "method": "addChunkToScript",
+       "from": "0x20Ec68Ba5dC8aF5380BDb37465b3F9BDE75f9635",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17515542,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x76c164563d529a302366df96289878d854be770154b2c2bedfcc569c6390cc6c",
+       "timestamp": "2023-06-19T18:22:47.000000Z",
+       "method": "addChunkToScript",
+       "from": "0x20Ec68Ba5dC8aF5380BDb37465b3F9BDE75f9635",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17515541,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xd2eab2d4c9d37dc467029df7ff870c89c6e70406af4ac585e0d9036919d92dbc",
+       "timestamp": "2023-06-19T18:22:35.000000Z",
+       "method": "addChunkToScript",
+       "from": "0x20Ec68Ba5dC8aF5380BDb37465b3F9BDE75f9635",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17515540,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xba6fc6d61456ba48d7b2ca1a1c92db0f9263da449f030ae4dd5a145d246cde0d",
+       "timestamp": "2023-06-19T18:22:23.000000Z",
+       "method": "addChunkToScript",
+       "from": "0x20Ec68Ba5dC8aF5380BDb37465b3F9BDE75f9635",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17515539,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x2caa6fc11075b07920ff101997479b26bf5bdfc2a265b4b8f5471ab3c6a89fb0",
+       "timestamp": "2023-06-19T18:22:11.000000Z",
+       "method": "addChunkToScript",
+       "from": "0x20Ec68Ba5dC8aF5380BDb37465b3F9BDE75f9635",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17515538,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x20dfb387fc57103bd79570675773f37fa1c6750b4c0a7045ea34632d8981e517",
+       "timestamp": "2023-06-19T18:21:59.000000Z",
+       "method": "addChunkToScript",
+       "from": "0x20Ec68Ba5dC8aF5380BDb37465b3F9BDE75f9635",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17515537,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x7286c0ebada1c8831cb0d6c523bd504784bfd8cf2a01e90fa89241c3a96a4733",
+       "timestamp": "2023-06-19T18:21:47.000000Z",
+       "method": "addChunkToScript",
+       "from": "0x20Ec68Ba5dC8aF5380BDb37465b3F9BDE75f9635",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17515536,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xbc3b00935d92c7de67a8f5ea2e4ce53b5e7b74d0a0a107cba1dc27a97e13787d",
+       "timestamp": "2023-06-19T18:21:35.000000Z",
+       "method": "createScript",
+       "from": "0x20Ec68Ba5dC8aF5380BDb37465b3F9BDE75f9635",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17515535,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x063b1b809123f4553eda2ae2f7b63f1e7d96f6988e4e53d5f2451641dff3d51f",
+       "timestamp": "2023-06-19T18:21:23.000000Z",
+       "method": "addChunkToScript",
+       "from": "0x20Ec68Ba5dC8aF5380BDb37465b3F9BDE75f9635",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17515534,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xcc9f258fcfc633500e222f0f77ed9d22aa88b3c0e740f1397fc44f70c89da352",
+       "timestamp": "2023-06-19T18:21:11.000000Z",
+       "method": "createScript",
+       "from": "0x20Ec68Ba5dC8aF5380BDb37465b3F9BDE75f9635",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17515533,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x34bc3e907926ff3eb3f85cbcef257ab6deb857baceefc1c14e6cfc09c3bde667",
+       "timestamp": "2023-04-11T10:38:23.000000Z",
+       "method": "addChunkToScript",
+       "from": "0xCC78016816633528Dd4918746D7F016563Ce27FA",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17024313,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x7ea1258c571cb9ef33e9b28653452f3aec9ac2fd4d0120198ee7911e6d0fc4fd",
+       "timestamp": "2023-04-11T10:38:11.000000Z",
+       "method": "createScript",
+       "from": "0xCC78016816633528Dd4918746D7F016563Ce27FA",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17024312,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x0aed565aaba889590a1eb031f0a72a49d183527f1a1d4663867180fd910b5bdb",
+       "timestamp": "2023-04-05T09:50:11.000000Z",
+       "method": "addChunkToScript",
+       "from": "0xBAe9802ac9Dd899c1eCdEBF319fA270a09Fd81c7",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16981799,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x92d9c4918645da6f66853da51d2679471848d49753f1b63247710e7e03e1f28c",
+       "timestamp": "2023-04-05T09:49:59.000000Z",
+       "method": "createScript",
+       "from": "0xBAe9802ac9Dd899c1eCdEBF319fA270a09Fd81c7",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16981798,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xaea1530767c4edeba311bd747103005a166c7da0191e47ff7ddffac966c96c68",
+       "timestamp": "2023-04-05T09:49:47.000000Z",
+       "method": "addChunkToScript",
+       "from": "0xBAe9802ac9Dd899c1eCdEBF319fA270a09Fd81c7",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16981797,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x288d02f00563150e64c485f030c2da5cd070090f70d33176fa80352a33671ccd",
+       "timestamp": "2023-04-05T09:49:35.000000Z",
+       "method": "createScript",
+       "from": "0xBAe9802ac9Dd899c1eCdEBF319fA270a09Fd81c7",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16981796,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x6d077452208bd67c9f9fc33b3a38a57d1ff3852db6a4a107562e913c03a86ca1",
+       "timestamp": "2023-04-05T09:49:23.000000Z",
+       "method": "addChunkToScript",
+       "from": "0xBAe9802ac9Dd899c1eCdEBF319fA270a09Fd81c7",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16981795,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xe09a59960b4239255f2492c96c6bf8c3f7ca9e712793f93fbda9bb410095e0e2",
+       "timestamp": "2023-04-05T09:49:11.000000Z",
+       "method": "createScript",
+       "from": "0xBAe9802ac9Dd899c1eCdEBF319fA270a09Fd81c7",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16981794,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x68af6dbb09f8c205b5bc0623b4a054b58b4bead8679786823354cf637b771681",
+       "timestamp": "2023-03-12T09:47:11.000000Z",
+       "method": "addChunkToScript",
+       "from": "0xe1D1FEf5eC32bc6328Bbf80F1863905602c80AcF",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16811148,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x74677e1b1201abb8b87d672b99adca2e6af87fedbecd39868d8424268ec49645",
+       "timestamp": "2023-03-12T09:46:59.000000Z",
+       "method": "addChunkToScript",
+       "from": "0xe1D1FEf5eC32bc6328Bbf80F1863905602c80AcF",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16811147,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x65d7fcb816c86f45c578cf47cd5d94c9748ae6bc460bdee241992f904c14d483",
+       "timestamp": "2023-03-12T09:46:47.000000Z",
+       "method": "createScript",
+       "from": "0xe1D1FEf5eC32bc6328Bbf80F1863905602c80AcF",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16811146,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xc96845610eacfde87a418da8ec11736a2744036f602d7253f8cfb705e6dfd171",
+       "timestamp": "2023-03-06T11:23:11.000000Z",
+       "method": "addChunkToScript",
+       "from": "0xe1D1FEf5eC32bc6328Bbf80F1863905602c80AcF",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16768987,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x8c0330b7408325d77baf5beb49314f8340fb8b834594d93e0a11d809c2114309",
+       "timestamp": "2023-03-06T11:22:59.000000Z",
+       "method": "addChunkToScript",
+       "from": "0xe1D1FEf5eC32bc6328Bbf80F1863905602c80AcF",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16768986,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x1862b4c5cfe90c5d60fa4f5a8f56e0863ec41db4d0470ec7603d0ad99e9173c9",
+       "timestamp": "2023-03-06T11:22:35.000000Z",
+       "method": "createScript",
+       "from": "0xe1D1FEf5eC32bc6328Bbf80F1863905602c80AcF",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16768985,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xd04a13802dde5f790492b50b92cf94a6c406ac1c42c2d50e4a76faacb15541fe",
+       "timestamp": "2023-03-02T11:52:35.000000Z",
+       "method": "addChunkToScript",
+       "from": "0xe1D1FEf5eC32bc6328Bbf80F1863905602c80AcF",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16740705,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x9f90aa24915c6db7c19382c35971384340f234cd31b612696e601febf0217cb4",
+       "timestamp": "2023-03-02T11:52:23.000000Z",
+       "method": "addChunkToScript",
+       "from": "0xe1D1FEf5eC32bc6328Bbf80F1863905602c80AcF",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16740704,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x0dfa6ab559f8aac445c2c1e35164c2437ce3773f12a90eb22f9796bb5545cdc0",
+       "timestamp": "2023-03-02T11:52:11.000000Z",
+       "method": "addChunkToScript",
+       "from": "0xe1D1FEf5eC32bc6328Bbf80F1863905602c80AcF",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16740703,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x864a09ce527f14697f5aa96e67a23b421d45813f147badd9aa2ab374c136b762",
+       "timestamp": "2023-03-02T11:51:59.000000Z",
+       "method": "createScript",
+       "from": "0xe1D1FEf5eC32bc6328Bbf80F1863905602c80AcF",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16740702,
+       "category": "renderer"
+      }
+     ],
+     "events": {
+      "OwnershipTransferred(address,address)": {
+       "n": 1,
+       "first": "2023-01-16",
+       "last": "2023-01-16",
+       "last_tx": "0xf84196a70ee928b93cb4a8170688809a4f3e96bf09bb86f6b007a2f647e04994",
+       "list": [
+        {
+         "date": "2023-01-16",
+         "tx": "0xf84196a70ee928b93cb4a8170688809a4f3e96bf09bb86f6b007a2f647e04994",
+         "topics": [
+          "0000000000000000000000000000000000000000",
+          "bae9802ac9dd899c1ecdebf319fa270a09fd81c7"
+         ],
+         "data": "0x"
+        }
+       ]
+      },
+      "ScriptCreated(string,address,bytes)": {
+       "n": 14,
+       "first": "2023-03-02",
+       "last": "2023-12-23",
+       "last_tx": "0x406b653c26f3e2b0813703f1f225725fe936ba46dd7e3001703c8fc2df4d58d9",
+       "list": [
+        {
+         "date": "2023-03-02",
+         "tx": "0x864a09ce527f14697f5aa96e67a23b421d45813f147badd9aa2ab374c136b762",
+         "topics": [
+          "0xddd2afce5a8c5b88d64a629c7a55d3e08ebb359eb381e556d24611c1647b6569"
+         ],
+         "data": "0x000000000000000000000000e1d1fef5ec32bc6328bbf80f1863905602c80acf0000000000000000000000000000000000000000000000000000000000000040"
+        },
+        {
+         "date": "2023-03-06",
+         "tx": "0x1862b4c5cfe90c5d60fa4f5a8f56e0863ec41db4d0470ec7603d0ad99e9173c9",
+         "topics": [
+          "0xd894a4e90bc294c88225d4c0d2b6044cd8057e1bb6c1b70ad09ee73f24fd60e2"
+         ],
+         "data": "0x000000000000000000000000e1d1fef5ec32bc6328bbf80f1863905602c80acf0000000000000000000000000000000000000000000000000000000000000040"
+        },
+        {
+         "date": "2023-03-12",
+         "tx": "0x65d7fcb816c86f45c578cf47cd5d94c9748ae6bc460bdee241992f904c14d483",
+         "topics": [
+          "0x70d58ede64843d899b3f373d4a927e0f5458e6da805c8c19511197e947057d4b"
+         ],
+         "data": "0x000000000000000000000000e1d1fef5ec32bc6328bbf80f1863905602c80acf0000000000000000000000000000000000000000000000000000000000000040"
+        },
+        {
+         "date": "2023-04-05",
+         "tx": "0xe09a59960b4239255f2492c96c6bf8c3f7ca9e712793f93fbda9bb410095e0e2",
+         "topics": [
+          "0x9c0becb897d8bf6dc5e7013d41841574c4186863ab8cfc16a4fd53a4039100e6"
+         ],
+         "data": "0x000000000000000000000000bae9802ac9dd899c1ecdebf319fa270a09fd81c70000000000000000000000000000000000000000000000000000000000000040"
+        },
+        {
+         "date": "2023-04-05",
+         "tx": "0x288d02f00563150e64c485f030c2da5cd070090f70d33176fa80352a33671ccd",
+         "topics": [
+          "0x6db87ae6b5a7b16fa281db146b18f898823d0f55d171d59d7ee87b3f8f120f8a"
+         ],
+         "data": "0x000000000000000000000000bae9802ac9dd899c1ecdebf319fa270a09fd81c70000000000000000000000000000000000000000000000000000000000000040"
+        },
+        {
+         "date": "2023-04-05",
+         "tx": "0x92d9c4918645da6f66853da51d2679471848d49753f1b63247710e7e03e1f28c",
+         "topics": [
+          "0xa985a3bcaa115d736a536c473db5278da366f06af663fc87020bc2f8f598e5aa"
+         ],
+         "data": "0x000000000000000000000000bae9802ac9dd899c1ecdebf319fa270a09fd81c70000000000000000000000000000000000000000000000000000000000000040"
+        },
+        {
+         "date": "2023-04-11",
+         "tx": "0x7ea1258c571cb9ef33e9b28653452f3aec9ac2fd4d0120198ee7911e6d0fc4fd",
+         "topics": [
+          "0x9be07c5dc5aa3c4379a76570a060984d88ff7befb4925c70bc428a4cfd4cf2db"
+         ],
+         "data": "0x000000000000000000000000cc78016816633528dd4918746d7f016563ce27fa0000000000000000000000000000000000000000000000000000000000000040"
+        },
+        {
+         "date": "2023-06-19",
+         "tx": "0xcc9f258fcfc633500e222f0f77ed9d22aa88b3c0e740f1397fc44f70c89da352",
+         "topics": [
+          "0x526e2cb1df34f237dffb11ffb2ae81bebe92847232b669aa3f6f5395dd424198"
+         ],
+         "data": "0x00000000000000000000000020ec68ba5dc8af5380bdb37465b3f9bde75f96350000000000000000000000000000000000000000000000000000000000000040"
+        },
+        {
+         "date": "2023-06-19",
+         "tx": "0xbc3b00935d92c7de67a8f5ea2e4ce53b5e7b74d0a0a107cba1dc27a97e13787d",
+         "topics": [
+          "0x2b78e341d4d8c561a98c05323591b9c9da4e398d413cc9860429b33994642a4b"
+         ],
+         "data": "0x00000000000000000000000020ec68ba5dc8af5380bdb37465b3f9bde75f96350000000000000000000000000000000000000000000000000000000000000040"
+        },
+        {
+         "date": "2023-06-19",
+         "tx": "0x30d983d3e8833788cfec55f42484a359519a4af820ad422b21c4c9b235e72936",
+         "topics": [
+          "0x41fc89a32130bea2943cb65c0dfa6c680c9e781b1e6a13a68154e527a2301b1f"
+         ],
+         "data": "0x00000000000000000000000020ec68ba5dc8af5380bdb37465b3f9bde75f96350000000000000000000000000000000000000000000000000000000000000040"
+        },
+        {
+         "date": "2023-06-19",
+         "tx": "0x4047dbb64e62bbf8827263a1a5ccf931eca1124481ec8fd71db95943690ccb0d",
+         "topics": [
+          "0xb3980b130124331320a64acd7a5c327a0fe97c962e708d2dc43af5775b4fbaf8"
+         ],
+         "data": "0x00000000000000000000000020ec68ba5dc8af5380bdb37465b3f9bde75f96350000000000000000000000000000000000000000000000000000000000000040"
+        },
+        {
+         "date": "2023-07-03",
+         "tx": "0x3102d4a655848d8162e5ac0920438797fade59c1a3e3fe15eafe5c208d43cf67",
+         "topics": [
+          "0x849e6a79a6d6227122687a221b1b1c9d4a84e5c581c9b8a4345d95ddb97740cf"
+         ],
+         "data": "0x00000000000000000000000020ec68ba5dc8af5380bdb37465b3f9bde75f96350000000000000000000000000000000000000000000000000000000000000040"
+        },
+        {
+         "date": "2023-11-25",
+         "tx": "0xb221af5a6faa5d67625c48bec39f58c6314280a18ad123fc74af4f1907736612",
+         "topics": [
+          "0xa591a41a96b471c1f192b18cf3afb3a730056a6b4321e526cff72a0ecbb61774"
+         ],
+         "data": "0x000000000000000000000000bae9802ac9dd899c1ecdebf319fa270a09fd81c70000000000000000000000000000000000000000000000000000000000000040"
+        },
+        {
+         "date": "2023-12-23",
+         "tx": "0x406b653c26f3e2b0813703f1f225725fe936ba46dd7e3001703c8fc2df4d58d9",
+         "topics": [
+          "0x8f26ec2245b09cadab794bd9b91f3f0f1b9f5aab10d2c001a536781aec1c0e9f"
+         ],
+         "data": "0x00000000000000000000000020ec68ba5dc8af5380bdb37465b3f9bde75f96350000000000000000000000000000000000000000000000000000000000000040"
+        }
+       ]
+      },
+      "ScriptDetailsUpdated(string,address,bytes)": {
+       "n": 0
+      },
+      "ScriptVerificationUpdated(string,bool)": {
+       "n": 0
+      }
+     },
+     "decoded": [
+      {
+       "hash": "0x864a09ce527f14697f5aa96e67a23b421d45813f147badd9aa2ab374c136b762",
+       "timestamp": "2023-03-02T11:51:59.000000Z",
+       "method": "createScript",
+       "category": "renderer",
+       "from": "0xe1D1FEf5eC32bc6328Bbf80F1863905602c80AcF",
+       "params": [
+        {
+         "name": "arg0",
+         "type": "string",
+         "value": "coaster_models_v8"
+        },
+        {
+         "name": "arg1",
+         "type": "bytes",
+         "value": "0x636f61737465725f6d6f64656c735f7638"
+        }
+       ],
+       "value_kinds": [
+        "other"
+       ],
+       "error": null
+      },
+      {
+       "hash": "0x0dfa6ab559f8aac445c2c1e35164c2437ce3773f12a90eb22f9796bb5545cdc0",
+       "timestamp": "2023-03-02T11:52:11.000000Z",
+       "method": "addChunkToScript",
+       "category": "renderer",
+       "from": "0xe1D1FEf5eC32bc6328Bbf80F1863905602c80AcF",
+       "params": [
+        {
+         "name": "arg0",
+         "type": "string",
+         "value": "coaster_models_v8"
+        },
+        {
+         "name": "arg1",
+         "type": "bytes",
+         "value": "0x48347349434470662b324d432f324e7659584e305a584a666257396b5a57787a583359344c6d64735967437358516541464d585337676e6b6e43524b42736c73336a33675a75385751636c5242415752444a4b7a5a4a43634a576345555645526b585341634c743769344a69414d79434742415242515142796547766d75302b613465647656336672322f3476716d7072756d7572"
+        }
+       ],
+       "value_kinds": [
+        "other"
+       ],
+       "error": null
+      },
+      {
+       "hash": "0x9f90aa24915c6db7c19382c35971384340f234cd31b612696e601febf0217cb4",
+       "timestamp": "2023-03-02T11:52:23.000000Z",
+       "method": "addChunkToScript",
+       "category": "renderer",
+       "from": "0xe1D1FEf5eC32bc6328Bbf80F1863905602c80AcF",
+       "params": [
+        {
+         "name": "arg0",
+         "type": "string",
+         "value": "coaster_models_v8"
+        },
+        {
+         "name": "arg1",
+         "type": "bytes",
+         "value": "0x707237526232696e746b765a49373076377044527076335251436b6f484a4c2b5549523253507052433073665370314a414f697839496e30676653536c5330656b7a365176706550533539497836517670472b6d6f394a58306e6651397342505353656c62365a5430672f5331394b50306d2f5372394a4e30576a6f6a6e5a4e2b6c73354b663067587066505337394b6630695870"
+        }
+       ],
+       "value_kinds": [
+        "other"
+       ],
+       "error": null
+      },
+      {
+       "hash": "0xb221af5a6faa5d67625c48bec39f58c6314280a18ad123fc74af4f1907736612",
+       "timestamp": "2023-11-25T17:50:59.000000Z",
+       "method": "createScript",
+       "category": "renderer",
+       "from": "0xBAe9802ac9Dd899c1eCdEBF319fA270a09Fd81c7",
+       "params": [
+        {
+         "name": "arg0",
+         "type": "string",
+         "value": "intart_the_metro_v2"
+        },
+        {
+         "name": "arg1",
+         "type": "bytes",
+         "value": "0x696e746172745f7468655f6d6574726f5f7632"
+        }
+       ],
+       "value_kinds": [
+        "other"
+       ],
+       "error": null
+      },
+      {
+       "hash": "0xebe69b488cb49c0a2200d411aa300935d58b5c82baa483c8048e219220afbcd8",
+       "timestamp": "2023-11-25T17:51:11.000000Z",
+       "method": "addChunkToScript",
+       "category": "renderer",
+       "from": "0xBAe9802ac9Dd899c1eCdEBF319fA270a09Fd81c7",
+       "params": [
+        {
+         "name": "arg0",
+         "type": "string",
+         "value": "intart_the_metro_v2"
+        },
+        {
+         "name": "arg1",
+         "type": "bytes",
+         "value": "0x6c6574207468654d6574726f3d653d3e7b6c657420743d6e65772052616e646f6d28652e73656564292c6f3d7b696e76657273655363616c65426173653a352c696e76657273655363616c65436f6e7374616e743a352c6d696e496e7665725363616c653a312e352c69676e6f72654175746f5363616c6543616e7661733a21312c73746f705261646975733a322e352c6c696e65"
+        }
+       ],
+       "value_kinds": [
+        "other"
+       ],
+       "error": null
+      },
+      {
+       "hash": "0x406b653c26f3e2b0813703f1f225725fe936ba46dd7e3001703c8fc2df4d58d9",
+       "timestamp": "2023-12-23T16:23:47.000000Z",
+       "method": "createScript",
+       "category": "renderer",
+       "from": "0x20Ec68Ba5dC8aF5380BDb37465b3F9BDE75f9635",
+       "params": [
+        {
+         "name": "arg0",
+         "type": "string",
+         "value": "crashblossom_gold_main_v1.2"
+        },
+        {
+         "name": "arg1",
+         "type": "bytes",
+         "value": "0x6372617368626c6f73736f6d5f676f6c645f6d61696e5f76312e32"
+        }
+       ],
+       "value_kinds": [
+        "other"
+       ],
+       "error": null
+      },
+      {
+       "hash": "0x4a6cfefcdc435765a833b626df10197b290b17371b302627ac878d588e36c5fc",
+       "timestamp": "2023-12-23T16:23:59.000000Z",
+       "method": "addChunkToScript",
+       "category": "renderer",
+       "from": "0x20Ec68Ba5dC8aF5380BDb37465b3F9BDE75f9635",
+       "params": [
+        {
+         "name": "arg0",
+         "type": "string",
+         "value": "crashblossom_gold_main_v1.2"
+        },
+        {
+         "name": "arg1",
+         "type": "bytes",
+         "value": "0x6c6574206d3d21312c653d5b2268747470733a2f2f6574682d6d61696e6e65742e672e616c6368656d792e636f6d2f76322f6a4e6a4849424b67697151426f75725963665641337273627950307643587765222c2268747470733a2f2f6574682d6d61696e6e65742e672e616c6368656d792e636f6d2f76322f5479574d5a49534e7843513051626b6b6d31512d4144304274424f"
+        }
+       ],
+       "value_kinds": [
+        "other"
+       ],
+       "error": null
+      },
+      {
+       "hash": "0x205924462a84da8749f433acb2b1009124787dba5cf92d1f7aeaef9fe4e5e7f5",
+       "timestamp": "2023-12-23T16:24:11.000000Z",
+       "method": "addChunkToScript",
+       "category": "renderer",
+       "from": "0x20Ec68Ba5dC8aF5380BDb37465b3F9BDE75f9635",
+       "params": [
+        {
+         "name": "arg0",
+         "type": "string",
+         "value": "crashblossom_gold_main_v1.2"
+        },
+        {
+         "name": "arg1",
+         "type": "bytes",
+         "value": "0x6174682e6162732865292c5f2d722d653c6665262628653d5f2d722d6665292c526528682c653d4d6174682e6d696e28652c6d29292c722b3d65293a303c65262628653d4d6174682e6162732865292c466528682c653d5f2b6c2b653e75653f75652d285f2b6c293a652c22706c61746522292c6c2b3d65297d7d69662822746965725f73656e6473223d3d65297b76617220673d"
+        }
+       ],
+       "value_kinds": [
+        "other"
+       ],
+       "error": null
+      }
+     ],
+     "ownership_transfers": [
+      {
+       "date": "2023-01-16",
+       "from": "0x0000000000000000000000000000000000000000",
+       "to": "0xbae9802ac9dd899c1ecdebf319fa270a09fd81c7",
+       "tx": "0xf84196a70ee928b93cb4a8170688809a4f3e96bf09bb86f6b007a2f647e04994"
+      }
+     ],
+     "incomplete": false
+    },
+    "unverified_selector_hits": [],
+    "tokenuri_path": "none"
+   }
+  },
+  {
+   "address": "0x684f40493611821587d032bc30abd41e141f32fb",
+   "via": "_thumbnailAddress()",
+   "in_tokenuri_path": true,
+   "via_setter": false,
+   "analysis": {
+    "address": "0x684f40493611821587d032bc30abd41e141f32fb",
+    "verified": false,
+    "contract_name": "",
+    "proxy": {
+     "kind": null
+    },
+    "owner": null,
+    "admin_fn": null,
+    "uups": false,
+    "lock_views": {},
+    "lock_flags_true": {},
+    "lock_functions": [],
+    "class_direct": "unknown",
+    "class_reason": "unverified source; no known setter selectors in bytecode",
+    "live_mutators": [],
+    "mutators": [],
+    "history": {},
+    "unverified_selector_hits": [],
+    "tokenuri_path": "n/a"
+   }
+  },
+  {
+   "address": "0x3cc6cdda760b79bafa08df41ecfa224f810dceb6",
+   "via": "constant _DEFAULT_SUBSCRIPTION",
+   "in_tokenuri_path": false,
+   "via_setter": false,
+   "analysis": {
+    "address": "0x3cc6cdda760b79bafa08df41ecfa224f810dceb6",
+    "verified": true,
+    "contract_name": "OwnedRegistrant",
+    "proxy": {
+     "kind": null
+    },
+    "owner": {
+     "addr": "0xc669b5f25f03be2ac0323037cb57f49eb543657a",
+     "code_raw": "data/raw/rpc-mutability/0xc669b5f25f03be2ac0323037cb57f49eb543657a_holdercode.json",
+     "code_len": 171,
+     "probe_raw": "data/raw/rpc-mutability/0xc669b5f25f03be2ac0323037cb57f49eb543657a_holderprobe.json",
+     "type": "safe",
+     "threshold": 5,
+     "n_owners": 7,
+     "owners": [
+      "0x1049f38c6ef26b195cdaf54337e8079eea9376f1",
+      "0x59f4ec41bfdca22b4c0f1fd4b4ced52f79c3d09f",
+      "0x435949f7363093620bb0d3900180c22273f076ab",
+      "0xe80a65eb7a3018deda407e621ef5fb5b416678ca",
+      "0xb20f88febd0adc79c58982c9cc88938de81fe451",
+      "0xbf81d02f3ee59e79af3d9337a186f65c9fae39f3",
+      "0x30809f074db2fb7cfdf68b1d25cfac7c96b5fb6c"
+     ],
+     "version": "1.3.0",
+     "bs_name": "GnosisSafeProxy",
+     "ens": null,
+     "bs_impl_names": [
+      "GnosisSafe"
+     ],
+     "bs_tags": [],
+     "is_contract": true,
+     "creator": "0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2",
+     "is_verified": true,
+     "bs_reputation": "ok"
+    },
+    "admin_fn": null,
+    "uups": false,
+    "lock_views": {},
+    "lock_flags_true": {},
+    "lock_functions": [],
+    "class_direct": "immutable",
+    "class_reason": "no uri/renderer/upgrade function in ABI and not a proxy",
+    "live_mutators": [],
+    "mutators": [],
+    "history": {},
+    "unverified_selector_hits": [],
+    "tokenuri_path": "none"
+   }
+  }
+ ],
+ "meta": {
+  "address": "0xce9ca012fa55a8b1e540df35f6c77203812df523",
+  "name": "Crypto Coaster",
+  "w5_claim_strength": "on-chain-generic",
+  "w5_claim_text": "Overall, Crypto Coasters offers a thrilling and exciting experience for NFT enthusiasts who are looking for something innovative to add to their on-chain collection.",
+  "w5_source_type": "directory",
+  "w5_source_url": "https://www.fullyonchain.art/collections/crypto-coaster",
+  "holders_count": 706.0,
+  "in_w5": true,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": null,
+  "census_media_class": null,
+  "census_liveness": null,
+  "in_census_onchain": false,
+  "standard": "ERC-721",
+  "creator": "0xe1d1fef5ec32bc6328bbf80f1863905602c80acf",
+  "deploy_block": 16811265.0
+ },
+ "class_deps_all": "eoa-mutable",
+ "class_deps": "unknown",
+ "class_final": "unknown",
+ "pointer_power": null
+}

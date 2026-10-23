@@ -1,0 +1,483 @@
+{
+ "address": "0xd0209da49cafb045ad56e78ed7d39d5a632d8c3a",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:47Z",
+ "code_raw": "data/raw/rpc-mutability/0xd0209da49cafb045ad56e78ed7d39d5a632d8c3a_code.json",
+ "code_len": 9201,
+ "slots": {
+  "slot0": "0x416e7469204669617420446567656e20436c7562000000000000000000000028"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0xd0209da49cafb045ad56e78ed7d39d5a632d8c3a_slots.json",
+ "verified": true,
+ "contract_name": "AFDC",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [
+   {
+    "hash": "0x2571e950a4f72981a13619be131de021715de19ada5757c10ca3639722692d2e",
+    "timestamp": "2022-10-06T19:06:47.000000Z",
+    "method": "setBaseURI",
+    "from": "0x0F36a1c6d232866Bd96c03BE437c7271e6c9F1a7",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15691039,
+    "category": "uri"
+   },
+   {
+    "hash": "0xa2cb7ae2b6816a026913754106363d15ae13eaab0720f11ba661197dc2b69a11",
+    "timestamp": "2022-10-06T00:19:59.000000Z",
+    "method": "setBaseURI",
+    "from": "0x0F36a1c6d232866Bd96c03BE437c7271e6c9F1a7",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15685442,
+    "category": "uri"
+   },
+   {
+    "hash": "0x90f84b914249c3f9c1664b407d602275eb579ee81b38cd31d028f71749d8fc98",
+    "timestamp": "2022-10-06T00:09:35.000000Z",
+    "method": "reveal",
+    "from": "0x0F36a1c6d232866Bd96c03BE437c7271e6c9F1a7",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15685391,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x40eec43305355325435d2a3feb49dfdda95fd0169522226a2fddb5e023694ebb",
+    "timestamp": "2022-10-06T00:07:35.000000Z",
+    "method": "setBaseURI",
+    "from": "0x0F36a1c6d232866Bd96c03BE437c7271e6c9F1a7",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15685381,
+    "category": "uri"
+   },
+   {
+    "hash": "0x3caff545df23925836222c849d0ed697bba1be078232f2749b6875369a192dd7",
+    "timestamp": "2022-10-05T10:59:23.000000Z",
+    "method": "setBaseURI",
+    "from": "0x0F36a1c6d232866Bd96c03BE437c7271e6c9F1a7",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15681461,
+    "category": "uri"
+   },
+   {
+    "hash": "0x4a9f62c0e673d26536ad445fe4cb57f7d985ea6ec638ba2849b94985860596d0",
+    "timestamp": "2022-10-05T10:59:23.000000Z",
+    "method": "setBaseURI",
+    "from": "0x0F36a1c6d232866Bd96c03BE437c7271e6c9F1a7",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15681461,
+    "category": "uri"
+   },
+   {
+    "hash": "0xc6231c944da282f888c2b1bc4feee3f08af309ac1ece93ce096138e19d9b5da4",
+    "timestamp": "2022-10-05T08:55:47.000000Z",
+    "method": "reveal",
+    "from": "0x0F36a1c6d232866Bd96c03BE437c7271e6c9F1a7",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15680849,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xa079dc038437bc93d8d2ddf62f726e9008e28c00e0429af92d905f5dfbed5ae6",
+    "timestamp": "2022-10-05T08:39:11.000000Z",
+    "method": "reveal",
+    "from": "0x0F36a1c6d232866Bd96c03BE437c7271e6c9F1a7",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15680766,
+    "category": "reveal"
+   }
+  ],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 1,
+    "first": "2022-10-05",
+    "last": "2022-10-05",
+    "last_tx": "0x9c60be25acb0f2e6ced3e5900f4cc8accd81b1b7616b6ae84d9e378e111903f7",
+    "list": [
+     {
+      "date": "2022-10-05",
+      "tx": "0x9c60be25acb0f2e6ced3e5900f4cc8accd81b1b7616b6ae84d9e378e111903f7",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "0f36a1c6d232866bd96c03be437c7271e6c9f1a7"
+      ],
+      "data": "0x"
+     }
+    ]
+   }
+  },
+  "decoded": [
+   {
+    "hash": "0xa079dc038437bc93d8d2ddf62f726e9008e28c00e0429af92d905f5dfbed5ae6",
+    "timestamp": "2022-10-05T08:39:11.000000Z",
+    "method": "reveal",
+    "category": "reveal",
+    "from": "0x0F36a1c6d232866Bd96c03BE437c7271e6c9F1a7",
+    "params": [],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0xc6231c944da282f888c2b1bc4feee3f08af309ac1ece93ce096138e19d9b5da4",
+    "timestamp": "2022-10-05T08:55:47.000000Z",
+    "method": "reveal",
+    "category": "reveal",
+    "from": "0x0F36a1c6d232866Bd96c03BE437c7271e6c9F1a7",
+    "params": [],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0x3caff545df23925836222c849d0ed697bba1be078232f2749b6875369a192dd7",
+    "timestamp": "2022-10-05T10:59:23.000000Z",
+    "method": "setBaseURI",
+    "category": "uri",
+    "from": "0x0F36a1c6d232866Bd96c03BE437c7271e6c9F1a7",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "string",
+      "value": "ipfs://QmYSXjyvYsxSmyZ2JSvRRt1LhA8fFUxFz7HkFCT4cwmGhA/"
+     }
+    ],
+    "value_kinds": [
+     "ipfs"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0x4a9f62c0e673d26536ad445fe4cb57f7d985ea6ec638ba2849b94985860596d0",
+    "timestamp": "2022-10-05T10:59:23.000000Z",
+    "method": "setBaseURI",
+    "category": "uri",
+    "from": "0x0F36a1c6d232866Bd96c03BE437c7271e6c9F1a7",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "string",
+      "value": "ipfs://QmYSXjyvYsxSmyZ2JSvRRt1LhA8fFUxFz7HkFCT4cwmGhA/"
+     }
+    ],
+    "value_kinds": [
+     "ipfs"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0x40eec43305355325435d2a3feb49dfdda95fd0169522226a2fddb5e023694ebb",
+    "timestamp": "2022-10-06T00:07:35.000000Z",
+    "method": "setBaseURI",
+    "category": "uri",
+    "from": "0x0F36a1c6d232866Bd96c03BE437c7271e6c9F1a7",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "string",
+      "value": "ipfs://QmYSXjyvYsxSmyZ2JSvRRt1LhA8fFUxFz7HkFCT4cwmGhA/"
+     }
+    ],
+    "value_kinds": [
+     "ipfs"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0x90f84b914249c3f9c1664b407d602275eb579ee81b38cd31d028f71749d8fc98",
+    "timestamp": "2022-10-06T00:09:35.000000Z",
+    "method": "reveal",
+    "category": "reveal",
+    "from": "0x0F36a1c6d232866Bd96c03BE437c7271e6c9F1a7",
+    "params": [],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0xa2cb7ae2b6816a026913754106363d15ae13eaab0720f11ba661197dc2b69a11",
+    "timestamp": "2022-10-06T00:19:59.000000Z",
+    "method": "setBaseURI",
+    "category": "uri",
+    "from": "0x0F36a1c6d232866Bd96c03BE437c7271e6c9F1a7",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "string",
+      "value": "ipfs://Qma1YdBtJ9pXsC6eyL6zd5d5yd9ssyf953ndvb2rJKmBqw/"
+     }
+    ],
+    "value_kinds": [
+     "ipfs"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0x2571e950a4f72981a13619be131de021715de19ada5757c10ca3639722692d2e",
+    "timestamp": "2022-10-06T19:06:47.000000Z",
+    "method": "setBaseURI",
+    "category": "uri",
+    "from": "0x0F36a1c6d232866Bd96c03BE437c7271e6c9F1a7",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "string",
+      "value": "ipfs://QmXr8Fjr8GdiiJsXbd2bU76xz1qJGimvcuCtejpUw79QBK/"
+     }
+    ],
+    "value_kinds": [
+     "ipfs"
+    ],
+    "error": null
+   }
+  ],
+  "ownership_transfers": [
+   {
+    "date": "2022-10-05",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0x0f36a1c6d232866bd96c03be437c7271e6c9f1a7",
+    "tx": "0x9c60be25acb0f2e6ced3e5900f4cc8accd81b1b7616b6ae84d9e378e111903f7"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0xd0209da49cafb045ad56e78ed7d39d5a632d8c3a_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0x0f36a1c6d232866bd96c03be437c7271e6c9f1a7",
+  "code_raw": "data/raw/rpc-mutability/0x0f36a1c6d232866bd96c03be437c7271e6c9f1a7_holdercode.json",
+  "type": "eoa",
+  "bs_name": null,
+  "ens": null,
+  "bs_impl_names": [],
+  "bs_tags": [],
+  "is_contract": false,
+  "creator": null,
+  "is_verified": false,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "override",
+ "lock_functions": [],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [
+  {
+   "name": "setBaseExtension",
+   "sig": "setBaseExtension(string)",
+   "selector": "0xda3ef23f",
+   "category": "uri",
+   "inputs": [
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "baseExtension = _newBaseExtension;",
+   "writes": [
+    "baseExtension"
+   ],
+   "effective": "yes",
+   "power": "eoa",
+   "holder_addrs": [
+    "0x0f36a1c6d232866bd96c03be437c7271e6c9f1a7"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x0f36a1c6d232866bd96c03be437c7271e6c9f1a7",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "setBaseURI",
+   "sig": "setBaseURI(string)",
+   "selector": "0x55f804b3",
+   "category": "uri",
+   "inputs": [
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "baseURI = _newBaseURI;",
+   "writes": [
+    "baseURI"
+   ],
+   "effective": "yes",
+   "power": "eoa",
+   "holder_addrs": [
+    "0x0f36a1c6d232866bd96c03be437c7271e6c9f1a7"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x0f36a1c6d232866bd96c03be437c7271e6c9f1a7",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "setNotRevealedURI",
+   "sig": "setNotRevealedURI(string)",
+   "selector": "0xf2c4ce1e",
+   "category": "uri",
+   "inputs": [
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "notRevealedUri = _notRevealedURI;",
+   "writes": [
+    "notRevealedUri"
+   ],
+   "effective": "yes",
+   "power": "eoa",
+   "holder_addrs": [
+    "0x0f36a1c6d232866bd96c03be437c7271e6c9f1a7"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x0f36a1c6d232866bd96c03be437c7271e6c9f1a7",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "reveal",
+   "sig": "reveal()",
+   "selector": "0xa475b5dd",
+   "category": "reveal",
+   "inputs": [],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "revealed = true;",
+   "writes": [
+    "revealed"
+   ],
+   "power": "eoa",
+   "holder_addrs": [
+    "0x0f36a1c6d232866bd96c03be437c7271e6c9f1a7"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x0f36a1c6d232866bd96c03be437c7271e6c9f1a7",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  }
+ ],
+ "class_direct": "eoa-mutable",
+ "class_reason": "live setters (eoa): setBaseExtension,setBaseURI,setNotRevealedURI",
+ "live_mutators": [
+  "setBaseExtension",
+  "setBaseURI",
+  "setNotRevealedURI"
+ ],
+ "dependencies": [],
+ "meta": {
+  "address": "0xd0209da49cafb045ad56e78ed7d39d5a632d8c3a",
+  "name": "Anti Fiat Degen Club",
+  "w5_claim_strength": "on-chain-generic",
+  "w5_claim_text": "{{{\"sources\": {\"main.sol\": {\"content\": \"// This contract is part of Zellic\\u2019s smart contract dataset, which is a collection of publicly available contract code gathered as of March 2023.\\n\\n// SPDX-License-Identifier: MIT\\n\\n// Amended by HashLips\\n/**\\n    !Disclaimer!\\n    These contracts have been used to create tutorials,\\n    and was created for the purpose to teach people\\n    how to cre",
+  "w5_source_type": "contract-source",
+  "w5_source_url": "https://etherscan.io/address/0xd0209da49cafb045ad56e78ed7d39d5a632d8c3a#code (AFDC:1)",
+  "holders_count": 118.0,
+  "in_w5": true,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": null,
+  "census_media_class": null,
+  "census_liveness": null,
+  "in_census_onchain": false,
+  "standard": "ERC-721",
+  "creator": "0x0f36a1c6d232866bd96c03be437c7271e6c9f1a7",
+  "deploy_block": 15680479.0
+ },
+ "class_deps_all": "none",
+ "class_deps": "none",
+ "class_final": "eoa-mutable",
+ "pointer_power": "eoa"
+}

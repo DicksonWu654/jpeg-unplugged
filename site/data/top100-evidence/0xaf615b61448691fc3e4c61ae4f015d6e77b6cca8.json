@@ -1,0 +1,513 @@
+{
+  "collection": {
+    "rank": 86,
+    "source_rank": 91,
+    "name": "Lives of Asuna",
+    "contract": "0xaf615b61448691fc3e4c61ae4f015d6e77b6cca8",
+    "contracts": [
+      "0xaf615b61448691fc3e4c61ae4f015d6e77b6cca8"
+    ],
+    "slug": "lives-of-asuna",
+    "volume_usd": 66186942.74,
+    "volume_source": "CryptoSlam all-time Ethereum owner-to-owner sales, wash-filtered USD",
+    "source_url": "https://web-api.cryptoslam.io/v1/sales/rank-by-volume?timeRange=all&orderBy=rank&sortDirection=asc&offset=0&limit=100&blockchainId=0&hideInscriptions=false",
+    "ranking_evidence": "data/raw/top100-api/cryptoslam-ranking-0.json",
+    "identity_evidence": "data/raw/top100-api/cryptoslam-info-lives-of-asuna.json",
+    "token_count": 10000,
+    "all_time_volume": 66186942.74,
+    "volume_currency": "USD",
+    "kind": "art-avatar",
+    "metadata_location": "http",
+    "metadata_classes": [
+      "http"
+    ],
+    "media_location": "unresolved",
+    "primary_image_location": "unresolved",
+    "media_classes": [],
+    "liveness": "dead",
+    "liveness_exact": "dead",
+    "all_declared_media_liveness": "dead",
+    "metadata_failed": true,
+    "n_alive": 0,
+    "n_dead": 3,
+    "n_unknown": 0,
+    "n_degraded": 0,
+    "key_domain_or_gateway": "regen.asunaverse.com",
+    "hosts": [
+      "regen.asunaverse.com"
+    ],
+    "hardcoded_gateways": [],
+    "http_origin_dependency": true,
+    "uses_ipfs": false,
+    "uses_arweave": false,
+    "fully_onchain_all_declared_media": false,
+    "metadata_and_primary_image_onchain": false,
+    "mutability_class": "eoa-mutable",
+    "single_key_mutable": true,
+    "single_key_repointable": true,
+    "base_uri_or_renderer": "0xaf615b61448691fc3e4c61ae4f015d6e77b6cca8.tokenURI/uri",
+    "control": [
+      {
+        "contract": "0xaf615b61448691fc3e4c61ae4f015d6e77b6cca8",
+        "class": "eoa-mutable",
+        "pointer_power": "eoa",
+        "reason": "live setters (eoa): setBaseURI",
+        "owner": {
+          "addr": "0x985783404e5ce343e3fa6d67c6dcabe1f684133d",
+          "code_raw": "data/raw/rpc-mutability/0x985783404e5ce343e3fa6d67c6dcabe1f684133d_holdercode.json",
+          "type": "eoa",
+          "bs_name": null,
+          "ens": null,
+          "bs_impl_names": [],
+          "bs_tags": [],
+          "is_contract": false,
+          "creator": null,
+          "is_verified": false,
+          "bs_reputation": "ok"
+        },
+        "proxy": {
+          "kind": null
+        },
+        "live_mutators": [
+          {
+            "name": "setBaseURI",
+            "sig": "setBaseURI(string)",
+            "category": "uri",
+            "power": "eoa",
+            "holders": [
+              {
+                "addr": "0x985783404e5ce343e3fa6d67c6dcabe1f684133d",
+                "type": "eoa",
+                "bs_name": null,
+                "ens": null,
+                "desc": "eoa",
+                "simple": "eoa"
+              }
+            ],
+            "effective": "yes",
+            "reason": null
+          },
+          {
+            "name": "setTokenURI",
+            "sig": "setTokenURI(uint256,string,uint256,bytes32,bytes)",
+            "category": "uri",
+            "power": "token-holder",
+            "holders": [],
+            "effective": "yes",
+            "reason": null
+          }
+        ],
+        "lock_flags": {},
+        "dependencies": [],
+        "pointer_getters": [
+          {
+            "getter": "tokenURIPrefix()",
+            "type": "string",
+            "ok": true,
+            "value": "Lives of Asuna Token URI Verification:",
+            "error": null
+          }
+        ],
+        "analyzed_at": "2026-10-23T02:53:12Z",
+        "history_incomplete": false,
+        "evidence": "data/raw/top100-mutability/0xaf615b61448691fc3e4c61ae4f015d6e77b6cca8.json"
+      }
+    ],
+    "samples": 3,
+    "distinct_token_ids": 3,
+    "sample_note": null,
+    "source_contracts_without_sampleable_nfts": [],
+    "ownership_scope_gaps": [],
+    "refreshed_at": "2026-10-23T03:05:06Z",
+    "opensea_rank": 109,
+    "ranking_scope_disagreement": false,
+    "metadata_adapter": false,
+    "evidence": [
+      "data/raw/top100-census/0xaf615b61448691fc3e4c61ae4f015d6e77b6cca8/result.json.gz"
+    ],
+    "delivery_note": null
+  },
+  "samples": [
+    {
+      "contract": "0xaf615b61448691fc3e4c61ae4f015d6e77b6cca8",
+      "token_id": "0",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(0) [low; totalSupply=10000]",
+      "metadata_location": "http",
+      "metadata_uri": "https://regen.asunaverse.com/api/metadata/0",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "regen.asunaverse.com",
+          "url": "https://regen.asunaverse.com/api/metadata/0",
+          "status": 504,
+          "error_kind": null,
+          "v": "dead",
+          "reason": "http-5xx",
+          "seq": 2,
+          "final_url": "https://regen.asunaverse.com/api/metadata/0",
+          "content_type": "text/html",
+          "size": 1271,
+          "content_length": null,
+          "sha256": "9ce443de0c50b20dee88337283cdbc918e886b0c2b5947388773c1a0a613da4f",
+          "t": "2026-10-23T02:51:09Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "regen.asunaverse.com",
+          "url": "https://regen.asunaverse.com/api/metadata/0",
+          "status": 504,
+          "error_kind": null,
+          "v": "dead",
+          "reason": "http-5xx",
+          "seq": 7,
+          "final_url": "https://regen.asunaverse.com/api/metadata/0",
+          "content_type": "text/html",
+          "size": 1271,
+          "content_length": null,
+          "sha256": "9ce443de0c50b20dee88337283cdbc918e886b0c2b5947388773c1a0a613da4f",
+          "t": "2026-10-23T02:58:41Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "regen.asunaverse.com",
+          "url": "https://regen.asunaverse.com/api/metadata/0",
+          "status": 504,
+          "error_kind": null,
+          "v": "dead",
+          "reason": "http-5xx",
+          "seq": 10,
+          "final_url": "https://regen.asunaverse.com/api/metadata/0",
+          "content_type": "text/html",
+          "size": 1271,
+          "content_length": null,
+          "sha256": "9ce443de0c50b20dee88337283cdbc918e886b0c2b5947388773c1a0a613da4f",
+          "t": "2026-10-23T03:05:05Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [],
+      "derived": {
+        "meta_verdict": "dead",
+        "meta_verdict_reason": "http-5xx",
+        "image_class": null,
+        "anim_class": null,
+        "image_verdict": null,
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {},
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "dead",
+        "liveness_reason": "http-5xx",
+        "liveness_exact": "dead",
+        "liveness_exact_reason": "http-5xx",
+        "meta_verdict_exact": "dead",
+        "image_verdict_exact": null,
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "http-5xx"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000000000",
+          "endpoint": "https://eth.rpc.blxrbdn.com",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0xaf615b61448691fc3e4c61ae4f015d6e77b6cca8/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0xaf615b61448691fc3e4c61ae4f015d6e77b6cca8",
+      "token_id": "5000",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(5000) [mid; totalSupply=10000]",
+      "metadata_location": "http",
+      "metadata_uri": "https://regen.asunaverse.com/api/metadata/5000",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "regen.asunaverse.com",
+          "url": "https://regen.asunaverse.com/api/metadata/5000",
+          "status": 504,
+          "error_kind": null,
+          "v": "dead",
+          "reason": "http-5xx",
+          "seq": 4,
+          "final_url": "https://regen.asunaverse.com/api/metadata/5000",
+          "content_type": "text/html",
+          "size": 1271,
+          "content_length": null,
+          "sha256": "9ce443de0c50b20dee88337283cdbc918e886b0c2b5947388773c1a0a613da4f",
+          "t": "2026-10-23T02:51:09Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "regen.asunaverse.com",
+          "url": "https://regen.asunaverse.com/api/metadata/5000",
+          "status": 504,
+          "error_kind": null,
+          "v": "dead",
+          "reason": "http-5xx",
+          "seq": 8,
+          "final_url": "https://regen.asunaverse.com/api/metadata/5000",
+          "content_type": "text/html",
+          "size": 1271,
+          "content_length": null,
+          "sha256": "9ce443de0c50b20dee88337283cdbc918e886b0c2b5947388773c1a0a613da4f",
+          "t": "2026-10-23T02:58:41Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "regen.asunaverse.com",
+          "url": "https://regen.asunaverse.com/api/metadata/5000",
+          "status": 504,
+          "error_kind": null,
+          "v": "dead",
+          "reason": "http-5xx",
+          "seq": 11,
+          "final_url": "https://regen.asunaverse.com/api/metadata/5000",
+          "content_type": "text/html",
+          "size": 1271,
+          "content_length": null,
+          "sha256": "9ce443de0c50b20dee88337283cdbc918e886b0c2b5947388773c1a0a613da4f",
+          "t": "2026-10-23T03:05:05Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [],
+      "derived": {
+        "meta_verdict": "dead",
+        "meta_verdict_reason": "http-5xx",
+        "image_class": null,
+        "anim_class": null,
+        "image_verdict": null,
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {},
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "dead",
+        "liveness_reason": "http-5xx",
+        "liveness_exact": "dead",
+        "liveness_exact_reason": "http-5xx",
+        "meta_verdict_exact": "dead",
+        "image_verdict_exact": null,
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "http-5xx"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000001388",
+          "endpoint": "https://eth.rpc.blxrbdn.com",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0xaf615b61448691fc3e4c61ae4f015d6e77b6cca8/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0xaf615b61448691fc3e4c61ae4f015d6e77b6cca8",
+      "token_id": "9999",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(9999) [recent; totalSupply=10000]",
+      "metadata_location": "http",
+      "metadata_uri": "https://regen.asunaverse.com/api/metadata/9999",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "regen.asunaverse.com",
+          "url": "https://regen.asunaverse.com/api/metadata/9999",
+          "status": 504,
+          "error_kind": null,
+          "v": "dead",
+          "reason": "http-5xx",
+          "seq": 6,
+          "final_url": "https://regen.asunaverse.com/api/metadata/9999",
+          "content_type": "text/html",
+          "size": 1271,
+          "content_length": null,
+          "sha256": "9ce443de0c50b20dee88337283cdbc918e886b0c2b5947388773c1a0a613da4f",
+          "t": "2026-10-23T02:51:10Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "regen.asunaverse.com",
+          "url": "https://regen.asunaverse.com/api/metadata/9999",
+          "status": 504,
+          "error_kind": null,
+          "v": "dead",
+          "reason": "http-5xx",
+          "seq": 9,
+          "final_url": "https://regen.asunaverse.com/api/metadata/9999",
+          "content_type": "text/html",
+          "size": 1271,
+          "content_length": null,
+          "sha256": "9ce443de0c50b20dee88337283cdbc918e886b0c2b5947388773c1a0a613da4f",
+          "t": "2026-10-23T02:58:41Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "regen.asunaverse.com",
+          "url": "https://regen.asunaverse.com/api/metadata/9999",
+          "status": 504,
+          "error_kind": null,
+          "v": "dead",
+          "reason": "http-5xx",
+          "seq": 12,
+          "final_url": "https://regen.asunaverse.com/api/metadata/9999",
+          "content_type": "text/html",
+          "size": 1271,
+          "content_length": null,
+          "sha256": "9ce443de0c50b20dee88337283cdbc918e886b0c2b5947388773c1a0a613da4f",
+          "t": "2026-10-23T03:05:06Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [],
+      "derived": {
+        "meta_verdict": "dead",
+        "meta_verdict_reason": "http-5xx",
+        "image_class": null,
+        "anim_class": null,
+        "image_verdict": null,
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {},
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "dead",
+        "liveness_reason": "http-5xx",
+        "liveness_exact": "dead",
+        "liveness_exact_reason": "http-5xx",
+        "meta_verdict_exact": "dead",
+        "image_verdict_exact": null,
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "http-5xx"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd000000000000000000000000000000000000000000000000000000000000270f",
+          "endpoint": "https://eth.rpc.blxrbdn.com",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0xaf615b61448691fc3e4c61ae4f015d6e77b6cca8/evidence.jsonl.gz"
+    }
+  ],
+  "saved_packet_index": [
+    {
+      "path": "data/raw/top100-api/opensea-contract-0xaf615b61448691fc3e4c61ae4f015d6e77b6cca8-attempt1-1792724333652764761.body",
+      "sha256": "e7435fbb1c5ad5f3795889b78db8f659dff6d30c6b8b48d4369204d05b353f74",
+      "retrieved_at": "2026-10-23T02:58:53Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0xaf615b61448691fc3e4c61ae4f015d6e77b6cca8",
+      "method": "GET",
+      "status": 401,
+      "error": null,
+      "bytes": 70,
+      "truncated": false
+    },
+    {
+      "path": "data/raw/top100-api/opensea-contract-0xaf615b61448691fc3e4c61ae4f015d6e77b6cca8-attempt1-1792724761701654256.body",
+      "sha256": "e7435fbb1c5ad5f3795889b78db8f659dff6d30c6b8b48d4369204d05b353f74",
+      "retrieved_at": "2026-10-23T03:06:01Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0xaf615b61448691fc3e4c61ae4f015d6e77b6cca8",
+      "method": "GET",
+      "status": 401,
+      "error": null,
+      "bytes": 70,
+      "truncated": false
+    },
+    {
+      "path": "data/raw/top100-census/0xaf615b61448691fc3e4c61ae4f015d6e77b6cca8/bodies.zip",
+      "sha256": "910265a559d989dc2e9ad9a93f410a1e6ece28e8118f67a6b52b9ca3a05c8a9d",
+      "bytes": 8179
+    },
+    {
+      "path": "data/raw/top100-census/0xaf615b61448691fc3e4c61ae4f015d6e77b6cca8/evidence.jsonl.gz",
+      "sha256": "dd51f871b23e5a994ff69e5f4accd5e99952f4064011ef16538ffca5465bfe9b",
+      "bytes": 1524
+    },
+    {
+      "path": "data/raw/top100-census/0xaf615b61448691fc3e4c61ae4f015d6e77b6cca8/result.json.gz",
+      "sha256": "9d548e73266585f919ca863109767ac735cb6a5f011a4d02cecce8805f6a1225",
+      "bytes": 1147
+    },
+    {
+      "path": "data/raw/top100-mutability/0xaf615b61448691fc3e4c61ae4f015d6e77b6cca8.json",
+      "sha256": "fff082ff1e28d437b67ea245c26c78bb9852235b80427dd098d0773356bfefa9",
+      "bytes": 10847
+    },
+    {
+      "path": "data/raw/top100-pointers/0xaf615b61448691fc3e4c61ae4f015d6e77b6cca8/bodies.zip",
+      "sha256": "e1860bd47da8e459f47f3950e041a166d3e024759d0fe2728b7eb6ace0a34bb0",
+      "bytes": 260
+    },
+    {
+      "path": "data/raw/top100-pointers/0xaf615b61448691fc3e4c61ae4f015d6e77b6cca8/evidence.jsonl.gz",
+      "sha256": "c5a3bf6e1a9f6ff52db1752185b9f8ba19480af3642f00a9389778a1ef95885a",
+      "bytes": 346
+    },
+    {
+      "path": "data/raw/top100-pointers/0xaf615b61448691fc3e4c61ae4f015d6e77b6cca8/result.json",
+      "sha256": "99b279899bb575481cc233b2d6aa0e3abb40b8f04118fcd0627e94b85358a20d",
+      "bytes": 353
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0xaf615b61448691fc3e4c61ae4f015d6e77b6cca8/bodies.zip",
+      "sha256": "3a379acc5eb4e99bfcccc31d98b5ba7c8ee3877ba19d6ca6af2d201bd5a8ef4c",
+      "bytes": 586
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0xaf615b61448691fc3e4c61ae4f015d6e77b6cca8/evidence.jsonl.gz",
+      "sha256": "3a891791477ab3f1fe53e846fe3bc22cf25fa26b2fe261989ca08b75d1f039c0",
+      "bytes": 688
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0xaf615b61448691fc3e4c61ae4f015d6e77b6cca8/result.json",
+      "sha256": "b9ed09e7c1f4534f339e2aad5647f47b0ea46f74f366dbf681d6a06b18b0706f",
+      "bytes": 299
+    }
+  ],
+  "interpretation": "Liveness describes sampled metadata and primary-image delivery, not permanent loss of the artwork."
+}

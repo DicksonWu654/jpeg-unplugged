@@ -1,0 +1,504 @@
+{
+  "collection": {
+    "rank": 34,
+    "source_rank": 34,
+    "name": "Emblem Vault V4",
+    "contract": "0x82c7a8f707110f5fbb16184a5933e9f78a34c6ab",
+    "contracts": [
+      "0x82c7a8f707110f5fbb16184a5933e9f78a34c6ab"
+    ],
+    "slug": "emblem-vault-v4",
+    "volume_usd": 144753193.31,
+    "volume_source": "CryptoSlam all-time Ethereum owner-to-owner sales, wash-filtered USD",
+    "source_url": "https://web-api.cryptoslam.io/v1/sales/rank-by-volume?timeRange=all&orderBy=rank&sortDirection=asc&offset=0&limit=100&blockchainId=0&hideInscriptions=false",
+    "ranking_evidence": "data/raw/top100-api/cryptoslam-ranking-0.json",
+    "identity_evidence": "data/raw/top100-api/cryptoslam-info-emblem-vault-v4.json",
+    "token_count": 55116,
+    "all_time_volume": 144753193.31,
+    "volume_currency": "USD",
+    "kind": "asset-vault",
+    "metadata_location": "http",
+    "metadata_classes": [
+      "http"
+    ],
+    "media_location": "http",
+    "primary_image_location": "http",
+    "media_classes": [
+      "http"
+    ],
+    "liveness": "alive",
+    "liveness_exact": "alive",
+    "all_declared_media_liveness": "unknown",
+    "metadata_failed": false,
+    "n_alive": 2,
+    "n_dead": 0,
+    "n_unknown": 1,
+    "n_degraded": 0,
+    "key_domain_or_gateway": "104.154.252.216; api.emblemvault.io; emblem.finance",
+    "hosts": [
+      "104.154.252.216",
+      "api.emblemvault.io",
+      "emblem.finance"
+    ],
+    "hardcoded_gateways": [],
+    "http_origin_dependency": true,
+    "uses_ipfs": false,
+    "uses_arweave": false,
+    "fully_onchain_all_declared_media": false,
+    "metadata_and_primary_image_onchain": false,
+    "mutability_class": "eoa-mutable",
+    "single_key_mutable": true,
+    "single_key_repointable": true,
+    "base_uri_or_renderer": "0x82c7a8f707110f5fbb16184a5933e9f78a34c6ab.tokenURI/uri",
+    "control": [
+      {
+        "contract": "0x82c7a8f707110f5fbb16184a5933e9f78a34c6ab",
+        "class": "eoa-mutable",
+        "pointer_power": "eoa",
+        "reason": "live setters (eoa): updateTokenUri",
+        "owner": {
+          "addr": "0x2272ecf43a7481088fa2d4ba9109804ed5a31901",
+          "code_raw": "data/raw/rpc-mutability/0x2272ecf43a7481088fa2d4ba9109804ed5a31901_holdercode.json",
+          "type": "eoa",
+          "bs_name": null,
+          "ens": null,
+          "bs_impl_names": [],
+          "bs_tags": [],
+          "is_contract": false,
+          "creator": null,
+          "is_verified": false,
+          "bs_reputation": "ok"
+        },
+        "proxy": {
+          "kind": null
+        },
+        "live_mutators": [
+          {
+            "name": "updateTokenUri",
+            "sig": "updateTokenUri(uint256,string)",
+            "category": "uri",
+            "power": "eoa",
+            "holders": [
+              {
+                "addr": "0x2272ecf43a7481088fa2d4ba9109804ed5a31901",
+                "type": "eoa",
+                "bs_name": null,
+                "ens": null,
+                "desc": "eoa",
+                "simple": "eoa"
+              }
+            ],
+            "effective": "yes",
+            "reason": null
+          }
+        ],
+        "lock_flags": {},
+        "dependencies": [],
+        "pointer_getters": [
+          {
+            "getter": "contractURI()",
+            "type": "string",
+            "ok": true,
+            "value": "",
+            "error": null
+          }
+        ],
+        "analyzed_at": "2026-10-23T02:51:19Z",
+        "history_incomplete": false,
+        "evidence": "data/raw/top100-mutability/0x82c7a8f707110f5fbb16184a5933e9f78a34c6ab.json"
+      }
+    ],
+    "samples": 3,
+    "distinct_token_ids": 3,
+    "sample_note": null,
+    "source_contracts_without_sampleable_nfts": [],
+    "ownership_scope_gaps": [],
+    "refreshed_at": "2026-10-23T03:05:14Z",
+    "opensea_rank": null,
+    "ranking_scope_disagreement": false,
+    "metadata_adapter": false,
+    "evidence": [
+      "data/raw/top100-census/0x82c7a8f707110f5fbb16184a5933e9f78a34c6ab/result.json.gz"
+    ],
+    "delivery_note": null
+  },
+  "samples": [
+    {
+      "contract": "0x82c7a8f707110f5fbb16184a5933e9f78a34c6ab",
+      "token_id": "1337",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(0) [low; totalSupply=40135]",
+      "metadata_location": "http",
+      "metadata_uri": "http://104.154.252.216/meta/1337",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "104.154.252.216",
+          "url": "http://104.154.252.216/meta/1337",
+          "status": null,
+          "error_kind": "timeout",
+          "v": "unknown",
+          "reason": "timeout",
+          "seq": 8,
+          "final_url": "http://104.154.252.216/meta/1337",
+          "content_type": null,
+          "size": 0,
+          "content_length": null,
+          "sha256": null,
+          "t": "2026-10-23T02:50:25Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "104.154.252.216",
+          "url": "http://104.154.252.216/meta/1337",
+          "status": null,
+          "error_kind": "timeout",
+          "v": "unknown",
+          "reason": "timeout",
+          "seq": 9,
+          "final_url": "http://104.154.252.216/meta/1337",
+          "content_type": null,
+          "size": 0,
+          "content_length": null,
+          "sha256": null,
+          "t": "2026-10-23T02:58:40Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "104.154.252.216",
+          "url": "http://104.154.252.216/meta/1337",
+          "status": null,
+          "error_kind": "timeout",
+          "v": "unknown",
+          "reason": "timeout",
+          "seq": 10,
+          "final_url": "http://104.154.252.216/meta/1337",
+          "content_type": null,
+          "size": 0,
+          "content_length": null,
+          "sha256": null,
+          "t": "2026-10-23T03:05:02Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [],
+      "derived": {
+        "meta_verdict": "unknown",
+        "meta_verdict_reason": "timeout",
+        "image_class": null,
+        "anim_class": null,
+        "image_verdict": null,
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {},
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "unknown",
+        "liveness_reason": "timeout",
+        "liveness_exact": "unknown",
+        "liveness_exact_reason": "timeout",
+        "meta_verdict_exact": "unknown",
+        "image_verdict_exact": null,
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "timeout"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000000539",
+          "endpoint": "https://eth.drpc.org",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 194,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x82c7a8f707110f5fbb16184a5933e9f78a34c6ab/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0x82c7a8f707110f5fbb16184a5933e9f78a34c6ab",
+      "token_id": "63642379071541781",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(20067) [mid; totalSupply=40135]",
+      "metadata_location": "http",
+      "metadata_uri": "https://api.emblemvault.io/s:evmetadata/meta/63642379071541781",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "api.emblemvault.io",
+          "url": "https://api.emblemvault.io/s:evmetadata/meta/63642379071541781",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 4,
+          "final_url": "https://api.emblemvault.io/s:evmetadata/meta/63642379071541781",
+          "content_type": "application/json; charset=utf-8",
+          "size": 740,
+          "content_length": null,
+          "sha256": "8b1a71aae17d930ccf4b6698314880ab765edaeb1891fdc6f3cde46e588f5d09",
+          "t": "2026-10-23T02:50:25Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "http",
+          "host": "emblem.finance",
+          "gateway": null,
+          "uri": "https://emblem.finance/emblem_migration_image_replacement.png",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "emblem.finance",
+              "url": "https://emblem.finance/emblem_migration_image_replacement.png",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 6,
+              "final_url": "https://emblem.finance/emblem_migration_image_replacement.png",
+              "content_type": "image/png",
+              "size": 65536,
+              "content_length": 143693,
+              "sha256": "9eebfbb6eb67b0e1236b935dacd939e5c1d92745e3042db27a1506e7cde05153",
+              "t": "2026-10-23T02:50:26Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "http",
+        "anim_class": null,
+        "image_verdict": "alive",
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "http"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "alive",
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd00000000000000000000000000000000000000000000000000e21a6815385215",
+          "endpoint": "https://eth.drpc.org",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x82c7a8f707110f5fbb16184a5933e9f78a34c6ab/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0x82c7a8f707110f5fbb16184a5933e9f78a34c6ab",
+      "token_id": "74721691884522921",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(40134) [recent; totalSupply=40135]",
+      "metadata_location": "http",
+      "metadata_uri": "https://api.emblemvault.io/s:evmetadata/meta/74721691884522921",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "api.emblemvault.io",
+          "url": "https://api.emblemvault.io/s:evmetadata/meta/74721691884522921",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 5,
+          "final_url": "https://api.emblemvault.io/s:evmetadata/meta/74721691884522921",
+          "content_type": "application/json; charset=utf-8",
+          "size": 740,
+          "content_length": null,
+          "sha256": "9a9a4b49ce000fd3f757c302a8719145b6388eec52dc085ccf2b861c4e8ea205",
+          "t": "2026-10-23T02:50:26Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "http",
+          "host": "emblem.finance",
+          "gateway": null,
+          "uri": "https://emblem.finance/emblem_migration_image_replacement.png",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "emblem.finance",
+              "url": "https://emblem.finance/emblem_migration_image_replacement.png",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 7,
+              "final_url": "https://emblem.finance/emblem_migration_image_replacement.png",
+              "content_type": "image/png",
+              "size": 65536,
+              "content_length": 143693,
+              "sha256": "9eebfbb6eb67b0e1236b935dacd939e5c1d92745e3042db27a1506e7cde05153",
+              "t": "2026-10-23T02:50:26Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "http",
+        "anim_class": null,
+        "image_verdict": "alive",
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "http"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "alive",
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd000000000000000000000000000000000000000000000000010976fb9dcb0da9",
+          "endpoint": "https://eth.drpc.org",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x82c7a8f707110f5fbb16184a5933e9f78a34c6ab/evidence.jsonl.gz"
+    }
+  ],
+  "saved_packet_index": [
+    {
+      "path": "data/raw/top100-api/opensea-contract-0x82c7a8f707110f5fbb16184a5933e9f78a34c6ab-attempt1-1792724293126547237.body",
+      "sha256": "e7435fbb1c5ad5f3795889b78db8f659dff6d30c6b8b48d4369204d05b353f74",
+      "retrieved_at": "2026-10-23T02:58:13Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0x82c7a8f707110f5fbb16184a5933e9f78a34c6ab",
+      "method": "GET",
+      "status": 401,
+      "error": null,
+      "bytes": 70,
+      "truncated": false
+    },
+    {
+      "path": "data/raw/top100-api/opensea-contract-0x82c7a8f707110f5fbb16184a5933e9f78a34c6ab-attempt1-1792724732998955377.body",
+      "sha256": "e7435fbb1c5ad5f3795889b78db8f659dff6d30c6b8b48d4369204d05b353f74",
+      "retrieved_at": "2026-10-23T03:05:33Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0x82c7a8f707110f5fbb16184a5933e9f78a34c6ab",
+      "method": "GET",
+      "status": 401,
+      "error": null,
+      "bytes": 70,
+      "truncated": false
+    },
+    {
+      "path": "data/raw/top100-census/0x82c7a8f707110f5fbb16184a5933e9f78a34c6ab/bodies.zip",
+      "sha256": "c3251d0a78b2855bf5f60a07eaee84533791d81bb4cb8c47971e8a874e95c0c4",
+      "bytes": 8990
+    },
+    {
+      "path": "data/raw/top100-census/0x82c7a8f707110f5fbb16184a5933e9f78a34c6ab/evidence.jsonl.gz",
+      "sha256": "3bb6da6716dd9a55c0010fc36548cbbfa0eef97c9e79139ea329f1991b3e9a2a",
+      "bytes": 1603
+    },
+    {
+      "path": "data/raw/top100-census/0x82c7a8f707110f5fbb16184a5933e9f78a34c6ab/result.json.gz",
+      "sha256": "9e49191bbface52e366b78bcd43b3729e5c4dea28ebd0cedb1c7ade789a2d13e",
+      "bytes": 1673
+    },
+    {
+      "path": "data/raw/top100-mutability/0x82c7a8f707110f5fbb16184a5933e9f78a34c6ab.json",
+      "sha256": "aa51ec12a8a9e57c6df862fbbe668535034c24b0746fad74bf9b9bf9276a9301",
+      "bytes": 22651
+    },
+    {
+      "path": "data/raw/top100-pointers/0x82c7a8f707110f5fbb16184a5933e9f78a34c6ab/bodies.zip",
+      "sha256": "e56e3eeb49a17ed995b9b7f7a2532c80ff32101432452e527080d8055779e597",
+      "bytes": 190
+    },
+    {
+      "path": "data/raw/top100-pointers/0x82c7a8f707110f5fbb16184a5933e9f78a34c6ab/evidence.jsonl.gz",
+      "sha256": "05d3b7b3fb49128fafa34961656f0e983cbf3d387341f7ab96e2b1f438d55f4f",
+      "bytes": 341
+    },
+    {
+      "path": "data/raw/top100-pointers/0x82c7a8f707110f5fbb16184a5933e9f78a34c6ab/result.json",
+      "sha256": "ae4a7c1a01599f9f93dcbee850b870356ffe63ba3e880efd9026db82dd449e33",
+      "bytes": 312
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x82c7a8f707110f5fbb16184a5933e9f78a34c6ab/bodies.zip",
+      "sha256": "c6ee6058c1dceb569e483034a89f24b6b5c125c8bd132a2752041087307cc8cc",
+      "bytes": 632
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x82c7a8f707110f5fbb16184a5933e9f78a34c6ab/evidence.jsonl.gz",
+      "sha256": "6f602741fcd6d9bed651e58f9169244afc535891829d5f041cff1b6854dcc054",
+      "bytes": 697
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x82c7a8f707110f5fbb16184a5933e9f78a34c6ab/result.json",
+      "sha256": "573052342782c33b0f1de9cb809e32c240d31bca13840b46b7c683e1f6fee08a",
+      "bytes": 328
+    }
+  ],
+  "interpretation": "Liveness describes sampled metadata and primary-image delivery, not permanent loss of the artwork."
+}

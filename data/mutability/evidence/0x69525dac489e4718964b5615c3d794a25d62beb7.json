@@ -1,0 +1,322 @@
+{
+ "address": "0x69525dac489e4718964b5615c3d794a25d62beb7",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:49Z",
+ "code_raw": "data/raw/rpc-mutability/0x69525dac489e4718964b5615c3d794a25d62beb7_code.json",
+ "code_len": 2227,
+ "slots": {
+  "eip1967_impl": "0x7881bd6bae828d653ad87a809c96b386f8991315",
+  "eip1967_admin": "0x72de36c8ebeacb6100c36249552e35feff0ee099",
+  "slot0": "0x0000000000000000000000000000000000000000000000000000000000000002"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0x69525dac489e4718964b5615c3d794a25d62beb7_slots.json",
+ "verified": true,
+ "contract_name": "TransparentUpgradeableProxy",
+ "proxy": {
+  "kind": "eip1967",
+  "impl": "0x7881bd6bae828d653ad87a809c96b386f8991315",
+  "impl_verified": false,
+  "impl_name": "",
+  "admin": {
+   "addr": "0x72de36c8ebeacb6100c36249552e35feff0ee099",
+   "code_raw": "data/raw/rpc-mutability/0x72de36c8ebeacb6100c36249552e35feff0ee099_holdercode.json",
+   "code_len": 3723,
+   "probe_raw": "data/raw/rpc-mutability/0x72de36c8ebeacb6100c36249552e35feff0ee099_holderprobe.json",
+   "type": "contract-owned",
+   "owner": "0x63badeb1eec77db1d1257d5581c22ff598d84b1f",
+   "controller": {
+    "addr": "0x63badeb1eec77db1d1257d5581c22ff598d84b1f",
+    "code_raw": "data/raw/rpc-mutability/0x63badeb1eec77db1d1257d5581c22ff598d84b1f_holdercode.json",
+    "code_len": 170,
+    "probe_raw": "data/raw/rpc-mutability/0x63badeb1eec77db1d1257d5581c22ff598d84b1f_holderprobe.json",
+    "type": "safe",
+    "threshold": 1,
+    "n_owners": 2,
+    "owners": [
+     "0x48eb8b463b8b3fbd1669f3f147ce1055d6669555",
+     "0x21037cf5f02d006f60b7826f0ae926860700ac8e"
+    ],
+    "version": "1.4.1",
+    "bs_name": "GnosisSafeProxy",
+    "ens": null,
+    "bs_impl_names": [
+     "Safe"
+    ],
+    "bs_tags": [],
+    "is_contract": true,
+    "creator": "0x76E2cFc1F5Fa8F6a5b3fC4c8F4788F0116861F9B",
+    "is_verified": true,
+    "bs_reputation": "ok"
+   },
+   "bs_name": "ProxyAdmin",
+   "ens": null,
+   "bs_impl_names": [],
+   "bs_tags": [],
+   "is_contract": true,
+   "creator": "0x95271d54d6e0d88b3825f89A766f97b8b7E8aF82",
+   "is_verified": true,
+   "bs_reputation": "ok"
+  }
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [],
+  "events": {
+   "Upgraded(address)": {
+    "n": 11,
+    "first": "2023-10-03",
+    "last": "2026-02-25",
+    "last_tx": "0x48078de2d75833d416245f75fe15e9478db262d7e971a3652c47e0c290c64928",
+    "list": [
+     {
+      "date": "2023-10-03",
+      "tx": "0xb02c1e1b75d4f9f3c2ae65c084cfb80d2dfc7525bf9ff1ecfe98ab83e26c980d",
+      "topics": [
+       "3e61a33d0bbd27ae88491ff056a6f501bf2f9d4a"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2023-10-10",
+      "tx": "0x56f78129d56643ca81b358ee2216db2946229b4703fd69f6465b14a606f60cd5",
+      "topics": [
+       "52e2a402cc0e3eb23cf68f1fa8ce2db867a082e4"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2023-10-17",
+      "tx": "0x1a8433c92282f21b0277a1275b99683dbf3362081169f644a14a02ff2554d00a",
+      "topics": [
+       "b2fd0fcdb90d3a3dc82a8c7a1c8e30876ab54c1b"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2023-11-20",
+      "tx": "0xd099bf4c3daebd8c3d0f23656998f16003c584416529793a05ca77e05b903b34",
+      "topics": [
+       "ce6ce5b54224817503a2d6cf908b9a555fc9933a"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2023-12-04",
+      "tx": "0xc20e157969e3b80417ca0926c74eeec0146506b8eb9df1f3027465091b9bd7e7",
+      "topics": [
+       "6d625824a2e2f2837e48cfac5fc33c408c563042"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2023-12-18",
+      "tx": "0x84f313a53eee2507f6fcbcc6e118aa885eec0b8c7fadad873664fdaf4c049b07",
+      "topics": [
+       "5cee21ab74d832553e02f4bd47d6d651f5f91828"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2024-01-08",
+      "tx": "0xfa5af60b59c0e8b730644bc0d1edd5cf2f12f59a4d33b4a00eb71e8cd04721b0",
+      "topics": [
+       "4d51b594a8632fa05e5d6ba9322f1d816f00e926"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2024-01-16",
+      "tx": "0x24e885ced9de3776c63ddc7585aa52243f6c19a25cac390cbad95a781c075db0",
+      "topics": [
+       "a5227087b54a88223ad73003f2896f0a3d365687"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2024-02-06",
+      "tx": "0xe81c5b0a319386baac361a838a0a56835dd5dde624719cf2928fef77e2949fec",
+      "topics": [
+       "b253b0c006b68c3a5a7906fdfd380aeb90abea4d"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2024-05-22",
+      "tx": "0x0abea49d04c2bae51929f94c52505d44a6dd00e101d8c1adc943605f97269ef1",
+      "topics": [
+       "861c79c3543df2fa5ba27e64d34332e629e0395b"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-02-25",
+      "tx": "0x48078de2d75833d416245f75fe15e9478db262d7e971a3652c47e0c290c64928",
+      "topics": [
+       "7881bd6bae828d653ad87a809c96b386f8991315"
+      ],
+      "data": "0x"
+     }
+    ]
+   },
+   "AdminChanged(address,address)": {
+    "n": 1,
+    "first": "2023-10-03",
+    "last": "2023-10-03",
+    "last_tx": "0xb02c1e1b75d4f9f3c2ae65c084cfb80d2dfc7525bf9ff1ecfe98ab83e26c980d",
+    "list": [
+     {
+      "date": "2023-10-03",
+      "tx": "0xb02c1e1b75d4f9f3c2ae65c084cfb80d2dfc7525bf9ff1ecfe98ab83e26c980d",
+      "topics": [],
+      "data": "0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000072de36c8ebeacb6100c36249552e35feff0ee099"
+     }
+    ]
+   },
+   "BeaconUpgraded(address)": {
+    "n": 0
+   }
+  },
+  "decoded": [],
+  "upgrades": [
+   {
+    "date": "2023-10-03",
+    "impl": "0x3e61a33d0bbd27ae88491ff056a6f501bf2f9d4a",
+    "tx": "0xb02c1e1b75d4f9f3c2ae65c084cfb80d2dfc7525bf9ff1ecfe98ab83e26c980d"
+   },
+   {
+    "date": "2023-10-10",
+    "impl": "0x52e2a402cc0e3eb23cf68f1fa8ce2db867a082e4",
+    "tx": "0x56f78129d56643ca81b358ee2216db2946229b4703fd69f6465b14a606f60cd5"
+   },
+   {
+    "date": "2023-10-17",
+    "impl": "0xb2fd0fcdb90d3a3dc82a8c7a1c8e30876ab54c1b",
+    "tx": "0x1a8433c92282f21b0277a1275b99683dbf3362081169f644a14a02ff2554d00a"
+   },
+   {
+    "date": "2023-11-20",
+    "impl": "0xce6ce5b54224817503a2d6cf908b9a555fc9933a",
+    "tx": "0xd099bf4c3daebd8c3d0f23656998f16003c584416529793a05ca77e05b903b34"
+   },
+   {
+    "date": "2023-12-04",
+    "impl": "0x6d625824a2e2f2837e48cfac5fc33c408c563042",
+    "tx": "0xc20e157969e3b80417ca0926c74eeec0146506b8eb9df1f3027465091b9bd7e7"
+   },
+   {
+    "date": "2023-12-18",
+    "impl": "0x5cee21ab74d832553e02f4bd47d6d651f5f91828",
+    "tx": "0x84f313a53eee2507f6fcbcc6e118aa885eec0b8c7fadad873664fdaf4c049b07"
+   },
+   {
+    "date": "2024-01-08",
+    "impl": "0x4d51b594a8632fa05e5d6ba9322f1d816f00e926",
+    "tx": "0xfa5af60b59c0e8b730644bc0d1edd5cf2f12f59a4d33b4a00eb71e8cd04721b0"
+   },
+   {
+    "date": "2024-01-16",
+    "impl": "0xa5227087b54a88223ad73003f2896f0a3d365687",
+    "tx": "0x24e885ced9de3776c63ddc7585aa52243f6c19a25cac390cbad95a781c075db0"
+   },
+   {
+    "date": "2024-02-06",
+    "impl": "0xb253b0c006b68c3a5a7906fdfd380aeb90abea4d",
+    "tx": "0xe81c5b0a319386baac361a838a0a56835dd5dde624719cf2928fef77e2949fec"
+   },
+   {
+    "date": "2024-05-22",
+    "impl": "0x861c79c3543df2fa5ba27e64d34332e629e0395b",
+    "tx": "0x0abea49d04c2bae51929f94c52505d44a6dd00e101d8c1adc943605f97269ef1"
+   },
+   {
+    "date": "2026-02-25",
+    "impl": "0x7881bd6bae828d653ad87a809c96b386f8991315",
+    "tx": "0x48078de2d75833d416245f75fe15e9478db262d7e971a3652c47e0c290c64928"
+   }
+  ],
+  "incomplete": false,
+  "safe_calls": {
+   "0x63badeb1eec77db1d1257d5581c22ff598d84b1f": {
+    "count": 0,
+    "calls": []
+   }
+  }
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0x69525dac489e4718964b5615c3d794a25d62beb7_reads1.json",
+ "eip4906": true,
+ "owner": null,
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "none",
+ "lock_functions": [],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [
+  {
+   "name": "(proxy admin upgrade)",
+   "category": "upgrade",
+   "gates": [
+    {
+     "type": "proxy-admin",
+     "ref": "slot"
+    }
+   ],
+   "holder_addrs": [
+    "0x72de36c8ebeacb6100c36249552e35feff0ee099"
+   ],
+   "holder_how": [
+    "eip1967 admin slot"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "effective": "yes",
+   "power": "multisig",
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x72de36c8ebeacb6100c36249552e35feff0ee099",
+     "type": "contract-owned",
+     "bs_name": "ProxyAdmin",
+     "ens": null,
+     "desc": "ProxyAdmin->safe 1/2",
+     "simple": "multisig"
+    }
+   ]
+  }
+ ],
+ "class_direct": "multisig-mutable",
+ "class_reason": "live setters (multisig): (proxy admin upgrade)",
+ "live_mutators": [
+  "(proxy admin upgrade)"
+ ],
+ "dependencies": [],
+ "meta": {
+  "address": "0x69525dac489e4718964b5615c3d794a25d62beb7",
+  "name": "Worlds",
+  "w5_claim_strength": null,
+  "w5_claim_text": null,
+  "w5_source_type": null,
+  "w5_source_url": null,
+  "holders_count": null,
+  "in_w5": false,
+  "gallery_slugs": "worlds",
+  "gallery_tokens": "1",
+  "in_gallery": true,
+  "census_meta_class": null,
+  "census_media_class": null,
+  "census_liveness": null,
+  "in_census_onchain": false,
+  "standard": "ERC-721",
+  "creator": "0x95271d54d6e0d88b3825f89a766f97b8b7e8af82",
+  "deploy_block": 18271478.0
+ },
+ "class_deps_all": "none",
+ "class_deps": "none",
+ "class_final": "multisig-mutable",
+ "pointer_power": "multisig"
+}

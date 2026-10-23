@@ -1,0 +1,55 @@
+{
+ "collection": "Quantum Echoes",
+ "slug": "quantum-echoes",
+ "contract": "0x5A5c9c3Cd186D95eFF4dA56ce48a173C7e46455A",
+ "token_id": 1,
+ "chain_method": "data URI (contract-assembled; technique labelled from verified source flags)",
+ "chain_call": "tokenURI(1)",
+ "json_name": "Quantum Echoes #1",
+ "fields": {
+  "image": "data:image/svg+xml",
+  "animation_url": null,
+  "external_url": null,
+  "json_how": "data-uri-base64"
+ },
+ "rpc": {
+  "default_public_ok": true,
+  "highgas_drpc_ok": null,
+  "highgas_blxr_ok": null,
+  "fork_ok": null,
+  "rpc": "public-default",
+  "needed_fork": false,
+  "unreadable_from_default_public_call": false,
+  "gas_estimate": null
+ },
+ "medium": "svg (image data URI)",
+ "primary": "image",
+ "source_flags": {
+  "verified": true,
+  "contract_name": "QuantumEchoes",
+  "proxy": false,
+  "implementation": "0xfb98834ecb36fb5fb25acffc85243d2540b44cf4",
+  "sstore2": false,
+  "ethfs": false,
+  "scripty": false,
+  "base64": false,
+  "gzip": false,
+  "data_uri": false,
+  "http_literals": [],
+  "ipfs_literal": false,
+  "setters": [
+   "setBaseURI",
+   "setRenderer",
+   "upgradeTo"
+  ]
+ },
+ "artwork_file": "artwork.svg",
+ "doc_type": "image/svg+xml; charset=utf-8",
+ "artwork_bytes": 44665,
+ "artwork_sha256": "43baf0803898bfdbace0c7416f6d36c2b78a7f80414488573ef7d3a0e7815a6c",
+ "declared": {
+  "load": [],
+  "literals": []
+ },
+ "built_at": "2026-10-21T20:18:20Z"
+}

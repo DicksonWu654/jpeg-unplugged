@@ -1,0 +1,306 @@
+{
+ "schema_version": 2,
+ "snapshot_date": "2026-10-22",
+ "repo": "https://github.com/DicksonWu654/jpeg-unplugged",
+ "universe": {
+  "contracts": 606
+ },
+ "classes": {
+  "immutable": 203,
+  "dao-or-timelock-mutable": 6,
+  "multisig-mutable": 25,
+  "eoa-mutable": 323,
+  "unknown": 49,
+  "total": 606
+ },
+ "by_claim": {
+  "explicit": {
+   "immutable": 42,
+   "dao-or-timelock-mutable": 0,
+   "multisig-mutable": 2,
+   "eoa-mutable": 56,
+   "unknown": 3,
+   "total": 103
+  },
+  "generic": {
+   "immutable": 23,
+   "dao-or-timelock-mutable": 1,
+   "multisig-mutable": 4,
+   "eoa-mutable": 23,
+   "unknown": 3,
+   "total": 54
+  },
+  "forever": {
+   "immutable": 1,
+   "dao-or-timelock-mutable": 0,
+   "multisig-mutable": 0,
+   "eoa-mutable": 2,
+   "unknown": 0,
+   "total": 3
+  },
+  "none": {
+   "immutable": 137,
+   "dao-or-timelock-mutable": 5,
+   "multisig-mutable": 19,
+   "eoa-mutable": 242,
+   "unknown": 43,
+   "total": 446
+  }
+ },
+ "claims": {
+  "claimants": 160,
+  "explicit": 103,
+  "outcomes": {
+   "holds": 131,
+   "onchain-data-offchain-pointer": 11,
+   "contradicted": 0,
+   "unverifiable": 18
+  },
+  "definitions": {
+   "holds": "The selected project statement is supported for its stated art/metadata scope by the sampled saved evidence. This does not imply immutable control, successful browser rendering, or exhaustive collection coverage.",
+   "onchain-data-offchain-pointer": "Art/data bytes or creative code are evidenced on Ethereum, while ordinary tokenURI or a marketplace media/preview field points off-chain. This supports a data-storage claim and is not a false claim.",
+   "contradicted": "Saved evidence establishes that the selected project statement is false as stated, accounting for alternate data paths and its scope. Only this outcome may be called a failed claim.",
+   "unverifiable": "The scoped statement is not resolved by available reads, incomplete coverage, gas limits or ambiguous wording; neither true nor false is asserted."
+  },
+  "population": "The 283 original reviewed candidate collections in data/claims/review_population.csv; directory-only and rejected candidates are not claimants.",
+  "evidence": "https://github.com/DicksonWu654/jpeg-unplugged/blob/main/data/claims/claim_outcomes.csv",
+  "examples": [
+   {
+    "name": "Moonbirds",
+    "address": "0x23581767a106ae21c074b2276d25e5c3e136a68b",
+    "text": "The pixelated art is fully on-chain (aka \u201cin-chain\u201d)\u2014meaning that the images are rendered directly from the Ethereum smart contracts.",
+    "source_url": "https://moonbirds.xyz/",
+    "outcome": "holds",
+    "reason": "The website claim is scoped to pixelated art. The live renderer's legacyRenderer points to 0xb1befc9e7b76c1e846ebbf3e6e1ab029c86e7435; artworkPixels(1) and artworkURI(1,1) return pixels and an inline BMP directly. The full tokenURI(1) reverted inconclusively; the correctly addressed 15x legacy BMP read hit this provider's 50M gas cap. Illustration/animation URI control remains separate.",
+    "evidence_url": "https://github.com/DicksonWu654/jpeg-unplugged/blob/main/data/claims/claim_outcomes.csv"
+   },
+   {
+    "name": "Blitmap",
+    "address": "0x8d04a8c79ceb0889bdd12acdf3fa9d207ed3ff63",
+    "text": "All data is completely on chain.",
+    "source_url": "https://opensea.io/collection/blitmap",
+    "outcome": "onchain-data-offchain-pointer",
+    "reason": "tokenDataOf(1) and tokenSvgDataOf(1) return bitmap data and SVG directly from Blitmap; tokenURI(1) still uses the HTTP API and its base URI remains settable.",
+    "evidence_url": "https://github.com/DicksonWu654/jpeg-unplugged/blob/main/data/claims/claim_outcomes.csv"
+   },
+   {
+    "name": "ChainFaces",
+    "address": "0x91047abf3cab8da5a9515c8750ab33b4f1560a7a",
+    "text": "All attributes and metadata are on-chain and easily viewable via the etherscan UI.",
+    "source_url": "https://api.opensea.io/api/v2/collections/chainfaces",
+    "outcome": "onchain-data-offchain-pointer",
+    "reason": "getFace(1) and getGolfScore(1) return on-chain ASCII art and attributes; tokenURI(1) retains the Azure HTTP pointer. The data claim does not promise that HTTP endpoint will work.",
+    "evidence_url": "https://github.com/DicksonWu654/jpeg-unplugged/blob/main/data/claims/claim_outcomes.csv"
+   },
+   {
+    "name": "Chain Runners",
+    "address": "0x97597002980134bea46250aa0510c9b90d87a587",
+    "text": "Chain Runners are Mega City renegades 100% stored and generated on chain.",
+    "source_url": "https://api.opensea.io/api/v2/collections/chain-runners-nft",
+    "outcome": "onchain-data-offchain-pointer",
+    "reason": "The live routing contract's onChainTokenURI(1) returns inline SVG art from a separate on-chain renderer. The collection tokenURI(1) uses an HTTP API; mutable routing is a separate observation, not a false storage claim.",
+    "evidence_url": "https://github.com/DicksonWu654/jpeg-unplugged/blob/main/data/claims/claim_outcomes.csv"
+   },
+   {
+    "name": "Art Blocks (Curated contract; Fidenza, Ringers)",
+    "address": "0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270",
+    "text": "Art Blocks tokens store their metadata fully on-chain, ensuring collectors that their NFTs will always remain accessible and immutable.",
+    "source_url": "https://docs.artblocks.io/protocol/on-chain-storage/",
+    "outcome": "unverifiable",
+    "reason": "Fidenza projectScriptByIndex(78,0) and tokenIdToHash(78000000) confirm on-chain creative data. The selected documentation also claims complete metadata accessibility and immutability; this is broader than the checked script/hash sample. The HTTP pointer is not itself a contradiction.",
+    "evidence_url": "https://github.com/DicksonWu654/jpeg-unplugged/blob/main/data/claims/claim_outcomes.csv"
+   },
+   {
+    "name": "CryptoSkulls",
+    "address": "0xc1caf0c19a8ac28c41fe59ba6c754e4b9bd54de9",
+    "text": "Every CryptoSkull is fully embedded on-chain. No external storage. No broken links. No missing files.",
+    "source_url": "https://cryptoskulls.com/",
+    "outcome": "onchain-data-offchain-pointer",
+    "reason": "All 10,000 skull indices return attributes and 576 on-chain RGB pixels from CryptoSkullsData at 0x9a7b94954751d539c63e16aa6e0557c451251394. The collection tokenURI still uses IPFS; both data writes and the collection base URI remain owner-controlled.",
+    "evidence_url": "https://github.com/DicksonWu654/jpeg-unplugged/blob/main/data/claims/claim_outcomes.csv"
+   },
+   {
+    "name": "MoonCats",
+    "address": "0xc3f733ca98e0dad0386979eb96fb1722a1a05e69",
+    "text": "The 25440 MoonCats rescued are acclimating to their life as [fully on-chain](https://mooncatrescue.com/about) collectible critters.",
+    "source_url": "https://opensea.io/collection/acclimatedmooncats",
+    "outcome": "onchain-data-offchain-pointer",
+    "reason": "The original 2017 MoonCatRescue contract 0x60cd862c9c687a9de49aecdc3a99b74a4fc54ab6 returns the five-byte cat seed via rescueOrder and getCatDetails; the acclimator wrapper tokenURI uses HTTP and its setBaseURI remains owner-controlled. Reconstructing pixels also requires the published MoonCat parser; this check establishes seed storage.",
+    "evidence_url": "https://github.com/DicksonWu654/jpeg-unplugged/blob/main/data/claims/claim_outcomes.csv"
+   }
+  ]
+ },
+ "funnel": {
+  "claimants": 160,
+  "explicit": 103,
+  "claimants_repointable": 81,
+  "explicit_repointable": 53,
+  "explicit_repointable_eoa": 51,
+  "data_only_mutable": 6,
+  "definition": "A live, effective URI-string setter, renderer/descriptor address swap, or upgrade on the ordinary token metadata/art path, controlled by one EOA or one multisig account. Data-only edits are excluded. A multisig account may require several signatures; this does not mean one private key."
+ },
+ "pointer_power": {
+  "eoa": 302,
+  "multisig": 23,
+  "dao-or-timelock": 6,
+  "none": 275
+ },
+ "broad_eoa_mutable": 323,
+ "upgradeable": 124,
+ "swaps_observed": 74,
+ "timeline_evidence": "https://github.com/DicksonWu654/jpeg-unplugged/blob/main/data/mutability/setter_events.csv",
+ "lanes": [
+  {
+   "lane": "Moonbirds",
+   "contract": "0x23581767a106ae21c074b2276d25e5c3e136a68b",
+   "class": "eoa-mutable",
+   "class_label": "Renderer held by one wallet key",
+   "summary": "The core is owned by a Safe multisig. Its current renderer is held by one wallet key: owner-only setBaseUri(string) and setAnimationBaseUri(string) redirect illustrated-art and animation URLs. They do not rewrite the legacy on-chain pixel data; setArtwork(uint256,bool) and setArtworks(uint256[],bool[]) are token-holder controls.",
+   "evidence": "https://github.com/DicksonWu654/jpeg-unplugged/blob/main/data/mutability/evidence/0x23581767a106ae21c074b2276d25e5c3e136a68b.json"
+  },
+  {
+   "lane": "Chain Runners",
+   "contract": "0x97597002980134bea46250aa0510c9b90d87a587",
+   "class": "eoa-mutable",
+   "class_label": null,
+   "summary": "An ordinary key owns the contract and set the renderer address 3 times in the saved history. An alternate on-chain renderer supplies SVG; the ordinary tokenURI points to HTTP.",
+   "evidence": "https://github.com/DicksonWu654/jpeg-unplugged/blob/main/data/mutability/evidence/0x97597002980134bea46250aa0510c9b90d87a587.json"
+  },
+  {
+   "lane": "Heraldia",
+   "contract": "0x11a7e42036f8d039b0ce54b5488e3df0dff6cf36",
+   "class": "eoa-mutable",
+   "class_label": null,
+   "summary": "An ordinary key owns the contract and set the renderer address 8 times between 2026-05 and 2026-09. Replacing the renderer or its storage source can change displayed pixels and metadata.",
+   "evidence": "https://github.com/DicksonWu654/jpeg-unplugged/blob/main/data/mutability/evidence/0x11a7e42036f8d039b0ce54b5488e3df0dff6cf36.json"
+  }
+ ],
+ "timeline": [
+  {
+   "lane": "Chain Runners",
+   "contract": "0x97597002980134bea46250aa0510c9b90d87a587",
+   "date": "2021-11-05",
+   "kind": "renderer-swap",
+   "method": "setRenderingContractAddress",
+   "what": "renderer address set (setRenderingContractAddress)",
+   "tx": "0x8710ab64d9ac1d5e47769357b28bbf91dabeeb1a3cf3cef0506732084a02bb86"
+  },
+  {
+   "lane": "Chain Runners",
+   "contract": "0x97597002980134bea46250aa0510c9b90d87a587",
+   "date": "2022-01-22",
+   "kind": "renderer-swap",
+   "method": "setRenderingContractAddress",
+   "what": "renderer address set (setRenderingContractAddress)",
+   "tx": "0xe75b13b652b59c9e1e6fae4cf1f0c6f3622c890c87acdcc82c66408c40c44c24"
+  },
+  {
+   "lane": "Chain Runners",
+   "contract": "0x97597002980134bea46250aa0510c9b90d87a587",
+   "date": "2022-01-28",
+   "kind": "renderer-swap",
+   "method": "setRenderingContractAddress",
+   "what": "renderer address set (setRenderingContractAddress)",
+   "tx": "0xf18bfb24453db6e302e155b0d303821c8016950c724cd936c11256846d160dfb"
+  },
+  {
+   "lane": "Moonbirds",
+   "contract": "0x23581767a106ae21c074b2276d25e5c3e136a68b",
+   "date": "2022-04-16",
+   "kind": "uri-pointer",
+   "method": "setBaseTokenURI",
+   "what": "base URI set to a web server (setBaseTokenURI)",
+   "tx": "0x22a0ff1710e93c27f062fc22ea8b8558b1f002655d0ebd710709fe530fd086be"
+  },
+  {
+   "lane": "Moonbirds",
+   "contract": "0x23581767a106ae21c074b2276d25e5c3e136a68b",
+   "date": "2022-11-22",
+   "kind": "renderer-swap",
+   "method": "setRenderingContract",
+   "what": "renderer address set (setRenderingContract)",
+   "tx": "0x4b473102372dbae1082887e0e3f89af292afeec15d36853944b988752d9ba480"
+  },
+  {
+   "lane": "Moonbirds",
+   "contract": "0x23581767a106ae21c074b2276d25e5c3e136a68b",
+   "date": "2022-12-15",
+   "kind": "renderer-swap",
+   "method": "setRenderingContract",
+   "what": "renderer address set (setRenderingContract)",
+   "tx": "0xf9a5564ab4e741013f33e569fde47c778fe7a50a33128d67788b0e3fe72adf95"
+  },
+  {
+   "lane": "Heraldia",
+   "contract": "0x11a7e42036f8d039b0ce54b5488e3df0dff6cf36",
+   "date": "2026-05-16",
+   "kind": "renderer-swap",
+   "method": "setRendererContract",
+   "what": "renderer address set (setRendererContract)",
+   "tx": "0x0d46b6e9470920ccd1116f01b5a17d250737be328e230f2a51f36eef03637c4b"
+  },
+  {
+   "lane": "Heraldia",
+   "contract": "0x11a7e42036f8d039b0ce54b5488e3df0dff6cf36",
+   "date": "2026-05-16",
+   "kind": "renderer-swap",
+   "method": "setRendererContract",
+   "what": "renderer address set (setRendererContract)",
+   "tx": "0x8c2e40b9786ebbc088a57e41c7a8550ac50077d4eb96642690ba3b38f616fc88"
+  },
+  {
+   "lane": "Heraldia",
+   "contract": "0x11a7e42036f8d039b0ce54b5488e3df0dff6cf36",
+   "date": "2026-05-24",
+   "kind": "renderer-swap",
+   "method": "setRendererContract",
+   "what": "renderer address set (setRendererContract)",
+   "tx": "0xf2cc69beea5c829b47afbcd36c024cba2ea48e2606bfee58bdeda19dc043f3a4"
+  },
+  {
+   "lane": "Heraldia",
+   "contract": "0x11a7e42036f8d039b0ce54b5488e3df0dff6cf36",
+   "date": "2026-06-11",
+   "kind": "renderer-swap",
+   "method": "setRendererContract",
+   "what": "renderer address set (setRendererContract)",
+   "tx": "0xdbf2c6b750cde4ad86e0d0223fd03a1d9b6667e7f97f8ac044e0838c049c9fbc"
+  },
+  {
+   "lane": "Heraldia",
+   "contract": "0x11a7e42036f8d039b0ce54b5488e3df0dff6cf36",
+   "date": "2026-06-18",
+   "kind": "renderer-swap",
+   "method": "setRendererContract",
+   "what": "renderer address set (setRendererContract)",
+   "tx": "0x54002bc4a30e02ba340652651b632ab4fce7ea3ff49167239f172b6663254f84"
+  },
+  {
+   "lane": "Heraldia",
+   "contract": "0x11a7e42036f8d039b0ce54b5488e3df0dff6cf36",
+   "date": "2026-07-01",
+   "kind": "renderer-swap",
+   "method": "setRendererContract",
+   "what": "renderer address set (setRendererContract)",
+   "tx": "0x7bd5f0b673a6bb4ad00d054ea7607d5a96086d9a5ae3549f661583ae77158b70"
+  },
+  {
+   "lane": "Heraldia",
+   "contract": "0x11a7e42036f8d039b0ce54b5488e3df0dff6cf36",
+   "date": "2026-08-22",
+   "kind": "renderer-swap",
+   "method": "setRendererContract",
+   "what": "renderer address set (setRendererContract)",
+   "tx": "0xc2c775f5a6d8283c149d1dd6c519babc391d2c5fab84cf1b41906fb75497332d"
+  },
+  {
+   "lane": "Heraldia",
+   "contract": "0x11a7e42036f8d039b0ce54b5488e3df0dff6cf36",
+   "date": "2026-09-11",
+   "kind": "renderer-swap",
+   "method": "setRendererContract",
+   "what": "renderer address set (setRendererContract)",
+   "tx": "0xce6c036ad088b510964a2d1a51858906b88974357c9fbcaa7338444e475e5c7c"
+  }
+ ]
+}

@@ -1,0 +1,2484 @@
+{
+ "address": "0xd31fc221d2b0e0321c43e9f6824b26ebfff01d7d",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:37Z",
+ "code_raw": "data/raw/rpc-mutability/0xd31fc221d2b0e0321c43e9f6824b26ebfff01d7d_code.json",
+ "code_len": 24570,
+ "slots": {},
+ "slots_raw": "data/raw/rpc-mutability/0xd31fc221d2b0e0321c43e9f6824b26ebfff01d7d_slots.json",
+ "verified": true,
+ "contract_name": "Brotchain",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [
+   {
+    "hash": "0xfef67f11aefd893fa7f9050f90cc1e5b004d694675c9d48124070d67f61d6fd8",
+    "timestamp": "2025-12-18T22:31:47.000000Z",
+    "method": "setPalette",
+    "from": "0x3Bc3311b2db7064e8888284e23f03a43b7Da5Be3",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 24042486,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x257632968af53c3e5ff12ba2cf22af881afc7c2592cf6c584a58ba686174faf8",
+    "timestamp": "2025-12-10T05:02:35.000000Z",
+    "method": "setPalette",
+    "from": "0x3Bc3311b2db7064e8888284e23f03a43b7Da5Be3",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 23980113,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x11d2f72f5981e598f0217f39c8e89e381d9ee6c778ce32bf5b718ab9d7651983",
+    "timestamp": "2025-06-29T09:01:23.000000Z",
+    "method": "setPalette",
+    "from": "0x8B97066FfE92e889bD53d4dCe2b13461b8EA7Ea2",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 22809052,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x80579e2d6a3042ce806b785a123e2a64478b63a8604c19ab3fb32f0f4f3835cf",
+    "timestamp": "2025-04-20T17:39:35.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22311759,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x2251d938b3ead40a22cdda514bd679d2103334af77e81e823f0fe3417e0d4da7",
+    "timestamp": "2025-04-20T17:13:35.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22311631,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x635f06f1f51f93d6f36a616b8a46c7620cc7c5ce45e15e2aed6d57c4f318be0c",
+    "timestamp": "2025-04-20T17:10:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22311617,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x713b954ecf0e3c3a90cbe064821d42d3065e9516c87f6d4469563eb549bc01dc",
+    "timestamp": "2025-04-20T17:08:35.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22311606,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x08ac4b65ff42d90726b48750db52ad1997705cbbdd5e4a7ee51e052892714e9a",
+    "timestamp": "2025-04-20T16:59:35.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22311561,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x968be1830e427db6dc39ba1123a0045a33eb48a8653328db7f20914289ec8682",
+    "timestamp": "2025-04-19T19:03:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22305017,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xae7d954bdef5d075d4c5871c8da45177b80821b2ff813795daa58a46fe60e515",
+    "timestamp": "2025-04-19T19:02:35.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22305011,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x44f6ae62071d30b5ea0f9db62a1757652146d4a13f93b43039e01042a90acf0a",
+    "timestamp": "2025-04-19T19:00:23.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22305000,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x3168f919112908d6ce073ecee0bc36589e65e1a7f660b846c098c13d884c3698",
+    "timestamp": "2025-04-19T00:36:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299510,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xad1165c62661f7f6045f8c6b078e3d289bb73421f7534cd034493f8b592ec586",
+    "timestamp": "2025-04-19T00:35:23.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299503,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xd1ac3a4fb776938becf561dfd71f172ae2a0c4aa15753c63d1b467fa36b5efab",
+    "timestamp": "2025-04-19T00:31:11.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299482,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x342c2a4653ecac606a7bea647278ee17fea23e4f0d2774223518059cacb3bd94",
+    "timestamp": "2025-04-19T00:29:35.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299474,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x503b7d0eb7e22f74465bc8661411fd6dbcb5ebd73c73e7e98fdeb51f8a6e6957",
+    "timestamp": "2025-04-19T00:28:35.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299469,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xfa0c3baf66563da65cd81f5598508cb157c2096b97b3e0f09207e5d0a74a1eeb",
+    "timestamp": "2025-04-19T00:24:23.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299448,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xec16831dc81553554908b31d26063222be06f670325893431be8df1ce682db12",
+    "timestamp": "2025-04-19T00:20:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299430,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x5bd1b82b0cce0f564644f84036ee9e89ed145b3ba3a5ae4cee0bccd5b8ffb2cf",
+    "timestamp": "2025-04-19T00:13:35.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299394,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x58fddabfdc1db310f9ca80e92a4068225871174a51c0eecb265a0fd0eb3593b4",
+    "timestamp": "2025-04-19T00:09:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299375,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xd0acfa5b7000ac78633e013581ee091b7c9ff2b3339bed6ca6330b227677546e",
+    "timestamp": "2025-04-19T00:01:23.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299333,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x8499e98dfb33c14a0d3a86b4c122ebb031b6dbdc4270de67dd5d83fe0b387e39",
+    "timestamp": "2025-04-18T23:59:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299325,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xf38e64bd30c1b4ff2b82fd87148df02f987479aa440c682276002a30214fca16",
+    "timestamp": "2025-04-18T23:54:59.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299301,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xc1f9396d86b0472fd42cb7f58753d24308dcc9d84032d0dfcbb32391238981ab",
+    "timestamp": "2025-04-18T23:49:59.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299276,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x0b7e69bebfc47d9aca3f9a426e4d21029f034bcfa43d0b77ec55f4ebb9d77c88",
+    "timestamp": "2025-04-18T23:22:11.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299137,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x41c37bf43f3743b873a8a139bb6ae8fac6a95e2d0a30034a8b8bf0cba4defb99",
+    "timestamp": "2025-04-18T23:12:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299090,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x17493153cbdceb62b926e4c554972a0b61a8c4ded149b0e1efdbb2b4cc768237",
+    "timestamp": "2025-04-18T23:09:11.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299072,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xd82e482857754dfa80284ed482e7a0aa4ebf2813a90644ed3bba7c4b53c29c5a",
+    "timestamp": "2025-04-18T23:08:23.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299068,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x1deec9277ce0531ad1bfa2a66f4ea6f653f78ea134141c2120e53658b85e55d3",
+    "timestamp": "2025-04-18T22:42:23.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298939,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x2676b679a494191bd2cb6a39747cd220918517c9a172c55e1bacb5e17801f531",
+    "timestamp": "2025-04-18T22:41:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298936,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x6e71704aafc7708e6d14a69b5db75f4e946541cceaab5e2a74a98c4438e64f02",
+    "timestamp": "2025-04-18T22:35:35.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298906,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x5500e3378c9b376150dde5e3ae7559c38c5a3b9ca4d5fd9077dc5f5e3b9d0201",
+    "timestamp": "2025-04-18T22:33:23.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298895,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x4df8468c52a9eedbbf1e03276f187fd8dfd8b481b4907f5fe542c1500931f125",
+    "timestamp": "2025-04-18T22:27:59.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298868,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x8cf9ce10683dd2329167ee7d1457a06ec0fea955235ae84dfc5b2137dbd7db49",
+    "timestamp": "2025-04-18T22:24:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298852,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xba7562f62e3c8b4509a6de8c7b10baa8d8c0717b970045535e062cbdfec2b6a7",
+    "timestamp": "2025-04-18T21:49:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298677,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xf013f9b8fabc9224e4120e3f284fab3ceac2d3bc8d5ce6678c3385c43d4aabfc",
+    "timestamp": "2025-04-18T21:48:23.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298670,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x32631d614ff90e2aab12c44d3ac99936481d615fca5cb8c46b31d4742a1cf2d4",
+    "timestamp": "2025-04-18T21:46:59.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298663,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x87c392d18d3e942feb791e4ec75a142c0edc9cdc9c1eb05ec296ddde25bccb7f",
+    "timestamp": "2025-04-18T21:44:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298653,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x4655ec86d32d0e8ea0eb837f44573a7ec56c4d71771e03a93c249dd29e003243",
+    "timestamp": "2025-04-18T21:43:59.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298649,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xb739c502188cf98f3b86c6c1ef182f5936b3f7feaf88cd902ea42293c1745d0f",
+    "timestamp": "2025-04-18T21:42:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298643,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x369ea4a2136a0fd4624119ff9dae69107e01bb1d483c0e7f7bdd74e31fa65fce",
+    "timestamp": "2025-04-18T21:39:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298628,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x92c20063d58714d4dae4db7e9fb406cbee9d23e299f6da285f6e9dba027414dd",
+    "timestamp": "2025-04-18T21:37:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298618,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x98597b0ed8246e22ff94ee66d164867bcaec204fbba67e991654e38f4567bc50",
+    "timestamp": "2025-04-18T21:33:23.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298596,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x81f03268ecd577ad185065be248fca380668fce4d73d7f189a6978056a8469d7",
+    "timestamp": "2025-04-18T21:32:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298593,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xa76cad496e1a1a3b5f61152bd3397729ffe7600dba4641304ff884db30c224f0",
+    "timestamp": "2025-04-18T21:29:35.000000Z",
+    "method": "resetPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298577,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x7f16a4130cd7beec850ca397bdea068490c809eac0ab2a3f08f0c46e6e5c555c",
+    "timestamp": "2025-04-18T21:28:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298573,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x9116c31f305a00416b4e4b455b223881892f604364929ba27ccda78a8f069860",
+    "timestamp": "2025-04-18T21:28:23.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298571,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xa4b09668619b31aa17f1495486486e0544f838bcff0564e5dae3b32050f643bf",
+    "timestamp": "2025-04-18T21:25:23.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298556,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x941657623d92ad4c83b238a21b55c5e164048929645f439148e97ed32eea51dc",
+    "timestamp": "2025-04-18T21:20:59.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298534,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xb7f6c0b498f53c760a02504d73004813fc2bbd1cf8ff3327fa94e30e8fa877a0",
+    "timestamp": "2025-04-18T21:07:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298468,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xfef67f11aefd893fa7f9050f90cc1e5b004d694675c9d48124070d67f61d6fd8",
+    "timestamp": "2025-12-18T22:31:47.000000Z",
+    "method": "setPalette",
+    "from": "0x3Bc3311b2db7064e8888284e23f03a43b7Da5Be3",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 24042486,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x257632968af53c3e5ff12ba2cf22af881afc7c2592cf6c584a58ba686174faf8",
+    "timestamp": "2025-12-10T05:02:35.000000Z",
+    "method": "setPalette",
+    "from": "0x3Bc3311b2db7064e8888284e23f03a43b7Da5Be3",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 23980113,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x11d2f72f5981e598f0217f39c8e89e381d9ee6c778ce32bf5b718ab9d7651983",
+    "timestamp": "2025-06-29T09:01:23.000000Z",
+    "method": "setPalette",
+    "from": "0x8B97066FfE92e889bD53d4dCe2b13461b8EA7Ea2",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 22809052,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x80579e2d6a3042ce806b785a123e2a64478b63a8604c19ab3fb32f0f4f3835cf",
+    "timestamp": "2025-04-20T17:39:35.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22311759,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x2251d938b3ead40a22cdda514bd679d2103334af77e81e823f0fe3417e0d4da7",
+    "timestamp": "2025-04-20T17:13:35.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22311631,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x635f06f1f51f93d6f36a616b8a46c7620cc7c5ce45e15e2aed6d57c4f318be0c",
+    "timestamp": "2025-04-20T17:10:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22311617,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x713b954ecf0e3c3a90cbe064821d42d3065e9516c87f6d4469563eb549bc01dc",
+    "timestamp": "2025-04-20T17:08:35.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22311606,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x08ac4b65ff42d90726b48750db52ad1997705cbbdd5e4a7ee51e052892714e9a",
+    "timestamp": "2025-04-20T16:59:35.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22311561,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x968be1830e427db6dc39ba1123a0045a33eb48a8653328db7f20914289ec8682",
+    "timestamp": "2025-04-19T19:03:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22305017,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xae7d954bdef5d075d4c5871c8da45177b80821b2ff813795daa58a46fe60e515",
+    "timestamp": "2025-04-19T19:02:35.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22305011,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x44f6ae62071d30b5ea0f9db62a1757652146d4a13f93b43039e01042a90acf0a",
+    "timestamp": "2025-04-19T19:00:23.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22305000,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x3168f919112908d6ce073ecee0bc36589e65e1a7f660b846c098c13d884c3698",
+    "timestamp": "2025-04-19T00:36:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299510,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xad1165c62661f7f6045f8c6b078e3d289bb73421f7534cd034493f8b592ec586",
+    "timestamp": "2025-04-19T00:35:23.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299503,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xd1ac3a4fb776938becf561dfd71f172ae2a0c4aa15753c63d1b467fa36b5efab",
+    "timestamp": "2025-04-19T00:31:11.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299482,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x342c2a4653ecac606a7bea647278ee17fea23e4f0d2774223518059cacb3bd94",
+    "timestamp": "2025-04-19T00:29:35.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299474,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x503b7d0eb7e22f74465bc8661411fd6dbcb5ebd73c73e7e98fdeb51f8a6e6957",
+    "timestamp": "2025-04-19T00:28:35.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299469,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xfa0c3baf66563da65cd81f5598508cb157c2096b97b3e0f09207e5d0a74a1eeb",
+    "timestamp": "2025-04-19T00:24:23.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299448,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xec16831dc81553554908b31d26063222be06f670325893431be8df1ce682db12",
+    "timestamp": "2025-04-19T00:20:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299430,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x5bd1b82b0cce0f564644f84036ee9e89ed145b3ba3a5ae4cee0bccd5b8ffb2cf",
+    "timestamp": "2025-04-19T00:13:35.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299394,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x58fddabfdc1db310f9ca80e92a4068225871174a51c0eecb265a0fd0eb3593b4",
+    "timestamp": "2025-04-19T00:09:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299375,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xd0acfa5b7000ac78633e013581ee091b7c9ff2b3339bed6ca6330b227677546e",
+    "timestamp": "2025-04-19T00:01:23.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299333,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x8499e98dfb33c14a0d3a86b4c122ebb031b6dbdc4270de67dd5d83fe0b387e39",
+    "timestamp": "2025-04-18T23:59:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299325,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xf38e64bd30c1b4ff2b82fd87148df02f987479aa440c682276002a30214fca16",
+    "timestamp": "2025-04-18T23:54:59.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299301,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xc1f9396d86b0472fd42cb7f58753d24308dcc9d84032d0dfcbb32391238981ab",
+    "timestamp": "2025-04-18T23:49:59.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299276,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x0b7e69bebfc47d9aca3f9a426e4d21029f034bcfa43d0b77ec55f4ebb9d77c88",
+    "timestamp": "2025-04-18T23:22:11.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299137,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x41c37bf43f3743b873a8a139bb6ae8fac6a95e2d0a30034a8b8bf0cba4defb99",
+    "timestamp": "2025-04-18T23:12:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299090,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x17493153cbdceb62b926e4c554972a0b61a8c4ded149b0e1efdbb2b4cc768237",
+    "timestamp": "2025-04-18T23:09:11.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299072,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xd82e482857754dfa80284ed482e7a0aa4ebf2813a90644ed3bba7c4b53c29c5a",
+    "timestamp": "2025-04-18T23:08:23.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299068,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x1deec9277ce0531ad1bfa2a66f4ea6f653f78ea134141c2120e53658b85e55d3",
+    "timestamp": "2025-04-18T22:42:23.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298939,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x2676b679a494191bd2cb6a39747cd220918517c9a172c55e1bacb5e17801f531",
+    "timestamp": "2025-04-18T22:41:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298936,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x6e71704aafc7708e6d14a69b5db75f4e946541cceaab5e2a74a98c4438e64f02",
+    "timestamp": "2025-04-18T22:35:35.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298906,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x5500e3378c9b376150dde5e3ae7559c38c5a3b9ca4d5fd9077dc5f5e3b9d0201",
+    "timestamp": "2025-04-18T22:33:23.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298895,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x4df8468c52a9eedbbf1e03276f187fd8dfd8b481b4907f5fe542c1500931f125",
+    "timestamp": "2025-04-18T22:27:59.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298868,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x8cf9ce10683dd2329167ee7d1457a06ec0fea955235ae84dfc5b2137dbd7db49",
+    "timestamp": "2025-04-18T22:24:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298852,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xba7562f62e3c8b4509a6de8c7b10baa8d8c0717b970045535e062cbdfec2b6a7",
+    "timestamp": "2025-04-18T21:49:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298677,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xf013f9b8fabc9224e4120e3f284fab3ceac2d3bc8d5ce6678c3385c43d4aabfc",
+    "timestamp": "2025-04-18T21:48:23.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298670,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x32631d614ff90e2aab12c44d3ac99936481d615fca5cb8c46b31d4742a1cf2d4",
+    "timestamp": "2025-04-18T21:46:59.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298663,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x87c392d18d3e942feb791e4ec75a142c0edc9cdc9c1eb05ec296ddde25bccb7f",
+    "timestamp": "2025-04-18T21:44:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298653,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x4655ec86d32d0e8ea0eb837f44573a7ec56c4d71771e03a93c249dd29e003243",
+    "timestamp": "2025-04-18T21:43:59.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298649,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xb739c502188cf98f3b86c6c1ef182f5936b3f7feaf88cd902ea42293c1745d0f",
+    "timestamp": "2025-04-18T21:42:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298643,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x369ea4a2136a0fd4624119ff9dae69107e01bb1d483c0e7f7bdd74e31fa65fce",
+    "timestamp": "2025-04-18T21:39:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298628,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x92c20063d58714d4dae4db7e9fb406cbee9d23e299f6da285f6e9dba027414dd",
+    "timestamp": "2025-04-18T21:37:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298618,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x98597b0ed8246e22ff94ee66d164867bcaec204fbba67e991654e38f4567bc50",
+    "timestamp": "2025-04-18T21:33:23.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298596,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x81f03268ecd577ad185065be248fca380668fce4d73d7f189a6978056a8469d7",
+    "timestamp": "2025-04-18T21:32:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298593,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xa76cad496e1a1a3b5f61152bd3397729ffe7600dba4641304ff884db30c224f0",
+    "timestamp": "2025-04-18T21:29:35.000000Z",
+    "method": "resetPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298577,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x7f16a4130cd7beec850ca397bdea068490c809eac0ab2a3f08f0c46e6e5c555c",
+    "timestamp": "2025-04-18T21:28:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298573,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x9116c31f305a00416b4e4b455b223881892f604364929ba27ccda78a8f069860",
+    "timestamp": "2025-04-18T21:28:23.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298571,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xa4b09668619b31aa17f1495486486e0544f838bcff0564e5dae3b32050f643bf",
+    "timestamp": "2025-04-18T21:25:23.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298556,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x941657623d92ad4c83b238a21b55c5e164048929645f439148e97ed32eea51dc",
+    "timestamp": "2025-04-18T21:20:59.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298534,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xb7f6c0b498f53c760a02504d73004813fc2bbd1cf8ff3327fa94e30e8fa877a0",
+    "timestamp": "2025-04-18T21:07:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298468,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xfef67f11aefd893fa7f9050f90cc1e5b004d694675c9d48124070d67f61d6fd8",
+    "timestamp": "2025-12-18T22:31:47.000000Z",
+    "method": "setPalette",
+    "from": "0x3Bc3311b2db7064e8888284e23f03a43b7Da5Be3",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 24042486,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x257632968af53c3e5ff12ba2cf22af881afc7c2592cf6c584a58ba686174faf8",
+    "timestamp": "2025-12-10T05:02:35.000000Z",
+    "method": "setPalette",
+    "from": "0x3Bc3311b2db7064e8888284e23f03a43b7Da5Be3",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 23980113,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x11d2f72f5981e598f0217f39c8e89e381d9ee6c778ce32bf5b718ab9d7651983",
+    "timestamp": "2025-06-29T09:01:23.000000Z",
+    "method": "setPalette",
+    "from": "0x8B97066FfE92e889bD53d4dCe2b13461b8EA7Ea2",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 22809052,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x80579e2d6a3042ce806b785a123e2a64478b63a8604c19ab3fb32f0f4f3835cf",
+    "timestamp": "2025-04-20T17:39:35.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22311759,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x2251d938b3ead40a22cdda514bd679d2103334af77e81e823f0fe3417e0d4da7",
+    "timestamp": "2025-04-20T17:13:35.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22311631,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x635f06f1f51f93d6f36a616b8a46c7620cc7c5ce45e15e2aed6d57c4f318be0c",
+    "timestamp": "2025-04-20T17:10:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22311617,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x713b954ecf0e3c3a90cbe064821d42d3065e9516c87f6d4469563eb549bc01dc",
+    "timestamp": "2025-04-20T17:08:35.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22311606,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x08ac4b65ff42d90726b48750db52ad1997705cbbdd5e4a7ee51e052892714e9a",
+    "timestamp": "2025-04-20T16:59:35.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22311561,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x968be1830e427db6dc39ba1123a0045a33eb48a8653328db7f20914289ec8682",
+    "timestamp": "2025-04-19T19:03:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22305017,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xae7d954bdef5d075d4c5871c8da45177b80821b2ff813795daa58a46fe60e515",
+    "timestamp": "2025-04-19T19:02:35.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22305011,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x44f6ae62071d30b5ea0f9db62a1757652146d4a13f93b43039e01042a90acf0a",
+    "timestamp": "2025-04-19T19:00:23.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22305000,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x3168f919112908d6ce073ecee0bc36589e65e1a7f660b846c098c13d884c3698",
+    "timestamp": "2025-04-19T00:36:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299510,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xad1165c62661f7f6045f8c6b078e3d289bb73421f7534cd034493f8b592ec586",
+    "timestamp": "2025-04-19T00:35:23.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299503,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xd1ac3a4fb776938becf561dfd71f172ae2a0c4aa15753c63d1b467fa36b5efab",
+    "timestamp": "2025-04-19T00:31:11.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299482,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x342c2a4653ecac606a7bea647278ee17fea23e4f0d2774223518059cacb3bd94",
+    "timestamp": "2025-04-19T00:29:35.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299474,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x503b7d0eb7e22f74465bc8661411fd6dbcb5ebd73c73e7e98fdeb51f8a6e6957",
+    "timestamp": "2025-04-19T00:28:35.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299469,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xfa0c3baf66563da65cd81f5598508cb157c2096b97b3e0f09207e5d0a74a1eeb",
+    "timestamp": "2025-04-19T00:24:23.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299448,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xec16831dc81553554908b31d26063222be06f670325893431be8df1ce682db12",
+    "timestamp": "2025-04-19T00:20:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299430,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x5bd1b82b0cce0f564644f84036ee9e89ed145b3ba3a5ae4cee0bccd5b8ffb2cf",
+    "timestamp": "2025-04-19T00:13:35.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299394,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x58fddabfdc1db310f9ca80e92a4068225871174a51c0eecb265a0fd0eb3593b4",
+    "timestamp": "2025-04-19T00:09:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299375,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xd0acfa5b7000ac78633e013581ee091b7c9ff2b3339bed6ca6330b227677546e",
+    "timestamp": "2025-04-19T00:01:23.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299333,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x8499e98dfb33c14a0d3a86b4c122ebb031b6dbdc4270de67dd5d83fe0b387e39",
+    "timestamp": "2025-04-18T23:59:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299325,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xf38e64bd30c1b4ff2b82fd87148df02f987479aa440c682276002a30214fca16",
+    "timestamp": "2025-04-18T23:54:59.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299301,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xc1f9396d86b0472fd42cb7f58753d24308dcc9d84032d0dfcbb32391238981ab",
+    "timestamp": "2025-04-18T23:49:59.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299276,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x0b7e69bebfc47d9aca3f9a426e4d21029f034bcfa43d0b77ec55f4ebb9d77c88",
+    "timestamp": "2025-04-18T23:22:11.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299137,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x41c37bf43f3743b873a8a139bb6ae8fac6a95e2d0a30034a8b8bf0cba4defb99",
+    "timestamp": "2025-04-18T23:12:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299090,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x17493153cbdceb62b926e4c554972a0b61a8c4ded149b0e1efdbb2b4cc768237",
+    "timestamp": "2025-04-18T23:09:11.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299072,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xd82e482857754dfa80284ed482e7a0aa4ebf2813a90644ed3bba7c4b53c29c5a",
+    "timestamp": "2025-04-18T23:08:23.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299068,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x1deec9277ce0531ad1bfa2a66f4ea6f653f78ea134141c2120e53658b85e55d3",
+    "timestamp": "2025-04-18T22:42:23.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298939,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x2676b679a494191bd2cb6a39747cd220918517c9a172c55e1bacb5e17801f531",
+    "timestamp": "2025-04-18T22:41:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298936,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x6e71704aafc7708e6d14a69b5db75f4e946541cceaab5e2a74a98c4438e64f02",
+    "timestamp": "2025-04-18T22:35:35.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298906,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x5500e3378c9b376150dde5e3ae7559c38c5a3b9ca4d5fd9077dc5f5e3b9d0201",
+    "timestamp": "2025-04-18T22:33:23.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298895,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x4df8468c52a9eedbbf1e03276f187fd8dfd8b481b4907f5fe542c1500931f125",
+    "timestamp": "2025-04-18T22:27:59.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298868,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x8cf9ce10683dd2329167ee7d1457a06ec0fea955235ae84dfc5b2137dbd7db49",
+    "timestamp": "2025-04-18T22:24:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298852,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xba7562f62e3c8b4509a6de8c7b10baa8d8c0717b970045535e062cbdfec2b6a7",
+    "timestamp": "2025-04-18T21:49:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298677,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xf013f9b8fabc9224e4120e3f284fab3ceac2d3bc8d5ce6678c3385c43d4aabfc",
+    "timestamp": "2025-04-18T21:48:23.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298670,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x32631d614ff90e2aab12c44d3ac99936481d615fca5cb8c46b31d4742a1cf2d4",
+    "timestamp": "2025-04-18T21:46:59.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298663,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x87c392d18d3e942feb791e4ec75a142c0edc9cdc9c1eb05ec296ddde25bccb7f",
+    "timestamp": "2025-04-18T21:44:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298653,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x4655ec86d32d0e8ea0eb837f44573a7ec56c4d71771e03a93c249dd29e003243",
+    "timestamp": "2025-04-18T21:43:59.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298649,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xb739c502188cf98f3b86c6c1ef182f5936b3f7feaf88cd902ea42293c1745d0f",
+    "timestamp": "2025-04-18T21:42:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298643,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x369ea4a2136a0fd4624119ff9dae69107e01bb1d483c0e7f7bdd74e31fa65fce",
+    "timestamp": "2025-04-18T21:39:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298628,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x92c20063d58714d4dae4db7e9fb406cbee9d23e299f6da285f6e9dba027414dd",
+    "timestamp": "2025-04-18T21:37:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298618,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x98597b0ed8246e22ff94ee66d164867bcaec204fbba67e991654e38f4567bc50",
+    "timestamp": "2025-04-18T21:33:23.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298596,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x81f03268ecd577ad185065be248fca380668fce4d73d7f189a6978056a8469d7",
+    "timestamp": "2025-04-18T21:32:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298593,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xa76cad496e1a1a3b5f61152bd3397729ffe7600dba4641304ff884db30c224f0",
+    "timestamp": "2025-04-18T21:29:35.000000Z",
+    "method": "resetPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298577,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x7f16a4130cd7beec850ca397bdea068490c809eac0ab2a3f08f0c46e6e5c555c",
+    "timestamp": "2025-04-18T21:28:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298573,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x9116c31f305a00416b4e4b455b223881892f604364929ba27ccda78a8f069860",
+    "timestamp": "2025-04-18T21:28:23.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298571,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xa4b09668619b31aa17f1495486486e0544f838bcff0564e5dae3b32050f643bf",
+    "timestamp": "2025-04-18T21:25:23.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298556,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x941657623d92ad4c83b238a21b55c5e164048929645f439148e97ed32eea51dc",
+    "timestamp": "2025-04-18T21:20:59.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298534,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xb7f6c0b498f53c760a02504d73004813fc2bbd1cf8ff3327fa94e30e8fa877a0",
+    "timestamp": "2025-04-18T21:07:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298468,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xfef67f11aefd893fa7f9050f90cc1e5b004d694675c9d48124070d67f61d6fd8",
+    "timestamp": "2025-12-18T22:31:47.000000Z",
+    "method": "setPalette",
+    "from": "0x3Bc3311b2db7064e8888284e23f03a43b7Da5Be3",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 24042486,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x257632968af53c3e5ff12ba2cf22af881afc7c2592cf6c584a58ba686174faf8",
+    "timestamp": "2025-12-10T05:02:35.000000Z",
+    "method": "setPalette",
+    "from": "0x3Bc3311b2db7064e8888284e23f03a43b7Da5Be3",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 23980113,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x11d2f72f5981e598f0217f39c8e89e381d9ee6c778ce32bf5b718ab9d7651983",
+    "timestamp": "2025-06-29T09:01:23.000000Z",
+    "method": "setPalette",
+    "from": "0x8B97066FfE92e889bD53d4dCe2b13461b8EA7Ea2",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 22809052,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x80579e2d6a3042ce806b785a123e2a64478b63a8604c19ab3fb32f0f4f3835cf",
+    "timestamp": "2025-04-20T17:39:35.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22311759,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x2251d938b3ead40a22cdda514bd679d2103334af77e81e823f0fe3417e0d4da7",
+    "timestamp": "2025-04-20T17:13:35.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22311631,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x635f06f1f51f93d6f36a616b8a46c7620cc7c5ce45e15e2aed6d57c4f318be0c",
+    "timestamp": "2025-04-20T17:10:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22311617,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x713b954ecf0e3c3a90cbe064821d42d3065e9516c87f6d4469563eb549bc01dc",
+    "timestamp": "2025-04-20T17:08:35.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22311606,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x08ac4b65ff42d90726b48750db52ad1997705cbbdd5e4a7ee51e052892714e9a",
+    "timestamp": "2025-04-20T16:59:35.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22311561,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x968be1830e427db6dc39ba1123a0045a33eb48a8653328db7f20914289ec8682",
+    "timestamp": "2025-04-19T19:03:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22305017,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xae7d954bdef5d075d4c5871c8da45177b80821b2ff813795daa58a46fe60e515",
+    "timestamp": "2025-04-19T19:02:35.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22305011,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x44f6ae62071d30b5ea0f9db62a1757652146d4a13f93b43039e01042a90acf0a",
+    "timestamp": "2025-04-19T19:00:23.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22305000,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x3168f919112908d6ce073ecee0bc36589e65e1a7f660b846c098c13d884c3698",
+    "timestamp": "2025-04-19T00:36:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299510,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xad1165c62661f7f6045f8c6b078e3d289bb73421f7534cd034493f8b592ec586",
+    "timestamp": "2025-04-19T00:35:23.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299503,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xd1ac3a4fb776938becf561dfd71f172ae2a0c4aa15753c63d1b467fa36b5efab",
+    "timestamp": "2025-04-19T00:31:11.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299482,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x342c2a4653ecac606a7bea647278ee17fea23e4f0d2774223518059cacb3bd94",
+    "timestamp": "2025-04-19T00:29:35.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299474,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x503b7d0eb7e22f74465bc8661411fd6dbcb5ebd73c73e7e98fdeb51f8a6e6957",
+    "timestamp": "2025-04-19T00:28:35.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299469,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xfa0c3baf66563da65cd81f5598508cb157c2096b97b3e0f09207e5d0a74a1eeb",
+    "timestamp": "2025-04-19T00:24:23.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299448,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xec16831dc81553554908b31d26063222be06f670325893431be8df1ce682db12",
+    "timestamp": "2025-04-19T00:20:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299430,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x5bd1b82b0cce0f564644f84036ee9e89ed145b3ba3a5ae4cee0bccd5b8ffb2cf",
+    "timestamp": "2025-04-19T00:13:35.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299394,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x58fddabfdc1db310f9ca80e92a4068225871174a51c0eecb265a0fd0eb3593b4",
+    "timestamp": "2025-04-19T00:09:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299375,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xd0acfa5b7000ac78633e013581ee091b7c9ff2b3339bed6ca6330b227677546e",
+    "timestamp": "2025-04-19T00:01:23.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299333,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x8499e98dfb33c14a0d3a86b4c122ebb031b6dbdc4270de67dd5d83fe0b387e39",
+    "timestamp": "2025-04-18T23:59:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299325,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xf38e64bd30c1b4ff2b82fd87148df02f987479aa440c682276002a30214fca16",
+    "timestamp": "2025-04-18T23:54:59.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299301,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xc1f9396d86b0472fd42cb7f58753d24308dcc9d84032d0dfcbb32391238981ab",
+    "timestamp": "2025-04-18T23:49:59.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299276,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x0b7e69bebfc47d9aca3f9a426e4d21029f034bcfa43d0b77ec55f4ebb9d77c88",
+    "timestamp": "2025-04-18T23:22:11.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299137,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x41c37bf43f3743b873a8a139bb6ae8fac6a95e2d0a30034a8b8bf0cba4defb99",
+    "timestamp": "2025-04-18T23:12:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299090,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x17493153cbdceb62b926e4c554972a0b61a8c4ded149b0e1efdbb2b4cc768237",
+    "timestamp": "2025-04-18T23:09:11.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299072,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xd82e482857754dfa80284ed482e7a0aa4ebf2813a90644ed3bba7c4b53c29c5a",
+    "timestamp": "2025-04-18T23:08:23.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22299068,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x1deec9277ce0531ad1bfa2a66f4ea6f653f78ea134141c2120e53658b85e55d3",
+    "timestamp": "2025-04-18T22:42:23.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298939,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x2676b679a494191bd2cb6a39747cd220918517c9a172c55e1bacb5e17801f531",
+    "timestamp": "2025-04-18T22:41:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298936,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x6e71704aafc7708e6d14a69b5db75f4e946541cceaab5e2a74a98c4438e64f02",
+    "timestamp": "2025-04-18T22:35:35.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298906,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x5500e3378c9b376150dde5e3ae7559c38c5a3b9ca4d5fd9077dc5f5e3b9d0201",
+    "timestamp": "2025-04-18T22:33:23.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298895,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x4df8468c52a9eedbbf1e03276f187fd8dfd8b481b4907f5fe542c1500931f125",
+    "timestamp": "2025-04-18T22:27:59.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298868,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x8cf9ce10683dd2329167ee7d1457a06ec0fea955235ae84dfc5b2137dbd7db49",
+    "timestamp": "2025-04-18T22:24:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298852,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xba7562f62e3c8b4509a6de8c7b10baa8d8c0717b970045535e062cbdfec2b6a7",
+    "timestamp": "2025-04-18T21:49:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298677,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xf013f9b8fabc9224e4120e3f284fab3ceac2d3bc8d5ce6678c3385c43d4aabfc",
+    "timestamp": "2025-04-18T21:48:23.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298670,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x32631d614ff90e2aab12c44d3ac99936481d615fca5cb8c46b31d4742a1cf2d4",
+    "timestamp": "2025-04-18T21:46:59.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298663,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x87c392d18d3e942feb791e4ec75a142c0edc9cdc9c1eb05ec296ddde25bccb7f",
+    "timestamp": "2025-04-18T21:44:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298653,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x4655ec86d32d0e8ea0eb837f44573a7ec56c4d71771e03a93c249dd29e003243",
+    "timestamp": "2025-04-18T21:43:59.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298649,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xb739c502188cf98f3b86c6c1ef182f5936b3f7feaf88cd902ea42293c1745d0f",
+    "timestamp": "2025-04-18T21:42:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298643,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x369ea4a2136a0fd4624119ff9dae69107e01bb1d483c0e7f7bdd74e31fa65fce",
+    "timestamp": "2025-04-18T21:39:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298628,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x92c20063d58714d4dae4db7e9fb406cbee9d23e299f6da285f6e9dba027414dd",
+    "timestamp": "2025-04-18T21:37:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298618,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x98597b0ed8246e22ff94ee66d164867bcaec204fbba67e991654e38f4567bc50",
+    "timestamp": "2025-04-18T21:33:23.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298596,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x81f03268ecd577ad185065be248fca380668fce4d73d7f189a6978056a8469d7",
+    "timestamp": "2025-04-18T21:32:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298593,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xa76cad496e1a1a3b5f61152bd3397729ffe7600dba4641304ff884db30c224f0",
+    "timestamp": "2025-04-18T21:29:35.000000Z",
+    "method": "resetPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298577,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x7f16a4130cd7beec850ca397bdea068490c809eac0ab2a3f08f0c46e6e5c555c",
+    "timestamp": "2025-04-18T21:28:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298573,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x9116c31f305a00416b4e4b455b223881892f604364929ba27ccda78a8f069860",
+    "timestamp": "2025-04-18T21:28:23.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298571,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xa4b09668619b31aa17f1495486486e0544f838bcff0564e5dae3b32050f643bf",
+    "timestamp": "2025-04-18T21:25:23.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298556,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x941657623d92ad4c83b238a21b55c5e164048929645f439148e97ed32eea51dc",
+    "timestamp": "2025-04-18T21:20:59.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298534,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xb7f6c0b498f53c760a02504d73004813fc2bbd1cf8ff3327fa94e30e8fa877a0",
+    "timestamp": "2025-04-18T21:07:47.000000Z",
+    "method": "setPalette",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 22298468,
+    "category": "renderer"
+   },
+   {
+    "truncated": true,
+    "chunk": 0
+   }
+  ],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 2,
+    "first": "2021-08-21",
+    "last": "2021-08-21",
+    "last_tx": "0x71da56a26aea2da11772cad0b6e038d0c614d8fa1183f9214da3037d83a7f53f",
+    "list": [
+     {
+      "date": "2021-08-21",
+      "tx": "0xd7e179f8f1a0327eb7c48718b05b50ad1e748d9600f21d5eb45a14e48b31b134",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "e4bfa7e0da1844ddd81e5dd716ee49de360f0555"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2021-08-21",
+      "tx": "0x71da56a26aea2da11772cad0b6e038d0c614d8fa1183f9214da3037d83a7f53f",
+      "topics": [
+       "e4bfa7e0da1844ddd81e5dd716ee49de360f0555",
+       "174787a207bf4ed4d8db0945602e49f42c146474"
+      ],
+      "data": "0x"
+     }
+    ]
+   }
+  },
+  "decoded": [
+   {
+    "hash": "0xb7f6c0b498f53c760a02504d73004813fc2bbd1cf8ff3327fa94e30e8fa877a0",
+    "timestamp": "2025-04-18T21:07:47.000000Z",
+    "method": "setPalette",
+    "category": "renderer",
+    "from": "0xcF6f5A68d94165081A634AdA997BE3A93426C467",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "uint256",
+      "value": "20050"
+     },
+     {
+      "name": "arg1",
+      "type": "bytes",
+      "value": "0x00000000000000000000000000000000000000000000000000000100000100010100010200010300010300020400020600030700030900040b00050d00060f000712000815000a19000b1d000d21000f2600112b00143100163700193e001c45001f4e002256002660002a6a002f7400338000388c003d9a0043a80049b7004fc60056d7005de90065fc1170ff267dff3c8aff5398"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0x257632968af53c3e5ff12ba2cf22af881afc7c2592cf6c584a58ba686174faf8",
+    "timestamp": "2025-12-10T05:02:35.000000Z",
+    "method": "setPalette",
+    "category": "renderer",
+    "from": "0x3Bc3311b2db7064e8888284e23f03a43b7Da5Be3",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "uint256",
+      "value": "40004"
+     },
+     {
+      "name": "arg1",
+      "type": "bytes",
+      "value": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0xfef67f11aefd893fa7f9050f90cc1e5b004d694675c9d48124070d67f61d6fd8",
+    "timestamp": "2025-12-18T22:31:47.000000Z",
+    "method": "setPalette",
+    "category": "renderer",
+    "from": "0x3Bc3311b2db7064e8888284e23f03a43b7Da5Be3",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "uint256",
+      "value": "70001"
+     },
+     {
+      "name": "arg1",
+      "type": "bytes",
+      "value": "0x7ae1cc7ae1cc7ae1cc7be1cc7be1cc7ce1cd7ce2cd7de2cd7ee2cd7ee2ce7fe2ce80e2ce81e3cf82e3cf83e3d084e3d086e4d087e4d188e4d189e4d28be5d28ce5d38ee5d38fe6d491e6d592e6d594e7d695e7d697e8d799e8d89be8d89ce9d99ee9daa0eadba2eadba4eadca6ebdda8ebdeaaecdeacecdfaeede0b0ede1b3eee2b5eee3b7efe3b9efe4bcf0e5bef0e6c1f1e7c3f1"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   }
+  ],
+  "ownership_transfers": [
+   {
+    "date": "2021-08-21",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0xe4bfa7e0da1844ddd81e5dd716ee49de360f0555",
+    "tx": "0xd7e179f8f1a0327eb7c48718b05b50ad1e748d9600f21d5eb45a14e48b31b134"
+   },
+   {
+    "date": "2021-08-21",
+    "from": "0xe4bfa7e0da1844ddd81e5dd716ee49de360f0555",
+    "to": "0x174787a207bf4ed4d8db0945602e49f42c146474",
+    "tx": "0x71da56a26aea2da11772cad0b6e038d0c614d8fa1183f9214da3037d83a7f53f"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0xd31fc221d2b0e0321c43e9f6824b26ebfff01d7d_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0x174787a207bf4ed4d8db0945602e49f42c146474",
+  "code_raw": "data/raw/rpc-mutability/0x174787a207bf4ed4d8db0945602e49f42c146474_holdercode.json",
+  "type": "eoa",
+  "bs_name": null,
+  "ens": "divergencevault.eth",
+  "bs_impl_names": [],
+  "bs_tags": [],
+  "is_contract": false,
+  "creator": null,
+  "is_verified": false,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "override",
+ "hidden_owner_unconfirmed": [
+  "0x3bc3311b2db7064e8888284e23f03a43b7da5be3",
+  "0xe4bfa7e0da1844ddd81e5dd716ee49de360f0555"
+ ],
+ "lock_functions": [
+  "lockSeries"
+ ],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [
+  {
+   "name": "setBaseExternalUrl",
+   "sig": "setBaseExternalUrl(string)",
+   "selector": "0xc506301d",
+   "category": "uri",
+   "inputs": [
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "_baseExternalUrl = url;",
+   "writes": [
+    "_baseExternalUrl"
+   ],
+   "effective": "yes",
+   "power": "eoa",
+   "holder_addrs": [
+    "0x174787a207bf4ed4d8db0945602e49f42c146474"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x174787a207bf4ed4d8db0945602e49f42c146474",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": "divergencevault.eth",
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "resetPalette",
+   "sig": "resetPalette(uint256)",
+   "selector": "0xdadc179e",
+   "category": "renderer",
+   "inputs": [
+    "uint256"
+   ],
+   "gates": [
+    {
+     "type": "token-owner",
+     "ref": "ownerOf"
+    },
+    {
+     "type": "named",
+     "ref": "paletteApproval"
+    }
+   ],
+   "modifiers": [
+    "approvedForPalette(tokenId)"
+   ],
+   "body_head": "require(tokenConfigs[tokenId].paletteReset == 0, \"Already reset\");\n        \n        tokenConfigs[tokenId].paletteChanges++;\n        tokenConfigs[tokenId].palett",
+   "writes": [
+    "paletteBy",
+    "paletteReset"
+   ],
+   "effective": "yes",
+   "power": "token-holder",
+   "holder_addrs": [],
+   "holder_how": [
+    "ownerOf",
+    "paletteApproval (no public getter)"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": true,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": []
+  },
+  {
+   "name": "setPalette",
+   "sig": "setPalette(uint256,bytes)",
+   "selector": "0x32bd2d6e",
+   "category": "renderer",
+   "inputs": [
+    "uint256",
+    "bytes"
+   ],
+   "gates": [
+    {
+     "type": "token-owner",
+     "ref": "ownerOf"
+    },
+    {
+     "type": "named",
+     "ref": "paletteApproval"
+    }
+   ],
+   "modifiers": [
+    "approvedForPalette(tokenId)"
+   ],
+   "body_head": "require(palette.length == 768, \"256 colours required\");\n        \n        tokenConfigs[tokenId].palette = palette;\n        tokenConfigs[tokenId].paletteChanges++",
+   "writes": [
+    "palette",
+    "paletteBy",
+    "paletteReset"
+   ],
+   "effective": "yes",
+   "power": "token-holder",
+   "holder_addrs": [],
+   "holder_how": [
+    "ownerOf",
+    "paletteApproval (no public getter)"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": true,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": []
+  },
+  {
+   "name": "setSeriesDefaultPalette",
+   "sig": "setSeriesDefaultPalette(uint256,bytes)",
+   "selector": "0x892d59d1",
+   "category": "renderer",
+   "inputs": [
+    "uint256",
+    "bytes"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "seriesMustExist(seriesId)",
+    "seriesNotLocked(seriesId)",
+    "onlyOwner"
+   ],
+   "body_head": "require(palette.length == 768, \"256 colours required\");\n        seriesConfigs[seriesId].defaultPalette = palette;",
+   "writes": [
+    "defaultPalette"
+   ],
+   "effective": "yes",
+   "power": "eoa",
+   "holder_addrs": [
+    "0x174787a207bf4ed4d8db0945602e49f42c146474"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x174787a207bf4ed4d8db0945602e49f42c146474",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": "divergencevault.eth",
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "setSeriesDescription",
+   "sig": "setSeriesDescription(uint256,string)",
+   "selector": "0x3cd27480",
+   "category": "renderer",
+   "inputs": [
+    "uint256",
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "seriesMustExist(seriesId)",
+    "onlyOwner"
+   ],
+   "body_head": "seriesConfigs[seriesId].description = description;",
+   "writes": [
+    "description"
+   ],
+   "effective": "yes",
+   "power": "eoa",
+   "holder_addrs": [
+    "0x174787a207bf4ed4d8db0945602e49f42c146474"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x174787a207bf4ed4d8db0945602e49f42c146474",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": "divergencevault.eth",
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "setContractURI",
+   "sig": "setContractURI(string)",
+   "selector": "0x938e3d7b",
+   "category": "contracturi",
+   "inputs": [
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "_setContractURI(contractURI);",
+   "writes": [],
+   "power": "eoa",
+   "holder_addrs": [
+    "0x174787a207bf4ed4d8db0945602e49f42c146474"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x174787a207bf4ed4d8db0945602e49f42c146474",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": "divergencevault.eth",
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  }
+ ],
+ "class_direct": "eoa-mutable",
+ "class_reason": "live setters (eoa): setBaseExternalUrl,setSeriesDefaultPalette,setSeriesDescription",
+ "live_mutators": [
+  "resetPalette",
+  "setBaseExternalUrl",
+  "setPalette",
+  "setSeriesDefaultPalette",
+  "setSeriesDescription"
+ ],
+ "dependencies": [
+  {
+   "address": "0x183c93b6060f997d2d30a10621998fd3a937ea6d",
+   "via": "_bmp()",
+   "in_tokenuri_path": true,
+   "via_setter": false,
+   "analysis": {
+    "address": "0x183c93b6060f997d2d30a10621998fd3a937ea6d",
+    "verified": false,
+    "contract_name": "",
+    "proxy": {
+     "kind": null
+    },
+    "owner": null,
+    "admin_fn": null,
+    "uups": false,
+    "lock_views": {},
+    "lock_flags_true": {},
+    "lock_functions": [],
+    "class_direct": "unknown",
+    "class_reason": "unverified source; no known setter selectors in bytecode",
+    "live_mutators": [],
+    "mutators": [],
+    "history": {},
+    "unverified_selector_hits": [],
+    "tokenuri_path": "n/a"
+   }
+  }
+ ],
+ "meta": {
+  "address": "0xd31fc221d2b0e0321c43e9f6824b26ebfff01d7d",
+  "name": "Brotchain",
+  "w5_claim_strength": "explicit-100%/fully",
+  "w5_claim_text": "No externalities, no rendering dependencies\u2014just 100% Solidity.",
+  "w5_source_type": "marketplace",
+  "w5_source_url": "https://api.opensea.io/api/v2/collections/brotchain",
+  "holders_count": 323.0,
+  "in_w5": true,
+  "gallery_slugs": "brotchain",
+  "gallery_tokens": "1",
+  "in_gallery": true,
+  "census_meta_class": null,
+  "census_media_class": null,
+  "census_liveness": null,
+  "in_census_onchain": false,
+  "standard": "ERC-721",
+  "creator": "0xe4bfa7e0da1844ddd81e5dd716ee49de360f0555",
+  "deploy_block": 13068609.0
+ },
+ "class_deps_all": "unknown",
+ "class_deps": "unknown",
+ "class_final": "eoa-mutable",
+ "pointer_power": "eoa"
+}

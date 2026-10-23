@@ -1,0 +1,415 @@
+{
+ "address": "0x330eb5863723937d63c63209400fcf71d1666293",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:07Z",
+ "code_raw": "data/raw/rpc-mutability/0x330eb5863723937d63c63209400fcf71d1666293_code.json",
+ "code_len": 16096,
+ "slots": {
+  "slot0": "0x0000000000000000000000000000000000000000000000000000000000001989"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0x330eb5863723937d63c63209400fcf71d1666293_slots.json",
+ "verified": true,
+ "contract_name": "Regens",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [
+   {
+    "hash": "0xd2f6c66b22cca3bd45d255767a60b936d7b901f19aae6dc25e43f79c87df9415",
+    "timestamp": "2026-07-08T13:22:47.000000Z",
+    "method": "freezeArt",
+    "from": "0xc58798141574800f52E3b4A384AA4E6a3a6B8D97",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25488120,
+    "category": "lock"
+   },
+   {
+    "hash": "0x462ef66135f6b2a34091105c7382595ae0e7ac74c9196d0514f112462a21bbb7",
+    "timestamp": "2026-07-07T22:02:59.000000Z",
+    "method": "uploadLayers",
+    "from": "0xc58798141574800f52E3b4A384AA4E6a3a6B8D97",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25483536,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x2bf9638ba113f7f1c7f3c96d47b5de7df3d8e33122a0e81031663159ed1b5024",
+    "timestamp": "2026-07-07T22:02:35.000000Z",
+    "method": "uploadLayers",
+    "from": "0xc58798141574800f52E3b4A384AA4E6a3a6B8D97",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25483534,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xc9eae3093d8443678451a09e903388d8f011b30add9ca5d0a62cc8ac537975ac",
+    "timestamp": "2026-07-07T22:02:11.000000Z",
+    "method": "uploadLayers",
+    "from": "0xc58798141574800f52E3b4A384AA4E6a3a6B8D97",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25483532,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x325c4614b747eaed38f4e1f7c025aed30541ba3d83d371d5e37fd7f891ac4021",
+    "timestamp": "2026-07-07T22:01:35.000000Z",
+    "method": "uploadLayers",
+    "from": "0xc58798141574800f52E3b4A384AA4E6a3a6B8D97",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25483529,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x2d302618391c9ce0473d1769b0ccde2498eca05d666b95070e969d64637d6529",
+    "timestamp": "2026-07-07T22:00:59.000000Z",
+    "method": "uploadLayers",
+    "from": "0xc58798141574800f52E3b4A384AA4E6a3a6B8D97",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25483526,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x830938e8d1b89c2ee16362bc996ece463381912b993dccb93f94c6393a2b8169",
+    "timestamp": "2026-07-07T22:00:47.000000Z",
+    "method": "uploadLayers",
+    "from": "0xc58798141574800f52E3b4A384AA4E6a3a6B8D97",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25483525,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x9a35a42b17ba5cb73f0435a0e696fe2132347aadc09bc05cd80459451174948c",
+    "timestamp": "2026-07-07T22:00:23.000000Z",
+    "method": "uploadLayers",
+    "from": "0xc58798141574800f52E3b4A384AA4E6a3a6B8D97",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25483523,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xb156e8c37404e6c12a4c6cd7eb1936b50eaccee5b402432b8327fc59ffc19657",
+    "timestamp": "2026-07-07T21:59:59.000000Z",
+    "method": "uploadLayers",
+    "from": "0xc58798141574800f52E3b4A384AA4E6a3a6B8D97",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25483521,
+    "category": "renderer"
+   }
+  ],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 1,
+    "first": "2026-07-07",
+    "last": "2026-07-07",
+    "last_tx": "0x56e103b4d419744f3c8e4ca14f66e84eaf013c06707a5cb9d06e182f01c78ad5",
+    "list": [
+     {
+      "date": "2026-07-07",
+      "tx": "0x56e103b4d419744f3c8e4ca14f66e84eaf013c06707a5cb9d06e182f01c78ad5",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "c58798141574800f52e3b4a384aa4e6a3a6b8d97"
+      ],
+      "data": "0x"
+     }
+    ]
+   }
+  },
+  "decoded": [
+   {
+    "hash": "0xb156e8c37404e6c12a4c6cd7eb1936b50eaccee5b402432b8327fc59ffc19657",
+    "timestamp": "2026-07-07T21:59:59.000000Z",
+    "method": "uploadLayers",
+    "category": "renderer",
+    "from": "0xc58798141574800f52E3b4A384AA4E6a3a6B8D97",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "string[]",
+      "value": "['_base', '_nostrils', 'background__blossom', 'background__bubbles', 'background__butter', 'background__coral', 'background__deep_dive', 'background__golden_hour', 'background__lagoon', 'background__lilac', 'background__night_tide', 'background__sand']"
+     },
+     {
+      "name": "arg1",
+      "type": "bytes[]",
+      "value": "[b'<path d=\"M 512 178 C 690 182 806 306 830 448 C 840 560 770 604 728 664 C 718 716 778 784 808 870 C 816 944 818 1024 818 1030 L 206 1030 C 206 1024 208 944 216 870 C 246 784 306 716 296 664 C 254 604 184 560 194 448 C 218 306 334 182 512 178 Z\" fill=\"%B%\" stroke=\"#241833\" stroke-width=\"11\"/><path "
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0x9a35a42b17ba5cb73f0435a0e696fe2132347aadc09bc05cd80459451174948c",
+    "timestamp": "2026-07-07T22:00:23.000000Z",
+    "method": "uploadLayers",
+    "category": "renderer",
+    "from": "0xc58798141574800f52E3b4A384AA4E6a3a6B8D97",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "string[]",
+      "value": "['background__seafoam', 'background__slate', 'background__sunset', 'background__waves', 'expression__angry', 'expression__closed_happy', 'expression__derp', 'expression__happy', 'expression__hearts', 'expression__laser', 'expression__sleepy', 'expression__sparkle']"
+     },
+     {
+      "name": "arg1",
+      "type": "bytes[]",
+      "value": "[b'<rect x=\"0\" y=\"0\" width=\"1024\" height=\"1024\" fill=\"#CDEFDD\"/>', b'<rect x=\"0\" y=\"0\" width=\"1024\" height=\"1024\" fill=\"#C7CDE0\"/>', b'<defs><linearGradient id=\"bgsunset\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#FFC2CE\"/><stop offset=\"1\" stop-color=\"#FFD9A8\"/></linearGradient></defs"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0x830938e8d1b89c2ee16362bc996ece463381912b993dccb93f94c6393a2b8169",
+    "timestamp": "2026-07-07T22:00:47.000000Z",
+    "method": "uploadLayers",
+    "category": "renderer",
+    "from": "0xc58798141574800f52E3b4A384AA4E6a3a6B8D97",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "string[]",
+      "value": "['expression__spiral', 'expression__starry', 'expression__suspicious', 'expression__wink', 'eyewear__cyber_visor', 'eyewear__eyepatch', 'eyewear__flower_shades', 'eyewear__heart_shades', 'eyewear__monocle', 'eyewear__nerd_glasses', 'eyewear__rounds', 'eyewear__shades']"
+     },
+     {
+      "name": "arg1",
+      "type": "bytes[]",
+      "value": "[b'<circle cx=\"362\" cy=\"470\" r=\"52\" fill=\"#FFFFFF\" stroke=\"#241833\" stroke-width=\"9\"/><circle cx=\"662\" cy=\"470\" r=\"52\" fill=\"#FFFFFF\" stroke=\"#241833\" stroke-width=\"9\"/><path d=\"M 364.0 470.0 L 364.2 470.4 L 364.4 470.9 L 364.5 471.5 L 364.4 472.0 L 364.2 472.7 L 363.8 473.2 L 363.3 473.8 L 362.6 47"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0x2d302618391c9ce0473d1769b0ccde2498eca05d666b95070e969d64637d6529",
+    "timestamp": "2026-07-07T22:00:59.000000Z",
+    "method": "uploadLayers",
+    "category": "renderer",
+    "from": "0xc58798141574800f52E3b4A384AA4E6a3a6B8D97",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "string[]",
+      "value": "['eyewear__star_shades', 'eyewear__swim_goggles', 'face__bandaid', 'face__blush', 'face__face_paint', 'face__freckles', 'face__regen_scar', 'face__sparkle_cheeks', 'face__star_sticker', 'gills__classic', 'gills__droopy', 'gills__lush']"
+     },
+     {
+      "name": "arg1",
+      "type": "bytes[]",
+      "value": "[b'<path d=\"M 362.0 378.0 L 389.0 432.8 L 449.5 441.6 L 405.7 484.2 L 416.1 544.4 L 362.0 516.0 L 307.9 544.4 L 318.3 484.2 L 274.5 441.6 L 335.0 432.8 Z\" fill=\"#5FB4F0\" stroke=\"#241833\" stroke-width=\"10\"/><path d=\"M 662.0 378.0 L 689.0 432.8 L 749.5 441.6 L 705.7 484.2 L 716.1 544.4 L 662.0 516.0 L"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0x325c4614b747eaed38f4e1f7c025aed30541ba3d83d371d5e37fd7f891ac4021",
+    "timestamp": "2026-07-07T22:01:35.000000Z",
+    "method": "uploadLayers",
+    "category": "renderer",
+    "from": "0xc58798141574800f52E3b4A384AA4E6a3a6B8D97",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "string[]",
+      "value": "['gills__perky', 'gills__tiny', 'headwear__anglerfish_lure', 'headwear__antenna_bobbles', 'headwear__beanie', 'headwear__bow', 'headwear__bubble_crown', 'headwear__chef_hat', 'headwear__crown', 'headwear__devil_horns', 'headwear__fin_mohawk', 'headwear__flower']"
+     },
+     {
+      "name": "arg1",
+      "type": "bytes[]",
+      "value": "[b'<g transform=\"translate(758 292) rotate(-72) scale(0.7)\"><path d=\"M 0 0 C 30 -34 78 -46 118 -40 C 136 -62 170 -66 188 -50 C 214 -58 244 -44 248 -18 C 272 -10 276 18 258 32 C 258 58 228 74 204 64 C 184 86 146 86 128 66 C 88 74 40 58 22 34 C 8 24 0 12 0 0 Z\" fill=\"%G%\" stroke=\"#241833\" stroke-width"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0xc9eae3093d8443678451a09e903388d8f011b30add9ca5d0a62cc8ac537975ac",
+    "timestamp": "2026-07-07T22:02:11.000000Z",
+    "method": "uploadLayers",
+    "category": "renderer",
+    "from": "0xc58798141574800f52E3b4A384AA4E6a3a6B8D97",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "string[]",
+      "value": "['headwear__halo', 'headwear__party_hat', 'headwear__sprout', 'headwear__starfish', 'headwear__top_hat', 'mouth__big_grin', 'mouth__cat', 'mouth__fang', 'mouth__flat', 'mouth__kissy', 'mouth__pout', 'mouth__smile']"
+     },
+     {
+      "name": "arg1",
+      "type": "bytes[]",
+      "value": "[b'<ellipse cx=\"512\" cy=\"86\" rx=\"172\" ry=\"44\" fill=\"none\" stroke=\"#FFD84D\" stroke-width=\"30\"/><ellipse cx=\"512\" cy=\"86\" rx=\"172\" ry=\"44\" fill=\"none\" stroke=\"#FFF3C0\" stroke-width=\"12\"/>', b'<g transform=\"rotate(8 512 262)\"><defs><clipPath id=\"phclip\"><path d=\"M 364 262 L 660 262 L 512 44 Z\" transfor"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0x2bf9638ba113f7f1c7f3c96d47b5de7df3d8e33122a0e81031663159ed1b5024",
+    "timestamp": "2026-07-07T22:02:35.000000Z",
+    "method": "uploadLayers",
+    "category": "renderer",
+    "from": "0xc58798141574800f52E3b4A384AA4E6a3a6B8D97",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "string[]",
+      "value": "['mouth__smirk', 'mouth__tongue', 'mouth__whistle', 'outfit__bowtie', 'outfit__floatie', 'outfit__gold_chain', 'outfit__hero_cape', 'outfit__hoodie', 'outfit__lab_coat', 'outfit__life_vest', 'outfit__pearls', 'outfit__rain_slicker']"
+     },
+     {
+      "name": "arg1",
+      "type": "bytes[]",
+      "value": "[b'<path d=\"M 464 614 Q 530 640 574 588\" fill=\"none\" stroke=\"#241833\" stroke-width=\"12\"/>', b'<path d=\"M 456 596 C 456 630 486 642 512 642 C 538 642 568 630 568 596 C 568 574 538 566 512 566 C 486 566 456 574 456 596 Z\" fill=\"#7C2D4A\" stroke=\"#241833\" stroke-width=\"11\"/><path d=\"M 490 612 Q 512 652 "
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0x462ef66135f6b2a34091105c7382595ae0e7ac74c9196d0514f112462a21bbb7",
+    "timestamp": "2026-07-07T22:02:59.000000Z",
+    "method": "uploadLayers",
+    "category": "renderer",
+    "from": "0xc58798141574800f52E3b4A384AA4E6a3a6B8D97",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "string[]",
+      "value": "['outfit__sailor', 'outfit__tee', 'outfit__varsity', 'special__bubbles', 'special__golden_aura', 'special__regen_sparkles']"
+     },
+     {
+      "name": "arg1",
+      "type": "bytes[]",
+      "value": "[b'<path d=\"M 194 1034 C 196 936 204 852 238 776 C 260 726 352 792 512 792 C 672 792 764 726 786 776 C 820 852 828 936 830 1034 Z\" fill=\"#FFFFFF\" stroke=\"#241833\" stroke-width=\"11\"/><path d=\"M 213 857 L 448 806 L 512 872 L 576 806 L 811 857\" fill=\"none\" stroke=\"#4795D6\" stroke-width=\"12\"/><path d=\"M"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   }
+  ],
+  "ownership_transfers": [
+   {
+    "date": "2026-07-07",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0xc58798141574800f52e3b4a384aa4e6a3a6b8d97",
+    "tx": "0x56e103b4d419744f3c8e4ca14f66e84eaf013c06707a5cb9d06e182f01c78ad5"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0x330eb5863723937d63c63209400fcf71d1666293_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0xc58798141574800f52e3b4a384aa4e6a3a6b8d97",
+  "code_raw": "data/raw/rpc-mutability/0xc58798141574800f52e3b4a384aa4e6a3a6b8d97_holdercode.json",
+  "type": "eoa",
+  "bs_name": null,
+  "ens": null,
+  "bs_impl_names": [],
+  "bs_tags": [],
+  "is_contract": false,
+  "creator": null,
+  "is_verified": false,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {
+  "artFrozen": 1
+ },
+ "tokenuri_path": "override",
+ "lock_functions": [
+  "freezeArt"
+ ],
+ "lock_flags_true": {
+  "artFrozen": 1
+ },
+ "roles": {},
+ "mutators": [
+  {
+   "name": "uploadLayers",
+   "sig": "uploadLayers(string[],bytes[])",
+   "selector": "0xbd60644b",
+   "category": "renderer",
+   "inputs": [
+    "string[]",
+    "bytes[]"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "if (artFrozen) revert ArtIsFrozen();\n        require(keys.length == data.length, \"len mismatch\");\n        for (uint256 i; i < keys.length; ++i) {\n            _l",
+   "writes": [],
+   "effective": "unknown",
+   "power": "eoa",
+   "holder_addrs": [
+    "0xc58798141574800f52e3b4a384aa4e6a3a6b8d97"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [
+    "artFrozen"
+   ],
+   "frozen": true,
+   "holders": [
+    {
+     "addr": "0xc58798141574800f52e3b4a384aa4e6a3a6b8d97",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  }
+ ],
+ "class_direct": "immutable",
+ "class_reason": "uploadLayers:frozen(artFrozen)",
+ "live_mutators": [],
+ "dependencies": [],
+ "meta": {
+  "address": "0x330eb5863723937d63c63209400fcf71d1666293",
+  "name": "REGENS",
+  "w5_claim_strength": "explicit-100%/fully",
+  "w5_claim_text": "/// @notice 10,000 fully on-chain, pre-revealed generative axolotls. ONE",
+  "w5_source_type": "contract-source",
+  "w5_source_url": "https://etherscan.io/address/0x330eb5863723937d63c63209400fcf71d1666293#code (contracts/remix/Regens_flattened.sol:3647)",
+  "holders_count": 5961.0,
+  "in_w5": true,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": "onchain-renderer",
+  "census_media_class": "data-uri",
+  "census_liveness": "alive",
+  "in_census_onchain": true,
+  "standard": "ERC-721",
+  "creator": "0xc58798141574800f52e3b4a384aa4e6a3a6b8d97",
+  "deploy_block": 25483458.0
+ },
+ "class_deps_all": "none",
+ "class_deps": "none",
+ "class_final": "immutable",
+ "pointer_power": null
+}

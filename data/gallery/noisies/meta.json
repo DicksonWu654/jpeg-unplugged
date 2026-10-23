@@ -1,0 +1,53 @@
+{
+ "collection": "NOISIES",
+ "slug": "noisies",
+ "contract": "0x106356AbcF6aA03e36F0a60F073b7F7a134F0152",
+ "token_id": 1,
+ "chain_method": "data URI (contract-assembled; technique labelled from verified source flags)",
+ "chain_call": "tokenURI(1)",
+ "json_name": "NOISIE #1",
+ "fields": {
+  "image": "data:image/svg+xml",
+  "animation_url": null,
+  "external_url": null,
+  "json_how": "data-uri-base64"
+ },
+ "rpc": {
+  "default_public_ok": true,
+  "highgas_drpc_ok": null,
+  "highgas_blxr_ok": null,
+  "fork_ok": null,
+  "rpc": "public-default",
+  "needed_fork": false,
+  "unreadable_from_default_public_call": false,
+  "gas_estimate": null
+ },
+ "medium": "svg (image data URI)",
+ "primary": "image",
+ "source_flags": {
+  "verified": true,
+  "contract_name": "NOISIES",
+  "proxy": false,
+  "implementation": null,
+  "sstore2": false,
+  "ethfs": false,
+  "scripty": false,
+  "base64": true,
+  "gzip": false,
+  "data_uri": true,
+  "http_literals": [],
+  "ipfs_literal": false,
+  "setters": [
+   "setRenderer"
+  ]
+ },
+ "artwork_file": "artwork.svg",
+ "doc_type": "image/svg+xml; charset=utf-8",
+ "artwork_bytes": 10334,
+ "artwork_sha256": "4df690ed1d72abc32c2b995b76dc8f77f40cdd12ea63599cf1c3af451f197fb2",
+ "declared": {
+  "load": [],
+  "literals": []
+ },
+ "built_at": "2026-10-21T20:18:59Z"
+}

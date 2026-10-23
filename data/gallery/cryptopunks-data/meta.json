@@ -1,0 +1,26 @@
+{
+ "collection": "CryptoPunks (CryptopunksData contract)",
+ "slug": "cryptopunks-data",
+ "contract": "0x16F5A35647D6F03D5D3da7b35409D65ba03aF3B2",
+ "token_id": 7804,
+ "chain_method": "SSTORE-packed sprite data + palette in CryptopunksData; punkImageSvg() builds SVG",
+ "chain_call": "punkImageSvg(7804)",
+ "medium": "svg (returned as data:image/svg+xml;utf8 string)",
+ "fields": {
+  "image": "data:image/svg+xml"
+ },
+ "attributes": "Alien, Cap Forward, Pipe, Small Shades",
+ "rpc": {
+  "rpc": "public"
+ },
+ "note": "The original CryptoPunks contract (0xb47e..BBB) has no tokenURI/image; the on-chain art lives in the later CryptopunksData contract.",
+ "artwork_file": "artwork.svg",
+ "doc_type": "image/svg+xml; charset=utf-8",
+ "artwork_bytes": 21669,
+ "artwork_sha256": "268cc25786f01a3779593bd93cbd77713fd1a1bb3ae945af81a455e8668f01b8",
+ "declared": {
+  "load": [],
+  "literals": []
+ },
+ "built_at": "2026-10-21T20:06:46Z"
+}

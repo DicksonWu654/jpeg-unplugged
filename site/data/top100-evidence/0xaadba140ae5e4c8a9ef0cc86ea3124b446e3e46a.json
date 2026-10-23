@@ -1,0 +1,506 @@
+{
+  "collection": {
+    "rank": 91,
+    "source_rank": 96,
+    "name": "MutantCats",
+    "contract": "0xaadba140ae5e4c8a9ef0cc86ea3124b446e3e46a",
+    "contracts": [
+      "0xaadba140ae5e4c8a9ef0cc86ea3124b446e3e46a"
+    ],
+    "slug": "mutantcats",
+    "volume_usd": 63654027.12,
+    "volume_source": "CryptoSlam all-time Ethereum owner-to-owner sales, wash-filtered USD",
+    "source_url": "https://web-api.cryptoslam.io/v1/sales/rank-by-volume?timeRange=all&orderBy=rank&sortDirection=asc&offset=0&limit=100&blockchainId=0&hideInscriptions=false",
+    "ranking_evidence": "data/raw/top100-api/cryptoslam-ranking-0.json",
+    "identity_evidence": "data/raw/top100-api/cryptoslam-info-mutantcats.json",
+    "token_count": 9999,
+    "all_time_volume": 63654027.12,
+    "volume_currency": "USD",
+    "kind": "art-avatar",
+    "metadata_location": "ipfs",
+    "metadata_classes": [
+      "ipfs"
+    ],
+    "media_location": "ipfs",
+    "primary_image_location": "ipfs",
+    "media_classes": [
+      "ipfs"
+    ],
+    "liveness": "alive",
+    "liveness_exact": "alive",
+    "all_declared_media_liveness": "alive",
+    "metadata_failed": false,
+    "n_alive": 3,
+    "n_dead": 0,
+    "n_unknown": 0,
+    "n_degraded": 0,
+    "key_domain_or_gateway": "",
+    "hosts": [],
+    "hardcoded_gateways": [],
+    "http_origin_dependency": false,
+    "uses_ipfs": true,
+    "uses_arweave": false,
+    "fully_onchain_all_declared_media": false,
+    "metadata_and_primary_image_onchain": false,
+    "mutability_class": "eoa-mutable",
+    "single_key_mutable": true,
+    "single_key_repointable": true,
+    "base_uri_or_renderer": "0xaadba140ae5e4c8a9ef0cc86ea3124b446e3e46a.baseURI() = ipfs://QmQYh4efWZb7QXF1XP4zkTKnhyeRamMpVGTR9z3YxnyKTo/",
+    "control": [
+      {
+        "contract": "0xaadba140ae5e4c8a9ef0cc86ea3124b446e3e46a",
+        "class": "eoa-mutable",
+        "pointer_power": "eoa",
+        "reason": "live setters (eoa): setBaseURI",
+        "owner": {
+          "addr": "0x52effc15dfaa1efc701a8b9522654e4e1c99b012",
+          "code_raw": "data/raw/rpc-mutability/0x52effc15dfaa1efc701a8b9522654e4e1c99b012_holdercode.json",
+          "type": "eoa",
+          "bs_name": null,
+          "ens": null,
+          "bs_impl_names": [],
+          "bs_tags": [],
+          "is_contract": false,
+          "creator": null,
+          "is_verified": false,
+          "bs_reputation": "ok"
+        },
+        "proxy": {
+          "kind": null
+        },
+        "live_mutators": [
+          {
+            "name": "setBaseURI",
+            "sig": "setBaseURI(string)",
+            "category": "uri",
+            "power": "eoa",
+            "holders": [
+              {
+                "addr": "0x52effc15dfaa1efc701a8b9522654e4e1c99b012",
+                "type": "eoa",
+                "bs_name": null,
+                "ens": null,
+                "desc": "eoa",
+                "simple": "eoa"
+              }
+            ],
+            "effective": "yes",
+            "reason": null
+          }
+        ],
+        "lock_flags": {},
+        "dependencies": [],
+        "pointer_getters": [
+          {
+            "getter": "baseURI()",
+            "type": "string",
+            "ok": true,
+            "value": "ipfs://QmQYh4efWZb7QXF1XP4zkTKnhyeRamMpVGTR9z3YxnyKTo/",
+            "error": null
+          }
+        ],
+        "analyzed_at": "2026-10-23T02:53:21Z",
+        "history_incomplete": false,
+        "evidence": "data/raw/top100-mutability/0xaadba140ae5e4c8a9ef0cc86ea3124b446e3e46a.json"
+      }
+    ],
+    "samples": 3,
+    "distinct_token_ids": 3,
+    "sample_note": null,
+    "source_contracts_without_sampleable_nfts": [],
+    "ownership_scope_gaps": [],
+    "refreshed_at": "2026-10-23T03:05:05Z",
+    "opensea_rank": 110,
+    "ranking_scope_disagreement": false,
+    "metadata_adapter": false,
+    "evidence": [
+      "data/raw/top100-census/0xaadba140ae5e4c8a9ef0cc86ea3124b446e3e46a/result.json.gz"
+    ],
+    "delivery_note": null
+  },
+  "samples": [
+    {
+      "contract": "0xaadba140ae5e4c8a9ef0cc86ea3124b446e3e46a",
+      "token_id": "1",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(0) [low; totalSupply=9999]",
+      "metadata_location": "ipfs",
+      "metadata_uri": "ipfs://QmQYh4efWZb7QXF1XP4zkTKnhyeRamMpVGTR9z3YxnyKTo/1.json",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "ipfs.filebase.io",
+          "url": "https://ipfs.filebase.io/ipfs/QmQYh4efWZb7QXF1XP4zkTKnhyeRamMpVGTR9z3YxnyKTo/1.json",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 4,
+          "final_url": "https://ipfs.filebase.io/ipfs/QmQYh4efWZb7QXF1XP4zkTKnhyeRamMpVGTR9z3YxnyKTo/1.json",
+          "content_type": "application/json",
+          "size": 226,
+          "content_length": 226,
+          "sha256": "7094f326da282a4a6622fb2e0b8cfb416a40d076ab6729a6d3b9f029f37d2631",
+          "t": "2026-10-23T02:51:13Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "ipfs",
+          "host": null,
+          "gateway": null,
+          "uri": "ipfs://QmNNWLqXEWoxPfZefXW9Ecoph7SzW4YLJfqvSCzk6LahpC/1.png",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "ipfs.filebase.io",
+              "url": "https://ipfs.filebase.io/ipfs/QmNNWLqXEWoxPfZefXW9Ecoph7SzW4YLJfqvSCzk6LahpC/1.png",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 7,
+              "final_url": "https://ipfs.filebase.io/ipfs/QmNNWLqXEWoxPfZefXW9Ecoph7SzW4YLJfqvSCzk6LahpC/1.png",
+              "content_type": "image/png",
+              "size": 65536,
+              "content_length": 9547994,
+              "sha256": "e395952e9df843137aef55fcd23bae9166c136fdf1afdf4d0946b71ab4c934a7",
+              "t": "2026-10-23T02:51:26Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "ipfs",
+        "anim_class": null,
+        "image_verdict": "alive",
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "ipfs"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "alive",
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000000001",
+          "endpoint": "https://eth.rpc.blxrbdn.com",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0xaadba140ae5e4c8a9ef0cc86ea3124b446e3e46a/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0xaadba140ae5e4c8a9ef0cc86ea3124b446e3e46a",
+      "token_id": "5000",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(4999) [mid; totalSupply=9999]",
+      "metadata_location": "ipfs",
+      "metadata_uri": "ipfs://QmQYh4efWZb7QXF1XP4zkTKnhyeRamMpVGTR9z3YxnyKTo/5000.json",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "ipfs.filebase.io",
+          "url": "https://ipfs.filebase.io/ipfs/QmQYh4efWZb7QXF1XP4zkTKnhyeRamMpVGTR9z3YxnyKTo/5000.json",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 5,
+          "final_url": "https://ipfs.filebase.io/ipfs/QmQYh4efWZb7QXF1XP4zkTKnhyeRamMpVGTR9z3YxnyKTo/5000.json",
+          "content_type": "application/json",
+          "size": 442,
+          "content_length": 442,
+          "sha256": "40214ac73fe5fdc5d589b4a374504904ad48fed75e99fb756aa7e38d83839997",
+          "t": "2026-10-23T02:51:13Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "ipfs",
+          "host": null,
+          "gateway": null,
+          "uri": "ipfs://QmcdBLtTZfFgtcY7DpYK4XKNy1yiD1eNJ9c3uugh5Dfrh6/5000.png",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "ipfs.filebase.io",
+              "url": "https://ipfs.filebase.io/ipfs/QmcdBLtTZfFgtcY7DpYK4XKNy1yiD1eNJ9c3uugh5Dfrh6/5000.png",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 9,
+              "final_url": "https://ipfs.filebase.io/ipfs/QmcdBLtTZfFgtcY7DpYK4XKNy1yiD1eNJ9c3uugh5Dfrh6/5000.png",
+              "content_type": "image/png",
+              "size": 65536,
+              "content_length": 16159334,
+              "sha256": "13714d0056c73d0756ca5d3d71ee68d4ef9fb6a33a9161239a9f9f65978b4648",
+              "t": "2026-10-23T02:51:26Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "ipfs",
+        "anim_class": null,
+        "image_verdict": "alive",
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "ipfs"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "alive",
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000001388",
+          "endpoint": "https://eth.rpc.blxrbdn.com",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0xaadba140ae5e4c8a9ef0cc86ea3124b446e3e46a/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0xaadba140ae5e4c8a9ef0cc86ea3124b446e3e46a",
+      "token_id": "9999",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(9998) [recent; totalSupply=9999]",
+      "metadata_location": "ipfs",
+      "metadata_uri": "ipfs://QmQYh4efWZb7QXF1XP4zkTKnhyeRamMpVGTR9z3YxnyKTo/9999.json",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "ipfs.filebase.io",
+          "url": "https://ipfs.filebase.io/ipfs/QmQYh4efWZb7QXF1XP4zkTKnhyeRamMpVGTR9z3YxnyKTo/9999.json",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 6,
+          "final_url": "https://ipfs.filebase.io/ipfs/QmQYh4efWZb7QXF1XP4zkTKnhyeRamMpVGTR9z3YxnyKTo/9999.json",
+          "content_type": "application/json",
+          "size": 275,
+          "content_length": 275,
+          "sha256": "81169b011cc0d4fdba90cee64d5f3a56825471008e4452d8f62fb50087996943",
+          "t": "2026-10-23T02:51:14Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "ipfs",
+          "host": null,
+          "gateway": null,
+          "uri": "ipfs://QmNNWLqXEWoxPfZefXW9Ecoph7SzW4YLJfqvSCzk6LahpC/9999.png",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "ipfs.filebase.io",
+              "url": "https://ipfs.filebase.io/ipfs/QmNNWLqXEWoxPfZefXW9Ecoph7SzW4YLJfqvSCzk6LahpC/9999.png",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 8,
+              "final_url": "https://ipfs.filebase.io/ipfs/QmNNWLqXEWoxPfZefXW9Ecoph7SzW4YLJfqvSCzk6LahpC/9999.png",
+              "content_type": "image/png",
+              "size": 65536,
+              "content_length": 1347510,
+              "sha256": "145c1bcd078969e4fa3601927f9eed81fca0095ddd87963dca6184aedf6a15cd",
+              "t": "2026-10-23T02:51:26Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "ipfs",
+        "anim_class": null,
+        "image_verdict": "alive",
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "ipfs"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "alive",
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd000000000000000000000000000000000000000000000000000000000000270f",
+          "endpoint": "https://eth.rpc.blxrbdn.com",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0xaadba140ae5e4c8a9ef0cc86ea3124b446e3e46a/evidence.jsonl.gz"
+    }
+  ],
+  "saved_packet_index": [
+    {
+      "path": "data/raw/top100-api/opensea-contract-0xaadba140ae5e4c8a9ef0cc86ea3124b446e3e46a-attempt1-1792724337677561183.body",
+      "sha256": "e7435fbb1c5ad5f3795889b78db8f659dff6d30c6b8b48d4369204d05b353f74",
+      "retrieved_at": "2026-10-23T02:58:57Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0xaadba140ae5e4c8a9ef0cc86ea3124b446e3e46a",
+      "method": "GET",
+      "status": 401,
+      "error": null,
+      "bytes": 70,
+      "truncated": false
+    },
+    {
+      "path": "data/raw/top100-api/opensea-contract-0xaadba140ae5e4c8a9ef0cc86ea3124b446e3e46a-attempt1-1792724764711730352.body",
+      "sha256": "97fca421c134aa82967f5b0dfa94c5a270a9665d54f0f379f38ac3e4dc7c192a",
+      "retrieved_at": "2026-10-23T03:06:04Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0xaadba140ae5e4c8a9ef0cc86ea3124b446e3e46a",
+      "method": "GET",
+      "status": 200,
+      "error": null,
+      "bytes": 176,
+      "truncated": false
+    },
+    {
+      "path": "data/raw/top100-api/opensea-contract-0xaadba140ae5e4c8a9ef0cc86ea3124b446e3e46a.json",
+      "sha256": "97fca421c134aa82967f5b0dfa94c5a270a9665d54f0f379f38ac3e4dc7c192a",
+      "retrieved_at": "2026-10-23T03:06:04Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0xaadba140ae5e4c8a9ef0cc86ea3124b446e3e46a",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "data/raw/top100-census/0xaadba140ae5e4c8a9ef0cc86ea3124b446e3e46a/bodies.zip",
+      "sha256": "9beae9bb6c68a52f583b8a30b13103abb937218d07fb7ae3010755a2017dfd05",
+      "bytes": 11340
+    },
+    {
+      "path": "data/raw/top100-census/0xaadba140ae5e4c8a9ef0cc86ea3124b446e3e46a/evidence.jsonl.gz",
+      "sha256": "a0fba32cdb2157db76993e78f861eef82d52bc73aa4fb7d9a7d344f7a42acc96",
+      "bytes": 1232
+    },
+    {
+      "path": "data/raw/top100-census/0xaadba140ae5e4c8a9ef0cc86ea3124b446e3e46a/result.json.gz",
+      "sha256": "ec82959ce6ddee1be8a5bdd94b3a0bec9368978ea23d3d375087e4d413aef1cf",
+      "bytes": 1844
+    },
+    {
+      "path": "data/raw/top100-mutability/0xaadba140ae5e4c8a9ef0cc86ea3124b446e3e46a.json",
+      "sha256": "1702e8d507701eec974c42930ddb4b1caaf9676d24bee980abcccdcab7bb9473",
+      "bytes": 12100
+    },
+    {
+      "path": "data/raw/top100-pointers/0xaadba140ae5e4c8a9ef0cc86ea3124b446e3e46a/bodies.zip",
+      "sha256": "55426dea7534b60a265c5c94e1793c31d3c0f00adfd057d4edc68900b58fad38",
+      "bytes": 262
+    },
+    {
+      "path": "data/raw/top100-pointers/0xaadba140ae5e4c8a9ef0cc86ea3124b446e3e46a/evidence.jsonl.gz",
+      "sha256": "410d1609c3dfe6af4610e1dd7f4c1b80a5f4a463ca0a3016cdd25f3b1582f6f2",
+      "bytes": 335
+    },
+    {
+      "path": "data/raw/top100-pointers/0xaadba140ae5e4c8a9ef0cc86ea3124b446e3e46a/result.json",
+      "sha256": "62d6138477cf350bf21d05606a5c69d9936d47333dac20434c529c95addb5cdc",
+      "bytes": 362
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0xaadba140ae5e4c8a9ef0cc86ea3124b446e3e46a/bodies.zip",
+      "sha256": "67bb21eab9075bef0ff6c5aa0aa12ffae9e3558343272cfeffd7419101f967c5",
+      "bytes": 628
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0xaadba140ae5e4c8a9ef0cc86ea3124b446e3e46a/evidence.jsonl.gz",
+      "sha256": "e6b8d5266be21a941eecbe8052d6b31615741cd867a8e4eefc63a0b0dc02889d",
+      "bytes": 687
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0xaadba140ae5e4c8a9ef0cc86ea3124b446e3e46a/result.json",
+      "sha256": "e218d11e6c9455be3900070ce58152d3cf7609cb9a674f372744e46744edeccb",
+      "bytes": 299
+    }
+  ],
+  "interpretation": "Liveness describes sampled metadata and primary-image delivery, not permanent loss of the artwork."
+}

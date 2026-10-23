@@ -1,0 +1,524 @@
+{
+  "collection": {
+    "rank": 83,
+    "source_rank": 88,
+    "name": "Metroverse City Block",
+    "contract": "0x0e9d6552b85be180d941f1ca73ae3e318d2d4f1f",
+    "contracts": [
+      "0x0e9d6552b85be180d941f1ca73ae3e318d2d4f1f"
+    ],
+    "slug": "metroverse-city-block",
+    "volume_usd": 67355635.34,
+    "volume_source": "CryptoSlam all-time Ethereum owner-to-owner sales, wash-filtered USD",
+    "source_url": "https://web-api.cryptoslam.io/v1/sales/rank-by-volume?timeRange=all&orderBy=rank&sortDirection=asc&offset=0&limit=100&blockchainId=0&hideInscriptions=false",
+    "ranking_evidence": "data/raw/top100-api/cryptoslam-ranking-0.json",
+    "identity_evidence": "data/raw/top100-api/cryptoslam-info-metroverse-city-block.json",
+    "token_count": 9977,
+    "all_time_volume": 67355635.34,
+    "volume_currency": "USD",
+    "kind": "virtual-land",
+    "metadata_location": "http",
+    "metadata_classes": [
+      "http"
+    ],
+    "media_location": "http",
+    "primary_image_location": "http",
+    "media_classes": [
+      "http"
+    ],
+    "liveness": "alive",
+    "liveness_exact": "alive",
+    "all_declared_media_liveness": "alive",
+    "metadata_failed": false,
+    "n_alive": 3,
+    "n_dead": 0,
+    "n_unknown": 0,
+    "n_degraded": 0,
+    "key_domain_or_gateway": "metroverse.com",
+    "hosts": [
+      "metroverse.com"
+    ],
+    "hardcoded_gateways": [],
+    "http_origin_dependency": true,
+    "uses_ipfs": false,
+    "uses_arweave": false,
+    "fully_onchain_all_declared_media": false,
+    "metadata_and_primary_image_onchain": false,
+    "mutability_class": "multisig-mutable",
+    "single_key_mutable": false,
+    "single_key_repointable": false,
+    "base_uri_or_renderer": "0x0e9d6552b85be180d941f1ca73ae3e318d2d4f1f.baseTokenURI() = https://metroverse.com/blocks/",
+    "control": [
+      {
+        "contract": "0x0e9d6552b85be180d941f1ca73ae3e318d2d4f1f",
+        "class": "multisig-mutable",
+        "pointer_power": "multisig",
+        "reason": "live setters (multisig): setBaseURI",
+        "owner": {
+          "addr": "0xc932d6a49d2d8b77b4075e537d142ee6cc1e416a",
+          "code_raw": "data/raw/rpc-mutability/0xc932d6a49d2d8b77b4075e537d142ee6cc1e416a_holdercode.json",
+          "code_len": 171,
+          "probe_raw": "data/raw/rpc-mutability/0xc932d6a49d2d8b77b4075e537d142ee6cc1e416a_holderprobe.json",
+          "type": "safe",
+          "threshold": 3,
+          "n_owners": 5,
+          "owners": [
+            "0x191541a00218dd0a00e707d4753b7b7c64980924",
+            "0x1eb106b79358da4886be448615c260208deb4cb9",
+            "0xdf85ba0e2529c7c280d7df6f7f2813c3a91b041a",
+            "0x4ef6ec4016e0666aa57ae999dbf608ce3368051f",
+            "0x164ebd995ec985aabca009329ff24a713eb31019"
+          ],
+          "version": "1.3.0",
+          "bs_name": "GnosisSafeProxy",
+          "ens": null,
+          "bs_impl_names": [
+            "GnosisSafe"
+          ],
+          "bs_tags": [],
+          "is_contract": true,
+          "creator": "0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2",
+          "is_verified": true,
+          "bs_reputation": "ok"
+        },
+        "proxy": {
+          "kind": null
+        },
+        "live_mutators": [
+          {
+            "name": "setBaseURI",
+            "sig": "setBaseURI(string)",
+            "category": "uri",
+            "power": "multisig",
+            "holders": [
+              {
+                "addr": "0xc932d6a49d2d8b77b4075e537d142ee6cc1e416a",
+                "type": "safe",
+                "threshold": 3,
+                "n_owners": 5,
+                "bs_name": "GnosisSafeProxy",
+                "ens": null,
+                "desc": "safe 3/5",
+                "simple": "multisig"
+              }
+            ],
+            "effective": "yes",
+            "reason": null
+          }
+        ],
+        "lock_flags": {},
+        "dependencies": [],
+        "pointer_getters": [
+          {
+            "getter": "baseTokenURI()",
+            "type": "string",
+            "ok": true,
+            "value": "https://metroverse.com/blocks/",
+            "error": null
+          }
+        ],
+        "analyzed_at": "2026-10-23T02:53:03Z",
+        "history_incomplete": false,
+        "evidence": "data/raw/top100-mutability/0x0e9d6552b85be180d941f1ca73ae3e318d2d4f1f.json"
+      }
+    ],
+    "samples": 3,
+    "distinct_token_ids": 3,
+    "sample_note": null,
+    "source_contracts_without_sampleable_nfts": [],
+    "ownership_scope_gaps": [],
+    "refreshed_at": "2026-10-23T03:05:04Z",
+    "opensea_rank": 100,
+    "ranking_scope_disagreement": false,
+    "metadata_adapter": false,
+    "evidence": [
+      "data/raw/top100-census/0x0e9d6552b85be180d941f1ca73ae3e318d2d4f1f/result.json.gz"
+    ],
+    "delivery_note": null
+  },
+  "samples": [
+    {
+      "contract": "0x0e9d6552b85be180d941f1ca73ae3e318d2d4f1f",
+      "token_id": "1",
+      "sample_unit": 1,
+      "how_found": "reused census: ownerOf-probe(0..15)/grid-min [low]",
+      "metadata_location": "http",
+      "metadata_uri": "https://metroverse.com/blocks/1",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "metroverse.com",
+          "url": "https://metroverse.com/blocks/1",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 5,
+          "final_url": "https://metroverse.com/blocks/1",
+          "content_type": "application/octet-stream",
+          "size": 26975,
+          "content_length": 26975,
+          "sha256": "4b0be37f3cc70e4f9f4a7d897d2641362c9a9ec0ec8808a7643431d3d5153567",
+          "t": "2026-10-23T02:51:04Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "http",
+          "host": "metroverse.com",
+          "gateway": null,
+          "uri": "https://metroverse.com/blocks/1.jpeg",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "metroverse.com",
+              "url": "https://metroverse.com/blocks/1.jpeg",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 8,
+              "final_url": "https://metroverse.com/blocks/1.jpeg",
+              "content_type": "image/jpeg",
+              "size": 65536,
+              "content_length": 776722,
+              "sha256": "218dcb380f61641c54c190e8492a93f4cb0c781deb702fe9c7be5dbeba7c3031",
+              "t": "2026-10-23T02:51:05Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "http",
+        "anim_class": null,
+        "image_verdict": "alive",
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "http"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "alive",
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000000001",
+          "endpoint": "https://eth.drpc.org",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 194,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x0e9d6552b85be180d941f1ca73ae3e318d2d4f1f/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0x0e9d6552b85be180d941f1ca73ae3e318d2d4f1f",
+      "token_id": "5000",
+      "sample_unit": 1,
+      "how_found": "reused census: ownerOf-probe(5000..+15) [mid]",
+      "metadata_location": "http",
+      "metadata_uri": "https://metroverse.com/blocks/5000",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "metroverse.com",
+          "url": "https://metroverse.com/blocks/5000",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 4,
+          "final_url": "https://metroverse.com/blocks/5000",
+          "content_type": "application/octet-stream",
+          "size": 25248,
+          "content_length": 25248,
+          "sha256": "0428cfaad3fe8305372d9fcb8ab8dbb47be8f9493df53c562a1907c2a22ef823",
+          "t": "2026-10-23T02:51:04Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "http",
+          "host": "metroverse.com",
+          "gateway": null,
+          "uri": "https://metroverse.com/blocks/5000.jpeg",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "metroverse.com",
+              "url": "https://metroverse.com/blocks/5000.jpeg",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 6,
+              "final_url": "https://metroverse.com/blocks/5000.jpeg",
+              "content_type": "image/jpeg",
+              "size": 65536,
+              "content_length": 806365,
+              "sha256": "d33031da7bbd5b8e27d51026c0d94b72377ba8dd24835a69cf3bf58c80355ac4",
+              "t": "2026-10-23T02:51:05Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "http",
+        "anim_class": null,
+        "image_verdict": "alive",
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "http"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "alive",
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000001388",
+          "endpoint": "https://eth.drpc.org",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x0e9d6552b85be180d941f1ca73ae3e318d2d4f1f/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0x0e9d6552b85be180d941f1ca73ae3e318d2d4f1f",
+      "token_id": "10000",
+      "sample_unit": 1,
+      "how_found": "reused census: ownerOf-probe(totalSupply=10000) [recent]",
+      "metadata_location": "http",
+      "metadata_uri": "https://metroverse.com/blocks/10000",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "metroverse.com",
+          "url": "https://metroverse.com/blocks/10000",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 7,
+          "final_url": "https://metroverse.com/blocks/10000",
+          "content_type": "application/octet-stream",
+          "size": 26473,
+          "content_length": 26473,
+          "sha256": "6f95823a60baff0bb2560badc9446ad17146ae5af3722cbdc6e0bcc57c5fc861",
+          "t": "2026-10-23T02:51:05Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "http",
+          "host": "metroverse.com",
+          "gateway": null,
+          "uri": "https://metroverse.com/blocks/10000.jpeg",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "metroverse.com",
+              "url": "https://metroverse.com/blocks/10000.jpeg",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 9,
+              "final_url": "https://metroverse.com/blocks/10000.jpeg",
+              "content_type": "image/jpeg",
+              "size": 65536,
+              "content_length": 762290,
+              "sha256": "17c2eaa7d42f10b956515d3fb1697750e7fcc12cfb713459c814674a09d8586e",
+              "t": "2026-10-23T02:51:05Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "http",
+        "anim_class": null,
+        "image_verdict": "alive",
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "http"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "alive",
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000002710",
+          "endpoint": "https://eth.drpc.org",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x0e9d6552b85be180d941f1ca73ae3e318d2d4f1f/evidence.jsonl.gz"
+    }
+  ],
+  "saved_packet_index": [
+    {
+      "path": "data/raw/top100-api/opensea-contract-0x0e9d6552b85be180d941f1ca73ae3e318d2d4f1f-attempt1-1792724332161889517.body",
+      "sha256": "e7435fbb1c5ad5f3795889b78db8f659dff6d30c6b8b48d4369204d05b353f74",
+      "retrieved_at": "2026-10-23T02:58:52Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0x0e9d6552b85be180d941f1ca73ae3e318d2d4f1f",
+      "method": "GET",
+      "status": 401,
+      "error": null,
+      "bytes": 70,
+      "truncated": false
+    },
+    {
+      "path": "data/raw/top100-api/opensea-contract-0x0e9d6552b85be180d941f1ca73ae3e318d2d4f1f-attempt1-1792724758187310250.body",
+      "sha256": "4453a1c928a934466b6218abdecfa45ccc0e8d3d8488461fa1ff00ae0aafaf55",
+      "retrieved_at": "2026-10-23T03:05:58Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0x0e9d6552b85be180d941f1ca73ae3e318d2d4f1f",
+      "method": "GET",
+      "status": 200,
+      "error": null,
+      "bytes": 192,
+      "truncated": false
+    },
+    {
+      "path": "data/raw/top100-api/opensea-contract-0x0e9d6552b85be180d941f1ca73ae3e318d2d4f1f.json",
+      "sha256": "4453a1c928a934466b6218abdecfa45ccc0e8d3d8488461fa1ff00ae0aafaf55",
+      "retrieved_at": "2026-10-23T03:05:58Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0x0e9d6552b85be180d941f1ca73ae3e318d2d4f1f",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "data/raw/top100-census/0x0e9d6552b85be180d941f1ca73ae3e318d2d4f1f/bodies.zip",
+      "sha256": "657583cdd144ef19a73cfa1d1a482b5b1a785b63444da890f5fd8ae160aecf4b",
+      "bytes": 19816
+    },
+    {
+      "path": "data/raw/top100-census/0x0e9d6552b85be180d941f1ca73ae3e318d2d4f1f/evidence.jsonl.gz",
+      "sha256": "41f31de96f409fced89ce10772bd8d5f52d5667acc162ad0b6217f26d78c6d44",
+      "bytes": 1097
+    },
+    {
+      "path": "data/raw/top100-census/0x0e9d6552b85be180d941f1ca73ae3e318d2d4f1f/result.json.gz",
+      "sha256": "4c686ae7195b893ea5420b680ba4ed0e96d8a520382b047afe578fb9b1e159da",
+      "bytes": 1665
+    },
+    {
+      "path": "data/raw/top100-mutability/0x0e9d6552b85be180d941f1ca73ae3e318d2d4f1f.json",
+      "sha256": "a90ea4e31a0e598f7a9c420e62e2fb5d254a5413f1f1750e509f58d53979a895",
+      "bytes": 19412
+    },
+    {
+      "path": "data/raw/top100-pointers/0x0e9d6552b85be180d941f1ca73ae3e318d2d4f1f/bodies.zip",
+      "sha256": "77eebe5aed11b1127ffb88cc150f52cf3e44702e5355dc327e4679648fee15af",
+      "bytes": 244
+    },
+    {
+      "path": "data/raw/top100-pointers/0x0e9d6552b85be180d941f1ca73ae3e318d2d4f1f/evidence.jsonl.gz",
+      "sha256": "e3f54b4e9d08e33d6b4801009947c037652fd20fe93a93cbc54f90f60d0a1288",
+      "bytes": 342
+    },
+    {
+      "path": "data/raw/top100-pointers/0x0e9d6552b85be180d941f1ca73ae3e318d2d4f1f/result.json",
+      "sha256": "47e60845747c66ffc8e47a02451781a789ece8dc6ad66b072f579099317de459",
+      "bytes": 343
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x0e9d6552b85be180d941f1ca73ae3e318d2d4f1f/bodies.zip",
+      "sha256": "e35017aabb6f39645882638cc8411fca741c94c860a0bb1f605bcf8a88cba258",
+      "bytes": 636
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x0e9d6552b85be180d941f1ca73ae3e318d2d4f1f/evidence.jsonl.gz",
+      "sha256": "20994e8642a808d7f949ab2fb4f90b2930bdec999b23beaba75392e72dd54727",
+      "bytes": 690
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x0e9d6552b85be180d941f1ca73ae3e318d2d4f1f/result.json",
+      "sha256": "a7bd6fd3bfa3f8f6528d87f3aefaba9615e587e75d9d8a06988b11bb39c2380a",
+      "bytes": 300
+    }
+  ],
+  "interpretation": "Liveness describes sampled metadata and primary-image delivery, not permanent loss of the artwork."
+}

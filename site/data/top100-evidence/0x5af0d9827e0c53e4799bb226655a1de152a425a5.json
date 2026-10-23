@@ -1,0 +1,517 @@
+{
+  "collection": {
+    "rank": 24,
+    "source_rank": 24,
+    "name": "Milady Maker",
+    "contract": "0x5af0d9827e0c53e4799bb226655a1de152a425a5",
+    "contracts": [
+      "0x5af0d9827e0c53e4799bb226655a1de152a425a5"
+    ],
+    "slug": "milady",
+    "volume_usd": 229220917.59,
+    "volume_source": "CryptoSlam all-time Ethereum owner-to-owner sales, wash-filtered USD",
+    "source_url": "https://web-api.cryptoslam.io/v1/sales/rank-by-volume?timeRange=all&orderBy=rank&sortDirection=asc&offset=0&limit=100&blockchainId=0&hideInscriptions=false",
+    "ranking_evidence": "data/raw/top100-api/cryptoslam-ranking-0.json",
+    "identity_evidence": "data/raw/top100-api/cryptoslam-info-milady.json",
+    "token_count": 10000,
+    "all_time_volume": 229220917.59,
+    "volume_currency": "USD",
+    "kind": "art-avatar",
+    "metadata_location": "http",
+    "metadata_classes": [
+      "http"
+    ],
+    "media_location": "mixed(http,ipfs)",
+    "primary_image_location": "mixed(http,ipfs)",
+    "media_classes": [
+      "http",
+      "ipfs"
+    ],
+    "liveness": "alive",
+    "liveness_exact": "alive",
+    "all_declared_media_liveness": "alive",
+    "metadata_failed": false,
+    "n_alive": 3,
+    "n_dead": 0,
+    "n_unknown": 0,
+    "n_degraded": 0,
+    "key_domain_or_gateway": "miladymaker.net; www.miladymaker.net",
+    "hosts": [
+      "miladymaker.net",
+      "www.miladymaker.net"
+    ],
+    "hardcoded_gateways": [],
+    "http_origin_dependency": true,
+    "uses_ipfs": true,
+    "uses_arweave": false,
+    "fully_onchain_all_declared_media": false,
+    "metadata_and_primary_image_onchain": false,
+    "mutability_class": "eoa-mutable",
+    "single_key_mutable": true,
+    "single_key_repointable": true,
+    "base_uri_or_renderer": "0x5af0d9827e0c53e4799bb226655a1de152a425a5.baseURI() = https://www.miladymaker.net/milady/json/",
+    "control": [
+      {
+        "contract": "0x5af0d9827e0c53e4799bb226655a1de152a425a5",
+        "class": "eoa-mutable",
+        "pointer_power": "eoa",
+        "reason": "live setters (eoa): setBaseURI",
+        "owner": {
+          "addr": "0x54f8e4e9842c93ef0e8f5a83374db0c521d728cb",
+          "code_raw": "data/raw/rpc-mutability/0x54f8e4e9842c93ef0e8f5a83374db0c521d728cb_holdercode.json",
+          "type": "eoa",
+          "bs_name": null,
+          "ens": null,
+          "bs_impl_names": [],
+          "bs_tags": [],
+          "is_contract": false,
+          "creator": null,
+          "is_verified": false,
+          "bs_reputation": "ok"
+        },
+        "proxy": {
+          "kind": null
+        },
+        "live_mutators": [
+          {
+            "name": "setBaseURI",
+            "sig": "setBaseURI(string)",
+            "category": "uri",
+            "power": "eoa",
+            "holders": [
+              {
+                "addr": "0x54f8e4e9842c93ef0e8f5a83374db0c521d728cb",
+                "type": "eoa",
+                "bs_name": null,
+                "ens": null,
+                "desc": "eoa",
+                "simple": "eoa"
+              }
+            ],
+            "effective": "unknown",
+            "reason": null
+          }
+        ],
+        "lock_flags": {},
+        "dependencies": [],
+        "pointer_getters": [
+          {
+            "getter": "baseURI()",
+            "type": "string",
+            "ok": true,
+            "value": "https://www.miladymaker.net/milady/json/",
+            "error": null
+          }
+        ],
+        "analyzed_at": "2026-10-23T02:51:05Z",
+        "history_incomplete": false,
+        "evidence": "data/raw/top100-mutability/0x5af0d9827e0c53e4799bb226655a1de152a425a5.json"
+      }
+    ],
+    "samples": 3,
+    "distinct_token_ids": 3,
+    "sample_note": null,
+    "source_contracts_without_sampleable_nfts": [],
+    "ownership_scope_gaps": [],
+    "refreshed_at": "2026-10-23T03:05:02Z",
+    "opensea_rank": 13,
+    "ranking_scope_disagreement": false,
+    "metadata_adapter": false,
+    "evidence": [
+      "data/raw/top100-census/0x5af0d9827e0c53e4799bb226655a1de152a425a5/result.json.gz"
+    ],
+    "delivery_note": null
+  },
+  "samples": [
+    {
+      "contract": "0x5af0d9827e0c53e4799bb226655a1de152a425a5",
+      "token_id": "0",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(0) [low; totalSupply=10000]",
+      "metadata_location": "http",
+      "metadata_uri": "https://www.miladymaker.net/milady/json/0",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "www.miladymaker.net",
+          "url": "https://www.miladymaker.net/milady/json/0",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 2,
+          "final_url": "https://www.miladymaker.net/milady/json/0",
+          "content_type": "application/octet-stream",
+          "size": 873,
+          "content_length": 873,
+          "sha256": "a78a533482a291d6e217aa3cd7fd73d041132a3bc9341bb26d47a7551679dc25",
+          "t": "2026-10-23T02:50:24Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "http",
+          "host": "www.miladymaker.net",
+          "gateway": null,
+          "uri": "https://www.miladymaker.net/milady/0.png",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "www.miladymaker.net",
+              "url": "https://www.miladymaker.net/milady/0.png",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 4,
+              "final_url": "https://www.miladymaker.net/milady/0.png",
+              "content_type": "image/png",
+              "size": 65536,
+              "content_length": 1302699,
+              "sha256": "b2b3829213296fa46b404fbe68452832590a918404abde3862f29cf1d934c7e8",
+              "t": "2026-10-23T02:50:24Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "http",
+        "anim_class": null,
+        "image_verdict": "alive",
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "http"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "alive",
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000000000",
+          "endpoint": "https://eth.rpc.blxrbdn.com",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x5af0d9827e0c53e4799bb226655a1de152a425a5/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0x5af0d9827e0c53e4799bb226655a1de152a425a5",
+      "token_id": "5000",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(5000) [mid; totalSupply=10000]",
+      "metadata_location": "http",
+      "metadata_uri": "https://www.miladymaker.net/milady/json/5000",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "www.miladymaker.net",
+          "url": "https://www.miladymaker.net/milady/json/5000",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 6,
+          "final_url": "https://www.miladymaker.net/milady/json/5000",
+          "content_type": "application/octet-stream",
+          "size": 1103,
+          "content_length": 1103,
+          "sha256": "03e9d47d50730fab235101ce5d6d901c4135353bd0e20faf877f8fea00a6066c",
+          "t": "2026-10-23T02:50:24Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "http",
+          "host": "miladymaker.net",
+          "gateway": null,
+          "uri": "https://miladymaker.net/milady/5000.png",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "miladymaker.net",
+              "url": "https://miladymaker.net/milady/5000.png",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 8,
+              "final_url": "https://miladymaker.net/milady/5000.png",
+              "content_type": "image/png",
+              "size": 65536,
+              "content_length": 1451694,
+              "sha256": "35a8a7f202cebb4ce66417595a7697fa9d70da1aeed24ae82e957248e3de86a8",
+              "t": "2026-10-23T02:50:25Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "http",
+        "anim_class": null,
+        "image_verdict": "alive",
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "http"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "alive",
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000001388",
+          "endpoint": "https://eth.rpc.blxrbdn.com",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x5af0d9827e0c53e4799bb226655a1de152a425a5/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0x5af0d9827e0c53e4799bb226655a1de152a425a5",
+      "token_id": "9999",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(9999) [recent; totalSupply=10000]",
+      "metadata_location": "http",
+      "metadata_uri": "https://www.miladymaker.net/milady/json/9999",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "www.miladymaker.net",
+          "url": "https://www.miladymaker.net/milady/json/9999",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 7,
+          "final_url": "https://www.miladymaker.net/milady/json/9999",
+          "content_type": "application/octet-stream",
+          "size": 1130,
+          "content_length": 1130,
+          "sha256": "f0a8f5d6c7402b75c545d6df8c7d144cf3abd22aa3a6e55085dc8d37a81bc8bd",
+          "t": "2026-10-23T02:50:24Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "ipfs",
+          "host": null,
+          "gateway": null,
+          "uri": "ipfs://QmQbtTgNqLbcLTJDeP79L9jRsZGizWn8wkZYFwpbyDq7ao/9999.png",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "ipfs.raribleuserdata.com",
+              "url": "https://ipfs.raribleuserdata.com/ipfs/QmQbtTgNqLbcLTJDeP79L9jRsZGizWn8wkZYFwpbyDq7ao/9999.png",
+              "status": null,
+              "error_kind": "timeout",
+              "v": "unknown",
+              "reason": "timeout",
+              "seq": 9,
+              "final_url": "https://ipfs.raribleuserdata.com/ipfs/QmQbtTgNqLbcLTJDeP79L9jRsZGizWn8wkZYFwpbyDq7ao/9999.png",
+              "content_type": null,
+              "size": 0,
+              "content_length": null,
+              "sha256": null,
+              "t": "2026-10-23T02:50:25Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            },
+            {
+              "pass": 1,
+              "gateway": "magic.decentralized-content.com",
+              "url": "https://magic.decentralized-content.com/ipfs/QmQbtTgNqLbcLTJDeP79L9jRsZGizWn8wkZYFwpbyDq7ao/9999.png",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 10,
+              "final_url": "https://magic.decentralized-content.com/ipfs/QmQbtTgNqLbcLTJDeP79L9jRsZGizWn8wkZYFwpbyDq7ao/9999.png",
+              "content_type": "image/png",
+              "size": 65536,
+              "content_length": 1327383,
+              "sha256": "a93b4ac2942b1d6e754bfa81675819879fb39147f7724b650687034e887135f2",
+              "t": "2026-10-23T02:50:40Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "ipfs",
+        "anim_class": null,
+        "image_verdict": "alive",
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "ipfs"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "alive",
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd000000000000000000000000000000000000000000000000000000000000270f",
+          "endpoint": "https://eth.rpc.blxrbdn.com",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x5af0d9827e0c53e4799bb226655a1de152a425a5/evidence.jsonl.gz"
+    }
+  ],
+  "saved_packet_index": [
+    {
+      "path": "data/raw/top100-api/opensea-contract-0x5af0d9827e0c53e4799bb226655a1de152a425a5-attempt1-1792724286118942338.body",
+      "sha256": "d22188aa6b86bc98b15446581a27663d5fe9c36bbae19eb9a2a1d069362d04d0",
+      "retrieved_at": "2026-10-23T02:58:06Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0x5af0d9827e0c53e4799bb226655a1de152a425a5",
+      "method": "GET",
+      "status": 200,
+      "error": null,
+      "bytes": 174,
+      "truncated": false
+    },
+    {
+      "path": "data/raw/top100-api/opensea-contract-0x5af0d9827e0c53e4799bb226655a1de152a425a5.json",
+      "sha256": "d22188aa6b86bc98b15446581a27663d5fe9c36bbae19eb9a2a1d069362d04d0",
+      "retrieved_at": "2026-10-23T02:58:06Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0x5af0d9827e0c53e4799bb226655a1de152a425a5",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "data/raw/top100-census/0x5af0d9827e0c53e4799bb226655a1de152a425a5/bodies.zip",
+      "sha256": "c9b37f1ef98be6f06f5868cada7e8fc676c712b07816cef68928c34d8956d8fe",
+      "bytes": 14855
+    },
+    {
+      "path": "data/raw/top100-census/0x5af0d9827e0c53e4799bb226655a1de152a425a5/evidence.jsonl.gz",
+      "sha256": "9be4772ba27de6c8ded9e7b582630c01e6c197a17420b1980292b99aa1f7871b",
+      "bytes": 1283
+    },
+    {
+      "path": "data/raw/top100-census/0x5af0d9827e0c53e4799bb226655a1de152a425a5/result.json.gz",
+      "sha256": "17d8ff180dc5921a51db3c3541d7d8a127c3d317e4b98b799170abc4effcb142",
+      "bytes": 1866
+    },
+    {
+      "path": "data/raw/top100-mutability/0x5af0d9827e0c53e4799bb226655a1de152a425a5.json",
+      "sha256": "c7f9f6067add84bd8f997c00b507c71923e5661b363af7b005399d4f2686af9a",
+      "bytes": 12140
+    },
+    {
+      "path": "data/raw/top100-pointers/0x5af0d9827e0c53e4799bb226655a1de152a425a5/bodies.zip",
+      "sha256": "bb819cc63f2ae21ec399385a8c2d976d713b2c4c61f2f7a500e80a7f81b2126a",
+      "bytes": 246
+    },
+    {
+      "path": "data/raw/top100-pointers/0x5af0d9827e0c53e4799bb226655a1de152a425a5/evidence.jsonl.gz",
+      "sha256": "2ea2f8b2912e038ce76b3581352a99830b6ea012f3beaadba43b42583056bb9b",
+      "bytes": 342
+    },
+    {
+      "path": "data/raw/top100-pointers/0x5af0d9827e0c53e4799bb226655a1de152a425a5/result.json",
+      "sha256": "2efb1b4364b83707cc6c3c2ad3c43c899e6eac4bd0d7c5b60c16130e7aa28e9f",
+      "bytes": 348
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x5af0d9827e0c53e4799bb226655a1de152a425a5/bodies.zip",
+      "sha256": "37030cdd7c0d8e687a46a38e14576b6c158be4784692bf8d5cd8aa457b148235",
+      "bytes": 634
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x5af0d9827e0c53e4799bb226655a1de152a425a5/evidence.jsonl.gz",
+      "sha256": "4c934c9907b555ef8d31fbedfdca9026dd44de3e5668fded0153a1dff64b711d",
+      "bytes": 696
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x5af0d9827e0c53e4799bb226655a1de152a425a5/result.json",
+      "sha256": "ec64313acce00418ae22d63ef3a295438dac291859953bcf4ad9e721fb81c857",
+      "bytes": 299
+    }
+  ],
+  "interpretation": "Liveness describes sampled metadata and primary-image delivery, not permanent loss of the artwork."
+}

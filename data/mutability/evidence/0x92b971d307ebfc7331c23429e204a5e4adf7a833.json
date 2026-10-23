@@ -1,0 +1,393 @@
+{
+ "address": "0x92b971d307ebfc7331c23429e204a5e4adf7a833",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:07Z",
+ "code_raw": "data/raw/rpc-mutability/0x92b971d307ebfc7331c23429e204a5e4adf7a833_code.json",
+ "code_len": 9939,
+ "slots": {
+  "slot0": "0x436c756220506f6f6c7900000000000000000000000000000000000000000014"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0x92b971d307ebfc7331c23429e204a5e4adf7a833_slots.json",
+ "verified": true,
+ "contract_name": "PoolyClub",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [
+   {
+    "hash": "0x8cb9d052f3703e403c55b710e76421a827cc30fb22b4f575ec0712cda253d61f",
+    "timestamp": "2022-07-05T16:31:55.000000Z",
+    "method": "setTierAnimationIpfsUri",
+    "from": "0x5E6CC2397EcB33e6041C15360E17c777555A5E63",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15083605,
+    "category": "uri"
+   },
+   {
+    "hash": "0xb3b274d5b1b9ce1477396ebc719d43381a284b5ccf134e41322bdd4f6e22894c",
+    "timestamp": "2022-07-05T16:31:13.000000Z",
+    "method": "setTierAnimationIpfsUri",
+    "from": "0x5E6CC2397EcB33e6041C15360E17c777555A5E63",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15083603,
+    "category": "uri"
+   },
+   {
+    "hash": "0x3bfe87068d24511f092f8ccab9c6614b4f373ef1863ee339c2841778617dfbe8",
+    "timestamp": "2022-07-05T16:30:56.000000Z",
+    "method": "setTierAnimationIpfsUri",
+    "from": "0x5E6CC2397EcB33e6041C15360E17c777555A5E63",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15083601,
+    "category": "uri"
+   },
+   {
+    "hash": "0x93d1e0b590cdbaa6abfd9c1bfd5a52d5f29d86e224f2f27205f1f43f04b8f7c7",
+    "timestamp": "2022-07-05T16:30:56.000000Z",
+    "method": "setTierImageIpfsUri",
+    "from": "0x5E6CC2397EcB33e6041C15360E17c777555A5E63",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15083601,
+    "category": "uri"
+   },
+   {
+    "hash": "0x8b2aac9ab9a81db2b5e83848142c734a4ec9cfa76fd9c5c251670e4cd88bbab5",
+    "timestamp": "2022-07-05T16:30:56.000000Z",
+    "method": "setTierImageIpfsUri",
+    "from": "0x5E6CC2397EcB33e6041C15360E17c777555A5E63",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15083601,
+    "category": "uri"
+   },
+   {
+    "hash": "0x5ee6eca7e6cf941ef9309404513bb44ac1fedce245d11eb50e66999c5a3fa3ee",
+    "timestamp": "2022-07-05T16:29:56.000000Z",
+    "method": "setTierImageIpfsUri",
+    "from": "0x5E6CC2397EcB33e6041C15360E17c777555A5E63",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15083598,
+    "category": "uri"
+   }
+  ],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 1,
+    "first": "2022-07-03",
+    "last": "2022-07-03",
+    "last_tx": "0x21c6ff8ddab9cb03c474e25137b501010e09f1f7b0b3156cf3389023373ea8e9",
+    "list": [
+     {
+      "date": "2022-07-03",
+      "tx": "0x21c6ff8ddab9cb03c474e25137b501010e09f1f7b0b3156cf3389023373ea8e9",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "5e6cc2397ecb33e6041c15360e17c777555a5e63"
+      ],
+      "data": "0x"
+     }
+    ]
+   }
+  },
+  "decoded": [
+   {
+    "hash": "0x5ee6eca7e6cf941ef9309404513bb44ac1fedce245d11eb50e66999c5a3fa3ee",
+    "timestamp": "2022-07-05T16:29:56.000000Z",
+    "method": "setTierImageIpfsUri",
+    "category": "uri",
+    "from": "0x5E6CC2397EcB33e6041C15360E17c777555A5E63",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "uint8",
+      "value": "0"
+     },
+     {
+      "name": "arg1",
+      "type": "string",
+      "value": "ipfs://bafybeig3rw4r4wrom2544s3pp42e2bzf5hwgcx77jwlvoguvkboamgcwwa"
+     }
+    ],
+    "value_kinds": [
+     "ipfs"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0x3bfe87068d24511f092f8ccab9c6614b4f373ef1863ee339c2841778617dfbe8",
+    "timestamp": "2022-07-05T16:30:56.000000Z",
+    "method": "setTierAnimationIpfsUri",
+    "category": "uri",
+    "from": "0x5E6CC2397EcB33e6041C15360E17c777555A5E63",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "uint8",
+      "value": "0"
+     },
+     {
+      "name": "arg1",
+      "type": "string",
+      "value": "ipfs://bafybeiffqiajegriqcxnrk3tbrfu66rz2fn7ssjq2ggpgeogio7gasqnbq"
+     }
+    ],
+    "value_kinds": [
+     "ipfs"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0x93d1e0b590cdbaa6abfd9c1bfd5a52d5f29d86e224f2f27205f1f43f04b8f7c7",
+    "timestamp": "2022-07-05T16:30:56.000000Z",
+    "method": "setTierImageIpfsUri",
+    "category": "uri",
+    "from": "0x5E6CC2397EcB33e6041C15360E17c777555A5E63",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "uint8",
+      "value": "2"
+     },
+     {
+      "name": "arg1",
+      "type": "string",
+      "value": "ipfs://bafybeie2azmzix4zegdhmrurm6vgwzfna4smc42w5kdvfpgizfe5ljszpi"
+     }
+    ],
+    "value_kinds": [
+     "ipfs"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0x8b2aac9ab9a81db2b5e83848142c734a4ec9cfa76fd9c5c251670e4cd88bbab5",
+    "timestamp": "2022-07-05T16:30:56.000000Z",
+    "method": "setTierImageIpfsUri",
+    "category": "uri",
+    "from": "0x5E6CC2397EcB33e6041C15360E17c777555A5E63",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "uint8",
+      "value": "1"
+     },
+     {
+      "name": "arg1",
+      "type": "string",
+      "value": "ipfs://bafybeidmst43g5otq2p4qaxhrlfzgupjlqul6cj7newz5f7ec477hjj5bu"
+     }
+    ],
+    "value_kinds": [
+     "ipfs"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0xb3b274d5b1b9ce1477396ebc719d43381a284b5ccf134e41322bdd4f6e22894c",
+    "timestamp": "2022-07-05T16:31:13.000000Z",
+    "method": "setTierAnimationIpfsUri",
+    "category": "uri",
+    "from": "0x5E6CC2397EcB33e6041C15360E17c777555A5E63",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "uint8",
+      "value": "1"
+     },
+     {
+      "name": "arg1",
+      "type": "string",
+      "value": "ipfs://bafybeicbcbb22iqe3ej5y7632dxz3gor3hqkzpdxi3hb2dxthtoxh6azzi"
+     }
+    ],
+    "value_kinds": [
+     "ipfs"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0x8cb9d052f3703e403c55b710e76421a827cc30fb22b4f575ec0712cda253d61f",
+    "timestamp": "2022-07-05T16:31:55.000000Z",
+    "method": "setTierAnimationIpfsUri",
+    "category": "uri",
+    "from": "0x5E6CC2397EcB33e6041C15360E17c777555A5E63",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "uint8",
+      "value": "2"
+     },
+     {
+      "name": "arg1",
+      "type": "string",
+      "value": "ipfs://bafybeighusitakdsfjsc2kd4zwzp3gzvfszab2jtcxoerwnswsqcxjrzyi"
+     }
+    ],
+    "value_kinds": [
+     "ipfs"
+    ],
+    "error": null
+   }
+  ],
+  "ownership_transfers": [
+   {
+    "date": "2022-07-03",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0x5e6cc2397ecb33e6041c15360e17c777555a5e63",
+    "tx": "0x21c6ff8ddab9cb03c474e25137b501010e09f1f7b0b3156cf3389023373ea8e9"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0x92b971d307ebfc7331c23429e204a5e4adf7a833_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0x5e6cc2397ecb33e6041c15360e17c777555a5e63",
+  "code_raw": "data/raw/rpc-mutability/0x5e6cc2397ecb33e6041c15360e17c777555a5e63_holdercode.json",
+  "type": "eoa",
+  "bs_name": null,
+  "ens": null,
+  "bs_impl_names": [],
+  "bs_tags": [],
+  "is_contract": false,
+  "creator": null,
+  "is_verified": false,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "override",
+ "lock_functions": [],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [
+  {
+   "name": "setTierAnimationIpfsUri",
+   "sig": "setTierAnimationIpfsUri(uint8,string)",
+   "selector": "0xfd1180fc",
+   "category": "uri",
+   "inputs": [
+    "uint8",
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "_setTierAnimationIpfsUri(_tier, _ipfsUri);",
+   "writes": [],
+   "effective": "unknown",
+   "power": "eoa",
+   "holder_addrs": [
+    "0x5e6cc2397ecb33e6041c15360e17c777555a5e63"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x5e6cc2397ecb33e6041c15360e17c777555a5e63",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "setTierImageIpfsUri",
+   "sig": "setTierImageIpfsUri(uint8,string)",
+   "selector": "0x5e3afeb8",
+   "category": "uri",
+   "inputs": [
+    "uint8",
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "_setTierImageIpfsUri(_tier, _ipfsUri);",
+   "writes": [],
+   "effective": "unknown",
+   "power": "eoa",
+   "holder_addrs": [
+    "0x5e6cc2397ecb33e6041c15360e17c777555a5e63"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x5e6cc2397ecb33e6041c15360e17c777555a5e63",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  }
+ ],
+ "class_direct": "eoa-mutable",
+ "class_reason": "live setters (eoa): setTierAnimationIpfsUri,setTierImageIpfsUri",
+ "live_mutators": [
+  "setTierAnimationIpfsUri",
+  "setTierImageIpfsUri"
+ ],
+ "dependencies": [],
+ "meta": {
+  "address": "0x92b971d307ebfc7331c23429e204a5e4adf7a833",
+  "name": "Club Pooly",
+  "w5_claim_strength": null,
+  "w5_claim_text": null,
+  "w5_source_type": null,
+  "w5_source_url": null,
+  "holders_count": 6078.0,
+  "in_w5": false,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": "onchain-renderer",
+  "census_media_class": "ipfs",
+  "census_liveness": "alive",
+  "in_census_onchain": true,
+  "standard": "ERC-721",
+  "creator": "0x5e6cc2397ecb33e6041c15360e17c777555a5e63",
+  "deploy_block": 15072336.0
+ },
+ "class_deps_all": "none",
+ "class_deps": "none",
+ "class_final": "eoa-mutable",
+ "pointer_power": "eoa"
+}

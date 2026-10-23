@@ -1,0 +1,2534 @@
+{
+ "address": "0x387c41b0b2f1128de44db1bcf8baad085f26392c",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:00Z",
+ "code_raw": "data/raw/rpc-mutability/0x387c41b0b2f1128de44db1bcf8baad085f26392c_code.json",
+ "code_len": 16825,
+ "slots": {
+  "slot0": "0x4172676f6e617574730000000000000000000000000000000000000000000012"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0x387c41b0b2f1128de44db1bcf8baad085f26392c_slots.json",
+ "verified": true,
+ "contract_name": "Argonauts",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [
+   {
+    "hash": "0x40a24a37f6ce401321dea8c59ff8081d19a56b8fff188fb1511c3641ef57dcf7",
+    "timestamp": "2026-10-21T15:24:47.000000Z",
+    "method": "setRenderer",
+    "from": "0xf16E1176d95B35E1e5E425a51d7f231Ac352A859",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 26241854,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xd6da3d9ad7499bd29b326eae2ead759b40a804ed5e27704375ab7c01b9ec3557",
+    "timestamp": "2026-10-14T02:06:11.000000Z",
+    "method": "setRenderer",
+    "from": "0xf16E1176d95B35E1e5E425a51d7f231Ac352A859",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 26187641,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x672e3b1748f94629322729e2dc8e2aafb31bb2bc1f57c96ab2c61952b1496a96",
+    "timestamp": "2026-10-07T20:59:59.000000Z",
+    "method": "setRenderer",
+    "from": "0xf16E1176d95B35E1e5E425a51d7f231Ac352A859",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 26143058,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x5570a737834f570414ee7013be8594d28e2d8994a05c1a9a05ed2756f13f34e9",
+    "timestamp": "2026-10-05T17:01:59.000000Z",
+    "method": "setRenderer",
+    "from": "0xf16E1176d95B35E1e5E425a51d7f231Ac352A859",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 26127529,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x29faea5a7c6d85d9533220da609346950b8088df6dcde59824bb0f70c08680f3",
+    "timestamp": "2026-10-02T17:13:11.000000Z",
+    "method": "setRenderer",
+    "from": "0xf16E1176d95B35E1e5E425a51d7f231Ac352A859",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 26106055,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xd10b8f61170b74eca2cc065c5df04f4c85ef6a0dcc9c730203d8d41e8154f1fe",
+    "timestamp": "2026-10-02T00:19:23.000000Z",
+    "method": "setRenderer",
+    "from": "0xf16E1176d95B35E1e5E425a51d7f231Ac352A859",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 26101009,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xe8b9bedd6527f2a86680b795fede4a3d75227c9e4c7cfdd172d241c6fc169e37",
+    "timestamp": "2026-09-25T16:19:59.000000Z",
+    "method": "setRenderer",
+    "from": "0xf16E1176d95B35E1e5E425a51d7f231Ac352A859",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 26055616,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xed48f675d3c80f8e8f92ea7004c4a7f58922fc0001dedce60b3bd1a99f34fc44",
+    "timestamp": "2026-09-25T04:37:47.000000Z",
+    "method": "setRenderer",
+    "from": "0xf16E1176d95B35E1e5E425a51d7f231Ac352A859",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 26052126,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x788ffdebb41352a7cfa369d9bc55c732bd6634020448df8a8a21671aa778bbae",
+    "timestamp": "2026-09-07T17:52:47.000000Z",
+    "method": "setRenderer",
+    "from": "0xf16E1176d95B35E1e5E425a51d7f231Ac352A859",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25927091,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x72edac36c8707b3ec5f11f028b5ba84fcb86462ee399f1685e299a45c30e54ce",
+    "timestamp": "2026-09-03T20:44:35.000000Z",
+    "method": "setRenderer",
+    "from": "0xf16E1176d95B35E1e5E425a51d7f231Ac352A859",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25899253,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x685b1d30c1ba67ad68ffda6b90528a19e2e052b1b5e626c39535dac0731ee28f",
+    "timestamp": "2026-08-31T20:07:59.000000Z",
+    "method": "setRenderer",
+    "from": "0xf16E1176d95B35E1e5E425a51d7f231Ac352A859",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25877548,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xfd6187b4207748bf0df03961fefc029f143f630144775d37c1156f4e156c133c",
+    "timestamp": "2026-08-26T17:51:23.000000Z",
+    "method": "finalize",
+    "from": "0x7c229B24E15b90eD3beab4730414fdda7cdF47b0",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25840996,
+    "category": "lock"
+   },
+   {
+    "hash": "0x4cea640cfac4f49802e2dbf3b523d771852456021c269ef7deda905f6f53a43c",
+    "timestamp": "2026-08-26T17:39:47.000000Z",
+    "method": "finalize",
+    "from": "0x18DB005428492F8Bc154c50ad0A4Bd23DE2750fF",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25840938,
+    "category": "lock"
+   },
+   {
+    "hash": "0x06e17ce6348cfde9bd6a4a1aa574b6401be492ac214e002018059da1750ee5a5",
+    "timestamp": "2026-08-26T15:26:59.000000Z",
+    "method": "finalize",
+    "from": "0x8de5501ae76a3583EB3e5E429f064761566512Be",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25840278,
+    "category": "lock"
+   },
+   {
+    "hash": "0x320a44d0ed0be961549bfbd1977791a2bcc81c310eeade383a605e65a6428d1b",
+    "timestamp": "2026-08-26T13:48:23.000000Z",
+    "method": "finalize",
+    "from": "0x99e638598dB40540b9A9FF3A246f2015D718501F",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839787,
+    "category": "lock"
+   },
+   {
+    "hash": "0x6f03bf2ed22f326c61363a707d1e47a0650433a19767c2804f99dc97b55f0f6c",
+    "timestamp": "2026-08-26T13:45:47.000000Z",
+    "method": "finalize",
+    "from": "0xd18eF68C7408Fa88937eC26E879D100F974B4f90",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839774,
+    "category": "lock"
+   },
+   {
+    "hash": "0xffde79c5c7360aa390ab1a936fbc8e4f0c3216b49b48ce74a0020df0f4fc7e33",
+    "timestamp": "2026-08-26T13:21:59.000000Z",
+    "method": "finalize",
+    "from": "0xD15dEcf083eFBFf2DCE6f105A0a7f861FDDC9740",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25839655,
+    "category": "lock"
+   },
+   {
+    "hash": "0xe61294d419935cc761dda1e507f3b88925beb2343abb910c8b30ed9d34564b81",
+    "timestamp": "2026-08-26T13:21:59.000000Z",
+    "method": "finalize",
+    "from": "0x6D37DAc0525119ef3516E498120c3542cE60126B",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839655,
+    "category": "lock"
+   },
+   {
+    "hash": "0xc24c828c1ed93143b5846428f222f6f262517d10621d535de927d7cfbfcdf771",
+    "timestamp": "2026-08-26T13:21:59.000000Z",
+    "method": "finalize",
+    "from": "0x69BE10eb6333F12a54425f05cb637a61e5B3e2FF",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25839655,
+    "category": "lock"
+   },
+   {
+    "hash": "0x9a32493f5cff57f0ef77f7fc235dc70cad11353fa262237c1968f481d21d2e8b",
+    "timestamp": "2026-08-26T13:21:59.000000Z",
+    "method": "finalize",
+    "from": "0x7bC00be5a427B43a703D91E38754A7E0be1e5341",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839655,
+    "category": "lock"
+   },
+   {
+    "hash": "0x9888ad4d7b12150b2a33428c610505269f5e16fd832943ab8211556f27126154",
+    "timestamp": "2026-08-26T13:21:59.000000Z",
+    "method": "finalize",
+    "from": "0xF33357Cb519eB9E3d483f2E92a8c9E86977Ec55f",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839655,
+    "category": "lock"
+   },
+   {
+    "hash": "0x53b4bab6edcef2766521059a9bc8d5c241ed5be93377abc96475aff3b3b4e27d",
+    "timestamp": "2026-08-26T13:21:59.000000Z",
+    "method": "finalize",
+    "from": "0x42B16094a18261fbEb7280A611d8AE725fF62969",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839655,
+    "category": "lock"
+   },
+   {
+    "hash": "0x4bdeb90a0685f7b705ebfd25fbf2c74a7d72a42652571509b6802e25228048e4",
+    "timestamp": "2026-08-26T13:21:59.000000Z",
+    "method": "finalize",
+    "from": "0x6bcFdb234694e9a8488d88df97110b1dB9f58e08",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839655,
+    "category": "lock"
+   },
+   {
+    "hash": "0x3c35eb59956ffaab8a421d1968e7499999a3282f24635585118ddb05e2c79efb",
+    "timestamp": "2026-08-26T13:21:59.000000Z",
+    "method": "finalize",
+    "from": "0xF8cF866EEF515484e3c2e7338661F91FCa9a550b",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25839655,
+    "category": "lock"
+   },
+   {
+    "hash": "0x04ece4e380e9b89095e70ce3e75a8d66cece887c50bd6451a3a4731eb8fe4069",
+    "timestamp": "2026-08-26T13:19:35.000000Z",
+    "method": "finalize",
+    "from": "0xd06e6cfAC4A46f0a1112AE0A00d1517159A1Ff3e",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839643,
+    "category": "lock"
+   },
+   {
+    "hash": "0x70426bb40e3e362326ed3ee0a2848dd00881eee994aaf0062564b183710519c5",
+    "timestamp": "2026-08-26T13:19:35.000000Z",
+    "method": "finalize",
+    "from": "0x5Dce1FBe0794aEBaE047Fa0F73f8E9f410B7e60d",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839643,
+    "category": "lock"
+   },
+   {
+    "hash": "0xe96be40202e916d84bccfcff7fcd63478ac467edc1bf04a99e3ce9cedf80538b",
+    "timestamp": "2026-08-26T13:14:11.000000Z",
+    "method": "finalize",
+    "from": "0x76500b6A6C640aE7B695ef049F20d24A2ca476DF",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839616,
+    "category": "lock"
+   },
+   {
+    "hash": "0x881a962847a81fbf44b95fcdb6dc4bc27bf6dc47bc8514e269d9dd9929831ad7",
+    "timestamp": "2026-08-26T13:13:11.000000Z",
+    "method": "finalize",
+    "from": "0x85Bf62094387BbF12BC3503028cb3Da2F5075F15",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839611,
+    "category": "lock"
+   },
+   {
+    "hash": "0xc974b8400323ed7635e0655a1cbe955edfd685b2165ab118456685dc7b892868",
+    "timestamp": "2026-08-26T13:09:35.000000Z",
+    "method": "finalize",
+    "from": "0x150B55a25B5d416A489c0dFC23346f6da99AFed1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839593,
+    "category": "lock"
+   },
+   {
+    "hash": "0xe2c0d3938a47370dc5551c458d222dae03daf5376c60171f7d0bc27e2b836e70",
+    "timestamp": "2026-08-26T13:09:23.000000Z",
+    "method": "finalize",
+    "from": "0x912064700cc53CA921992a739E4510f9E060eDcc",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839592,
+    "category": "lock"
+   },
+   {
+    "hash": "0xa751720d0a5802a132afcc2c95476103fb2056425f4605608a4c03dada4460cf",
+    "timestamp": "2026-08-26T13:07:47.000000Z",
+    "method": "finalize",
+    "from": "0xB29be9DE4e34BD95D3a4C1F5089D99862FfA334c",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839584,
+    "category": "lock"
+   },
+   {
+    "hash": "0x979fd663aa0ab37b7e106159773c7c39efe07881210e1e9068203a37dc3a1ce1",
+    "timestamp": "2026-08-26T13:07:35.000000Z",
+    "method": "finalize",
+    "from": "0xb5F31EB9e70f88c5997a243DfB59b7097bcd84bE",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839583,
+    "category": "lock"
+   },
+   {
+    "hash": "0xfd4187900eb4067deed876fd66188ffd24b4cb0e38cfac1c949ce2a7ed5e42aa",
+    "timestamp": "2026-08-26T13:07:23.000000Z",
+    "method": "finalize",
+    "from": "0x131b857b0B78b3CF8417e7B870291cA39a38A40f",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839582,
+    "category": "lock"
+   },
+   {
+    "hash": "0x22ad6bf29971c3e174880edeefcb95d06e6003b540387f70903b06e3c9de245d",
+    "timestamp": "2026-08-26T13:07:23.000000Z",
+    "method": "finalize",
+    "from": "0x4d91838268f6d6D4e590e8fd2a001Cd91c32e7A4",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25839582,
+    "category": "lock"
+   },
+   {
+    "hash": "0x6ae722e191480d4604ace1c1ecc16759b76ac889d02eca33a98dc0d9ac78e655",
+    "timestamp": "2026-08-26T13:06:59.000000Z",
+    "method": "finalize",
+    "from": "0xeEa2A04dbF8A53d6758888815adeAb2630A17E7e",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839580,
+    "category": "lock"
+   },
+   {
+    "hash": "0x9bbfe7b28b80d8010332cc40f7588b12e8e458605aab30832d55c666db8bcef3",
+    "timestamp": "2026-08-26T13:06:59.000000Z",
+    "method": "finalize",
+    "from": "0x6481C685191b15f5259f2E1905b5AA86068B4992",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839580,
+    "category": "lock"
+   },
+   {
+    "hash": "0x23dbef87defb71199bd49e7ce84d708cf571a44c52a55ab4ce55ffe9ceccdec6",
+    "timestamp": "2026-08-26T13:06:59.000000Z",
+    "method": "finalize",
+    "from": "0xb696f23b2BD55d24786d2f3f3E7Ab9637a4CFf8A",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839580,
+    "category": "lock"
+   },
+   {
+    "hash": "0xa02a7ef04ca6793fe6a251ebce770ca4221488249dde4da6dea6639c19d077ed",
+    "timestamp": "2026-08-26T13:06:59.000000Z",
+    "method": "finalize",
+    "from": "0x51156138E475BD47E2953d8A7961672b27746970",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839580,
+    "category": "lock"
+   },
+   {
+    "hash": "0x9ea18e8614f1602982b0187e7488be3a36c23a536eff9860c7c9773f5a7f8e9e",
+    "timestamp": "2026-08-26T13:06:47.000000Z",
+    "method": "finalize",
+    "from": "0x07fC676A307F41dfa7e53b285cF87305B9ab940A",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839579,
+    "category": "lock"
+   },
+   {
+    "hash": "0xafc2ced7caa657c75d4bbad079f43bae3b9ea29da639b650db3ec698e0010e71",
+    "timestamp": "2026-08-26T13:06:35.000000Z",
+    "method": "finalize",
+    "from": "0x9A7710e1735Cf8eBd9f204B1683862CEC4086B58",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839578,
+    "category": "lock"
+   },
+   {
+    "hash": "0x449532b79f3f314aeecd0a2d8f6b4884da50c6cc49a496c7cfd5aaa0bb45cf42",
+    "timestamp": "2026-08-26T13:06:35.000000Z",
+    "method": "finalize",
+    "from": "0xE4B3C60C08c986B42CB43ec0a5Efc5B36E780EBd",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25839578,
+    "category": "lock"
+   },
+   {
+    "hash": "0x7de8f6977f360a2749108ad479944433ee7367ad55fc76599028e78a81a16ee0",
+    "timestamp": "2026-08-26T13:06:35.000000Z",
+    "method": "finalize",
+    "from": "0x024AEF1375c1701693b2a0c8e8AD7BaDf0dCe493",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25839578,
+    "category": "lock"
+   },
+   {
+    "hash": "0x44cf9ec49ad91a7b374f2a000f7c07d5cafbec592d6d62a83b238ecc7f9b41e1",
+    "timestamp": "2026-08-26T13:06:35.000000Z",
+    "method": "finalize",
+    "from": "0x71fE8f38d4ba5973def012752E13140414E335Eb",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25839578,
+    "category": "lock"
+   },
+   {
+    "hash": "0x3ec3f47413e5e313bcb89a15306200ad294f9ddd3fdf1f29cc86fa9a22392d74",
+    "timestamp": "2026-08-26T13:06:35.000000Z",
+    "method": "finalize",
+    "from": "0x866e61757D9652Cbbfdb68943B61BcD6f5546202",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839578,
+    "category": "lock"
+   },
+   {
+    "hash": "0x865a84c1f4d4a5527a897c268c7314191e1cb1fe617c451b7d3d6ca5ec1c5cbb",
+    "timestamp": "2026-08-26T13:06:35.000000Z",
+    "method": "finalize",
+    "from": "0x2AEbD48A41aC9061b8e5F119eD477Fb6168eB4E0",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25839578,
+    "category": "lock"
+   },
+   {
+    "hash": "0xeeb1c1f6f629fc3134c90c52e9980029bb33aa076fd3fe2e5ec5461488e32a51",
+    "timestamp": "2026-08-26T13:06:35.000000Z",
+    "method": "finalize",
+    "from": "0x8Bd84Ef2023b8077DbD30088413244d6e3D56797",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839578,
+    "category": "lock"
+   },
+   {
+    "hash": "0xd03f5771f154ec98600e34d6b37e991b806451062ff0d69fbb1f066452ce118e",
+    "timestamp": "2026-08-26T13:06:35.000000Z",
+    "method": "finalize",
+    "from": "0x38E08cf0961de6d29f79493ADE04e466F6b89DAD",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839578,
+    "category": "lock"
+   },
+   {
+    "hash": "0x91b270119d706f742ad3aefd3e47ad6fa6d4674cbbf7ae08f9a460d6cf0ff96f",
+    "timestamp": "2026-08-26T13:06:35.000000Z",
+    "method": "finalize",
+    "from": "0x39CbED01A977474000CCD7e0058169924011F134",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839578,
+    "category": "lock"
+   },
+   {
+    "hash": "0x2001ecaf2027f58828ebd26e8e18a7070bba178d05e74855ab3e03d70fdac4e9",
+    "timestamp": "2026-08-26T13:06:35.000000Z",
+    "method": "finalize",
+    "from": "0x89D222Fb6539B2677d67b2030845D4eA9EEd2881",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839578,
+    "category": "lock"
+   },
+   {
+    "hash": "0x502db7aa6dbfd312fa041b1d0ee934364b96a486e3207c7a23238c7d1f0c8708",
+    "timestamp": "2026-08-26T13:06:35.000000Z",
+    "method": "finalize",
+    "from": "0xC9bF6F801411E4f246a52e2899B226FF2fb1CD24",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839578,
+    "category": "lock"
+   },
+   {
+    "hash": "0x40a24a37f6ce401321dea8c59ff8081d19a56b8fff188fb1511c3641ef57dcf7",
+    "timestamp": "2026-10-21T15:24:47.000000Z",
+    "method": "setRenderer",
+    "from": "0xf16E1176d95B35E1e5E425a51d7f231Ac352A859",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 26241854,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xd6da3d9ad7499bd29b326eae2ead759b40a804ed5e27704375ab7c01b9ec3557",
+    "timestamp": "2026-10-14T02:06:11.000000Z",
+    "method": "setRenderer",
+    "from": "0xf16E1176d95B35E1e5E425a51d7f231Ac352A859",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 26187641,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x672e3b1748f94629322729e2dc8e2aafb31bb2bc1f57c96ab2c61952b1496a96",
+    "timestamp": "2026-10-07T20:59:59.000000Z",
+    "method": "setRenderer",
+    "from": "0xf16E1176d95B35E1e5E425a51d7f231Ac352A859",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 26143058,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x5570a737834f570414ee7013be8594d28e2d8994a05c1a9a05ed2756f13f34e9",
+    "timestamp": "2026-10-05T17:01:59.000000Z",
+    "method": "setRenderer",
+    "from": "0xf16E1176d95B35E1e5E425a51d7f231Ac352A859",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 26127529,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x29faea5a7c6d85d9533220da609346950b8088df6dcde59824bb0f70c08680f3",
+    "timestamp": "2026-10-02T17:13:11.000000Z",
+    "method": "setRenderer",
+    "from": "0xf16E1176d95B35E1e5E425a51d7f231Ac352A859",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 26106055,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xd10b8f61170b74eca2cc065c5df04f4c85ef6a0dcc9c730203d8d41e8154f1fe",
+    "timestamp": "2026-10-02T00:19:23.000000Z",
+    "method": "setRenderer",
+    "from": "0xf16E1176d95B35E1e5E425a51d7f231Ac352A859",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 26101009,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xe8b9bedd6527f2a86680b795fede4a3d75227c9e4c7cfdd172d241c6fc169e37",
+    "timestamp": "2026-09-25T16:19:59.000000Z",
+    "method": "setRenderer",
+    "from": "0xf16E1176d95B35E1e5E425a51d7f231Ac352A859",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 26055616,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xed48f675d3c80f8e8f92ea7004c4a7f58922fc0001dedce60b3bd1a99f34fc44",
+    "timestamp": "2026-09-25T04:37:47.000000Z",
+    "method": "setRenderer",
+    "from": "0xf16E1176d95B35E1e5E425a51d7f231Ac352A859",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 26052126,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x788ffdebb41352a7cfa369d9bc55c732bd6634020448df8a8a21671aa778bbae",
+    "timestamp": "2026-09-07T17:52:47.000000Z",
+    "method": "setRenderer",
+    "from": "0xf16E1176d95B35E1e5E425a51d7f231Ac352A859",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25927091,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x72edac36c8707b3ec5f11f028b5ba84fcb86462ee399f1685e299a45c30e54ce",
+    "timestamp": "2026-09-03T20:44:35.000000Z",
+    "method": "setRenderer",
+    "from": "0xf16E1176d95B35E1e5E425a51d7f231Ac352A859",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25899253,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x685b1d30c1ba67ad68ffda6b90528a19e2e052b1b5e626c39535dac0731ee28f",
+    "timestamp": "2026-08-31T20:07:59.000000Z",
+    "method": "setRenderer",
+    "from": "0xf16E1176d95B35E1e5E425a51d7f231Ac352A859",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25877548,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xfd6187b4207748bf0df03961fefc029f143f630144775d37c1156f4e156c133c",
+    "timestamp": "2026-08-26T17:51:23.000000Z",
+    "method": "finalize",
+    "from": "0x7c229B24E15b90eD3beab4730414fdda7cdF47b0",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25840996,
+    "category": "lock"
+   },
+   {
+    "hash": "0x4cea640cfac4f49802e2dbf3b523d771852456021c269ef7deda905f6f53a43c",
+    "timestamp": "2026-08-26T17:39:47.000000Z",
+    "method": "finalize",
+    "from": "0x18DB005428492F8Bc154c50ad0A4Bd23DE2750fF",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25840938,
+    "category": "lock"
+   },
+   {
+    "hash": "0x06e17ce6348cfde9bd6a4a1aa574b6401be492ac214e002018059da1750ee5a5",
+    "timestamp": "2026-08-26T15:26:59.000000Z",
+    "method": "finalize",
+    "from": "0x8de5501ae76a3583EB3e5E429f064761566512Be",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25840278,
+    "category": "lock"
+   },
+   {
+    "hash": "0x320a44d0ed0be961549bfbd1977791a2bcc81c310eeade383a605e65a6428d1b",
+    "timestamp": "2026-08-26T13:48:23.000000Z",
+    "method": "finalize",
+    "from": "0x99e638598dB40540b9A9FF3A246f2015D718501F",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839787,
+    "category": "lock"
+   },
+   {
+    "hash": "0x6f03bf2ed22f326c61363a707d1e47a0650433a19767c2804f99dc97b55f0f6c",
+    "timestamp": "2026-08-26T13:45:47.000000Z",
+    "method": "finalize",
+    "from": "0xd18eF68C7408Fa88937eC26E879D100F974B4f90",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839774,
+    "category": "lock"
+   },
+   {
+    "hash": "0xffde79c5c7360aa390ab1a936fbc8e4f0c3216b49b48ce74a0020df0f4fc7e33",
+    "timestamp": "2026-08-26T13:21:59.000000Z",
+    "method": "finalize",
+    "from": "0xD15dEcf083eFBFf2DCE6f105A0a7f861FDDC9740",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25839655,
+    "category": "lock"
+   },
+   {
+    "hash": "0xe61294d419935cc761dda1e507f3b88925beb2343abb910c8b30ed9d34564b81",
+    "timestamp": "2026-08-26T13:21:59.000000Z",
+    "method": "finalize",
+    "from": "0x6D37DAc0525119ef3516E498120c3542cE60126B",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839655,
+    "category": "lock"
+   },
+   {
+    "hash": "0xc24c828c1ed93143b5846428f222f6f262517d10621d535de927d7cfbfcdf771",
+    "timestamp": "2026-08-26T13:21:59.000000Z",
+    "method": "finalize",
+    "from": "0x69BE10eb6333F12a54425f05cb637a61e5B3e2FF",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25839655,
+    "category": "lock"
+   },
+   {
+    "hash": "0x9a32493f5cff57f0ef77f7fc235dc70cad11353fa262237c1968f481d21d2e8b",
+    "timestamp": "2026-08-26T13:21:59.000000Z",
+    "method": "finalize",
+    "from": "0x7bC00be5a427B43a703D91E38754A7E0be1e5341",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839655,
+    "category": "lock"
+   },
+   {
+    "hash": "0x9888ad4d7b12150b2a33428c610505269f5e16fd832943ab8211556f27126154",
+    "timestamp": "2026-08-26T13:21:59.000000Z",
+    "method": "finalize",
+    "from": "0xF33357Cb519eB9E3d483f2E92a8c9E86977Ec55f",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839655,
+    "category": "lock"
+   },
+   {
+    "hash": "0x53b4bab6edcef2766521059a9bc8d5c241ed5be93377abc96475aff3b3b4e27d",
+    "timestamp": "2026-08-26T13:21:59.000000Z",
+    "method": "finalize",
+    "from": "0x42B16094a18261fbEb7280A611d8AE725fF62969",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839655,
+    "category": "lock"
+   },
+   {
+    "hash": "0x4bdeb90a0685f7b705ebfd25fbf2c74a7d72a42652571509b6802e25228048e4",
+    "timestamp": "2026-08-26T13:21:59.000000Z",
+    "method": "finalize",
+    "from": "0x6bcFdb234694e9a8488d88df97110b1dB9f58e08",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839655,
+    "category": "lock"
+   },
+   {
+    "hash": "0x3c35eb59956ffaab8a421d1968e7499999a3282f24635585118ddb05e2c79efb",
+    "timestamp": "2026-08-26T13:21:59.000000Z",
+    "method": "finalize",
+    "from": "0xF8cF866EEF515484e3c2e7338661F91FCa9a550b",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25839655,
+    "category": "lock"
+   },
+   {
+    "hash": "0x04ece4e380e9b89095e70ce3e75a8d66cece887c50bd6451a3a4731eb8fe4069",
+    "timestamp": "2026-08-26T13:19:35.000000Z",
+    "method": "finalize",
+    "from": "0xd06e6cfAC4A46f0a1112AE0A00d1517159A1Ff3e",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839643,
+    "category": "lock"
+   },
+   {
+    "hash": "0x70426bb40e3e362326ed3ee0a2848dd00881eee994aaf0062564b183710519c5",
+    "timestamp": "2026-08-26T13:19:35.000000Z",
+    "method": "finalize",
+    "from": "0x5Dce1FBe0794aEBaE047Fa0F73f8E9f410B7e60d",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839643,
+    "category": "lock"
+   },
+   {
+    "hash": "0xe96be40202e916d84bccfcff7fcd63478ac467edc1bf04a99e3ce9cedf80538b",
+    "timestamp": "2026-08-26T13:14:11.000000Z",
+    "method": "finalize",
+    "from": "0x76500b6A6C640aE7B695ef049F20d24A2ca476DF",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839616,
+    "category": "lock"
+   },
+   {
+    "hash": "0x881a962847a81fbf44b95fcdb6dc4bc27bf6dc47bc8514e269d9dd9929831ad7",
+    "timestamp": "2026-08-26T13:13:11.000000Z",
+    "method": "finalize",
+    "from": "0x85Bf62094387BbF12BC3503028cb3Da2F5075F15",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839611,
+    "category": "lock"
+   },
+   {
+    "hash": "0xc974b8400323ed7635e0655a1cbe955edfd685b2165ab118456685dc7b892868",
+    "timestamp": "2026-08-26T13:09:35.000000Z",
+    "method": "finalize",
+    "from": "0x150B55a25B5d416A489c0dFC23346f6da99AFed1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839593,
+    "category": "lock"
+   },
+   {
+    "hash": "0xe2c0d3938a47370dc5551c458d222dae03daf5376c60171f7d0bc27e2b836e70",
+    "timestamp": "2026-08-26T13:09:23.000000Z",
+    "method": "finalize",
+    "from": "0x912064700cc53CA921992a739E4510f9E060eDcc",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839592,
+    "category": "lock"
+   },
+   {
+    "hash": "0xa751720d0a5802a132afcc2c95476103fb2056425f4605608a4c03dada4460cf",
+    "timestamp": "2026-08-26T13:07:47.000000Z",
+    "method": "finalize",
+    "from": "0xB29be9DE4e34BD95D3a4C1F5089D99862FfA334c",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839584,
+    "category": "lock"
+   },
+   {
+    "hash": "0x979fd663aa0ab37b7e106159773c7c39efe07881210e1e9068203a37dc3a1ce1",
+    "timestamp": "2026-08-26T13:07:35.000000Z",
+    "method": "finalize",
+    "from": "0xb5F31EB9e70f88c5997a243DfB59b7097bcd84bE",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839583,
+    "category": "lock"
+   },
+   {
+    "hash": "0xfd4187900eb4067deed876fd66188ffd24b4cb0e38cfac1c949ce2a7ed5e42aa",
+    "timestamp": "2026-08-26T13:07:23.000000Z",
+    "method": "finalize",
+    "from": "0x131b857b0B78b3CF8417e7B870291cA39a38A40f",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839582,
+    "category": "lock"
+   },
+   {
+    "hash": "0x22ad6bf29971c3e174880edeefcb95d06e6003b540387f70903b06e3c9de245d",
+    "timestamp": "2026-08-26T13:07:23.000000Z",
+    "method": "finalize",
+    "from": "0x4d91838268f6d6D4e590e8fd2a001Cd91c32e7A4",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25839582,
+    "category": "lock"
+   },
+   {
+    "hash": "0x6ae722e191480d4604ace1c1ecc16759b76ac889d02eca33a98dc0d9ac78e655",
+    "timestamp": "2026-08-26T13:06:59.000000Z",
+    "method": "finalize",
+    "from": "0xeEa2A04dbF8A53d6758888815adeAb2630A17E7e",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839580,
+    "category": "lock"
+   },
+   {
+    "hash": "0x9bbfe7b28b80d8010332cc40f7588b12e8e458605aab30832d55c666db8bcef3",
+    "timestamp": "2026-08-26T13:06:59.000000Z",
+    "method": "finalize",
+    "from": "0x6481C685191b15f5259f2E1905b5AA86068B4992",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839580,
+    "category": "lock"
+   },
+   {
+    "hash": "0x23dbef87defb71199bd49e7ce84d708cf571a44c52a55ab4ce55ffe9ceccdec6",
+    "timestamp": "2026-08-26T13:06:59.000000Z",
+    "method": "finalize",
+    "from": "0xb696f23b2BD55d24786d2f3f3E7Ab9637a4CFf8A",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839580,
+    "category": "lock"
+   },
+   {
+    "hash": "0xa02a7ef04ca6793fe6a251ebce770ca4221488249dde4da6dea6639c19d077ed",
+    "timestamp": "2026-08-26T13:06:59.000000Z",
+    "method": "finalize",
+    "from": "0x51156138E475BD47E2953d8A7961672b27746970",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839580,
+    "category": "lock"
+   },
+   {
+    "hash": "0x9ea18e8614f1602982b0187e7488be3a36c23a536eff9860c7c9773f5a7f8e9e",
+    "timestamp": "2026-08-26T13:06:47.000000Z",
+    "method": "finalize",
+    "from": "0x07fC676A307F41dfa7e53b285cF87305B9ab940A",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839579,
+    "category": "lock"
+   },
+   {
+    "hash": "0xafc2ced7caa657c75d4bbad079f43bae3b9ea29da639b650db3ec698e0010e71",
+    "timestamp": "2026-08-26T13:06:35.000000Z",
+    "method": "finalize",
+    "from": "0x9A7710e1735Cf8eBd9f204B1683862CEC4086B58",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839578,
+    "category": "lock"
+   },
+   {
+    "hash": "0x449532b79f3f314aeecd0a2d8f6b4884da50c6cc49a496c7cfd5aaa0bb45cf42",
+    "timestamp": "2026-08-26T13:06:35.000000Z",
+    "method": "finalize",
+    "from": "0xE4B3C60C08c986B42CB43ec0a5Efc5B36E780EBd",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25839578,
+    "category": "lock"
+   },
+   {
+    "hash": "0x7de8f6977f360a2749108ad479944433ee7367ad55fc76599028e78a81a16ee0",
+    "timestamp": "2026-08-26T13:06:35.000000Z",
+    "method": "finalize",
+    "from": "0x024AEF1375c1701693b2a0c8e8AD7BaDf0dCe493",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25839578,
+    "category": "lock"
+   },
+   {
+    "hash": "0x44cf9ec49ad91a7b374f2a000f7c07d5cafbec592d6d62a83b238ecc7f9b41e1",
+    "timestamp": "2026-08-26T13:06:35.000000Z",
+    "method": "finalize",
+    "from": "0x71fE8f38d4ba5973def012752E13140414E335Eb",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25839578,
+    "category": "lock"
+   },
+   {
+    "hash": "0x3ec3f47413e5e313bcb89a15306200ad294f9ddd3fdf1f29cc86fa9a22392d74",
+    "timestamp": "2026-08-26T13:06:35.000000Z",
+    "method": "finalize",
+    "from": "0x866e61757D9652Cbbfdb68943B61BcD6f5546202",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839578,
+    "category": "lock"
+   },
+   {
+    "hash": "0x865a84c1f4d4a5527a897c268c7314191e1cb1fe617c451b7d3d6ca5ec1c5cbb",
+    "timestamp": "2026-08-26T13:06:35.000000Z",
+    "method": "finalize",
+    "from": "0x2AEbD48A41aC9061b8e5F119eD477Fb6168eB4E0",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25839578,
+    "category": "lock"
+   },
+   {
+    "hash": "0xeeb1c1f6f629fc3134c90c52e9980029bb33aa076fd3fe2e5ec5461488e32a51",
+    "timestamp": "2026-08-26T13:06:35.000000Z",
+    "method": "finalize",
+    "from": "0x8Bd84Ef2023b8077DbD30088413244d6e3D56797",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839578,
+    "category": "lock"
+   },
+   {
+    "hash": "0xd03f5771f154ec98600e34d6b37e991b806451062ff0d69fbb1f066452ce118e",
+    "timestamp": "2026-08-26T13:06:35.000000Z",
+    "method": "finalize",
+    "from": "0x38E08cf0961de6d29f79493ADE04e466F6b89DAD",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839578,
+    "category": "lock"
+   },
+   {
+    "hash": "0x91b270119d706f742ad3aefd3e47ad6fa6d4674cbbf7ae08f9a460d6cf0ff96f",
+    "timestamp": "2026-08-26T13:06:35.000000Z",
+    "method": "finalize",
+    "from": "0x39CbED01A977474000CCD7e0058169924011F134",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839578,
+    "category": "lock"
+   },
+   {
+    "hash": "0x2001ecaf2027f58828ebd26e8e18a7070bba178d05e74855ab3e03d70fdac4e9",
+    "timestamp": "2026-08-26T13:06:35.000000Z",
+    "method": "finalize",
+    "from": "0x89D222Fb6539B2677d67b2030845D4eA9EEd2881",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839578,
+    "category": "lock"
+   },
+   {
+    "hash": "0x502db7aa6dbfd312fa041b1d0ee934364b96a486e3207c7a23238c7d1f0c8708",
+    "timestamp": "2026-08-26T13:06:35.000000Z",
+    "method": "finalize",
+    "from": "0xC9bF6F801411E4f246a52e2899B226FF2fb1CD24",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839578,
+    "category": "lock"
+   },
+   {
+    "hash": "0x40a24a37f6ce401321dea8c59ff8081d19a56b8fff188fb1511c3641ef57dcf7",
+    "timestamp": "2026-10-21T15:24:47.000000Z",
+    "method": "setRenderer",
+    "from": "0xf16E1176d95B35E1e5E425a51d7f231Ac352A859",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 26241854,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xd6da3d9ad7499bd29b326eae2ead759b40a804ed5e27704375ab7c01b9ec3557",
+    "timestamp": "2026-10-14T02:06:11.000000Z",
+    "method": "setRenderer",
+    "from": "0xf16E1176d95B35E1e5E425a51d7f231Ac352A859",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 26187641,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x672e3b1748f94629322729e2dc8e2aafb31bb2bc1f57c96ab2c61952b1496a96",
+    "timestamp": "2026-10-07T20:59:59.000000Z",
+    "method": "setRenderer",
+    "from": "0xf16E1176d95B35E1e5E425a51d7f231Ac352A859",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 26143058,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x5570a737834f570414ee7013be8594d28e2d8994a05c1a9a05ed2756f13f34e9",
+    "timestamp": "2026-10-05T17:01:59.000000Z",
+    "method": "setRenderer",
+    "from": "0xf16E1176d95B35E1e5E425a51d7f231Ac352A859",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 26127529,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x29faea5a7c6d85d9533220da609346950b8088df6dcde59824bb0f70c08680f3",
+    "timestamp": "2026-10-02T17:13:11.000000Z",
+    "method": "setRenderer",
+    "from": "0xf16E1176d95B35E1e5E425a51d7f231Ac352A859",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 26106055,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xd10b8f61170b74eca2cc065c5df04f4c85ef6a0dcc9c730203d8d41e8154f1fe",
+    "timestamp": "2026-10-02T00:19:23.000000Z",
+    "method": "setRenderer",
+    "from": "0xf16E1176d95B35E1e5E425a51d7f231Ac352A859",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 26101009,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xe8b9bedd6527f2a86680b795fede4a3d75227c9e4c7cfdd172d241c6fc169e37",
+    "timestamp": "2026-09-25T16:19:59.000000Z",
+    "method": "setRenderer",
+    "from": "0xf16E1176d95B35E1e5E425a51d7f231Ac352A859",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 26055616,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xed48f675d3c80f8e8f92ea7004c4a7f58922fc0001dedce60b3bd1a99f34fc44",
+    "timestamp": "2026-09-25T04:37:47.000000Z",
+    "method": "setRenderer",
+    "from": "0xf16E1176d95B35E1e5E425a51d7f231Ac352A859",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 26052126,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x788ffdebb41352a7cfa369d9bc55c732bd6634020448df8a8a21671aa778bbae",
+    "timestamp": "2026-09-07T17:52:47.000000Z",
+    "method": "setRenderer",
+    "from": "0xf16E1176d95B35E1e5E425a51d7f231Ac352A859",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25927091,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x72edac36c8707b3ec5f11f028b5ba84fcb86462ee399f1685e299a45c30e54ce",
+    "timestamp": "2026-09-03T20:44:35.000000Z",
+    "method": "setRenderer",
+    "from": "0xf16E1176d95B35E1e5E425a51d7f231Ac352A859",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25899253,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x685b1d30c1ba67ad68ffda6b90528a19e2e052b1b5e626c39535dac0731ee28f",
+    "timestamp": "2026-08-31T20:07:59.000000Z",
+    "method": "setRenderer",
+    "from": "0xf16E1176d95B35E1e5E425a51d7f231Ac352A859",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25877548,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xfd6187b4207748bf0df03961fefc029f143f630144775d37c1156f4e156c133c",
+    "timestamp": "2026-08-26T17:51:23.000000Z",
+    "method": "finalize",
+    "from": "0x7c229B24E15b90eD3beab4730414fdda7cdF47b0",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25840996,
+    "category": "lock"
+   },
+   {
+    "hash": "0x4cea640cfac4f49802e2dbf3b523d771852456021c269ef7deda905f6f53a43c",
+    "timestamp": "2026-08-26T17:39:47.000000Z",
+    "method": "finalize",
+    "from": "0x18DB005428492F8Bc154c50ad0A4Bd23DE2750fF",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25840938,
+    "category": "lock"
+   },
+   {
+    "hash": "0x06e17ce6348cfde9bd6a4a1aa574b6401be492ac214e002018059da1750ee5a5",
+    "timestamp": "2026-08-26T15:26:59.000000Z",
+    "method": "finalize",
+    "from": "0x8de5501ae76a3583EB3e5E429f064761566512Be",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25840278,
+    "category": "lock"
+   },
+   {
+    "hash": "0x320a44d0ed0be961549bfbd1977791a2bcc81c310eeade383a605e65a6428d1b",
+    "timestamp": "2026-08-26T13:48:23.000000Z",
+    "method": "finalize",
+    "from": "0x99e638598dB40540b9A9FF3A246f2015D718501F",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839787,
+    "category": "lock"
+   },
+   {
+    "hash": "0x6f03bf2ed22f326c61363a707d1e47a0650433a19767c2804f99dc97b55f0f6c",
+    "timestamp": "2026-08-26T13:45:47.000000Z",
+    "method": "finalize",
+    "from": "0xd18eF68C7408Fa88937eC26E879D100F974B4f90",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839774,
+    "category": "lock"
+   },
+   {
+    "hash": "0xffde79c5c7360aa390ab1a936fbc8e4f0c3216b49b48ce74a0020df0f4fc7e33",
+    "timestamp": "2026-08-26T13:21:59.000000Z",
+    "method": "finalize",
+    "from": "0xD15dEcf083eFBFf2DCE6f105A0a7f861FDDC9740",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25839655,
+    "category": "lock"
+   },
+   {
+    "hash": "0xe61294d419935cc761dda1e507f3b88925beb2343abb910c8b30ed9d34564b81",
+    "timestamp": "2026-08-26T13:21:59.000000Z",
+    "method": "finalize",
+    "from": "0x6D37DAc0525119ef3516E498120c3542cE60126B",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839655,
+    "category": "lock"
+   },
+   {
+    "hash": "0xc24c828c1ed93143b5846428f222f6f262517d10621d535de927d7cfbfcdf771",
+    "timestamp": "2026-08-26T13:21:59.000000Z",
+    "method": "finalize",
+    "from": "0x69BE10eb6333F12a54425f05cb637a61e5B3e2FF",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25839655,
+    "category": "lock"
+   },
+   {
+    "hash": "0x9a32493f5cff57f0ef77f7fc235dc70cad11353fa262237c1968f481d21d2e8b",
+    "timestamp": "2026-08-26T13:21:59.000000Z",
+    "method": "finalize",
+    "from": "0x7bC00be5a427B43a703D91E38754A7E0be1e5341",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839655,
+    "category": "lock"
+   },
+   {
+    "hash": "0x9888ad4d7b12150b2a33428c610505269f5e16fd832943ab8211556f27126154",
+    "timestamp": "2026-08-26T13:21:59.000000Z",
+    "method": "finalize",
+    "from": "0xF33357Cb519eB9E3d483f2E92a8c9E86977Ec55f",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839655,
+    "category": "lock"
+   },
+   {
+    "hash": "0x53b4bab6edcef2766521059a9bc8d5c241ed5be93377abc96475aff3b3b4e27d",
+    "timestamp": "2026-08-26T13:21:59.000000Z",
+    "method": "finalize",
+    "from": "0x42B16094a18261fbEb7280A611d8AE725fF62969",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839655,
+    "category": "lock"
+   },
+   {
+    "hash": "0x4bdeb90a0685f7b705ebfd25fbf2c74a7d72a42652571509b6802e25228048e4",
+    "timestamp": "2026-08-26T13:21:59.000000Z",
+    "method": "finalize",
+    "from": "0x6bcFdb234694e9a8488d88df97110b1dB9f58e08",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839655,
+    "category": "lock"
+   },
+   {
+    "hash": "0x3c35eb59956ffaab8a421d1968e7499999a3282f24635585118ddb05e2c79efb",
+    "timestamp": "2026-08-26T13:21:59.000000Z",
+    "method": "finalize",
+    "from": "0xF8cF866EEF515484e3c2e7338661F91FCa9a550b",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25839655,
+    "category": "lock"
+   },
+   {
+    "hash": "0x04ece4e380e9b89095e70ce3e75a8d66cece887c50bd6451a3a4731eb8fe4069",
+    "timestamp": "2026-08-26T13:19:35.000000Z",
+    "method": "finalize",
+    "from": "0xd06e6cfAC4A46f0a1112AE0A00d1517159A1Ff3e",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839643,
+    "category": "lock"
+   },
+   {
+    "hash": "0x70426bb40e3e362326ed3ee0a2848dd00881eee994aaf0062564b183710519c5",
+    "timestamp": "2026-08-26T13:19:35.000000Z",
+    "method": "finalize",
+    "from": "0x5Dce1FBe0794aEBaE047Fa0F73f8E9f410B7e60d",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839643,
+    "category": "lock"
+   },
+   {
+    "hash": "0xe96be40202e916d84bccfcff7fcd63478ac467edc1bf04a99e3ce9cedf80538b",
+    "timestamp": "2026-08-26T13:14:11.000000Z",
+    "method": "finalize",
+    "from": "0x76500b6A6C640aE7B695ef049F20d24A2ca476DF",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839616,
+    "category": "lock"
+   },
+   {
+    "hash": "0x881a962847a81fbf44b95fcdb6dc4bc27bf6dc47bc8514e269d9dd9929831ad7",
+    "timestamp": "2026-08-26T13:13:11.000000Z",
+    "method": "finalize",
+    "from": "0x85Bf62094387BbF12BC3503028cb3Da2F5075F15",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839611,
+    "category": "lock"
+   },
+   {
+    "hash": "0xc974b8400323ed7635e0655a1cbe955edfd685b2165ab118456685dc7b892868",
+    "timestamp": "2026-08-26T13:09:35.000000Z",
+    "method": "finalize",
+    "from": "0x150B55a25B5d416A489c0dFC23346f6da99AFed1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839593,
+    "category": "lock"
+   },
+   {
+    "hash": "0xe2c0d3938a47370dc5551c458d222dae03daf5376c60171f7d0bc27e2b836e70",
+    "timestamp": "2026-08-26T13:09:23.000000Z",
+    "method": "finalize",
+    "from": "0x912064700cc53CA921992a739E4510f9E060eDcc",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839592,
+    "category": "lock"
+   },
+   {
+    "hash": "0xa751720d0a5802a132afcc2c95476103fb2056425f4605608a4c03dada4460cf",
+    "timestamp": "2026-08-26T13:07:47.000000Z",
+    "method": "finalize",
+    "from": "0xB29be9DE4e34BD95D3a4C1F5089D99862FfA334c",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839584,
+    "category": "lock"
+   },
+   {
+    "hash": "0x979fd663aa0ab37b7e106159773c7c39efe07881210e1e9068203a37dc3a1ce1",
+    "timestamp": "2026-08-26T13:07:35.000000Z",
+    "method": "finalize",
+    "from": "0xb5F31EB9e70f88c5997a243DfB59b7097bcd84bE",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839583,
+    "category": "lock"
+   },
+   {
+    "hash": "0xfd4187900eb4067deed876fd66188ffd24b4cb0e38cfac1c949ce2a7ed5e42aa",
+    "timestamp": "2026-08-26T13:07:23.000000Z",
+    "method": "finalize",
+    "from": "0x131b857b0B78b3CF8417e7B870291cA39a38A40f",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839582,
+    "category": "lock"
+   },
+   {
+    "hash": "0x22ad6bf29971c3e174880edeefcb95d06e6003b540387f70903b06e3c9de245d",
+    "timestamp": "2026-08-26T13:07:23.000000Z",
+    "method": "finalize",
+    "from": "0x4d91838268f6d6D4e590e8fd2a001Cd91c32e7A4",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25839582,
+    "category": "lock"
+   },
+   {
+    "hash": "0x6ae722e191480d4604ace1c1ecc16759b76ac889d02eca33a98dc0d9ac78e655",
+    "timestamp": "2026-08-26T13:06:59.000000Z",
+    "method": "finalize",
+    "from": "0xeEa2A04dbF8A53d6758888815adeAb2630A17E7e",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839580,
+    "category": "lock"
+   },
+   {
+    "hash": "0x9bbfe7b28b80d8010332cc40f7588b12e8e458605aab30832d55c666db8bcef3",
+    "timestamp": "2026-08-26T13:06:59.000000Z",
+    "method": "finalize",
+    "from": "0x6481C685191b15f5259f2E1905b5AA86068B4992",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839580,
+    "category": "lock"
+   },
+   {
+    "hash": "0x23dbef87defb71199bd49e7ce84d708cf571a44c52a55ab4ce55ffe9ceccdec6",
+    "timestamp": "2026-08-26T13:06:59.000000Z",
+    "method": "finalize",
+    "from": "0xb696f23b2BD55d24786d2f3f3E7Ab9637a4CFf8A",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839580,
+    "category": "lock"
+   },
+   {
+    "hash": "0xa02a7ef04ca6793fe6a251ebce770ca4221488249dde4da6dea6639c19d077ed",
+    "timestamp": "2026-08-26T13:06:59.000000Z",
+    "method": "finalize",
+    "from": "0x51156138E475BD47E2953d8A7961672b27746970",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839580,
+    "category": "lock"
+   },
+   {
+    "hash": "0x9ea18e8614f1602982b0187e7488be3a36c23a536eff9860c7c9773f5a7f8e9e",
+    "timestamp": "2026-08-26T13:06:47.000000Z",
+    "method": "finalize",
+    "from": "0x07fC676A307F41dfa7e53b285cF87305B9ab940A",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839579,
+    "category": "lock"
+   },
+   {
+    "hash": "0xafc2ced7caa657c75d4bbad079f43bae3b9ea29da639b650db3ec698e0010e71",
+    "timestamp": "2026-08-26T13:06:35.000000Z",
+    "method": "finalize",
+    "from": "0x9A7710e1735Cf8eBd9f204B1683862CEC4086B58",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839578,
+    "category": "lock"
+   },
+   {
+    "hash": "0x449532b79f3f314aeecd0a2d8f6b4884da50c6cc49a496c7cfd5aaa0bb45cf42",
+    "timestamp": "2026-08-26T13:06:35.000000Z",
+    "method": "finalize",
+    "from": "0xE4B3C60C08c986B42CB43ec0a5Efc5B36E780EBd",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25839578,
+    "category": "lock"
+   },
+   {
+    "hash": "0x7de8f6977f360a2749108ad479944433ee7367ad55fc76599028e78a81a16ee0",
+    "timestamp": "2026-08-26T13:06:35.000000Z",
+    "method": "finalize",
+    "from": "0x024AEF1375c1701693b2a0c8e8AD7BaDf0dCe493",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25839578,
+    "category": "lock"
+   },
+   {
+    "hash": "0x44cf9ec49ad91a7b374f2a000f7c07d5cafbec592d6d62a83b238ecc7f9b41e1",
+    "timestamp": "2026-08-26T13:06:35.000000Z",
+    "method": "finalize",
+    "from": "0x71fE8f38d4ba5973def012752E13140414E335Eb",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25839578,
+    "category": "lock"
+   },
+   {
+    "hash": "0x3ec3f47413e5e313bcb89a15306200ad294f9ddd3fdf1f29cc86fa9a22392d74",
+    "timestamp": "2026-08-26T13:06:35.000000Z",
+    "method": "finalize",
+    "from": "0x866e61757D9652Cbbfdb68943B61BcD6f5546202",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839578,
+    "category": "lock"
+   },
+   {
+    "hash": "0x865a84c1f4d4a5527a897c268c7314191e1cb1fe617c451b7d3d6ca5ec1c5cbb",
+    "timestamp": "2026-08-26T13:06:35.000000Z",
+    "method": "finalize",
+    "from": "0x2AEbD48A41aC9061b8e5F119eD477Fb6168eB4E0",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25839578,
+    "category": "lock"
+   },
+   {
+    "hash": "0xeeb1c1f6f629fc3134c90c52e9980029bb33aa076fd3fe2e5ec5461488e32a51",
+    "timestamp": "2026-08-26T13:06:35.000000Z",
+    "method": "finalize",
+    "from": "0x8Bd84Ef2023b8077DbD30088413244d6e3D56797",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839578,
+    "category": "lock"
+   },
+   {
+    "hash": "0xd03f5771f154ec98600e34d6b37e991b806451062ff0d69fbb1f066452ce118e",
+    "timestamp": "2026-08-26T13:06:35.000000Z",
+    "method": "finalize",
+    "from": "0x38E08cf0961de6d29f79493ADE04e466F6b89DAD",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839578,
+    "category": "lock"
+   },
+   {
+    "hash": "0x91b270119d706f742ad3aefd3e47ad6fa6d4674cbbf7ae08f9a460d6cf0ff96f",
+    "timestamp": "2026-08-26T13:06:35.000000Z",
+    "method": "finalize",
+    "from": "0x39CbED01A977474000CCD7e0058169924011F134",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839578,
+    "category": "lock"
+   },
+   {
+    "hash": "0x2001ecaf2027f58828ebd26e8e18a7070bba178d05e74855ab3e03d70fdac4e9",
+    "timestamp": "2026-08-26T13:06:35.000000Z",
+    "method": "finalize",
+    "from": "0x89D222Fb6539B2677d67b2030845D4eA9EEd2881",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839578,
+    "category": "lock"
+   },
+   {
+    "hash": "0x502db7aa6dbfd312fa041b1d0ee934364b96a486e3207c7a23238c7d1f0c8708",
+    "timestamp": "2026-08-26T13:06:35.000000Z",
+    "method": "finalize",
+    "from": "0xC9bF6F801411E4f246a52e2899B226FF2fb1CD24",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839578,
+    "category": "lock"
+   },
+   {
+    "hash": "0x40a24a37f6ce401321dea8c59ff8081d19a56b8fff188fb1511c3641ef57dcf7",
+    "timestamp": "2026-10-21T15:24:47.000000Z",
+    "method": "setRenderer",
+    "from": "0xf16E1176d95B35E1e5E425a51d7f231Ac352A859",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 26241854,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xd6da3d9ad7499bd29b326eae2ead759b40a804ed5e27704375ab7c01b9ec3557",
+    "timestamp": "2026-10-14T02:06:11.000000Z",
+    "method": "setRenderer",
+    "from": "0xf16E1176d95B35E1e5E425a51d7f231Ac352A859",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 26187641,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x672e3b1748f94629322729e2dc8e2aafb31bb2bc1f57c96ab2c61952b1496a96",
+    "timestamp": "2026-10-07T20:59:59.000000Z",
+    "method": "setRenderer",
+    "from": "0xf16E1176d95B35E1e5E425a51d7f231Ac352A859",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 26143058,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x5570a737834f570414ee7013be8594d28e2d8994a05c1a9a05ed2756f13f34e9",
+    "timestamp": "2026-10-05T17:01:59.000000Z",
+    "method": "setRenderer",
+    "from": "0xf16E1176d95B35E1e5E425a51d7f231Ac352A859",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 26127529,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x29faea5a7c6d85d9533220da609346950b8088df6dcde59824bb0f70c08680f3",
+    "timestamp": "2026-10-02T17:13:11.000000Z",
+    "method": "setRenderer",
+    "from": "0xf16E1176d95B35E1e5E425a51d7f231Ac352A859",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 26106055,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xd10b8f61170b74eca2cc065c5df04f4c85ef6a0dcc9c730203d8d41e8154f1fe",
+    "timestamp": "2026-10-02T00:19:23.000000Z",
+    "method": "setRenderer",
+    "from": "0xf16E1176d95B35E1e5E425a51d7f231Ac352A859",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 26101009,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xe8b9bedd6527f2a86680b795fede4a3d75227c9e4c7cfdd172d241c6fc169e37",
+    "timestamp": "2026-09-25T16:19:59.000000Z",
+    "method": "setRenderer",
+    "from": "0xf16E1176d95B35E1e5E425a51d7f231Ac352A859",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 26055616,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xed48f675d3c80f8e8f92ea7004c4a7f58922fc0001dedce60b3bd1a99f34fc44",
+    "timestamp": "2026-09-25T04:37:47.000000Z",
+    "method": "setRenderer",
+    "from": "0xf16E1176d95B35E1e5E425a51d7f231Ac352A859",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 26052126,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x788ffdebb41352a7cfa369d9bc55c732bd6634020448df8a8a21671aa778bbae",
+    "timestamp": "2026-09-07T17:52:47.000000Z",
+    "method": "setRenderer",
+    "from": "0xf16E1176d95B35E1e5E425a51d7f231Ac352A859",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25927091,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x72edac36c8707b3ec5f11f028b5ba84fcb86462ee399f1685e299a45c30e54ce",
+    "timestamp": "2026-09-03T20:44:35.000000Z",
+    "method": "setRenderer",
+    "from": "0xf16E1176d95B35E1e5E425a51d7f231Ac352A859",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25899253,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x685b1d30c1ba67ad68ffda6b90528a19e2e052b1b5e626c39535dac0731ee28f",
+    "timestamp": "2026-08-31T20:07:59.000000Z",
+    "method": "setRenderer",
+    "from": "0xf16E1176d95B35E1e5E425a51d7f231Ac352A859",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25877548,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xfd6187b4207748bf0df03961fefc029f143f630144775d37c1156f4e156c133c",
+    "timestamp": "2026-08-26T17:51:23.000000Z",
+    "method": "finalize",
+    "from": "0x7c229B24E15b90eD3beab4730414fdda7cdF47b0",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25840996,
+    "category": "lock"
+   },
+   {
+    "hash": "0x4cea640cfac4f49802e2dbf3b523d771852456021c269ef7deda905f6f53a43c",
+    "timestamp": "2026-08-26T17:39:47.000000Z",
+    "method": "finalize",
+    "from": "0x18DB005428492F8Bc154c50ad0A4Bd23DE2750fF",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25840938,
+    "category": "lock"
+   },
+   {
+    "hash": "0x06e17ce6348cfde9bd6a4a1aa574b6401be492ac214e002018059da1750ee5a5",
+    "timestamp": "2026-08-26T15:26:59.000000Z",
+    "method": "finalize",
+    "from": "0x8de5501ae76a3583EB3e5E429f064761566512Be",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25840278,
+    "category": "lock"
+   },
+   {
+    "hash": "0x320a44d0ed0be961549bfbd1977791a2bcc81c310eeade383a605e65a6428d1b",
+    "timestamp": "2026-08-26T13:48:23.000000Z",
+    "method": "finalize",
+    "from": "0x99e638598dB40540b9A9FF3A246f2015D718501F",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839787,
+    "category": "lock"
+   },
+   {
+    "hash": "0x6f03bf2ed22f326c61363a707d1e47a0650433a19767c2804f99dc97b55f0f6c",
+    "timestamp": "2026-08-26T13:45:47.000000Z",
+    "method": "finalize",
+    "from": "0xd18eF68C7408Fa88937eC26E879D100F974B4f90",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839774,
+    "category": "lock"
+   },
+   {
+    "hash": "0xffde79c5c7360aa390ab1a936fbc8e4f0c3216b49b48ce74a0020df0f4fc7e33",
+    "timestamp": "2026-08-26T13:21:59.000000Z",
+    "method": "finalize",
+    "from": "0xD15dEcf083eFBFf2DCE6f105A0a7f861FDDC9740",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25839655,
+    "category": "lock"
+   },
+   {
+    "hash": "0xe61294d419935cc761dda1e507f3b88925beb2343abb910c8b30ed9d34564b81",
+    "timestamp": "2026-08-26T13:21:59.000000Z",
+    "method": "finalize",
+    "from": "0x6D37DAc0525119ef3516E498120c3542cE60126B",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839655,
+    "category": "lock"
+   },
+   {
+    "hash": "0xc24c828c1ed93143b5846428f222f6f262517d10621d535de927d7cfbfcdf771",
+    "timestamp": "2026-08-26T13:21:59.000000Z",
+    "method": "finalize",
+    "from": "0x69BE10eb6333F12a54425f05cb637a61e5B3e2FF",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25839655,
+    "category": "lock"
+   },
+   {
+    "hash": "0x9a32493f5cff57f0ef77f7fc235dc70cad11353fa262237c1968f481d21d2e8b",
+    "timestamp": "2026-08-26T13:21:59.000000Z",
+    "method": "finalize",
+    "from": "0x7bC00be5a427B43a703D91E38754A7E0be1e5341",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839655,
+    "category": "lock"
+   },
+   {
+    "hash": "0x9888ad4d7b12150b2a33428c610505269f5e16fd832943ab8211556f27126154",
+    "timestamp": "2026-08-26T13:21:59.000000Z",
+    "method": "finalize",
+    "from": "0xF33357Cb519eB9E3d483f2E92a8c9E86977Ec55f",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839655,
+    "category": "lock"
+   },
+   {
+    "hash": "0x53b4bab6edcef2766521059a9bc8d5c241ed5be93377abc96475aff3b3b4e27d",
+    "timestamp": "2026-08-26T13:21:59.000000Z",
+    "method": "finalize",
+    "from": "0x42B16094a18261fbEb7280A611d8AE725fF62969",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839655,
+    "category": "lock"
+   },
+   {
+    "hash": "0x4bdeb90a0685f7b705ebfd25fbf2c74a7d72a42652571509b6802e25228048e4",
+    "timestamp": "2026-08-26T13:21:59.000000Z",
+    "method": "finalize",
+    "from": "0x6bcFdb234694e9a8488d88df97110b1dB9f58e08",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839655,
+    "category": "lock"
+   },
+   {
+    "hash": "0x3c35eb59956ffaab8a421d1968e7499999a3282f24635585118ddb05e2c79efb",
+    "timestamp": "2026-08-26T13:21:59.000000Z",
+    "method": "finalize",
+    "from": "0xF8cF866EEF515484e3c2e7338661F91FCa9a550b",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25839655,
+    "category": "lock"
+   },
+   {
+    "hash": "0x04ece4e380e9b89095e70ce3e75a8d66cece887c50bd6451a3a4731eb8fe4069",
+    "timestamp": "2026-08-26T13:19:35.000000Z",
+    "method": "finalize",
+    "from": "0xd06e6cfAC4A46f0a1112AE0A00d1517159A1Ff3e",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839643,
+    "category": "lock"
+   },
+   {
+    "hash": "0x70426bb40e3e362326ed3ee0a2848dd00881eee994aaf0062564b183710519c5",
+    "timestamp": "2026-08-26T13:19:35.000000Z",
+    "method": "finalize",
+    "from": "0x5Dce1FBe0794aEBaE047Fa0F73f8E9f410B7e60d",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839643,
+    "category": "lock"
+   },
+   {
+    "hash": "0xe96be40202e916d84bccfcff7fcd63478ac467edc1bf04a99e3ce9cedf80538b",
+    "timestamp": "2026-08-26T13:14:11.000000Z",
+    "method": "finalize",
+    "from": "0x76500b6A6C640aE7B695ef049F20d24A2ca476DF",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839616,
+    "category": "lock"
+   },
+   {
+    "hash": "0x881a962847a81fbf44b95fcdb6dc4bc27bf6dc47bc8514e269d9dd9929831ad7",
+    "timestamp": "2026-08-26T13:13:11.000000Z",
+    "method": "finalize",
+    "from": "0x85Bf62094387BbF12BC3503028cb3Da2F5075F15",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839611,
+    "category": "lock"
+   },
+   {
+    "hash": "0xc974b8400323ed7635e0655a1cbe955edfd685b2165ab118456685dc7b892868",
+    "timestamp": "2026-08-26T13:09:35.000000Z",
+    "method": "finalize",
+    "from": "0x150B55a25B5d416A489c0dFC23346f6da99AFed1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839593,
+    "category": "lock"
+   },
+   {
+    "hash": "0xe2c0d3938a47370dc5551c458d222dae03daf5376c60171f7d0bc27e2b836e70",
+    "timestamp": "2026-08-26T13:09:23.000000Z",
+    "method": "finalize",
+    "from": "0x912064700cc53CA921992a739E4510f9E060eDcc",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839592,
+    "category": "lock"
+   },
+   {
+    "hash": "0xa751720d0a5802a132afcc2c95476103fb2056425f4605608a4c03dada4460cf",
+    "timestamp": "2026-08-26T13:07:47.000000Z",
+    "method": "finalize",
+    "from": "0xB29be9DE4e34BD95D3a4C1F5089D99862FfA334c",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839584,
+    "category": "lock"
+   },
+   {
+    "hash": "0x979fd663aa0ab37b7e106159773c7c39efe07881210e1e9068203a37dc3a1ce1",
+    "timestamp": "2026-08-26T13:07:35.000000Z",
+    "method": "finalize",
+    "from": "0xb5F31EB9e70f88c5997a243DfB59b7097bcd84bE",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839583,
+    "category": "lock"
+   },
+   {
+    "hash": "0xfd4187900eb4067deed876fd66188ffd24b4cb0e38cfac1c949ce2a7ed5e42aa",
+    "timestamp": "2026-08-26T13:07:23.000000Z",
+    "method": "finalize",
+    "from": "0x131b857b0B78b3CF8417e7B870291cA39a38A40f",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839582,
+    "category": "lock"
+   },
+   {
+    "hash": "0x22ad6bf29971c3e174880edeefcb95d06e6003b540387f70903b06e3c9de245d",
+    "timestamp": "2026-08-26T13:07:23.000000Z",
+    "method": "finalize",
+    "from": "0x4d91838268f6d6D4e590e8fd2a001Cd91c32e7A4",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25839582,
+    "category": "lock"
+   },
+   {
+    "hash": "0x6ae722e191480d4604ace1c1ecc16759b76ac889d02eca33a98dc0d9ac78e655",
+    "timestamp": "2026-08-26T13:06:59.000000Z",
+    "method": "finalize",
+    "from": "0xeEa2A04dbF8A53d6758888815adeAb2630A17E7e",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839580,
+    "category": "lock"
+   },
+   {
+    "hash": "0x9bbfe7b28b80d8010332cc40f7588b12e8e458605aab30832d55c666db8bcef3",
+    "timestamp": "2026-08-26T13:06:59.000000Z",
+    "method": "finalize",
+    "from": "0x6481C685191b15f5259f2E1905b5AA86068B4992",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839580,
+    "category": "lock"
+   },
+   {
+    "hash": "0x23dbef87defb71199bd49e7ce84d708cf571a44c52a55ab4ce55ffe9ceccdec6",
+    "timestamp": "2026-08-26T13:06:59.000000Z",
+    "method": "finalize",
+    "from": "0xb696f23b2BD55d24786d2f3f3E7Ab9637a4CFf8A",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839580,
+    "category": "lock"
+   },
+   {
+    "hash": "0xa02a7ef04ca6793fe6a251ebce770ca4221488249dde4da6dea6639c19d077ed",
+    "timestamp": "2026-08-26T13:06:59.000000Z",
+    "method": "finalize",
+    "from": "0x51156138E475BD47E2953d8A7961672b27746970",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839580,
+    "category": "lock"
+   },
+   {
+    "hash": "0x9ea18e8614f1602982b0187e7488be3a36c23a536eff9860c7c9773f5a7f8e9e",
+    "timestamp": "2026-08-26T13:06:47.000000Z",
+    "method": "finalize",
+    "from": "0x07fC676A307F41dfa7e53b285cF87305B9ab940A",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839579,
+    "category": "lock"
+   },
+   {
+    "hash": "0xafc2ced7caa657c75d4bbad079f43bae3b9ea29da639b650db3ec698e0010e71",
+    "timestamp": "2026-08-26T13:06:35.000000Z",
+    "method": "finalize",
+    "from": "0x9A7710e1735Cf8eBd9f204B1683862CEC4086B58",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839578,
+    "category": "lock"
+   },
+   {
+    "hash": "0x449532b79f3f314aeecd0a2d8f6b4884da50c6cc49a496c7cfd5aaa0bb45cf42",
+    "timestamp": "2026-08-26T13:06:35.000000Z",
+    "method": "finalize",
+    "from": "0xE4B3C60C08c986B42CB43ec0a5Efc5B36E780EBd",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25839578,
+    "category": "lock"
+   },
+   {
+    "hash": "0x7de8f6977f360a2749108ad479944433ee7367ad55fc76599028e78a81a16ee0",
+    "timestamp": "2026-08-26T13:06:35.000000Z",
+    "method": "finalize",
+    "from": "0x024AEF1375c1701693b2a0c8e8AD7BaDf0dCe493",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25839578,
+    "category": "lock"
+   },
+   {
+    "hash": "0x44cf9ec49ad91a7b374f2a000f7c07d5cafbec592d6d62a83b238ecc7f9b41e1",
+    "timestamp": "2026-08-26T13:06:35.000000Z",
+    "method": "finalize",
+    "from": "0x71fE8f38d4ba5973def012752E13140414E335Eb",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25839578,
+    "category": "lock"
+   },
+   {
+    "hash": "0x3ec3f47413e5e313bcb89a15306200ad294f9ddd3fdf1f29cc86fa9a22392d74",
+    "timestamp": "2026-08-26T13:06:35.000000Z",
+    "method": "finalize",
+    "from": "0x866e61757D9652Cbbfdb68943B61BcD6f5546202",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839578,
+    "category": "lock"
+   },
+   {
+    "hash": "0x865a84c1f4d4a5527a897c268c7314191e1cb1fe617c451b7d3d6ca5ec1c5cbb",
+    "timestamp": "2026-08-26T13:06:35.000000Z",
+    "method": "finalize",
+    "from": "0x2AEbD48A41aC9061b8e5F119eD477Fb6168eB4E0",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25839578,
+    "category": "lock"
+   },
+   {
+    "hash": "0xeeb1c1f6f629fc3134c90c52e9980029bb33aa076fd3fe2e5ec5461488e32a51",
+    "timestamp": "2026-08-26T13:06:35.000000Z",
+    "method": "finalize",
+    "from": "0x8Bd84Ef2023b8077DbD30088413244d6e3D56797",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839578,
+    "category": "lock"
+   },
+   {
+    "hash": "0xd03f5771f154ec98600e34d6b37e991b806451062ff0d69fbb1f066452ce118e",
+    "timestamp": "2026-08-26T13:06:35.000000Z",
+    "method": "finalize",
+    "from": "0x38E08cf0961de6d29f79493ADE04e466F6b89DAD",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839578,
+    "category": "lock"
+   },
+   {
+    "hash": "0x91b270119d706f742ad3aefd3e47ad6fa6d4674cbbf7ae08f9a460d6cf0ff96f",
+    "timestamp": "2026-08-26T13:06:35.000000Z",
+    "method": "finalize",
+    "from": "0x39CbED01A977474000CCD7e0058169924011F134",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839578,
+    "category": "lock"
+   },
+   {
+    "hash": "0x2001ecaf2027f58828ebd26e8e18a7070bba178d05e74855ab3e03d70fdac4e9",
+    "timestamp": "2026-08-26T13:06:35.000000Z",
+    "method": "finalize",
+    "from": "0x89D222Fb6539B2677d67b2030845D4eA9EEd2881",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839578,
+    "category": "lock"
+   },
+   {
+    "hash": "0x502db7aa6dbfd312fa041b1d0ee934364b96a486e3207c7a23238c7d1f0c8708",
+    "timestamp": "2026-08-26T13:06:35.000000Z",
+    "method": "finalize",
+    "from": "0xC9bF6F801411E4f246a52e2899B226FF2fb1CD24",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25839578,
+    "category": "lock"
+   },
+   {
+    "truncated": true,
+    "chunk": 0
+   }
+  ],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 1,
+    "first": "2026-08-26",
+    "last": "2026-08-26",
+    "last_tx": "0x322c9d58f65f57d6fc0230e34790f29a4ce181742323d31db8552e374cc9ecd6",
+    "list": [
+     {
+      "date": "2026-08-26",
+      "tx": "0x322c9d58f65f57d6fc0230e34790f29a4ce181742323d31db8552e374cc9ecd6",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "f16e1176d95b35e1e5e425a51d7f231ac352a859"
+      ],
+      "data": "0x"
+     }
+    ]
+   },
+   "MetadataUpdate(uint256)": {
+    "n": 2,
+    "first": "2026-08-26",
+    "last": "2026-08-26",
+    "last_tx": "0xcec63bd9f84a3fd7be97e0f8632bc9b93376cd3cacd229b722f24beb9264032b",
+    "list": [
+     {
+      "date": "2026-08-26",
+      "tx": "0x68459f7e556946999bb1624f6c9870bfceced7a61df6b22341b30f1811ce7dfb",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000000"
+     },
+     {
+      "date": "2026-08-26",
+      "tx": "0xcec63bd9f84a3fd7be97e0f8632bc9b93376cd3cacd229b722f24beb9264032b",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000001492"
+     }
+    ]
+   },
+   "BatchMetadataUpdate(uint256,uint256)": {
+    "n": 12,
+    "first": "2026-08-26",
+    "last": "2026-10-21",
+    "last_tx": "0x40a24a37f6ce401321dea8c59ff8081d19a56b8fff188fb1511c3641ef57dcf7",
+    "list": [
+     {
+      "date": "2026-08-26",
+      "tx": "0xd0485653307f30a832e373de0e9462be50d3663721c74657946f9a20cbb1c15c",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000270f"
+     },
+     {
+      "date": "2026-08-31",
+      "tx": "0x685b1d30c1ba67ad68ffda6b90528a19e2e052b1b5e626c39535dac0731ee28f",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000270f"
+     },
+     {
+      "date": "2026-09-03",
+      "tx": "0x72edac36c8707b3ec5f11f028b5ba84fcb86462ee399f1685e299a45c30e54ce",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000270f"
+     },
+     {
+      "date": "2026-09-07",
+      "tx": "0x788ffdebb41352a7cfa369d9bc55c732bd6634020448df8a8a21671aa778bbae",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000270f"
+     },
+     {
+      "date": "2026-09-25",
+      "tx": "0xed48f675d3c80f8e8f92ea7004c4a7f58922fc0001dedce60b3bd1a99f34fc44",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000270f"
+     },
+     {
+      "date": "2026-09-25",
+      "tx": "0xe8b9bedd6527f2a86680b795fede4a3d75227c9e4c7cfdd172d241c6fc169e37",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000270f"
+     },
+     {
+      "date": "2026-10-02",
+      "tx": "0xd10b8f61170b74eca2cc065c5df04f4c85ef6a0dcc9c730203d8d41e8154f1fe",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000270f"
+     },
+     {
+      "date": "2026-10-02",
+      "tx": "0x29faea5a7c6d85d9533220da609346950b8088df6dcde59824bb0f70c08680f3",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000270f"
+     },
+     {
+      "date": "2026-10-05",
+      "tx": "0x5570a737834f570414ee7013be8594d28e2d8994a05c1a9a05ed2756f13f34e9",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000270f"
+     },
+     {
+      "date": "2026-10-07",
+      "tx": "0x672e3b1748f94629322729e2dc8e2aafb31bb2bc1f57c96ab2c61952b1496a96",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000270f"
+     },
+     {
+      "date": "2026-10-14",
+      "tx": "0xd6da3d9ad7499bd29b326eae2ead759b40a804ed5e27704375ab7c01b9ec3557",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000270f"
+     },
+     {
+      "date": "2026-10-21",
+      "tx": "0x40a24a37f6ce401321dea8c59ff8081d19a56b8fff188fb1511c3641ef57dcf7",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000270f"
+     }
+    ]
+   },
+   "ArtistSigned(address,string)": {
+    "n": 1,
+    "first": "2026-08-26",
+    "last": "2026-08-26",
+    "last_tx": "0x1cef74f37f857ebcca6f4de89fac50dd32a8f4334393cfc0b106ba72ec81f226",
+    "list": [
+     {
+      "date": "2026-08-26",
+      "tx": "0x1cef74f37f857ebcca6f4de89fac50dd32a8f4334393cfc0b106ba72ec81f226",
+      "topics": [
+       "03ee832367e29a5cd001f65093283eabb5382b62"
+      ],
+      "data": "0x00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000010"
+     }
+    ]
+   },
+   "SiteDescriptionSet(string)": {
+    "n": 0
+   }
+  },
+  "decoded": [
+   {
+    "hash": "0x685b1d30c1ba67ad68ffda6b90528a19e2e052b1b5e626c39535dac0731ee28f",
+    "timestamp": "2026-08-31T20:07:59.000000Z",
+    "method": "setRenderer",
+    "category": "renderer",
+    "from": "0xf16E1176d95B35E1e5E425a51d7f231Ac352A859",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0x4695062dd890e230074b411233c788dbc68b4f79"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0xd6da3d9ad7499bd29b326eae2ead759b40a804ed5e27704375ab7c01b9ec3557",
+    "timestamp": "2026-10-14T02:06:11.000000Z",
+    "method": "setRenderer",
+    "category": "renderer",
+    "from": "0xf16E1176d95B35E1e5E425a51d7f231Ac352A859",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0x50b2d89f5e87a203533a3585c1b7961fddd62d2e"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0x40a24a37f6ce401321dea8c59ff8081d19a56b8fff188fb1511c3641ef57dcf7",
+    "timestamp": "2026-10-21T15:24:47.000000Z",
+    "method": "setRenderer",
+    "category": "renderer",
+    "from": "0xf16E1176d95B35E1e5E425a51d7f231Ac352A859",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0x9e322a085d932258d1bdf36e72d91fd10995f16d"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   }
+  ],
+  "ownership_transfers": [
+   {
+    "date": "2026-08-26",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0xf16e1176d95b35e1e5e425a51d7f231ac352a859",
+    "tx": "0x322c9d58f65f57d6fc0230e34790f29a4ce181742323d31db8552e374cc9ecd6"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0x387c41b0b2f1128de44db1bcf8baad085f26392c_reads1.json",
+ "eip4906": true,
+ "owner": {
+  "addr": "0xf16e1176d95b35e1e5e425a51d7f231ac352a859",
+  "code_raw": "data/raw/rpc-mutability/0xf16e1176d95b35e1e5e425a51d7f231ac352a859_holdercode.json",
+  "type": "eoa",
+  "bs_name": null,
+  "ens": null,
+  "bs_impl_names": [],
+  "bs_tags": [],
+  "is_contract": false,
+  "creator": null,
+  "is_verified": false,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "override",
+ "lock_functions": [
+  "finalize"
+ ],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [
+  {
+   "name": "setRenderer",
+   "sig": "setRenderer(address)",
+   "selector": "0x56d3163d",
+   "category": "renderer",
+   "inputs": [
+    "address"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "renderer = IRenderer(r);\n        emit BatchMetadataUpdate(1, MAX_ID);",
+   "writes": [
+    "renderer"
+   ],
+   "effective": "yes",
+   "power": "eoa",
+   "holder_addrs": [
+    "0xf16e1176d95b35e1e5e425a51d7f231ac352a859"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xf16e1176d95b35e1e5e425a51d7f231ac352a859",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "setSiteDescription",
+   "sig": "setSiteDescription(string)",
+   "selector": "0x98cd1857",
+   "category": "renderer",
+   "inputs": [
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "_requireJsonSafe(bytes(d));\n        siteDescription = d;\n        emit SiteDescriptionSet(d);\n        emit MetadataUpdate(SITE_TOKEN_ID);",
+   "writes": [
+    "siteDescription"
+   ],
+   "effective": "yes",
+   "power": "eoa",
+   "holder_addrs": [
+    "0xf16e1176d95b35e1e5e425a51d7f231ac352a859"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xf16e1176d95b35e1e5e425a51d7f231ac352a859",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "setTraitChunk",
+   "sig": "setTraitChunk(uint256,bytes)",
+   "selector": "0x90706ad2",
+   "category": "renderer",
+   "inputs": [
+    "uint256",
+    "bytes"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "if (poolPointer != address(0)) revert TableFrozen();\n        traitChunks[index] = SSTORE2.write(data);",
+   "writes": [
+    "traitChunks"
+   ],
+   "effective": "yes",
+   "power": "eoa",
+   "holder_addrs": [
+    "0xf16e1176d95b35e1e5e425a51d7f231ac352a859"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xf16e1176d95b35e1e5e425a51d7f231ac352a859",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  }
+ ],
+ "class_direct": "eoa-mutable",
+ "class_reason": "live setters (eoa): setRenderer,setSiteDescription,setTraitChunk",
+ "live_mutators": [
+  "setRenderer",
+  "setSiteDescription",
+  "setTraitChunk"
+ ],
+ "dependencies": [
+  {
+   "address": "0xc2f2bcb67e3981f1ef00ac3c4ff07dc81f3dc9fd",
+   "via": "poolPointer()",
+   "in_tokenuri_path": false,
+   "via_setter": false,
+   "analysis": {
+    "address": "0xc2f2bcb67e3981f1ef00ac3c4ff07dc81f3dc9fd",
+    "verified": false,
+    "contract_name": "",
+    "proxy": {
+     "kind": null
+    },
+    "owner": null,
+    "admin_fn": null,
+    "uups": false,
+    "lock_views": {},
+    "lock_flags_true": {},
+    "lock_functions": [],
+    "class_direct": "unknown",
+    "class_reason": "unverified source; no known setter selectors in bytecode",
+    "live_mutators": [],
+    "mutators": [],
+    "history": {},
+    "unverified_selector_hits": [],
+    "tokenuri_path": "n/a"
+   }
+  },
+  {
+   "address": "0x9e322a085d932258d1bdf36e72d91fd10995f16d",
+   "via": "renderer()",
+   "in_tokenuri_path": true,
+   "via_setter": true,
+   "analysis": {
+    "address": "0x9e322a085d932258d1bdf36e72d91fd10995f16d",
+    "verified": true,
+    "contract_name": "ArgonautsRendererV12",
+    "proxy": {
+     "kind": null
+    },
+    "owner": {
+     "addr": "0xf16e1176d95b35e1e5e425a51d7f231ac352a859",
+     "code_raw": "data/raw/rpc-mutability/0xf16e1176d95b35e1e5e425a51d7f231ac352a859_holdercode.json",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "bs_impl_names": [],
+     "bs_tags": [],
+     "is_contract": false,
+     "creator": null,
+     "is_verified": false,
+     "bs_reputation": "ok"
+    },
+    "admin_fn": null,
+    "uups": false,
+    "lock_views": {},
+    "lock_flags_true": {},
+    "lock_functions": [],
+    "class_direct": "immutable",
+    "class_reason": "no uri/renderer/upgrade function in ABI and not a proxy",
+    "live_mutators": [],
+    "mutators": [],
+    "history": {},
+    "unverified_selector_hits": [],
+    "tokenuri_path": "override"
+   }
+  },
+  {
+   "address": "0xa7255d096588052a62d8c800cb8bb840d0a04d59",
+   "via": "site()",
+   "in_tokenuri_path": true,
+   "via_setter": false,
+   "analysis": {
+    "address": "0xa7255d096588052a62d8c800cb8bb840d0a04d59",
+    "verified": true,
+    "contract_name": "ArgonautsSite",
+    "proxy": {
+     "kind": null
+    },
+    "owner": {
+     "addr": "0xf16e1176d95b35e1e5e425a51d7f231ac352a859",
+     "code_raw": "data/raw/rpc-mutability/0xf16e1176d95b35e1e5e425a51d7f231ac352a859_holdercode.json",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "bs_impl_names": [],
+     "bs_tags": [],
+     "is_contract": false,
+     "creator": null,
+     "is_verified": false,
+     "bs_reputation": "ok"
+    },
+    "admin_fn": null,
+    "uups": false,
+    "lock_views": {
+     "locked": 1
+    },
+    "lock_flags_true": {
+     "locked": 1
+    },
+    "lock_functions": [
+     "lockSite"
+    ],
+    "class_direct": "immutable",
+    "class_reason": "no uri/renderer/upgrade function in ABI and not a proxy",
+    "live_mutators": [],
+    "mutators": [],
+    "history": {},
+    "unverified_selector_hits": [],
+    "tokenuri_path": "none"
+   }
+  }
+ ],
+ "meta": {
+  "address": "0x387c41b0b2f1128de44db1bcf8baad085f26392c",
+  "name": "Argonauts",
+  "w5_claim_strength": null,
+  "w5_claim_text": null,
+  "w5_source_type": null,
+  "w5_source_url": null,
+  "holders_count": 12115.0,
+  "in_w5": false,
+  "gallery_slugs": "argonauts",
+  "gallery_tokens": "1",
+  "in_gallery": true,
+  "census_meta_class": "onchain-renderer",
+  "census_media_class": "data-uri",
+  "census_liveness": "alive",
+  "in_census_onchain": true,
+  "standard": "ERC-721",
+  "creator": "0xf16e1176d95b35e1e5e425a51d7f231ac352a859",
+  "deploy_block": 25837497.0
+ },
+ "class_deps_all": "unknown",
+ "class_deps": "immutable",
+ "class_final": "eoa-mutable",
+ "pointer_power": "eoa"
+}

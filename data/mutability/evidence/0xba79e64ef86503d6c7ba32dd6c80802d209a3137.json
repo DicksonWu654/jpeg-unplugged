@@ -1,0 +1,103 @@
+{
+ "address": "0xba79e64ef86503d6c7ba32dd6c80802d209a3137",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:48Z",
+ "code_raw": "data/raw/rpc-mutability/0xba79e64ef86503d6c7ba32dd6c80802d209a3137_code.json",
+ "code_len": 21614,
+ "slots": {
+  "slot0": "0x4e46544e6577734365727437360000000000000000000000000000000000001a"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0xba79e64ef86503d6c7ba32dd6c80802d209a3137_slots.json",
+ "verified": true,
+ "contract_name": "NFTNewsCert",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 1,
+    "first": "2022-07-17",
+    "last": "2022-07-17",
+    "last_tx": "0x0cdd1b40717ea563190b534192713dc566884486228fabf34e3194e786e524ae",
+    "list": [
+     {
+      "date": "2022-07-17",
+      "tx": "0x0cdd1b40717ea563190b534192713dc566884486228fabf34e3194e786e524ae",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "be4c70b7288ff489a4f13c7f9e57f4fd4694bc98"
+      ],
+      "data": "0x"
+     }
+    ]
+   }
+  },
+  "decoded": [],
+  "ownership_transfers": [
+   {
+    "date": "2022-07-17",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0xbe4c70b7288ff489a4f13c7f9e57f4fd4694bc98",
+    "tx": "0x0cdd1b40717ea563190b534192713dc566884486228fabf34e3194e786e524ae"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0xba79e64ef86503d6c7ba32dd6c80802d209a3137_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0xbe4c70b7288ff489a4f13c7f9e57f4fd4694bc98",
+  "code_raw": "data/raw/rpc-mutability/0xbe4c70b7288ff489a4f13c7f9e57f4fd4694bc98_holdercode.json",
+  "type": "eoa",
+  "bs_name": null,
+  "ens": null,
+  "bs_impl_names": [],
+  "bs_tags": [],
+  "is_contract": false,
+  "creator": null,
+  "is_verified": false,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "override",
+ "lock_functions": [],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [],
+ "class_direct": "immutable",
+ "class_reason": "no uri/renderer/upgrade function in ABI and not a proxy",
+ "live_mutators": [],
+ "dependencies": [],
+ "meta": {
+  "address": "0xba79e64ef86503d6c7ba32dd6c80802d209a3137",
+  "name": "NFTNewsCert76",
+  "w5_claim_strength": null,
+  "w5_claim_text": null,
+  "w5_source_type": null,
+  "w5_source_url": null,
+  "holders_count": 100.0,
+  "in_w5": false,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": "onchain-renderer",
+  "census_media_class": "data-uri",
+  "census_liveness": "alive",
+  "in_census_onchain": true,
+  "standard": "ERC-721",
+  "creator": "0xbe4c70b7288ff489a4f13c7f9e57f4fd4694bc98",
+  "deploy_block": 15157329.0
+ },
+ "class_deps_all": "none",
+ "class_deps": "none",
+ "class_final": "immutable",
+ "pointer_power": null
+}

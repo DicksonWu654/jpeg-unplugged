@@ -1,0 +1,709 @@
+{
+ "address": "0x16f8cd1fedb3203e8fd6a5fa041b34cee087398b",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:29Z",
+ "code_raw": "data/raw/rpc-mutability/0x16f8cd1fedb3203e8fd6a5fa041b34cee087398b_code.json",
+ "code_len": 22504,
+ "slots": {
+  "slot0": "0x0000000000000000000000000000000000000000000000000000000000001e61"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0x16f8cd1fedb3203e8fd6a5fa041b34cee087398b_slots.json",
+ "verified": true,
+ "contract_name": "Indelible",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [
+   {
+    "hash": "0x8dc4654f48329de3acfd9ee4c196158be906b0c1763eb0b25e9e111c1feed43e",
+    "timestamp": "2026-04-16T11:27:23.000000Z",
+    "method": "setRenderOfTokenId",
+    "from": "0x7521b658D6fe4048C89DE1E867f70d252b17fB7C",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 24892082,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x17a8181244e89a291c98b07694c24e62458ee204f98c054c0c8006a2bebfd26a",
+    "timestamp": "2026-02-05T04:47:59.000000Z",
+    "method": "transferOwnership",
+    "from": "0x407e0b2cD7C7bde8828FD579F1FBFdF8Eb75B02b",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 24388346,
+    "category": "ownership"
+   },
+   {
+    "hash": "0x01bdb55b8af060c9307b9aeea9363733fa62bef1ac860281ecf3b3bcd04b6634",
+    "timestamp": "2023-06-24T16:44:23.000000Z",
+    "method": "setRenderOfTokenId",
+    "from": "0x04F4eA70913eF66977980Ef2cE2908109dD5fd04",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 17550642,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x55865b9dda3d4ae3e6b6c2f9d3758db994585cf468531650d66fae4b40aed932",
+    "timestamp": "2023-06-24T00:06:47.000000Z",
+    "method": "setRenderOfTokenId",
+    "from": "0x407e0b2cD7C7bde8828FD579F1FBFdF8Eb75B02b",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 17545721,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x99f52a13aa5a43e55dae95ee1f550130e3e166ce9d699d68da51dd4034764cf8",
+    "timestamp": "2022-10-08T03:37:23.000000Z",
+    "method": "setBaseURI",
+    "from": "0x407e0b2cD7C7bde8828FD579F1FBFdF8Eb75B02b",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15700728,
+    "category": "uri"
+   },
+   {
+    "hash": "0x57f28bccb82afb314c6afbbb2b9bb1a5a6b3a04ac77913dfb7a63d2b7ff5d6fe",
+    "timestamp": "2022-10-08T01:49:11.000000Z",
+    "method": "setRenderOfTokenId",
+    "from": "0xa93025dF18866119C3b3a2360904B6fe6D966c06",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15700191,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xe4af7d8d6c1f3dc1309fd1a4654ea586ebafc5f4c830a6e5790db6ee7da1ee91",
+    "timestamp": "2022-10-06T08:28:47.000000Z",
+    "method": "addLayer",
+    "from": "0x407e0b2cD7C7bde8828FD579F1FBFdF8Eb75B02b",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15687874,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x1b5d53e84d501e3cd179dbbabb2acaf7187a300dee1c8ffe1bf1be25d4e510a9",
+    "timestamp": "2022-10-06T08:28:11.000000Z",
+    "method": "addLayer",
+    "from": "0x407e0b2cD7C7bde8828FD579F1FBFdF8Eb75B02b",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15687871,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xfec230c26974bbd066db454dc18e6306b1b0caf196779a4e4cdf71861d3f6ca5",
+    "timestamp": "2022-10-06T08:27:59.000000Z",
+    "method": "addLayer",
+    "from": "0x407e0b2cD7C7bde8828FD579F1FBFdF8Eb75B02b",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15687870,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x325480278ad62e9620f214d2567fe4d8ac6a788a0ec9084014d65dcf997ba632",
+    "timestamp": "2022-10-06T07:12:11.000000Z",
+    "method": "addLayer",
+    "from": "0x407e0b2cD7C7bde8828FD579F1FBFdF8Eb75B02b",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15687494,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x0ec4cdbd3c41cb2435cfad0a9fdb3a761132bc3dee7bcb1318b8864e4581f1e0",
+    "timestamp": "2022-10-06T07:12:11.000000Z",
+    "method": "addLayer",
+    "from": "0x407e0b2cD7C7bde8828FD579F1FBFdF8Eb75B02b",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15687494,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x9259a15104d6dce7d043c377988456611dcc98e15f4d56e091b8c7b3348c81fe",
+    "timestamp": "2022-10-06T07:12:11.000000Z",
+    "method": "addLayer",
+    "from": "0x407e0b2cD7C7bde8828FD579F1FBFdF8Eb75B02b",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15687494,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x52e650b569039d4753241f7343b27ffa60fa3ec7da688833d71dcde845d68a1f",
+    "timestamp": "2022-10-06T07:06:11.000000Z",
+    "method": "addLayer",
+    "from": "0x407e0b2cD7C7bde8828FD579F1FBFdF8Eb75B02b",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15687464,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xe8f077c2f1702a9fecc2a2776c070b48547a0dde3b77bdba02da0fa0b580a21e",
+    "timestamp": "2022-10-06T07:06:11.000000Z",
+    "method": "addLayer",
+    "from": "0x407e0b2cD7C7bde8828FD579F1FBFdF8Eb75B02b",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15687464,
+    "category": "renderer"
+   }
+  ],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 2,
+    "first": "2022-10-06",
+    "last": "2026-02-05",
+    "last_tx": "0x17a8181244e89a291c98b07694c24e62458ee204f98c054c0c8006a2bebfd26a",
+    "list": [
+     {
+      "date": "2022-10-06",
+      "tx": "0x472c9e5f356af4c22127865a907d17f53d213fc4f9e3edb78fa02b9c614bf8eb",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "407e0b2cd7c7bde8828fd579f1fbfdf8eb75b02b"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-02-05",
+      "tx": "0x17a8181244e89a291c98b07694c24e62458ee204f98c054c0c8006a2bebfd26a",
+      "topics": [
+       "407e0b2cd7c7bde8828fd579f1fbfdf8eb75b02b",
+       "ea19bd56f8f667b37dc98feea3f27124e3ce243f"
+      ],
+      "data": "0x"
+     }
+    ]
+   }
+  },
+  "decoded": [
+   {
+    "hash": "0x52e650b569039d4753241f7343b27ffa60fa3ec7da688833d71dcde845d68a1f",
+    "timestamp": "2022-10-06T07:06:11.000000Z",
+    "method": "addLayer",
+    "category": "renderer",
+    "from": "0x407e0b2cD7C7bde8828FD579F1FBFdF8Eb75B02b",
+    "params": [
+     {
+      "name": "raw",
+      "type": "bytes",
+      "value": "0000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0xe8f077c2f1702a9fecc2a2776c070b48547a0dde3b77bdba02da0fa0b580a21e",
+    "timestamp": "2022-10-06T07:06:11.000000Z",
+    "method": "addLayer",
+    "category": "renderer",
+    "from": "0x407e0b2cD7C7bde8828FD579F1FBFdF8Eb75B02b",
+    "params": [
+     {
+      "name": "raw",
+      "type": "bytes",
+      "value": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0x325480278ad62e9620f214d2567fe4d8ac6a788a0ec9084014d65dcf997ba632",
+    "timestamp": "2022-10-06T07:12:11.000000Z",
+    "method": "addLayer",
+    "category": "renderer",
+    "from": "0x407e0b2cD7C7bde8828FD579F1FBFdF8Eb75B02b",
+    "params": [
+     {
+      "name": "raw",
+      "type": "bytes",
+      "value": "0000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0x57f28bccb82afb314c6afbbb2b9bb1a5a6b3a04ac77913dfb7a63d2b7ff5d6fe",
+    "timestamp": "2022-10-08T01:49:11.000000Z",
+    "method": "setRenderOfTokenId",
+    "category": "renderer",
+    "from": "0xa93025dF18866119C3b3a2360904B6fe6D966c06",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "uint256",
+      "value": "7546"
+     },
+     {
+      "name": "arg1",
+      "type": "bool",
+      "value": "True"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0x99f52a13aa5a43e55dae95ee1f550130e3e166ce9d699d68da51dd4034764cf8",
+    "timestamp": "2022-10-08T03:37:23.000000Z",
+    "method": "setBaseURI",
+    "category": "uri",
+    "from": "0x407e0b2cD7C7bde8828FD579F1FBFdF8Eb75B02b",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "string",
+      "value": "https://app.indelible.xyz/api/png/0x16f8cd1fedb3203e8fd6a5fa041b34cee087398b/"
+     }
+    ],
+    "value_kinds": [
+     "http"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0x55865b9dda3d4ae3e6b6c2f9d3758db994585cf468531650d66fae4b40aed932",
+    "timestamp": "2023-06-24T00:06:47.000000Z",
+    "method": "setRenderOfTokenId",
+    "category": "renderer",
+    "from": "0x407e0b2cD7C7bde8828FD579F1FBFdF8Eb75B02b",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "uint256",
+      "value": "2139"
+     },
+     {
+      "name": "arg1",
+      "type": "bool",
+      "value": "True"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0x01bdb55b8af060c9307b9aeea9363733fa62bef1ac860281ecf3b3bcd04b6634",
+    "timestamp": "2023-06-24T16:44:23.000000Z",
+    "method": "setRenderOfTokenId",
+    "category": "renderer",
+    "from": "0x04F4eA70913eF66977980Ef2cE2908109dD5fd04",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "uint256",
+      "value": "6395"
+     },
+     {
+      "name": "arg1",
+      "type": "bool",
+      "value": "True"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0x8dc4654f48329de3acfd9ee4c196158be906b0c1763eb0b25e9e111c1feed43e",
+    "timestamp": "2026-04-16T11:27:23.000000Z",
+    "method": "setRenderOfTokenId",
+    "category": "renderer",
+    "from": "0x7521b658D6fe4048C89DE1E867f70d252b17fB7C",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "uint256",
+      "value": "6395"
+     },
+     {
+      "name": "arg1",
+      "type": "bool",
+      "value": "False"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0x17a8181244e89a291c98b07694c24e62458ee204f98c054c0c8006a2bebfd26a",
+    "timestamp": "2026-02-05T04:47:59.000000Z",
+    "method": "transferOwnership",
+    "category": "ownership",
+    "from": "0x407e0b2cD7C7bde8828FD579F1FBFdF8Eb75B02b",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0xea19bd56f8f667b37dc98feea3f27124e3ce243f"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   }
+  ],
+  "ownership_transfers": [
+   {
+    "date": "2022-10-06",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0x407e0b2cd7c7bde8828fd579f1fbfdf8eb75b02b",
+    "tx": "0x472c9e5f356af4c22127865a907d17f53d213fc4f9e3edb78fa02b9c614bf8eb"
+   },
+   {
+    "date": "2026-02-05",
+    "from": "0x407e0b2cd7c7bde8828fd579f1fbfdf8eb75b02b",
+    "to": "0xea19bd56f8f667b37dc98feea3f27124e3ce243f",
+    "tx": "0x17a8181244e89a291c98b07694c24e62458ee204f98c054c0c8006a2bebfd26a"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0x16f8cd1fedb3203e8fd6a5fa041b34cee087398b_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0xea19bd56f8f667b37dc98feea3f27124e3ce243f",
+  "code_raw": "data/raw/rpc-mutability/0xea19bd56f8f667b37dc98feea3f27124e3ce243f_holdercode.json",
+  "type": "eoa",
+  "bs_name": null,
+  "ens": "cryptofuks.eth",
+  "bs_impl_names": [],
+  "bs_tags": [],
+  "is_contract": false,
+  "creator": null,
+  "is_verified": false,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {
+  "isContractSealed": 0
+ },
+ "tokenuri_path": "override",
+ "lock_functions": [
+  "sealContract"
+ ],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [
+  {
+   "name": "setBaseURI",
+   "sig": "setBaseURI(string)",
+   "selector": "0x55f804b3",
+   "category": "uri",
+   "inputs": [
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "baseURI = _baseURI;",
+   "writes": [
+    "baseURI"
+   ],
+   "effective": "yes",
+   "power": "eoa",
+   "holder_addrs": [
+    "0xea19bd56f8f667b37dc98feea3f27124e3ce243f"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xea19bd56f8f667b37dc98feea3f27124e3ce243f",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": "cryptofuks.eth",
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "addLayer",
+   "sig": "addLayer(uint256,(string,string,bytes,bool,uint256)[])",
+   "selector": "0x61ab9d0c",
+   "category": "renderer",
+   "inputs": [
+    "uint256",
+    "tuple[]"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner",
+    "whenUnsealed"
+   ],
+   "body_head": "require(TIERS[_layerIndex].length == traits.length, \"Traits size does not match tiers for this index\");\n            address[] memory dataPointers = new address[",
+   "writes": [
+    "_traitDataPointers",
+    "_traitDetails",
+    "dataPointers"
+   ],
+   "effective": "yes",
+   "power": "eoa",
+   "holder_addrs": [
+    "0xea19bd56f8f667b37dc98feea3f27124e3ce243f"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [
+    "isContractSealed"
+   ],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xea19bd56f8f667b37dc98feea3f27124e3ce243f",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": "cryptofuks.eth",
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "addTrait",
+   "sig": "addTrait(uint256,uint256,(string,string,bytes,bool,uint256))",
+   "selector": "0xd36c2f26",
+   "category": "renderer",
+   "inputs": [
+    "uint256",
+    "uint256",
+    "tuple"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner",
+    "whenUnsealed"
+   ],
+   "body_head": "_traitDetails[_layerIndex][_traitIndex] = Trait(trait.name, trait.mimetype);\n            address[] memory dataPointers = _traitDataPointers[_layerIndex];\n      ",
+   "writes": [
+    "_traitDataPointers",
+    "_traitDetails",
+    "dataPointers"
+   ],
+   "effective": "yes",
+   "power": "eoa",
+   "holder_addrs": [
+    "0xea19bd56f8f667b37dc98feea3f27124e3ce243f"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [
+    "isContractSealed"
+   ],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xea19bd56f8f667b37dc98feea3f27124e3ce243f",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": "cryptofuks.eth",
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "setBackgroundColor",
+   "sig": "setBackgroundColor(string)",
+   "selector": "0x6190e1da",
+   "category": "renderer",
+   "inputs": [
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner",
+    "whenUnsealed"
+   ],
+   "body_head": "backgroundColor = _backgroundColor;",
+   "writes": [
+    "backgroundColor"
+   ],
+   "effective": "yes",
+   "power": "eoa",
+   "holder_addrs": [
+    "0xea19bd56f8f667b37dc98feea3f27124e3ce243f"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [
+    "isContractSealed"
+   ],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xea19bd56f8f667b37dc98feea3f27124e3ce243f",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": "cryptofuks.eth",
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "setLinkedTraits",
+   "sig": "setLinkedTraits((uint256[],uint256[])[])",
+   "selector": "0xb4568066",
+   "category": "renderer",
+   "inputs": [
+    "tuple[]"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner",
+    "whenUnsealed"
+   ],
+   "body_head": "for (uint i = 0; i < linkedTraits.length; i++) {\n                _linkedTraits[linkedTraits[i].traitA[0]][linkedTraits[i].traitA[1]] = [linkedTraits[i].traitB[0",
+   "writes": [],
+   "effective": "unknown",
+   "power": "eoa",
+   "holder_addrs": [
+    "0xea19bd56f8f667b37dc98feea3f27124e3ce243f"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [
+    "isContractSealed"
+   ],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xea19bd56f8f667b37dc98feea3f27124e3ce243f",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": "cryptofuks.eth",
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "setRenderOfTokenId",
+   "sig": "setRenderOfTokenId(uint256,bool)",
+   "selector": "0xdbe9875f",
+   "category": "renderer",
+   "inputs": [
+    "uint256",
+    "bool"
+   ],
+   "gates": [
+    {
+     "type": "token-owner",
+     "ref": "ownerOf"
+    }
+   ],
+   "modifiers": [],
+   "body_head": "require(msg.sender == ownerOf(_tokenId), \"Only the token owner can set the render method\");\n            _renderTokenOffChain[_tokenId] = _renderOffChain;",
+   "writes": [
+    "_renderTokenOffChain"
+   ],
+   "effective": "yes",
+   "power": "token-holder",
+   "holder_addrs": [],
+   "holder_how": [
+    "ownerOf"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": true,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": []
+  }
+ ],
+ "class_direct": "eoa-mutable",
+ "class_reason": "live setters (eoa): addLayer,addTrait,setBackgroundColor,setBaseURI,setLinkedTraits",
+ "live_mutators": [
+  "addLayer",
+  "addTrait",
+  "setBackgroundColor",
+  "setBaseURI",
+  "setLinkedTraits",
+  "setRenderOfTokenId"
+ ],
+ "dependencies": [],
+ "meta": {
+  "address": "0x16f8cd1fedb3203e8fd6a5fa041b34cee087398b",
+  "name": "Cryptofuks",
+  "w5_claim_strength": "explicit-100%/fully",
+  "w5_claim_text": "Cryptofuks is a generative 7777 piece, 100% on-chain NFT collection.",
+  "w5_source_type": "contractURI",
+  "w5_source_url": "data:application/json;base64,eyJuYW1lIjoiQ3J5cHRvZnVrcyIsImRlc2NyaXB0aW9uIjoiQ3J5cHRvZnVrcyBpcyBhIGdlbmVyYXRpdmUgNzc3NyBwaWVjZSwgMTAwJSBvbi1jaGFpbiBORlQgY29sbGVjdGlvbi4iLCJpbWFnZSI6Imh0dHBzOi8vaW5kZWx",
+  "holders_count": 1176.0,
+  "in_w5": true,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": null,
+  "census_media_class": null,
+  "census_liveness": null,
+  "in_census_onchain": false,
+  "standard": "ERC-721",
+  "creator": "0x407e0b2cd7c7bde8828fd579f1fbfdf8eb75b02b",
+  "deploy_block": 15687458.0
+ },
+ "class_deps_all": "none",
+ "class_deps": "none",
+ "class_final": "eoa-mutable",
+ "pointer_power": "eoa"
+}

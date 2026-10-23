@@ -1,0 +1,738 @@
+{
+  "collection": {
+    "rank": 53,
+    "source_rank": 55,
+    "name": "WebbLand",
+    "contract": "0xa1d4657e0e6507d5a94d06da93e94dc7c8c44b51",
+    "contracts": [
+      "0xa1d4657e0e6507d5a94d06da93e94dc7c8c44b51"
+    ],
+    "slug": "webbland1",
+    "volume_usd": 100643641.9,
+    "volume_source": "CryptoSlam all-time Ethereum owner-to-owner sales, wash-filtered USD",
+    "source_url": "https://web-api.cryptoslam.io/v1/sales/rank-by-volume?timeRange=all&orderBy=rank&sortDirection=asc&offset=0&limit=100&blockchainId=0&hideInscriptions=false",
+    "ranking_evidence": "data/raw/top100-api/cryptoslam-ranking-0.json",
+    "identity_evidence": "data/raw/top100-api/cryptoslam-info-webbland1.json",
+    "token_count": 9508,
+    "all_time_volume": 100643641.9,
+    "volume_currency": "USD",
+    "kind": "virtual-land",
+    "metadata_location": "ipfs",
+    "metadata_classes": [
+      "ipfs"
+    ],
+    "media_location": "mixed(http,ipfs)",
+    "primary_image_location": "ipfs",
+    "media_classes": [
+      "http",
+      "ipfs"
+    ],
+    "liveness": "alive",
+    "liveness_exact": "alive",
+    "all_declared_media_liveness": "degraded",
+    "metadata_failed": false,
+    "n_alive": 3,
+    "n_dead": 0,
+    "n_unknown": 0,
+    "n_degraded": 0,
+    "key_domain_or_gateway": "apartments.webb.game",
+    "hosts": [
+      "apartments.webb.game"
+    ],
+    "hardcoded_gateways": [],
+    "http_origin_dependency": true,
+    "uses_ipfs": true,
+    "uses_arweave": false,
+    "fully_onchain_all_declared_media": false,
+    "metadata_and_primary_image_onchain": false,
+    "mutability_class": "eoa-mutable",
+    "single_key_mutable": true,
+    "single_key_repointable": true,
+    "base_uri_or_renderer": "0xa1d4657e0e6507d5a94d06da93e94dc7c8c44b51.baseURI() = ipfs://QmaCGg6pgDZZQBQZiFUJSAuTiCbyj5DTj7hxk2Bj2GJ6sy/",
+    "control": [
+      {
+        "contract": "0xa1d4657e0e6507d5a94d06da93e94dc7c8c44b51",
+        "class": "eoa-mutable",
+        "pointer_power": "eoa",
+        "reason": "live setters (eoa): setBaseURI",
+        "owner": {
+          "addr": "0xb8d682deb3014fb44ea84a3f9f70126cefa4b5e5",
+          "code_raw": "data/raw/rpc-mutability/0xb8d682deb3014fb44ea84a3f9f70126cefa4b5e5_holdercode.json",
+          "type": "eoa",
+          "bs_name": null,
+          "ens": "worldwidewebb.eth",
+          "bs_impl_names": [],
+          "bs_tags": [],
+          "is_contract": false,
+          "creator": null,
+          "is_verified": false,
+          "bs_reputation": "ok"
+        },
+        "proxy": {
+          "kind": null
+        },
+        "live_mutators": [
+          {
+            "name": "setBaseURI",
+            "sig": "setBaseURI(string)",
+            "category": "uri",
+            "power": "eoa",
+            "holders": [
+              {
+                "addr": "0xb8d682deb3014fb44ea84a3f9f70126cefa4b5e5",
+                "type": "eoa",
+                "bs_name": null,
+                "ens": "worldwidewebb.eth",
+                "desc": "eoa",
+                "simple": "eoa"
+              }
+            ],
+            "effective": "unknown",
+            "reason": null
+          }
+        ],
+        "lock_flags": {},
+        "dependencies": [],
+        "pointer_getters": [
+          {
+            "getter": "baseURI()",
+            "type": "string",
+            "ok": true,
+            "value": "ipfs://QmaCGg6pgDZZQBQZiFUJSAuTiCbyj5DTj7hxk2Bj2GJ6sy/",
+            "error": null
+          }
+        ],
+        "analyzed_at": "2026-10-23T02:52:04Z",
+        "history_incomplete": false,
+        "evidence": "data/raw/top100-mutability/0xa1d4657e0e6507d5a94d06da93e94dc7c8c44b51.json"
+      }
+    ],
+    "samples": 3,
+    "distinct_token_ids": 3,
+    "sample_note": null,
+    "source_contracts_without_sampleable_nfts": [],
+    "ownership_scope_gaps": [],
+    "refreshed_at": "2026-10-23T03:05:03Z",
+    "opensea_rank": 73,
+    "ranking_scope_disagreement": false,
+    "metadata_adapter": false,
+    "evidence": [
+      "data/raw/top100-census/0xa1d4657e0e6507d5a94d06da93e94dc7c8c44b51/result.json.gz"
+    ],
+    "delivery_note": null
+  },
+  "samples": [
+    {
+      "contract": "0xa1d4657e0e6507d5a94d06da93e94dc7c8c44b51",
+      "token_id": "9000",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(0) [low; totalSupply=9069]",
+      "metadata_location": "ipfs",
+      "metadata_uri": "ipfs://QmaCGg6pgDZZQBQZiFUJSAuTiCbyj5DTj7hxk2Bj2GJ6sy/9000",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "ipfs.filebase.io",
+          "url": "https://ipfs.filebase.io/ipfs/QmaCGg6pgDZZQBQZiFUJSAuTiCbyj5DTj7hxk2Bj2GJ6sy/9000",
+          "status": null,
+          "error_kind": "timeout",
+          "v": "unknown",
+          "reason": "timeout",
+          "seq": 7,
+          "final_url": "https://ipfs.filebase.io/ipfs/QmaCGg6pgDZZQBQZiFUJSAuTiCbyj5DTj7hxk2Bj2GJ6sy/9000",
+          "content_type": null,
+          "size": 0,
+          "content_length": null,
+          "sha256": null,
+          "t": "2026-10-23T02:50:43Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        },
+        {
+          "pass": 1,
+          "gateway": "ipfs.raribleuserdata.com",
+          "url": "https://ipfs.raribleuserdata.com/ipfs/QmaCGg6pgDZZQBQZiFUJSAuTiCbyj5DTj7hxk2Bj2GJ6sy/9000",
+          "status": null,
+          "error_kind": "timeout",
+          "v": "unknown",
+          "reason": "timeout",
+          "seq": 12,
+          "final_url": "https://ipfs.raribleuserdata.com/ipfs/QmaCGg6pgDZZQBQZiFUJSAuTiCbyj5DTj7hxk2Bj2GJ6sy/9000",
+          "content_type": null,
+          "size": 0,
+          "content_length": null,
+          "sha256": null,
+          "t": "2026-10-23T02:50:59Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "magic.decentralized-content.com",
+          "url": "https://magic.decentralized-content.com/ipfs/QmaCGg6pgDZZQBQZiFUJSAuTiCbyj5DTj7hxk2Bj2GJ6sy/9000",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 13,
+          "final_url": "https://magic.decentralized-content.com/ipfs/QmaCGg6pgDZZQBQZiFUJSAuTiCbyj5DTj7hxk2Bj2GJ6sy/9000",
+          "content_type": "application/json",
+          "size": 300,
+          "content_length": null,
+          "sha256": "06279090b566f3b148ba30194de1dd0b69a1a5ac427e6a8898421b95a0ddb22c",
+          "t": "2026-10-23T02:58:40Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "ipfs",
+          "host": null,
+          "gateway": null,
+          "uri": "ipfs://QmaWaRSUeJvfZgmVm5AUxGM7g9FPLpvetmGdxKiwFPLAsN/4.png",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 2,
+              "gateway": "magic.decentralized-content.com",
+              "url": "https://magic.decentralized-content.com/ipfs/QmaWaRSUeJvfZgmVm5AUxGM7g9FPLpvetmGdxKiwFPLAsN/4.png",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 14,
+              "final_url": "https://magic.decentralized-content.com/ipfs/QmaWaRSUeJvfZgmVm5AUxGM7g9FPLpvetmGdxKiwFPLAsN/4.png",
+              "content_type": "image/png",
+              "size": 65536,
+              "content_length": 103785,
+              "sha256": "ec5b60e4cfc0fdc317f59aaa386b123bcc0a94aa098d0ebfa22ade926f529106",
+              "t": "2026-10-23T02:58:44Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        },
+        {
+          "field": "animation_url",
+          "location": "http",
+          "host": "apartments.webb.game",
+          "gateway": null,
+          "uri": "https://apartments.webb.game?apartment=9000",
+          "external_refs": [],
+          "liveness": "unknown",
+          "reason": "mixed:dns-nxdomain",
+          "attempts": [
+            {
+              "pass": 2,
+              "gateway": "apartments.webb.game",
+              "url": "https://apartments.webb.game?apartment=9000",
+              "status": null,
+              "error_kind": "dns-nxdomain",
+              "v": "dead",
+              "reason": "dns-nxdomain",
+              "seq": 15,
+              "final_url": "https://apartments.webb.game?apartment=9000",
+              "content_type": null,
+              "size": 0,
+              "content_length": null,
+              "sha256": null,
+              "t": "2026-10-23T02:58:44Z",
+              "reg_domain_dns": "dns-nxdomain",
+              "redirected": false
+            },
+            {
+              "pass": 2,
+              "gateway": "apartments.webb.game",
+              "url": "https://apartments.webb.game?apartment=9000",
+              "status": null,
+              "error_kind": "dns-nxdomain",
+              "v": "dead",
+              "reason": "dns-nxdomain",
+              "seq": 18,
+              "final_url": "https://apartments.webb.game?apartment=9000",
+              "content_type": null,
+              "size": 0,
+              "content_length": null,
+              "sha256": null,
+              "t": "2026-10-23T03:05:02Z",
+              "reg_domain_dns": "dns-nxdomain",
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "ipfs",
+        "anim_class": "http",
+        "image_verdict": "alive",
+        "anim_verdict": "unknown",
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "ipfs",
+          "animation_url": "http"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "alive",
+        "anim_verdict_exact": "unknown",
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000002328",
+          "endpoint": "https://eth.rpc.blxrbdn.com",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0xa1d4657e0e6507d5a94d06da93e94dc7c8c44b51/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0xa1d4657e0e6507d5a94d06da93e94dc7c8c44b51",
+      "token_id": "736",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(4534) [mid; totalSupply=9069]",
+      "metadata_location": "ipfs",
+      "metadata_uri": "ipfs://QmaCGg6pgDZZQBQZiFUJSAuTiCbyj5DTj7hxk2Bj2GJ6sy/736",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "ipfs.filebase.io",
+          "url": "https://ipfs.filebase.io/ipfs/QmaCGg6pgDZZQBQZiFUJSAuTiCbyj5DTj7hxk2Bj2GJ6sy/736",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 4,
+          "final_url": "https://ipfs.filebase.io/ipfs/QmaCGg6pgDZZQBQZiFUJSAuTiCbyj5DTj7hxk2Bj2GJ6sy/736",
+          "content_type": "application/json",
+          "size": 310,
+          "content_length": 310,
+          "sha256": "450a65e90e7849eda3b71c0d3feecfe8a1114ddacc069aa890ab7eecdcdc282c",
+          "t": "2026-10-23T02:50:44Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "ipfs",
+          "host": null,
+          "gateway": null,
+          "uri": "ipfs://QmaWaRSUeJvfZgmVm5AUxGM7g9FPLpvetmGdxKiwFPLAsN/1.png",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "magic.decentralized-content.com",
+              "url": "https://magic.decentralized-content.com/ipfs/QmaWaRSUeJvfZgmVm5AUxGM7g9FPLpvetmGdxKiwFPLAsN/1.png",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 5,
+              "final_url": "https://magic.decentralized-content.com/ipfs/QmaWaRSUeJvfZgmVm5AUxGM7g9FPLpvetmGdxKiwFPLAsN/1.png",
+              "content_type": "image/png",
+              "size": 65536,
+              "content_length": 115496,
+              "sha256": "cb4913a03ab7b19b4b08d67ac897ad7c838f43d3fd0d2349cb359182fb5a2219",
+              "t": "2026-10-23T02:50:45Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        },
+        {
+          "field": "animation_url",
+          "location": "http",
+          "host": "apartments.webb.game",
+          "gateway": null,
+          "uri": "https://apartments.webb.game?apartment=736",
+          "external_refs": [],
+          "liveness": "dead",
+          "reason": "dns-nxdomain",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "apartments.webb.game",
+              "url": "https://apartments.webb.game?apartment=736",
+              "status": null,
+              "error_kind": "dns-nxdomain",
+              "v": "dead",
+              "reason": "dns-nxdomain",
+              "seq": 6,
+              "final_url": "https://apartments.webb.game?apartment=736",
+              "content_type": null,
+              "size": 0,
+              "content_length": null,
+              "sha256": null,
+              "t": "2026-10-23T02:50:45Z",
+              "reg_domain_dns": "dns-nxdomain",
+              "redirected": false
+            },
+            {
+              "pass": 2,
+              "gateway": "apartments.webb.game",
+              "url": "https://apartments.webb.game?apartment=736",
+              "status": null,
+              "error_kind": "dns-nxdomain",
+              "v": "dead",
+              "reason": "dns-nxdomain",
+              "seq": 16,
+              "final_url": "https://apartments.webb.game?apartment=736",
+              "content_type": null,
+              "size": 0,
+              "content_length": null,
+              "sha256": null,
+              "t": "2026-10-23T02:58:44Z",
+              "reg_domain_dns": "dns-nxdomain",
+              "redirected": false
+            },
+            {
+              "pass": 2,
+              "gateway": "apartments.webb.game",
+              "url": "https://apartments.webb.game?apartment=736",
+              "status": null,
+              "error_kind": "dns-nxdomain",
+              "v": "dead",
+              "reason": "dns-nxdomain",
+              "seq": 19,
+              "final_url": "https://apartments.webb.game?apartment=736",
+              "content_type": null,
+              "size": 0,
+              "content_length": null,
+              "sha256": null,
+              "t": "2026-10-23T03:05:03Z",
+              "reg_domain_dns": "dns-nxdomain",
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "ipfs",
+        "anim_class": "http",
+        "image_verdict": "alive",
+        "anim_verdict": "dead",
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "ipfs",
+          "animation_url": "http"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "alive",
+        "anim_verdict_exact": "dead",
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd00000000000000000000000000000000000000000000000000000000000002e0",
+          "endpoint": "https://eth.rpc.blxrbdn.com",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0xa1d4657e0e6507d5a94d06da93e94dc7c8c44b51/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0xa1d4657e0e6507d5a94d06da93e94dc7c8c44b51",
+      "token_id": "4999",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(9068) [recent; totalSupply=9069]",
+      "metadata_location": "ipfs",
+      "metadata_uri": "ipfs://QmaCGg6pgDZZQBQZiFUJSAuTiCbyj5DTj7hxk2Bj2GJ6sy/4999",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "ipfs.filebase.io",
+          "url": "https://ipfs.filebase.io/ipfs/QmaCGg6pgDZZQBQZiFUJSAuTiCbyj5DTj7hxk2Bj2GJ6sy/4999",
+          "status": null,
+          "error_kind": "timeout",
+          "v": "unknown",
+          "reason": "timeout",
+          "seq": 8,
+          "final_url": "https://ipfs.filebase.io/ipfs/QmaCGg6pgDZZQBQZiFUJSAuTiCbyj5DTj7hxk2Bj2GJ6sy/4999",
+          "content_type": null,
+          "size": 0,
+          "content_length": null,
+          "sha256": null,
+          "t": "2026-10-23T02:50:44Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        },
+        {
+          "pass": 1,
+          "gateway": "ipfs.raribleuserdata.com",
+          "url": "https://ipfs.raribleuserdata.com/ipfs/QmaCGg6pgDZZQBQZiFUJSAuTiCbyj5DTj7hxk2Bj2GJ6sy/4999",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 9,
+          "final_url": "https://ipfs.raribleuserdata.com/ipfs/QmaCGg6pgDZZQBQZiFUJSAuTiCbyj5DTj7hxk2Bj2GJ6sy/4999",
+          "content_type": "application/json",
+          "size": 312,
+          "content_length": 312,
+          "sha256": "761280e5c5a885c299974925abff4c7c485f180d0a753c5b74b208dda69757d7",
+          "t": "2026-10-23T02:50:59Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "ipfs",
+          "host": null,
+          "gateway": null,
+          "uri": "ipfs://QmaWaRSUeJvfZgmVm5AUxGM7g9FPLpvetmGdxKiwFPLAsN/1.png",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "magic.decentralized-content.com",
+              "url": "https://magic.decentralized-content.com/ipfs/QmaWaRSUeJvfZgmVm5AUxGM7g9FPLpvetmGdxKiwFPLAsN/1.png",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 10,
+              "final_url": "https://magic.decentralized-content.com/ipfs/QmaWaRSUeJvfZgmVm5AUxGM7g9FPLpvetmGdxKiwFPLAsN/1.png",
+              "content_type": "image/png",
+              "size": 65536,
+              "content_length": 115496,
+              "sha256": "cb4913a03ab7b19b4b08d67ac897ad7c838f43d3fd0d2349cb359182fb5a2219",
+              "t": "2026-10-23T02:50:45Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        },
+        {
+          "field": "animation_url",
+          "location": "http",
+          "host": "apartments.webb.game",
+          "gateway": null,
+          "uri": "https://apartments.webb.game?apartment=4999",
+          "external_refs": [],
+          "liveness": "dead",
+          "reason": "dns-nxdomain",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "apartments.webb.game",
+              "url": "https://apartments.webb.game?apartment=4999",
+              "status": null,
+              "error_kind": "dns-nxdomain",
+              "v": "dead",
+              "reason": "dns-nxdomain",
+              "seq": 11,
+              "final_url": "https://apartments.webb.game?apartment=4999",
+              "content_type": null,
+              "size": 0,
+              "content_length": null,
+              "sha256": null,
+              "t": "2026-10-23T02:51:06Z",
+              "reg_domain_dns": "dns-nxdomain",
+              "redirected": false
+            },
+            {
+              "pass": 2,
+              "gateway": "apartments.webb.game",
+              "url": "https://apartments.webb.game?apartment=4999",
+              "status": null,
+              "error_kind": "dns-nxdomain",
+              "v": "dead",
+              "reason": "dns-nxdomain",
+              "seq": 17,
+              "final_url": "https://apartments.webb.game?apartment=4999",
+              "content_type": null,
+              "size": 0,
+              "content_length": null,
+              "sha256": null,
+              "t": "2026-10-23T02:58:45Z",
+              "reg_domain_dns": "dns-nxdomain",
+              "redirected": false
+            },
+            {
+              "pass": 2,
+              "gateway": "apartments.webb.game",
+              "url": "https://apartments.webb.game?apartment=4999",
+              "status": null,
+              "error_kind": "dns-nxdomain",
+              "v": "dead",
+              "reason": "dns-nxdomain",
+              "seq": 20,
+              "final_url": "https://apartments.webb.game?apartment=4999",
+              "content_type": null,
+              "size": 0,
+              "content_length": null,
+              "sha256": null,
+              "t": "2026-10-23T03:05:03Z",
+              "reg_domain_dns": "dns-nxdomain",
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "ipfs",
+        "anim_class": "http",
+        "image_verdict": "alive",
+        "anim_verdict": "dead",
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "ipfs",
+          "animation_url": "http"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "alive",
+        "anim_verdict_exact": "dead",
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000001387",
+          "endpoint": "https://eth.rpc.blxrbdn.com",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0xa1d4657e0e6507d5a94d06da93e94dc7c8c44b51/evidence.jsonl.gz"
+    }
+  ],
+  "saved_packet_index": [
+    {
+      "path": "data/raw/top100-api/opensea-contract-0xa1d4657e0e6507d5a94d06da93e94dc7c8c44b51-attempt1-1792724308113650219.body",
+      "sha256": "e7435fbb1c5ad5f3795889b78db8f659dff6d30c6b8b48d4369204d05b353f74",
+      "retrieved_at": "2026-10-23T02:58:28Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0xa1d4657e0e6507d5a94d06da93e94dc7c8c44b51",
+      "method": "GET",
+      "status": 401,
+      "error": null,
+      "bytes": 70,
+      "truncated": false
+    },
+    {
+      "path": "data/raw/top100-api/opensea-contract-0xa1d4657e0e6507d5a94d06da93e94dc7c8c44b51-attempt1-1792724742533244699.body",
+      "sha256": "e7435fbb1c5ad5f3795889b78db8f659dff6d30c6b8b48d4369204d05b353f74",
+      "retrieved_at": "2026-10-23T03:05:42Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0xa1d4657e0e6507d5a94d06da93e94dc7c8c44b51",
+      "method": "GET",
+      "status": 401,
+      "error": null,
+      "bytes": 70,
+      "truncated": false
+    },
+    {
+      "path": "data/raw/top100-census/0xa1d4657e0e6507d5a94d06da93e94dc7c8c44b51/bodies.zip",
+      "sha256": "fcf798681e38cbdf15ea23adba95946a9684327a6783c42fb0c6f83bd860e463",
+      "bytes": 7961
+    },
+    {
+      "path": "data/raw/top100-census/0xa1d4657e0e6507d5a94d06da93e94dc7c8c44b51/evidence.jsonl.gz",
+      "sha256": "a283fb2356e9fb5ecda712bdbd60f470db522ff6917287b5fa26253dafdd836a",
+      "bytes": 2469
+    },
+    {
+      "path": "data/raw/top100-census/0xa1d4657e0e6507d5a94d06da93e94dc7c8c44b51/result.json.gz",
+      "sha256": "0cd321153be66c0b0e2870ac9161d701883666eb82756a371bfd8852473d39bf",
+      "bytes": 2240
+    },
+    {
+      "path": "data/raw/top100-mutability/0xa1d4657e0e6507d5a94d06da93e94dc7c8c44b51.json",
+      "sha256": "f605cc46e17118a68e45fff4d99d27b2f8df2da76f2920f873f4e791ab736e0d",
+      "bytes": 5517
+    },
+    {
+      "path": "data/raw/top100-pointers/0xa1d4657e0e6507d5a94d06da93e94dc7c8c44b51/bodies.zip",
+      "sha256": "7bfe4d658a39aec2f7dbf494ff5016f08c7a7037b2d74c70e423c1abde120c73",
+      "bytes": 262
+    },
+    {
+      "path": "data/raw/top100-pointers/0xa1d4657e0e6507d5a94d06da93e94dc7c8c44b51/evidence.jsonl.gz",
+      "sha256": "97e024b75a4cc435b3d6fd6aa5e790044465e148d9ae7641ae846e662f3f96ab",
+      "bytes": 335
+    },
+    {
+      "path": "data/raw/top100-pointers/0xa1d4657e0e6507d5a94d06da93e94dc7c8c44b51/result.json",
+      "sha256": "b717e949d8e266e0e1303911481ceb41d89c0ebc4dc19ba218d481ef43055cc7",
+      "bytes": 362
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0xa1d4657e0e6507d5a94d06da93e94dc7c8c44b51/bodies.zip",
+      "sha256": "5eda43e3f8e8dbe2dc82585483cf07f917e1a101d9d1665ada4131d06700d5b8",
+      "bytes": 630
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0xa1d4657e0e6507d5a94d06da93e94dc7c8c44b51/evidence.jsonl.gz",
+      "sha256": "31f29797786dc10599f940956fb470aeb1ae9e150aedfe1051b568f18e2f1bca",
+      "bytes": 686
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0xa1d4657e0e6507d5a94d06da93e94dc7c8c44b51/result.json",
+      "sha256": "2e378d9bc166391d953b1605335de604dca594a89560c0e5a760de7e61391631",
+      "bytes": 301
+    }
+  ],
+  "interpretation": "Liveness describes sampled metadata and primary-image delivery, not permanent loss of the artwork."
+}

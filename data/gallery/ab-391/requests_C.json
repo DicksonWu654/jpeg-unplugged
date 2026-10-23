@@ -1,0 +1,23 @@
+[
+ {
+  "t": 0.197,
+  "url": "https://onchain.invalid/",
+  "type": "document",
+  "method": "GET",
+  "frame": "about:blank",
+  "action": "served-from-chain",
+  "status": 200,
+  "bytes": null
+ },
+ {
+  "t": 0.221,
+  "url": "https://cdnjs.cloudflare.com/ajax/libs/regl/2.1.0/regl.min.js",
+  "type": "script",
+  "method": "GET",
+  "frame": "https://onchain.invalid/",
+  "action": "archive",
+  "sha256": "1e85c84ef254125921378d82f4da4e457a0a399bc315880c8c997dd5af8c534d",
+  "status": 200,
+  "bytes": 86891
+ }
+]

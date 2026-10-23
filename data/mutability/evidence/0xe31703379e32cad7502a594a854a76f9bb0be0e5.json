@@ -1,0 +1,2705 @@
+{
+ "address": "0xe31703379e32cad7502a594a854a76f9bb0be0e5",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:42:59Z",
+ "code_raw": "data/raw/rpc-mutability/0xe31703379e32cad7502a594a854a76f9bb0be0e5_code.json",
+ "code_len": 18902,
+ "slots": {
+  "slot0": "0x00000000000000000000000000000000000000000000000000000000000023a6"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0xe31703379e32cad7502a594a854a76f9bb0be0e5_slots.json",
+ "verified": true,
+ "contract_name": "JPEGFrens",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [
+   {
+    "hash": "0xbf5e4d138e51b18f3019af7d5067ef5919c16543ecc1283ca910cefe65fa6762",
+    "timestamp": "2026-10-07T16:29:35.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26141710,
+    "category": null
+   },
+   {
+    "hash": "0xe61f3908733c62a83b77c6b45635ea20888840541b55af2fb2607174a8014fb1",
+    "timestamp": "2026-10-07T13:55:47.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26140944,
+    "category": null
+   },
+   {
+    "hash": "0x9b055e4e3ae262afd2f55a96e5470ebd0faffb8bb9d8a59479770d523679856e",
+    "timestamp": "2026-10-07T12:26:35.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26140500,
+    "category": null
+   },
+   {
+    "hash": "0x3eec968de56f241c9e16ffa4563630ccc290a53e358b133b710ac1a9a35f7df9",
+    "timestamp": "2026-10-07T10:39:59.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26139969,
+    "category": null
+   },
+   {
+    "hash": "0x3ad32eea31b10c10101c31651d163b03a614658d4db570b858be0e31d4db1176",
+    "timestamp": "2026-10-07T06:55:47.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26138854,
+    "category": null
+   },
+   {
+    "hash": "0xe1595d7a9a8cb5bec8365bac63922edc443c2b0e00440cda25e869214f9c4194",
+    "timestamp": "2026-10-06T22:34:47.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26136357,
+    "category": null
+   },
+   {
+    "hash": "0x4a593f09db6213272bee4330aeafff2c309079853b2f2c7c5594b2b367cdd536",
+    "timestamp": "2026-10-06T22:03:35.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26136201,
+    "category": null
+   },
+   {
+    "hash": "0xb58d1eecfcf761f89bab19af5022739997b5277675516fad7cceecae32ea99be",
+    "timestamp": "2026-10-06T22:02:59.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26136198,
+    "category": null
+   },
+   {
+    "hash": "0xdc56885bdddbd2cc5d57caf7a003a6c99dc83c6b1dcd149f7760f5cdc7bbceb3",
+    "timestamp": "2026-10-06T22:01:59.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26136193,
+    "category": null
+   },
+   {
+    "hash": "0xba96807f17f6a8fcddb521507338a7619b26e7635a425993a3a21cbca2d3bc49",
+    "timestamp": "2026-10-06T21:14:59.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26135959,
+    "category": null
+   },
+   {
+    "hash": "0xc24f82a2cacbb6e99b3f9dbf3eb3556aea3a31c007591d1b83ff88dfa7221cbd",
+    "timestamp": "2026-10-06T20:37:35.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26135772,
+    "category": null
+   },
+   {
+    "hash": "0x4983d89a486cb90b713fdf82baa3d1dfeb06e4ca640584e763f7ddfce950c86a",
+    "timestamp": "2026-10-06T17:51:35.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26134942,
+    "category": null
+   },
+   {
+    "hash": "0x32922080072e8a701f9f2707795eb3eeaf249f3c816feec1d65a2ea364005af3",
+    "timestamp": "2026-10-06T15:52:23.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26134348,
+    "category": null
+   },
+   {
+    "hash": "0xae079de022eb5c6e0213060869e7bf0c6d6f93eb061102b80470f16cf8ec107f",
+    "timestamp": "2026-10-06T15:50:23.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26134338,
+    "category": null
+   },
+   {
+    "hash": "0x36202530badbba04126212c631a0703363b9e3a5f04efe9c0ba4adbbf2af81a8",
+    "timestamp": "2026-10-06T15:47:47.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26134325,
+    "category": null
+   },
+   {
+    "hash": "0xc3a7d1418b3548fb9cf1bfff7c357e7914e0bc3a71e68cb0a50605e7287c2ed3",
+    "timestamp": "2026-10-06T15:46:23.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26134318,
+    "category": null
+   },
+   {
+    "hash": "0xeafe5748528ff48d12497f4ccfb3dcfff4b6f5e75048df9aaa83c778eb0e0989",
+    "timestamp": "2026-10-06T15:41:47.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26134295,
+    "category": null
+   },
+   {
+    "hash": "0xa6008d0400ade133aba00e988dc8d4deae04d5327e3a1a4d0477d963bb3c3e52",
+    "timestamp": "2026-10-06T15:33:11.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26134252,
+    "category": null
+   },
+   {
+    "hash": "0xb8b9de226c1ebdb617179ba6558f8a07e955ce2901b4651b64ac7845079fb5ab",
+    "timestamp": "2026-10-06T13:14:11.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26133562,
+    "category": null
+   },
+   {
+    "hash": "0x303b4c2053f3d20a88978585af28a7dfc1a23ba9e119e2e3fd476d835f18ea80",
+    "timestamp": "2026-10-06T13:02:47.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26133505,
+    "category": null
+   },
+   {
+    "hash": "0x8d3adc9ee7ca205b18ee549d8b1878fd0fa71fc951ab7746df01a595c7e1dedd",
+    "timestamp": "2026-10-06T12:31:59.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26133352,
+    "category": null
+   },
+   {
+    "hash": "0xea3cd8790c42ed9f4953f6b0b6f67a3d89c692351389fbed7e6dd1b1e44163a6",
+    "timestamp": "2026-10-06T12:07:23.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26133229,
+    "category": null
+   },
+   {
+    "hash": "0x38fe2269286a8bc90ba48f18b3ee82d4784203cba01614313258f9d728960615",
+    "timestamp": "2026-10-06T12:03:35.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26133210,
+    "category": null
+   },
+   {
+    "hash": "0x67c5e9ebc88a38c9787b4eb30ad085a656b39a5ebe12b60c7f679c5747e34838",
+    "timestamp": "2026-10-06T11:53:59.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26133162,
+    "category": null
+   },
+   {
+    "hash": "0x184cefa284774c6b1f25892f309e81e732c60e3484ce4785715c4a69395d622e",
+    "timestamp": "2026-10-06T11:24:23.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26133014,
+    "category": null
+   },
+   {
+    "hash": "0xd04cb13401e80a6028a8abdd9e7999b455801a47e63cc1c19fad99e2e2694a62",
+    "timestamp": "2026-10-06T11:22:47.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26133006,
+    "category": null
+   },
+   {
+    "hash": "0x9ab5128b5e4b04dc8d3d81711c3cbb38e12a5e7a82f4f134930e21ba607573b5",
+    "timestamp": "2026-10-06T11:21:35.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26133000,
+    "category": null
+   },
+   {
+    "hash": "0xefc8f3441b6e173a703fa68792c4d2498e5d955cc92a0462fd3fe5b573f74d5d",
+    "timestamp": "2026-10-06T11:20:23.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26132994,
+    "category": null
+   },
+   {
+    "hash": "0x7a29f204ce2695731b611891ee77aa48fc197f13c5bb8bdac8d6af05ddec87a7",
+    "timestamp": "2026-10-06T11:18:23.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26132984,
+    "category": null
+   },
+   {
+    "hash": "0x32c75a9a07414bc93daac1492ab2d0ca74dc536891336f008eef41588ce41547",
+    "timestamp": "2026-10-06T11:18:23.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26132984,
+    "category": null
+   },
+   {
+    "hash": "0xe22c9c11b9ff1ca74469e335953c202e3e554a19b930f5d407a146f2e6a1cf57",
+    "timestamp": "2026-10-06T11:15:59.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26132972,
+    "category": null
+   },
+   {
+    "hash": "0x16826eeb1a851585b0593041df54de876c162b682eaae7d5fec46e530a118a09",
+    "timestamp": "2026-10-06T11:14:59.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26132967,
+    "category": null
+   },
+   {
+    "hash": "0x09d4f08233d4282a420a1c7c5a0229b38d3609c37010b2a3903c8c22c94aaf2a",
+    "timestamp": "2026-10-06T11:11:23.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26132949,
+    "category": null
+   },
+   {
+    "hash": "0x541a4a791b8e4b652af02868f2609286f6d6677f7c3801ebd6269af3b256b0c7",
+    "timestamp": "2026-10-06T11:10:59.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26132947,
+    "category": null
+   },
+   {
+    "hash": "0x4d9890c3728866102157934c1e380d1964b9a5d0f406d3312f5724b5c3492629",
+    "timestamp": "2026-10-06T11:08:35.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26132935,
+    "category": null
+   },
+   {
+    "hash": "0xa9cf92ccb7ed5e25c20768a065c803e95b7bcb5fc27a9b6aacb18062e59cd60b",
+    "timestamp": "2026-10-06T11:02:23.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26132904,
+    "category": null
+   },
+   {
+    "hash": "0x298df871a8615f023a35a5bdb5d6dadc7dafedae6536ea784950391516d3dfc4",
+    "timestamp": "2026-10-06T10:57:11.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26132878,
+    "category": null
+   },
+   {
+    "hash": "0x62e13a1df4adba50400bbda57637819c74c030b9c4ec2d8cce4af7f7a80ffd39",
+    "timestamp": "2026-10-06T10:54:35.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26132865,
+    "category": null
+   },
+   {
+    "hash": "0x0ef11a3c4ccc90379ec80284bd1423a07ddecaa26c063d061f1620c6a3a8a0ab",
+    "timestamp": "2026-10-06T09:50:23.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26132549,
+    "category": null
+   },
+   {
+    "hash": "0x5c59b3655559255cbaf6acbc71d285da53ff151c596b1c7ed36fce86e63a268b",
+    "timestamp": "2026-10-06T09:49:11.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26132544,
+    "category": null
+   },
+   {
+    "hash": "0x186a4f7566358546b5788081781fa998d141f563424f229639111ae6e4571406",
+    "timestamp": "2026-10-06T08:45:11.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26132227,
+    "category": null
+   },
+   {
+    "hash": "0xae758c86314d80d748b86f11d3426239780f7b8458017ed043560772b53b2f9a",
+    "timestamp": "2026-10-06T06:56:23.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26131685,
+    "category": null
+   },
+   {
+    "hash": "0x4bbfaf55d6184be396b734dc367e85197d196b8e9e4447592b905b08bfda071f",
+    "timestamp": "2026-10-06T06:54:35.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26131676,
+    "category": null
+   },
+   {
+    "hash": "0xbb4ab7a66ee46941e006256a7f5c14dcbcc247e95f8eccfa064eda050e734118",
+    "timestamp": "2026-10-06T06:37:11.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26131591,
+    "category": null
+   },
+   {
+    "hash": "0xbc1d512dde40f6ed45d99b4b69a1326e2618d09c6046439ad61119de9f6e82f7",
+    "timestamp": "2026-10-06T03:12:59.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26130571,
+    "category": null
+   },
+   {
+    "hash": "0x531ac6ab09f2da65e403c65570ab48c84aa4344098cb0b1f66dc638114abff90",
+    "timestamp": "2026-10-06T00:45:35.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26129840,
+    "category": null
+   },
+   {
+    "hash": "0x070d21b0661b7cbfc77fe17564c1478027761b094426ee83ba1b823877e68a14",
+    "timestamp": "2026-10-05T23:41:23.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26129521,
+    "category": null
+   },
+   {
+    "hash": "0x2d8b36eb5e009d3792bb2bd991ebfc92536173cdd55e9f452cdec4d4aca11242",
+    "timestamp": "2026-10-05T23:22:11.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26129425,
+    "category": null
+   },
+   {
+    "hash": "0x336d0721f1ff605a4d7cd91fd0e9160dbbb0da331989ae138fe4b99b6330c7c0",
+    "timestamp": "2026-10-05T23:20:11.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26129415,
+    "category": null
+   },
+   {
+    "hash": "0xf688cf88d69d12e2be76b7e805b5a84a3841aa88b043e3e3984c2aa5a396e95a",
+    "timestamp": "2026-10-05T23:17:59.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26129405,
+    "category": null
+   },
+   {
+    "hash": "0xbf5e4d138e51b18f3019af7d5067ef5919c16543ecc1283ca910cefe65fa6762",
+    "timestamp": "2026-10-07T16:29:35.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26141710,
+    "category": null
+   },
+   {
+    "hash": "0xe61f3908733c62a83b77c6b45635ea20888840541b55af2fb2607174a8014fb1",
+    "timestamp": "2026-10-07T13:55:47.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26140944,
+    "category": null
+   },
+   {
+    "hash": "0x9b055e4e3ae262afd2f55a96e5470ebd0faffb8bb9d8a59479770d523679856e",
+    "timestamp": "2026-10-07T12:26:35.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26140500,
+    "category": null
+   },
+   {
+    "hash": "0x3eec968de56f241c9e16ffa4563630ccc290a53e358b133b710ac1a9a35f7df9",
+    "timestamp": "2026-10-07T10:39:59.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26139969,
+    "category": null
+   },
+   {
+    "hash": "0x3ad32eea31b10c10101c31651d163b03a614658d4db570b858be0e31d4db1176",
+    "timestamp": "2026-10-07T06:55:47.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26138854,
+    "category": null
+   },
+   {
+    "hash": "0xe1595d7a9a8cb5bec8365bac63922edc443c2b0e00440cda25e869214f9c4194",
+    "timestamp": "2026-10-06T22:34:47.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26136357,
+    "category": null
+   },
+   {
+    "hash": "0x4a593f09db6213272bee4330aeafff2c309079853b2f2c7c5594b2b367cdd536",
+    "timestamp": "2026-10-06T22:03:35.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26136201,
+    "category": null
+   },
+   {
+    "hash": "0xb58d1eecfcf761f89bab19af5022739997b5277675516fad7cceecae32ea99be",
+    "timestamp": "2026-10-06T22:02:59.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26136198,
+    "category": null
+   },
+   {
+    "hash": "0xdc56885bdddbd2cc5d57caf7a003a6c99dc83c6b1dcd149f7760f5cdc7bbceb3",
+    "timestamp": "2026-10-06T22:01:59.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26136193,
+    "category": null
+   },
+   {
+    "hash": "0xba96807f17f6a8fcddb521507338a7619b26e7635a425993a3a21cbca2d3bc49",
+    "timestamp": "2026-10-06T21:14:59.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26135959,
+    "category": null
+   },
+   {
+    "hash": "0xc24f82a2cacbb6e99b3f9dbf3eb3556aea3a31c007591d1b83ff88dfa7221cbd",
+    "timestamp": "2026-10-06T20:37:35.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26135772,
+    "category": null
+   },
+   {
+    "hash": "0x4983d89a486cb90b713fdf82baa3d1dfeb06e4ca640584e763f7ddfce950c86a",
+    "timestamp": "2026-10-06T17:51:35.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26134942,
+    "category": null
+   },
+   {
+    "hash": "0x32922080072e8a701f9f2707795eb3eeaf249f3c816feec1d65a2ea364005af3",
+    "timestamp": "2026-10-06T15:52:23.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26134348,
+    "category": null
+   },
+   {
+    "hash": "0xae079de022eb5c6e0213060869e7bf0c6d6f93eb061102b80470f16cf8ec107f",
+    "timestamp": "2026-10-06T15:50:23.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26134338,
+    "category": null
+   },
+   {
+    "hash": "0x36202530badbba04126212c631a0703363b9e3a5f04efe9c0ba4adbbf2af81a8",
+    "timestamp": "2026-10-06T15:47:47.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26134325,
+    "category": null
+   },
+   {
+    "hash": "0xc3a7d1418b3548fb9cf1bfff7c357e7914e0bc3a71e68cb0a50605e7287c2ed3",
+    "timestamp": "2026-10-06T15:46:23.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26134318,
+    "category": null
+   },
+   {
+    "hash": "0xeafe5748528ff48d12497f4ccfb3dcfff4b6f5e75048df9aaa83c778eb0e0989",
+    "timestamp": "2026-10-06T15:41:47.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26134295,
+    "category": null
+   },
+   {
+    "hash": "0xa6008d0400ade133aba00e988dc8d4deae04d5327e3a1a4d0477d963bb3c3e52",
+    "timestamp": "2026-10-06T15:33:11.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26134252,
+    "category": null
+   },
+   {
+    "hash": "0xb8b9de226c1ebdb617179ba6558f8a07e955ce2901b4651b64ac7845079fb5ab",
+    "timestamp": "2026-10-06T13:14:11.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26133562,
+    "category": null
+   },
+   {
+    "hash": "0x303b4c2053f3d20a88978585af28a7dfc1a23ba9e119e2e3fd476d835f18ea80",
+    "timestamp": "2026-10-06T13:02:47.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26133505,
+    "category": null
+   },
+   {
+    "hash": "0x8d3adc9ee7ca205b18ee549d8b1878fd0fa71fc951ab7746df01a595c7e1dedd",
+    "timestamp": "2026-10-06T12:31:59.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26133352,
+    "category": null
+   },
+   {
+    "hash": "0xea3cd8790c42ed9f4953f6b0b6f67a3d89c692351389fbed7e6dd1b1e44163a6",
+    "timestamp": "2026-10-06T12:07:23.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26133229,
+    "category": null
+   },
+   {
+    "hash": "0x38fe2269286a8bc90ba48f18b3ee82d4784203cba01614313258f9d728960615",
+    "timestamp": "2026-10-06T12:03:35.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26133210,
+    "category": null
+   },
+   {
+    "hash": "0x67c5e9ebc88a38c9787b4eb30ad085a656b39a5ebe12b60c7f679c5747e34838",
+    "timestamp": "2026-10-06T11:53:59.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26133162,
+    "category": null
+   },
+   {
+    "hash": "0x184cefa284774c6b1f25892f309e81e732c60e3484ce4785715c4a69395d622e",
+    "timestamp": "2026-10-06T11:24:23.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26133014,
+    "category": null
+   },
+   {
+    "hash": "0xd04cb13401e80a6028a8abdd9e7999b455801a47e63cc1c19fad99e2e2694a62",
+    "timestamp": "2026-10-06T11:22:47.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26133006,
+    "category": null
+   },
+   {
+    "hash": "0x9ab5128b5e4b04dc8d3d81711c3cbb38e12a5e7a82f4f134930e21ba607573b5",
+    "timestamp": "2026-10-06T11:21:35.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26133000,
+    "category": null
+   },
+   {
+    "hash": "0xefc8f3441b6e173a703fa68792c4d2498e5d955cc92a0462fd3fe5b573f74d5d",
+    "timestamp": "2026-10-06T11:20:23.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26132994,
+    "category": null
+   },
+   {
+    "hash": "0x7a29f204ce2695731b611891ee77aa48fc197f13c5bb8bdac8d6af05ddec87a7",
+    "timestamp": "2026-10-06T11:18:23.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26132984,
+    "category": null
+   },
+   {
+    "hash": "0x32c75a9a07414bc93daac1492ab2d0ca74dc536891336f008eef41588ce41547",
+    "timestamp": "2026-10-06T11:18:23.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26132984,
+    "category": null
+   },
+   {
+    "hash": "0xe22c9c11b9ff1ca74469e335953c202e3e554a19b930f5d407a146f2e6a1cf57",
+    "timestamp": "2026-10-06T11:15:59.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26132972,
+    "category": null
+   },
+   {
+    "hash": "0x16826eeb1a851585b0593041df54de876c162b682eaae7d5fec46e530a118a09",
+    "timestamp": "2026-10-06T11:14:59.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26132967,
+    "category": null
+   },
+   {
+    "hash": "0x09d4f08233d4282a420a1c7c5a0229b38d3609c37010b2a3903c8c22c94aaf2a",
+    "timestamp": "2026-10-06T11:11:23.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26132949,
+    "category": null
+   },
+   {
+    "hash": "0x541a4a791b8e4b652af02868f2609286f6d6677f7c3801ebd6269af3b256b0c7",
+    "timestamp": "2026-10-06T11:10:59.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26132947,
+    "category": null
+   },
+   {
+    "hash": "0x4d9890c3728866102157934c1e380d1964b9a5d0f406d3312f5724b5c3492629",
+    "timestamp": "2026-10-06T11:08:35.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26132935,
+    "category": null
+   },
+   {
+    "hash": "0xa9cf92ccb7ed5e25c20768a065c803e95b7bcb5fc27a9b6aacb18062e59cd60b",
+    "timestamp": "2026-10-06T11:02:23.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26132904,
+    "category": null
+   },
+   {
+    "hash": "0x298df871a8615f023a35a5bdb5d6dadc7dafedae6536ea784950391516d3dfc4",
+    "timestamp": "2026-10-06T10:57:11.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26132878,
+    "category": null
+   },
+   {
+    "hash": "0x62e13a1df4adba50400bbda57637819c74c030b9c4ec2d8cce4af7f7a80ffd39",
+    "timestamp": "2026-10-06T10:54:35.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26132865,
+    "category": null
+   },
+   {
+    "hash": "0x0ef11a3c4ccc90379ec80284bd1423a07ddecaa26c063d061f1620c6a3a8a0ab",
+    "timestamp": "2026-10-06T09:50:23.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26132549,
+    "category": null
+   },
+   {
+    "hash": "0x5c59b3655559255cbaf6acbc71d285da53ff151c596b1c7ed36fce86e63a268b",
+    "timestamp": "2026-10-06T09:49:11.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26132544,
+    "category": null
+   },
+   {
+    "hash": "0x186a4f7566358546b5788081781fa998d141f563424f229639111ae6e4571406",
+    "timestamp": "2026-10-06T08:45:11.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26132227,
+    "category": null
+   },
+   {
+    "hash": "0xae758c86314d80d748b86f11d3426239780f7b8458017ed043560772b53b2f9a",
+    "timestamp": "2026-10-06T06:56:23.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26131685,
+    "category": null
+   },
+   {
+    "hash": "0x4bbfaf55d6184be396b734dc367e85197d196b8e9e4447592b905b08bfda071f",
+    "timestamp": "2026-10-06T06:54:35.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26131676,
+    "category": null
+   },
+   {
+    "hash": "0xbb4ab7a66ee46941e006256a7f5c14dcbcc247e95f8eccfa064eda050e734118",
+    "timestamp": "2026-10-06T06:37:11.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26131591,
+    "category": null
+   },
+   {
+    "hash": "0xbc1d512dde40f6ed45d99b4b69a1326e2618d09c6046439ad61119de9f6e82f7",
+    "timestamp": "2026-10-06T03:12:59.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26130571,
+    "category": null
+   },
+   {
+    "hash": "0x531ac6ab09f2da65e403c65570ab48c84aa4344098cb0b1f66dc638114abff90",
+    "timestamp": "2026-10-06T00:45:35.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26129840,
+    "category": null
+   },
+   {
+    "hash": "0x070d21b0661b7cbfc77fe17564c1478027761b094426ee83ba1b823877e68a14",
+    "timestamp": "2026-10-05T23:41:23.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26129521,
+    "category": null
+   },
+   {
+    "hash": "0x2d8b36eb5e009d3792bb2bd991ebfc92536173cdd55e9f452cdec4d4aca11242",
+    "timestamp": "2026-10-05T23:22:11.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26129425,
+    "category": null
+   },
+   {
+    "hash": "0x336d0721f1ff605a4d7cd91fd0e9160dbbb0da331989ae138fe4b99b6330c7c0",
+    "timestamp": "2026-10-05T23:20:11.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26129415,
+    "category": null
+   },
+   {
+    "hash": "0xf688cf88d69d12e2be76b7e805b5a84a3841aa88b043e3e3984c2aa5a396e95a",
+    "timestamp": "2026-10-05T23:17:59.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26129405,
+    "category": null
+   },
+   {
+    "hash": "0xbf5e4d138e51b18f3019af7d5067ef5919c16543ecc1283ca910cefe65fa6762",
+    "timestamp": "2026-10-07T16:29:35.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26141710,
+    "category": null
+   },
+   {
+    "hash": "0xe61f3908733c62a83b77c6b45635ea20888840541b55af2fb2607174a8014fb1",
+    "timestamp": "2026-10-07T13:55:47.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26140944,
+    "category": null
+   },
+   {
+    "hash": "0x9b055e4e3ae262afd2f55a96e5470ebd0faffb8bb9d8a59479770d523679856e",
+    "timestamp": "2026-10-07T12:26:35.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26140500,
+    "category": null
+   },
+   {
+    "hash": "0x3eec968de56f241c9e16ffa4563630ccc290a53e358b133b710ac1a9a35f7df9",
+    "timestamp": "2026-10-07T10:39:59.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26139969,
+    "category": null
+   },
+   {
+    "hash": "0x3ad32eea31b10c10101c31651d163b03a614658d4db570b858be0e31d4db1176",
+    "timestamp": "2026-10-07T06:55:47.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26138854,
+    "category": null
+   },
+   {
+    "hash": "0xe1595d7a9a8cb5bec8365bac63922edc443c2b0e00440cda25e869214f9c4194",
+    "timestamp": "2026-10-06T22:34:47.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26136357,
+    "category": null
+   },
+   {
+    "hash": "0x4a593f09db6213272bee4330aeafff2c309079853b2f2c7c5594b2b367cdd536",
+    "timestamp": "2026-10-06T22:03:35.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26136201,
+    "category": null
+   },
+   {
+    "hash": "0xb58d1eecfcf761f89bab19af5022739997b5277675516fad7cceecae32ea99be",
+    "timestamp": "2026-10-06T22:02:59.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26136198,
+    "category": null
+   },
+   {
+    "hash": "0xdc56885bdddbd2cc5d57caf7a003a6c99dc83c6b1dcd149f7760f5cdc7bbceb3",
+    "timestamp": "2026-10-06T22:01:59.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26136193,
+    "category": null
+   },
+   {
+    "hash": "0xba96807f17f6a8fcddb521507338a7619b26e7635a425993a3a21cbca2d3bc49",
+    "timestamp": "2026-10-06T21:14:59.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26135959,
+    "category": null
+   },
+   {
+    "hash": "0xc24f82a2cacbb6e99b3f9dbf3eb3556aea3a31c007591d1b83ff88dfa7221cbd",
+    "timestamp": "2026-10-06T20:37:35.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26135772,
+    "category": null
+   },
+   {
+    "hash": "0x4983d89a486cb90b713fdf82baa3d1dfeb06e4ca640584e763f7ddfce950c86a",
+    "timestamp": "2026-10-06T17:51:35.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26134942,
+    "category": null
+   },
+   {
+    "hash": "0x32922080072e8a701f9f2707795eb3eeaf249f3c816feec1d65a2ea364005af3",
+    "timestamp": "2026-10-06T15:52:23.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26134348,
+    "category": null
+   },
+   {
+    "hash": "0xae079de022eb5c6e0213060869e7bf0c6d6f93eb061102b80470f16cf8ec107f",
+    "timestamp": "2026-10-06T15:50:23.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26134338,
+    "category": null
+   },
+   {
+    "hash": "0x36202530badbba04126212c631a0703363b9e3a5f04efe9c0ba4adbbf2af81a8",
+    "timestamp": "2026-10-06T15:47:47.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26134325,
+    "category": null
+   },
+   {
+    "hash": "0xc3a7d1418b3548fb9cf1bfff7c357e7914e0bc3a71e68cb0a50605e7287c2ed3",
+    "timestamp": "2026-10-06T15:46:23.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26134318,
+    "category": null
+   },
+   {
+    "hash": "0xeafe5748528ff48d12497f4ccfb3dcfff4b6f5e75048df9aaa83c778eb0e0989",
+    "timestamp": "2026-10-06T15:41:47.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26134295,
+    "category": null
+   },
+   {
+    "hash": "0xa6008d0400ade133aba00e988dc8d4deae04d5327e3a1a4d0477d963bb3c3e52",
+    "timestamp": "2026-10-06T15:33:11.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26134252,
+    "category": null
+   },
+   {
+    "hash": "0xb8b9de226c1ebdb617179ba6558f8a07e955ce2901b4651b64ac7845079fb5ab",
+    "timestamp": "2026-10-06T13:14:11.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26133562,
+    "category": null
+   },
+   {
+    "hash": "0x303b4c2053f3d20a88978585af28a7dfc1a23ba9e119e2e3fd476d835f18ea80",
+    "timestamp": "2026-10-06T13:02:47.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26133505,
+    "category": null
+   },
+   {
+    "hash": "0x8d3adc9ee7ca205b18ee549d8b1878fd0fa71fc951ab7746df01a595c7e1dedd",
+    "timestamp": "2026-10-06T12:31:59.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26133352,
+    "category": null
+   },
+   {
+    "hash": "0xea3cd8790c42ed9f4953f6b0b6f67a3d89c692351389fbed7e6dd1b1e44163a6",
+    "timestamp": "2026-10-06T12:07:23.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26133229,
+    "category": null
+   },
+   {
+    "hash": "0x38fe2269286a8bc90ba48f18b3ee82d4784203cba01614313258f9d728960615",
+    "timestamp": "2026-10-06T12:03:35.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26133210,
+    "category": null
+   },
+   {
+    "hash": "0x67c5e9ebc88a38c9787b4eb30ad085a656b39a5ebe12b60c7f679c5747e34838",
+    "timestamp": "2026-10-06T11:53:59.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26133162,
+    "category": null
+   },
+   {
+    "hash": "0x184cefa284774c6b1f25892f309e81e732c60e3484ce4785715c4a69395d622e",
+    "timestamp": "2026-10-06T11:24:23.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26133014,
+    "category": null
+   },
+   {
+    "hash": "0xd04cb13401e80a6028a8abdd9e7999b455801a47e63cc1c19fad99e2e2694a62",
+    "timestamp": "2026-10-06T11:22:47.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26133006,
+    "category": null
+   },
+   {
+    "hash": "0x9ab5128b5e4b04dc8d3d81711c3cbb38e12a5e7a82f4f134930e21ba607573b5",
+    "timestamp": "2026-10-06T11:21:35.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26133000,
+    "category": null
+   },
+   {
+    "hash": "0xefc8f3441b6e173a703fa68792c4d2498e5d955cc92a0462fd3fe5b573f74d5d",
+    "timestamp": "2026-10-06T11:20:23.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26132994,
+    "category": null
+   },
+   {
+    "hash": "0x7a29f204ce2695731b611891ee77aa48fc197f13c5bb8bdac8d6af05ddec87a7",
+    "timestamp": "2026-10-06T11:18:23.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26132984,
+    "category": null
+   },
+   {
+    "hash": "0x32c75a9a07414bc93daac1492ab2d0ca74dc536891336f008eef41588ce41547",
+    "timestamp": "2026-10-06T11:18:23.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26132984,
+    "category": null
+   },
+   {
+    "hash": "0xe22c9c11b9ff1ca74469e335953c202e3e554a19b930f5d407a146f2e6a1cf57",
+    "timestamp": "2026-10-06T11:15:59.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26132972,
+    "category": null
+   },
+   {
+    "hash": "0x16826eeb1a851585b0593041df54de876c162b682eaae7d5fec46e530a118a09",
+    "timestamp": "2026-10-06T11:14:59.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26132967,
+    "category": null
+   },
+   {
+    "hash": "0x09d4f08233d4282a420a1c7c5a0229b38d3609c37010b2a3903c8c22c94aaf2a",
+    "timestamp": "2026-10-06T11:11:23.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26132949,
+    "category": null
+   },
+   {
+    "hash": "0x541a4a791b8e4b652af02868f2609286f6d6677f7c3801ebd6269af3b256b0c7",
+    "timestamp": "2026-10-06T11:10:59.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26132947,
+    "category": null
+   },
+   {
+    "hash": "0x4d9890c3728866102157934c1e380d1964b9a5d0f406d3312f5724b5c3492629",
+    "timestamp": "2026-10-06T11:08:35.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26132935,
+    "category": null
+   },
+   {
+    "hash": "0xa9cf92ccb7ed5e25c20768a065c803e95b7bcb5fc27a9b6aacb18062e59cd60b",
+    "timestamp": "2026-10-06T11:02:23.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26132904,
+    "category": null
+   },
+   {
+    "hash": "0x298df871a8615f023a35a5bdb5d6dadc7dafedae6536ea784950391516d3dfc4",
+    "timestamp": "2026-10-06T10:57:11.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26132878,
+    "category": null
+   },
+   {
+    "hash": "0x62e13a1df4adba50400bbda57637819c74c030b9c4ec2d8cce4af7f7a80ffd39",
+    "timestamp": "2026-10-06T10:54:35.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26132865,
+    "category": null
+   },
+   {
+    "hash": "0x0ef11a3c4ccc90379ec80284bd1423a07ddecaa26c063d061f1620c6a3a8a0ab",
+    "timestamp": "2026-10-06T09:50:23.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26132549,
+    "category": null
+   },
+   {
+    "hash": "0x5c59b3655559255cbaf6acbc71d285da53ff151c596b1c7ed36fce86e63a268b",
+    "timestamp": "2026-10-06T09:49:11.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26132544,
+    "category": null
+   },
+   {
+    "hash": "0x186a4f7566358546b5788081781fa998d141f563424f229639111ae6e4571406",
+    "timestamp": "2026-10-06T08:45:11.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26132227,
+    "category": null
+   },
+   {
+    "hash": "0xae758c86314d80d748b86f11d3426239780f7b8458017ed043560772b53b2f9a",
+    "timestamp": "2026-10-06T06:56:23.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26131685,
+    "category": null
+   },
+   {
+    "hash": "0x4bbfaf55d6184be396b734dc367e85197d196b8e9e4447592b905b08bfda071f",
+    "timestamp": "2026-10-06T06:54:35.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26131676,
+    "category": null
+   },
+   {
+    "hash": "0xbb4ab7a66ee46941e006256a7f5c14dcbcc247e95f8eccfa064eda050e734118",
+    "timestamp": "2026-10-06T06:37:11.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26131591,
+    "category": null
+   },
+   {
+    "hash": "0xbc1d512dde40f6ed45d99b4b69a1326e2618d09c6046439ad61119de9f6e82f7",
+    "timestamp": "2026-10-06T03:12:59.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26130571,
+    "category": null
+   },
+   {
+    "hash": "0x531ac6ab09f2da65e403c65570ab48c84aa4344098cb0b1f66dc638114abff90",
+    "timestamp": "2026-10-06T00:45:35.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26129840,
+    "category": null
+   },
+   {
+    "hash": "0x070d21b0661b7cbfc77fe17564c1478027761b094426ee83ba1b823877e68a14",
+    "timestamp": "2026-10-05T23:41:23.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26129521,
+    "category": null
+   },
+   {
+    "hash": "0x2d8b36eb5e009d3792bb2bd991ebfc92536173cdd55e9f452cdec4d4aca11242",
+    "timestamp": "2026-10-05T23:22:11.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26129425,
+    "category": null
+   },
+   {
+    "hash": "0x336d0721f1ff605a4d7cd91fd0e9160dbbb0da331989ae138fe4b99b6330c7c0",
+    "timestamp": "2026-10-05T23:20:11.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26129415,
+    "category": null
+   },
+   {
+    "hash": "0xf688cf88d69d12e2be76b7e805b5a84a3841aa88b043e3e3984c2aa5a396e95a",
+    "timestamp": "2026-10-05T23:17:59.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26129405,
+    "category": null
+   },
+   {
+    "hash": "0xbf5e4d138e51b18f3019af7d5067ef5919c16543ecc1283ca910cefe65fa6762",
+    "timestamp": "2026-10-07T16:29:35.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26141710,
+    "category": null
+   },
+   {
+    "hash": "0xe61f3908733c62a83b77c6b45635ea20888840541b55af2fb2607174a8014fb1",
+    "timestamp": "2026-10-07T13:55:47.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26140944,
+    "category": null
+   },
+   {
+    "hash": "0x9b055e4e3ae262afd2f55a96e5470ebd0faffb8bb9d8a59479770d523679856e",
+    "timestamp": "2026-10-07T12:26:35.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26140500,
+    "category": null
+   },
+   {
+    "hash": "0x3eec968de56f241c9e16ffa4563630ccc290a53e358b133b710ac1a9a35f7df9",
+    "timestamp": "2026-10-07T10:39:59.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26139969,
+    "category": null
+   },
+   {
+    "hash": "0x3ad32eea31b10c10101c31651d163b03a614658d4db570b858be0e31d4db1176",
+    "timestamp": "2026-10-07T06:55:47.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26138854,
+    "category": null
+   },
+   {
+    "hash": "0xe1595d7a9a8cb5bec8365bac63922edc443c2b0e00440cda25e869214f9c4194",
+    "timestamp": "2026-10-06T22:34:47.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26136357,
+    "category": null
+   },
+   {
+    "hash": "0x4a593f09db6213272bee4330aeafff2c309079853b2f2c7c5594b2b367cdd536",
+    "timestamp": "2026-10-06T22:03:35.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26136201,
+    "category": null
+   },
+   {
+    "hash": "0xb58d1eecfcf761f89bab19af5022739997b5277675516fad7cceecae32ea99be",
+    "timestamp": "2026-10-06T22:02:59.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26136198,
+    "category": null
+   },
+   {
+    "hash": "0xdc56885bdddbd2cc5d57caf7a003a6c99dc83c6b1dcd149f7760f5cdc7bbceb3",
+    "timestamp": "2026-10-06T22:01:59.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26136193,
+    "category": null
+   },
+   {
+    "hash": "0xba96807f17f6a8fcddb521507338a7619b26e7635a425993a3a21cbca2d3bc49",
+    "timestamp": "2026-10-06T21:14:59.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26135959,
+    "category": null
+   },
+   {
+    "hash": "0xc24f82a2cacbb6e99b3f9dbf3eb3556aea3a31c007591d1b83ff88dfa7221cbd",
+    "timestamp": "2026-10-06T20:37:35.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26135772,
+    "category": null
+   },
+   {
+    "hash": "0x4983d89a486cb90b713fdf82baa3d1dfeb06e4ca640584e763f7ddfce950c86a",
+    "timestamp": "2026-10-06T17:51:35.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26134942,
+    "category": null
+   },
+   {
+    "hash": "0x32922080072e8a701f9f2707795eb3eeaf249f3c816feec1d65a2ea364005af3",
+    "timestamp": "2026-10-06T15:52:23.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26134348,
+    "category": null
+   },
+   {
+    "hash": "0xae079de022eb5c6e0213060869e7bf0c6d6f93eb061102b80470f16cf8ec107f",
+    "timestamp": "2026-10-06T15:50:23.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26134338,
+    "category": null
+   },
+   {
+    "hash": "0x36202530badbba04126212c631a0703363b9e3a5f04efe9c0ba4adbbf2af81a8",
+    "timestamp": "2026-10-06T15:47:47.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26134325,
+    "category": null
+   },
+   {
+    "hash": "0xc3a7d1418b3548fb9cf1bfff7c357e7914e0bc3a71e68cb0a50605e7287c2ed3",
+    "timestamp": "2026-10-06T15:46:23.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26134318,
+    "category": null
+   },
+   {
+    "hash": "0xeafe5748528ff48d12497f4ccfb3dcfff4b6f5e75048df9aaa83c778eb0e0989",
+    "timestamp": "2026-10-06T15:41:47.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26134295,
+    "category": null
+   },
+   {
+    "hash": "0xa6008d0400ade133aba00e988dc8d4deae04d5327e3a1a4d0477d963bb3c3e52",
+    "timestamp": "2026-10-06T15:33:11.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26134252,
+    "category": null
+   },
+   {
+    "hash": "0xb8b9de226c1ebdb617179ba6558f8a07e955ce2901b4651b64ac7845079fb5ab",
+    "timestamp": "2026-10-06T13:14:11.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26133562,
+    "category": null
+   },
+   {
+    "hash": "0x303b4c2053f3d20a88978585af28a7dfc1a23ba9e119e2e3fd476d835f18ea80",
+    "timestamp": "2026-10-06T13:02:47.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26133505,
+    "category": null
+   },
+   {
+    "hash": "0x8d3adc9ee7ca205b18ee549d8b1878fd0fa71fc951ab7746df01a595c7e1dedd",
+    "timestamp": "2026-10-06T12:31:59.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26133352,
+    "category": null
+   },
+   {
+    "hash": "0xea3cd8790c42ed9f4953f6b0b6f67a3d89c692351389fbed7e6dd1b1e44163a6",
+    "timestamp": "2026-10-06T12:07:23.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26133229,
+    "category": null
+   },
+   {
+    "hash": "0x38fe2269286a8bc90ba48f18b3ee82d4784203cba01614313258f9d728960615",
+    "timestamp": "2026-10-06T12:03:35.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26133210,
+    "category": null
+   },
+   {
+    "hash": "0x67c5e9ebc88a38c9787b4eb30ad085a656b39a5ebe12b60c7f679c5747e34838",
+    "timestamp": "2026-10-06T11:53:59.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26133162,
+    "category": null
+   },
+   {
+    "hash": "0x184cefa284774c6b1f25892f309e81e732c60e3484ce4785715c4a69395d622e",
+    "timestamp": "2026-10-06T11:24:23.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26133014,
+    "category": null
+   },
+   {
+    "hash": "0xd04cb13401e80a6028a8abdd9e7999b455801a47e63cc1c19fad99e2e2694a62",
+    "timestamp": "2026-10-06T11:22:47.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26133006,
+    "category": null
+   },
+   {
+    "hash": "0x9ab5128b5e4b04dc8d3d81711c3cbb38e12a5e7a82f4f134930e21ba607573b5",
+    "timestamp": "2026-10-06T11:21:35.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26133000,
+    "category": null
+   },
+   {
+    "hash": "0xefc8f3441b6e173a703fa68792c4d2498e5d955cc92a0462fd3fe5b573f74d5d",
+    "timestamp": "2026-10-06T11:20:23.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26132994,
+    "category": null
+   },
+   {
+    "hash": "0x7a29f204ce2695731b611891ee77aa48fc197f13c5bb8bdac8d6af05ddec87a7",
+    "timestamp": "2026-10-06T11:18:23.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26132984,
+    "category": null
+   },
+   {
+    "hash": "0x32c75a9a07414bc93daac1492ab2d0ca74dc536891336f008eef41588ce41547",
+    "timestamp": "2026-10-06T11:18:23.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26132984,
+    "category": null
+   },
+   {
+    "hash": "0xe22c9c11b9ff1ca74469e335953c202e3e554a19b930f5d407a146f2e6a1cf57",
+    "timestamp": "2026-10-06T11:15:59.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26132972,
+    "category": null
+   },
+   {
+    "hash": "0x16826eeb1a851585b0593041df54de876c162b682eaae7d5fec46e530a118a09",
+    "timestamp": "2026-10-06T11:14:59.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26132967,
+    "category": null
+   },
+   {
+    "hash": "0x09d4f08233d4282a420a1c7c5a0229b38d3609c37010b2a3903c8c22c94aaf2a",
+    "timestamp": "2026-10-06T11:11:23.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26132949,
+    "category": null
+   },
+   {
+    "hash": "0x541a4a791b8e4b652af02868f2609286f6d6677f7c3801ebd6269af3b256b0c7",
+    "timestamp": "2026-10-06T11:10:59.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26132947,
+    "category": null
+   },
+   {
+    "hash": "0x4d9890c3728866102157934c1e380d1964b9a5d0f406d3312f5724b5c3492629",
+    "timestamp": "2026-10-06T11:08:35.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26132935,
+    "category": null
+   },
+   {
+    "hash": "0xa9cf92ccb7ed5e25c20768a065c803e95b7bcb5fc27a9b6aacb18062e59cd60b",
+    "timestamp": "2026-10-06T11:02:23.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26132904,
+    "category": null
+   },
+   {
+    "hash": "0x298df871a8615f023a35a5bdb5d6dadc7dafedae6536ea784950391516d3dfc4",
+    "timestamp": "2026-10-06T10:57:11.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26132878,
+    "category": null
+   },
+   {
+    "hash": "0x62e13a1df4adba50400bbda57637819c74c030b9c4ec2d8cce4af7f7a80ffd39",
+    "timestamp": "2026-10-06T10:54:35.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26132865,
+    "category": null
+   },
+   {
+    "hash": "0x0ef11a3c4ccc90379ec80284bd1423a07ddecaa26c063d061f1620c6a3a8a0ab",
+    "timestamp": "2026-10-06T09:50:23.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26132549,
+    "category": null
+   },
+   {
+    "hash": "0x5c59b3655559255cbaf6acbc71d285da53ff151c596b1c7ed36fce86e63a268b",
+    "timestamp": "2026-10-06T09:49:11.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26132544,
+    "category": null
+   },
+   {
+    "hash": "0x186a4f7566358546b5788081781fa998d141f563424f229639111ae6e4571406",
+    "timestamp": "2026-10-06T08:45:11.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26132227,
+    "category": null
+   },
+   {
+    "hash": "0xae758c86314d80d748b86f11d3426239780f7b8458017ed043560772b53b2f9a",
+    "timestamp": "2026-10-06T06:56:23.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26131685,
+    "category": null
+   },
+   {
+    "hash": "0x4bbfaf55d6184be396b734dc367e85197d196b8e9e4447592b905b08bfda071f",
+    "timestamp": "2026-10-06T06:54:35.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26131676,
+    "category": null
+   },
+   {
+    "hash": "0xbb4ab7a66ee46941e006256a7f5c14dcbcc247e95f8eccfa064eda050e734118",
+    "timestamp": "2026-10-06T06:37:11.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26131591,
+    "category": null
+   },
+   {
+    "hash": "0xbc1d512dde40f6ed45d99b4b69a1326e2618d09c6046439ad61119de9f6e82f7",
+    "timestamp": "2026-10-06T03:12:59.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26130571,
+    "category": null
+   },
+   {
+    "hash": "0x531ac6ab09f2da65e403c65570ab48c84aa4344098cb0b1f66dc638114abff90",
+    "timestamp": "2026-10-06T00:45:35.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26129840,
+    "category": null
+   },
+   {
+    "hash": "0x070d21b0661b7cbfc77fe17564c1478027761b094426ee83ba1b823877e68a14",
+    "timestamp": "2026-10-05T23:41:23.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26129521,
+    "category": null
+   },
+   {
+    "hash": "0x2d8b36eb5e009d3792bb2bd991ebfc92536173cdd55e9f452cdec4d4aca11242",
+    "timestamp": "2026-10-05T23:22:11.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26129425,
+    "category": null
+   },
+   {
+    "hash": "0x336d0721f1ff605a4d7cd91fd0e9160dbbb0da331989ae138fe4b99b6330c7c0",
+    "timestamp": "2026-10-05T23:20:11.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26129415,
+    "category": null
+   },
+   {
+    "hash": "0xf688cf88d69d12e2be76b7e805b5a84a3841aa88b043e3e3984c2aa5a396e95a",
+    "timestamp": "2026-10-05T23:17:59.000000Z",
+    "method": "0xd53fbd1c",
+    "from": "0x0dbd17a18d559D1b73E6a1185c47F08f801Be66d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26129405,
+    "category": null
+   },
+   {
+    "truncated": true,
+    "chunk": 0
+   }
+  ],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 1,
+    "first": "2026-09-16",
+    "last": "2026-09-16",
+    "last_tx": "0x35e253121cfd06db0c098651d66305001319e81b77af734b509d2dd3efc49a22",
+    "list": [
+     {
+      "date": "2026-09-16",
+      "tx": "0x35e253121cfd06db0c098651d66305001319e81b77af734b509d2dd3efc49a22",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "c9deb16dc1942055d92955c30d23345d98d6fe9d"
+      ],
+      "data": "0x"
+     }
+    ]
+   },
+   "MetadataUpdate(uint256)": {
+    "n": 183,
+    "first": "2026-10-05",
+    "last": "2026-10-07",
+    "last_tx": "0xbf5e4d138e51b18f3019af7d5067ef5919c16543ecc1283ca910cefe65fa6762",
+    "list": [
+     {
+      "date": "2026-10-05",
+      "tx": "0xa1cc7ea96c96cfed44805ce2eb9c537bb5e3c5430bca4443a4975240a8fe63bb",
+      "topics": [
+       "00000000000000000000000000000000000005b8"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-10-05",
+      "tx": "0xeef43ce02d0f781c2bd85a755474fc3efcfb6d488d2be6d2c97d5783715a4e18",
+      "topics": [
+       "0000000000000000000000000000000000001c94"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-10-05",
+      "tx": "0x1c35038e154678d78092e70781a3de7609479562a455edcb12fc0fa9ca7b3a38",
+      "topics": [
+       "0000000000000000000000000000000000002222"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-10-05",
+      "tx": "0xbf44409da1311543275d950198ed9786036197b4ce9d6a71916e2c18faecb2d8",
+      "topics": [
+       "0000000000000000000000000000000000001966"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-10-05",
+      "tx": "0x2b42a7cdebdb7b842540acfbed5b104443a1cf0bb2fcede3a226fabd963106c0",
+      "topics": [
+       "0000000000000000000000000000000000001bb5"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-10-05",
+      "tx": "0xe385c6ff0c548f58309a57d255eb864f54c788bf8637bfd4af218909da688fa8",
+      "topics": [
+       "00000000000000000000000000000000000013bc"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-10-05",
+      "tx": "0x9cb67bafec70bae7d5608a088788f0c6a4e4badc8387a76768737558d3351a69",
+      "topics": [
+       "000000000000000000000000000000000000223d"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-10-05",
+      "tx": "0xd8fe81edb11f8543fed2559d634dfa84903ef7f9dc41e9275bd24c66f917a756",
+      "topics": [
+       "0000000000000000000000000000000000000ffd"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-10-05",
+      "tx": "0xecfd4dbcecd39d4dc9009942add29a3385fde97debf9ee954dba404d3acd779f",
+      "topics": [
+       "000000000000000000000000000000000000179d"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-10-05",
+      "tx": "0x8970995e692b19a4827d2981752d3cba3a6d704dd8c84dc44abcc31753a526a8",
+      "topics": [
+       "00000000000000000000000000000000000022b5"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-10-05",
+      "tx": "0x85528fad69b100deb5b11aab0ae26f831235df69ef22a814d80d1b8a8188bfc9",
+      "topics": [
+       "0000000000000000000000000000000000000948"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-10-05",
+      "tx": "0x4716851e6270050b585f5a53649fc2e575eb4268293e93c07df6393c3729b077",
+      "topics": [
+       "000000000000000000000000000000000000050f"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-10-05",
+      "tx": "0x37c83503dfeacbaef7b40f93237b9e14b076bb19d85ec3d05c39b0545172962b",
+      "topics": [
+       "000000000000000000000000000000000000097f"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-10-05",
+      "tx": "0x9873af74c4aec86ca0bbcff34625cf85f846d63e8a05b49177c80225537b2969",
+      "topics": [
+       "0000000000000000000000000000000000000878"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-10-05",
+      "tx": "0xf48d1998e2bacbc07e3de613ebbae344a2ca8543935fc4536fcaa442975020f4",
+      "topics": [
+       "0000000000000000000000000000000000000df0"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-10-05",
+      "tx": "0x42006fab22456056096bf6fa4819fc6443df346d94078fc422cd63ce9b3eb48f",
+      "topics": [
+       "00000000000000000000000000000000000005d9"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-10-05",
+      "tx": "0xd40df3c21a60fac322014a6c48dac38538124a6c3ceebd441d98b29bfd34b418",
+      "topics": [
+       "0000000000000000000000000000000000001a2e"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-10-05",
+      "tx": "0x6edecc68c36bc8571be99419f7a2cef2472c9752a4e8597b4ce60722b9eed403",
+      "topics": [
+       "00000000000000000000000000000000000011c1"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-10-05",
+      "tx": "0x642aec5f34f5e397dc4692f38ad5d8a64a1260c19fdb2b4e156b9d01a8f12501",
+      "topics": [
+       "00000000000000000000000000000000000010d5"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-10-05",
+      "tx": "0xee261cbbb05d7ebe29c772ab92f0d5095509b91ca2247c20a5135c0f841b8f99",
+      "topics": [
+       "000000000000000000000000000000000000090d"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-10-05",
+      "tx": "0xdc62cfb3f5c84d0cc5e08810c5a84e642216c797d20c3bb01fdc010a487e20dd",
+      "topics": [
+       "0000000000000000000000000000000000000d12"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-10-05",
+      "tx": "0x84e9d4fa79316ed6a1cd9c3d74bdd59d431201ecc10fc0002eebec1ff9cf0bb7",
+      "topics": [
+       "0000000000000000000000000000000000000581"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-10-05",
+      "tx": "0xad98b4f92965cfa531f1145a0d5270bcd377c9921fa2ae3ddd93fbe9956cd24a",
+      "topics": [
+       "0000000000000000000000000000000000001ccb"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-10-05",
+      "tx": "0xf744f42be0a9eb7cabd03cb6dfa379a52f3101f2df521b27d1c9adde978ae142",
+      "topics": [
+       "000000000000000000000000000000000000145b"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-10-05",
+      "tx": "0x7a31f5eae53e2a173061fc0ed1956736ee1c002c8cb0a86c804ad5bd957b8ea0",
+      "topics": [
+       "0000000000000000000000000000000000000902"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-10-05",
+      "tx": "0xe8c612218d27a5bb31a6b1693960a81d06bfb6abf820f225411d4540f1dada71",
+      "topics": [
+       "0000000000000000000000000000000000000b4a"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-10-05",
+      "tx": "0x9814d73cf61f9ad17944b8d3d3b6aeaff8e8beec582329eef8fb6f74982dd3fb",
+      "topics": [
+       "0000000000000000000000000000000000000dfd"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-10-05",
+      "tx": "0x68112af8045ffe0d02ddbd9ea0171e31fc9f3d2ed47cd55050c7405c73c0525f",
+      "topics": [
+       "000000000000000000000000000000000000150a"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-10-05",
+      "tx": "0x292c4037cf10c449c4d3dc8ddf92a3b9f1f8a1b369d510306bd8086428944558",
+      "topics": [
+       "00000000000000000000000000000000000011e8"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-10-05",
+      "tx": "0x3f3737f58a182a2c6dd6005592e3084b1136eb71e52e7f6be010b598f378a811",
+      "topics": [
+       "0000000000000000000000000000000000000400"
+      ],
+      "data": "0x"
+     }
+    ]
+   },
+   "BatchMetadataUpdate(uint256,uint256)": {
+    "n": 2,
+    "first": "2026-09-23",
+    "last": "2026-09-24",
+    "last_tx": "0x87e270d23c327d7b2ce5ace2c903809cbe3b2c9fa1739527374906847f2a4b47",
+    "list": [
+     {
+      "date": "2026-09-23",
+      "tx": "0x995e63f4f40c5377b0195e65624dfa0e8ceb2d3ca0604b336e207222daa66682",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000015e"
+     },
+     {
+      "date": "2026-09-24",
+      "tx": "0x87e270d23c327d7b2ce5ace2c903809cbe3b2c9fa1739527374906847f2a4b47",
+      "topics": [],
+      "data": "0x000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000023a5"
+     }
+    ]
+   },
+   "ContractURIUpdated(string)": {
+    "n": 0
+   },
+   "ForgeModuleLocked(address)": {
+    "n": 0
+   },
+   "MetadataFrozen(string)": {
+    "n": 0
+   },
+   "MetadataSet(uint256,string,string,bytes)": {
+    "n": 0
+   },
+   "OnchainMetadataModuleLocked(address)": {
+    "n": 0
+   },
+   "OnchainMetadataModuleUpdated(address,address)": {
+    "n": 0
+   },
+   "WorkshopModuleLocked(address)": {
+    "n": 0
+   }
+  },
+  "decoded": [],
+  "ownership_transfers": [
+   {
+    "date": "2026-09-16",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0xc9deb16dc1942055d92955c30d23345d98d6fe9d",
+    "tx": "0x35e253121cfd06db0c098651d66305001319e81b77af734b509d2dd3efc49a22"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0xe31703379e32cad7502a594a854a76f9bb0be0e5_reads1.json",
+ "eip4906": true,
+ "owner": {
+  "addr": "0xc9deb16dc1942055d92955c30d23345d98d6fe9d",
+  "code_raw": "data/raw/rpc-mutability/0xc9deb16dc1942055d92955c30d23345d98d6fe9d_holdercode.json",
+  "type": "eoa",
+  "note": "EIP-7702 delegated EOA",
+  "bs_name": null,
+  "ens": null,
+  "bs_impl_names": [
+   "EIP7702StatelessDeleGator"
+  ],
+  "bs_tags": [],
+  "is_contract": true,
+  "creator": null,
+  "is_verified": true,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {
+  "forgeModuleLocked": 0,
+  "metadataFrozen": 0,
+  "onchainMetadataModuleLocked": 0,
+  "workshopModuleLocked": 0
+ },
+ "tokenuri_path": "override",
+ "lock_functions": [
+  "freezeMetadata",
+  "lockForgeModule",
+  "lockOnchainMetadataModule",
+  "lockWorkshopModule"
+ ],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [
+  {
+   "name": "setBaseURI",
+   "sig": "setBaseURI(string)",
+   "selector": "0x55f804b3",
+   "category": "uri",
+   "inputs": [
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [],
+   "body_head": "_onlyOwnerOrSelf();\n\n         \n        _tokenBaseURI = newBaseURI;\n\n         \n        if (totalSupply() != 0) {\n            emit BatchMetadataUpdate(1, _nextTok",
+   "writes": [
+    "_tokenBaseURI"
+   ],
+   "effective": "yes",
+   "power": "eoa",
+   "holder_addrs": [
+    "0xc9deb16dc1942055d92955c30d23345d98d6fe9d"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xc9deb16dc1942055d92955c30d23345d98d6fe9d",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "setForgeTokenURI",
+   "sig": "setForgeTokenURI(address,uint256,string)",
+   "selector": "0xd53fbd1c",
+   "category": "uri",
+   "inputs": [
+    "address",
+    "uint256",
+    "string"
+   ],
+   "gates": [],
+   "modifiers": [],
+   "body_head": "if (msg.sender != forgeModule) revert NotForgeModule();\n        _requireTokenOwner(holder, tokenId);\n        _setTokenURIOverride(tokenId, newTokenURI, false);",
+   "writes": [],
+   "effective": "unknown",
+   "power": "unknown",
+   "holder_addrs": [],
+   "holder_how": [
+    "no access check found in header/body head"
+   ],
+   "unknown_gate": true,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": []
+  },
+  {
+   "name": "setTokenURIOverride",
+   "sig": "setTokenURIOverride(uint256,string)",
+   "selector": "0x1622326a",
+   "category": "uri",
+   "inputs": [
+    "uint256",
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "_setTokenURIOverride(tokenId, newTokenURI, true);",
+   "writes": [],
+   "effective": "unknown",
+   "power": "eoa",
+   "holder_addrs": [
+    "0xc9deb16dc1942055d92955c30d23345d98d6fe9d"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xc9deb16dc1942055d92955c30d23345d98d6fe9d",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "setWorkshopTokenURI",
+   "sig": "setWorkshopTokenURI(address,uint256,string)",
+   "selector": "0x4c0eb8c7",
+   "category": "uri",
+   "inputs": [
+    "address",
+    "uint256",
+    "string"
+   ],
+   "gates": [],
+   "modifiers": [],
+   "body_head": "if (msg.sender != workshopModule) {\n            revert NotWorkshopModule();\n        }\n        _requireTokenOwner(holder, tokenId);\n        _setTokenURIOverride(",
+   "writes": [],
+   "effective": "unknown",
+   "power": "unknown",
+   "holder_addrs": [],
+   "holder_how": [
+    "no access check found in header/body head"
+   ],
+   "unknown_gate": true,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": []
+  },
+  {
+   "name": "updateDropURI",
+   "sig": "updateDropURI(address,string)",
+   "selector": "0x7a05bc82",
+   "category": "uri",
+   "inputs": [
+    "address",
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [],
+   "body_head": "_onlyOwnerOrSelf();\n\n         \n        _onlyAllowedSeaDrop(seaDropImpl);\n\n         \n        ISeaDrop(seaDropImpl).updateDropURI(dropURI);",
+   "writes": [],
+   "effective": "unknown",
+   "power": "eoa",
+   "holder_addrs": [
+    "0xc9deb16dc1942055d92955c30d23345d98d6fe9d"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xc9deb16dc1942055d92955c30d23345d98d6fe9d",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "setMetadata",
+   "sig": "setMetadata(uint256,string,bytes)",
+   "selector": "0x466648da",
+   "category": "renderer",
+   "inputs": [
+    "uint256",
+    "string",
+    "bytes"
+   ],
+   "gates": [],
+   "modifiers": [],
+   "body_head": "if (msg.sender != owner() && msg.sender != onchainMetadataModule) {\n            revert NotOnchainMetadataWriter();\n        }\n        if (!_exists(tokenId)) reve",
+   "writes": [
+    "_onchainMetadata"
+   ],
+   "effective": "no",
+   "power": "unknown",
+   "holder_addrs": [],
+   "holder_how": [
+    "no access check found in header/body head"
+   ],
+   "unknown_gate": true,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": []
+  },
+  {
+   "name": "setProvenanceHash",
+   "sig": "setProvenanceHash(bytes32)",
+   "selector": "0x099b6bfa",
+   "category": "reveal",
+   "inputs": [
+    "bytes32"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [],
+   "body_head": "_onlyOwnerOrSelf();\n\n         \n        if (_totalMinted() > 0) {\n            revert ProvenanceHashCannotBeSetAfterMintStarted();\n        }\n\n         \n        by",
+   "writes": [
+    "_provenanceHash"
+   ],
+   "power": "eoa",
+   "holder_addrs": [
+    "0xc9deb16dc1942055d92955c30d23345d98d6fe9d"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xc9deb16dc1942055d92955c30d23345d98d6fe9d",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "setContractURI",
+   "sig": "setContractURI(string)",
+   "selector": "0x938e3d7b",
+   "category": "contracturi",
+   "inputs": [
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [],
+   "body_head": "_onlyOwnerOrSelf();\n\n         \n        _contractURI = newContractURI;\n\n         \n        emit ContractURIUpdated(newContractURI);",
+   "writes": [
+    "_contractURI"
+   ],
+   "power": "eoa",
+   "holder_addrs": [
+    "0xc9deb16dc1942055d92955c30d23345d98d6fe9d"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xc9deb16dc1942055d92955c30d23345d98d6fe9d",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  }
+ ],
+ "class_direct": "eoa-mutable",
+ "class_reason": "live setters (eoa): setBaseURI,setTokenURIOverride,updateDropURI",
+ "live_mutators": [
+  "setBaseURI",
+  "setForgeTokenURI",
+  "setTokenURIOverride",
+  "setWorkshopTokenURI",
+  "updateDropURI"
+ ],
+ "dependencies": [],
+ "meta": {
+  "address": "0xe31703379e32cad7502a594a854a76f9bb0be0e5",
+  "name": "JPEG Frens",
+  "w5_claim_strength": "on-chain-generic",
+  "w5_claim_text": "* @notice Sets or removes the future on-chain metadata / 721T module.",
+  "w5_source_type": "contract-source",
+  "w5_source_url": "https://etherscan.io/address/0xe31703379e32cad7502a594a854a76f9bb0be0e5#code (src/JPEGFrens.sol:129)",
+  "holders_count": 18972.0,
+  "in_w5": true,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": null,
+  "census_media_class": null,
+  "census_liveness": null,
+  "in_census_onchain": false,
+  "standard": "ERC-721",
+  "creator": "0xc9deb16dc1942055d92955c30d23345d98d6fe9d",
+  "deploy_block": 25986659.0
+ },
+ "class_deps_all": "none",
+ "class_deps": "none",
+ "class_final": "eoa-mutable",
+ "pointer_power": "eoa"
+}

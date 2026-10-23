@@ -1,0 +1,33 @@
+{
+ "collection": "Art Blocks #23 Archetype (Kjetil Golid)",
+ "slug": "ab-23",
+ "contract": "0xa7d8d9ef8D8Ce8992Df33D8b8CF4Aebabd5bD270",
+ "token_id": 23000000,
+ "project_id": 23,
+ "project_name": "Archetype",
+ "artist": "Kjetil Golid",
+ "script_type": "p5js@1.0.0",
+ "script_count": 1,
+ "script_bytes": 13911,
+ "token_hash": "0x1abf77fc2d70e203a3e6552b61b6fa7adc71d0dee49d2d0df21a1f45b90e54ef",
+ "chain_method": "Art Blocks: project script on core contract + libraries from on-chain Dependency Registry, assembled by on-chain Generator getTokenHtml()",
+ "chain_call": "GenArt721Generator.getTokenHtml(0xa7d8d9ef8D8Ce8992Df33D8b8CF4Aebabd5bD270, 23000000) @ 0x953D288708bB771F969FCfD9BA0819eF506Ac718",
+ "medium": "html+js (p5js@1.0.0)",
+ "fields": {},
+ "rpc": {
+  "public_rpc_ok": true,
+  "rpc": "public",
+  "gas_estimate": 10044215
+ },
+ "generator_embeds_project_script": true,
+ "note": "tokenURI of the core contract is an HTTPS URL on the Art Blocks API; B uses the on-chain Generator output instead (the honest on-chain test)",
+ "artwork_file": "artwork.html",
+ "doc_type": "text/html; charset=utf-8",
+ "artwork_bytes": 237790,
+ "artwork_sha256": "f8e4ab50d492bde23bd8f6d1c8bfb9ea46fcdf67fea6833ad4ba9c8dfe1239cb",
+ "declared": {
+  "load": [],
+  "literals": []
+ },
+ "built_at": "2026-10-21T20:11:48Z"
+}

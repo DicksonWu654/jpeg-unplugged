@@ -1,0 +1,477 @@
+{
+  "collection": {
+    "rank": 30,
+    "source_rank": 30,
+    "name": "NFT Worlds",
+    "contract": "0xbd4455da5929d5639ee098abfaa3241e9ae111af",
+    "contracts": [
+      "0xbd4455da5929d5639ee098abfaa3241e9ae111af"
+    ],
+    "slug": "nft-worlds",
+    "volume_usd": 163840249.07,
+    "volume_source": "CryptoSlam all-time Ethereum owner-to-owner sales, wash-filtered USD",
+    "source_url": "https://web-api.cryptoslam.io/v1/sales/rank-by-volume?timeRange=all&orderBy=rank&sortDirection=asc&offset=0&limit=100&blockchainId=0&hideInscriptions=false",
+    "ranking_evidence": "data/raw/top100-api/cryptoslam-ranking-0.json",
+    "identity_evidence": "data/raw/top100-api/cryptoslam-info-nft-worlds.json",
+    "token_count": 10000,
+    "all_time_volume": 163840249.07,
+    "volume_currency": "USD",
+    "kind": "virtual-land",
+    "metadata_location": "http",
+    "metadata_classes": [
+      "http"
+    ],
+    "media_location": "unresolved",
+    "primary_image_location": "unresolved",
+    "media_classes": [],
+    "liveness": "dead",
+    "liveness_exact": "dead",
+    "all_declared_media_liveness": "dead",
+    "metadata_failed": true,
+    "n_alive": 0,
+    "n_dead": 3,
+    "n_unknown": 0,
+    "n_degraded": 0,
+    "key_domain_or_gateway": "metadata.nftworlds.com",
+    "hosts": [
+      "metadata.nftworlds.com"
+    ],
+    "hardcoded_gateways": [],
+    "http_origin_dependency": true,
+    "uses_ipfs": false,
+    "uses_arweave": false,
+    "fully_onchain_all_declared_media": false,
+    "metadata_and_primary_image_onchain": false,
+    "mutability_class": "immutable",
+    "single_key_mutable": false,
+    "single_key_repointable": false,
+    "base_uri_or_renderer": "0xbd4455da5929d5639ee098abfaa3241e9ae111af.tokenURI/uri",
+    "control": [
+      {
+        "contract": "0xbd4455da5929d5639ee098abfaa3241e9ae111af",
+        "class": "immutable",
+        "pointer_power": null,
+        "reason": "updateMetadataIPFSHash:token-holder-only",
+        "owner": {
+          "addr": "0xcf3acec6dd54c1471a94a3ba5c927c1dfd215946",
+          "code_raw": "data/raw/rpc-mutability/0xcf3acec6dd54c1471a94a3ba5c927c1dfd215946_holdercode.json",
+          "type": "eoa",
+          "bs_name": null,
+          "ens": null,
+          "bs_impl_names": [],
+          "bs_tags": [],
+          "is_contract": false,
+          "creator": null,
+          "is_verified": false,
+          "bs_reputation": "ok"
+        },
+        "proxy": {
+          "kind": null
+        },
+        "live_mutators": [
+          {
+            "name": "updateMetadataIPFSHash",
+            "sig": "updateMetadataIPFSHash(uint256,string)",
+            "category": "uri",
+            "power": "token-holder",
+            "holders": [],
+            "effective": "yes",
+            "reason": null
+          }
+        ],
+        "lock_flags": {},
+        "dependencies": [],
+        "pointer_getters": [],
+        "analyzed_at": "2026-10-23T02:51:15Z",
+        "history_incomplete": false,
+        "evidence": "data/raw/top100-mutability/0xbd4455da5929d5639ee098abfaa3241e9ae111af.json"
+      }
+    ],
+    "samples": 3,
+    "distinct_token_ids": 3,
+    "sample_note": null,
+    "source_contracts_without_sampleable_nfts": [],
+    "ownership_scope_gaps": [],
+    "refreshed_at": "2026-10-23T03:05:03Z",
+    "opensea_rank": 36,
+    "ranking_scope_disagreement": false,
+    "metadata_adapter": false,
+    "evidence": [
+      "data/raw/top100-census/0xbd4455da5929d5639ee098abfaa3241e9ae111af/result.json.gz"
+    ],
+    "delivery_note": null
+  },
+  "samples": [
+    {
+      "contract": "0xbd4455da5929d5639ee098abfaa3241e9ae111af",
+      "token_id": "6305",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(0) [low; totalSupply=10000]",
+      "metadata_location": "http",
+      "metadata_uri": "https://metadata.nftworlds.com/ipfs?ipfs=QmUwBAUqv6pLBXCcgFbssBGRET4kRXASxfVHyYxaCFUNmn",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "metadata.nftworlds.com",
+          "url": "https://metadata.nftworlds.com/ipfs?ipfs=QmUwBAUqv6pLBXCcgFbssBGRET4kRXASxfVHyYxaCFUNmn",
+          "status": null,
+          "error_kind": "dns-nxdomain",
+          "v": "dead",
+          "reason": "dns-nxdomain",
+          "seq": 2,
+          "final_url": "https://metadata.nftworlds.com/ipfs?ipfs=QmUwBAUqv6pLBXCcgFbssBGRET4kRXASxfVHyYxaCFUNmn",
+          "content_type": null,
+          "size": 0,
+          "content_length": null,
+          "sha256": null,
+          "t": "2026-10-23T02:50:22Z",
+          "reg_domain_dns": "dns-nxdomain",
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "metadata.nftworlds.com",
+          "url": "https://metadata.nftworlds.com/ipfs?ipfs=QmUwBAUqv6pLBXCcgFbssBGRET4kRXASxfVHyYxaCFUNmn",
+          "status": null,
+          "error_kind": "dns-nxdomain",
+          "v": "dead",
+          "reason": "dns-nxdomain",
+          "seq": 7,
+          "final_url": "https://metadata.nftworlds.com/ipfs?ipfs=QmUwBAUqv6pLBXCcgFbssBGRET4kRXASxfVHyYxaCFUNmn",
+          "content_type": null,
+          "size": 0,
+          "content_length": null,
+          "sha256": null,
+          "t": "2026-10-23T02:58:40Z",
+          "reg_domain_dns": "dns-nxdomain",
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "metadata.nftworlds.com",
+          "url": "https://metadata.nftworlds.com/ipfs?ipfs=QmUwBAUqv6pLBXCcgFbssBGRET4kRXASxfVHyYxaCFUNmn",
+          "status": null,
+          "error_kind": "dns-nxdomain",
+          "v": "dead",
+          "reason": "dns-nxdomain",
+          "seq": 10,
+          "final_url": "https://metadata.nftworlds.com/ipfs?ipfs=QmUwBAUqv6pLBXCcgFbssBGRET4kRXASxfVHyYxaCFUNmn",
+          "content_type": null,
+          "size": 0,
+          "content_length": null,
+          "sha256": null,
+          "t": "2026-10-23T03:05:02Z",
+          "reg_domain_dns": "dns-nxdomain",
+          "redirected": false
+        }
+      ],
+      "media": [],
+      "derived": {
+        "meta_verdict": "dead",
+        "meta_verdict_reason": "dns-nxdomain",
+        "image_class": null,
+        "anim_class": null,
+        "image_verdict": null,
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {},
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "dead",
+        "liveness_reason": "dns-nxdomain",
+        "liveness_exact": "dead",
+        "liveness_exact_reason": "dns-nxdomain",
+        "meta_verdict_exact": "dead",
+        "image_verdict_exact": null,
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "dns-nxdomain"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd00000000000000000000000000000000000000000000000000000000000018a1",
+          "endpoint": "https://eth.drpc.org",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 322,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0xbd4455da5929d5639ee098abfaa3241e9ae111af/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0xbd4455da5929d5639ee098abfaa3241e9ae111af",
+      "token_id": "3789",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(5000) [mid; totalSupply=10000]",
+      "metadata_location": "http",
+      "metadata_uri": "https://metadata.nftworlds.com/ipfs?ipfs=QmSJY14YXXnmoGn1httiZVWLkoepu4dPxZ8p88MaQ7HsN9",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "metadata.nftworlds.com",
+          "url": "https://metadata.nftworlds.com/ipfs?ipfs=QmSJY14YXXnmoGn1httiZVWLkoepu4dPxZ8p88MaQ7HsN9",
+          "status": null,
+          "error_kind": "dns-nxdomain",
+          "v": "dead",
+          "reason": "dns-nxdomain",
+          "seq": 4,
+          "final_url": "https://metadata.nftworlds.com/ipfs?ipfs=QmSJY14YXXnmoGn1httiZVWLkoepu4dPxZ8p88MaQ7HsN9",
+          "content_type": null,
+          "size": 0,
+          "content_length": null,
+          "sha256": null,
+          "t": "2026-10-23T02:50:23Z",
+          "reg_domain_dns": "dns-nxdomain",
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "metadata.nftworlds.com",
+          "url": "https://metadata.nftworlds.com/ipfs?ipfs=QmSJY14YXXnmoGn1httiZVWLkoepu4dPxZ8p88MaQ7HsN9",
+          "status": null,
+          "error_kind": "dns-nxdomain",
+          "v": "dead",
+          "reason": "dns-nxdomain",
+          "seq": 8,
+          "final_url": "https://metadata.nftworlds.com/ipfs?ipfs=QmSJY14YXXnmoGn1httiZVWLkoepu4dPxZ8p88MaQ7HsN9",
+          "content_type": null,
+          "size": 0,
+          "content_length": null,
+          "sha256": null,
+          "t": "2026-10-23T02:58:40Z",
+          "reg_domain_dns": "dns-nxdomain",
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "metadata.nftworlds.com",
+          "url": "https://metadata.nftworlds.com/ipfs?ipfs=QmSJY14YXXnmoGn1httiZVWLkoepu4dPxZ8p88MaQ7HsN9",
+          "status": null,
+          "error_kind": "dns-nxdomain",
+          "v": "dead",
+          "reason": "dns-nxdomain",
+          "seq": 11,
+          "final_url": "https://metadata.nftworlds.com/ipfs?ipfs=QmSJY14YXXnmoGn1httiZVWLkoepu4dPxZ8p88MaQ7HsN9",
+          "content_type": null,
+          "size": 0,
+          "content_length": null,
+          "sha256": null,
+          "t": "2026-10-23T03:05:03Z",
+          "reg_domain_dns": "dns-nxdomain",
+          "redirected": false
+        }
+      ],
+      "media": [],
+      "derived": {
+        "meta_verdict": "dead",
+        "meta_verdict_reason": "dns-nxdomain",
+        "image_class": null,
+        "anim_class": null,
+        "image_verdict": null,
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {},
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "dead",
+        "liveness_reason": "dns-nxdomain",
+        "liveness_exact": "dead",
+        "liveness_exact_reason": "dns-nxdomain",
+        "meta_verdict_exact": "dead",
+        "image_verdict_exact": null,
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "dns-nxdomain"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000000ecd",
+          "endpoint": "https://eth.drpc.org",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 322,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0xbd4455da5929d5639ee098abfaa3241e9ae111af/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0xbd4455da5929d5639ee098abfaa3241e9ae111af",
+      "token_id": "816",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(9999) [recent; totalSupply=10000]",
+      "metadata_location": "http",
+      "metadata_uri": "https://metadata.nftworlds.com/ipfs?ipfs=QmVfoVQgVCTBw9nNegTrHsQz3CQhxmA44K24316vSuS9Kr",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "metadata.nftworlds.com",
+          "url": "https://metadata.nftworlds.com/ipfs?ipfs=QmVfoVQgVCTBw9nNegTrHsQz3CQhxmA44K24316vSuS9Kr",
+          "status": null,
+          "error_kind": "dns-nxdomain",
+          "v": "dead",
+          "reason": "dns-nxdomain",
+          "seq": 6,
+          "final_url": "https://metadata.nftworlds.com/ipfs?ipfs=QmVfoVQgVCTBw9nNegTrHsQz3CQhxmA44K24316vSuS9Kr",
+          "content_type": null,
+          "size": 0,
+          "content_length": null,
+          "sha256": null,
+          "t": "2026-10-23T02:50:23Z",
+          "reg_domain_dns": "dns-nxdomain",
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "metadata.nftworlds.com",
+          "url": "https://metadata.nftworlds.com/ipfs?ipfs=QmVfoVQgVCTBw9nNegTrHsQz3CQhxmA44K24316vSuS9Kr",
+          "status": null,
+          "error_kind": "dns-nxdomain",
+          "v": "dead",
+          "reason": "dns-nxdomain",
+          "seq": 9,
+          "final_url": "https://metadata.nftworlds.com/ipfs?ipfs=QmVfoVQgVCTBw9nNegTrHsQz3CQhxmA44K24316vSuS9Kr",
+          "content_type": null,
+          "size": 0,
+          "content_length": null,
+          "sha256": null,
+          "t": "2026-10-23T02:58:40Z",
+          "reg_domain_dns": "dns-nxdomain",
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "metadata.nftworlds.com",
+          "url": "https://metadata.nftworlds.com/ipfs?ipfs=QmVfoVQgVCTBw9nNegTrHsQz3CQhxmA44K24316vSuS9Kr",
+          "status": null,
+          "error_kind": "dns-nxdomain",
+          "v": "dead",
+          "reason": "dns-nxdomain",
+          "seq": 12,
+          "final_url": "https://metadata.nftworlds.com/ipfs?ipfs=QmVfoVQgVCTBw9nNegTrHsQz3CQhxmA44K24316vSuS9Kr",
+          "content_type": null,
+          "size": 0,
+          "content_length": null,
+          "sha256": null,
+          "t": "2026-10-23T03:05:03Z",
+          "reg_domain_dns": "dns-nxdomain",
+          "redirected": false
+        }
+      ],
+      "media": [],
+      "derived": {
+        "meta_verdict": "dead",
+        "meta_verdict_reason": "dns-nxdomain",
+        "image_class": null,
+        "anim_class": null,
+        "image_verdict": null,
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {},
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "dead",
+        "liveness_reason": "dns-nxdomain",
+        "liveness_exact": "dead",
+        "liveness_exact_reason": "dns-nxdomain",
+        "meta_verdict_exact": "dead",
+        "image_verdict_exact": null,
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "dns-nxdomain"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000000330",
+          "endpoint": "https://eth.drpc.org",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 322,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0xbd4455da5929d5639ee098abfaa3241e9ae111af/evidence.jsonl.gz"
+    }
+  ],
+  "saved_packet_index": [
+    {
+      "path": "data/raw/top100-api/opensea-contract-0xbd4455da5929d5639ee098abfaa3241e9ae111af-attempt1-1792724290625380462.body",
+      "sha256": "e7435fbb1c5ad5f3795889b78db8f659dff6d30c6b8b48d4369204d05b353f74",
+      "retrieved_at": "2026-10-23T02:58:10Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0xbd4455da5929d5639ee098abfaa3241e9ae111af",
+      "method": "GET",
+      "status": 401,
+      "error": null,
+      "bytes": 70,
+      "truncated": false
+    },
+    {
+      "path": "data/raw/top100-api/opensea-contract-0xbd4455da5929d5639ee098abfaa3241e9ae111af-attempt1-1792724730467964066.body",
+      "sha256": "e7435fbb1c5ad5f3795889b78db8f659dff6d30c6b8b48d4369204d05b353f74",
+      "retrieved_at": "2026-10-23T03:05:30Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0xbd4455da5929d5639ee098abfaa3241e9ae111af",
+      "method": "GET",
+      "status": 401,
+      "error": null,
+      "bytes": 70,
+      "truncated": false
+    },
+    {
+      "path": "data/raw/top100-census/0xbd4455da5929d5639ee098abfaa3241e9ae111af/bodies.zip",
+      "sha256": "e932f62e1a14d07d770ef9518f16f58688ee20a49828720450550a7679e8a6ee",
+      "bytes": 882
+    },
+    {
+      "path": "data/raw/top100-census/0xbd4455da5929d5639ee098abfaa3241e9ae111af/evidence.jsonl.gz",
+      "sha256": "df7d8ce8a637ee113fc29e0bb85c26a3a61ecba4792ec6d06deae3c2d14c67b0",
+      "bytes": 1855
+    },
+    {
+      "path": "data/raw/top100-census/0xbd4455da5929d5639ee098abfaa3241e9ae111af/result.json.gz",
+      "sha256": "a5df7ca9a97a6a6310cca2fec863cc19c334b4baf4caf697adf82cbb707bc7b5",
+      "bytes": 1211
+    },
+    {
+      "path": "data/raw/top100-mutability/0xbd4455da5929d5639ee098abfaa3241e9ae111af.json",
+      "sha256": "60c1f514ca3cfcdea8463c29b3ea02d5317e5ab14bd0137610d0de79cb37b064",
+      "bytes": 73913
+    },
+    {
+      "path": "data/raw/top100-pointers/0xbd4455da5929d5639ee098abfaa3241e9ae111af/result.json",
+      "sha256": "3569f0a37c5e2b3fe9e5828a5e7d76860d691ee842bde0cffcef3fb44f768685",
+      "bytes": 203
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0xbd4455da5929d5639ee098abfaa3241e9ae111af/bodies.zip",
+      "sha256": "490322f88fac0652a85409c3d51b43f654c8a6af9e823c8a33e17a2beafd0c54",
+      "bytes": 598
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0xbd4455da5929d5639ee098abfaa3241e9ae111af/evidence.jsonl.gz",
+      "sha256": "28c066511c59f58a9ea7c9a2190a0d21454076d3f037381252851f6281bc3881",
+      "bytes": 698
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0xbd4455da5929d5639ee098abfaa3241e9ae111af/result.json",
+      "sha256": "4d312d863e3196d82f02594156eb6403087cea5ec899c7497ee9ceb0ab91bb0f",
+      "bytes": 301
+    }
+  ],
+  "interpretation": "Liveness describes sampled metadata and primary-image delivery, not permanent loss of the artwork."
+}

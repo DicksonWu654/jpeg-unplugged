@@ -1,0 +1,482 @@
+{
+  "collection": {
+    "rank": 22,
+    "source_rank": 22,
+    "name": "Pandora",
+    "contract": "0x9e9fbde7c7a83c43913bddc8779158f1368f0413",
+    "contracts": [
+      "0x9e9fbde7c7a83c43913bddc8779158f1368f0413"
+    ],
+    "slug": "pandora-9",
+    "volume_usd": 250152589.5,
+    "volume_source": "CryptoSlam all-time Ethereum owner-to-owner sales, wash-filtered USD",
+    "source_url": "https://web-api.cryptoslam.io/v1/sales/rank-by-volume?timeRange=all&orderBy=rank&sortDirection=asc&offset=0&limit=100&blockchainId=0&hideInscriptions=false",
+    "ranking_evidence": "data/raw/top100-api/cryptoslam-ranking-0.json",
+    "identity_evidence": "data/raw/top100-api/cryptoslam-info-pandora-9.json",
+    "token_count": 83812,
+    "all_time_volume": 250152589.5,
+    "volume_currency": "USD",
+    "kind": "hybrid-fungible-nft",
+    "metadata_location": "data-uri",
+    "metadata_classes": [
+      "data-uri"
+    ],
+    "media_location": "http",
+    "primary_image_location": "http",
+    "media_classes": [
+      "http"
+    ],
+    "liveness": "alive",
+    "liveness_exact": "alive",
+    "all_declared_media_liveness": "alive",
+    "metadata_failed": false,
+    "n_alive": 3,
+    "n_dead": 0,
+    "n_unknown": 0,
+    "n_degraded": 0,
+    "key_domain_or_gateway": "raw.githubusercontent.com",
+    "hosts": [
+      "raw.githubusercontent.com"
+    ],
+    "hardcoded_gateways": [],
+    "http_origin_dependency": true,
+    "uses_ipfs": false,
+    "uses_arweave": false,
+    "fully_onchain_all_declared_media": false,
+    "metadata_and_primary_image_onchain": false,
+    "mutability_class": "multisig-mutable",
+    "single_key_mutable": false,
+    "single_key_repointable": false,
+    "base_uri_or_renderer": "0x9e9fbde7c7a83c43913bddc8779158f1368f0413.tokenURI/uri",
+    "control": [
+      {
+        "contract": "0x9e9fbde7c7a83c43913bddc8779158f1368f0413",
+        "class": "multisig-mutable",
+        "pointer_power": "multisig",
+        "reason": "live setters (multisig): setDataURI,setTokenURI",
+        "owner": {
+          "addr": "0x508894abc5905ebe8c5b6d6ecaa0fe24bb63ab0b",
+          "code_raw": "data/raw/rpc-mutability/0x508894abc5905ebe8c5b6d6ecaa0fe24bb63ab0b_holdercode.json",
+          "code_len": 171,
+          "probe_raw": "data/raw/rpc-mutability/0x508894abc5905ebe8c5b6d6ecaa0fe24bb63ab0b_holderprobe.json",
+          "type": "safe",
+          "threshold": 2,
+          "n_owners": 4,
+          "owners": [
+            "0x79079424bc9453ee58edb003d3027eaa406bea0b",
+            "0x8ed93deeee3134975c5253c83bf66a2fb203d0a2",
+            "0xa6dbf6b4a0c6666aa3416c2149cfae6e880fb861",
+            "0xb56dd607688807a36c5d9df5d0cd7cebcbb06549"
+          ],
+          "version": "1.3.0",
+          "bs_name": "GnosisSafeProxy",
+          "ens": null,
+          "bs_impl_names": [
+            "GnosisSafe"
+          ],
+          "bs_tags": [],
+          "is_contract": true,
+          "creator": "0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2",
+          "is_verified": true,
+          "bs_reputation": "ok"
+        },
+        "proxy": {
+          "kind": null
+        },
+        "live_mutators": [
+          {
+            "name": "setDataURI",
+            "sig": "setDataURI(string)",
+            "category": "uri",
+            "power": "multisig",
+            "holders": [
+              {
+                "addr": "0x508894abc5905ebe8c5b6d6ecaa0fe24bb63ab0b",
+                "type": "safe",
+                "threshold": 2,
+                "n_owners": 4,
+                "bs_name": "GnosisSafeProxy",
+                "ens": null,
+                "desc": "safe 2/4",
+                "simple": "multisig"
+              }
+            ],
+            "effective": "yes",
+            "reason": null
+          },
+          {
+            "name": "setTokenURI",
+            "sig": "setTokenURI(string)",
+            "category": "uri",
+            "power": "multisig",
+            "holders": [
+              {
+                "addr": "0x508894abc5905ebe8c5b6d6ecaa0fe24bb63ab0b",
+                "type": "safe",
+                "threshold": 2,
+                "n_owners": 4,
+                "bs_name": "GnosisSafeProxy",
+                "ens": null,
+                "desc": "safe 2/4",
+                "simple": "multisig"
+              }
+            ],
+            "effective": "yes",
+            "reason": null
+          }
+        ],
+        "lock_flags": {},
+        "dependencies": [],
+        "pointer_getters": [
+          {
+            "getter": "baseTokenURI()",
+            "type": "string",
+            "ok": true,
+            "value": "",
+            "error": null
+          },
+          {
+            "getter": "dataURI()",
+            "type": "string",
+            "ok": true,
+            "value": "https://raw.githubusercontent.com/0xacme/pandora/main/",
+            "error": null
+          }
+        ],
+        "analyzed_at": "2026-10-23T02:51:02Z",
+        "history_incomplete": false,
+        "evidence": "data/raw/top100-mutability/0x9e9fbde7c7a83c43913bddc8779158f1368f0413.json"
+      }
+    ],
+    "samples": 3,
+    "distinct_token_ids": 3,
+    "sample_note": null,
+    "source_contracts_without_sampleable_nfts": [],
+    "ownership_scope_gaps": [],
+    "refreshed_at": "2026-10-23T03:05:02Z",
+    "opensea_rank": null,
+    "ranking_scope_disagreement": false,
+    "metadata_adapter": false,
+    "evidence": [
+      "data/raw/top100-census/0x9e9fbde7c7a83c43913bddc8779158f1368f0413/result.json.gz"
+    ],
+    "delivery_note": null
+  },
+  "samples": [
+    {
+      "contract": "0x9e9fbde7c7a83c43913bddc8779158f1368f0413",
+      "token_id": "107681",
+      "sample_unit": 1,
+      "how_found": "blockscout-instances-max [recent]",
+      "metadata_location": "data-uri",
+      "metadata_uri": "[inline payload; full bytes in saved RPC response]",
+      "metadata_attempts": [],
+      "media": [
+        {
+          "field": "image",
+          "location": "http",
+          "host": "raw.githubusercontent.com",
+          "gateway": null,
+          "uri": "https://raw.githubusercontent.com/0xacme/pandora/main/2.gif",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "raw.githubusercontent.com",
+              "url": "https://raw.githubusercontent.com/0xacme/pandora/main/2.gif",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 9,
+              "final_url": "https://raw.githubusercontent.com/0xacme/pandora/main/2.gif",
+              "content_type": "image/gif",
+              "size": 65536,
+              "content_length": 278548,
+              "sha256": "76a4e466db54a800715d7df3c050a1afd4d76dd5507b80f236e3634e174a6182",
+              "t": "2026-10-23T02:50:36Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "n/a-onchain",
+        "meta_verdict_reason": null,
+        "media_class_source": "live-metadata",
+        "image_class": "http",
+        "anim_class": null,
+        "image_verdict": "alive",
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "http"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "n/a-onchain",
+        "image_verdict_exact": "alive",
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": null
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd000000000000000000000000000000000000000000000000000000000001a4a1",
+          "endpoint": "https://eth.drpc.org",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 770,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x9e9fbde7c7a83c43913bddc8779158f1368f0413/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0x9e9fbde7c7a83c43913bddc8779158f1368f0413",
+      "token_id": "107643",
+      "sample_unit": 1,
+      "how_found": "blockscout-instances-min [low] (ownerOf(107632) reverted (burned/stale); moved to 107643)",
+      "metadata_location": "data-uri",
+      "metadata_uri": "[inline payload; full bytes in saved RPC response]",
+      "metadata_attempts": [],
+      "media": [
+        {
+          "field": "image",
+          "location": "http",
+          "host": "raw.githubusercontent.com",
+          "gateway": null,
+          "uri": "https://raw.githubusercontent.com/0xacme/pandora/main/5.gif",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "raw.githubusercontent.com",
+              "url": "https://raw.githubusercontent.com/0xacme/pandora/main/5.gif",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 11,
+              "final_url": "https://raw.githubusercontent.com/0xacme/pandora/main/5.gif",
+              "content_type": "image/gif",
+              "size": 65536,
+              "content_length": 278548,
+              "sha256": "11086bb7e18da2cba4401a8e6e2f0a6fdc3bcf82d81932fd4c9a99e92624c7f9",
+              "t": "2026-10-23T02:50:37Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "n/a-onchain",
+        "meta_verdict_reason": null,
+        "media_class_source": "live-metadata",
+        "image_class": "http",
+        "anim_class": null,
+        "image_verdict": "alive",
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "http"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "n/a-onchain",
+        "image_verdict_exact": "alive",
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": null
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd000000000000000000000000000000000000000000000000000000000001a47b",
+          "endpoint": "https://eth.drpc.org",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 770,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x9e9fbde7c7a83c43913bddc8779158f1368f0413/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0x9e9fbde7c7a83c43913bddc8779158f1368f0413",
+      "token_id": "107658",
+      "sample_unit": 1,
+      "how_found": "ownerOf-probe(107656..+15) [mid]",
+      "metadata_location": "data-uri",
+      "metadata_uri": "[inline payload; full bytes in saved RPC response]",
+      "metadata_attempts": [],
+      "media": [
+        {
+          "field": "image",
+          "location": "http",
+          "host": "raw.githubusercontent.com",
+          "gateway": null,
+          "uri": "https://raw.githubusercontent.com/0xacme/pandora/main/1.gif",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "raw.githubusercontent.com",
+              "url": "https://raw.githubusercontent.com/0xacme/pandora/main/1.gif",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 13,
+              "final_url": "https://raw.githubusercontent.com/0xacme/pandora/main/1.gif",
+              "content_type": "image/gif",
+              "size": 65536,
+              "content_length": 278548,
+              "sha256": "b1a28d76f06953ebfce2d77749a705ce73dc2078eba5f953ecbe8ac924d648e1",
+              "t": "2026-10-23T02:50:37Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "n/a-onchain",
+        "meta_verdict_reason": null,
+        "media_class_source": "live-metadata",
+        "image_class": "http",
+        "anim_class": null,
+        "image_verdict": "alive",
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "http"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "n/a-onchain",
+        "image_verdict_exact": "alive",
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": null
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd000000000000000000000000000000000000000000000000000000000001a48a",
+          "endpoint": "https://eth.drpc.org",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 770,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x9e9fbde7c7a83c43913bddc8779158f1368f0413/evidence.jsonl.gz"
+    }
+  ],
+  "saved_packet_index": [
+    {
+      "path": "data/raw/top100-api/opensea-contract-0x9e9fbde7c7a83c43913bddc8779158f1368f0413-attempt1-1792724284112792626.body",
+      "sha256": "f213800922252f290b969639370b399aee75bab79ed2b9a1e9ada975572700c4",
+      "retrieved_at": "2026-10-23T02:58:04Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0x9e9fbde7c7a83c43913bddc8779158f1368f0413",
+      "method": "GET",
+      "status": 200,
+      "error": null,
+      "bytes": 181,
+      "truncated": false
+    },
+    {
+      "path": "data/raw/top100-api/opensea-contract-0x9e9fbde7c7a83c43913bddc8779158f1368f0413.json",
+      "sha256": "f213800922252f290b969639370b399aee75bab79ed2b9a1e9ada975572700c4",
+      "retrieved_at": "2026-10-23T02:58:04Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0x9e9fbde7c7a83c43913bddc8779158f1368f0413",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "data/raw/top100-census/0x9e9fbde7c7a83c43913bddc8779158f1368f0413/bodies.zip",
+      "sha256": "de981c974de9fd6470272d44c862131074dc059e11bb80ac6edafd6a04c00e21",
+      "bytes": 18767
+    },
+    {
+      "path": "data/raw/top100-census/0x9e9fbde7c7a83c43913bddc8779158f1368f0413/evidence.jsonl.gz",
+      "sha256": "e43b0e92bd1873d9ceaba6da7182f9975b5ff77161100904e49723a5da3bc2c3",
+      "bytes": 1456
+    },
+    {
+      "path": "data/raw/top100-census/0x9e9fbde7c7a83c43913bddc8779158f1368f0413/result.json.gz",
+      "sha256": "f3622832fe060713bb5e1273eeab598148e5b737de2cd15f644fa24110d1a159",
+      "bytes": 1939
+    },
+    {
+      "path": "data/raw/top100-mutability/0x9e9fbde7c7a83c43913bddc8779158f1368f0413.json",
+      "sha256": "741c010403b666e80242c7a295b94c4ef9a1e1832c64e8da2341c2153adca457",
+      "bytes": 24087
+    },
+    {
+      "path": "data/raw/top100-pointers/0x9e9fbde7c7a83c43913bddc8779158f1368f0413/bodies.zip",
+      "sha256": "8f07956dc8e869c979b80632ed2c2863e6583ec62ad71dc475abcc00d89f9e1d",
+      "bytes": 431
+    },
+    {
+      "path": "data/raw/top100-pointers/0x9e9fbde7c7a83c43913bddc8779158f1368f0413/evidence.jsonl.gz",
+      "sha256": "44deda9cc19e5ed37334e3f1f5cc3dbf6f227f1d4fd940578d2f679866d87bb9",
+      "bytes": 446
+    },
+    {
+      "path": "data/raw/top100-pointers/0x9e9fbde7c7a83c43913bddc8779158f1368f0413/result.json",
+      "sha256": "e87b12b0ee4bf6ae25035ab834d88e9d8fcbbdfa9b026bd136ac14c9d5dca00c",
+      "bytes": 471
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x9e9fbde7c7a83c43913bddc8779158f1368f0413/bodies.zip",
+      "sha256": "bd61bbaedc50987ccc87c21e3b8ca894c233bcefd7d3e3370565a8378d46d69c",
+      "bytes": 632
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x9e9fbde7c7a83c43913bddc8779158f1368f0413/evidence.jsonl.gz",
+      "sha256": "5a8fd7eb5396e08edb5fe921836277dd44185fb2efd6e4ab59a5acf94813ddb8",
+      "bytes": 698
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x9e9fbde7c7a83c43913bddc8779158f1368f0413/result.json",
+      "sha256": "64b5e1fcea3ce2d04c7c9c7eafcf7d7222254dd369672269f9a0fb543000eafc",
+      "bytes": 308
+    }
+  ],
+  "interpretation": "Liveness describes sampled metadata and primary-image delivery, not permanent loss of the artwork."
+}

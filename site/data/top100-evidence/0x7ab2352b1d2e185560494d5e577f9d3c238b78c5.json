@@ -1,0 +1,499 @@
+{
+  "collection": {
+    "rank": 71,
+    "source_rank": 76,
+    "name": "Adam Bomb Squad",
+    "contract": "0x7ab2352b1d2e185560494d5e577f9d3c238b78c5",
+    "contracts": [
+      "0x7ab2352b1d2e185560494d5e577f9d3c238b78c5"
+    ],
+    "slug": "adam-bomb-squad",
+    "volume_usd": 74839374.52,
+    "volume_source": "CryptoSlam all-time Ethereum owner-to-owner sales, wash-filtered USD",
+    "source_url": "https://web-api.cryptoslam.io/v1/sales/rank-by-volume?timeRange=all&orderBy=rank&sortDirection=asc&offset=0&limit=100&blockchainId=0&hideInscriptions=false",
+    "ranking_evidence": "data/raw/top100-api/cryptoslam-ranking-0.json",
+    "identity_evidence": "data/raw/top100-api/cryptoslam-info-adam-bomb-squad.json",
+    "token_count": 25000,
+    "all_time_volume": 74839374.52,
+    "volume_currency": "USD",
+    "kind": "art-avatar",
+    "metadata_location": "ipfs",
+    "metadata_classes": [
+      "ipfs"
+    ],
+    "media_location": "ipfs",
+    "primary_image_location": "ipfs",
+    "media_classes": [
+      "ipfs"
+    ],
+    "liveness": "alive",
+    "liveness_exact": "alive",
+    "all_declared_media_liveness": "alive",
+    "metadata_failed": false,
+    "n_alive": 3,
+    "n_dead": 0,
+    "n_unknown": 0,
+    "n_degraded": 0,
+    "key_domain_or_gateway": "nervous.mypinata.cloud; nervous.mypinata.cloud",
+    "hosts": [
+      "nervous.mypinata.cloud"
+    ],
+    "hardcoded_gateways": [
+      "nervous.mypinata.cloud"
+    ],
+    "http_origin_dependency": false,
+    "uses_ipfs": true,
+    "uses_arweave": false,
+    "fully_onchain_all_declared_media": false,
+    "metadata_and_primary_image_onchain": false,
+    "mutability_class": "eoa-mutable",
+    "single_key_mutable": true,
+    "single_key_repointable": true,
+    "base_uri_or_renderer": "0x7ab2352b1d2e185560494d5e577f9d3c238b78c5.baseURI() = https://nervous.mypinata.cloud/ipfs/QmeRJzW1Dn8hSwx2SzfPwuq94sS9FQM39xm6rBU7XQN6Df/",
+    "control": [
+      {
+        "contract": "0x7ab2352b1d2e185560494d5e577f9d3c238b78c5",
+        "class": "eoa-mutable",
+        "pointer_power": "eoa",
+        "reason": "live setters (eoa): setBaseURI",
+        "owner": {
+          "addr": "0xb4f87b1d9220d830c1242e45fef439ab174f002f",
+          "code_raw": "data/raw/rpc-mutability/0xb4f87b1d9220d830c1242e45fef439ab174f002f_holdercode.json",
+          "type": "eoa",
+          "bs_name": null,
+          "ens": null,
+          "bs_impl_names": [],
+          "bs_tags": [],
+          "is_contract": false,
+          "creator": null,
+          "is_verified": false,
+          "bs_reputation": "ok"
+        },
+        "proxy": {
+          "kind": null
+        },
+        "live_mutators": [
+          {
+            "name": "setBaseURI",
+            "sig": "setBaseURI(string)",
+            "category": "uri",
+            "power": "eoa",
+            "holders": [
+              {
+                "addr": "0xb4f87b1d9220d830c1242e45fef439ab174f002f",
+                "type": "eoa",
+                "bs_name": null,
+                "ens": null,
+                "desc": "eoa",
+                "simple": "eoa"
+              }
+            ],
+            "effective": "unknown",
+            "reason": null
+          }
+        ],
+        "lock_flags": {},
+        "dependencies": [],
+        "pointer_getters": [
+          {
+            "getter": "baseURI()",
+            "type": "string",
+            "ok": true,
+            "value": "https://nervous.mypinata.cloud/ipfs/QmeRJzW1Dn8hSwx2SzfPwuq94sS9FQM39xm6rBU7XQN6Df/",
+            "error": null
+          }
+        ],
+        "analyzed_at": "2026-10-23T02:52:41Z",
+        "history_incomplete": false,
+        "evidence": "data/raw/top100-mutability/0x7ab2352b1d2e185560494d5e577f9d3c238b78c5.json"
+      }
+    ],
+    "samples": 3,
+    "distinct_token_ids": 3,
+    "sample_note": null,
+    "source_contracts_without_sampleable_nfts": [],
+    "ownership_scope_gaps": [],
+    "refreshed_at": "2026-10-23T03:05:04Z",
+    "opensea_rank": 102,
+    "ranking_scope_disagreement": false,
+    "metadata_adapter": false,
+    "evidence": [
+      "data/raw/top100-census/0x7ab2352b1d2e185560494d5e577f9d3c238b78c5/result.json.gz"
+    ],
+    "delivery_note": null
+  },
+  "samples": [
+    {
+      "contract": "0x7ab2352b1d2e185560494d5e577f9d3c238b78c5",
+      "token_id": "0",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(0) [low; totalSupply=25000]",
+      "metadata_location": "ipfs",
+      "metadata_uri": "https://nervous.mypinata.cloud/ipfs/QmeRJzW1Dn8hSwx2SzfPwuq94sS9FQM39xm6rBU7XQN6Df/0",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "nervous.mypinata.cloud",
+          "url": "https://nervous.mypinata.cloud/ipfs/QmeRJzW1Dn8hSwx2SzfPwuq94sS9FQM39xm6rBU7XQN6Df/0",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 6,
+          "final_url": "https://nervous.mypinata.cloud/ipfs/QmeRJzW1Dn8hSwx2SzfPwuq94sS9FQM39xm6rBU7XQN6Df/0",
+          "content_type": "application/json",
+          "size": 2574,
+          "content_length": null,
+          "sha256": "1a710f89cbd75f32fc1dfd59b04276b568d10dd79b92cb3be7dc48faf8e85712",
+          "t": "2026-10-23T02:50:51Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "ipfs",
+          "host": "nervous.mypinata.cloud",
+          "gateway": "nervous.mypinata.cloud",
+          "uri": "https://nervous.mypinata.cloud/ipfs/QmatHos3sX8dDpzdfaDvpn21vQ8q2xSXHhzC5P7WfgxHg2/0.png",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "nervous.mypinata.cloud",
+              "url": "https://nervous.mypinata.cloud/ipfs/QmatHos3sX8dDpzdfaDvpn21vQ8q2xSXHhzC5P7WfgxHg2/0.png",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 9,
+              "final_url": "https://nervous.mypinata.cloud/ipfs/QmatHos3sX8dDpzdfaDvpn21vQ8q2xSXHhzC5P7WfgxHg2/0.png",
+              "content_type": "image/png",
+              "size": 65536,
+              "content_length": 17987083,
+              "sha256": "15997afdb56ea350e6222191e049057d5d0411feaf7dd1ab7f7fc119aaeacf1b",
+              "t": "2026-10-23T02:50:53Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "ipfs",
+        "anim_class": null,
+        "image_verdict": "alive",
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "ipfs"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "alive",
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000000000",
+          "endpoint": "https://eth.rpc.blxrbdn.com",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 322,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x7ab2352b1d2e185560494d5e577f9d3c238b78c5/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0x7ab2352b1d2e185560494d5e577f9d3c238b78c5",
+      "token_id": "12500",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(12500) [mid; totalSupply=25000]",
+      "metadata_location": "ipfs",
+      "metadata_uri": "https://nervous.mypinata.cloud/ipfs/QmeRJzW1Dn8hSwx2SzfPwuq94sS9FQM39xm6rBU7XQN6Df/12500",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "nervous.mypinata.cloud",
+          "url": "https://nervous.mypinata.cloud/ipfs/QmeRJzW1Dn8hSwx2SzfPwuq94sS9FQM39xm6rBU7XQN6Df/12500",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 4,
+          "final_url": "https://nervous.mypinata.cloud/ipfs/QmeRJzW1Dn8hSwx2SzfPwuq94sS9FQM39xm6rBU7XQN6Df/12500",
+          "content_type": "application/json",
+          "size": 2552,
+          "content_length": null,
+          "sha256": "61ffecce9e8e5dc5d651c220a29be8edeaac413d1aa1d35843daedc3e416ecd6",
+          "t": "2026-10-23T02:50:52Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "ipfs",
+          "host": "nervous.mypinata.cloud",
+          "gateway": "nervous.mypinata.cloud",
+          "uri": "https://nervous.mypinata.cloud/ipfs/QmatHos3sX8dDpzdfaDvpn21vQ8q2xSXHhzC5P7WfgxHg2/12500.png",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "nervous.mypinata.cloud",
+              "url": "https://nervous.mypinata.cloud/ipfs/QmatHos3sX8dDpzdfaDvpn21vQ8q2xSXHhzC5P7WfgxHg2/12500.png",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 7,
+              "final_url": "https://nervous.mypinata.cloud/ipfs/QmatHos3sX8dDpzdfaDvpn21vQ8q2xSXHhzC5P7WfgxHg2/12500.png",
+              "content_type": "image/png",
+              "size": 65536,
+              "content_length": 962568,
+              "sha256": "afea504048ceff7895627c166af6b6ac15b0caeafc95bbe121ddecc4047b2104",
+              "t": "2026-10-23T02:50:53Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "ipfs",
+        "anim_class": null,
+        "image_verdict": "alive",
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "ipfs"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "alive",
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd00000000000000000000000000000000000000000000000000000000000030d4",
+          "endpoint": "https://eth.rpc.blxrbdn.com",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 322,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x7ab2352b1d2e185560494d5e577f9d3c238b78c5/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0x7ab2352b1d2e185560494d5e577f9d3c238b78c5",
+      "token_id": "24999",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(24999) [recent; totalSupply=25000]",
+      "metadata_location": "ipfs",
+      "metadata_uri": "https://nervous.mypinata.cloud/ipfs/QmeRJzW1Dn8hSwx2SzfPwuq94sS9FQM39xm6rBU7XQN6Df/24999",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "nervous.mypinata.cloud",
+          "url": "https://nervous.mypinata.cloud/ipfs/QmeRJzW1Dn8hSwx2SzfPwuq94sS9FQM39xm6rBU7XQN6Df/24999",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 5,
+          "final_url": "https://nervous.mypinata.cloud/ipfs/QmeRJzW1Dn8hSwx2SzfPwuq94sS9FQM39xm6rBU7XQN6Df/24999",
+          "content_type": "application/json",
+          "size": 2998,
+          "content_length": null,
+          "sha256": "650f4500b1e246bdccfb2602dc87c791396f1723af3fad93e60ba0c8547c3630",
+          "t": "2026-10-23T02:50:52Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "ipfs",
+          "host": "nervous.mypinata.cloud",
+          "gateway": "nervous.mypinata.cloud",
+          "uri": "https://nervous.mypinata.cloud/ipfs/QmatHos3sX8dDpzdfaDvpn21vQ8q2xSXHhzC5P7WfgxHg2/24999.png",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "nervous.mypinata.cloud",
+              "url": "https://nervous.mypinata.cloud/ipfs/QmatHos3sX8dDpzdfaDvpn21vQ8q2xSXHhzC5P7WfgxHg2/24999.png",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 8,
+              "final_url": "https://nervous.mypinata.cloud/ipfs/QmatHos3sX8dDpzdfaDvpn21vQ8q2xSXHhzC5P7WfgxHg2/24999.png",
+              "content_type": "image/png",
+              "size": 65536,
+              "content_length": 497135,
+              "sha256": "ef489b1b768231abca3f4b6bbb828e5792d8ed8419d9bb143831576212664658",
+              "t": "2026-10-23T02:50:53Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "ipfs",
+        "anim_class": null,
+        "image_verdict": "alive",
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "ipfs"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "alive",
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd00000000000000000000000000000000000000000000000000000000000061a7",
+          "endpoint": "https://eth.rpc.blxrbdn.com",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 322,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x7ab2352b1d2e185560494d5e577f9d3c238b78c5/evidence.jsonl.gz"
+    }
+  ],
+  "saved_packet_index": [
+    {
+      "path": "data/raw/top100-api/opensea-contract-0x7ab2352b1d2e185560494d5e577f9d3c238b78c5-attempt1-1792724323150275397.body",
+      "sha256": "768718c0ae1486648e15528cbf12eb6fc3cc35986afe9f6dffdc7ef9761b9954",
+      "retrieved_at": "2026-10-23T02:58:43Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0x7ab2352b1d2e185560494d5e577f9d3c238b78c5",
+      "method": "GET",
+      "status": 200,
+      "error": null,
+      "bytes": 186,
+      "truncated": false
+    },
+    {
+      "path": "data/raw/top100-api/opensea-contract-0x7ab2352b1d2e185560494d5e577f9d3c238b78c5.json",
+      "sha256": "768718c0ae1486648e15528cbf12eb6fc3cc35986afe9f6dffdc7ef9761b9954",
+      "retrieved_at": "2026-10-23T02:58:43Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0x7ab2352b1d2e185560494d5e577f9d3c238b78c5",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "data/raw/top100-census/0x7ab2352b1d2e185560494d5e577f9d3c238b78c5/bodies.zip",
+      "sha256": "da5999398fabfd3204c17a0853871691423fd8322a2e095d62ef89c16bb44805",
+      "bytes": 13039
+    },
+    {
+      "path": "data/raw/top100-census/0x7ab2352b1d2e185560494d5e577f9d3c238b78c5/evidence.jsonl.gz",
+      "sha256": "380135adefd178b1bc9feacb868f42624e6c64a13501665d245102b4d07d77a1",
+      "bytes": 1176
+    },
+    {
+      "path": "data/raw/top100-census/0x7ab2352b1d2e185560494d5e577f9d3c238b78c5/result.json.gz",
+      "sha256": "18e6070d3dbe61115f4a9de0c27335c1aee35bf52fff86b01f62c5119f83abce",
+      "bytes": 1818
+    },
+    {
+      "path": "data/raw/top100-mutability/0x7ab2352b1d2e185560494d5e577f9d3c238b78c5.json",
+      "sha256": "b698cd3781ac9b4778ede85081cfe5efc5628141629e01f355f506a363eac174",
+      "bytes": 7646
+    },
+    {
+      "path": "data/raw/top100-pointers/0x7ab2352b1d2e185560494d5e577f9d3c238b78c5/bodies.zip",
+      "sha256": "51635ee393ff91054e7a39a98b34c5e99f5cfea3e2a5ef2c95b0d9a318d3edd7",
+      "bytes": 290
+    },
+    {
+      "path": "data/raw/top100-pointers/0x7ab2352b1d2e185560494d5e577f9d3c238b78c5/evidence.jsonl.gz",
+      "sha256": "2253d359f03a41dfe62e9553ada283b5c18fbc6a9731b80e52fb11f050e66191",
+      "bytes": 336
+    },
+    {
+      "path": "data/raw/top100-pointers/0x7ab2352b1d2e185560494d5e577f9d3c238b78c5/result.json",
+      "sha256": "5b674723ae913a2b48768c3ada275229c3fb72288cbc1db01863d71796160773",
+      "bytes": 391
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x7ab2352b1d2e185560494d5e577f9d3c238b78c5/bodies.zip",
+      "sha256": "e30beaf16781ccc03b1064d8aae9798754f13c85bb19d04ca82feb41c6557c3c",
+      "bytes": 633
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x7ab2352b1d2e185560494d5e577f9d3c238b78c5/evidence.jsonl.gz",
+      "sha256": "5091a36cb8686c619c7f63d5ab24bd7858c8a48dc21cd9092f84ae737e5c246e",
+      "bytes": 690
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x7ab2352b1d2e185560494d5e577f9d3c238b78c5/result.json",
+      "sha256": "06a564d686ac63ac6b62a22ac566db9d7823d720c8baae07727bae42f3c41c79",
+      "bytes": 301
+    }
+  ],
+  "interpretation": "Liveness describes sampled metadata and primary-image delivery, not permanent loss of the artwork."
+}

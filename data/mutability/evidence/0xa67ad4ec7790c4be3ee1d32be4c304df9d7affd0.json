@@ -1,0 +1,2345 @@
+{
+ "address": "0xa67ad4ec7790c4be3ee1d32be4c304df9d7affd0",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:28Z",
+ "code_raw": "data/raw/rpc-mutability/0xa67ad4ec7790c4be3ee1d32be4c304df9d7affd0_code.json",
+ "code_len": 16684,
+ "slots": {
+  "slot0": "0x4d6574726f706f6c697320576f726c6420457468657265616c73000000000034"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0xa67ad4ec7790c4be3ee1d32be4c304df9d7affd0_slots.json",
+ "verified": true,
+ "contract_name": "EggCollection",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [
+   {
+    "hash": "0xac2d8ea7d8b0a8b94a525b6d0895af500093b7a05e332c9f2fb01ae5b471e4ae",
+    "timestamp": "2026-07-09T09:33:35.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xDCF27a3368cF85687E48F236B7F975F2c3738f11",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25494154,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xdfbe4cf0a212d9a8fc81b431e74762b0ed34ea59c4870086d5cf264a9d34b9d5",
+    "timestamp": "2026-07-09T09:32:11.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xDCF27a3368cF85687E48F236B7F975F2c3738f11",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25494147,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xe40531cef854a687d8b44394de96a82485802093fc328302eeadc314ba4a7a63",
+    "timestamp": "2026-04-18T09:20:47.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x9839Df09cd1a45a1284D3BEDcb149518fb2ECF35",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 24905818,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xe13c1aa3e36ff9b0c8a2295940558f9f399c8b50187fc9a4872de4206307b06c",
+    "timestamp": "2026-04-16T01:59:11.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xDCF27a3368cF85687E48F236B7F975F2c3738f11",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 24889253,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x028325bb729def3587aa920cde5c6d38cf69b9a2a8f631644770e5b3a29604e0",
+    "timestamp": "2026-04-16T01:58:11.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xDCF27a3368cF85687E48F236B7F975F2c3738f11",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 24889248,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xdde9c2aad13ea0225ab72b3ebe5b7f05699c0291a51ccaeff926561e0e056ce5",
+    "timestamp": "2026-04-16T01:44:23.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xDCF27a3368cF85687E48F236B7F975F2c3738f11",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 24889180,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x6959f2004d9957df2520ad2c8ddab4acd12b62de20fbbff1cb76663fadcfb1e1",
+    "timestamp": "2025-12-15T17:12:47.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x4cFB94067A26cd3cEB24fd584AaF0323c83A4F09",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 24019417,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xf1d09057439a97f42ee03e7758935738c7e861a4592288b750ba0c42601de444",
+    "timestamp": "2025-09-18T13:01:59.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x4cFB94067A26cd3cEB24fd584AaF0323c83A4F09",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 23390129,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x5cf4ac8afa77116c411fdd885340540eaf774555720ec7661518fb121d32ff21",
+    "timestamp": "2025-08-07T06:48:23.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x4cFB94067A26cd3cEB24fd584AaF0323c83A4F09",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 23087491,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xc03db827dea87b58ca8725acbceb1a8f4771f51c6975a1cc814019dccdb2999e",
+    "timestamp": "2025-08-07T06:47:11.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x4cFB94067A26cd3cEB24fd584AaF0323c83A4F09",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 23087485,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xc9fa3d10f21963da8d11b23c91bd3b33d1bb7104c97e2200ae7c44632dda6556",
+    "timestamp": "2025-08-01T11:59:23.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x4cFB94067A26cd3cEB24fd584AaF0323c83A4F09",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 23046087,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xa0f3eef66135cd8ae524842dc2ab21d3a26785fc56a308856ec478e1742b01da",
+    "timestamp": "2025-07-26T00:00:59.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x8C4A65F523dC6560Bd431C77D8bB0000d34317dF",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 22999599,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x8ed571b6c1a90b5acedab19b20ffb729a4c0bf1ed238446bbbad7787cc84c31e",
+    "timestamp": "2025-03-12T09:50:23.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x375015ca588faaCD7e59967681649fB74A8B3466",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 22029999,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x1f6692fc5e042e0a427f5924c0e34e02129f7d527cbf24ce4eaf04dc78544540",
+    "timestamp": "2025-02-27T21:36:59.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x3AE9a45BC6606ec1Bbde71a98DD2Ec6CEDabfaaB",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 21940407,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x27f3b387d9815b82a0862d51faadeca2b29a6d496e547177a8a05b0e8fdbf378",
+    "timestamp": "2025-01-16T22:38:35.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xb776Fd4B00939037d27A0cE20fFCb2813C38Fd1d",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 21640087,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xb84db266c670c8602c503a8668b71b0ec0f07e0a8cbb5e4613b08f704c57a35e",
+    "timestamp": "2025-01-10T19:54:11.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xBe3F82034778fbF474060f7D4a032f592559ab4d",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 21596295,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xd64165496a300689f979c8848fe1a5e3ede20ae952eeef94e34f5a9f63d17af7",
+    "timestamp": "2025-01-10T19:38:59.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xBe3F82034778fbF474060f7D4a032f592559ab4d",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 21596219,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xeab6ac7b28fae10afbfa94e7a446d945337e43dd26ab363cc4ad8addc683ddd6",
+    "timestamp": "2025-01-10T19:12:23.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xBe3F82034778fbF474060f7D4a032f592559ab4d",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 21596086,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x14b5c8ebd6d391f079682f3aeeb32ad793358bdcb3a22f75a6f979f681b9a60a",
+    "timestamp": "2025-01-10T19:09:59.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xBe3F82034778fbF474060f7D4a032f592559ab4d",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 21596074,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x8852bbc40b0c7c09381ed3a9c52fa1c0dff1acb39ef04e9db375f301abb0cea9",
+    "timestamp": "2025-01-10T00:38:59.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x59dA03e05a9baa78C2978b3B1374D849E2be3cAB",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 21590554,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x04a49236c32b2c067612e37760862e45038b2faa12b875135ace54cc4288094e",
+    "timestamp": "2024-12-29T21:07:59.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x347D4A86272D68BE247Ff5745427640E5f6358E3",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 21510714,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xdaaa2a1dc8a77c390fd7c3df7bf69c9f0e3c3702da05b719bb5dfc296463a4a8",
+    "timestamp": "2024-12-24T18:58:11.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xBe3F82034778fbF474060f7D4a032f592559ab4d",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 21474265,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xcbf4cd5d6efd56abc65929822cc2277e83392ec39ff148a20cebb21fea7ec9f8",
+    "timestamp": "2024-12-01T12:17:23.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xE3506A409Fc03eD50D12143E98A8aDA2B8a40a5f",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 21307604,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xbec9b3a0012d3139d15e7eaa8d0377fc7016433cddcccdda5fcae4a332f19b27",
+    "timestamp": "2024-12-01T10:58:11.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xE3506A409Fc03eD50D12143E98A8aDA2B8a40a5f",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 21307211,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x091d23330eebaadd0e77ba9684d566396ca22075711c5775c06eb2a266722424",
+    "timestamp": "2024-11-30T09:56:47.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xE3506A409Fc03eD50D12143E98A8aDA2B8a40a5f",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 21299742,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xe340b021b1779b97a595e673ae4551fcd5c68c049e3ca4803d77755e1e401e53",
+    "timestamp": "2024-11-30T09:23:23.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xE3506A409Fc03eD50D12143E98A8aDA2B8a40a5f",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 21299577,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xc7e738dcd8b2086501c9e4cfb9a62544d44cb654b0a5fc5c96c0201e0f40befc",
+    "timestamp": "2024-11-30T08:20:47.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xE3506A409Fc03eD50D12143E98A8aDA2B8a40a5f",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 21299265,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x877086e33a8816bcf7a01032bbcf57793f5b2cef6d2d01a9859442e824d2b0d3",
+    "timestamp": "2024-11-30T08:18:47.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xE3506A409Fc03eD50D12143E98A8aDA2B8a40a5f",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 21299255,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xf25c86775f9135b7207ed7895135cc24dea1614e1b55e574cf271a69b52bc138",
+    "timestamp": "2024-11-16T17:34:23.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x2eaDE3f604e8cD561C18001aBeaD7B33c2ED4791",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 21201781,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x252fd808c9a661cb5242900b13a7e14a4d8d67eaa1a5b7a7ad79417c9e84d01f",
+    "timestamp": "2024-11-03T01:33:47.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x136e816511662d459E57ef5073eA824F19f78fb9",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 21103859,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x466070976b7e1de5ba1d50aba60a3428230ae308eacbe3b3927af4b8dbc2d77e",
+    "timestamp": "2024-11-03T01:31:35.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x136e816511662d459E57ef5073eA824F19f78fb9",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 21103849,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x91ddaeacef62ca2967a573b6c5bccf5665b66a3c1328462aa4b5fd210d30ddac",
+    "timestamp": "2024-11-03T01:30:35.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x136e816511662d459E57ef5073eA824F19f78fb9",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 21103844,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x08bc427737345131ca848bb5fe772adc7130c34ebc39e21bd171a7f105274b8f",
+    "timestamp": "2024-11-02T14:11:47.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x3695dD3B8e0254c2091A8582af6F61833DB48E23",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 21100472,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x4452852d7db57932989b2dd8bdca46523dd495a57b05c1695832f92825dcb01b",
+    "timestamp": "2024-09-22T19:49:47.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x347D4A86272D68BE247Ff5745427640E5f6358E3",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 20808316,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xe59fb3054e76cc205f32259ee1db7787a3a21538ed2991461e57b11391f0cc56",
+    "timestamp": "2024-09-22T19:48:11.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x347D4A86272D68BE247Ff5745427640E5f6358E3",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 20808308,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xdcc7b716baa3e1030760a530d396ded521b3a4acc3a9a0a0fc4ee1bb2719ab5b",
+    "timestamp": "2024-09-21T23:22:11.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x347D4A86272D68BE247Ff5745427640E5f6358E3",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 20802200,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x420f27a8ec2417957bee8f47bf48cfbb9f471b21168eaee7dcafe7de73fda56c",
+    "timestamp": "2024-09-21T23:14:47.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x347D4A86272D68BE247Ff5745427640E5f6358E3",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 20802164,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xdc77f02a7d9ce3a521a629683a7c3e1237e8640398df58adc9c24cd122b24a07",
+    "timestamp": "2024-09-21T23:13:35.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x347D4A86272D68BE247Ff5745427640E5f6358E3",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 20802158,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x258472e5bd88eb0fff9d0d464f583e226c72bb475d45d294c68e9c50879dae6f",
+    "timestamp": "2024-09-21T22:07:59.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x347D4A86272D68BE247Ff5745427640E5f6358E3",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 20801833,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x1918037d2b011515e143595bf88ed15231a2b94c7602d45e1299405cdd3ce119",
+    "timestamp": "2024-08-28T15:06:59.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x9CA26730aa028D098C52C3974ab89eC81c74f56c",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 20627877,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x22b234f6fab5e5fb7fea32814d95bc2d9f5704d88af22d80322ed166c7c49cdc",
+    "timestamp": "2024-08-18T05:31:23.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x9CA26730aa028D098C52C3974ab89eC81c74f56c",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 20553438,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xae4d2ce5f703e3f004034af72c01e7d13100897c3375e94136bac8828cac0756",
+    "timestamp": "2024-08-18T03:34:47.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x9CA26730aa028D098C52C3974ab89eC81c74f56c",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 20552856,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xe0b379d3ae3e80fab83e49f45d041f19c2f3b96fab83eed8d2c0345b2f571f05",
+    "timestamp": "2024-05-23T06:59:11.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x433d56F39525d60673541c09A5a400c9794dd0C6",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 19930945,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x20220d02fbab6895649928d177fe87baaf0a877980b10c1193618449a915a96a",
+    "timestamp": "2024-05-23T06:55:59.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x433d56F39525d60673541c09A5a400c9794dd0C6",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 19930930,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x987b685098e534582cb92931ae47783cefb2c9484c033efe1552fdf27b15818e",
+    "timestamp": "2024-05-21T02:21:23.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x1edbd5b9639de54A082c2FDDbE121C007dE904E3",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 19915265,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x187989ec79f2327b5bda2945761d66995439a646696795b61c28521902963d88",
+    "timestamp": "2024-05-21T02:19:35.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x1edbd5b9639de54A082c2FDDbE121C007dE904E3",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 19915256,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x82809b3c565314977c8ce319f4506ed5f7dff98db352a4cd6bbd7445ab41b445",
+    "timestamp": "2024-05-12T03:33:47.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xDCF27a3368cF85687E48F236B7F975F2c3738f11",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 19851287,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x8d387bab684641c93070a70ef7184fc23a9ecef4607258a599458ed15c1f98d9",
+    "timestamp": "2024-05-12T03:27:11.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xDCF27a3368cF85687E48F236B7F975F2c3738f11",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 19851254,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x0d46a36beb34c103d0252f5f611a6a1e0aa1a0b1e037b4eefe4056524e771d20",
+    "timestamp": "2024-05-12T03:26:23.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xDCF27a3368cF85687E48F236B7F975F2c3738f11",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 19851250,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xe282497d0d8b1a391321d4ac8290b45b1bc4eff6e5bb5b7835b41b16f68dec3c",
+    "timestamp": "2024-05-12T03:24:47.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xDCF27a3368cF85687E48F236B7F975F2c3738f11",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 19851242,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xac2d8ea7d8b0a8b94a525b6d0895af500093b7a05e332c9f2fb01ae5b471e4ae",
+    "timestamp": "2026-07-09T09:33:35.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xDCF27a3368cF85687E48F236B7F975F2c3738f11",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25494154,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xdfbe4cf0a212d9a8fc81b431e74762b0ed34ea59c4870086d5cf264a9d34b9d5",
+    "timestamp": "2026-07-09T09:32:11.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xDCF27a3368cF85687E48F236B7F975F2c3738f11",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25494147,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xe40531cef854a687d8b44394de96a82485802093fc328302eeadc314ba4a7a63",
+    "timestamp": "2026-04-18T09:20:47.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x9839Df09cd1a45a1284D3BEDcb149518fb2ECF35",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 24905818,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xe13c1aa3e36ff9b0c8a2295940558f9f399c8b50187fc9a4872de4206307b06c",
+    "timestamp": "2026-04-16T01:59:11.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xDCF27a3368cF85687E48F236B7F975F2c3738f11",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 24889253,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x028325bb729def3587aa920cde5c6d38cf69b9a2a8f631644770e5b3a29604e0",
+    "timestamp": "2026-04-16T01:58:11.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xDCF27a3368cF85687E48F236B7F975F2c3738f11",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 24889248,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xdde9c2aad13ea0225ab72b3ebe5b7f05699c0291a51ccaeff926561e0e056ce5",
+    "timestamp": "2026-04-16T01:44:23.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xDCF27a3368cF85687E48F236B7F975F2c3738f11",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 24889180,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x6959f2004d9957df2520ad2c8ddab4acd12b62de20fbbff1cb76663fadcfb1e1",
+    "timestamp": "2025-12-15T17:12:47.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x4cFB94067A26cd3cEB24fd584AaF0323c83A4F09",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 24019417,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xf1d09057439a97f42ee03e7758935738c7e861a4592288b750ba0c42601de444",
+    "timestamp": "2025-09-18T13:01:59.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x4cFB94067A26cd3cEB24fd584AaF0323c83A4F09",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 23390129,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x5cf4ac8afa77116c411fdd885340540eaf774555720ec7661518fb121d32ff21",
+    "timestamp": "2025-08-07T06:48:23.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x4cFB94067A26cd3cEB24fd584AaF0323c83A4F09",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 23087491,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xc03db827dea87b58ca8725acbceb1a8f4771f51c6975a1cc814019dccdb2999e",
+    "timestamp": "2025-08-07T06:47:11.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x4cFB94067A26cd3cEB24fd584AaF0323c83A4F09",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 23087485,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xc9fa3d10f21963da8d11b23c91bd3b33d1bb7104c97e2200ae7c44632dda6556",
+    "timestamp": "2025-08-01T11:59:23.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x4cFB94067A26cd3cEB24fd584AaF0323c83A4F09",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 23046087,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xa0f3eef66135cd8ae524842dc2ab21d3a26785fc56a308856ec478e1742b01da",
+    "timestamp": "2025-07-26T00:00:59.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x8C4A65F523dC6560Bd431C77D8bB0000d34317dF",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 22999599,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x8ed571b6c1a90b5acedab19b20ffb729a4c0bf1ed238446bbbad7787cc84c31e",
+    "timestamp": "2025-03-12T09:50:23.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x375015ca588faaCD7e59967681649fB74A8B3466",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 22029999,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x1f6692fc5e042e0a427f5924c0e34e02129f7d527cbf24ce4eaf04dc78544540",
+    "timestamp": "2025-02-27T21:36:59.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x3AE9a45BC6606ec1Bbde71a98DD2Ec6CEDabfaaB",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 21940407,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x27f3b387d9815b82a0862d51faadeca2b29a6d496e547177a8a05b0e8fdbf378",
+    "timestamp": "2025-01-16T22:38:35.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xb776Fd4B00939037d27A0cE20fFCb2813C38Fd1d",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 21640087,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xb84db266c670c8602c503a8668b71b0ec0f07e0a8cbb5e4613b08f704c57a35e",
+    "timestamp": "2025-01-10T19:54:11.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xBe3F82034778fbF474060f7D4a032f592559ab4d",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 21596295,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xd64165496a300689f979c8848fe1a5e3ede20ae952eeef94e34f5a9f63d17af7",
+    "timestamp": "2025-01-10T19:38:59.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xBe3F82034778fbF474060f7D4a032f592559ab4d",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 21596219,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xeab6ac7b28fae10afbfa94e7a446d945337e43dd26ab363cc4ad8addc683ddd6",
+    "timestamp": "2025-01-10T19:12:23.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xBe3F82034778fbF474060f7D4a032f592559ab4d",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 21596086,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x14b5c8ebd6d391f079682f3aeeb32ad793358bdcb3a22f75a6f979f681b9a60a",
+    "timestamp": "2025-01-10T19:09:59.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xBe3F82034778fbF474060f7D4a032f592559ab4d",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 21596074,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x8852bbc40b0c7c09381ed3a9c52fa1c0dff1acb39ef04e9db375f301abb0cea9",
+    "timestamp": "2025-01-10T00:38:59.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x59dA03e05a9baa78C2978b3B1374D849E2be3cAB",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 21590554,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x04a49236c32b2c067612e37760862e45038b2faa12b875135ace54cc4288094e",
+    "timestamp": "2024-12-29T21:07:59.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x347D4A86272D68BE247Ff5745427640E5f6358E3",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 21510714,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xdaaa2a1dc8a77c390fd7c3df7bf69c9f0e3c3702da05b719bb5dfc296463a4a8",
+    "timestamp": "2024-12-24T18:58:11.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xBe3F82034778fbF474060f7D4a032f592559ab4d",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 21474265,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xcbf4cd5d6efd56abc65929822cc2277e83392ec39ff148a20cebb21fea7ec9f8",
+    "timestamp": "2024-12-01T12:17:23.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xE3506A409Fc03eD50D12143E98A8aDA2B8a40a5f",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 21307604,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xbec9b3a0012d3139d15e7eaa8d0377fc7016433cddcccdda5fcae4a332f19b27",
+    "timestamp": "2024-12-01T10:58:11.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xE3506A409Fc03eD50D12143E98A8aDA2B8a40a5f",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 21307211,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x091d23330eebaadd0e77ba9684d566396ca22075711c5775c06eb2a266722424",
+    "timestamp": "2024-11-30T09:56:47.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xE3506A409Fc03eD50D12143E98A8aDA2B8a40a5f",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 21299742,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xe340b021b1779b97a595e673ae4551fcd5c68c049e3ca4803d77755e1e401e53",
+    "timestamp": "2024-11-30T09:23:23.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xE3506A409Fc03eD50D12143E98A8aDA2B8a40a5f",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 21299577,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xc7e738dcd8b2086501c9e4cfb9a62544d44cb654b0a5fc5c96c0201e0f40befc",
+    "timestamp": "2024-11-30T08:20:47.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xE3506A409Fc03eD50D12143E98A8aDA2B8a40a5f",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 21299265,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x877086e33a8816bcf7a01032bbcf57793f5b2cef6d2d01a9859442e824d2b0d3",
+    "timestamp": "2024-11-30T08:18:47.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xE3506A409Fc03eD50D12143E98A8aDA2B8a40a5f",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 21299255,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xf25c86775f9135b7207ed7895135cc24dea1614e1b55e574cf271a69b52bc138",
+    "timestamp": "2024-11-16T17:34:23.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x2eaDE3f604e8cD561C18001aBeaD7B33c2ED4791",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 21201781,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x252fd808c9a661cb5242900b13a7e14a4d8d67eaa1a5b7a7ad79417c9e84d01f",
+    "timestamp": "2024-11-03T01:33:47.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x136e816511662d459E57ef5073eA824F19f78fb9",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 21103859,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x466070976b7e1de5ba1d50aba60a3428230ae308eacbe3b3927af4b8dbc2d77e",
+    "timestamp": "2024-11-03T01:31:35.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x136e816511662d459E57ef5073eA824F19f78fb9",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 21103849,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x91ddaeacef62ca2967a573b6c5bccf5665b66a3c1328462aa4b5fd210d30ddac",
+    "timestamp": "2024-11-03T01:30:35.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x136e816511662d459E57ef5073eA824F19f78fb9",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 21103844,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x08bc427737345131ca848bb5fe772adc7130c34ebc39e21bd171a7f105274b8f",
+    "timestamp": "2024-11-02T14:11:47.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x3695dD3B8e0254c2091A8582af6F61833DB48E23",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 21100472,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x4452852d7db57932989b2dd8bdca46523dd495a57b05c1695832f92825dcb01b",
+    "timestamp": "2024-09-22T19:49:47.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x347D4A86272D68BE247Ff5745427640E5f6358E3",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 20808316,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xe59fb3054e76cc205f32259ee1db7787a3a21538ed2991461e57b11391f0cc56",
+    "timestamp": "2024-09-22T19:48:11.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x347D4A86272D68BE247Ff5745427640E5f6358E3",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 20808308,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xdcc7b716baa3e1030760a530d396ded521b3a4acc3a9a0a0fc4ee1bb2719ab5b",
+    "timestamp": "2024-09-21T23:22:11.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x347D4A86272D68BE247Ff5745427640E5f6358E3",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 20802200,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x420f27a8ec2417957bee8f47bf48cfbb9f471b21168eaee7dcafe7de73fda56c",
+    "timestamp": "2024-09-21T23:14:47.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x347D4A86272D68BE247Ff5745427640E5f6358E3",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 20802164,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xdc77f02a7d9ce3a521a629683a7c3e1237e8640398df58adc9c24cd122b24a07",
+    "timestamp": "2024-09-21T23:13:35.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x347D4A86272D68BE247Ff5745427640E5f6358E3",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 20802158,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x258472e5bd88eb0fff9d0d464f583e226c72bb475d45d294c68e9c50879dae6f",
+    "timestamp": "2024-09-21T22:07:59.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x347D4A86272D68BE247Ff5745427640E5f6358E3",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 20801833,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x1918037d2b011515e143595bf88ed15231a2b94c7602d45e1299405cdd3ce119",
+    "timestamp": "2024-08-28T15:06:59.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x9CA26730aa028D098C52C3974ab89eC81c74f56c",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 20627877,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x22b234f6fab5e5fb7fea32814d95bc2d9f5704d88af22d80322ed166c7c49cdc",
+    "timestamp": "2024-08-18T05:31:23.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x9CA26730aa028D098C52C3974ab89eC81c74f56c",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 20553438,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xae4d2ce5f703e3f004034af72c01e7d13100897c3375e94136bac8828cac0756",
+    "timestamp": "2024-08-18T03:34:47.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x9CA26730aa028D098C52C3974ab89eC81c74f56c",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 20552856,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xe0b379d3ae3e80fab83e49f45d041f19c2f3b96fab83eed8d2c0345b2f571f05",
+    "timestamp": "2024-05-23T06:59:11.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x433d56F39525d60673541c09A5a400c9794dd0C6",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 19930945,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x20220d02fbab6895649928d177fe87baaf0a877980b10c1193618449a915a96a",
+    "timestamp": "2024-05-23T06:55:59.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x433d56F39525d60673541c09A5a400c9794dd0C6",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 19930930,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x987b685098e534582cb92931ae47783cefb2c9484c033efe1552fdf27b15818e",
+    "timestamp": "2024-05-21T02:21:23.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x1edbd5b9639de54A082c2FDDbE121C007dE904E3",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 19915265,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x187989ec79f2327b5bda2945761d66995439a646696795b61c28521902963d88",
+    "timestamp": "2024-05-21T02:19:35.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x1edbd5b9639de54A082c2FDDbE121C007dE904E3",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 19915256,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x82809b3c565314977c8ce319f4506ed5f7dff98db352a4cd6bbd7445ab41b445",
+    "timestamp": "2024-05-12T03:33:47.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xDCF27a3368cF85687E48F236B7F975F2c3738f11",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 19851287,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x8d387bab684641c93070a70ef7184fc23a9ecef4607258a599458ed15c1f98d9",
+    "timestamp": "2024-05-12T03:27:11.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xDCF27a3368cF85687E48F236B7F975F2c3738f11",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 19851254,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x0d46a36beb34c103d0252f5f611a6a1e0aa1a0b1e037b4eefe4056524e771d20",
+    "timestamp": "2024-05-12T03:26:23.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xDCF27a3368cF85687E48F236B7F975F2c3738f11",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 19851250,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xe282497d0d8b1a391321d4ac8290b45b1bc4eff6e5bb5b7835b41b16f68dec3c",
+    "timestamp": "2024-05-12T03:24:47.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xDCF27a3368cF85687E48F236B7F975F2c3738f11",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 19851242,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xac2d8ea7d8b0a8b94a525b6d0895af500093b7a05e332c9f2fb01ae5b471e4ae",
+    "timestamp": "2026-07-09T09:33:35.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xDCF27a3368cF85687E48F236B7F975F2c3738f11",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25494154,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xdfbe4cf0a212d9a8fc81b431e74762b0ed34ea59c4870086d5cf264a9d34b9d5",
+    "timestamp": "2026-07-09T09:32:11.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xDCF27a3368cF85687E48F236B7F975F2c3738f11",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25494147,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xe40531cef854a687d8b44394de96a82485802093fc328302eeadc314ba4a7a63",
+    "timestamp": "2026-04-18T09:20:47.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x9839Df09cd1a45a1284D3BEDcb149518fb2ECF35",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 24905818,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xe13c1aa3e36ff9b0c8a2295940558f9f399c8b50187fc9a4872de4206307b06c",
+    "timestamp": "2026-04-16T01:59:11.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xDCF27a3368cF85687E48F236B7F975F2c3738f11",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 24889253,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x028325bb729def3587aa920cde5c6d38cf69b9a2a8f631644770e5b3a29604e0",
+    "timestamp": "2026-04-16T01:58:11.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xDCF27a3368cF85687E48F236B7F975F2c3738f11",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 24889248,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xdde9c2aad13ea0225ab72b3ebe5b7f05699c0291a51ccaeff926561e0e056ce5",
+    "timestamp": "2026-04-16T01:44:23.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xDCF27a3368cF85687E48F236B7F975F2c3738f11",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 24889180,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x6959f2004d9957df2520ad2c8ddab4acd12b62de20fbbff1cb76663fadcfb1e1",
+    "timestamp": "2025-12-15T17:12:47.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x4cFB94067A26cd3cEB24fd584AaF0323c83A4F09",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 24019417,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xf1d09057439a97f42ee03e7758935738c7e861a4592288b750ba0c42601de444",
+    "timestamp": "2025-09-18T13:01:59.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x4cFB94067A26cd3cEB24fd584AaF0323c83A4F09",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 23390129,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x5cf4ac8afa77116c411fdd885340540eaf774555720ec7661518fb121d32ff21",
+    "timestamp": "2025-08-07T06:48:23.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x4cFB94067A26cd3cEB24fd584AaF0323c83A4F09",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 23087491,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xc03db827dea87b58ca8725acbceb1a8f4771f51c6975a1cc814019dccdb2999e",
+    "timestamp": "2025-08-07T06:47:11.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x4cFB94067A26cd3cEB24fd584AaF0323c83A4F09",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 23087485,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xc9fa3d10f21963da8d11b23c91bd3b33d1bb7104c97e2200ae7c44632dda6556",
+    "timestamp": "2025-08-01T11:59:23.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x4cFB94067A26cd3cEB24fd584AaF0323c83A4F09",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 23046087,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xa0f3eef66135cd8ae524842dc2ab21d3a26785fc56a308856ec478e1742b01da",
+    "timestamp": "2025-07-26T00:00:59.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x8C4A65F523dC6560Bd431C77D8bB0000d34317dF",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 22999599,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x8ed571b6c1a90b5acedab19b20ffb729a4c0bf1ed238446bbbad7787cc84c31e",
+    "timestamp": "2025-03-12T09:50:23.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x375015ca588faaCD7e59967681649fB74A8B3466",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 22029999,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x1f6692fc5e042e0a427f5924c0e34e02129f7d527cbf24ce4eaf04dc78544540",
+    "timestamp": "2025-02-27T21:36:59.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x3AE9a45BC6606ec1Bbde71a98DD2Ec6CEDabfaaB",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 21940407,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x27f3b387d9815b82a0862d51faadeca2b29a6d496e547177a8a05b0e8fdbf378",
+    "timestamp": "2025-01-16T22:38:35.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xb776Fd4B00939037d27A0cE20fFCb2813C38Fd1d",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 21640087,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xb84db266c670c8602c503a8668b71b0ec0f07e0a8cbb5e4613b08f704c57a35e",
+    "timestamp": "2025-01-10T19:54:11.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xBe3F82034778fbF474060f7D4a032f592559ab4d",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 21596295,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xd64165496a300689f979c8848fe1a5e3ede20ae952eeef94e34f5a9f63d17af7",
+    "timestamp": "2025-01-10T19:38:59.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xBe3F82034778fbF474060f7D4a032f592559ab4d",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 21596219,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xeab6ac7b28fae10afbfa94e7a446d945337e43dd26ab363cc4ad8addc683ddd6",
+    "timestamp": "2025-01-10T19:12:23.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xBe3F82034778fbF474060f7D4a032f592559ab4d",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 21596086,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x14b5c8ebd6d391f079682f3aeeb32ad793358bdcb3a22f75a6f979f681b9a60a",
+    "timestamp": "2025-01-10T19:09:59.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xBe3F82034778fbF474060f7D4a032f592559ab4d",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 21596074,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x8852bbc40b0c7c09381ed3a9c52fa1c0dff1acb39ef04e9db375f301abb0cea9",
+    "timestamp": "2025-01-10T00:38:59.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x59dA03e05a9baa78C2978b3B1374D849E2be3cAB",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 21590554,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x04a49236c32b2c067612e37760862e45038b2faa12b875135ace54cc4288094e",
+    "timestamp": "2024-12-29T21:07:59.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x347D4A86272D68BE247Ff5745427640E5f6358E3",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 21510714,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xdaaa2a1dc8a77c390fd7c3df7bf69c9f0e3c3702da05b719bb5dfc296463a4a8",
+    "timestamp": "2024-12-24T18:58:11.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xBe3F82034778fbF474060f7D4a032f592559ab4d",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 21474265,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xcbf4cd5d6efd56abc65929822cc2277e83392ec39ff148a20cebb21fea7ec9f8",
+    "timestamp": "2024-12-01T12:17:23.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xE3506A409Fc03eD50D12143E98A8aDA2B8a40a5f",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 21307604,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xbec9b3a0012d3139d15e7eaa8d0377fc7016433cddcccdda5fcae4a332f19b27",
+    "timestamp": "2024-12-01T10:58:11.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xE3506A409Fc03eD50D12143E98A8aDA2B8a40a5f",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 21307211,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x091d23330eebaadd0e77ba9684d566396ca22075711c5775c06eb2a266722424",
+    "timestamp": "2024-11-30T09:56:47.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xE3506A409Fc03eD50D12143E98A8aDA2B8a40a5f",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 21299742,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xe340b021b1779b97a595e673ae4551fcd5c68c049e3ca4803d77755e1e401e53",
+    "timestamp": "2024-11-30T09:23:23.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xE3506A409Fc03eD50D12143E98A8aDA2B8a40a5f",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 21299577,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xc7e738dcd8b2086501c9e4cfb9a62544d44cb654b0a5fc5c96c0201e0f40befc",
+    "timestamp": "2024-11-30T08:20:47.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xE3506A409Fc03eD50D12143E98A8aDA2B8a40a5f",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 21299265,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x877086e33a8816bcf7a01032bbcf57793f5b2cef6d2d01a9859442e824d2b0d3",
+    "timestamp": "2024-11-30T08:18:47.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xE3506A409Fc03eD50D12143E98A8aDA2B8a40a5f",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 21299255,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xf25c86775f9135b7207ed7895135cc24dea1614e1b55e574cf271a69b52bc138",
+    "timestamp": "2024-11-16T17:34:23.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x2eaDE3f604e8cD561C18001aBeaD7B33c2ED4791",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 21201781,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x252fd808c9a661cb5242900b13a7e14a4d8d67eaa1a5b7a7ad79417c9e84d01f",
+    "timestamp": "2024-11-03T01:33:47.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x136e816511662d459E57ef5073eA824F19f78fb9",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 21103859,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x466070976b7e1de5ba1d50aba60a3428230ae308eacbe3b3927af4b8dbc2d77e",
+    "timestamp": "2024-11-03T01:31:35.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x136e816511662d459E57ef5073eA824F19f78fb9",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 21103849,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x91ddaeacef62ca2967a573b6c5bccf5665b66a3c1328462aa4b5fd210d30ddac",
+    "timestamp": "2024-11-03T01:30:35.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x136e816511662d459E57ef5073eA824F19f78fb9",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 21103844,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x08bc427737345131ca848bb5fe772adc7130c34ebc39e21bd171a7f105274b8f",
+    "timestamp": "2024-11-02T14:11:47.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x3695dD3B8e0254c2091A8582af6F61833DB48E23",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 21100472,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x4452852d7db57932989b2dd8bdca46523dd495a57b05c1695832f92825dcb01b",
+    "timestamp": "2024-09-22T19:49:47.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x347D4A86272D68BE247Ff5745427640E5f6358E3",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 20808316,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xe59fb3054e76cc205f32259ee1db7787a3a21538ed2991461e57b11391f0cc56",
+    "timestamp": "2024-09-22T19:48:11.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x347D4A86272D68BE247Ff5745427640E5f6358E3",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 20808308,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xdcc7b716baa3e1030760a530d396ded521b3a4acc3a9a0a0fc4ee1bb2719ab5b",
+    "timestamp": "2024-09-21T23:22:11.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x347D4A86272D68BE247Ff5745427640E5f6358E3",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 20802200,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x420f27a8ec2417957bee8f47bf48cfbb9f471b21168eaee7dcafe7de73fda56c",
+    "timestamp": "2024-09-21T23:14:47.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x347D4A86272D68BE247Ff5745427640E5f6358E3",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 20802164,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xdc77f02a7d9ce3a521a629683a7c3e1237e8640398df58adc9c24cd122b24a07",
+    "timestamp": "2024-09-21T23:13:35.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x347D4A86272D68BE247Ff5745427640E5f6358E3",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 20802158,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x258472e5bd88eb0fff9d0d464f583e226c72bb475d45d294c68e9c50879dae6f",
+    "timestamp": "2024-09-21T22:07:59.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x347D4A86272D68BE247Ff5745427640E5f6358E3",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 20801833,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x1918037d2b011515e143595bf88ed15231a2b94c7602d45e1299405cdd3ce119",
+    "timestamp": "2024-08-28T15:06:59.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x9CA26730aa028D098C52C3974ab89eC81c74f56c",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 20627877,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x22b234f6fab5e5fb7fea32814d95bc2d9f5704d88af22d80322ed166c7c49cdc",
+    "timestamp": "2024-08-18T05:31:23.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x9CA26730aa028D098C52C3974ab89eC81c74f56c",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 20553438,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xae4d2ce5f703e3f004034af72c01e7d13100897c3375e94136bac8828cac0756",
+    "timestamp": "2024-08-18T03:34:47.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x9CA26730aa028D098C52C3974ab89eC81c74f56c",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 20552856,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xe0b379d3ae3e80fab83e49f45d041f19c2f3b96fab83eed8d2c0345b2f571f05",
+    "timestamp": "2024-05-23T06:59:11.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x433d56F39525d60673541c09A5a400c9794dd0C6",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 19930945,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x20220d02fbab6895649928d177fe87baaf0a877980b10c1193618449a915a96a",
+    "timestamp": "2024-05-23T06:55:59.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x433d56F39525d60673541c09A5a400c9794dd0C6",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 19930930,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x987b685098e534582cb92931ae47783cefb2c9484c033efe1552fdf27b15818e",
+    "timestamp": "2024-05-21T02:21:23.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x1edbd5b9639de54A082c2FDDbE121C007dE904E3",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 19915265,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x187989ec79f2327b5bda2945761d66995439a646696795b61c28521902963d88",
+    "timestamp": "2024-05-21T02:19:35.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x1edbd5b9639de54A082c2FDDbE121C007dE904E3",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 19915256,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x82809b3c565314977c8ce319f4506ed5f7dff98db352a4cd6bbd7445ab41b445",
+    "timestamp": "2024-05-12T03:33:47.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xDCF27a3368cF85687E48F236B7F975F2c3738f11",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 19851287,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x8d387bab684641c93070a70ef7184fc23a9ecef4607258a599458ed15c1f98d9",
+    "timestamp": "2024-05-12T03:27:11.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xDCF27a3368cF85687E48F236B7F975F2c3738f11",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 19851254,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x0d46a36beb34c103d0252f5f611a6a1e0aa1a0b1e037b4eefe4056524e771d20",
+    "timestamp": "2024-05-12T03:26:23.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xDCF27a3368cF85687E48F236B7F975F2c3738f11",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 19851250,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xe282497d0d8b1a391321d4ac8290b45b1bc4eff6e5bb5b7835b41b16f68dec3c",
+    "timestamp": "2024-05-12T03:24:47.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xDCF27a3368cF85687E48F236B7F975F2c3738f11",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 19851242,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xac2d8ea7d8b0a8b94a525b6d0895af500093b7a05e332c9f2fb01ae5b471e4ae",
+    "timestamp": "2026-07-09T09:33:35.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xDCF27a3368cF85687E48F236B7F975F2c3738f11",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25494154,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xdfbe4cf0a212d9a8fc81b431e74762b0ed34ea59c4870086d5cf264a9d34b9d5",
+    "timestamp": "2026-07-09T09:32:11.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xDCF27a3368cF85687E48F236B7F975F2c3738f11",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25494147,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xe40531cef854a687d8b44394de96a82485802093fc328302eeadc314ba4a7a63",
+    "timestamp": "2026-04-18T09:20:47.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x9839Df09cd1a45a1284D3BEDcb149518fb2ECF35",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 24905818,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xe13c1aa3e36ff9b0c8a2295940558f9f399c8b50187fc9a4872de4206307b06c",
+    "timestamp": "2026-04-16T01:59:11.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xDCF27a3368cF85687E48F236B7F975F2c3738f11",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 24889253,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x028325bb729def3587aa920cde5c6d38cf69b9a2a8f631644770e5b3a29604e0",
+    "timestamp": "2026-04-16T01:58:11.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xDCF27a3368cF85687E48F236B7F975F2c3738f11",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 24889248,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xdde9c2aad13ea0225ab72b3ebe5b7f05699c0291a51ccaeff926561e0e056ce5",
+    "timestamp": "2026-04-16T01:44:23.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xDCF27a3368cF85687E48F236B7F975F2c3738f11",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 24889180,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x6959f2004d9957df2520ad2c8ddab4acd12b62de20fbbff1cb76663fadcfb1e1",
+    "timestamp": "2025-12-15T17:12:47.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x4cFB94067A26cd3cEB24fd584AaF0323c83A4F09",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 24019417,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xf1d09057439a97f42ee03e7758935738c7e861a4592288b750ba0c42601de444",
+    "timestamp": "2025-09-18T13:01:59.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x4cFB94067A26cd3cEB24fd584AaF0323c83A4F09",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 23390129,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x5cf4ac8afa77116c411fdd885340540eaf774555720ec7661518fb121d32ff21",
+    "timestamp": "2025-08-07T06:48:23.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x4cFB94067A26cd3cEB24fd584AaF0323c83A4F09",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 23087491,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xc03db827dea87b58ca8725acbceb1a8f4771f51c6975a1cc814019dccdb2999e",
+    "timestamp": "2025-08-07T06:47:11.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x4cFB94067A26cd3cEB24fd584AaF0323c83A4F09",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 23087485,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xc9fa3d10f21963da8d11b23c91bd3b33d1bb7104c97e2200ae7c44632dda6556",
+    "timestamp": "2025-08-01T11:59:23.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x4cFB94067A26cd3cEB24fd584AaF0323c83A4F09",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 23046087,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xa0f3eef66135cd8ae524842dc2ab21d3a26785fc56a308856ec478e1742b01da",
+    "timestamp": "2025-07-26T00:00:59.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x8C4A65F523dC6560Bd431C77D8bB0000d34317dF",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 22999599,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x8ed571b6c1a90b5acedab19b20ffb729a4c0bf1ed238446bbbad7787cc84c31e",
+    "timestamp": "2025-03-12T09:50:23.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x375015ca588faaCD7e59967681649fB74A8B3466",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 22029999,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x1f6692fc5e042e0a427f5924c0e34e02129f7d527cbf24ce4eaf04dc78544540",
+    "timestamp": "2025-02-27T21:36:59.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x3AE9a45BC6606ec1Bbde71a98DD2Ec6CEDabfaaB",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 21940407,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x27f3b387d9815b82a0862d51faadeca2b29a6d496e547177a8a05b0e8fdbf378",
+    "timestamp": "2025-01-16T22:38:35.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xb776Fd4B00939037d27A0cE20fFCb2813C38Fd1d",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 21640087,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xb84db266c670c8602c503a8668b71b0ec0f07e0a8cbb5e4613b08f704c57a35e",
+    "timestamp": "2025-01-10T19:54:11.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xBe3F82034778fbF474060f7D4a032f592559ab4d",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 21596295,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xd64165496a300689f979c8848fe1a5e3ede20ae952eeef94e34f5a9f63d17af7",
+    "timestamp": "2025-01-10T19:38:59.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xBe3F82034778fbF474060f7D4a032f592559ab4d",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 21596219,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xeab6ac7b28fae10afbfa94e7a446d945337e43dd26ab363cc4ad8addc683ddd6",
+    "timestamp": "2025-01-10T19:12:23.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xBe3F82034778fbF474060f7D4a032f592559ab4d",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 21596086,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x14b5c8ebd6d391f079682f3aeeb32ad793358bdcb3a22f75a6f979f681b9a60a",
+    "timestamp": "2025-01-10T19:09:59.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xBe3F82034778fbF474060f7D4a032f592559ab4d",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 21596074,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x8852bbc40b0c7c09381ed3a9c52fa1c0dff1acb39ef04e9db375f301abb0cea9",
+    "timestamp": "2025-01-10T00:38:59.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x59dA03e05a9baa78C2978b3B1374D849E2be3cAB",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 21590554,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x04a49236c32b2c067612e37760862e45038b2faa12b875135ace54cc4288094e",
+    "timestamp": "2024-12-29T21:07:59.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x347D4A86272D68BE247Ff5745427640E5f6358E3",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 21510714,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xdaaa2a1dc8a77c390fd7c3df7bf69c9f0e3c3702da05b719bb5dfc296463a4a8",
+    "timestamp": "2024-12-24T18:58:11.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xBe3F82034778fbF474060f7D4a032f592559ab4d",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 21474265,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xcbf4cd5d6efd56abc65929822cc2277e83392ec39ff148a20cebb21fea7ec9f8",
+    "timestamp": "2024-12-01T12:17:23.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xE3506A409Fc03eD50D12143E98A8aDA2B8a40a5f",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 21307604,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xbec9b3a0012d3139d15e7eaa8d0377fc7016433cddcccdda5fcae4a332f19b27",
+    "timestamp": "2024-12-01T10:58:11.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xE3506A409Fc03eD50D12143E98A8aDA2B8a40a5f",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 21307211,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x091d23330eebaadd0e77ba9684d566396ca22075711c5775c06eb2a266722424",
+    "timestamp": "2024-11-30T09:56:47.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xE3506A409Fc03eD50D12143E98A8aDA2B8a40a5f",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 21299742,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xe340b021b1779b97a595e673ae4551fcd5c68c049e3ca4803d77755e1e401e53",
+    "timestamp": "2024-11-30T09:23:23.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xE3506A409Fc03eD50D12143E98A8aDA2B8a40a5f",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 21299577,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xc7e738dcd8b2086501c9e4cfb9a62544d44cb654b0a5fc5c96c0201e0f40befc",
+    "timestamp": "2024-11-30T08:20:47.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xE3506A409Fc03eD50D12143E98A8aDA2B8a40a5f",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 21299265,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x877086e33a8816bcf7a01032bbcf57793f5b2cef6d2d01a9859442e824d2b0d3",
+    "timestamp": "2024-11-30T08:18:47.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xE3506A409Fc03eD50D12143E98A8aDA2B8a40a5f",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 21299255,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xf25c86775f9135b7207ed7895135cc24dea1614e1b55e574cf271a69b52bc138",
+    "timestamp": "2024-11-16T17:34:23.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x2eaDE3f604e8cD561C18001aBeaD7B33c2ED4791",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 21201781,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x252fd808c9a661cb5242900b13a7e14a4d8d67eaa1a5b7a7ad79417c9e84d01f",
+    "timestamp": "2024-11-03T01:33:47.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x136e816511662d459E57ef5073eA824F19f78fb9",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 21103859,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x466070976b7e1de5ba1d50aba60a3428230ae308eacbe3b3927af4b8dbc2d77e",
+    "timestamp": "2024-11-03T01:31:35.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x136e816511662d459E57ef5073eA824F19f78fb9",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 21103849,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x91ddaeacef62ca2967a573b6c5bccf5665b66a3c1328462aa4b5fd210d30ddac",
+    "timestamp": "2024-11-03T01:30:35.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x136e816511662d459E57ef5073eA824F19f78fb9",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 21103844,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x08bc427737345131ca848bb5fe772adc7130c34ebc39e21bd171a7f105274b8f",
+    "timestamp": "2024-11-02T14:11:47.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x3695dD3B8e0254c2091A8582af6F61833DB48E23",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 21100472,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x4452852d7db57932989b2dd8bdca46523dd495a57b05c1695832f92825dcb01b",
+    "timestamp": "2024-09-22T19:49:47.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x347D4A86272D68BE247Ff5745427640E5f6358E3",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 20808316,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xe59fb3054e76cc205f32259ee1db7787a3a21538ed2991461e57b11391f0cc56",
+    "timestamp": "2024-09-22T19:48:11.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x347D4A86272D68BE247Ff5745427640E5f6358E3",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 20808308,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xdcc7b716baa3e1030760a530d396ded521b3a4acc3a9a0a0fc4ee1bb2719ab5b",
+    "timestamp": "2024-09-21T23:22:11.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x347D4A86272D68BE247Ff5745427640E5f6358E3",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 20802200,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x420f27a8ec2417957bee8f47bf48cfbb9f471b21168eaee7dcafe7de73fda56c",
+    "timestamp": "2024-09-21T23:14:47.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x347D4A86272D68BE247Ff5745427640E5f6358E3",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 20802164,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xdc77f02a7d9ce3a521a629683a7c3e1237e8640398df58adc9c24cd122b24a07",
+    "timestamp": "2024-09-21T23:13:35.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x347D4A86272D68BE247Ff5745427640E5f6358E3",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 20802158,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x258472e5bd88eb0fff9d0d464f583e226c72bb475d45d294c68e9c50879dae6f",
+    "timestamp": "2024-09-21T22:07:59.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x347D4A86272D68BE247Ff5745427640E5f6358E3",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 20801833,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x1918037d2b011515e143595bf88ed15231a2b94c7602d45e1299405cdd3ce119",
+    "timestamp": "2024-08-28T15:06:59.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x9CA26730aa028D098C52C3974ab89eC81c74f56c",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 20627877,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x22b234f6fab5e5fb7fea32814d95bc2d9f5704d88af22d80322ed166c7c49cdc",
+    "timestamp": "2024-08-18T05:31:23.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x9CA26730aa028D098C52C3974ab89eC81c74f56c",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 20553438,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xae4d2ce5f703e3f004034af72c01e7d13100897c3375e94136bac8828cac0756",
+    "timestamp": "2024-08-18T03:34:47.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x9CA26730aa028D098C52C3974ab89eC81c74f56c",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 20552856,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xe0b379d3ae3e80fab83e49f45d041f19c2f3b96fab83eed8d2c0345b2f571f05",
+    "timestamp": "2024-05-23T06:59:11.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x433d56F39525d60673541c09A5a400c9794dd0C6",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 19930945,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x20220d02fbab6895649928d177fe87baaf0a877980b10c1193618449a915a96a",
+    "timestamp": "2024-05-23T06:55:59.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x433d56F39525d60673541c09A5a400c9794dd0C6",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 19930930,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x987b685098e534582cb92931ae47783cefb2c9484c033efe1552fdf27b15818e",
+    "timestamp": "2024-05-21T02:21:23.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x1edbd5b9639de54A082c2FDDbE121C007dE904E3",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 19915265,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x187989ec79f2327b5bda2945761d66995439a646696795b61c28521902963d88",
+    "timestamp": "2024-05-21T02:19:35.000000Z",
+    "method": "revealMyEgg",
+    "from": "0x1edbd5b9639de54A082c2FDDbE121C007dE904E3",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 19915256,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x82809b3c565314977c8ce319f4506ed5f7dff98db352a4cd6bbd7445ab41b445",
+    "timestamp": "2024-05-12T03:33:47.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xDCF27a3368cF85687E48F236B7F975F2c3738f11",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 19851287,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x8d387bab684641c93070a70ef7184fc23a9ecef4607258a599458ed15c1f98d9",
+    "timestamp": "2024-05-12T03:27:11.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xDCF27a3368cF85687E48F236B7F975F2c3738f11",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 19851254,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x0d46a36beb34c103d0252f5f611a6a1e0aa1a0b1e037b4eefe4056524e771d20",
+    "timestamp": "2024-05-12T03:26:23.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xDCF27a3368cF85687E48F236B7F975F2c3738f11",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 19851250,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xe282497d0d8b1a391321d4ac8290b45b1bc4eff6e5bb5b7835b41b16f68dec3c",
+    "timestamp": "2024-05-12T03:24:47.000000Z",
+    "method": "revealMyEgg",
+    "from": "0xDCF27a3368cF85687E48F236B7F975F2c3738f11",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 19851242,
+    "category": "reveal"
+   },
+   {
+    "truncated": true,
+    "chunk": 0
+   }
+  ],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 2,
+    "first": "2023-01-26",
+    "last": "2023-01-26",
+    "last_tx": "0x9d5356239549264e7a1c7342f6e90e95df93feb323f2511635d039a1d09e1622",
+    "list": [
+     {
+      "date": "2023-01-26",
+      "tx": "0xba456f913b9aeb0ff1ed4174094538f69d62f7cd9759d0e9d31d939f83d41382",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "e5eb897af953ceb9a0523bde366d9edb33848243"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2023-01-26",
+      "tx": "0x9d5356239549264e7a1c7342f6e90e95df93feb323f2511635d039a1d09e1622",
+      "topics": [
+       "e5eb897af953ceb9a0523bde366d9edb33848243",
+       "c2638c35b6bda7b8e79a042f71267bdc23931a2a"
+      ],
+      "data": "0x"
+     }
+    ]
+   }
+  },
+  "decoded": [
+   {
+    "hash": "0xe282497d0d8b1a391321d4ac8290b45b1bc4eff6e5bb5b7835b41b16f68dec3c",
+    "timestamp": "2024-05-12T03:24:47.000000Z",
+    "method": "revealMyEgg",
+    "category": "reveal",
+    "from": "0xDCF27a3368cF85687E48F236B7F975F2c3738f11",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "uint256",
+      "value": "1019"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0xdfbe4cf0a212d9a8fc81b431e74762b0ed34ea59c4870086d5cf264a9d34b9d5",
+    "timestamp": "2026-07-09T09:32:11.000000Z",
+    "method": "revealMyEgg",
+    "category": "reveal",
+    "from": "0xDCF27a3368cF85687E48F236B7F975F2c3738f11",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "uint256",
+      "value": "3681"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0xac2d8ea7d8b0a8b94a525b6d0895af500093b7a05e332c9f2fb01ae5b471e4ae",
+    "timestamp": "2026-07-09T09:33:35.000000Z",
+    "method": "revealMyEgg",
+    "category": "reveal",
+    "from": "0xDCF27a3368cF85687E48F236B7F975F2c3738f11",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "uint256",
+      "value": "3478"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   }
+  ],
+  "ownership_transfers": [
+   {
+    "date": "2023-01-26",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0xe5eb897af953ceb9a0523bde366d9edb33848243",
+    "tx": "0xba456f913b9aeb0ff1ed4174094538f69d62f7cd9759d0e9d31d939f83d41382"
+   },
+   {
+    "date": "2023-01-26",
+    "from": "0xe5eb897af953ceb9a0523bde366d9edb33848243",
+    "to": "0xc2638c35b6bda7b8e79a042f71267bdc23931a2a",
+    "tx": "0x9d5356239549264e7a1c7342f6e90e95df93feb323f2511635d039a1d09e1622"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0xa67ad4ec7790c4be3ee1d32be4c304df9d7affd0_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0xc2638c35b6bda7b8e79a042f71267bdc23931a2a",
+  "code_raw": "data/raw/rpc-mutability/0xc2638c35b6bda7b8e79a042f71267bdc23931a2a_holdercode.json",
+  "type": "eoa",
+  "bs_name": null,
+  "ens": null,
+  "bs_impl_names": [],
+  "bs_tags": [],
+  "is_contract": false,
+  "creator": null,
+  "is_verified": false,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "override",
+ "lock_functions": [
+  "renounceRole"
+ ],
+ "lock_flags_true": {},
+ "roles": {
+  "UPDATER_ROLE": {
+   "value": "0x73e573f9566d61418a34d5de3ff49360f9c51fec37f7486551670290f6285dab",
+   "members": [
+    "0xe5eb897af953ceb9a0523bde366d9edb33848243",
+    "0x5d2fd8f39c24ac0338fc6268119ca8c500ae3086",
+    "0xc2638c35b6bda7b8e79a042f71267bdc23931a2a"
+   ],
+   "source": "RoleGranted logs + hasRole"
+  },
+  "DEFAULT_ADMIN_ROLE": {
+   "value": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "members": [
+    "0xe5eb897af953ceb9a0523bde366d9edb33848243"
+   ],
+   "source": "RoleGranted logs + hasRole"
+  }
+ },
+ "mutators": [
+  {
+   "name": "addIpfsOnNft",
+   "sig": "addIpfsOnNft(uint256,string)",
+   "selector": "0x2d8426f2",
+   "category": "uri",
+   "inputs": [
+    "uint256",
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "role",
+     "ref": "UPDATER_ROLE"
+    }
+   ],
+   "modifiers": [
+    "onlyRole(UPDATER_ROLE)"
+   ],
+   "body_head": "ipfsLock[_tokenId] = ipfs;\n    ipfsLocekd[_tokenId] = true;",
+   "writes": [
+    "ipfsLocekd",
+    "ipfsLock"
+   ],
+   "effective": "yes",
+   "power": "eoa",
+   "holder_addrs": [
+    "0xe5eb897af953ceb9a0523bde366d9edb33848243",
+    "0x5d2fd8f39c24ac0338fc6268119ca8c500ae3086",
+    "0xc2638c35b6bda7b8e79a042f71267bdc23931a2a"
+   ],
+   "holder_how": [
+    "role:UPDATER_ROLE"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xe5eb897af953ceb9a0523bde366d9edb33848243",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    },
+    {
+     "addr": "0x5d2fd8f39c24ac0338fc6268119ca8c500ae3086",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    },
+    {
+     "addr": "0xc2638c35b6bda7b8e79a042f71267bdc23931a2a",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "revealMyEgg",
+   "sig": "revealMyEgg(uint256)",
+   "selector": "0x06b265dd",
+   "category": "reveal",
+   "inputs": [
+    "uint256"
+   ],
+   "gates": [
+    {
+     "type": "token-owner",
+     "ref": "ownerOf"
+    }
+   ],
+   "modifiers": [],
+   "body_head": "require(ownerOf(tokenId) == msg.sender, \"You have to own it to reveal it\");\n    uint eggId = tokenIdToEggId[tokenId];\n    require(_revealsAllowed[eggId], \"Revea",
+   "writes": [
+    "tokenIdToRevealId",
+    "tokenIdToRevealed"
+   ],
+   "power": "token-holder",
+   "holder_addrs": [],
+   "holder_how": [
+    "ownerOf"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": true,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": []
+  }
+ ],
+ "class_direct": "eoa-mutable",
+ "class_reason": "live setters (eoa): addIpfsOnNft",
+ "live_mutators": [
+  "addIpfsOnNft"
+ ],
+ "dependencies": [
+  {
+   "address": "0x3cc6cdda760b79bafa08df41ecfa224f810dceb6",
+   "via": "constant DEFAULT_SUBSCRIPTION",
+   "in_tokenuri_path": false,
+   "via_setter": false,
+   "analysis": {
+    "address": "0x3cc6cdda760b79bafa08df41ecfa224f810dceb6",
+    "verified": true,
+    "contract_name": "OwnedRegistrant",
+    "proxy": {
+     "kind": null
+    },
+    "owner": {
+     "addr": "0xc669b5f25f03be2ac0323037cb57f49eb543657a",
+     "code_raw": "data/raw/rpc-mutability/0xc669b5f25f03be2ac0323037cb57f49eb543657a_holdercode.json",
+     "code_len": 171,
+     "probe_raw": "data/raw/rpc-mutability/0xc669b5f25f03be2ac0323037cb57f49eb543657a_holderprobe.json",
+     "type": "safe",
+     "threshold": 5,
+     "n_owners": 7,
+     "owners": [
+      "0x1049f38c6ef26b195cdaf54337e8079eea9376f1",
+      "0x59f4ec41bfdca22b4c0f1fd4b4ced52f79c3d09f",
+      "0x435949f7363093620bb0d3900180c22273f076ab",
+      "0xe80a65eb7a3018deda407e621ef5fb5b416678ca",
+      "0xb20f88febd0adc79c58982c9cc88938de81fe451",
+      "0xbf81d02f3ee59e79af3d9337a186f65c9fae39f3",
+      "0x30809f074db2fb7cfdf68b1d25cfac7c96b5fb6c"
+     ],
+     "version": "1.3.0",
+     "bs_name": "GnosisSafeProxy",
+     "ens": null,
+     "bs_impl_names": [
+      "GnosisSafe"
+     ],
+     "bs_tags": [],
+     "is_contract": true,
+     "creator": "0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2",
+     "is_verified": true,
+     "bs_reputation": "ok"
+    },
+    "admin_fn": null,
+    "uups": false,
+    "lock_views": {},
+    "lock_flags_true": {},
+    "lock_functions": [],
+    "class_direct": "immutable",
+    "class_reason": "no uri/renderer/upgrade function in ABI and not a proxy",
+    "live_mutators": [],
+    "mutators": [],
+    "history": {},
+    "unverified_selector_hits": [],
+    "tokenuri_path": "none"
+   }
+  }
+ ],
+ "meta": {
+  "address": "0xa67ad4ec7790c4be3ee1d32be4c304df9d7affd0",
+  "name": "Metropolis World Ethereals",
+  "w5_claim_strength": null,
+  "w5_claim_text": null,
+  "w5_source_type": null,
+  "w5_source_url": null,
+  "holders_count": 1435.0,
+  "in_w5": false,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": "data-uri",
+  "census_media_class": "http",
+  "census_liveness": "alive",
+  "in_census_onchain": true,
+  "standard": "ERC-721",
+  "creator": "0xe5eb897af953ceb9a0523bde366d9edb33848243",
+  "deploy_block": 16492442.0
+ },
+ "class_deps_all": "immutable",
+ "class_deps": "none",
+ "class_final": "eoa-mutable",
+ "pointer_power": "eoa"
+}

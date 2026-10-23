@@ -1,0 +1,302 @@
+{
+ "address": "0x7b407376e915348a5353f1c7adce3cee314ec0b6",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:11Z",
+ "code_raw": "data/raw/rpc-mutability/0x7b407376e915348a5353f1c7adce3cee314ec0b6_code.json",
+ "code_len": 1159,
+ "slots": {
+  "eip1967_impl": "0x23f4b9edd5e70935d790000465d99bf4003d3cab",
+  "eip1967_admin": "0x7229fa5288f66a8edf0fb7f455bda4299993dd3d",
+  "slot0": "0x0000000000000000000000000000000000000000000000000000000000000001"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0x7b407376e915348a5353f1c7adce3cee314ec0b6_slots.json",
+ "verified": true,
+ "contract_name": "TransparentUpgradeableProxy",
+ "proxy": {
+  "kind": "eip1967",
+  "impl": "0x23f4b9edd5e70935d790000465d99bf4003d3cab",
+  "impl_verified": true,
+  "impl_name": "SVP",
+  "admin": {
+   "addr": "0x7229fa5288f66a8edf0fb7f455bda4299993dd3d",
+   "code_raw": "data/raw/rpc-mutability/0x7229fa5288f66a8edf0fb7f455bda4299993dd3d_holdercode.json",
+   "code_len": 1063,
+   "probe_raw": "data/raw/rpc-mutability/0x7229fa5288f66a8edf0fb7f455bda4299993dd3d_holderprobe.json",
+   "type": "contract-owned",
+   "owner": "0xea5d25026b042d382545e91cf60fc9bfc26def24",
+   "controller": {
+    "addr": "0xea5d25026b042d382545e91cf60fc9bfc26def24",
+    "code_raw": "data/raw/rpc-mutability/0xea5d25026b042d382545e91cf60fc9bfc26def24_holdercode.json",
+    "type": "eoa",
+    "bs_name": null,
+    "ens": null,
+    "bs_impl_names": [],
+    "bs_tags": [],
+    "is_contract": false,
+    "creator": null,
+    "is_verified": false,
+    "bs_reputation": "ok"
+   },
+   "bs_name": null,
+   "ens": null,
+   "bs_impl_names": [],
+   "bs_tags": [],
+   "is_contract": true,
+   "creator": "0x7b407376e915348A5353f1c7ADce3cEe314ec0b6",
+   "is_verified": false,
+   "bs_reputation": "ok"
+  }
+ },
+ "has_source": true,
+ "abi_from": "impl+proxy",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 1,
+    "first": "2026-01-06",
+    "last": "2026-01-06",
+    "last_tx": "0x55e29b529c429993d8ac274cb20eac7610d4ee451dba8aa76279ccef25888e75",
+    "list": [
+     {
+      "date": "2026-01-06",
+      "tx": "0x55e29b529c429993d8ac274cb20eac7610d4ee451dba8aa76279ccef25888e75",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "ea5d25026b042d382545e91cf60fc9bfc26def24"
+      ],
+      "data": "0x"
+     }
+    ]
+   },
+   "Upgraded(address)": {
+    "n": 1,
+    "first": "2026-01-06",
+    "last": "2026-01-06",
+    "last_tx": "0x55e29b529c429993d8ac274cb20eac7610d4ee451dba8aa76279ccef25888e75",
+    "list": [
+     {
+      "date": "2026-01-06",
+      "tx": "0x55e29b529c429993d8ac274cb20eac7610d4ee451dba8aa76279ccef25888e75",
+      "topics": [
+       "23f4b9edd5e70935d790000465d99bf4003d3cab"
+      ],
+      "data": "0x"
+     }
+    ]
+   },
+   "AdminChanged(address,address)": {
+    "n": 1,
+    "first": "2026-01-06",
+    "last": "2026-01-06",
+    "last_tx": "0x55e29b529c429993d8ac274cb20eac7610d4ee451dba8aa76279ccef25888e75",
+    "list": [
+     {
+      "date": "2026-01-06",
+      "tx": "0x55e29b529c429993d8ac274cb20eac7610d4ee451dba8aa76279ccef25888e75",
+      "topics": [],
+      "data": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000007229fa5288f66a8edf0fb7f455bda4299993dd3d"
+     }
+    ]
+   },
+   "BeaconUpgraded(address)": {
+    "n": 0
+   }
+  },
+  "decoded": [],
+  "ownership_transfers": [
+   {
+    "date": "2026-01-06",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0xea5d25026b042d382545e91cf60fc9bfc26def24",
+    "tx": "0x55e29b529c429993d8ac274cb20eac7610d4ee451dba8aa76279ccef25888e75"
+   }
+  ],
+  "upgrades": [
+   {
+    "date": "2026-01-06",
+    "impl": "0x23f4b9edd5e70935d790000465d99bf4003d3cab",
+    "tx": "0x55e29b529c429993d8ac274cb20eac7610d4ee451dba8aa76279ccef25888e75"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0x7b407376e915348a5353f1c7adce3cee314ec0b6_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0xea5d25026b042d382545e91cf60fc9bfc26def24",
+  "code_raw": "data/raw/rpc-mutability/0xea5d25026b042d382545e91cf60fc9bfc26def24_holdercode.json",
+  "type": "eoa",
+  "bs_name": null,
+  "ens": null,
+  "bs_impl_names": [],
+  "bs_tags": [],
+  "is_contract": false,
+  "creator": null,
+  "is_verified": false,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "override",
+ "lock_functions": [],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [
+  {
+   "name": "setBaseURI",
+   "sig": "setBaseURI(string)",
+   "selector": "0x55f804b3",
+   "category": "uri",
+   "inputs": [
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "baseURI = uri;",
+   "writes": [
+    "baseURI"
+   ],
+   "effective": "yes",
+   "power": "eoa",
+   "holder_addrs": [
+    "0xea5d25026b042d382545e91cf60fc9bfc26def24"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xea5d25026b042d382545e91cf60fc9bfc26def24",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "setImagefile",
+   "sig": "setImagefile(string)",
+   "selector": "0x40d2d435",
+   "category": "renderer",
+   "inputs": [
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "imagefile = filename;",
+   "writes": [
+    "imagefile"
+   ],
+   "effective": "yes",
+   "power": "eoa",
+   "holder_addrs": [
+    "0xea5d25026b042d382545e91cf60fc9bfc26def24"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xea5d25026b042d382545e91cf60fc9bfc26def24",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "(proxy admin upgrade)",
+   "category": "upgrade",
+   "gates": [
+    {
+     "type": "proxy-admin",
+     "ref": "slot"
+    }
+   ],
+   "holder_addrs": [
+    "0x7229fa5288f66a8edf0fb7f455bda4299993dd3d"
+   ],
+   "holder_how": [
+    "eip1967 admin slot"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "effective": "yes",
+   "power": "eoa",
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x7229fa5288f66a8edf0fb7f455bda4299993dd3d",
+     "type": "contract-owned",
+     "bs_name": null,
+     "ens": null,
+     "desc": "contract->eoa",
+     "simple": "eoa"
+    }
+   ]
+  }
+ ],
+ "class_direct": "eoa-mutable",
+ "class_reason": "live setters (eoa): (proxy admin upgrade),setBaseURI,setImagefile",
+ "live_mutators": [
+  "(proxy admin upgrade)",
+  "setBaseURI",
+  "setImagefile"
+ ],
+ "dependencies": [],
+ "meta": {
+  "address": "0x7b407376e915348a5353f1c7adce3cee314ec0b6",
+  "name": "Satoshi Vision Pass 2 ETH #10000",
+  "w5_claim_strength": null,
+  "w5_claim_text": null,
+  "w5_source_type": null,
+  "w5_source_url": null,
+  "holders_count": 4677.0,
+  "in_w5": false,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": "onchain-renderer",
+  "census_media_class": "http",
+  "census_liveness": "alive",
+  "in_census_onchain": true,
+  "standard": "ERC-721",
+  "creator": "0xea5d25026b042d382545e91cf60fc9bfc26def24",
+  "deploy_block": 24174439.0
+ },
+ "class_deps_all": "none",
+ "class_deps": "none",
+ "class_final": "eoa-mutable",
+ "pointer_power": "eoa"
+}

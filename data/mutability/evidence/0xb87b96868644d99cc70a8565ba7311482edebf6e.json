@@ -1,0 +1,157 @@
+{
+ "address": "0xb87b96868644d99cc70a8565ba7311482edebf6e",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:36Z",
+ "code_raw": "data/raw/rpc-mutability/0xb87b96868644d99cc70a8565ba7311482edebf6e_code.json",
+ "code_len": 16339,
+ "slots": {},
+ "slots_raw": "data/raw/rpc-mutability/0xb87b96868644d99cc70a8565ba7311482edebf6e_slots.json",
+ "verified": true,
+ "contract_name": "OnChainPepe",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [
+   {
+    "hash": "0x84530e91c33100995f6888b61abec8d3d0cd6235c56c256f80ba8c3a18f275ec",
+    "timestamp": "2024-02-10T11:10:11.000000Z",
+    "method": "renounceOwnership",
+    "from": "0x0fa18ed9468B9119d6AC6F0949c81fdD42a546a2",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 19197325,
+    "category": "ownership"
+   },
+   {
+    "hash": "0x7f7577b8a9ca9f14b5793d2de73e79b52ca262b21ada3c69446e55c1c0f35184",
+    "timestamp": "2024-02-10T11:02:59.000000Z",
+    "method": "transferOwnership",
+    "from": "0x0fa18ed9468B9119d6AC6F0949c81fdD42a546a2",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 19197290,
+    "category": "ownership"
+   }
+  ],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 2,
+    "first": "2024-02-10",
+    "last": "2024-02-10",
+    "last_tx": "0x84530e91c33100995f6888b61abec8d3d0cd6235c56c256f80ba8c3a18f275ec",
+    "list": [
+     {
+      "date": "2024-02-10",
+      "tx": "0x43298cc1933c9957735a444844537385cc782615ef5520c7603bee236568bf0e",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "0fa18ed9468b9119d6ac6f0949c81fdd42a546a2"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2024-02-10",
+      "tx": "0x84530e91c33100995f6888b61abec8d3d0cd6235c56c256f80ba8c3a18f275ec",
+      "topics": [
+       "0fa18ed9468b9119d6ac6f0949c81fdd42a546a2",
+       "0000000000000000000000000000000000000000"
+      ],
+      "data": "0x"
+     }
+    ]
+   }
+  },
+  "decoded": [
+   {
+    "hash": "0x7f7577b8a9ca9f14b5793d2de73e79b52ca262b21ada3c69446e55c1c0f35184",
+    "timestamp": "2024-02-10T11:02:59.000000Z",
+    "method": "transferOwnership",
+    "category": "ownership",
+    "from": "0x0fa18ed9468B9119d6AC6F0949c81fdD42a546a2",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0x000000000000000000000000000000000000dead"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0x84530e91c33100995f6888b61abec8d3d0cd6235c56c256f80ba8c3a18f275ec",
+    "timestamp": "2024-02-10T11:10:11.000000Z",
+    "method": "renounceOwnership",
+    "category": "ownership",
+    "from": "0x0fa18ed9468B9119d6AC6F0949c81fdD42a546a2",
+    "params": [],
+    "value_kinds": [],
+    "error": null
+   }
+  ],
+  "ownership_transfers": [
+   {
+    "date": "2024-02-10",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0x0fa18ed9468b9119d6ac6f0949c81fdd42a546a2",
+    "tx": "0x43298cc1933c9957735a444844537385cc782615ef5520c7603bee236568bf0e"
+   },
+   {
+    "date": "2024-02-10",
+    "from": "0x0fa18ed9468b9119d6ac6f0949c81fdd42a546a2",
+    "to": "0x0000000000000000000000000000000000000000",
+    "tx": "0x84530e91c33100995f6888b61abec8d3d0cd6235c56c256f80ba8c3a18f275ec"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0xb87b96868644d99cc70a8565ba7311482edebf6e_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0x0000000000000000000000000000000000000000",
+  "type": "renounced"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "override",
+ "lock_functions": [],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [],
+ "class_direct": "immutable",
+ "class_reason": "no uri/renderer/upgrade function in ABI and not a proxy",
+ "live_mutators": [],
+ "dependencies": [],
+ "meta": {
+  "address": "0xb87b96868644d99cc70a8565ba7311482edebf6e",
+  "name": "OnChain Pepe 404",
+  "w5_claim_strength": "explicit-100%/fully",
+  "w5_claim_text": "* The first collection of 88 Pixel Pepes generated entirely on-chain and minted as ERC404 tokens",
+  "w5_source_type": "contract-source",
+  "w5_source_url": "https://etherscan.io/address/0xb87b96868644d99cc70a8565ba7311482edebf6e#code (OCP404.sol:4)",
+  "holders_count": 394.0,
+  "in_w5": true,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": null,
+  "census_media_class": null,
+  "census_liveness": null,
+  "in_census_onchain": false,
+  "standard": "ERC-721",
+  "creator": "0x0fa18ed9468b9119d6ac6f0949c81fdd42a546a2",
+  "deploy_block": 19197086.0
+ },
+ "class_deps_all": "none",
+ "class_deps": "none",
+ "class_final": "immutable",
+ "pointer_power": null
+}

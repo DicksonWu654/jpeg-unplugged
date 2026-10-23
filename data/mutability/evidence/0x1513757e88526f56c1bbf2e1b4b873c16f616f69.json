@@ -1,0 +1,718 @@
+{
+ "address": "0x1513757e88526f56c1bbf2e1b4b873c16f616f69",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:45Z",
+ "code_raw": "data/raw/rpc-mutability/0x1513757e88526f56c1bbf2e1b4b873c16f616f69_code.json",
+ "code_len": 13673,
+ "slots": {
+  "slot0": "0x53756e67656e730000000000000000000000000000000000000000000000000e"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0x1513757e88526f56c1bbf2e1b4b873c16f616f69_slots.json",
+ "verified": true,
+ "contract_name": "Sungens",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [
+   {
+    "hash": "0x43d4631fb7d01a16fedeb28b8138e7249f69f9174c728cb9a19409d872824846",
+    "timestamp": "2022-05-19T13:06:05.000000Z",
+    "method": "setReveal",
+    "from": "0x38322d2c5e8d141De0F5B04772FC26c654A27Cd4",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 14805112,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x236a974d3e951571d37e9ec08a1b8887ef88bb1c48ce65e4857aa5386a459694",
+    "timestamp": "2022-05-19T13:02:56.000000Z",
+    "method": "setBaseURI",
+    "from": "0x38322d2c5e8d141De0F5B04772FC26c654A27Cd4",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 14805097,
+    "category": "uri"
+   },
+   {
+    "hash": "0xed14c175cccb375a9e91c74197f17f36f457ee1660e67622a58b11b49ee21094",
+    "timestamp": "2022-05-13T17:16:54.000000Z",
+    "method": "setReveal",
+    "from": "0x38322d2c5e8d141De0F5B04772FC26c654A27Cd4",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 14768650,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xd52427285f2451260e9c54e3965ee7d95b965ecf9807976f16f65e0e14de2ed2",
+    "timestamp": "2022-05-13T17:14:41.000000Z",
+    "method": "setBaseURI",
+    "from": "0x38322d2c5e8d141De0F5B04772FC26c654A27Cd4",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 14768639,
+    "category": "uri"
+   },
+   {
+    "hash": "0x629b08f1e80ce76a22ae0790a4ecc70433ce40d3088549f534b181d7c261244e",
+    "timestamp": "2022-05-06T03:46:14.000000Z",
+    "method": "setReveal",
+    "from": "0x38322d2c5e8d141De0F5B04772FC26c654A27Cd4",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 14721262,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x402d98c90a690a4c836e7de35b0194b49d6b46c8fb305495f421a98561cf7a97",
+    "timestamp": "2022-05-06T02:59:34.000000Z",
+    "method": "setBaseURI",
+    "from": "0x38322d2c5e8d141De0F5B04772FC26c654A27Cd4",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 14721043,
+    "category": "uri"
+   },
+   {
+    "hash": "0x8c3bc7307a71399c2437810336de2922d4e9f11fac972da91a831eaeb0e5206e",
+    "timestamp": "2022-04-28T03:12:44.000000Z",
+    "method": "setReveal",
+    "from": "0x38322d2c5e8d141De0F5B04772FC26c654A27Cd4",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 14670431,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x68eee3576021b603471defebf11742516cb2427e6a8f1f4749dcb5afd5a390da",
+    "timestamp": "2022-04-28T03:11:46.000000Z",
+    "method": "setBaseURI",
+    "from": "0x38322d2c5e8d141De0F5B04772FC26c654A27Cd4",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 14670429,
+    "category": "uri"
+   },
+   {
+    "hash": "0x099baf804a9e1b0ec586f39f0f3e67a80c81db127bf6465b2afd1c4e3be5f585",
+    "timestamp": "2022-04-21T13:51:17.000000Z",
+    "method": "setReveal",
+    "from": "0x38322d2c5e8d141De0F5B04772FC26c654A27Cd4",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 14628664,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xdf782f0b709ff802cc6bbc2e71d01611cd0c43bed173b5ed579658489c73b91b",
+    "timestamp": "2022-04-21T13:50:52.000000Z",
+    "method": "setBaseURI",
+    "from": "0x38322d2c5e8d141De0F5B04772FC26c654A27Cd4",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 14628662,
+    "category": "uri"
+   },
+   {
+    "hash": "0x1854523a7c08d269ea59688f0dba437abf61b113c01fe793949afd8bd1e7316c",
+    "timestamp": "2022-02-20T23:13:41.000000Z",
+    "method": "setReveal",
+    "from": "0x38322d2c5e8d141De0F5B04772FC26c654A27Cd4",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 14245880,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x943052be5d14f67afd8dcf32563f15353a89a24a631adc1241e92164635981b9",
+    "timestamp": "2022-02-20T23:13:38.000000Z",
+    "method": "setBaseURI",
+    "from": "0x38322d2c5e8d141De0F5B04772FC26c654A27Cd4",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 14245879,
+    "category": "uri"
+   },
+   {
+    "hash": "0x7679f547291d423f58793a45d26a413d45ae05308fbb4a0eca65b80e6cbee1f3",
+    "timestamp": "2022-02-13T23:07:16.000000Z",
+    "method": "setBaseURI",
+    "from": "0x38322d2c5e8d141De0F5B04772FC26c654A27Cd4",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 14200650,
+    "category": "uri"
+   },
+   {
+    "hash": "0xae40e637140b56f7a115fcbb04fad6abc3c294a982f3333babbfa7cca4f732ca",
+    "timestamp": "2022-02-13T22:59:30.000000Z",
+    "method": "setReveal",
+    "from": "0x38322d2c5e8d141De0F5B04772FC26c654A27Cd4",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 14200621,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x3f124276dca3af9a73bcd6ca48732155077c330cb0b3cb9ec4915facc2e28a62",
+    "timestamp": "2022-02-13T22:58:33.000000Z",
+    "method": "setBaseURI",
+    "from": "0x38322d2c5e8d141De0F5B04772FC26c654A27Cd4",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 14200620,
+    "category": "uri"
+   },
+   {
+    "hash": "0xb9fc3fcc06731e2974ca917f09bdba81e8c19ead778b95c808a3c06939a09859",
+    "timestamp": "2022-02-09T22:55:19.000000Z",
+    "method": "setReveal",
+    "from": "0x38322d2c5e8d141De0F5B04772FC26c654A27Cd4",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 14174683,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xd444996a5aad3f428bd68bf28f754e239d878976dff5795e6b5a7f3721292d7c",
+    "timestamp": "2022-02-09T22:54:27.000000Z",
+    "method": "setBaseURI",
+    "from": "0x38322d2c5e8d141De0F5B04772FC26c654A27Cd4",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 14174676,
+    "category": "uri"
+   },
+   {
+    "hash": "0x9d8e7f92109ad031c26a48cdcd2e35b619da9d8fa793f564d334391e79b13c04",
+    "timestamp": "2022-02-07T01:04:27.000000Z",
+    "method": "setBaseURI",
+    "from": "0x38322d2c5e8d141De0F5B04772FC26c654A27Cd4",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 14155911,
+    "category": "uri"
+   },
+   {
+    "hash": "0xc3738d071b5a0c8e0148dcab0c5f317c400433b08258e1af0fb4db429189ae81",
+    "timestamp": "2022-02-06T23:59:48.000000Z",
+    "method": "setReveal",
+    "from": "0x38322d2c5e8d141De0F5B04772FC26c654A27Cd4",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 14155618,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x7f0abf24f5bee7e65b0de021f48c2576ef0a37d08a99bec60015cf84d620452b",
+    "timestamp": "2022-02-06T23:58:51.000000Z",
+    "method": "setBaseURI",
+    "from": "0x38322d2c5e8d141De0F5B04772FC26c654A27Cd4",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 14155611,
+    "category": "uri"
+   },
+   {
+    "hash": "0xa063392b0ec9c30806ed534ab37fc22530186e6f80ed1aca77aab965baca3cb5",
+    "timestamp": "2022-01-31T23:17:57.000000Z",
+    "method": "setReveal",
+    "from": "0x38322d2c5e8d141De0F5B04772FC26c654A27Cd4",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 14116578,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x50b58ffcdc1237a1018bfe5bec4c26b3ac68eedc77deba696fa66558a4295ff8",
+    "timestamp": "2022-01-31T23:17:14.000000Z",
+    "method": "setBaseURI",
+    "from": "0x38322d2c5e8d141De0F5B04772FC26c654A27Cd4",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 14116573,
+    "category": "uri"
+   },
+   {
+    "hash": "0x1cf7eef560800c1fbccd32141a00f3074519723d7a36b78cc3f11e310c11ecd8",
+    "timestamp": "2022-01-29T23:02:37.000000Z",
+    "method": "setOffset",
+    "from": "0x38322d2c5e8d141De0F5B04772FC26c654A27Cd4",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 14103521,
+    "category": "reveal"
+   }
+  ],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 1,
+    "first": "2022-01-29",
+    "last": "2022-01-29",
+    "last_tx": "0xb2e531b8fd33ad66fea8f4f288dc678e5990c0df3a7b680ccb1b3980fc127d7e",
+    "list": [
+     {
+      "date": "2022-01-29",
+      "tx": "0xb2e531b8fd33ad66fea8f4f288dc678e5990c0df3a7b680ccb1b3980fc127d7e",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "38322d2c5e8d141de0f5b04772fc26c654a27cd4"
+      ],
+      "data": "0x"
+     }
+    ]
+   }
+  },
+  "decoded": [
+   {
+    "hash": "0x1cf7eef560800c1fbccd32141a00f3074519723d7a36b78cc3f11e310c11ecd8",
+    "timestamp": "2022-01-29T23:02:37.000000Z",
+    "method": "setOffset",
+    "category": "reveal",
+    "from": "0x38322d2c5e8d141De0F5B04772FC26c654A27Cd4",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "uint256",
+      "value": "8353"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0x50b58ffcdc1237a1018bfe5bec4c26b3ac68eedc77deba696fa66558a4295ff8",
+    "timestamp": "2022-01-31T23:17:14.000000Z",
+    "method": "setBaseURI",
+    "category": "uri",
+    "from": "0x38322d2c5e8d141De0F5B04772FC26c654A27Cd4",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "string",
+      "value": "ipfs://QmT5NqehD5o1mTTHMbZGvR6i6zH4bNFaNa5Xjjp3Qt5yQz"
+     }
+    ],
+    "value_kinds": [
+     "ipfs"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0xa063392b0ec9c30806ed534ab37fc22530186e6f80ed1aca77aab965baca3cb5",
+    "timestamp": "2022-01-31T23:17:57.000000Z",
+    "method": "setReveal",
+    "category": "reveal",
+    "from": "0x38322d2c5e8d141De0F5B04772FC26c654A27Cd4",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "uint256",
+      "value": "85"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0x629b08f1e80ce76a22ae0790a4ecc70433ce40d3088549f534b181d7c261244e",
+    "timestamp": "2022-05-06T03:46:14.000000Z",
+    "method": "setReveal",
+    "category": "reveal",
+    "from": "0x38322d2c5e8d141De0F5B04772FC26c654A27Cd4",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "uint256",
+      "value": "224"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0xd52427285f2451260e9c54e3965ee7d95b965ecf9807976f16f65e0e14de2ed2",
+    "timestamp": "2022-05-13T17:14:41.000000Z",
+    "method": "setBaseURI",
+    "category": "uri",
+    "from": "0x38322d2c5e8d141De0F5B04772FC26c654A27Cd4",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "string",
+      "value": "ipfs://QmWGCau7G7HCgjzYXMser4vYvEujdo6YsuAK6MzSJm37G5"
+     }
+    ],
+    "value_kinds": [
+     "ipfs"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0xed14c175cccb375a9e91c74197f17f36f457ee1660e67622a58b11b49ee21094",
+    "timestamp": "2022-05-13T17:16:54.000000Z",
+    "method": "setReveal",
+    "category": "reveal",
+    "from": "0x38322d2c5e8d141De0F5B04772FC26c654A27Cd4",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "uint256",
+      "value": "235"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0x236a974d3e951571d37e9ec08a1b8887ef88bb1c48ce65e4857aa5386a459694",
+    "timestamp": "2022-05-19T13:02:56.000000Z",
+    "method": "setBaseURI",
+    "category": "uri",
+    "from": "0x38322d2c5e8d141De0F5B04772FC26c654A27Cd4",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "string",
+      "value": "ipfs://Qma2Y15GFZvZUQeDVDV1EpJQoTFGEXKAu3qLrQFbCj3s8F"
+     }
+    ],
+    "value_kinds": [
+     "ipfs"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0x43d4631fb7d01a16fedeb28b8138e7249f69f9174c728cb9a19409d872824846",
+    "timestamp": "2022-05-19T13:06:05.000000Z",
+    "method": "setReveal",
+    "category": "reveal",
+    "from": "0x38322d2c5e8d141De0F5B04772FC26c654A27Cd4",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "uint256",
+      "value": "245"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   }
+  ],
+  "ownership_transfers": [
+   {
+    "date": "2022-01-29",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0x38322d2c5e8d141de0f5b04772fc26c654a27cd4",
+    "tx": "0xb2e531b8fd33ad66fea8f4f288dc678e5990c0df3a7b680ccb1b3980fc127d7e"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0x1513757e88526f56c1bbf2e1b4b873c16f616f69_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0x38322d2c5e8d141de0f5b04772fc26c654a27cd4",
+  "code_raw": "data/raw/rpc-mutability/0x38322d2c5e8d141de0f5b04772fc26c654a27cd4_holdercode.json",
+  "type": "eoa",
+  "bs_name": null,
+  "ens": null,
+  "bs_impl_names": [],
+  "bs_tags": [],
+  "is_contract": false,
+  "creator": null,
+  "is_verified": false,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "override",
+ "lock_functions": [],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [
+  {
+   "name": "setBaseURI",
+   "sig": "setBaseURI(string)",
+   "selector": "0x55f804b3",
+   "category": "uri",
+   "inputs": [
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "_tokenBaseURI = baseURI;",
+   "writes": [
+    "_tokenBaseURI"
+   ],
+   "effective": "yes",
+   "power": "eoa",
+   "holder_addrs": [
+    "0x38322d2c5e8d141de0f5b04772fc26c654a27cd4"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x38322d2c5e8d141de0f5b04772fc26c654a27cd4",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "setPlaceholderURI",
+   "sig": "setPlaceholderURI(string)",
+   "selector": "0x3574a2dd",
+   "category": "uri",
+   "inputs": [
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "_placeholderURI = baseURI;",
+   "writes": [
+    "_placeholderURI"
+   ],
+   "effective": "yes",
+   "power": "eoa",
+   "holder_addrs": [
+    "0x38322d2c5e8d141de0f5b04772fc26c654a27cd4"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x38322d2c5e8d141de0f5b04772fc26c654a27cd4",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "writeImage",
+   "sig": "writeImage(uint256,string,string)",
+   "selector": "0x1e68c264",
+   "category": "renderer",
+   "inputs": [
+    "uint256",
+    "string",
+    "string"
+   ],
+   "gates": null,
+   "modifiers": null,
+   "body_head": "",
+   "note": "no body found (interface-only or inherited)",
+   "writes": [],
+   "effective": "unknown",
+   "power": "unknown",
+   "holder_addrs": [],
+   "holder_how": [
+    "no source body"
+   ],
+   "unknown_gate": true,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": []
+  },
+  {
+   "name": "setOffset",
+   "sig": "setOffset(uint256)",
+   "selector": "0x01e343db",
+   "category": "reveal",
+   "inputs": [
+    "uint256"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "offset = _offset;",
+   "writes": [
+    "offset"
+   ],
+   "power": "eoa",
+   "holder_addrs": [
+    "0x38322d2c5e8d141de0f5b04772fc26c654a27cd4"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x38322d2c5e8d141de0f5b04772fc26c654a27cd4",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "setProvenanceHash",
+   "sig": "setProvenanceHash(string)",
+   "selector": "0x10969523",
+   "category": "reveal",
+   "inputs": [
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "provenanceHash = _provenanceHash;",
+   "writes": [
+    "provenanceHash"
+   ],
+   "power": "eoa",
+   "holder_addrs": [
+    "0x38322d2c5e8d141de0f5b04772fc26c654a27cd4"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x38322d2c5e8d141de0f5b04772fc26c654a27cd4",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "setReveal",
+   "sig": "setReveal(uint256)",
+   "selector": "0xc50c8186",
+   "category": "reveal",
+   "inputs": [
+    "uint256"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "isRevealed = reveal;",
+   "writes": [
+    "isRevealed"
+   ],
+   "power": "eoa",
+   "holder_addrs": [
+    "0x38322d2c5e8d141de0f5b04772fc26c654a27cd4"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x38322d2c5e8d141de0f5b04772fc26c654a27cd4",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  }
+ ],
+ "class_direct": "eoa-mutable",
+ "class_reason": "live setters (eoa): setBaseURI,setPlaceholderURI",
+ "live_mutators": [
+  "setBaseURI",
+  "setPlaceholderURI",
+  "writeImage"
+ ],
+ "dependencies": [],
+ "meta": {
+  "address": "0x1513757e88526f56c1bbf2e1b4b873c16f616f69",
+  "name": "Sungens",
+  "w5_claim_strength": "on-chain-generic",
+  "w5_claim_text": "*  To store data directly on the blockchain, we can use the params.",
+  "w5_source_type": "contract-source",
+  "w5_source_url": "https://etherscan.io/address/0x1513757e88526f56c1bbf2e1b4b873c16f616f69#code (/contracts/Sungens.sol:300)",
+  "holders_count": 133.0,
+  "in_w5": true,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": null,
+  "census_media_class": null,
+  "census_liveness": null,
+  "in_census_onchain": false,
+  "standard": "ERC-721",
+  "creator": "0x38322d2c5e8d141de0f5b04772fc26c654a27cd4",
+  "deploy_block": 14103431.0
+ },
+ "class_deps_all": "none",
+ "class_deps": "none",
+ "class_final": "eoa-mutable",
+ "pointer_power": "eoa"
+}

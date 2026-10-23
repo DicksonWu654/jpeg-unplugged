@@ -1,0 +1,103 @@
+{
+ "address": "0x2acdfe510384c08e62556da121ed81242dab7aad",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:16Z",
+ "code_raw": "data/raw/rpc-mutability/0x2acdfe510384c08e62556da121ed81242dab7aad_code.json",
+ "code_len": 24337,
+ "slots": {
+  "slot0": "0x0000000000000000000000000000000000000000000000000000000000002b4c"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0x2acdfe510384c08e62556da121ed81242dab7aad_slots.json",
+ "verified": true,
+ "contract_name": "CitizensOfOverworld",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 1,
+    "first": "2023-01-21",
+    "last": "2023-01-21",
+    "last_tx": "0xc491516877a4b3b7c7ff7e8c4272c7b5ad22ed9b691bc3690efcfc8a9121c39f",
+    "list": [
+     {
+      "date": "2023-01-21",
+      "tx": "0xc491516877a4b3b7c7ff7e8c4272c7b5ad22ed9b691bc3690efcfc8a9121c39f",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "5b5b71687e7cb013ae35ac9928dbd5393ea36c63"
+      ],
+      "data": "0x"
+     }
+    ]
+   }
+  },
+  "decoded": [],
+  "ownership_transfers": [
+   {
+    "date": "2023-01-21",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0x5b5b71687e7cb013ae35ac9928dbd5393ea36c63",
+    "tx": "0xc491516877a4b3b7c7ff7e8c4272c7b5ad22ed9b691bc3690efcfc8a9121c39f"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0x2acdfe510384c08e62556da121ed81242dab7aad_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0x5b5b71687e7cb013ae35ac9928dbd5393ea36c63",
+  "code_raw": "data/raw/rpc-mutability/0x5b5b71687e7cb013ae35ac9928dbd5393ea36c63_holdercode.json",
+  "type": "eoa",
+  "bs_name": null,
+  "ens": "mongoon.eth",
+  "bs_impl_names": [],
+  "bs_tags": [],
+  "is_contract": false,
+  "creator": null,
+  "is_verified": false,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "override",
+ "lock_functions": [],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [],
+ "class_direct": "immutable",
+ "class_reason": "no uri/renderer/upgrade function in ABI and not a proxy",
+ "live_mutators": [],
+ "dependencies": [],
+ "meta": {
+  "address": "0x2acdfe510384c08e62556da121ed81242dab7aad",
+  "name": "Citizens of Overworld",
+  "w5_claim_strength": null,
+  "w5_claim_text": null,
+  "w5_source_type": null,
+  "w5_source_url": null,
+  "holders_count": 3075.0,
+  "in_w5": false,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": "onchain-renderer",
+  "census_media_class": "data-uri",
+  "census_liveness": "alive",
+  "in_census_onchain": true,
+  "standard": "ERC-721",
+  "creator": "0x5b5b71687e7cb013ae35ac9928dbd5393ea36c63",
+  "deploy_block": 16454529.0
+ },
+ "class_deps_all": "none",
+ "class_deps": "none",
+ "class_final": "immutable",
+ "pointer_power": null
+}

@@ -1,0 +1,348 @@
+{
+ "address": "0xcd860df00125f37a588a7b1662c5bf7c29c572b2",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:30Z",
+ "code_raw": "data/raw/rpc-mutability/0xcd860df00125f37a588a7b1662c5bf7c29c572b2_code.json",
+ "code_len": 17040,
+ "slots": {
+  "slot0": "0x0000000000000000000000007bdb74c673560601af95b5424f3e7ce24485b4df"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0xcd860df00125f37a588a7b1662c5bf7c29c572b2_slots.json",
+ "verified": true,
+ "contract_name": "FuckYous",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [
+   {
+    "hash": "0x0a9df89f9eadc224d6bcc64fe0d32241010cdfde4e94c3ae30f2a9cc71296b84",
+    "timestamp": "2021-07-29T18:55:49.000000Z",
+    "method": "setMetadata",
+    "from": "0x7bDb74C673560601aF95B5424F3e7cE24485b4dF",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 12922407,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x79b08913688bbc86e88e44e9d20af1e97e54b1263f0902d1b5d025927818520f",
+    "timestamp": "2021-07-29T06:47:02.000000Z",
+    "method": "setMetadata",
+    "from": "0x7bDb74C673560601aF95B5424F3e7cE24485b4dF",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 12919204,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x578adbabbde4ae0bc8856ad33495afa145de906f6e5b83e2729c600169ccea8d",
+    "timestamp": "2021-07-29T06:37:32.000000Z",
+    "method": "setMetadata",
+    "from": "0x7bDb74C673560601aF95B5424F3e7cE24485b4dF",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 12919168,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x1b0bffc976bc9a903cd71d8b7afdf15b282afadccde7bbf106657a32b938254a",
+    "timestamp": "2021-07-16T07:02:55.000000Z",
+    "method": "transferOwnership",
+    "from": "0x8cAC25c3BA02D20024694C0899c8d5Fe2ddC4fC7",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 12836454,
+    "category": "ownership"
+   },
+   {
+    "hash": "0x83a85f5a2ff3dcfa3741174f2e82271c1afd54588dfcf2bc1e5bae312c640b95",
+    "timestamp": "2021-07-14T23:57:13.000000Z",
+    "method": "setMetadata",
+    "from": "0x8cAC25c3BA02D20024694C0899c8d5Fe2ddC4fC7",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 12828196,
+    "category": "renderer"
+   }
+  ],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 2,
+    "first": "2021-07-14",
+    "last": "2021-07-16",
+    "last_tx": "0x1b0bffc976bc9a903cd71d8b7afdf15b282afadccde7bbf106657a32b938254a",
+    "list": [
+     {
+      "date": "2021-07-14",
+      "tx": "0x34c2b61280ad43f0ef6b0b5e0eee68dc82a8431df98a87eed331ebb6efbab6a5",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "8cac25c3ba02d20024694c0899c8d5fe2ddc4fc7"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2021-07-16",
+      "tx": "0x1b0bffc976bc9a903cd71d8b7afdf15b282afadccde7bbf106657a32b938254a",
+      "topics": [
+       "8cac25c3ba02d20024694c0899c8d5fe2ddc4fc7",
+       "7bdb74c673560601af95b5424f3e7ce24485b4df"
+      ],
+      "data": "0x"
+     }
+    ]
+   }
+  },
+  "decoded": [
+   {
+    "hash": "0x83a85f5a2ff3dcfa3741174f2e82271c1afd54588dfcf2bc1e5bae312c640b95",
+    "timestamp": "2021-07-14T23:57:13.000000Z",
+    "method": "setMetadata",
+    "category": "renderer",
+    "from": "0x8cAC25c3BA02D20024694C0899c8d5Fe2ddC4fC7",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0xc8d79fe636e853819dabeffdacca4c9de2886028"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0x578adbabbde4ae0bc8856ad33495afa145de906f6e5b83e2729c600169ccea8d",
+    "timestamp": "2021-07-29T06:37:32.000000Z",
+    "method": "setMetadata",
+    "category": "renderer",
+    "from": "0x7bDb74C673560601aF95B5424F3e7cE24485b4dF",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0xaf623d60b8d2b3cd7036026eb8365676a24fced3"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0x79b08913688bbc86e88e44e9d20af1e97e54b1263f0902d1b5d025927818520f",
+    "timestamp": "2021-07-29T06:47:02.000000Z",
+    "method": "setMetadata",
+    "category": "renderer",
+    "from": "0x7bDb74C673560601aF95B5424F3e7cE24485b4dF",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0x0000000000000000000000000000000000000000"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0x0a9df89f9eadc224d6bcc64fe0d32241010cdfde4e94c3ae30f2a9cc71296b84",
+    "timestamp": "2021-07-29T18:55:49.000000Z",
+    "method": "setMetadata",
+    "category": "renderer",
+    "from": "0x7bDb74C673560601aF95B5424F3e7cE24485b4dF",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0xaf623d60b8d2b3cd7036026eb8365676a24fced3"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0x1b0bffc976bc9a903cd71d8b7afdf15b282afadccde7bbf106657a32b938254a",
+    "timestamp": "2021-07-16T07:02:55.000000Z",
+    "method": "transferOwnership",
+    "category": "ownership",
+    "from": "0x8cAC25c3BA02D20024694C0899c8d5Fe2ddC4fC7",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0x7bdb74c673560601af95b5424f3e7ce24485b4df"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   }
+  ],
+  "ownership_transfers": [
+   {
+    "date": "2021-07-14",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0x8cac25c3ba02d20024694c0899c8d5fe2ddc4fc7",
+    "tx": "0x34c2b61280ad43f0ef6b0b5e0eee68dc82a8431df98a87eed331ebb6efbab6a5"
+   },
+   {
+    "date": "2021-07-16",
+    "from": "0x8cac25c3ba02d20024694c0899c8d5fe2ddc4fc7",
+    "to": "0x7bdb74c673560601af95b5424f3e7ce24485b4df",
+    "tx": "0x1b0bffc976bc9a903cd71d8b7afdf15b282afadccde7bbf106657a32b938254a"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0xcd860df00125f37a588a7b1662c5bf7c29c572b2_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0x7bdb74c673560601af95b5424f3e7ce24485b4df",
+  "code_raw": "data/raw/rpc-mutability/0x7bdb74c673560601af95b5424f3e7ce24485b4df_holdercode.json",
+  "type": "eoa",
+  "bs_name": null,
+  "ens": null,
+  "bs_impl_names": [],
+  "bs_tags": [],
+  "is_contract": false,
+  "creator": null,
+  "is_verified": false,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "override",
+ "lock_functions": [],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [
+  {
+   "name": "setMetadata",
+   "sig": "setMetadata(address)",
+   "selector": "0xf3cb8385",
+   "category": "renderer",
+   "inputs": [
+    "address"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "metadataAddress = _address;\n\t\t \n\t\tmetadata = FuckYousMetadata(_address);",
+   "writes": [
+    "metadata",
+    "metadataAddress"
+   ],
+   "effective": "yes",
+   "power": "eoa",
+   "holder_addrs": [
+    "0x7bdb74c673560601af95b5424f3e7ce24485b4df"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x7bdb74c673560601af95b5424f3e7ce24485b4df",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  }
+ ],
+ "class_direct": "eoa-mutable",
+ "class_reason": "live setters (eoa): setMetadata",
+ "live_mutators": [
+  "setMetadata"
+ ],
+ "dependencies": [
+  {
+   "address": "0xaf623d60b8d2b3cd7036026eb8365676a24fced3",
+   "via": "metadataAddress()",
+   "in_tokenuri_path": false,
+   "via_setter": true,
+   "analysis": {
+    "address": "0xaf623d60b8d2b3cd7036026eb8365676a24fced3",
+    "verified": true,
+    "contract_name": "FuckYousUniverse",
+    "proxy": {
+     "kind": null
+    },
+    "owner": {
+     "addr": "0x7bdb74c673560601af95b5424f3e7ce24485b4df",
+     "code_raw": "data/raw/rpc-mutability/0x7bdb74c673560601af95b5424f3e7ce24485b4df_holdercode.json",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "bs_impl_names": [],
+     "bs_tags": [],
+     "is_contract": false,
+     "creator": null,
+     "is_verified": false,
+     "bs_reputation": "ok"
+    },
+    "admin_fn": null,
+    "uups": false,
+    "lock_views": {},
+    "lock_flags_true": {},
+    "lock_functions": [],
+    "class_direct": "immutable",
+    "class_reason": "no uri/renderer/upgrade function in ABI and not a proxy",
+    "live_mutators": [],
+    "mutators": [],
+    "history": {},
+    "unverified_selector_hits": [],
+    "tokenuri_path": "none"
+   }
+  }
+ ],
+ "meta": {
+  "address": "0xcd860df00125f37a588a7b1662c5bf7c29c572b2",
+  "name": "lil fks",
+  "w5_claim_strength": "on-chain-generic",
+  "w5_claim_text": "Generated, on-chain fucks made from 150+ attributes.",
+  "w5_source_type": "website",
+  "w5_source_url": "https://lilfks.wtf/",
+  "holders_count": 773.0,
+  "in_w5": true,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": null,
+  "census_media_class": null,
+  "census_liveness": null,
+  "in_census_onchain": false,
+  "standard": "ERC-721",
+  "creator": "0x8cac25c3ba02d20024694c0899c8d5fe2ddc4fc7",
+  "deploy_block": 12828086.0
+ },
+ "class_deps_all": "immutable",
+ "class_deps": "immutable",
+ "class_final": "eoa-mutable",
+ "pointer_power": "eoa"
+}

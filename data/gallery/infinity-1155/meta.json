@@ -1,0 +1,51 @@
+{
+ "collection": "Infinity [ERC-1155]",
+ "slug": "infinity-1155",
+ "contract": "0x0082578eedFD01ec97c36165469D012D6DC257CC",
+ "token_id": 1,
+ "chain_method": "ERC-1155 uri(): data URI (contract-assembled)",
+ "chain_call": "uri(1)",
+ "json_name": "Infinity",
+ "fields": {
+  "image": "data:image/svg+xml",
+  "animation_url": null,
+  "external_url": null,
+  "json_how": "data-uri-base64"
+ },
+ "rpc": {
+  "default_public_ok": true,
+  "highgas_drpc_ok": null,
+  "highgas_blxr_ok": null,
+  "fork_ok": null,
+  "rpc": "public-default",
+  "needed_fork": false,
+  "unreadable_from_default_public_call": false,
+  "gas_estimate": null
+ },
+ "medium": "svg (image data URI)",
+ "primary": "image",
+ "source_flags": {
+  "verified": true,
+  "contract_name": "Infinity",
+  "proxy": false,
+  "implementation": null,
+  "sstore2": false,
+  "ethfs": false,
+  "scripty": false,
+  "base64": true,
+  "gzip": false,
+  "data_uri": true,
+  "http_literals": [],
+  "ipfs_literal": false,
+  "setters": []
+ },
+ "artwork_file": "artwork.svg",
+ "doc_type": "image/svg+xml; charset=utf-8",
+ "artwork_bytes": 18608,
+ "artwork_sha256": "9f94117956c3ce0e326ee1572692e8d2d459df4ca56c477f1919aeb42cde7b0f",
+ "declared": {
+  "load": [],
+  "literals": []
+ },
+ "built_at": "2026-10-21T20:26:29Z"
+}

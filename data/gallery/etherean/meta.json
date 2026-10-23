@@ -1,0 +1,60 @@
+{
+ "collection": "Etherean",
+ "slug": "etherean",
+ "contract": "0x38251dbc366D8069d9310dC79917feE6a5403002",
+ "token_id": 1,
+ "chain_method": "data URI (contract-assembled; technique labelled from verified source flags)",
+ "chain_call": "tokenURI(1)",
+ "json_name": "Etherean #1",
+ "fields": {
+  "image": "data:image/svg+xml",
+  "animation_url": null,
+  "external_url": null,
+  "json_how": "data-uri-base64"
+ },
+ "rpc": {
+  "default_public_ok": true,
+  "highgas_drpc_ok": null,
+  "highgas_blxr_ok": null,
+  "fork_ok": null,
+  "rpc": "public-default",
+  "needed_fork": false,
+  "unreadable_from_default_public_call": false,
+  "gas_estimate": null
+ },
+ "medium": "svg (image data URI)",
+ "primary": "image",
+ "source_flags": {
+  "verified": true,
+  "contract_name": "Etherean",
+  "proxy": false,
+  "implementation": null,
+  "sstore2": false,
+  "ethfs": false,
+  "scripty": false,
+  "base64": true,
+  "gzip": false,
+  "data_uri": true,
+  "http_literals": [
+   "https://datatracker.ietf.org/doc/html/rfc4648",
+   "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf",
+   "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/lastIndexOf",
+   "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice",
+   "https://docs.ethers.io/v5/api/signer/",
+   "https://en.wikipedia.org/wiki/Fermat",
+   "https://ethereum.github.io/yellowpaper/paper.pdf",
+   "https://graphics.stanford.edu/"
+  ],
+  "ipfs_literal": false,
+  "setters": []
+ },
+ "artwork_file": "artwork.svg",
+ "doc_type": "image/svg+xml; charset=utf-8",
+ "artwork_bytes": 90495,
+ "artwork_sha256": "d2a96bd51c8e604732bf753882dfbb15a7478cc70703a17b969a512606cc1f43",
+ "declared": {
+  "load": [],
+  "literals": []
+ },
+ "built_at": "2026-10-21T20:18:18Z"
+}

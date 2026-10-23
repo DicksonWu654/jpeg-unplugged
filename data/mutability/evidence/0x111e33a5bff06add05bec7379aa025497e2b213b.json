@@ -1,0 +1,2838 @@
+{
+ "address": "0x111e33a5bff06add05bec7379aa025497e2b213b",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:25Z",
+ "code_raw": "data/raw/rpc-mutability/0x111e33a5bff06add05bec7379aa025497e2b213b_code.json",
+ "code_len": 17798,
+ "slots": {
+  "slot0": "0x0000000000000000000000000000000000000000000000000000000000002711"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0x111e33a5bff06add05bec7379aa025497e2b213b_slots.json",
+ "verified": true,
+ "contract_name": "Frontonauts",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [
+   {
+    "hash": "0xc0de7f426af7fff9fc1a840f2828a57acd6ee295df29f3fc2ae48fbe0b62f9f2",
+    "timestamp": "2026-10-20T01:00:11.000000Z",
+    "method": "reveal",
+    "from": "0xC6ca90B06BF6b605733CE8DBc49cE71233990b37",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26230367,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x0f670a1b3763983ddfe1b27bda7fd17cf2a3c77fff7806fe5d5879d6b4475b89",
+    "timestamp": "2026-10-18T16:44:59.000000Z",
+    "method": "0x7a05bc82",
+    "from": "0x111e33a5bfF06ADD05beC7379aA025497e2B213b",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26220726,
+    "category": null
+   },
+   {
+    "hash": "0x3623a48ad014b18409f7634d8b7c85f081924bb95d49213030badd939bffc067",
+    "timestamp": "2026-10-18T16:36:11.000000Z",
+    "method": "0x7a05bc82",
+    "from": "0x111e33a5bfF06ADD05beC7379aA025497e2B213b",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26220683,
+    "category": null
+   },
+   {
+    "hash": "0xb752ad13f8fd12f7be16f08875ed102e174a97216855652c4862d9a89b0889a6",
+    "timestamp": "2026-10-18T15:51:35.000000Z",
+    "method": "0x7a05bc82",
+    "from": "0x111e33a5bfF06ADD05beC7379aA025497e2B213b",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26220460,
+    "category": null
+   },
+   {
+    "hash": "0x0102cf70870543c36d103c0e1c974679d1f9695065e906945ee7dbe79d3e89a4",
+    "timestamp": "2026-10-18T12:05:59.000000Z",
+    "method": "0x7a05bc82",
+    "from": "0x111e33a5bfF06ADD05beC7379aA025497e2B213b",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26219337,
+    "category": null
+   },
+   {
+    "hash": "0x8c3b1747337cd024419f0f6c3cdf672ea6d0e408de80ccb15cafed21d5141103",
+    "timestamp": "2026-10-18T05:14:35.000000Z",
+    "method": "0x7a05bc82",
+    "from": "0x111e33a5bfF06ADD05beC7379aA025497e2B213b",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26217286,
+    "category": null
+   },
+   {
+    "hash": "0x659aac6fababdf7790917a81396a79215d23dfa1846d9edb38835b84e477d2f7",
+    "timestamp": "2026-10-18T03:04:59.000000Z",
+    "method": "0x7a05bc82",
+    "from": "0x111e33a5bfF06ADD05beC7379aA025497e2B213b",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26216642,
+    "category": null
+   },
+   {
+    "hash": "0x2f2eb367ae1b21a989c6931605c5a5513f934be035bf9b97384949e2a6aa985f",
+    "timestamp": "2026-10-17T15:36:11.000000Z",
+    "method": "0x7a05bc82",
+    "from": "0x111e33a5bfF06ADD05beC7379aA025497e2B213b",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26213210,
+    "category": null
+   },
+   {
+    "hash": "0xa3e4cc1d939d1ae8066ad2d7253511d96d5e0b9363946dc2ae2eb4b911cf67ef",
+    "timestamp": "2026-10-17T15:35:59.000000Z",
+    "method": "0x7a05bc82",
+    "from": "0x111e33a5bfF06ADD05beC7379aA025497e2B213b",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26213209,
+    "category": null
+   },
+   {
+    "hash": "0xbe8dc2b50228f19c3534efc46d62e6215cb403b2bd4d7ec67eae595cf8fe240f",
+    "timestamp": "2026-10-17T15:04:11.000000Z",
+    "method": "0x7a05bc82",
+    "from": "0x111e33a5bfF06ADD05beC7379aA025497e2B213b",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26213051,
+    "category": null
+   },
+   {
+    "hash": "0x918d20ecb99363f4c6b60f10ecde1d9cce248d5f707ef1642670cb8c05e2f78e",
+    "timestamp": "2026-10-17T14:59:11.000000Z",
+    "method": "0x7a05bc82",
+    "from": "0x111e33a5bfF06ADD05beC7379aA025497e2B213b",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26213026,
+    "category": null
+   },
+   {
+    "hash": "0x0467be314f67e63004aa2e9befa90a397a098c9e835005c55b0f49853d419e33",
+    "timestamp": "2026-10-17T13:07:59.000000Z",
+    "method": "0x7a05bc82",
+    "from": "0x111e33a5bfF06ADD05beC7379aA025497e2B213b",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26212472,
+    "category": null
+   },
+   {
+    "hash": "0x7da9438fd332c4b94a1eeb440a494e69164d197270a64ce5bcdfb63a874c52b7",
+    "timestamp": "2026-10-17T13:06:47.000000Z",
+    "method": "0x7a05bc82",
+    "from": "0x111e33a5bfF06ADD05beC7379aA025497e2B213b",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26212466,
+    "category": null
+   }
+  ],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 1,
+    "first": "2026-10-16",
+    "last": "2026-10-16",
+    "last_tx": "0x2d85702562bc77c93451f5098249e44023b71f88815ae64a87036cabd5e1f1df",
+    "list": [
+     {
+      "date": "2026-10-16",
+      "tx": "0x2d85702562bc77c93451f5098249e44023b71f88815ae64a87036cabd5e1f1df",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "c6ca90b06bf6b605733ce8dbc49ce71233990b37"
+      ],
+      "data": "0x"
+     }
+    ]
+   },
+   "BatchMetadataUpdate(uint256,uint256)": {
+    "n": 1,
+    "first": "2026-10-20",
+    "last": "2026-10-20",
+    "last_tx": "0xc0de7f426af7fff9fc1a840f2828a57acd6ee295df29f3fc2ae48fbe0b62f9f2",
+    "list": [
+     {
+      "date": "2026-10-20",
+      "tx": "0xc0de7f426af7fff9fc1a840f2828a57acd6ee295df29f3fc2ae48fbe0b62f9f2",
+      "topics": [],
+      "data": "0x00000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000002710"
+     }
+    ]
+   },
+   "AnimatorFrozenForever()": {
+    "n": 0
+   },
+   "ContractURIUpdated(string)": {
+    "n": 0
+   },
+   "RendererUpdated(address)": {
+    "n": 0
+   },
+   "Revealed(uint256)": {
+    "n": 1,
+    "first": "2026-10-20",
+    "last": "2026-10-20",
+    "last_tx": "0xc0de7f426af7fff9fc1a840f2828a57acd6ee295df29f3fc2ae48fbe0b62f9f2",
+    "list": [
+     {
+      "date": "2026-10-20",
+      "tx": "0xc0de7f426af7fff9fc1a840f2828a57acd6ee295df29f3fc2ae48fbe0b62f9f2",
+      "topics": [],
+      "data": "0x2b55557939436ce138df87a5f27fbb8e46d8929c2536955e6e114e96af3b9797"
+     }
+    ]
+   }
+  },
+  "decoded": [
+   {
+    "hash": "0xc0de7f426af7fff9fc1a840f2828a57acd6ee295df29f3fc2ae48fbe0b62f9f2",
+    "timestamp": "2026-10-20T01:00:11.000000Z",
+    "method": "reveal",
+    "category": "reveal",
+    "from": "0xC6ca90B06BF6b605733CE8DBc49cE71233990b37",
+    "params": [],
+    "value_kinds": [],
+    "error": null
+   }
+  ],
+  "ownership_transfers": [
+   {
+    "date": "2026-10-16",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0xc6ca90b06bf6b605733ce8dbc49ce71233990b37",
+    "tx": "0x2d85702562bc77c93451f5098249e44023b71f88815ae64a87036cabd5e1f1df"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0x111e33a5bff06add05bec7379aa025497e2b213b_reads1.json",
+ "eip4906": true,
+ "owner": {
+  "addr": "0xc6ca90b06bf6b605733ce8dbc49ce71233990b37",
+  "code_raw": "data/raw/rpc-mutability/0xc6ca90b06bf6b605733ce8dbc49ce71233990b37_holdercode.json",
+  "type": "eoa",
+  "bs_name": null,
+  "ens": null,
+  "bs_impl_names": [
+   "EIP7702StatelessDeleGator"
+  ],
+  "bs_tags": [],
+  "is_contract": true,
+  "creator": null,
+  "is_verified": true,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {
+  "animatorFrozen": 0
+ },
+ "tokenuri_path": "override",
+ "lock_functions": [
+  "freezeAnimator"
+ ],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [
+  {
+   "name": "setBaseURI",
+   "sig": "setBaseURI(string)",
+   "selector": "0x55f804b3",
+   "category": "uri",
+   "inputs": [
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [],
+   "body_head": "_onlyOwnerOrSelf();\n\n         \n        _tokenBaseURI = newBaseURI;\n\n         \n        if (totalSupply() != 0) {\n            emit BatchMetadataUpdate(1, _nextTok",
+   "writes": [
+    "_tokenBaseURI"
+   ],
+   "effective": "yes",
+   "power": "eoa",
+   "holder_addrs": [
+    "0xc6ca90b06bf6b605733ce8dbc49ce71233990b37"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xc6ca90b06bf6b605733ce8dbc49ce71233990b37",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "updateDropURI",
+   "sig": "updateDropURI(address,string)",
+   "selector": "0x7a05bc82",
+   "category": "uri",
+   "inputs": [
+    "address",
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [],
+   "body_head": "_onlyOwnerOrSelf();\n\n         \n        _onlyAllowedSeaDrop(seaDropImpl);\n\n         \n        ISeaDrop(seaDropImpl).updateDropURI(dropURI);",
+   "writes": [],
+   "effective": "unknown",
+   "power": "eoa",
+   "holder_addrs": [
+    "0xc6ca90b06bf6b605733ce8dbc49ce71233990b37"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xc6ca90b06bf6b605733ce8dbc49ce71233990b37",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "setRenderer",
+   "sig": "setRenderer(address)",
+   "selector": "0x56d3163d",
+   "category": "renderer",
+   "inputs": [
+    "address"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "if (revealed) revert AlreadyRevealed();\n        renderer = IFrontonautsRenderer(renderer_);\n        emit RendererUpdated(renderer_);",
+   "writes": [
+    "renderer"
+   ],
+   "effective": "yes",
+   "power": "eoa",
+   "holder_addrs": [
+    "0xc6ca90b06bf6b605733ce8dbc49ce71233990b37"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xc6ca90b06bf6b605733ce8dbc49ce71233990b37",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "reveal",
+   "sig": "reveal()",
+   "selector": "0xa475b5dd",
+   "category": "reveal",
+   "inputs": [],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "if (revealed) revert AlreadyRevealed();\n        if (!renderer.locked()) revert RendererNotLocked();\n        if (_totalMinted() == 0) revert NothingMinted();\n   ",
+   "writes": [
+    "revealed",
+    "seed"
+   ],
+   "power": "eoa",
+   "holder_addrs": [
+    "0xc6ca90b06bf6b605733ce8dbc49ce71233990b37"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xc6ca90b06bf6b605733ce8dbc49ce71233990b37",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "setProvenanceHash",
+   "sig": "setProvenanceHash(bytes32)",
+   "selector": "0x099b6bfa",
+   "category": "reveal",
+   "inputs": [
+    "bytes32"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [],
+   "body_head": "_onlyOwnerOrSelf();\n\n         \n        if (_totalMinted() > 0) {\n            revert ProvenanceHashCannotBeSetAfterMintStarted();\n        }\n\n         \n        by",
+   "writes": [
+    "_provenanceHash"
+   ],
+   "power": "eoa",
+   "holder_addrs": [
+    "0xc6ca90b06bf6b605733ce8dbc49ce71233990b37"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xc6ca90b06bf6b605733ce8dbc49ce71233990b37",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "setContractURI",
+   "sig": "setContractURI(string)",
+   "selector": "0x938e3d7b",
+   "category": "contracturi",
+   "inputs": [
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [],
+   "body_head": "_onlyOwnerOrSelf();\n\n         \n        _contractURI = newContractURI;\n\n         \n        emit ContractURIUpdated(newContractURI);",
+   "writes": [
+    "_contractURI"
+   ],
+   "power": "eoa",
+   "holder_addrs": [
+    "0xc6ca90b06bf6b605733ce8dbc49ce71233990b37"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xc6ca90b06bf6b605733ce8dbc49ce71233990b37",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  }
+ ],
+ "class_direct": "eoa-mutable",
+ "class_reason": "live setters (eoa): setBaseURI,setRenderer,updateDropURI",
+ "live_mutators": [
+  "setBaseURI",
+  "setRenderer",
+  "updateDropURI"
+ ],
+ "dependencies": [
+  {
+   "address": "0x7a2554bc20655ebea9e3470e340590b139a476ad",
+   "via": "renderer()",
+   "in_tokenuri_path": true,
+   "via_setter": true,
+   "analysis": {
+    "address": "0x7a2554bc20655ebea9e3470e340590b139a476ad",
+    "verified": true,
+    "contract_name": "FrontonautsRenderer",
+    "proxy": {
+     "kind": null
+    },
+    "owner": {
+     "addr": "0xc6ca90b06bf6b605733ce8dbc49ce71233990b37",
+     "code_raw": "data/raw/rpc-mutability/0xc6ca90b06bf6b605733ce8dbc49ce71233990b37_holdercode.json",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "bs_impl_names": [
+      "EIP7702StatelessDeleGator"
+     ],
+     "bs_tags": [],
+     "is_contract": true,
+     "creator": null,
+     "is_verified": true,
+     "bs_reputation": "ok"
+    },
+    "admin_fn": null,
+    "uups": false,
+    "lock_views": {
+     "locked": 1
+    },
+    "lock_flags_true": {
+     "locked": 1
+    },
+    "lock_functions": [
+     "lock"
+    ],
+    "class_direct": "immutable",
+    "class_reason": "addPlaceholderPart:frozen(locked); clearPlaceholder:frozen(locked); addLayer:frozen(locked); addPalette:frozen(locked); setDescription:frozen(locked)",
+    "live_mutators": [],
+    "mutators": [
+     {
+      "name": "addPlaceholderPart",
+      "sig": "addPlaceholderPart(bytes)",
+      "selector": "0x5dcb44db",
+      "category": "uri",
+      "inputs": [
+       "bytes"
+      ],
+      "gates": [
+       {
+        "type": "owner",
+        "ref": "owner"
+       }
+      ],
+      "modifiers": [
+       "onlyOwner",
+       "notLocked"
+      ],
+      "body_head": "if (_ph.length >= MAX_PH_PARTS || part.length == 0 || part.length > MAX_PH_PART) revert BadInput();\n        if (_ph.length == 0 && !(part.length > 4 && part[0] ",
+      "writes": [],
+      "effective": "unknown",
+      "power": "eoa",
+      "holder_addrs": [
+       "0xc6ca90b06bf6b605733ce8dbc49ce71233990b37"
+      ],
+      "holder_how": [
+       "owner()"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [
+       "locked"
+      ],
+      "frozen": true,
+      "holders": [
+       {
+        "addr": "0xc6ca90b06bf6b605733ce8dbc49ce71233990b37",
+        "type": "eoa",
+        "bs_name": null,
+        "ens": null,
+        "desc": "eoa",
+        "simple": "eoa"
+       }
+      ]
+     },
+     {
+      "name": "clearPlaceholder",
+      "sig": "clearPlaceholder()",
+      "selector": "0x3de6e11b",
+      "category": "uri",
+      "inputs": [],
+      "gates": [
+       {
+        "type": "owner",
+        "ref": "owner"
+       }
+      ],
+      "modifiers": [
+       "onlyOwner",
+       "notLocked"
+      ],
+      "body_head": "delete _ph;",
+      "writes": [],
+      "effective": "unknown",
+      "power": "eoa",
+      "holder_addrs": [
+       "0xc6ca90b06bf6b605733ce8dbc49ce71233990b37"
+      ],
+      "holder_how": [
+       "owner()"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [
+       "locked"
+      ],
+      "frozen": true,
+      "holders": [
+       {
+        "addr": "0xc6ca90b06bf6b605733ce8dbc49ce71233990b37",
+        "type": "eoa",
+        "bs_name": null,
+        "ens": null,
+        "desc": "eoa",
+        "simple": "eoa"
+       }
+      ]
+     },
+     {
+      "name": "addLayer",
+      "sig": "addLayer(uint8,string,uint16,bytes)",
+      "selector": "0x96f616c4",
+      "category": "renderer",
+      "inputs": [
+       "uint8",
+       "string",
+       "uint16",
+       "bytes"
+      ],
+      "gates": [
+       {
+        "type": "owner",
+        "ref": "owner"
+       }
+      ],
+      "modifiers": [
+       "onlyOwner",
+       "notLocked"
+      ],
+      "body_head": "if (cat < 1 || cat > 7) revert BadInput();\n        _checkText(bytes(name));\n        if (bytes(name).length > 32) revert BadInput();\n        Category storage c =",
+      "writes": [],
+      "effective": "unknown",
+      "power": "eoa",
+      "holder_addrs": [
+       "0xc6ca90b06bf6b605733ce8dbc49ce71233990b37"
+      ],
+      "holder_how": [
+       "owner()"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [
+       "locked"
+      ],
+      "frozen": true,
+      "holders": [
+       {
+        "addr": "0xc6ca90b06bf6b605733ce8dbc49ce71233990b37",
+        "type": "eoa",
+        "bs_name": null,
+        "ens": null,
+        "desc": "eoa",
+        "simple": "eoa"
+       }
+      ]
+     },
+     {
+      "name": "addPalette",
+      "sig": "addPalette(string,uint24,uint16,bytes)",
+      "selector": "0x2828d8cb",
+      "category": "renderer",
+      "inputs": [
+       "string",
+       "uint24",
+       "uint16",
+       "bytes"
+      ],
+      "gates": [
+       {
+        "type": "owner",
+        "ref": "owner"
+       }
+      ],
+      "modifiers": [
+       "onlyOwner",
+       "notLocked"
+      ],
+      "body_head": "_checkText(bytes(name));\n        if (bytes(name).length > 32) revert BadInput();\n        Category storage c = _cats[0];\n        c.names.push(name);\n        c.we",
+      "writes": [],
+      "effective": "unknown",
+      "power": "eoa",
+      "holder_addrs": [
+       "0xc6ca90b06bf6b605733ce8dbc49ce71233990b37"
+      ],
+      "holder_how": [
+       "owner()"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [
+       "locked"
+      ],
+      "frozen": true,
+      "holders": [
+       {
+        "addr": "0xc6ca90b06bf6b605733ce8dbc49ce71233990b37",
+        "type": "eoa",
+        "bs_name": null,
+        "ens": null,
+        "desc": "eoa",
+        "simple": "eoa"
+       }
+      ]
+     },
+     {
+      "name": "setDescription",
+      "sig": "setDescription(string)",
+      "selector": "0x90c3f38f",
+      "category": "renderer",
+      "inputs": [
+       "string"
+      ],
+      "gates": [
+       {
+        "type": "owner",
+        "ref": "owner"
+       }
+      ],
+      "modifiers": [
+       "onlyOwner",
+       "notLocked"
+      ],
+      "body_head": "_checkText(bytes(d));\n        description = d;",
+      "writes": [
+       "description"
+      ],
+      "effective": "yes",
+      "power": "eoa",
+      "holder_addrs": [
+       "0xc6ca90b06bf6b605733ce8dbc49ce71233990b37"
+      ],
+      "holder_how": [
+       "owner()"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [
+       "locked"
+      ],
+      "frozen": true,
+      "holders": [
+       {
+        "addr": "0xc6ca90b06bf6b605733ce8dbc49ce71233990b37",
+        "type": "eoa",
+        "bs_name": null,
+        "ens": null,
+        "desc": "eoa",
+        "simple": "eoa"
+       }
+      ]
+     }
+    ],
+    "history": {
+     "txs": [
+      {
+       "hash": "0x6e482eb45df1ed56c93f8716e53168e6a08c1298cec4c3e3648560f048397fe9",
+       "timestamp": "2026-10-20T00:59:47.000000Z",
+       "method": "lock",
+       "from": "0xC6ca90B06BF6b605733CE8DBc49cE71233990b37",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26230365,
+       "category": "lock"
+      },
+      {
+       "hash": "0x120ad27913c04e84c5c795c30ccc2afb78ea6ca105d7320d421865f9243ffedd",
+       "timestamp": "2026-10-16T11:35:47.000000Z",
+       "method": "0x5dcb44db",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204832,
+       "category": null
+      },
+      {
+       "hash": "0x9ef724b3f4d3dc0c80442ef9e8dc29de8a52fc03f767cdcf9c5e07fe572e3d23",
+       "timestamp": "2026-10-16T11:35:23.000000Z",
+       "method": "0x5dcb44db",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204830,
+       "category": null
+      },
+      {
+       "hash": "0xa35043902922767d1381813ed23945eff166abc6497692de144121f36228b02b",
+       "timestamp": "2026-10-16T11:33:23.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204820,
+       "category": null
+      },
+      {
+       "hash": "0x3775be689b1a1ad8542ba40185370bfb67739cb705c295d8dfb7d3a48709bddb",
+       "timestamp": "2026-10-16T11:32:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204818,
+       "category": null
+      },
+      {
+       "hash": "0x3775be689b1a1ad8542ba40185370bfb67739cb705c295d8dfb7d3a48709bddb",
+       "timestamp": "2026-10-16T11:32:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204818,
+       "category": null
+      },
+      {
+       "hash": "0x3775be689b1a1ad8542ba40185370bfb67739cb705c295d8dfb7d3a48709bddb",
+       "timestamp": "2026-10-16T11:32:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204818,
+       "category": null
+      },
+      {
+       "hash": "0x3775be689b1a1ad8542ba40185370bfb67739cb705c295d8dfb7d3a48709bddb",
+       "timestamp": "2026-10-16T11:32:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204818,
+       "category": null
+      },
+      {
+       "hash": "0x3775be689b1a1ad8542ba40185370bfb67739cb705c295d8dfb7d3a48709bddb",
+       "timestamp": "2026-10-16T11:32:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204818,
+       "category": null
+      },
+      {
+       "hash": "0x3775be689b1a1ad8542ba40185370bfb67739cb705c295d8dfb7d3a48709bddb",
+       "timestamp": "2026-10-16T11:32:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204818,
+       "category": null
+      },
+      {
+       "hash": "0x3775be689b1a1ad8542ba40185370bfb67739cb705c295d8dfb7d3a48709bddb",
+       "timestamp": "2026-10-16T11:32:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204818,
+       "category": null
+      },
+      {
+       "hash": "0x3775be689b1a1ad8542ba40185370bfb67739cb705c295d8dfb7d3a48709bddb",
+       "timestamp": "2026-10-16T11:32:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204818,
+       "category": null
+      },
+      {
+       "hash": "0x3775be689b1a1ad8542ba40185370bfb67739cb705c295d8dfb7d3a48709bddb",
+       "timestamp": "2026-10-16T11:32:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204818,
+       "category": null
+      },
+      {
+       "hash": "0x3775be689b1a1ad8542ba40185370bfb67739cb705c295d8dfb7d3a48709bddb",
+       "timestamp": "2026-10-16T11:32:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204818,
+       "category": null
+      },
+      {
+       "hash": "0x3775be689b1a1ad8542ba40185370bfb67739cb705c295d8dfb7d3a48709bddb",
+       "timestamp": "2026-10-16T11:32:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204818,
+       "category": null
+      },
+      {
+       "hash": "0xf781851e9e6c69e024197397539488d75f94a4de70d4d9fb9b90e6ce51ebddef",
+       "timestamp": "2026-10-16T11:32:23.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204815,
+       "category": null
+      },
+      {
+       "hash": "0xf781851e9e6c69e024197397539488d75f94a4de70d4d9fb9b90e6ce51ebddef",
+       "timestamp": "2026-10-16T11:32:23.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204815,
+       "category": null
+      },
+      {
+       "hash": "0xf781851e9e6c69e024197397539488d75f94a4de70d4d9fb9b90e6ce51ebddef",
+       "timestamp": "2026-10-16T11:32:23.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204815,
+       "category": null
+      },
+      {
+       "hash": "0xf781851e9e6c69e024197397539488d75f94a4de70d4d9fb9b90e6ce51ebddef",
+       "timestamp": "2026-10-16T11:32:23.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204815,
+       "category": null
+      },
+      {
+       "hash": "0xf781851e9e6c69e024197397539488d75f94a4de70d4d9fb9b90e6ce51ebddef",
+       "timestamp": "2026-10-16T11:32:23.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204815,
+       "category": null
+      },
+      {
+       "hash": "0xf781851e9e6c69e024197397539488d75f94a4de70d4d9fb9b90e6ce51ebddef",
+       "timestamp": "2026-10-16T11:32:23.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204815,
+       "category": null
+      },
+      {
+       "hash": "0xf781851e9e6c69e024197397539488d75f94a4de70d4d9fb9b90e6ce51ebddef",
+       "timestamp": "2026-10-16T11:32:23.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204815,
+       "category": null
+      },
+      {
+       "hash": "0xf781851e9e6c69e024197397539488d75f94a4de70d4d9fb9b90e6ce51ebddef",
+       "timestamp": "2026-10-16T11:32:23.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204815,
+       "category": null
+      },
+      {
+       "hash": "0xf781851e9e6c69e024197397539488d75f94a4de70d4d9fb9b90e6ce51ebddef",
+       "timestamp": "2026-10-16T11:32:23.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204815,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0x9273640c0d8919fd1fc1177bbc657af41d0fc0f112f977ebbf349834472abef5",
+       "timestamp": "2026-10-16T11:31:35.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204811,
+       "category": null
+      },
+      {
+       "hash": "0x9273640c0d8919fd1fc1177bbc657af41d0fc0f112f977ebbf349834472abef5",
+       "timestamp": "2026-10-16T11:31:35.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204811,
+       "category": null
+      },
+      {
+       "hash": "0x9273640c0d8919fd1fc1177bbc657af41d0fc0f112f977ebbf349834472abef5",
+       "timestamp": "2026-10-16T11:31:35.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204811,
+       "category": null
+      },
+      {
+       "hash": "0x9273640c0d8919fd1fc1177bbc657af41d0fc0f112f977ebbf349834472abef5",
+       "timestamp": "2026-10-16T11:31:35.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204811,
+       "category": null
+      },
+      {
+       "hash": "0x9273640c0d8919fd1fc1177bbc657af41d0fc0f112f977ebbf349834472abef5",
+       "timestamp": "2026-10-16T11:31:35.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204811,
+       "category": null
+      },
+      {
+       "hash": "0x9273640c0d8919fd1fc1177bbc657af41d0fc0f112f977ebbf349834472abef5",
+       "timestamp": "2026-10-16T11:31:35.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204811,
+       "category": null
+      },
+      {
+       "hash": "0x9273640c0d8919fd1fc1177bbc657af41d0fc0f112f977ebbf349834472abef5",
+       "timestamp": "2026-10-16T11:31:35.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204811,
+       "category": null
+      },
+      {
+       "hash": "0x4f3a08aeb1396bca2b1d2c69eb4f6c32be5969b9cf524294c6067595d2848ecf",
+       "timestamp": "2026-10-16T11:31:11.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204809,
+       "category": null
+      },
+      {
+       "hash": "0x6e482eb45df1ed56c93f8716e53168e6a08c1298cec4c3e3648560f048397fe9",
+       "timestamp": "2026-10-20T00:59:47.000000Z",
+       "method": "lock",
+       "from": "0xC6ca90B06BF6b605733CE8DBc49cE71233990b37",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26230365,
+       "category": "lock"
+      },
+      {
+       "hash": "0x120ad27913c04e84c5c795c30ccc2afb78ea6ca105d7320d421865f9243ffedd",
+       "timestamp": "2026-10-16T11:35:47.000000Z",
+       "method": "0x5dcb44db",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204832,
+       "category": null
+      },
+      {
+       "hash": "0x9ef724b3f4d3dc0c80442ef9e8dc29de8a52fc03f767cdcf9c5e07fe572e3d23",
+       "timestamp": "2026-10-16T11:35:23.000000Z",
+       "method": "0x5dcb44db",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204830,
+       "category": null
+      },
+      {
+       "hash": "0xa35043902922767d1381813ed23945eff166abc6497692de144121f36228b02b",
+       "timestamp": "2026-10-16T11:33:23.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204820,
+       "category": null
+      },
+      {
+       "hash": "0x3775be689b1a1ad8542ba40185370bfb67739cb705c295d8dfb7d3a48709bddb",
+       "timestamp": "2026-10-16T11:32:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204818,
+       "category": null
+      },
+      {
+       "hash": "0x3775be689b1a1ad8542ba40185370bfb67739cb705c295d8dfb7d3a48709bddb",
+       "timestamp": "2026-10-16T11:32:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204818,
+       "category": null
+      },
+      {
+       "hash": "0x3775be689b1a1ad8542ba40185370bfb67739cb705c295d8dfb7d3a48709bddb",
+       "timestamp": "2026-10-16T11:32:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204818,
+       "category": null
+      },
+      {
+       "hash": "0x3775be689b1a1ad8542ba40185370bfb67739cb705c295d8dfb7d3a48709bddb",
+       "timestamp": "2026-10-16T11:32:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204818,
+       "category": null
+      },
+      {
+       "hash": "0x3775be689b1a1ad8542ba40185370bfb67739cb705c295d8dfb7d3a48709bddb",
+       "timestamp": "2026-10-16T11:32:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204818,
+       "category": null
+      },
+      {
+       "hash": "0x3775be689b1a1ad8542ba40185370bfb67739cb705c295d8dfb7d3a48709bddb",
+       "timestamp": "2026-10-16T11:32:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204818,
+       "category": null
+      },
+      {
+       "hash": "0x3775be689b1a1ad8542ba40185370bfb67739cb705c295d8dfb7d3a48709bddb",
+       "timestamp": "2026-10-16T11:32:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204818,
+       "category": null
+      },
+      {
+       "hash": "0x3775be689b1a1ad8542ba40185370bfb67739cb705c295d8dfb7d3a48709bddb",
+       "timestamp": "2026-10-16T11:32:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204818,
+       "category": null
+      },
+      {
+       "hash": "0x3775be689b1a1ad8542ba40185370bfb67739cb705c295d8dfb7d3a48709bddb",
+       "timestamp": "2026-10-16T11:32:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204818,
+       "category": null
+      },
+      {
+       "hash": "0x3775be689b1a1ad8542ba40185370bfb67739cb705c295d8dfb7d3a48709bddb",
+       "timestamp": "2026-10-16T11:32:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204818,
+       "category": null
+      },
+      {
+       "hash": "0x3775be689b1a1ad8542ba40185370bfb67739cb705c295d8dfb7d3a48709bddb",
+       "timestamp": "2026-10-16T11:32:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204818,
+       "category": null
+      },
+      {
+       "hash": "0xf781851e9e6c69e024197397539488d75f94a4de70d4d9fb9b90e6ce51ebddef",
+       "timestamp": "2026-10-16T11:32:23.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204815,
+       "category": null
+      },
+      {
+       "hash": "0xf781851e9e6c69e024197397539488d75f94a4de70d4d9fb9b90e6ce51ebddef",
+       "timestamp": "2026-10-16T11:32:23.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204815,
+       "category": null
+      },
+      {
+       "hash": "0xf781851e9e6c69e024197397539488d75f94a4de70d4d9fb9b90e6ce51ebddef",
+       "timestamp": "2026-10-16T11:32:23.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204815,
+       "category": null
+      },
+      {
+       "hash": "0xf781851e9e6c69e024197397539488d75f94a4de70d4d9fb9b90e6ce51ebddef",
+       "timestamp": "2026-10-16T11:32:23.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204815,
+       "category": null
+      },
+      {
+       "hash": "0xf781851e9e6c69e024197397539488d75f94a4de70d4d9fb9b90e6ce51ebddef",
+       "timestamp": "2026-10-16T11:32:23.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204815,
+       "category": null
+      },
+      {
+       "hash": "0xf781851e9e6c69e024197397539488d75f94a4de70d4d9fb9b90e6ce51ebddef",
+       "timestamp": "2026-10-16T11:32:23.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204815,
+       "category": null
+      },
+      {
+       "hash": "0xf781851e9e6c69e024197397539488d75f94a4de70d4d9fb9b90e6ce51ebddef",
+       "timestamp": "2026-10-16T11:32:23.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204815,
+       "category": null
+      },
+      {
+       "hash": "0xf781851e9e6c69e024197397539488d75f94a4de70d4d9fb9b90e6ce51ebddef",
+       "timestamp": "2026-10-16T11:32:23.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204815,
+       "category": null
+      },
+      {
+       "hash": "0xf781851e9e6c69e024197397539488d75f94a4de70d4d9fb9b90e6ce51ebddef",
+       "timestamp": "2026-10-16T11:32:23.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204815,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0x9273640c0d8919fd1fc1177bbc657af41d0fc0f112f977ebbf349834472abef5",
+       "timestamp": "2026-10-16T11:31:35.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204811,
+       "category": null
+      },
+      {
+       "hash": "0x9273640c0d8919fd1fc1177bbc657af41d0fc0f112f977ebbf349834472abef5",
+       "timestamp": "2026-10-16T11:31:35.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204811,
+       "category": null
+      },
+      {
+       "hash": "0x9273640c0d8919fd1fc1177bbc657af41d0fc0f112f977ebbf349834472abef5",
+       "timestamp": "2026-10-16T11:31:35.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204811,
+       "category": null
+      },
+      {
+       "hash": "0x9273640c0d8919fd1fc1177bbc657af41d0fc0f112f977ebbf349834472abef5",
+       "timestamp": "2026-10-16T11:31:35.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204811,
+       "category": null
+      },
+      {
+       "hash": "0x9273640c0d8919fd1fc1177bbc657af41d0fc0f112f977ebbf349834472abef5",
+       "timestamp": "2026-10-16T11:31:35.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204811,
+       "category": null
+      },
+      {
+       "hash": "0x9273640c0d8919fd1fc1177bbc657af41d0fc0f112f977ebbf349834472abef5",
+       "timestamp": "2026-10-16T11:31:35.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204811,
+       "category": null
+      },
+      {
+       "hash": "0x9273640c0d8919fd1fc1177bbc657af41d0fc0f112f977ebbf349834472abef5",
+       "timestamp": "2026-10-16T11:31:35.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204811,
+       "category": null
+      },
+      {
+       "hash": "0x4f3a08aeb1396bca2b1d2c69eb4f6c32be5969b9cf524294c6067595d2848ecf",
+       "timestamp": "2026-10-16T11:31:11.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204809,
+       "category": null
+      },
+      {
+       "hash": "0x6e482eb45df1ed56c93f8716e53168e6a08c1298cec4c3e3648560f048397fe9",
+       "timestamp": "2026-10-20T00:59:47.000000Z",
+       "method": "lock",
+       "from": "0xC6ca90B06BF6b605733CE8DBc49cE71233990b37",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26230365,
+       "category": "lock"
+      },
+      {
+       "hash": "0x120ad27913c04e84c5c795c30ccc2afb78ea6ca105d7320d421865f9243ffedd",
+       "timestamp": "2026-10-16T11:35:47.000000Z",
+       "method": "0x5dcb44db",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204832,
+       "category": null
+      },
+      {
+       "hash": "0x9ef724b3f4d3dc0c80442ef9e8dc29de8a52fc03f767cdcf9c5e07fe572e3d23",
+       "timestamp": "2026-10-16T11:35:23.000000Z",
+       "method": "0x5dcb44db",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204830,
+       "category": null
+      },
+      {
+       "hash": "0xa35043902922767d1381813ed23945eff166abc6497692de144121f36228b02b",
+       "timestamp": "2026-10-16T11:33:23.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204820,
+       "category": null
+      },
+      {
+       "hash": "0x3775be689b1a1ad8542ba40185370bfb67739cb705c295d8dfb7d3a48709bddb",
+       "timestamp": "2026-10-16T11:32:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204818,
+       "category": null
+      },
+      {
+       "hash": "0x3775be689b1a1ad8542ba40185370bfb67739cb705c295d8dfb7d3a48709bddb",
+       "timestamp": "2026-10-16T11:32:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204818,
+       "category": null
+      },
+      {
+       "hash": "0x3775be689b1a1ad8542ba40185370bfb67739cb705c295d8dfb7d3a48709bddb",
+       "timestamp": "2026-10-16T11:32:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204818,
+       "category": null
+      },
+      {
+       "hash": "0x3775be689b1a1ad8542ba40185370bfb67739cb705c295d8dfb7d3a48709bddb",
+       "timestamp": "2026-10-16T11:32:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204818,
+       "category": null
+      },
+      {
+       "hash": "0x3775be689b1a1ad8542ba40185370bfb67739cb705c295d8dfb7d3a48709bddb",
+       "timestamp": "2026-10-16T11:32:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204818,
+       "category": null
+      },
+      {
+       "hash": "0x3775be689b1a1ad8542ba40185370bfb67739cb705c295d8dfb7d3a48709bddb",
+       "timestamp": "2026-10-16T11:32:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204818,
+       "category": null
+      },
+      {
+       "hash": "0x3775be689b1a1ad8542ba40185370bfb67739cb705c295d8dfb7d3a48709bddb",
+       "timestamp": "2026-10-16T11:32:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204818,
+       "category": null
+      },
+      {
+       "hash": "0x3775be689b1a1ad8542ba40185370bfb67739cb705c295d8dfb7d3a48709bddb",
+       "timestamp": "2026-10-16T11:32:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204818,
+       "category": null
+      },
+      {
+       "hash": "0x3775be689b1a1ad8542ba40185370bfb67739cb705c295d8dfb7d3a48709bddb",
+       "timestamp": "2026-10-16T11:32:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204818,
+       "category": null
+      },
+      {
+       "hash": "0x3775be689b1a1ad8542ba40185370bfb67739cb705c295d8dfb7d3a48709bddb",
+       "timestamp": "2026-10-16T11:32:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204818,
+       "category": null
+      },
+      {
+       "hash": "0x3775be689b1a1ad8542ba40185370bfb67739cb705c295d8dfb7d3a48709bddb",
+       "timestamp": "2026-10-16T11:32:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204818,
+       "category": null
+      },
+      {
+       "hash": "0xf781851e9e6c69e024197397539488d75f94a4de70d4d9fb9b90e6ce51ebddef",
+       "timestamp": "2026-10-16T11:32:23.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204815,
+       "category": null
+      },
+      {
+       "hash": "0xf781851e9e6c69e024197397539488d75f94a4de70d4d9fb9b90e6ce51ebddef",
+       "timestamp": "2026-10-16T11:32:23.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204815,
+       "category": null
+      },
+      {
+       "hash": "0xf781851e9e6c69e024197397539488d75f94a4de70d4d9fb9b90e6ce51ebddef",
+       "timestamp": "2026-10-16T11:32:23.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204815,
+       "category": null
+      },
+      {
+       "hash": "0xf781851e9e6c69e024197397539488d75f94a4de70d4d9fb9b90e6ce51ebddef",
+       "timestamp": "2026-10-16T11:32:23.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204815,
+       "category": null
+      },
+      {
+       "hash": "0xf781851e9e6c69e024197397539488d75f94a4de70d4d9fb9b90e6ce51ebddef",
+       "timestamp": "2026-10-16T11:32:23.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204815,
+       "category": null
+      },
+      {
+       "hash": "0xf781851e9e6c69e024197397539488d75f94a4de70d4d9fb9b90e6ce51ebddef",
+       "timestamp": "2026-10-16T11:32:23.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204815,
+       "category": null
+      },
+      {
+       "hash": "0xf781851e9e6c69e024197397539488d75f94a4de70d4d9fb9b90e6ce51ebddef",
+       "timestamp": "2026-10-16T11:32:23.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204815,
+       "category": null
+      },
+      {
+       "hash": "0xf781851e9e6c69e024197397539488d75f94a4de70d4d9fb9b90e6ce51ebddef",
+       "timestamp": "2026-10-16T11:32:23.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204815,
+       "category": null
+      },
+      {
+       "hash": "0xf781851e9e6c69e024197397539488d75f94a4de70d4d9fb9b90e6ce51ebddef",
+       "timestamp": "2026-10-16T11:32:23.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204815,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0x9273640c0d8919fd1fc1177bbc657af41d0fc0f112f977ebbf349834472abef5",
+       "timestamp": "2026-10-16T11:31:35.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204811,
+       "category": null
+      },
+      {
+       "hash": "0x9273640c0d8919fd1fc1177bbc657af41d0fc0f112f977ebbf349834472abef5",
+       "timestamp": "2026-10-16T11:31:35.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204811,
+       "category": null
+      },
+      {
+       "hash": "0x9273640c0d8919fd1fc1177bbc657af41d0fc0f112f977ebbf349834472abef5",
+       "timestamp": "2026-10-16T11:31:35.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204811,
+       "category": null
+      },
+      {
+       "hash": "0x9273640c0d8919fd1fc1177bbc657af41d0fc0f112f977ebbf349834472abef5",
+       "timestamp": "2026-10-16T11:31:35.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204811,
+       "category": null
+      },
+      {
+       "hash": "0x9273640c0d8919fd1fc1177bbc657af41d0fc0f112f977ebbf349834472abef5",
+       "timestamp": "2026-10-16T11:31:35.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204811,
+       "category": null
+      },
+      {
+       "hash": "0x9273640c0d8919fd1fc1177bbc657af41d0fc0f112f977ebbf349834472abef5",
+       "timestamp": "2026-10-16T11:31:35.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204811,
+       "category": null
+      },
+      {
+       "hash": "0x9273640c0d8919fd1fc1177bbc657af41d0fc0f112f977ebbf349834472abef5",
+       "timestamp": "2026-10-16T11:31:35.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204811,
+       "category": null
+      },
+      {
+       "hash": "0x4f3a08aeb1396bca2b1d2c69eb4f6c32be5969b9cf524294c6067595d2848ecf",
+       "timestamp": "2026-10-16T11:31:11.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204809,
+       "category": null
+      },
+      {
+       "hash": "0x6e482eb45df1ed56c93f8716e53168e6a08c1298cec4c3e3648560f048397fe9",
+       "timestamp": "2026-10-20T00:59:47.000000Z",
+       "method": "lock",
+       "from": "0xC6ca90B06BF6b605733CE8DBc49cE71233990b37",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26230365,
+       "category": "lock"
+      },
+      {
+       "hash": "0x120ad27913c04e84c5c795c30ccc2afb78ea6ca105d7320d421865f9243ffedd",
+       "timestamp": "2026-10-16T11:35:47.000000Z",
+       "method": "0x5dcb44db",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204832,
+       "category": null
+      },
+      {
+       "hash": "0x9ef724b3f4d3dc0c80442ef9e8dc29de8a52fc03f767cdcf9c5e07fe572e3d23",
+       "timestamp": "2026-10-16T11:35:23.000000Z",
+       "method": "0x5dcb44db",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204830,
+       "category": null
+      },
+      {
+       "hash": "0xa35043902922767d1381813ed23945eff166abc6497692de144121f36228b02b",
+       "timestamp": "2026-10-16T11:33:23.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204820,
+       "category": null
+      },
+      {
+       "hash": "0x3775be689b1a1ad8542ba40185370bfb67739cb705c295d8dfb7d3a48709bddb",
+       "timestamp": "2026-10-16T11:32:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204818,
+       "category": null
+      },
+      {
+       "hash": "0x3775be689b1a1ad8542ba40185370bfb67739cb705c295d8dfb7d3a48709bddb",
+       "timestamp": "2026-10-16T11:32:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204818,
+       "category": null
+      },
+      {
+       "hash": "0x3775be689b1a1ad8542ba40185370bfb67739cb705c295d8dfb7d3a48709bddb",
+       "timestamp": "2026-10-16T11:32:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204818,
+       "category": null
+      },
+      {
+       "hash": "0x3775be689b1a1ad8542ba40185370bfb67739cb705c295d8dfb7d3a48709bddb",
+       "timestamp": "2026-10-16T11:32:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204818,
+       "category": null
+      },
+      {
+       "hash": "0x3775be689b1a1ad8542ba40185370bfb67739cb705c295d8dfb7d3a48709bddb",
+       "timestamp": "2026-10-16T11:32:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204818,
+       "category": null
+      },
+      {
+       "hash": "0x3775be689b1a1ad8542ba40185370bfb67739cb705c295d8dfb7d3a48709bddb",
+       "timestamp": "2026-10-16T11:32:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204818,
+       "category": null
+      },
+      {
+       "hash": "0x3775be689b1a1ad8542ba40185370bfb67739cb705c295d8dfb7d3a48709bddb",
+       "timestamp": "2026-10-16T11:32:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204818,
+       "category": null
+      },
+      {
+       "hash": "0x3775be689b1a1ad8542ba40185370bfb67739cb705c295d8dfb7d3a48709bddb",
+       "timestamp": "2026-10-16T11:32:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204818,
+       "category": null
+      },
+      {
+       "hash": "0x3775be689b1a1ad8542ba40185370bfb67739cb705c295d8dfb7d3a48709bddb",
+       "timestamp": "2026-10-16T11:32:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204818,
+       "category": null
+      },
+      {
+       "hash": "0x3775be689b1a1ad8542ba40185370bfb67739cb705c295d8dfb7d3a48709bddb",
+       "timestamp": "2026-10-16T11:32:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204818,
+       "category": null
+      },
+      {
+       "hash": "0x3775be689b1a1ad8542ba40185370bfb67739cb705c295d8dfb7d3a48709bddb",
+       "timestamp": "2026-10-16T11:32:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204818,
+       "category": null
+      },
+      {
+       "hash": "0xf781851e9e6c69e024197397539488d75f94a4de70d4d9fb9b90e6ce51ebddef",
+       "timestamp": "2026-10-16T11:32:23.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204815,
+       "category": null
+      },
+      {
+       "hash": "0xf781851e9e6c69e024197397539488d75f94a4de70d4d9fb9b90e6ce51ebddef",
+       "timestamp": "2026-10-16T11:32:23.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204815,
+       "category": null
+      },
+      {
+       "hash": "0xf781851e9e6c69e024197397539488d75f94a4de70d4d9fb9b90e6ce51ebddef",
+       "timestamp": "2026-10-16T11:32:23.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204815,
+       "category": null
+      },
+      {
+       "hash": "0xf781851e9e6c69e024197397539488d75f94a4de70d4d9fb9b90e6ce51ebddef",
+       "timestamp": "2026-10-16T11:32:23.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204815,
+       "category": null
+      },
+      {
+       "hash": "0xf781851e9e6c69e024197397539488d75f94a4de70d4d9fb9b90e6ce51ebddef",
+       "timestamp": "2026-10-16T11:32:23.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204815,
+       "category": null
+      },
+      {
+       "hash": "0xf781851e9e6c69e024197397539488d75f94a4de70d4d9fb9b90e6ce51ebddef",
+       "timestamp": "2026-10-16T11:32:23.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204815,
+       "category": null
+      },
+      {
+       "hash": "0xf781851e9e6c69e024197397539488d75f94a4de70d4d9fb9b90e6ce51ebddef",
+       "timestamp": "2026-10-16T11:32:23.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204815,
+       "category": null
+      },
+      {
+       "hash": "0xf781851e9e6c69e024197397539488d75f94a4de70d4d9fb9b90e6ce51ebddef",
+       "timestamp": "2026-10-16T11:32:23.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204815,
+       "category": null
+      },
+      {
+       "hash": "0xf781851e9e6c69e024197397539488d75f94a4de70d4d9fb9b90e6ce51ebddef",
+       "timestamp": "2026-10-16T11:32:23.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204815,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0xb74175bf1ffcffdee3595c94975dc015a76c26d6ba85ff98bc334bcb5e1584c6",
+       "timestamp": "2026-10-16T11:31:59.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204813,
+       "category": null
+      },
+      {
+       "hash": "0x9273640c0d8919fd1fc1177bbc657af41d0fc0f112f977ebbf349834472abef5",
+       "timestamp": "2026-10-16T11:31:35.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204811,
+       "category": null
+      },
+      {
+       "hash": "0x9273640c0d8919fd1fc1177bbc657af41d0fc0f112f977ebbf349834472abef5",
+       "timestamp": "2026-10-16T11:31:35.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204811,
+       "category": null
+      },
+      {
+       "hash": "0x9273640c0d8919fd1fc1177bbc657af41d0fc0f112f977ebbf349834472abef5",
+       "timestamp": "2026-10-16T11:31:35.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204811,
+       "category": null
+      },
+      {
+       "hash": "0x9273640c0d8919fd1fc1177bbc657af41d0fc0f112f977ebbf349834472abef5",
+       "timestamp": "2026-10-16T11:31:35.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204811,
+       "category": null
+      },
+      {
+       "hash": "0x9273640c0d8919fd1fc1177bbc657af41d0fc0f112f977ebbf349834472abef5",
+       "timestamp": "2026-10-16T11:31:35.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204811,
+       "category": null
+      },
+      {
+       "hash": "0x9273640c0d8919fd1fc1177bbc657af41d0fc0f112f977ebbf349834472abef5",
+       "timestamp": "2026-10-16T11:31:35.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204811,
+       "category": null
+      },
+      {
+       "hash": "0x9273640c0d8919fd1fc1177bbc657af41d0fc0f112f977ebbf349834472abef5",
+       "timestamp": "2026-10-16T11:31:35.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204811,
+       "category": null
+      },
+      {
+       "hash": "0x4f3a08aeb1396bca2b1d2c69eb4f6c32be5969b9cf524294c6067595d2848ecf",
+       "timestamp": "2026-10-16T11:31:11.000000Z",
+       "method": "0x96f616c4",
+       "from": "0x7A2554BC20655eBEa9e3470E340590B139A476AD",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 26204809,
+       "category": null
+      },
+      {
+       "truncated": true,
+       "chunk": 0
+      }
+     ],
+     "events": {
+      "OwnershipTransferred(address,address)": {
+       "n": 0
+      }
+     },
+     "decoded": [],
+     "incomplete": false
+    },
+    "unverified_selector_hits": [],
+    "tokenuri_path": "override"
+   }
+  }
+ ],
+ "meta": {
+  "address": "0x111e33a5bff06add05bec7379aa025497e2b213b",
+  "name": "Frontonauts",
+  "w5_claim_strength": null,
+  "w5_claim_text": null,
+  "w5_source_type": null,
+  "w5_source_url": null,
+  "holders_count": 1759.0,
+  "in_w5": false,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": "onchain-renderer",
+  "census_media_class": "data-uri",
+  "census_liveness": "alive",
+  "in_census_onchain": true,
+  "standard": "ERC-721",
+  "creator": "0xc6ca90b06bf6b605733ce8dbc49ce71233990b37",
+  "deploy_block": 26204836.0
+ },
+ "class_deps_all": "immutable",
+ "class_deps": "immutable",
+ "class_final": "eoa-mutable",
+ "pointer_power": "eoa"
+}

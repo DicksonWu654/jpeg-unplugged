@@ -1,0 +1,23 @@
+{
+ "schema_version": 1,
+ "snapshot_date": "2026-10-21",
+ "totals": {
+  "hosts": 3621
+ },
+ "by_status": {
+  "unknown": 163,
+  "live": 1214,
+  "dns-nxdomain": 1031,
+  "http-error": 1085,
+  "parked": 128
+ },
+ "collection_dependencies": 7270,
+ "takeover": {
+  "evidence_counts": {
+   "cloud_candidates": 204,
+   "registry_404": 309,
+   "dns_only": 270,
+   "registration_after_deploy": 58
+  }
+ }
+}

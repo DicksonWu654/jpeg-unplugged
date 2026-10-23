@@ -1,0 +1,964 @@
+{
+ "loot": {
+  "collection": "Loot (for Adventurers)",
+  "address": "0xFF9C1b15B16263C61d017ee9F65C50e4AE0113D7",
+  "blockscout_status": 200,
+  "blockscout_name": "Loot",
+  "blockscout_type": "ERC-721",
+  "name_matches": true,
+  "token_uri": {
+   "id": 1,
+   "uri_scheme": "data:application/json;base64",
+   "uri_head": "data:application/json;base64,eyJuYW1lIjogIkJhZyAjMSIsICJkZXNjcmlwdGlvbiI6ICJMb290IGlzIHJhb",
+   "uri_len": 1681,
+   "image_scheme": "data:image/svg+xml;base64",
+   "animation_scheme": null
+  }
+ },
+ "mloot": {
+  "collection": "More Loot (mLoot)",
+  "address": "0x1dfe7Ca09e99d10835Bf73044a23B73Fc20623DF",
+  "blockscout_status": 200,
+  "blockscout_name": "More Loot",
+  "blockscout_type": "ERC-721",
+  "name_matches": true,
+  "token_uri": {
+   "id": 1,
+   "uri_scheme": "data:application/json;base64",
+   "uri_head": "data:application/json;base64,eyJuYW1lIjogIkJhZyAjMSIsICJkZXNjcmlwdGlvbiI6ICJNb3JlIExvb3Qga",
+   "uri_len": 1809,
+   "image_scheme": "data:image/svg+xml;base64",
+   "animation_scheme": null
+  }
+ },
+ "bloot": {
+  "collection": "Bloot (not for Weaks)",
+  "address": "0x4F8730E0b32B04beaa5757e5aea3aeF970E5B613",
+  "blockscout_status": 200,
+  "blockscout_name": "Bloot",
+  "blockscout_type": "ERC-721",
+  "name_matches": true,
+  "token_uri": {
+   "id": 1,
+   "uri_scheme": "data:application/json;base64",
+   "uri_head": "data:application/json;base64,eyJuYW1lIjogIkJsb290ICMxIiwgImRlc2NyaXB0aW9uIjogIkJsb290IGlzI",
+   "uri_len": 1421,
+   "image_scheme": "data:image/svg+xml;base64",
+   "animation_scheme": null
+  }
+ },
+ "sloot": {
+  "collection": "Synthetic Loot",
+  "address": "0x869Ad3Dfb0F9ACB9094BA85228008981BE6DBDdE",
+  "blockscout_status": 200,
+  "blockscout_name": "SyntheticLoot",
+  "blockscout_type": "contract",
+  "name_matches": true,
+  "token_uri": null
+ },
+ "chainrunners": {
+  "collection": "Chain Runners",
+  "address": "0x97597002980134beA46250Aa0510C9B90d87A587",
+  "blockscout_status": 200,
+  "blockscout_name": "Chain Runners",
+  "blockscout_type": "ERC-721",
+  "name_matches": true,
+  "token_uri": {
+   "id": 1,
+   "uri_scheme": "https://api.chainrunners.xyz",
+   "uri_head": "https://api.chainrunners.xyz/tokens/metadata/1?dna=103081089982373387917516143957755319387",
+   "uri_len": 129
+  }
+ },
+ "nouns": {
+  "collection": "Nouns",
+  "address": "0x9C8fF314C9bc7F6e59A9d9225Fb22946427eDC03",
+  "blockscout_status": 200,
+  "blockscout_name": "Nouns",
+  "blockscout_type": "ERC-721",
+  "name_matches": true,
+  "token_uri": {
+   "id": 1000,
+   "error": "eth_call: {'code': 3, 'message': 'execution reverted', 'data': '0x'}"
+  }
+ },
+ "lilnouns": {
+  "collection": "Lil Nouns",
+  "address": "0x4b10701Bfd7BFEdc47d50562b76b436fbB5BdB3B",
+  "blockscout_status": 200,
+  "blockscout_name": "LilNoun",
+  "blockscout_type": "ERC-721",
+  "name_matches": true,
+  "token_uri": {
+   "id": 1000,
+   "error": "eth_call: {'code': 3, 'message': 'execution reverted', 'data': '0x'}"
+  }
+ },
+ "blitmap": {
+  "collection": "Blitmap",
+  "address": "0x8d04a8c79cEB0889Bdd12acdF3Fa9D207eD3Ff63",
+  "blockscout_status": 200,
+  "blockscout_name": "Blitmap",
+  "blockscout_type": "ERC-721",
+  "name_matches": true,
+  "token_uri": {
+   "id": 1,
+   "uri_scheme": "https://api.blitmap.com",
+   "uri_head": "https://api.blitmap.com/v1/metadata/1",
+   "uri_len": 37
+  }
+ },
+ "ocm": {
+  "collection": "OnChainMonkey (OCM Genesis)",
+  "address": "0x960b7a6BCD451c9968473f7bbFd9Be826EFd549A",
+  "blockscout_status": 200,
+  "blockscout_name": "OnChainMonkey",
+  "blockscout_type": "ERC-721",
+  "name_matches": true,
+  "token_uri": {
+   "id": 1,
+   "uri_scheme": "data:application/json;base64",
+   "uri_head": "data:application/json;base64,eyJuYW1lIjogIk9uQ2hhaW4gTW9ua2V5ICMxIiwgImF0dHJpYnV0ZXMiOiBbe",
+   "uri_len": 2833,
+   "image_scheme": "data:image/svg+xml;base64",
+   "animation_scheme": null
+  }
+ },
+ "anonymice": {
+  "collection": "Anonymice",
+  "address": "0xbad6186E92002E312078b5a1dAfd5ddf63d3f731",
+  "blockscout_status": 200,
+  "blockscout_name": "Anonymice",
+  "blockscout_type": "ERC-721",
+  "name_matches": true,
+  "token_uri": {
+   "id": 1,
+   "uri_scheme": "data:application/json;base64",
+   "uri_head": "data:application/json;base64,eyJuYW1lIjogIkFub255bWljZSAjMSIsICJkZXNjcmlwdGlvbiI6ICJBbm9ue",
+   "uri_len": 16421,
+   "image_scheme": "data:image/svg+xml;base64",
+   "animation_scheme": null
+  }
+ },
+ "anonbabies": {
+  "collection": "Anonymice Babies (Breeding)",
+  "address": "0x15cc16bfe6fac624247490aa29b6d632be549f00",
+  "blockscout_status": 200,
+  "blockscout_name": "AnonymiceBreeding",
+  "blockscout_type": "ERC-721",
+  "name_matches": true,
+  "token_uri": {
+   "id": 1,
+   "uri_scheme": "data:application/json;base64",
+   "uri_head": "data:application/json;base64,eyJuYW1lIjogIkJhYnkgTW91c2UgIzEiLCAiaW1hZ2UiOiAiZGF0YTppbWFnZ",
+   "uri_len": 18113,
+   "image_scheme": "data:image/svg+xml;base64",
+   "animation_scheme": null
+  }
+ },
+ "terraforms": {
+  "collection": "Terraforms by Mathcastles",
+  "address": "0x4E1f41613c9084FdB9E34E11fAE9412427480e56",
+  "blockscout_status": 200,
+  "blockscout_name": "Terraforms",
+  "blockscout_type": "ERC-721",
+  "name_matches": true,
+  "token_uri": {
+   "id": 1,
+   "uri_scheme": "data:application/json;base64",
+   "uri_head": "data:application/json;base64,eyJuYW1lIjoiTGV2ZWwgMTMgYXQgezksIDV9IiwiZGVzY3JpcHRpb24iOiAiV",
+   "uri_len": 59377,
+   "image_scheme": "data:image/svg+xml;base64",
+   "animation_scheme": "https://tokens.mathcastles.xyz"
+  }
+ },
+ "punks": {
+  "collection": "CryptoPunks (original 2017 contract)",
+  "address": "0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB",
+  "blockscout_status": 200,
+  "blockscout_name": "CRYPTOPUNKS",
+  "blockscout_type": "ERC-20",
+  "name_matches": true,
+  "token_uri": null
+ },
+ "punksdata": {
+  "collection": "CryptoPunksData (on-chain images/attributes, 2021)",
+  "address": "0x16F5A35647D6F03D5D3da7b35409D65ba03aF3B2",
+  "blockscout_status": 200,
+  "blockscout_name": "CryptopunksData",
+  "blockscout_type": "contract",
+  "name_matches": true,
+  "token_uri": null
+ },
+ "moonbirds": {
+  "collection": "Moonbirds",
+  "address": "0x23581767a106ae21c074b2276D25e5C3e136a68b",
+  "blockscout_status": 200,
+  "blockscout_name": "Moonbirds",
+  "blockscout_type": "ERC-721",
+  "name_matches": true,
+  "token_uri": {
+   "id": 1000,
+   "error": "eth_call: {'code': 3, 'message': 'execution reverted'}"
+  },
+  "blockscout_instance": {
+   "id": 100,
+   "image_url_scheme": "https://live---metadata-5covpqijaa-uc.a.run.app",
+   "image_url_head": "https://live---metadata-5covpqijaa-uc.a.run.app/images/100",
+   "animation_scheme": null
+  }
+ },
+ "oddities": {
+  "collection": "Moonbirds Oddities",
+  "address": "0x1792a96e5668ad7c167ab804a100ce42395ce54d",
+  "blockscout_status": 200,
+  "blockscout_name": "Moonbirds Oddities",
+  "blockscout_type": "ERC-721",
+  "name_matches": true,
+  "token_uri": {
+   "id": 1,
+   "uri_scheme": "https://live---metadata-5covpqijaa-uc.a.run.app",
+   "uri_head": "https://live---metadata-5covpqijaa-uc.a.run.app/oddities/1",
+   "uri_len": 58
+  }
+ },
+ "autoglyphs": {
+  "collection": "Autoglyphs",
+  "address": "0xd4e4078ca3495DE5B1d4dB434BEbc5a986197782",
+  "blockscout_status": 200,
+  "blockscout_name": "Autoglyphs",
+  "blockscout_type": "ERC-721",
+  "name_matches": true,
+  "token_uri": {
+   "id": 1,
+   "uri_scheme": "data:text/plain",
+   "uri_head": "data:text/plain;charset=utf-8,.|.|.O..-.-.-.-.-.|.|.|.O.O.O.O..O.O.O.O.|.|.|.-.-.-.-.-..O.",
+   "uri_len": 4318
+  }
+ },
+ "ab_core": {
+  "collection": "Art Blocks (original contract; Chromie Squiggle)",
+  "address": "0x059EDD72Cd353dF5106D2B9cC5ab83a52287aC3a",
+  "blockscout_status": 200,
+  "blockscout_name": "Art Blocks",
+  "blockscout_type": "ERC-721",
+  "name_matches": true,
+  "token_uri": {
+   "id": 0,
+   "uri_scheme": "https://api.artblocks.io",
+   "uri_head": "https://api.artblocks.io/token/0",
+   "uri_len": 32
+  }
+ },
+ "ab_curated": {
+  "collection": "Art Blocks (Curated contract; Fidenza, Ringers)",
+  "address": "0xa7d8d9ef8D8Ce8992Df33D8b8CF4Aebabd5bD270",
+  "blockscout_status": 200,
+  "blockscout_name": "Art Blocks",
+  "blockscout_type": "ERC-721",
+  "name_matches": true,
+  "token_uri": {
+   "id": 78000000,
+   "uri_scheme": "https://api.artblocks.io",
+   "uri_head": "https://api.artblocks.io/token/78000000",
+   "uri_len": 39
+  }
+ },
+ "toadz": {
+  "collection": "CrypToadz",
+  "address": "0x1CB1A5e65610AEFF2551A50f76a87a7d3fB649C6",
+  "blockscout_status": 200,
+  "blockscout_name": "Cryptoadz",
+  "blockscout_type": "ERC-721",
+  "name_matches": true,
+  "token_uri": {
+   "id": 1,
+   "uri_scheme": "https://arweave.net",
+   "uri_head": "https://arweave.net/OVAmf1xgB6atP0uZg1U0fMd0Lw6DlsVqdvab-WTXZ1Q/1",
+   "uri_len": 65
+  }
+ },
+ "mooncats_acc": {
+  "collection": "Acclimated MoonCats",
+  "address": "0xc3f733ca98E0daD0386979Eb96fb1722A1A05E69",
+  "blockscout_status": 200,
+  "blockscout_name": "Acclimated\u200bMoonCats",
+  "blockscout_type": "ERC-721",
+  "name_matches": true,
+  "token_uri": {
+   "id": 1,
+   "uri_scheme": "https://api.mooncatrescue.com",
+   "uri_head": "https://api.mooncatrescue.com/mooncat/erc721-metadata/1",
+   "uri_len": 55
+  }
+ },
+ "mooncats_orig": {
+  "collection": "MoonCatsRescue (original 2017 contract)",
+  "address": "0x60cd862c9C687A9dE49aecdC3A99b74A4fc54aB6",
+  "blockscout_status": 200,
+  "blockscout_name": "MoonCats",
+  "blockscout_type": "ERC-20",
+  "name_matches": true,
+  "token_uri": null
+ },
+ "checks_vv": {
+  "collection": "Checks VV Edition",
+  "address": "0x34eEBEE6942d8Def3c125458D1a86e0A897fd6f9",
+  "blockscout_status": 200,
+  "blockscout_name": "Checks",
+  "blockscout_type": "ERC-721",
+  "name_matches": true,
+  "token_uri": {
+   "id": 2,
+   "uri_scheme": "data:application/json;base64",
+   "uri_head": "data:application/json;base64,eyJuYW1lIjogIkNoZWNrcyAyIiwgImRlc2NyaXB0aW9uIjogIlRoaXMgYXJ0d",
+   "uri_len": 301,
+   "image_scheme": "ipfs://",
+   "animation_scheme": null
+  },
+  "blockscout_instance": {
+   "id": 1,
+   "image_url_scheme": "https://dweb.link",
+   "image_url_head": "https://dweb.link/ipfs/bafkreic4fqqlirgczmjik3qkxrkyz6g5di32hk2a77l4lnzs6mmmkljizm",
+   "animation_scheme": null
+  }
+ },
+ "checks_orig": {
+  "collection": "Checks VV Originals",
+  "address": "0x036721e5A769Cc48B3189EFbb9ccE4471E8A48B1",
+  "blockscout_status": 200,
+  "blockscout_name": "Checks",
+  "blockscout_type": "ERC-721",
+  "name_matches": true,
+  "token_uri": {
+   "id": 1,
+   "uri_scheme": "data:application/json;base64",
+   "uri_head": "data:application/json;base64,eyJuYW1lIjogIkNoZWNrcyAxIiwiZGVzY3JpcHRpb24iOiAiVGhpcyBhcnR3b",
+   "uri_len": 8181,
+   "image_scheme": "data:image/svg+xml;base64",
+   "animation_scheme": "data:text/html;base64"
+  }
+ },
+ "checks_elem": {
+  "collection": "Checks VV Elements",
+  "address": "0x379b5616a6afe6bc6baa490ef8fd98bf6d7db45c",
+  "blockscout_status": 200,
+  "blockscout_name": "ChecksElements",
+  "blockscout_type": "ERC-721",
+  "name_matches": true,
+  "token_uri": {
+   "id": 1,
+   "uri_scheme": "https://eth.api.vv.xyz",
+   "uri_head": "https://eth.api.vv.xyz/collections/checks-elements/1/metadata.json",
+   "uri_len": 66
+  }
+ },
+ "orcs": {
+  "collection": "Ether Orcs Genesis",
+  "address": "0x3aBEDBA3052845CE3f57818032BFA747CDED3fca",
+  "blockscout_status": 200,
+  "blockscout_name": "Ether Orcs Genesis",
+  "blockscout_type": "ERC-721",
+  "name_matches": true,
+  "token_uri": {
+   "id": 1,
+   "uri_scheme": "data:application/json;base64",
+   "uri_head": "data:application/json;base64,eyJuYW1lIjoiT3JjICMxIiwgImRlc2NyaXB0aW9uIjoiRXRoZXJPcmNzIGlzI",
+   "uri_len": 7277,
+   "image_scheme": "data:image/svg+xml;base64",
+   "animation_scheme": null
+  }
+ },
+ "sproto": {
+  "collection": "Sproto Gremlins",
+  "address": "0xEeca64ea9fCf99A22806Cd99b3d29cf6e8D54925",
+  "blockscout_status": 200,
+  "blockscout_name": "Sproto Gremlins",
+  "blockscout_type": "ERC-721",
+  "name_matches": true,
+  "token_uri": {
+   "id": 1,
+   "uri_scheme": "ipfs://",
+   "uri_head": "ipfs://bafybeidrwm4s4tn7qu76rhctmt5gvvyczarvffhm7fxss42dt7c5y6r6da/1",
+   "uri_len": 68
+  }
+ },
+ "tinydinos": {
+  "collection": "Tiny Dinos (ETH)",
+  "address": "0xd9b78a2f1dafc8bb9c60961790d2beefebee56f4",
+  "blockscout_status": 200,
+  "blockscout_name": "tiny dinos",
+  "blockscout_type": "ERC-721",
+  "name_matches": true,
+  "token_uri": {
+   "id": 1,
+   "uri_scheme": "ipfs://",
+   "uri_head": "ipfs://QmZPSjZKMjDUcqGuy6xS2EDQsJVFLyGHj3LUM2DkmCEfHo/1",
+   "uri_len": 55
+  }
+ },
+ "wizards": {
+  "collection": "Forgotten Runes Wizards Cult",
+  "address": "0x521f9C7505005CFA19A8E5786a9c3c9c9F5e6f42",
+  "blockscout_status": 200,
+  "blockscout_name": "ForgottenRunesWizardsCult",
+  "blockscout_type": "ERC-721",
+  "name_matches": true,
+  "token_uri": {
+   "id": 1,
+   "uri_scheme": "https://portal.forgottenrunes.com",
+   "uri_head": "https://portal.forgottenrunes.com/api/wizards/data/1",
+   "uri_len": 52
+  }
+ },
+ "oxmons": {
+  "collection": "0xmons",
+  "address": "0x0427743df720801825a5c82e0582b1e915e0f750",
+  "blockscout_status": 200,
+  "blockscout_name": "0xmons.xyz",
+  "blockscout_type": "ERC-721",
+  "name_matches": true,
+  "token_uri": {
+   "id": 1,
+   "uri_scheme": "https://xmons.herokuapp.com",
+   "uri_head": "https://xmons.herokuapp.com/1",
+   "uri_len": 29
+  }
+ },
+ "rect": {
+  "collection": "rect() by 8-Bit (256ART)",
+  "address": "0x28f52a5bb28b53448c22d00e685bbcc4436a8ade",
+  "blockscout_status": 200,
+  "blockscout_name": "rect()",
+  "blockscout_type": "ERC-721",
+  "name_matches": true,
+  "token_uri": {
+   "id": 1000,
+   "error": "eth_call: {'code': 3, 'message': 'execution reverted: Token not found', 'data': '0x08c379a000000000000000000000000000000"
+  },
+  "blockscout_instance": {
+   "id": 100,
+   "image_url_scheme": "https://256art.s3.eu-central-1.amazonaws.com",
+   "image_url_head": "https://256art.s3.eu-central-1.amazonaws.com/previews/149/max/100",
+   "animation_scheme": "data:text/html;base64"
+  }
+ },
+ "meebits": {
+  "collection": "Meebits",
+  "address": "0x7Bd29408f11D2bFC23c34f18275bBf23bB716Bc7",
+  "blockscout_status": 200,
+  "blockscout_name": "Meebits",
+  "blockscout_type": "ERC-721",
+  "name_matches": true,
+  "token_uri": {
+   "id": 1,
+   "uri_scheme": "https://meebits.larvalabs.com",
+   "uri_head": "https://meebits.larvalabs.com/meebit/1",
+   "uri_len": 38
+  }
+ },
+ "hashmasks": {
+  "collection": "Hashmasks",
+  "address": "0xC2C747E0F7004F9E8817Db2ca4997657a7746928",
+  "blockscout_status": 200,
+  "blockscout_name": "Hashmasks",
+  "blockscout_type": "ERC-721",
+  "name_matches": true,
+  "token_uri": {
+   "id": 1000,
+   "error": "eth_call: {'code': 3, 'message': 'execution reverted', 'data': '0x'}"
+  }
+ },
+ "mfers": {
+  "collection": "mfers",
+  "address": "0x79FCDEF22feeD20eDDacbB2587640e45491b757f",
+  "blockscout_status": 200,
+  "blockscout_name": "mfer",
+  "blockscout_type": "ERC-721",
+  "name_matches": true,
+  "token_uri": {
+   "id": 1,
+   "uri_scheme": "ipfs://",
+   "uri_head": "ipfs://QmWiQE65tmpYzcokCheQmng2DCM33DEhjXcPB6PanwpAZo/1",
+   "uri_len": 55
+  }
+ },
+ "opepen": {
+  "collection": "Opepen Edition",
+  "address": "0x6339e5E072086621540D0362C4e3Cea0d643E114",
+  "blockscout_status": 200,
+  "blockscout_name": "Opepen Edition",
+  "blockscout_type": "ERC-721",
+  "name_matches": true,
+  "token_uri": {
+   "id": 1,
+   "uri_scheme": "https://metadata.opepen.art",
+   "uri_head": "https://metadata.opepen.art/1/metadata.json",
+   "uri_len": 43
+  }
+ },
+ "pudgy": {
+  "collection": "Pudgy Penguins",
+  "address": "0xBd3531dA5CF5857e7CfAA92426877b022e612cf8",
+  "blockscout_status": 200,
+  "blockscout_name": "PudgyPenguins",
+  "blockscout_type": "ERC-721",
+  "name_matches": true,
+  "token_uri": {
+   "id": 1,
+   "uri_scheme": "ipfs://",
+   "uri_head": "ipfs://bafybeibc5sgo2plmjkq2tzmhrn54bk3crhnc23zd2msg4ea7a4pxrkgfna/1",
+   "uri_len": 68
+  }
+ },
+ "doodles": {
+  "collection": "Doodles",
+  "address": "0x8a90CAb2b38dba80c64b7734e58Ee1dB38B8992e",
+  "blockscout_status": 200,
+  "blockscout_name": "Doodles",
+  "blockscout_type": "ERC-721",
+  "name_matches": true,
+  "token_uri": {
+   "id": 1,
+   "uri_scheme": "ipfs://",
+   "uri_head": "ipfs://QmPMc4tcBsMqLRuCQtPmPe84bpSjrC3Ky7t3JWuHXYB4aS/1",
+   "uri_len": 55
+  }
+ },
+ "bayc": {
+  "collection": "Bored Ape Yacht Club",
+  "address": "0xBC4CA0EdA7647A8aB7C2061c2E118A18a936f13D",
+  "blockscout_status": 200,
+  "blockscout_name": "BoredApeYachtClub",
+  "blockscout_type": "ERC-721",
+  "name_matches": true,
+  "token_uri": {
+   "id": 1,
+   "uri_scheme": "ipfs://",
+   "uri_head": "ipfs://QmeSjSinHpPnmXmspMjwiXyN6zS4E9zccariGR3jxcaWtq/1",
+   "uri_len": 55
+  }
+ },
+ "mayc": {
+  "collection": "Mutant Ape Yacht Club",
+  "address": "0x60e4d786628fea6478f785a6d7e704777c86a7c6",
+  "blockscout_status": 200,
+  "blockscout_name": "MutantApeYachtClub",
+  "blockscout_type": "ERC-721",
+  "name_matches": true,
+  "token_uri": {
+   "id": 1,
+   "uri_scheme": "https://boredapeyachtclub.com",
+   "uri_head": "https://boredapeyachtclub.com/api/mutants/1",
+   "uri_len": 43
+  }
+ },
+ "azuki": {
+  "collection": "Azuki",
+  "address": "0xED5AF388653567Af2F388E6224dC7C4b3241C544",
+  "blockscout_status": 200,
+  "blockscout_name": "Azuki",
+  "blockscout_type": "ERC-721",
+  "name_matches": true,
+  "token_uri": {
+   "id": 1,
+   "uri_scheme": "ipfs://",
+   "uri_head": "ipfs://QmZcH4YvBVVRJtdn4RdbaqgspFU8gH6P9vomDpBVpAL3u4/1",
+   "uri_len": 55
+  }
+ },
+ "coolcats": {
+  "collection": "Cool Cats",
+  "address": "0x1a92f7381b9f03921564a437210bb9396471050c",
+  "blockscout_status": 200,
+  "blockscout_name": "Cool Cats",
+  "blockscout_type": "ERC-721",
+  "name_matches": true,
+  "token_uri": {
+   "id": 1,
+   "uri_scheme": "https://api.coolcatsnft.com",
+   "uri_head": "https://api.coolcatsnft.com/cat/1",
+   "uri_len": 33
+  }
+ },
+ "clonex": {
+  "collection": "CLONE X",
+  "address": "0x49cf6f5d44e70224e2e23fdcdd2c053f30ada28b",
+  "blockscout_status": 200,
+  "blockscout_name": "CloneX",
+  "blockscout_type": "ERC-721",
+  "name_matches": true,
+  "token_uri": {
+   "id": 1,
+   "uri_scheme": "https://ohm647fhcdf3f6547mcreqj2pgfdzxba7q54ugunppzk3maqy2ma.arweave.net",
+   "uri_head": "https://ohm647fhcdf3f6547mcreqj2pgfdzxba7q54ugunppzk3maqy2ma.arweave.net/NGdLvqHyCPyfGzcOD",
+   "uri_len": 118
+  }
+ },
+ "milady": {
+  "collection": "Milady Maker",
+  "address": "0x5af0d9827e0c53e4799bb226655a1de152a425a5",
+  "blockscout_status": 200,
+  "blockscout_name": "Milady",
+  "blockscout_type": "ERC-721",
+  "name_matches": true,
+  "token_uri": {
+   "id": 1,
+   "uri_scheme": "https://www.miladymaker.net",
+   "uri_head": "https://www.miladymaker.net/milady/json/1",
+   "uri_len": 41
+  }
+ },
+ "goblin": {
+  "collection": "goblintown.wtf",
+  "address": "0x8c6def540b83471664edc6d5cf75883986932674",
+  "blockscout_status": 200,
+  "blockscout_name": "goblintown",
+  "blockscout_type": "ERC-721",
+  "name_matches": true,
+  "token_uri": {
+   "id": 1,
+   "uri_scheme": "ipfs://",
+   "uri_head": "ipfs://bafybeicgbyrpeglccsve4larxsgaluem4i76yrrxtt6s77wsmhvygudwny/1",
+   "uri_len": 68
+  }
+ },
+ "otherdeed": {
+  "collection": "Otherdeed for Otherside",
+  "address": "0x34d85c9cdeb23fa97cb08333b511ac86e1c4e258",
+  "blockscout_status": 200,
+  "blockscout_name": "Otherdeed",
+  "blockscout_type": "ERC-721",
+  "name_matches": true,
+  "token_uri": {
+   "id": 1,
+   "uri_scheme": "https://api.otherside.xyz",
+   "uri_head": "https://api.otherside.xyz/lands/1",
+   "uri_len": 33
+  }
+ },
+ "kitties": {
+  "collection": "CryptoKitties",
+  "address": "0x06012c8cf97bead5deae237070f9587f8e7a266d",
+  "blockscout_status": 200,
+  "blockscout_name": "CryptoKitties",
+  "blockscout_type": "ERC-721",
+  "name_matches": true,
+  "token_uri": {
+   "id": 1,
+   "error": "eth_call: {'code': 3, 'message': 'execution reverted'}"
+  },
+  "blockscout_instance": {
+   "id": 100,
+   "image_url_scheme": "https://img.cryptokitties.co",
+   "image_url_head": "https://img.cryptokitties.co/0x06012c8cf97bead5deae237070f9587f8e7a266d/100.svg",
+   "animation_scheme": null
+  }
+ },
+ "invisible": {
+  "collection": "Invisible Friends",
+  "address": "0x59468516a8259058bad1ca5f8f4bff190d30e066",
+  "blockscout_status": 200,
+  "blockscout_name": "Invisible Friends",
+  "blockscout_type": "ERC-721",
+  "name_matches": true,
+  "token_uri": {
+   "id": 1,
+   "uri_scheme": "ipfs://",
+   "uri_head": "ipfs://QmSBnsELjNQbhLVbf6w7UMGFVT35UhK4DfePpDJwQVtxDN/1",
+   "uri_len": 55
+  }
+ },
+ "brotchain": {
+  "collection": "Brotchain",
+  "address": "0xd31fc221d2b0e0321c43e9f6824b26ebfff01d7d",
+  "blockscout_status": 200,
+  "blockscout_name": "Brotchain",
+  "blockscout_type": "ERC-721",
+  "name_matches": true,
+  "token_uri": {
+   "id": 1,
+   "uri_scheme": "data:application/json",
+   "uri_head": "data:application/json,{\"name\":\"Mandelbrot #1\",\"description\":\"The classic Mandelbrot fracta",
+   "uri_len": 89102,
+   "image_scheme": "data:image/bmp;base64",
+   "animation_scheme": null
+  }
+ },
+ "chainfaces": {
+  "collection": "ChainFaces",
+  "address": "0x91047abf3cab8da5a9515c8750ab33b4f1560a7a",
+  "blockscout_status": 200,
+  "blockscout_name": "ChainFaces",
+  "blockscout_type": "ERC-721",
+  "name_matches": true,
+  "token_uri": {
+   "id": 1,
+   "uri_scheme": "https://chainfacesrinkeby.azurewebsites.net",
+   "uri_head": "https://chainfacesrinkeby.azurewebsites.net/api/HttpTrigger?id=1",
+   "uri_len": 64
+  }
+ },
+ "cypherworms": {
+  "collection": "CypherWorms",
+  "address": "0x94f827db182ed0ff90e03713d4ac7af3184b8f9c",
+  "blockscout_status": 200,
+  "blockscout_name": "CypherWorms",
+  "blockscout_type": "ERC-721",
+  "name_matches": true,
+  "token_uri": {
+   "id": 1,
+   "uri_scheme": "data:application/json;base64",
+   "uri_head": "data:application/json;base64,eyJuYW1lIjoiV29ybSAjMSIsImRlc2NyaXB0aW9uIjoiNyw1MDMgQ3lwaGVyI",
+   "uri_len": 4501,
+   "image_scheme": "data:image/svg+xml;base64",
+   "animation_scheme": null
+  }
+ },
+ "avastars": {
+  "collection": "Avastars",
+  "address": "0xf3e778f839934fc819cfa1040aabacecba01e049",
+  "blockscout_status": 200,
+  "blockscout_name": "Avastar",
+  "blockscout_type": "ERC-721",
+  "name_matches": true,
+  "token_uri": {
+   "id": 1,
+   "uri_scheme": "https://avastars.io",
+   "uri_head": "https://avastars.io/metadata/1",
+   "uri_len": 30
+  }
+ },
+ "skulls": {
+  "collection": "CryptoSkulls",
+  "address": "0xc1caf0c19a8ac28c41fe59ba6c754e4b9bd54de9",
+  "blockscout_status": 200,
+  "blockscout_name": "CryptoSkulls",
+  "blockscout_type": "ERC-721",
+  "name_matches": true,
+  "token_uri": {
+   "id": 1,
+   "uri_scheme": "ipfs://",
+   "uri_head": "ipfs://QmNxWK1AX55kX6oxsiJosu8zQq86geGKj6ApQN1U2hptcL/1",
+   "uri_len": 55
+  }
+ },
+ "pixelmap": {
+  "collection": "PixelMap (wrapper contract)",
+  "address": "0x050dc61dfb867e0fe3cf2948362b6c0f3faf790b",
+  "blockscout_status": 200,
+  "blockscout_name": "Wrapped PixelMap",
+  "blockscout_type": "ERC-721",
+  "name_matches": true,
+  "token_uri": {
+   "id": 1,
+   "uri_scheme": "https://pixelmap.art",
+   "uri_head": "https://pixelmap.art/metadata/1.json",
+   "uri_len": 36
+  }
+ },
+ "okpc": {
+  "collection": "OKPC",
+  "address": "0x7183209867489e1047f3a7c23ea1aed9c4e236e8",
+  "blockscout_status": 200,
+  "blockscout_name": "OKPC",
+  "blockscout_type": "ERC-721",
+  "name_matches": true,
+  "token_uri": {
+   "id": 1,
+   "uri_scheme": "data:application/json;base64",
+   "uri_head": "data:application/json;base64,eyJuYW1lIjogIk9LUEMgIzEiLCAiZGVzY3JpcHRpb24iOiAiQSBHcmF5IE9LU",
+   "uri_len": 9869,
+   "image_scheme": "data:image/svg+xml;base64",
+   "animation_scheme": null
+  }
+ },
+ "cyberbrokers": {
+  "collection": "CyberBrokers",
+  "address": "0x892848074ddea461a15f337250da3ce55580ca85",
+  "blockscout_status": 200,
+  "blockscout_name": "CyberBrokers",
+  "blockscout_type": "ERC-721",
+  "name_matches": true,
+  "token_uri": {
+   "id": 1,
+   "uri_scheme": "data:application/json",
+   "uri_head": "data:application/json;utf8,{\"name\":\"Enticing Delightful\",\"description\":\"Look around you. E",
+   "uri_len": 873,
+   "image_scheme": "ipfs://",
+   "animation_scheme": null
+  }
+ },
+ "normies": {
+  "collection": "Normies",
+  "address": "0x9eb6e2025b64f340691e424b7fe7022ffde12438",
+  "blockscout_status": 200,
+  "blockscout_name": "Normies",
+  "blockscout_type": "ERC-721",
+  "name_matches": true,
+  "token_uri": {
+   "id": 1,
+   "uri_scheme": "data:application/json;base64",
+   "uri_head": "data:application/json;base64,eyJuYW1lIjoiTm9ybWllICMxIiwiYXR0cmlidXRlcyI6W3sidHJhaXRfdHlwZ",
+   "uri_len": 8237,
+   "image_scheme": "data:image/svg+xml;base64",
+   "animation_scheme": "data:text/html;base64"
+  }
+ },
+ "cc0mon": {
+  "collection": "CC0mon",
+  "address": "0xeeb036dbbd3039429c430657ed9836568da79d5f",
+  "blockscout_status": 200,
+  "blockscout_name": "CC0mon",
+  "blockscout_type": "ERC-721",
+  "name_matches": true,
+  "token_uri": {
+   "id": 1,
+   "uri_scheme": "data:application/json;base64",
+   "uri_head": "data:application/json;base64,eyJuYW1lIjoiU2xvd2xhdmEgIzE5OSIsImRlc2NyaXB0aW9uIjoiSXQgc2Vjc",
+   "uri_len": 5713,
+   "image_scheme": "data:image/svg+xml;base64",
+   "animation_scheme": null
+  }
+ },
+ "bytegans": {
+  "collection": "byteGANs",
+  "address": "0x45c67b2b81067911de611e11fc5c7a4605ca4162",
+  "blockscout_status": 200,
+  "blockscout_name": "byteGANs",
+  "blockscout_type": "ERC-721",
+  "name_matches": true,
+  "token_uri": {
+   "id": 1,
+   "uri_scheme": "data:application/json;base64",
+   "uri_head": "data:application/json;base64,eyJuYW1lIjoidml2aWQgY3liZXJHQU4gIzQ1IiwgImRlc2NyaXB0aW9uIjoiY",
+   "uri_len": 2445,
+   "image_scheme": "data:image/svg+xml;base64",
+   "animation_scheme": null
+  }
+ },
+ "squiggle": {
+  "collection": "Chromie Squiggle (Art Blocks project 0, original contract)",
+  "address": "0x059EDD72Cd353dF5106D2B9cC5ab83a52287aC3a",
+  "blockscout_status": 200,
+  "blockscout_name": "Art Blocks",
+  "blockscout_type": "ERC-721",
+  "name_matches": true,
+  "token_uri": {
+   "id": 0,
+   "uri_scheme": "https://api.artblocks.io",
+   "uri_head": "https://api.artblocks.io/token/0",
+   "uri_len": 32
+  }
+ },
+ "ringers": {
+  "collection": "Ringers by Dmitri Cherniak (Art Blocks Curated)",
+  "address": "0xa7d8d9ef8D8Ce8992Df33D8b8CF4Aebabd5bD270",
+  "blockscout_status": 200,
+  "blockscout_name": "Art Blocks",
+  "blockscout_type": "ERC-721",
+  "name_matches": true,
+  "token_uri": {
+   "id": 13000000,
+   "uri_scheme": "https://api.artblocks.io",
+   "uri_head": "https://api.artblocks.io/token/13000000",
+   "uri_len": 39
+  }
+ },
+ "fidenza": {
+  "collection": "Fidenza by Tyler Hobbs (Art Blocks Curated)",
+  "address": "0xa7d8d9ef8D8Ce8992Df33D8b8CF4Aebabd5bD270",
+  "blockscout_status": 200,
+  "blockscout_name": "Art Blocks",
+  "blockscout_type": "ERC-721",
+  "name_matches": true,
+  "token_uri": {
+   "id": 78000000,
+   "uri_scheme": "https://api.artblocks.io",
+   "uri_head": "https://api.artblocks.io/token/78000000",
+   "uri_len": 39
+  }
+ },
+ "veefriends": {
+  "collection": "VeeFriends",
+  "address": "0xa3aee8bce55beea1951ef834b99f3ac60d1abeeb",
+  "blockscout_status": 200,
+  "blockscout_name": "VeeFriends",
+  "blockscout_type": "ERC-721",
+  "name_matches": true,
+  "token_uri": {
+   "id": 1,
+   "uri_scheme": "https://erc721.veefriends.com",
+   "uri_head": "https://erc721.veefriends.com/api/metadata/0xa3aee8bce55beea1951ef834b99f3ac60d1abeeb/1",
+   "uri_len": 87
+  }
+ },
+ "lazylions": {
+  "collection": "Lazy Lions",
+  "address": "0x8943c7bac1914c9a7aba750bf2b6b09fd21037e0",
+  "blockscout_status": 200,
+  "blockscout_name": "Lazy Lions",
+  "blockscout_type": "ERC-721",
+  "name_matches": true,
+  "token_uri": {
+   "id": 1,
+   "uri_scheme": "https://cdn.lazylionsnft.com",
+   "uri_head": "https://cdn.lazylionsnft.com/1",
+   "uri_len": 30
+  }
+ },
+ "larvalads": {
+  "collection": "Larva Lads",
+  "address": "0x5755ab845ddeab27e1cfce00cd629b2e135acc3d",
+  "blockscout_status": 200,
+  "blockscout_name": "Larva Lads",
+  "blockscout_type": "ERC-721",
+  "name_matches": true,
+  "token_uri": {
+   "id": 1,
+   "uri_scheme": "data:application/json;base64",
+   "uri_head": "data:application/json;base64,eyJuYW1lIjogIkxhcnZhIExhZCAjMSIsICJkZXNjcmlwdGlvbiI6ICJMYXJ2Y",
+   "uri_len": 2361,
+   "image_scheme": "data:image/svg+xml;base64",
+   "animation_scheme": null
+  }
+ },
+ "eulerbeats": {
+  "collection": "EulerBeats Genesis",
+  "address": "0x8754f54074400ce745a7ceddc928fb1b7e985ed6",
+  "blockscout_status": 200,
+  "blockscout_name": "EulerBeats",
+  "blockscout_type": "ERC-1155",
+  "name_matches": true,
+  "token_uri": {
+   "id": 1,
+   "error": "eth_call: {'code': 3, 'message': 'execution reverted'}"
+  }
+ },
+ "superrare": {
+  "collection": "SuperRare",
+  "address": "0xb932a70a57673d89f4acffbe830e8ed7f75fb9e0",
+  "blockscout_status": 200,
+  "blockscout_name": "SuperRare",
+  "blockscout_type": "ERC-721",
+  "name_matches": true,
+  "token_uri": {
+   "id": 1,
+   "error": "eth_call: {'code': 3, 'message': 'execution reverted'}"
+  }
+ },
+ "bakc": {
+  "collection": "Bored Ape Kennel Club",
+  "address": "0xba30e5f9bb24caa003e9f2f0497ad287fdf95623",
+  "blockscout_status": 200,
+  "blockscout_name": "BoredApeKennelClub",
+  "blockscout_type": "ERC-721",
+  "name_matches": true,
+  "token_uri": {
+   "id": 1,
+   "uri_scheme": "ipfs://",
+   "uri_head": "ipfs://QmTDcCdt3yb6mZitzWBmQr65AW6Wska295Dg9nbEYpSUDR/1",
+   "uri_len": 55
+  }
+ }
+}

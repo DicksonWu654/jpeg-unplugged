@@ -1,0 +1,53 @@
+{
+ "collection": "X-Y-Z",
+ "slug": "x-y-z",
+ "contract": "0xB77c7520574795d4Cb5766920044A2bFDEA6AD1F",
+ "token_id": 1,
+ "chain_method": "data URI (contract-assembled; technique labelled from verified source flags)",
+ "chain_call": "tokenURI(1)",
+ "json_name": "X-Y-Z #1",
+ "fields": {
+  "image": "https",
+  "animation_url": "data:text/html",
+  "external_url": null,
+  "json_how": "data-uri-base64"
+ },
+ "rpc": {
+  "default_public_ok": true,
+  "highgas_drpc_ok": null,
+  "highgas_blxr_ok": null,
+  "fork_ok": null,
+  "rpc": "public-default",
+  "needed_fork": false,
+  "unreadable_from_default_public_call": false,
+  "gas_estimate": null
+ },
+ "medium": "html+js (animation_url data URI)",
+ "primary": "animation_url",
+ "source_flags": {
+  "verified": true,
+  "contract_name": "XYZ",
+  "proxy": false,
+  "implementation": null,
+  "sstore2": false,
+  "ethfs": false,
+  "scripty": false,
+  "base64": true,
+  "gzip": false,
+  "data_uri": true,
+  "http_literals": [
+   "https://xn--2-umb.com/21/muldiv"
+  ],
+  "ipfs_literal": false,
+  "setters": []
+ },
+ "artwork_file": "artwork.html",
+ "doc_type": "text/html; charset=utf-8",
+ "artwork_bytes": 51338,
+ "artwork_sha256": "3120382cd7e50289d820c8ce497295dba1a6f2ed497c15993890a219c32da483",
+ "declared": {
+  "load": [],
+  "literals": []
+ },
+ "built_at": "2026-10-21T20:18:14Z"
+}

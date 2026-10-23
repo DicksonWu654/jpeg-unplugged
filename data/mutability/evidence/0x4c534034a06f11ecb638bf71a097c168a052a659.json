@@ -1,0 +1,228 @@
+{
+ "address": "0x4c534034a06f11ecb638bf71a097c168a052a659",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:26Z",
+ "code_raw": "data/raw/rpc-mutability/0x4c534034a06f11ecb638bf71a097c168a052a659_code.json",
+ "code_len": 22765,
+ "slots": {
+  "slot0": "0x000000000000000000000000d68fa338e6bff9f27528d5e63ff685c8fa02dbd3"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0x4c534034a06f11ecb638bf71a097c168a052a659_slots.json",
+ "verified": true,
+ "contract_name": "Tamagogi",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [
+   {
+    "hash": "0xff983151a4419798acb62f14226f152a0e41d9d7ecddff13aab6f6749ab35675",
+    "timestamp": "2022-09-17T19:47:47.000000Z",
+    "method": "setRevealPet",
+    "from": "0xD68fA338e6bFF9F27528d5e63fF685C8Fa02DbD3",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15555478,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xa6a6307e3c706b528bdc28a221862c4764807d4287a3cd4bec03a2c151164318",
+    "timestamp": "2022-09-17T19:10:11.000000Z",
+    "method": "setRevealProp",
+    "from": "0xD68fA338e6bFF9F27528d5e63fF685C8Fa02DbD3",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15555294,
+    "category": "reveal"
+   }
+  ],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 1,
+    "first": "2022-09-17",
+    "last": "2022-09-17",
+    "last_tx": "0xac006223bda20516c23e0932b68b4b01df12597ecb0e83273842dd4f7a288732",
+    "list": [
+     {
+      "date": "2022-09-17",
+      "tx": "0xac006223bda20516c23e0932b68b4b01df12597ecb0e83273842dd4f7a288732",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "d68fa338e6bff9f27528d5e63ff685c8fa02dbd3"
+      ],
+      "data": "0x"
+     }
+    ]
+   }
+  },
+  "decoded": [
+   {
+    "hash": "0xa6a6307e3c706b528bdc28a221862c4764807d4287a3cd4bec03a2c151164318",
+    "timestamp": "2022-09-17T19:10:11.000000Z",
+    "method": "setRevealProp",
+    "category": "reveal",
+    "from": "0xD68fA338e6bFF9F27528d5e63fF685C8Fa02DbD3",
+    "params": [],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0xff983151a4419798acb62f14226f152a0e41d9d7ecddff13aab6f6749ab35675",
+    "timestamp": "2022-09-17T19:47:47.000000Z",
+    "method": "setRevealPet",
+    "category": "reveal",
+    "from": "0xD68fA338e6bFF9F27528d5e63fF685C8Fa02DbD3",
+    "params": [],
+    "value_kinds": [],
+    "error": null
+   }
+  ],
+  "ownership_transfers": [
+   {
+    "date": "2022-09-17",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0xd68fa338e6bff9f27528d5e63ff685c8fa02dbd3",
+    "tx": "0xac006223bda20516c23e0932b68b4b01df12597ecb0e83273842dd4f7a288732"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0x4c534034a06f11ecb638bf71a097c168a052a659_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0xd68fa338e6bff9f27528d5e63ff685c8fa02dbd3",
+  "code_raw": "data/raw/rpc-mutability/0xd68fa338e6bff9f27528d5e63ff685c8fa02dbd3_holdercode.json",
+  "type": "eoa",
+  "bs_name": null,
+  "ens": null,
+  "bs_impl_names": [],
+  "bs_tags": [],
+  "is_contract": false,
+  "creator": null,
+  "is_verified": false,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "override",
+ "lock_functions": [],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [
+  {
+   "name": "setRevealPet",
+   "sig": "setRevealPet()",
+   "selector": "0x3cd434aa",
+   "category": "reveal",
+   "inputs": [],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "config.revealPet = true;",
+   "writes": [
+    "revealPet"
+   ],
+   "power": "eoa",
+   "holder_addrs": [
+    "0xd68fa338e6bff9f27528d5e63ff685c8fa02dbd3"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xd68fa338e6bff9f27528d5e63ff685c8fa02dbd3",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "setRevealProp",
+   "sig": "setRevealProp()",
+   "selector": "0x5d186c9f",
+   "category": "reveal",
+   "inputs": [],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "config.revealProp = true;",
+   "writes": [
+    "revealProp"
+   ],
+   "power": "eoa",
+   "holder_addrs": [
+    "0xd68fa338e6bff9f27528d5e63ff685c8fa02dbd3"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xd68fa338e6bff9f27528d5e63ff685c8fa02dbd3",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  }
+ ],
+ "class_direct": "immutable",
+ "class_reason": "no uri/renderer/upgrade function in ABI and not a proxy",
+ "live_mutators": [],
+ "dependencies": [],
+ "meta": {
+  "address": "0x4c534034a06f11ecb638bf71a097c168a052a659",
+  "name": "Tamagogi Pets",
+  "w5_claim_strength": null,
+  "w5_claim_text": null,
+  "w5_source_type": null,
+  "w5_source_url": null,
+  "holders_count": 1663.0,
+  "in_w5": false,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": "onchain-renderer",
+  "census_media_class": "ipfs",
+  "census_liveness": "alive",
+  "in_census_onchain": true,
+  "standard": "ERC-721",
+  "creator": "0xd68fa338e6bff9f27528d5e63ff685c8fa02dbd3",
+  "deploy_block": 15553862.0
+ },
+ "class_deps_all": "none",
+ "class_deps": "none",
+ "class_final": "immutable",
+ "pointer_power": null
+}

@@ -1,0 +1,21 @@
+{
+ "url": "https://ethereum-rpc.publicnode.com",
+ "method": "POST",
+ "request": {
+  "jsonrpc": "2.0",
+  "id": 1,
+  "method": "eth_call",
+  "params": [
+   {
+    "to": "0xb1befc9e7b76c1e846ebbf3e6e1ab029c86e7435",
+    "data": "0x59bd01530000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000f",
+    "gas": "0x8f0d180"
+   },
+   "0x1907fbb"
+  ]
+ },
+ "status": 200,
+ "retrieved_at": "2026-10-22T09:02:38Z",
+ "sha256": "ad648bdec6663958bbfdabea20047cafa04e0a2a79c0fa9d0d48be373c86a8d0",
+ "response_text": "{\"jsonrpc\":\"2.0\",\"id\":1,\"error\":{\"code\":-32003,\"message\":\"out of gas: gas required exceeds: 50000000\"}}\n"
+}

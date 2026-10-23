@@ -1,0 +1,32 @@
+[
+ {
+  "t": 0.414,
+  "url": "https://onchain.invalid/",
+  "type": "document",
+  "method": "GET",
+  "frame": "about:blank",
+  "action": "served-from-chain",
+  "status": 200,
+  "bytes": null
+ },
+ {
+  "t": 0.471,
+  "url": "https://cdnjs.cloudflare.com/ajax/libs/aframe/1.2.0/aframe.min.js",
+  "type": "script",
+  "method": "GET",
+  "frame": "https://onchain.invalid/",
+  "action": "allowed",
+  "status": 200,
+  "bytes": 1324388
+ },
+ {
+  "t": 1.377,
+  "url": "https://cdn.aframe.io/controllers/hands/rightHandLow.glb",
+  "type": "xhr",
+  "method": "GET",
+  "frame": "https://onchain.invalid/",
+  "action": "allowed",
+  "status": 200,
+  "bytes": 125160
+ }
+]

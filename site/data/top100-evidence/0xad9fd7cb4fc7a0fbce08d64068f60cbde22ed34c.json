@@ -1,0 +1,464 @@
+{
+  "collection": {
+    "rank": 59,
+    "source_rank": 62,
+    "name": "Vox Collectibles",
+    "contract": "0xad9fd7cb4fc7a0fbce08d64068f60cbde22ed34c",
+    "contracts": [
+      "0xad9fd7cb4fc7a0fbce08d64068f60cbde22ed34c"
+    ],
+    "slug": "vox-collectibles",
+    "volume_usd": 91980755.481,
+    "volume_source": "CryptoSlam all-time Ethereum owner-to-owner sales, wash-filtered USD",
+    "source_url": "https://web-api.cryptoslam.io/v1/sales/rank-by-volume?timeRange=all&orderBy=rank&sortDirection=asc&offset=0&limit=100&blockchainId=0&hideInscriptions=false",
+    "ranking_evidence": "data/raw/top100-api/cryptoslam-ranking-0.json",
+    "identity_evidence": "data/raw/top100-api/cryptoslam-info-vox-collectibles.json",
+    "token_count": 0,
+    "all_time_volume": 91980755.481,
+    "volume_currency": "USD",
+    "kind": "game-avatar",
+    "metadata_location": "http",
+    "metadata_classes": [
+      "http"
+    ],
+    "media_location": "unresolved",
+    "primary_image_location": "unresolved",
+    "media_classes": [],
+    "liveness": "unknown",
+    "liveness_exact": "unknown",
+    "all_declared_media_liveness": "unknown",
+    "metadata_failed": false,
+    "n_alive": 0,
+    "n_dead": 0,
+    "n_unknown": 3,
+    "n_degraded": 0,
+    "key_domain_or_gateway": "www.collectvox.com",
+    "hosts": [
+      "www.collectvox.com"
+    ],
+    "hardcoded_gateways": [],
+    "http_origin_dependency": true,
+    "uses_ipfs": false,
+    "uses_arweave": false,
+    "fully_onchain_all_declared_media": false,
+    "metadata_and_primary_image_onchain": false,
+    "mutability_class": "immutable",
+    "single_key_mutable": false,
+    "single_key_repointable": false,
+    "base_uri_or_renderer": "0xad9fd7cb4fc7a0fbce08d64068f60cbde22ed34c.tokenURI/uri",
+    "control": [
+      {
+        "contract": "0xad9fd7cb4fc7a0fbce08d64068f60cbde22ed34c",
+        "class": "immutable",
+        "pointer_power": null,
+        "reason": "no uri/renderer/upgrade function in ABI and not a proxy",
+        "owner": {
+          "addr": "0x6f71e19e8b28963dfdfed04c4e6a217f0838aef2",
+          "code_raw": "data/raw/rpc-mutability/0x6f71e19e8b28963dfdfed04c4e6a217f0838aef2_holdercode.json",
+          "type": "eoa",
+          "bs_name": null,
+          "ens": null,
+          "bs_impl_names": [],
+          "bs_tags": [],
+          "is_contract": false,
+          "creator": null,
+          "is_verified": false,
+          "bs_reputation": "ok"
+        },
+        "proxy": {
+          "kind": null
+        },
+        "live_mutators": [],
+        "lock_flags": {},
+        "dependencies": [],
+        "pointer_getters": [],
+        "analyzed_at": "2026-10-23T02:52:14Z",
+        "history_incomplete": false,
+        "evidence": "data/raw/top100-mutability/0xad9fd7cb4fc7a0fbce08d64068f60cbde22ed34c.json"
+      }
+    ],
+    "samples": 3,
+    "distinct_token_ids": 3,
+    "sample_note": null,
+    "source_contracts_without_sampleable_nfts": [],
+    "ownership_scope_gaps": [],
+    "refreshed_at": "2026-10-23T03:05:06Z",
+    "opensea_rank": 69,
+    "ranking_scope_disagreement": false,
+    "metadata_adapter": false,
+    "evidence": [
+      "data/raw/top100-census/0xad9fd7cb4fc7a0fbce08d64068f60cbde22ed34c/result.json.gz"
+    ],
+    "delivery_note": null
+  },
+  "samples": [
+    {
+      "contract": "0xad9fd7cb4fc7a0fbce08d64068f60cbde22ed34c",
+      "token_id": "0",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(0) [low; totalSupply=8888]",
+      "metadata_location": "http",
+      "metadata_uri": "https://www.collectvox.com/metadata/town-star/8304",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "www.collectvox.com",
+          "url": "https://www.collectvox.com/metadata/town-star/8304",
+          "status": 403,
+          "error_kind": null,
+          "v": "unknown",
+          "reason": "bot-wall:http-4xx",
+          "seq": 3,
+          "final_url": "https://www.collectvox.com/metadata/town-star/8304",
+          "content_type": "text/html",
+          "size": 52,
+          "content_length": null,
+          "sha256": "889403e5cfbb7981f7a26aced0d7492524e5397d6996f7fccd67562d2a4a71a3",
+          "t": "2026-10-23T02:50:44Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "www.collectvox.com",
+          "url": "https://www.collectvox.com/metadata/town-star/8304",
+          "status": 403,
+          "error_kind": null,
+          "v": "unknown",
+          "reason": "bot-wall:http-4xx",
+          "seq": 7,
+          "final_url": "https://www.collectvox.com/metadata/town-star/8304",
+          "content_type": "text/html",
+          "size": 52,
+          "content_length": null,
+          "sha256": "889403e5cfbb7981f7a26aced0d7492524e5397d6996f7fccd67562d2a4a71a3",
+          "t": "2026-10-23T02:58:40Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "www.collectvox.com",
+          "url": "https://www.collectvox.com/metadata/town-star/8304",
+          "status": 403,
+          "error_kind": null,
+          "v": "unknown",
+          "reason": "bot-wall:http-4xx",
+          "seq": 10,
+          "final_url": "https://www.collectvox.com/metadata/town-star/8304",
+          "content_type": "text/html",
+          "size": 52,
+          "content_length": null,
+          "sha256": "889403e5cfbb7981f7a26aced0d7492524e5397d6996f7fccd67562d2a4a71a3",
+          "t": "2026-10-23T03:05:03Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [],
+      "derived": {
+        "meta_verdict": "unknown",
+        "meta_verdict_reason": "bot-wall:http-4xx",
+        "image_class": null,
+        "anim_class": null,
+        "image_verdict": null,
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {},
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "unknown",
+        "liveness_reason": "bot-wall:http-4xx",
+        "liveness_exact": "unknown",
+        "liveness_exact_reason": "bot-wall:http-4xx",
+        "meta_verdict_exact": "unknown",
+        "image_verdict_exact": null,
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "bot-wall:http-4xx"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000000000",
+          "endpoint": "https://eth.drpc.org",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0xad9fd7cb4fc7a0fbce08d64068f60cbde22ed34c/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0xad9fd7cb4fc7a0fbce08d64068f60cbde22ed34c",
+      "token_id": "4444",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(4444) [mid; totalSupply=8888]",
+      "metadata_location": "http",
+      "metadata_uri": "https://www.collectvox.com/metadata/town-star/3860",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "www.collectvox.com",
+          "url": "https://www.collectvox.com/metadata/town-star/3860",
+          "status": 403,
+          "error_kind": null,
+          "v": "unknown",
+          "reason": "bot-wall:http-4xx",
+          "seq": 6,
+          "final_url": "https://www.collectvox.com/metadata/town-star/3860",
+          "content_type": "text/html",
+          "size": 52,
+          "content_length": null,
+          "sha256": "889403e5cfbb7981f7a26aced0d7492524e5397d6996f7fccd67562d2a4a71a3",
+          "t": "2026-10-23T02:50:44Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "www.collectvox.com",
+          "url": "https://www.collectvox.com/metadata/town-star/3860",
+          "status": 403,
+          "error_kind": null,
+          "v": "unknown",
+          "reason": "bot-wall:http-4xx",
+          "seq": 8,
+          "final_url": "https://www.collectvox.com/metadata/town-star/3860",
+          "content_type": "text/html",
+          "size": 52,
+          "content_length": null,
+          "sha256": "889403e5cfbb7981f7a26aced0d7492524e5397d6996f7fccd67562d2a4a71a3",
+          "t": "2026-10-23T02:58:41Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "www.collectvox.com",
+          "url": "https://www.collectvox.com/metadata/town-star/3860",
+          "status": 403,
+          "error_kind": null,
+          "v": "unknown",
+          "reason": "bot-wall:http-4xx",
+          "seq": 11,
+          "final_url": "https://www.collectvox.com/metadata/town-star/3860",
+          "content_type": "text/html",
+          "size": 52,
+          "content_length": null,
+          "sha256": "889403e5cfbb7981f7a26aced0d7492524e5397d6996f7fccd67562d2a4a71a3",
+          "t": "2026-10-23T03:05:06Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [],
+      "derived": {
+        "meta_verdict": "unknown",
+        "meta_verdict_reason": "bot-wall:http-4xx",
+        "image_class": null,
+        "anim_class": null,
+        "image_verdict": null,
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {},
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "unknown",
+        "liveness_reason": "bot-wall:http-4xx",
+        "liveness_exact": "unknown",
+        "liveness_exact_reason": "bot-wall:http-4xx",
+        "meta_verdict_exact": "unknown",
+        "image_verdict_exact": null,
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "bot-wall:http-4xx"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd000000000000000000000000000000000000000000000000000000000000115c",
+          "endpoint": "https://eth.drpc.org",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0xad9fd7cb4fc7a0fbce08d64068f60cbde22ed34c/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0xad9fd7cb4fc7a0fbce08d64068f60cbde22ed34c",
+      "token_id": "8887",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(8887) [recent; totalSupply=8888]",
+      "metadata_location": "http",
+      "metadata_uri": "https://www.collectvox.com/metadata/town-star/8303",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "www.collectvox.com",
+          "url": "https://www.collectvox.com/metadata/town-star/8303",
+          "status": 403,
+          "error_kind": null,
+          "v": "unknown",
+          "reason": "bot-wall:http-4xx",
+          "seq": 5,
+          "final_url": "https://www.collectvox.com/metadata/town-star/8303",
+          "content_type": "text/html",
+          "size": 52,
+          "content_length": null,
+          "sha256": "889403e5cfbb7981f7a26aced0d7492524e5397d6996f7fccd67562d2a4a71a3",
+          "t": "2026-10-23T02:50:44Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "www.collectvox.com",
+          "url": "https://www.collectvox.com/metadata/town-star/8303",
+          "status": 403,
+          "error_kind": null,
+          "v": "unknown",
+          "reason": "bot-wall:http-4xx",
+          "seq": 9,
+          "final_url": "https://www.collectvox.com/metadata/town-star/8303",
+          "content_type": "text/html",
+          "size": 52,
+          "content_length": null,
+          "sha256": "889403e5cfbb7981f7a26aced0d7492524e5397d6996f7fccd67562d2a4a71a3",
+          "t": "2026-10-23T02:58:41Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "www.collectvox.com",
+          "url": "https://www.collectvox.com/metadata/town-star/8303",
+          "status": 403,
+          "error_kind": null,
+          "v": "unknown",
+          "reason": "bot-wall:http-4xx",
+          "seq": 12,
+          "final_url": "https://www.collectvox.com/metadata/town-star/8303",
+          "content_type": "text/html",
+          "size": 52,
+          "content_length": null,
+          "sha256": "889403e5cfbb7981f7a26aced0d7492524e5397d6996f7fccd67562d2a4a71a3",
+          "t": "2026-10-23T03:05:06Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [],
+      "derived": {
+        "meta_verdict": "unknown",
+        "meta_verdict_reason": "bot-wall:http-4xx",
+        "image_class": null,
+        "anim_class": null,
+        "image_verdict": null,
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {},
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "unknown",
+        "liveness_reason": "bot-wall:http-4xx",
+        "liveness_exact": "unknown",
+        "liveness_exact_reason": "bot-wall:http-4xx",
+        "meta_verdict_exact": "unknown",
+        "image_verdict_exact": null,
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "bot-wall:http-4xx"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd00000000000000000000000000000000000000000000000000000000000022b7",
+          "endpoint": "https://eth.drpc.org",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0xad9fd7cb4fc7a0fbce08d64068f60cbde22ed34c/evidence.jsonl.gz"
+    }
+  ],
+  "saved_packet_index": [
+    {
+      "path": "data/raw/top100-api/opensea-contract-0xad9fd7cb4fc7a0fbce08d64068f60cbde22ed34c-attempt1-1792724312640269901.body",
+      "sha256": "b392b132b20083177e0498d3f90cba781b4024b6170246f29e69a8f8bf5928cd",
+      "retrieved_at": "2026-10-23T02:58:32Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0xad9fd7cb4fc7a0fbce08d64068f60cbde22ed34c",
+      "method": "GET",
+      "status": 200,
+      "error": null,
+      "bytes": 201,
+      "truncated": false
+    },
+    {
+      "path": "data/raw/top100-api/opensea-contract-0xad9fd7cb4fc7a0fbce08d64068f60cbde22ed34c.json",
+      "sha256": "b392b132b20083177e0498d3f90cba781b4024b6170246f29e69a8f8bf5928cd",
+      "retrieved_at": "2026-10-23T02:58:32Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0xad9fd7cb4fc7a0fbce08d64068f60cbde22ed34c",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "data/raw/top100-census/0xad9fd7cb4fc7a0fbce08d64068f60cbde22ed34c/bodies.zip",
+      "sha256": "c10f9aa86faa0dd367ee5990da8bc801a0a7bae875d5012a243550ef97de1dfb",
+      "bytes": 2161
+    },
+    {
+      "path": "data/raw/top100-census/0xad9fd7cb4fc7a0fbce08d64068f60cbde22ed34c/evidence.jsonl.gz",
+      "sha256": "712fa462e643e12d25a67b975f3173fab3abff7264caf683282dfa604bb1bc63",
+      "bytes": 1557
+    },
+    {
+      "path": "data/raw/top100-census/0xad9fd7cb4fc7a0fbce08d64068f60cbde22ed34c/result.json.gz",
+      "sha256": "c17f7377a7bda1495955696bf6ee1fe48bfd699334085cf9090886f9297276ed",
+      "bytes": 1144
+    },
+    {
+      "path": "data/raw/top100-mutability/0xad9fd7cb4fc7a0fbce08d64068f60cbde22ed34c.json",
+      "sha256": "c17b0ef96bc4e5547dd90f538dba0eeceb6bf1ae79dabf5d43bfac92f71352f6",
+      "bytes": 3927
+    },
+    {
+      "path": "data/raw/top100-pointers/0xad9fd7cb4fc7a0fbce08d64068f60cbde22ed34c/result.json",
+      "sha256": "b00e4b57f691a56c5850d5d9c9319bb086a4244c0ddc5b0ba8db9a1af962d23a",
+      "bytes": 203
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0xad9fd7cb4fc7a0fbce08d64068f60cbde22ed34c/bodies.zip",
+      "sha256": "126dc1da692e24a3f7a6833dcc48c548405190bf2e8b74e6f0132b8ee0a27953",
+      "bytes": 632
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0xad9fd7cb4fc7a0fbce08d64068f60cbde22ed34c/evidence.jsonl.gz",
+      "sha256": "697066ba2614f266f20e51a99196df0f8f7c3a14215ca22cc8476ccbe6f710af",
+      "bytes": 693
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0xad9fd7cb4fc7a0fbce08d64068f60cbde22ed34c/result.json",
+      "sha256": "f43a806320b2be792ddfc48d15cf43147c3f912e188a51b0bd38929434acf0cc",
+      "bytes": 299
+    }
+  ],
+  "interpretation": "Liveness describes sampled metadata and primary-image delivery, not permanent loss of the artwork."
+}

@@ -1,0 +1,475 @@
+{
+ "address": "0x8e7b93896242299defc4860f3c093dc3ebf90a96",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:41Z",
+ "code_raw": "data/raw/rpc-mutability/0x8e7b93896242299defc4860f3c093dc3ebf90a96_code.json",
+ "code_len": 18217,
+ "slots": {
+  "slot0": "0x000000000000000000000000000000000000000000000000000000000000012d"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0x8e7b93896242299defc4860f3c093dc3ebf90a96_slots.json",
+ "verified": true,
+ "contract_name": "Treeangles",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [
+   {
+    "hash": "0xad639520e47fa7af6190a00fd518dd33c3dc2af1c0ae25abafdfb31f2938928d",
+    "timestamp": "2024-02-29T20:00:23.000000Z",
+    "method": "renounceOwnership",
+    "from": "0x3424cd7D170949636C300e62674a3DFB7706Fc35",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 19335413,
+    "category": "ownership"
+   },
+   {
+    "hash": "0xfe9800d2dd6281caea11692a378750c19bd1b0aad926556032ae71e11830b1fb",
+    "timestamp": "2023-11-17T22:13:23.000000Z",
+    "method": "setOnchainContractMetadata",
+    "from": "0x3424cd7D170949636C300e62674a3DFB7706Fc35",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 18594502,
+    "category": "contracturi"
+   },
+   {
+    "hash": "0x392fcb7d30eafa0f6fb4aab49f6cd8b4043fe23066698786c9e117708904ca11",
+    "timestamp": "2023-11-17T21:43:23.000000Z",
+    "method": "setOnchainContractMetadata",
+    "from": "0x3424cd7D170949636C300e62674a3DFB7706Fc35",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 18594352,
+    "category": "contracturi"
+   },
+   {
+    "hash": "0xa24d318104bfc629aadf9b7d30b44169cc625fb9f2b1c3f3a2176b39d1ddee7b",
+    "timestamp": "2023-11-16T14:38:23.000000Z",
+    "method": "setStorageAddress",
+    "from": "0x3424cd7D170949636C300e62674a3DFB7706Fc35",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 18585094,
+    "category": "renderer"
+   }
+  ],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 2,
+    "first": "2023-11-07",
+    "last": "2024-02-29",
+    "last_tx": "0xad639520e47fa7af6190a00fd518dd33c3dc2af1c0ae25abafdfb31f2938928d",
+    "list": [
+     {
+      "date": "2023-11-07",
+      "tx": "0xa6ff83b136a568ffad54b4fdf60ab5cda4a54721edbc03b1420b3c86003fcfc1",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "3424cd7d170949636c300e62674a3dfb7706fc35"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2024-02-29",
+      "tx": "0xad639520e47fa7af6190a00fd518dd33c3dc2af1c0ae25abafdfb31f2938928d",
+      "topics": [
+       "3424cd7d170949636c300e62674a3dfb7706fc35",
+       "0000000000000000000000000000000000000000"
+      ],
+      "data": "0x"
+     }
+    ]
+   },
+   "BatchMetadataUpdate(uint256,uint256)": {
+    "n": 1,
+    "first": "2023-11-17",
+    "last": "2023-11-17",
+    "last_tx": "0xcba29882f3d60ee22291c39cbc22a3434b538685793fb10f0730ccd70b48fd00",
+    "list": [
+     {
+      "date": "2023-11-17",
+      "tx": "0xcba29882f3d60ee22291c39cbc22a3434b538685793fb10f0730ccd70b48fd00",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000012c"
+     }
+    ]
+   },
+   "ContractURIUpdated(string)": {
+    "n": 0
+   }
+  },
+  "decoded": [
+   {
+    "hash": "0xa24d318104bfc629aadf9b7d30b44169cc625fb9f2b1c3f3a2176b39d1ddee7b",
+    "timestamp": "2023-11-16T14:38:23.000000Z",
+    "method": "setStorageAddress",
+    "category": "renderer",
+    "from": "0x3424cd7D170949636C300e62674a3DFB7706Fc35",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0xeb5e61063867b7c21456ed314adc398b451cad86"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0x392fcb7d30eafa0f6fb4aab49f6cd8b4043fe23066698786c9e117708904ca11",
+    "timestamp": "2023-11-17T21:43:23.000000Z",
+    "method": "setOnchainContractMetadata",
+    "category": "contracturi",
+    "from": "0x3424cd7D170949636C300e62674a3DFB7706Fc35",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "string",
+      "value": "name: \"Treeangles by nix.eth\",\"description\": \"*Between every two pine trees there is a door leading to a new way of life.* ~ John Muir\n\nTreeangles, the genesis collection of nix.eth, resides entirely on the Ethereum blockchain, ensuring that the art, metadata, and history\u2014preserved through Story Ins"
+     }
+    ],
+    "value_kinds": [
+     "other"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0xfe9800d2dd6281caea11692a378750c19bd1b0aad926556032ae71e11830b1fb",
+    "timestamp": "2023-11-17T22:13:23.000000Z",
+    "method": "setOnchainContractMetadata",
+    "category": "contracturi",
+    "from": "0x3424cd7D170949636C300e62674a3DFB7706Fc35",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "string",
+      "value": "\"name\": \"Treeangles by nix.eth\",\"description\": \"*Between every two pine trees there is a door leading to a new way of life.* ~ John Muir\\n\\nTreeangles, the genesis collection of nix.eth, resides entirely on the Ethereum blockchain, ensuring that the art, metadata, and history\u2014preserved through Story"
+     }
+    ],
+    "value_kinds": [
+     "other"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0xad639520e47fa7af6190a00fd518dd33c3dc2af1c0ae25abafdfb31f2938928d",
+    "timestamp": "2024-02-29T20:00:23.000000Z",
+    "method": "renounceOwnership",
+    "category": "ownership",
+    "from": "0x3424cd7D170949636C300e62674a3DFB7706Fc35",
+    "params": [],
+    "value_kinds": [],
+    "error": null
+   }
+  ],
+  "ownership_transfers": [
+   {
+    "date": "2023-11-07",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0x3424cd7d170949636c300e62674a3dfb7706fc35",
+    "tx": "0xa6ff83b136a568ffad54b4fdf60ab5cda4a54721edbc03b1420b3c86003fcfc1"
+   },
+   {
+    "date": "2024-02-29",
+    "from": "0x3424cd7d170949636c300e62674a3dfb7706fc35",
+    "to": "0x0000000000000000000000000000000000000000",
+    "tx": "0xad639520e47fa7af6190a00fd518dd33c3dc2af1c0ae25abafdfb31f2938928d"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0x8e7b93896242299defc4860f3c093dc3ebf90a96_reads1.json",
+ "eip4906": true,
+ "owner": {
+  "addr": "0x0000000000000000000000000000000000000000",
+  "type": "renounced"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "override+super",
+ "lock_functions": [],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [
+  {
+   "name": "setBaseURI",
+   "sig": "setBaseURI(string)",
+   "selector": "0x55f804b3",
+   "category": "uri",
+   "inputs": [
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [],
+   "body_head": "_onlyOwnerOrSelf();\n\n         \n        _tokenBaseURI = newBaseURI;\n\n         \n        if (totalSupply() != 0) {\n            emit BatchMetadataUpdate(1, _nextTok",
+   "writes": [
+    "_tokenBaseURI"
+   ],
+   "effective": "yes",
+   "power": "renounced",
+   "holder_addrs": [
+    "0x0000000000000000000000000000000000000000"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x0000000000000000000000000000000000000000",
+     "type": "renounced",
+     "desc": "renounced",
+     "simple": "renounced"
+    }
+   ]
+  },
+  {
+   "name": "updateDropURI",
+   "sig": "updateDropURI(address,string)",
+   "selector": "0x7a05bc82",
+   "category": "uri",
+   "inputs": [
+    "address",
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [],
+   "body_head": "_onlyOwnerOrSelf();\n\n         \n        _onlyAllowedSeaDrop(seaDropImpl);\n\n         \n        ISeaDrop(seaDropImpl).updateDropURI(dropURI);",
+   "writes": [],
+   "effective": "unknown",
+   "power": "renounced",
+   "holder_addrs": [
+    "0x0000000000000000000000000000000000000000"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x0000000000000000000000000000000000000000",
+     "type": "renounced",
+     "desc": "renounced",
+     "simple": "renounced"
+    }
+   ]
+  },
+  {
+   "name": "setStorageAddress",
+   "sig": "setStorageAddress(address)",
+   "selector": "0x59b910d6",
+   "category": "renderer",
+   "inputs": [
+    "address"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [],
+   "body_head": "_onlyOwnerOrSelf();\n        \n        _store = TreeanglesStorage(_t);\n        _useStore = true;\n        if (totalSupply() != 0) {\n            emit BatchMetadataU",
+   "writes": [
+    "_store",
+    "_useStore"
+   ],
+   "effective": "yes",
+   "power": "renounced",
+   "holder_addrs": [
+    "0x0000000000000000000000000000000000000000"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x0000000000000000000000000000000000000000",
+     "type": "renounced",
+     "desc": "renounced",
+     "simple": "renounced"
+    }
+   ]
+  },
+  {
+   "name": "setProvenanceHash",
+   "sig": "setProvenanceHash(bytes32)",
+   "selector": "0x099b6bfa",
+   "category": "reveal",
+   "inputs": [
+    "bytes32"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [],
+   "body_head": "_onlyOwnerOrSelf();\n\n         \n        if (_totalMinted() > 0) {\n            revert ProvenanceHashCannotBeSetAfterMintStarted();\n        }\n\n         \n        by",
+   "writes": [
+    "_provenanceHash"
+   ],
+   "power": "renounced",
+   "holder_addrs": [
+    "0x0000000000000000000000000000000000000000"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x0000000000000000000000000000000000000000",
+     "type": "renounced",
+     "desc": "renounced",
+     "simple": "renounced"
+    }
+   ]
+  },
+  {
+   "name": "setContractURI",
+   "sig": "setContractURI(string)",
+   "selector": "0x938e3d7b",
+   "category": "contracturi",
+   "inputs": [
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [],
+   "body_head": "_onlyOwnerOrSelf();\n\n         \n        _contractURI = newContractURI;\n\n         \n        emit ContractURIUpdated(newContractURI);",
+   "writes": [
+    "_contractURI"
+   ],
+   "power": "renounced",
+   "holder_addrs": [
+    "0x0000000000000000000000000000000000000000"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x0000000000000000000000000000000000000000",
+     "type": "renounced",
+     "desc": "renounced",
+     "simple": "renounced"
+    }
+   ]
+  },
+  {
+   "name": "setOnchainContractMetadata",
+   "sig": "setOnchainContractMetadata(string)",
+   "selector": "0x7cab9178",
+   "category": "contracturi",
+   "inputs": [
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [],
+   "body_head": "_onlyOwnerOrSelf();\n        \n        _contractMetaProps = _almostJson;\n        _useContractOnchainMeta = true;",
+   "writes": [
+    "_contractMetaProps",
+    "_useContractOnchainMeta"
+   ],
+   "power": "renounced",
+   "holder_addrs": [
+    "0x0000000000000000000000000000000000000000"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x0000000000000000000000000000000000000000",
+     "type": "renounced",
+     "desc": "renounced",
+     "simple": "renounced"
+    }
+   ]
+  }
+ ],
+ "class_direct": "immutable",
+ "class_reason": "setBaseURI:renounced; updateDropURI:renounced; setStorageAddress:renounced",
+ "live_mutators": [
+  "setBaseURI",
+  "setStorageAddress",
+  "updateDropURI"
+ ],
+ "dependencies": [],
+ "meta": {
+  "address": "0x8e7b93896242299defc4860f3c093dc3ebf90a96",
+  "name": "Treeangles",
+  "w5_claim_strength": "explicit-100%/fully",
+  "w5_claim_text": "* @notice This is the non-fungible token contract for the fully onchain",
+  "w5_source_type": "contract-source",
+  "w5_source_url": "https://etherscan.io/address/0x8e7b93896242299defc4860f3c093dc3ebf90a96#code (contracts/721/Treeangles.sol:79)",
+  "holders_count": 197.0,
+  "in_w5": true,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": "onchain-renderer",
+  "census_media_class": "data-uri",
+  "census_liveness": "alive",
+  "in_census_onchain": true,
+  "standard": "ERC-721",
+  "creator": "0x3424cd7d170949636c300e62674a3dfb7706fc35",
+  "deploy_block": 18523392.0
+ },
+ "class_deps_all": "none",
+ "class_deps": "none",
+ "class_final": "immutable",
+ "pointer_power": null
+}

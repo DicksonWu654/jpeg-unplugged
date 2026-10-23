@@ -1,0 +1,58 @@
+{
+ "collection": "ChillOrbs",
+ "slug": "chillorbs",
+ "contract": "0x6C6789fd71D819D2f18f4796Ae161a49FE8c325b",
+ "token_id": 1,
+ "chain_method": "data URI (contract-assembled; technique labelled from verified source flags)",
+ "chain_call": "tokenURI(1)",
+ "json_name": "ChillOrb #1",
+ "fields": {
+  "image": "ipfs",
+  "animation_url": "data:text/html",
+  "external_url": null,
+  "json_how": "data-uri-base64"
+ },
+ "rpc": {
+  "default_public_ok": true,
+  "highgas_drpc_ok": null,
+  "highgas_blxr_ok": null,
+  "fork_ok": null,
+  "rpc": "public-default",
+  "needed_fork": false,
+  "unreadable_from_default_public_call": false,
+  "gas_estimate": null
+ },
+ "medium": "html+js (animation_url data URI)",
+ "primary": "animation_url",
+ "source_flags": {
+  "verified": true,
+  "contract_name": "ChillOrbs",
+  "proxy": false,
+  "implementation": null,
+  "sstore2": false,
+  "ethfs": false,
+  "scripty": false,
+  "base64": true,
+  "gzip": false,
+  "data_uri": true,
+  "http_literals": [
+   "https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.min.js",
+   "https://cdnjs.cloudflare.com/ajax/libs/seedrandom/3.0.5/seedrandom.min.js",
+   "https://xn--2-umb.com/21/muldiv"
+  ],
+  "ipfs_literal": true,
+  "setters": []
+ },
+ "artwork_file": "artwork.html",
+ "doc_type": "text/html; charset=utf-8",
+ "artwork_bytes": 4472,
+ "artwork_sha256": "ae62a0ec2b83e5f3090189a983fbb3f48c191c89724a82935c8bd3f6924092fb",
+ "declared": {
+  "load": [
+   "https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.min.js",
+   "https://cdnjs.cloudflare.com/ajax/libs/seedrandom/3.0.5/seedrandom.min.js"
+  ],
+  "literals": []
+ },
+ "built_at": "2026-10-21T20:18:12Z"
+}

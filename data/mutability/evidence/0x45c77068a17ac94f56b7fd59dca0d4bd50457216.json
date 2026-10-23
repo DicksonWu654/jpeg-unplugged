@@ -1,0 +1,1070 @@
+{
+ "address": "0x45c77068a17ac94f56b7fd59dca0d4bd50457216",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:48Z",
+ "code_raw": "data/raw/rpc-mutability/0x45c77068a17ac94f56b7fd59dca0d4bd50457216_code.json",
+ "code_len": 45,
+ "slots": {
+  "slot0": "0x0000000000000000000029b2f895343cadfb3f5101bef6484b1f01c83dc90001"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0x45c77068a17ac94f56b7fd59dca0d4bd50457216_slots.json",
+ "verified": false,
+ "contract_name": "",
+ "proxy": {
+  "kind": "eip1167-clone",
+  "impl": "0xa53a3bf2840fd132fecdf7684b20c2cc8ec8e0b5",
+  "impl_verified": true,
+  "impl_name": "Collection"
+ },
+ "has_source": true,
+ "abi_from": "impl+proxy",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 1,
+    "first": "2023-11-14",
+    "last": "2023-11-14",
+    "last_tx": "0xd84785a4109fe3625c11cc694fcd18b5433991d19b4114ad2d14ffc03ad230a4",
+    "list": [
+     {
+      "date": "2023-11-14",
+      "tx": "0xd84785a4109fe3625c11cc694fcd18b5433991d19b4114ad2d14ffc03ad230a4",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "29b2f895343cadfb3f5101bef6484b1f01c83dc9"
+      ],
+      "data": "0x"
+     }
+    ]
+   }
+  },
+  "decoded": [],
+  "ownership_transfers": [
+   {
+    "date": "2023-11-14",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0x29b2f895343cadfb3f5101bef6484b1f01c83dc9",
+    "tx": "0xd84785a4109fe3625c11cc694fcd18b5433991d19b4114ad2d14ffc03ad230a4"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0x45c77068a17ac94f56b7fd59dca0d4bd50457216_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0x29b2f895343cadfb3f5101bef6484b1f01c83dc9",
+  "code_raw": "data/raw/rpc-mutability/0x29b2f895343cadfb3f5101bef6484b1f01c83dc9_holdercode.json",
+  "type": "eoa",
+  "bs_name": null,
+  "ens": "revdancatt.eth",
+  "bs_impl_names": [],
+  "bs_tags": [],
+  "is_contract": false,
+  "creator": null,
+  "is_verified": false,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "override",
+ "lock_functions": [
+  "renounceRole"
+ ],
+ "lock_flags_true": {},
+ "roles": {
+  "ROLE_MANAGER": {
+   "value": "0xf206625bad3d9112d5609b8d356e6fbd514cd1f69980d4ce2b3e6e68e1789ace",
+   "members": [
+    "0x86efa9310e6f91bf2e97d7bdf29b0378eb173dff"
+   ],
+   "source": "enumerable"
+  },
+  "DEFAULT_ADMIN_ROLE": {
+   "value": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "members": [
+    "0x86efa9310e6f91bf2e97d7bdf29b0378eb173dff"
+   ],
+   "source": "enumerable"
+  },
+  "ROLE_ARTIST": {
+   "value": "0x63680df430131e002a919e96864c2a88aef0a4ae2b002894ffc3d31894db09c4",
+   "members": [
+    "0x29b2f895343cadfb3f5101bef6484b1f01c83dc9"
+   ],
+   "source": "enumerable"
+  }
+ },
+ "mutators": [
+  {
+   "name": "writeMetadata",
+   "sig": "writeMetadata(string[],string[])",
+   "selector": "0xc9910973",
+   "category": "renderer",
+   "inputs": [
+    "string[]",
+    "string[]"
+   ],
+   "gates": [
+    {
+     "type": "role",
+     "ref": "ROLE_MANAGER"
+    },
+    {
+     "type": "role",
+     "ref": "ROLE_ARTIST"
+    }
+   ],
+   "modifiers": [
+    "managerOrArtist"
+   ],
+   "body_head": "if (keys.length != values.length) {\n            revert InvalidConfiguration();\n        }\n        for (uint256 i = 0; i < keys.length; i++) {\n            metadat",
+   "writes": [],
+   "effective": "unknown",
+   "power": "eoa",
+   "holder_addrs": [
+    "0x86efa9310e6f91bf2e97d7bdf29b0378eb173dff",
+    "0x29b2f895343cadfb3f5101bef6484b1f01c83dc9"
+   ],
+   "holder_how": [
+    "role:ROLE_MANAGER",
+    "role:ROLE_ARTIST"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x86efa9310e6f91bf2e97d7bdf29b0378eb173dff",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    },
+    {
+     "addr": "0x29b2f895343cadfb3f5101bef6484b1f01c83dc9",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": "revdancatt.eth",
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  }
+ ],
+ "class_direct": "eoa-mutable",
+ "class_reason": "live setters (eoa): writeMetadata",
+ "live_mutators": [
+  "writeMetadata"
+ ],
+ "dependencies": [
+  {
+   "address": "0x95a405d36e572a35bf00dad4adb7bff4d2df56ad",
+   "via": "albaDelegate()",
+   "in_tokenuri_path": true,
+   "via_setter": false,
+   "analysis": {
+    "address": "0x95a405d36e572a35bf00dad4adb7bff4d2df56ad",
+    "verified": true,
+    "contract_name": "TransparentUpgradeableProxy",
+    "proxy": {
+     "kind": "eip1967",
+     "impl": "0x46b6eb7b883f02fb45079df9ee2a4f1ec16340e7",
+     "impl_verified": true,
+     "impl_name": "AlbaDelegate",
+     "admin": {
+      "addr": "0x56049b75b125550c048d00a4cb2ece2220e52803",
+      "code_raw": "data/raw/rpc-mutability/0x56049b75b125550c048d00a4cb2ece2220e52803_holdercode.json",
+      "type": "eoa",
+      "bs_name": null,
+      "ens": null,
+      "bs_impl_names": [],
+      "bs_tags": [],
+      "is_contract": false,
+      "creator": null,
+      "is_verified": false,
+      "bs_reputation": "ok"
+     }
+    },
+    "owner": null,
+    "admin_fn": null,
+    "uups": false,
+    "lock_views": {},
+    "lock_flags_true": {},
+    "lock_functions": [
+     "renounceRole"
+    ],
+    "class_direct": "eoa-mutable",
+    "class_reason": "live setters (eoa): changeAdmin,setCommonBaseURI,setOnchainMetadataRenderer,upgradeTo,upgradeToAndCall",
+    "live_mutators": [
+     "changeAdmin",
+     "setCommonBaseURI",
+     "setOnchainMetadataRenderer",
+     "upgradeTo",
+     "upgradeToAndCall"
+    ],
+    "mutators": [
+     {
+      "name": "setCommonBaseURI",
+      "sig": "setCommonBaseURI(string)",
+      "selector": "0xfc9556a6",
+      "category": "uri",
+      "inputs": [
+       "string"
+      ],
+      "gates": [
+       {
+        "type": "role",
+        "ref": "MANAGER_ROLE"
+       }
+      ],
+      "modifiers": [
+       "onlyRole(MANAGER_ROLE)"
+      ],
+      "body_head": "commonBaseTokenURI = _baseURI;\n        emit ProtocolChanged(\"CommonBaseURIChanged\", abi.encode(_baseURI));",
+      "writes": [
+       "commonBaseTokenURI"
+      ],
+      "effective": "yes",
+      "power": "eoa",
+      "holder_addrs": [
+       "0x86efa9310e6f91bf2e97d7bdf29b0378eb173dff"
+      ],
+      "holder_how": [
+       "role:MANAGER_ROLE"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0x86efa9310e6f91bf2e97d7bdf29b0378eb173dff",
+        "type": "eoa",
+        "bs_name": null,
+        "ens": null,
+        "desc": "eoa",
+        "simple": "eoa"
+       }
+      ]
+     },
+     {
+      "name": "setHTMLBuilder",
+      "sig": "setHTMLBuilder(address)",
+      "selector": "0x33c80a57",
+      "category": "renderer",
+      "inputs": [
+       "address"
+      ],
+      "gates": [
+       {
+        "type": "role",
+        "ref": "MANAGER_ROLE"
+       }
+      ],
+      "modifiers": [
+       "onlyRole(MANAGER_ROLE)"
+      ],
+      "body_head": "builder = _builder;\n        emit ProtocolChanged(\"HTMLBuilderChanged\", abi.encode(address(_builder)));",
+      "writes": [
+       "builder"
+      ],
+      "effective": "no",
+      "power": "eoa",
+      "holder_addrs": [
+       "0x86efa9310e6f91bf2e97d7bdf29b0378eb173dff"
+      ],
+      "holder_how": [
+       "role:MANAGER_ROLE"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0x86efa9310e6f91bf2e97d7bdf29b0378eb173dff",
+        "type": "eoa",
+        "bs_name": null,
+        "ens": null,
+        "desc": "eoa",
+        "simple": "eoa"
+       }
+      ]
+     },
+     {
+      "name": "setOnchainMetadataRenderer",
+      "sig": "setOnchainMetadataRenderer(address)",
+      "selector": "0xb0422f41",
+      "category": "renderer",
+      "inputs": [
+       "address"
+      ],
+      "gates": [
+       {
+        "type": "role",
+        "ref": "MANAGER_ROLE"
+       }
+      ],
+      "modifiers": [
+       "onlyRole(MANAGER_ROLE)"
+      ],
+      "body_head": "if (address(renderer) != address(0) && address(renderer).code.length == 0) {\n            revert InvalidMetadataConfiguration();\n        }\n        onchainMetadat",
+      "writes": [
+       "onchainMetadataRenderer"
+      ],
+      "effective": "yes",
+      "power": "eoa",
+      "holder_addrs": [
+       "0x86efa9310e6f91bf2e97d7bdf29b0378eb173dff"
+      ],
+      "holder_how": [
+       "role:MANAGER_ROLE"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0x86efa9310e6f91bf2e97d7bdf29b0378eb173dff",
+        "type": "eoa",
+        "bs_name": null,
+        "ens": null,
+        "desc": "eoa",
+        "simple": "eoa"
+       }
+      ]
+     },
+     {
+      "name": "setOperatorFilterSubscription",
+      "sig": "setOperatorFilterSubscription(address)",
+      "selector": "0x615ed80c",
+      "category": "renderer",
+      "inputs": [
+       "address"
+      ],
+      "gates": [
+       {
+        "type": "role",
+        "ref": "MANAGER_ROLE"
+       }
+      ],
+      "modifiers": [
+       "onlyRole(MANAGER_ROLE)"
+      ],
+      "body_head": "operatorRegistrant = _subscription;\n        emit ProtocolChanged(\"OperatorFilterSubscriptionChanged\", abi.encode(_subscription));",
+      "writes": [
+       "operatorRegistrant"
+      ],
+      "effective": "no",
+      "power": "eoa",
+      "holder_addrs": [
+       "0x86efa9310e6f91bf2e97d7bdf29b0378eb173dff"
+      ],
+      "holder_how": [
+       "role:MANAGER_ROLE"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0x86efa9310e6f91bf2e97d7bdf29b0378eb173dff",
+        "type": "eoa",
+        "bs_name": null,
+        "ens": null,
+        "desc": "eoa",
+        "simple": "eoa"
+       }
+      ]
+     },
+     {
+      "name": "changeAdmin",
+      "sig": "changeAdmin(address)",
+      "selector": "0x8f283970",
+      "category": "upgrade",
+      "inputs": [
+       "address"
+      ],
+      "gates": [
+       {
+        "type": "named",
+        "ref": "_getAdmin"
+       }
+      ],
+      "modifiers": [
+       "ifAdmin"
+      ],
+      "body_head": "_changeAdmin(newAdmin);",
+      "writes": [],
+      "power": "eoa",
+      "holder_addrs": [
+       "0x56049b75b125550c048d00a4cb2ece2220e52803"
+      ],
+      "holder_how": [
+       "eip1967 admin slot"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0x56049b75b125550c048d00a4cb2ece2220e52803",
+        "type": "eoa",
+        "bs_name": null,
+        "ens": null,
+        "desc": "eoa",
+        "simple": "eoa"
+       }
+      ]
+     },
+     {
+      "name": "upgradeTo",
+      "sig": "upgradeTo(address)",
+      "selector": "0x3659cfe6",
+      "category": "upgrade",
+      "inputs": [
+       "address"
+      ],
+      "gates": [
+       {
+        "type": "named",
+        "ref": "_getAdmin"
+       }
+      ],
+      "modifiers": [
+       "ifAdmin"
+      ],
+      "body_head": "_upgradeToAndCall(newImplementation, bytes(\"\"), false);",
+      "writes": [],
+      "power": "eoa",
+      "holder_addrs": [
+       "0x56049b75b125550c048d00a4cb2ece2220e52803"
+      ],
+      "holder_how": [
+       "eip1967 admin slot"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0x56049b75b125550c048d00a4cb2ece2220e52803",
+        "type": "eoa",
+        "bs_name": null,
+        "ens": null,
+        "desc": "eoa",
+        "simple": "eoa"
+       }
+      ]
+     },
+     {
+      "name": "upgradeToAndCall",
+      "sig": "upgradeToAndCall(address,bytes)",
+      "selector": "0x4f1ef286",
+      "category": "upgrade",
+      "inputs": [
+       "address",
+       "bytes"
+      ],
+      "gates": [
+       {
+        "type": "named",
+        "ref": "_getAdmin"
+       }
+      ],
+      "modifiers": [
+       "ifAdmin"
+      ],
+      "body_head": "_upgradeToAndCall(newImplementation, data, true);",
+      "writes": [],
+      "power": "eoa",
+      "holder_addrs": [
+       "0x56049b75b125550c048d00a4cb2ece2220e52803"
+      ],
+      "holder_how": [
+       "eip1967 admin slot"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0x56049b75b125550c048d00a4cb2ece2220e52803",
+        "type": "eoa",
+        "bs_name": null,
+        "ens": null,
+        "desc": "eoa",
+        "simple": "eoa"
+       }
+      ]
+     }
+    ],
+    "history": {
+     "txs": [
+      {
+       "hash": "0xbbd53b8ae8e78cf14df452e09947986433dd02837f95eceef7afff7a012d3369",
+       "timestamp": "2026-08-30T12:53:23.000000Z",
+       "method": "setOnchainMetadataRenderer",
+       "from": "0x86EFA9310E6f91Bf2E97D7BdF29b0378eb173dFf",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 25868211,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x1663233776a5b8964b61d5deb7251799b03100e67a0c92bef905e45fcb0d5ba7",
+       "timestamp": "2026-08-30T01:15:23.000000Z",
+       "method": "setOnchainMetadataRenderer",
+       "from": "0x86EFA9310E6f91Bf2E97D7BdF29b0378eb173dFf",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 25864732,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xf3ddb99c834d0b1c86c1f2698970f20a6ae56d2160b52377ae1323ebb4d95e93",
+       "timestamp": "2026-08-30T01:14:23.000000Z",
+       "method": "upgradeTo",
+       "from": "0x56049B75b125550C048D00a4CB2eCe2220E52803",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 25864727,
+       "category": "upgrade"
+      },
+      {
+       "hash": "0x7d5245c6346cc729236a2062d792d1711fe881aac229ad9ccf9b255b005bb558",
+       "timestamp": "2025-12-17T01:31:59.000000Z",
+       "method": "setCommonBaseURI",
+       "from": "0x86EFA9310E6f91Bf2E97D7BdF29b0378eb173dFf",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 24029067,
+       "category": "uri"
+      },
+      {
+       "hash": "0x999f58a27f25ef26f6ccfa4e07a874584700b1268239ffa7f56a3bacacda1e38",
+       "timestamp": "2024-01-27T23:24:23.000000Z",
+       "method": "upgradeTo",
+       "from": "0x56049B75b125550C048D00a4CB2eCe2220E52803",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 19101157,
+       "category": "upgrade"
+      },
+      {
+       "hash": "0x63f9c1b970a149ab429db869d1d6c73fe0da1b182156c90f97cbfe821d40fdf5",
+       "timestamp": "2023-11-04T12:11:47.000000Z",
+       "method": "upgradeTo",
+       "from": "0x56049B75b125550C048D00a4CB2eCe2220E52803",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 18498590,
+       "category": "upgrade"
+      }
+     ],
+     "events": {
+      "Upgraded(address)": {
+       "n": 4,
+       "first": "2023-05-15",
+       "last": "2026-08-30",
+       "last_tx": "0xf3ddb99c834d0b1c86c1f2698970f20a6ae56d2160b52377ae1323ebb4d95e93",
+       "list": [
+        {
+         "date": "2023-05-15",
+         "tx": "0x31cf781a75de3449a7d0bff3c26eac90b3e0569be12b200a1f2b63aa0c74ee95",
+         "topics": [
+          "42f60aef3c66b3c622ac4d2e9157ce996c279ffc"
+         ],
+         "data": "0x"
+        },
+        {
+         "date": "2023-11-04",
+         "tx": "0x63f9c1b970a149ab429db869d1d6c73fe0da1b182156c90f97cbfe821d40fdf5",
+         "topics": [
+          "f37545ebfe74136b0a966e2a7391fd92af7a9bf7"
+         ],
+         "data": "0x"
+        },
+        {
+         "date": "2024-01-27",
+         "tx": "0x999f58a27f25ef26f6ccfa4e07a874584700b1268239ffa7f56a3bacacda1e38",
+         "topics": [
+          "0b99e68d78010daa628a48a3ac15ca65be79d571"
+         ],
+         "data": "0x"
+        },
+        {
+         "date": "2026-08-30",
+         "tx": "0xf3ddb99c834d0b1c86c1f2698970f20a6ae56d2160b52377ae1323ebb4d95e93",
+         "topics": [
+          "46b6eb7b883f02fb45079df9ee2a4f1ec16340e7"
+         ],
+         "data": "0x"
+        }
+       ]
+      },
+      "AdminChanged(address,address)": {
+       "n": 1,
+       "first": "2023-05-15",
+       "last": "2023-05-15",
+       "last_tx": "0x31cf781a75de3449a7d0bff3c26eac90b3e0569be12b200a1f2b63aa0c74ee95",
+       "list": [
+        {
+         "date": "2023-05-15",
+         "tx": "0x31cf781a75de3449a7d0bff3c26eac90b3e0569be12b200a1f2b63aa0c74ee95",
+         "topics": [],
+         "data": "0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000056049b75b125550c048d00a4cb2ece2220e52803"
+        }
+       ]
+      },
+      "BeaconUpgraded(address)": {
+       "n": 0
+      },
+      "OnchainMetadataActivationChanged(bytes32,string,bool)": {
+       "n": 57,
+       "first": "2026-08-30",
+       "last": "2026-08-30",
+       "last_tx": "0x6b4bea3b96ece8b381ddedb86fc93ab612316b2daf5620cbf59af52a8896c21f",
+       "list": [
+        {
+         "date": "2026-08-30",
+         "tx": "0x64f44fc094e5f70f8ad3a0d2dd2f366c48b3f389439d151ffd8a6cf43c71a243",
+         "topics": [
+          "0x0f8af6718042b6ca6ec81c0fb0065da5cef50c9d5d349573be3cc774f247a5ce"
+         ],
+         "data": "0x00000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000001"
+        },
+        {
+         "date": "2026-08-30",
+         "tx": "0xb5c1ab55328eefc11a634a4c01f015b3062be3a5422a300c5b0accc31ad986e1",
+         "topics": [
+          "0x0f8af6718042b6ca6ec81c0fb0065da5cef50c9d5d349573be3cc774f247a5ce"
+         ],
+         "data": "0x00000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+         "date": "2026-08-30",
+         "tx": "0xc5e2b1846b4887c35cd5d3ff4e660601e96f54ff3530bbb3dd3f8ab582b9fae9",
+         "topics": [
+          "0x0f8af6718042b6ca6ec81c0fb0065da5cef50c9d5d349573be3cc774f247a5ce"
+         ],
+         "data": "0x00000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000001"
+        },
+        {
+         "date": "2026-08-30",
+         "tx": "0xceac74cffdef7c6e115b9ed4bbaeda607554b5fff9161f3e68ecef2be43783ad",
+         "topics": [
+          "0x91ee7598607c50d2833ac204345252ab33ae693d1f1c1adc31dc5ca23efb92bc"
+         ],
+         "data": "0x00000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000001"
+        },
+        {
+         "date": "2026-08-30",
+         "tx": "0xceac74cffdef7c6e115b9ed4bbaeda607554b5fff9161f3e68ecef2be43783ad",
+         "topics": [
+          "0x8eebb9c85a66cc7d62af19e38454be9ecdc2e3f7acc2e4231465d298551fe864"
+         ],
+         "data": "0x00000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000001"
+        },
+        {
+         "date": "2026-08-30",
+         "tx": "0xceac74cffdef7c6e115b9ed4bbaeda607554b5fff9161f3e68ecef2be43783ad",
+         "topics": [
+          "0x32b44e3d84837b4faa3d69bf0d6bfaa7fcebc76e5dff4200776abb6b94cf9853"
+         ],
+         "data": "0x00000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000001"
+        },
+        {
+         "date": "2026-08-30",
+         "tx": "0xceac74cffdef7c6e115b9ed4bbaeda607554b5fff9161f3e68ecef2be43783ad",
+         "topics": [
+          "0x666f241221c4cd74e9e91ca4c8d97c9be10e4a2daab22e7bb4d066c5de2e8be3"
+         ],
+         "data": "0x00000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000001"
+        },
+        {
+         "date": "2026-08-30",
+         "tx": "0xceac74cffdef7c6e115b9ed4bbaeda607554b5fff9161f3e68ecef2be43783ad",
+         "topics": [
+          "0xcf64eebba1a74b5f087c6014f92fc9fa6aa17229c452588be3b391cae6a63163"
+         ],
+         "data": "0x00000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000001"
+        },
+        {
+         "date": "2026-08-30",
+         "tx": "0xceac74cffdef7c6e115b9ed4bbaeda607554b5fff9161f3e68ecef2be43783ad",
+         "topics": [
+          "0xe74afb938c0958dff27e62765cc9d8387f49f80728a1a14f6017942f3861d6f1"
+         ],
+         "data": "0x00000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000001"
+        },
+        {
+         "date": "2026-08-30",
+         "tx": "0xceac74cffdef7c6e115b9ed4bbaeda607554b5fff9161f3e68ecef2be43783ad",
+         "topics": [
+          "0x6a24f15fdd027b4c5cb8e9276e981480a171bdc04cf6af1210e0a0f5bf0aa1fe"
+         ],
+         "data": "0x00000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000001"
+        },
+        {
+         "date": "2026-08-30",
+         "tx": "0x6fc14ed11dcbf4589d2a17ea08dc5fe2bb34ce820c4366d9407a755d3b460f92",
+         "topics": [
+          "0xce0b214281c698d7f90aaa5a6924a8b244c50d025251d537c895e56fb7d3557f"
+         ],
+         "data": "0x00000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000001"
+        },
+        {
+         "date": "2026-08-30",
+         "tx": "0x6fc14ed11dcbf4589d2a17ea08dc5fe2bb34ce820c4366d9407a755d3b460f92",
+         "topics": [
+          "0x00b47ad1ab37895cdc818a04568afb315c91d7f2347053dd3d68a4781c2702f4"
+         ],
+         "data": "0x00000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000001"
+        },
+        {
+         "date": "2026-08-30",
+         "tx": "0x6fc14ed11dcbf4589d2a17ea08dc5fe2bb34ce820c4366d9407a755d3b460f92",
+         "topics": [
+          "0x50e59f7314d320855f7340699ad22c77652e6ec35ec0ff02e581efe3b8f9b2b5"
+         ],
+         "data": "0x00000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000001"
+        },
+        {
+         "date": "2026-08-30",
+         "tx": "0x6fc14ed11dcbf4589d2a17ea08dc5fe2bb34ce820c4366d9407a755d3b460f92",
+         "topics": [
+          "0x297e26da461e3411013dcc0a53b76aa7aca4b6a09b3fd72f10dea7333b69cc9d"
+         ],
+         "data": "0x00000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000001"
+        },
+        {
+         "date": "2026-08-30",
+         "tx": "0x6fc14ed11dcbf4589d2a17ea08dc5fe2bb34ce820c4366d9407a755d3b460f92",
+         "topics": [
+          "0xbf8276696b215305e71203de57dbe99f0c34073867c3f3bb4ce8da619856339a"
+         ],
+         "data": "0x00000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000001"
+        },
+        {
+         "date": "2026-08-30",
+         "tx": "0x6fc14ed11dcbf4589d2a17ea08dc5fe2bb34ce820c4366d9407a755d3b460f92",
+         "topics": [
+          "0x34d508a49649a54e91cf0d32dbcdeedfb49eac97d2fe953c8100e87fff85aa05"
+         ],
+         "data": "0x00000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000001"
+        },
+        {
+         "date": "2026-08-30",
+         "tx": "0x6fc14ed11dcbf4589d2a17ea08dc5fe2bb34ce820c4366d9407a755d3b460f92",
+         "topics": [
+          "0xf5299159ab29e1ed4a5b387c0d2503befb105921fa40c370a490cb853b741f40"
+         ],
+         "data": "0x00000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000001"
+        },
+        {
+         "date": "2026-08-30",
+         "tx": "0x242c554ec4f26aebfd32c8019a3bfb06909a5bb682702461874e93c1ab7fdb4b",
+         "topics": [
+          "0xf92191f5be1a6521c7e9db793de40d3855862ca5e9bda84dea75932b5369636f"
+         ],
+         "data": "0x00000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000001"
+        },
+        {
+         "date": "2026-08-30",
+         "tx": "0x242c554ec4f26aebfd32c8019a3bfb06909a5bb682702461874e93c1ab7fdb4b",
+         "topics": [
+          "0x880ccb9962668aab103a085902da3b8852f49ae71a22aee1cd836de189c73251"
+         ],
+         "data": "0x00000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000001"
+        },
+        {
+         "date": "2026-08-30",
+         "tx": "0x242c554ec4f26aebfd32c8019a3bfb06909a5bb682702461874e93c1ab7fdb4b",
+         "topics": [
+          "0x1efbfc6faa79e54058684d8dfa08b3bc4ef06349b3f1316402554eb587b374ab"
+         ],
+         "data": "0x00000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000001"
+        },
+        {
+         "date": "2026-08-30",
+         "tx": "0x242c554ec4f26aebfd32c8019a3bfb06909a5bb682702461874e93c1ab7fdb4b",
+         "topics": [
+          "0xb18efc4f832efd84125097144cc7cda334a23d87045630348351c2ab591e6608"
+         ],
+         "data": "0x00000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000001"
+        },
+        {
+         "date": "2026-08-30",
+         "tx": "0x242c554ec4f26aebfd32c8019a3bfb06909a5bb682702461874e93c1ab7fdb4b",
+         "topics": [
+          "0x5aad5bc3723d2d5a1ebd36f350ec1949be255f24b6f38329a003ef43dba117da"
+         ],
+         "data": "0x00000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000001"
+        },
+        {
+         "date": "2026-08-30",
+         "tx": "0x242c554ec4f26aebfd32c8019a3bfb06909a5bb682702461874e93c1ab7fdb4b",
+         "topics": [
+          "0xbf8d050d8c0c4975f4aa36377c9fc97cfbee87154745fbc792c845c77aa9476d"
+         ],
+         "data": "0x00000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000001"
+        },
+        {
+         "date": "2026-08-30",
+         "tx": "0x242c554ec4f26aebfd32c8019a3bfb06909a5bb682702461874e93c1ab7fdb4b",
+         "topics": [
+          "0xcef9302efd4bd75d81127f7315a14cad2e57f0bdcf77676e43bd84beaef1ff46"
+         ],
+         "data": "0x00000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000001"
+        },
+        {
+         "date": "2026-08-30",
+         "tx": "0x242c554ec4f26aebfd32c8019a3bfb06909a5bb682702461874e93c1ab7fdb4b",
+         "topics": [
+          "0xcdc2ec766c6cd977eb14199d3df0085d09c0e5152901d5794326d3a5e15c13ac"
+         ],
+         "data": "0x00000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000001"
+        },
+        {
+         "date": "2026-08-30",
+         "tx": "0x242c554ec4f26aebfd32c8019a3bfb06909a5bb682702461874e93c1ab7fdb4b",
+         "topics": [
+          "0x81a377287952c36c74796584ffdd5e681119c925e12e992dd85bb74b579509ca"
+         ],
+         "data": "0x00000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000001"
+        },
+        {
+         "date": "2026-08-30",
+         "tx": "0x242c554ec4f26aebfd32c8019a3bfb06909a5bb682702461874e93c1ab7fdb4b",
+         "topics": [
+          "0x59a66728a052846a498491b5c1f5c87776975553ef32dc7100cf5c6ddd62353f"
+         ],
+         "data": "0x00000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000001"
+        },
+        {
+         "date": "2026-08-30",
+         "tx": "0x242c554ec4f26aebfd32c8019a3bfb06909a5bb682702461874e93c1ab7fdb4b",
+         "topics": [
+          "0x868aa7e0803d99a2a5f72607e94435c149d5459ad580e4645d07a401affd7753"
+         ],
+         "data": "0x00000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000001"
+        },
+        {
+         "date": "2026-08-30",
+         "tx": "0x242c554ec4f26aebfd32c8019a3bfb06909a5bb682702461874e93c1ab7fdb4b",
+         "topics": [
+          "0xbc72390b724220bdb917cb26ab6c5d1637d77831f853faab16981596807071a8"
+         ],
+         "data": "0x00000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000001"
+        },
+        {
+         "date": "2026-08-30",
+         "tx": "0x242c554ec4f26aebfd32c8019a3bfb06909a5bb682702461874e93c1ab7fdb4b",
+         "topics": [
+          "0x9b5b196505da5394c39c93857b7c4022bb15c12632e856fc2b513d173d3b6c09"
+         ],
+         "data": "0x00000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000001"
+        }
+       ]
+      },
+      "OnchainMetadataRendererChanged(address)": {
+       "n": 2,
+       "first": "2026-08-30",
+       "last": "2026-08-30",
+       "last_tx": "0xbbd53b8ae8e78cf14df452e09947986433dd02837f95eceef7afff7a012d3369",
+       "list": [
+        {
+         "date": "2026-08-30",
+         "tx": "0x1663233776a5b8964b61d5deb7251799b03100e67a0c92bef905e45fcb0d5ba7",
+         "topics": [
+          "7beb1bb0af470a6b5f2c190260a984d1d4647f88"
+         ],
+         "data": "0x"
+        },
+        {
+         "date": "2026-08-30",
+         "tx": "0xbbd53b8ae8e78cf14df452e09947986433dd02837f95eceef7afff7a012d3369",
+         "topics": [
+          "e2ccdb685eae7b81bff41cab467cec0c9604a57e"
+         ],
+         "data": "0x"
+        }
+       ]
+      }
+     },
+     "decoded": [
+      {
+       "hash": "0x63f9c1b970a149ab429db869d1d6c73fe0da1b182156c90f97cbfe821d40fdf5",
+       "timestamp": "2023-11-04T12:11:47.000000Z",
+       "method": "upgradeTo",
+       "category": "upgrade",
+       "from": "0x56049B75b125550C048D00a4CB2eCe2220E52803",
+       "params": [
+        {
+         "name": "arg0",
+         "type": "address",
+         "value": "0xf37545ebfe74136b0a966e2a7391fd92af7a9bf7"
+        }
+       ],
+       "value_kinds": [
+        "address"
+       ],
+       "error": null
+      },
+      {
+       "hash": "0x999f58a27f25ef26f6ccfa4e07a874584700b1268239ffa7f56a3bacacda1e38",
+       "timestamp": "2024-01-27T23:24:23.000000Z",
+       "method": "upgradeTo",
+       "category": "upgrade",
+       "from": "0x56049B75b125550C048D00a4CB2eCe2220E52803",
+       "params": [
+        {
+         "name": "arg0",
+         "type": "address",
+         "value": "0x0b99e68d78010daa628a48a3ac15ca65be79d571"
+        }
+       ],
+       "value_kinds": [
+        "address"
+       ],
+       "error": null
+      },
+      {
+       "hash": "0x7d5245c6346cc729236a2062d792d1711fe881aac229ad9ccf9b255b005bb558",
+       "timestamp": "2025-12-17T01:31:59.000000Z",
+       "method": "setCommonBaseURI",
+       "category": "uri",
+       "from": "0x86EFA9310E6f91Bf2E97D7BdF29b0378eb173dFf",
+       "params": [
+        {
+         "name": "arg0",
+         "type": "string",
+         "value": "https://prod-alba-56s2.encr.app"
+        }
+       ],
+       "value_kinds": [
+        "http"
+       ],
+       "error": null
+      },
+      {
+       "hash": "0xf3ddb99c834d0b1c86c1f2698970f20a6ae56d2160b52377ae1323ebb4d95e93",
+       "timestamp": "2026-08-30T01:14:23.000000Z",
+       "method": "upgradeTo",
+       "category": "upgrade",
+       "from": "0x56049B75b125550C048D00a4CB2eCe2220E52803",
+       "params": [
+        {
+         "name": "arg0",
+         "type": "address",
+         "value": "0x46b6eb7b883f02fb45079df9ee2a4f1ec16340e7"
+        }
+       ],
+       "value_kinds": [
+        "address"
+       ],
+       "error": null
+      },
+      {
+       "hash": "0x1663233776a5b8964b61d5deb7251799b03100e67a0c92bef905e45fcb0d5ba7",
+       "timestamp": "2026-08-30T01:15:23.000000Z",
+       "method": "setOnchainMetadataRenderer",
+       "category": "renderer",
+       "from": "0x86EFA9310E6f91Bf2E97D7BdF29b0378eb173dFf",
+       "params": [
+        {
+         "name": "arg0",
+         "type": "address",
+         "value": "0x7beb1bb0af470a6b5f2c190260a984d1d4647f88"
+        }
+       ],
+       "value_kinds": [
+        "address"
+       ],
+       "error": null
+      },
+      {
+       "hash": "0xbbd53b8ae8e78cf14df452e09947986433dd02837f95eceef7afff7a012d3369",
+       "timestamp": "2026-08-30T12:53:23.000000Z",
+       "method": "setOnchainMetadataRenderer",
+       "category": "renderer",
+       "from": "0x86EFA9310E6f91Bf2E97D7BdF29b0378eb173dFf",
+       "params": [
+        {
+         "name": "arg0",
+         "type": "address",
+         "value": "0xe2ccdb685eae7b81bff41cab467cec0c9604a57e"
+        }
+       ],
+       "value_kinds": [
+        "address"
+       ],
+       "error": null
+      }
+     ],
+     "upgrades": [
+      {
+       "date": "2023-05-15",
+       "impl": "0x42f60aef3c66b3c622ac4d2e9157ce996c279ffc",
+       "tx": "0x31cf781a75de3449a7d0bff3c26eac90b3e0569be12b200a1f2b63aa0c74ee95"
+      },
+      {
+       "date": "2023-11-04",
+       "impl": "0xf37545ebfe74136b0a966e2a7391fd92af7a9bf7",
+       "tx": "0x63f9c1b970a149ab429db869d1d6c73fe0da1b182156c90f97cbfe821d40fdf5"
+      },
+      {
+       "date": "2024-01-27",
+       "impl": "0x0b99e68d78010daa628a48a3ac15ca65be79d571",
+       "tx": "0x999f58a27f25ef26f6ccfa4e07a874584700b1268239ffa7f56a3bacacda1e38"
+      },
+      {
+       "date": "2026-08-30",
+       "impl": "0x46b6eb7b883f02fb45079df9ee2a4f1ec16340e7",
+       "tx": "0xf3ddb99c834d0b1c86c1f2698970f20a6ae56d2160b52377ae1323ebb4d95e93"
+      }
+     ],
+     "incomplete": false
+    },
+    "unverified_selector_hits": [],
+    "tokenuri_path": "override"
+   }
+  }
+ ],
+ "meta": {
+  "address": "0x45c77068a17ac94f56b7fd59dca0d4bd50457216",
+  "name": "(81-82-83-84) by Daniel Catt",
+  "w5_claim_strength": null,
+  "w5_claim_text": null,
+  "w5_source_type": null,
+  "w5_source_url": null,
+  "holders_count": 101.0,
+  "in_w5": false,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": "onchain-renderer",
+  "census_media_class": "ipfs",
+  "census_liveness": "alive",
+  "in_census_onchain": true,
+  "standard": "ERC-721",
+  "creator": "0x29b2f895343cadfb3f5101bef6484b1f01c83dc9",
+  "deploy_block": 18572279.0
+ },
+ "class_deps_all": "eoa-mutable",
+ "class_deps": "eoa-mutable",
+ "class_final": "eoa-mutable",
+ "pointer_power": "eoa"
+}

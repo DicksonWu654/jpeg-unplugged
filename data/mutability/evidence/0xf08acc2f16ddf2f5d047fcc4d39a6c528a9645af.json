@@ -1,0 +1,603 @@
+{
+ "address": "0xf08acc2f16ddf2f5d047fcc4d39a6c528a9645af",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:09Z",
+ "code_raw": "data/raw/rpc-mutability/0xf08acc2f16ddf2f5d047fcc4d39a6c528a9645af_code.json",
+ "code_len": 16482,
+ "slots": {
+  "slot0": "0x5468652041706520536f6369657479000000000000000000000000000000001e"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0xf08acc2f16ddf2f5d047fcc4d39a6c528a9645af_slots.json",
+ "verified": true,
+ "contract_name": "TASNFT",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [
+   {
+    "hash": "0xe78c09ac3be80ce4e3d66ede36f5cdd4cdb78793dbc3da1f2387089fcfe7a19f",
+    "timestamp": "2026-10-06T23:58:35.000000Z",
+    "method": "lockMinter",
+    "from": "0xc9Eddf31f1B8D7C2A9C0B4907E0d1948e4A2E045",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26136775,
+    "category": "lock"
+   },
+   {
+    "hash": "0x812d038b41dff4af6f71aa082494781c7bff4001391617af58d628e92d5414dd",
+    "timestamp": "2026-10-06T23:22:11.000000Z",
+    "method": "setTailoredImageBaseURI",
+    "from": "0xc9Eddf31f1B8D7C2A9C0B4907E0d1948e4A2E045",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26136594,
+    "category": "uri"
+   },
+   {
+    "hash": "0xbba5925210a6ec9d47acd54e20aaee040d9f75b8a2c18ec324a83339c1e2e68e",
+    "timestamp": "2026-10-06T22:08:59.000000Z",
+    "method": "seal",
+    "from": "0xc9Eddf31f1B8D7C2A9C0B4907E0d1948e4A2E045",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26136228,
+    "category": "lock"
+   },
+   {
+    "hash": "0x93c8d3fb935540cd92291f137bb6c3f37a841a55f8c75bff280850c04f1edc8b",
+    "timestamp": "2026-10-06T22:02:47.000000Z",
+    "method": "setImagesCID",
+    "from": "0xc9Eddf31f1B8D7C2A9C0B4907E0d1948e4A2E045",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26136197,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x6499ebc733a108fa64e7c42759f05f7c4576b95340137fdf4209f53400630690",
+    "timestamp": "2026-10-06T21:55:47.000000Z",
+    "method": "setTraitValues",
+    "from": "0xc9Eddf31f1B8D7C2A9C0B4907E0d1948e4A2E045",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26136163,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x8b38cf63339f2cc915974123588d23777bb0d6ae9fb8c801a20b099fdde07c62",
+    "timestamp": "2026-10-06T21:55:35.000000Z",
+    "method": "setTraitValues",
+    "from": "0xc9Eddf31f1B8D7C2A9C0B4907E0d1948e4A2E045",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26136162,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x29c16b16d9fbc8140b60d18a20fb274e587f55d07e24c2e0deaddfc3ac381f32",
+    "timestamp": "2026-10-06T21:55:23.000000Z",
+    "method": "setTraitValues",
+    "from": "0xc9Eddf31f1B8D7C2A9C0B4907E0d1948e4A2E045",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26136161,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x97f1a4a1e10d2587c460caf74e1ae7acf8f0e29beb132fba8db99cccdef0db13",
+    "timestamp": "2026-10-06T21:55:11.000000Z",
+    "method": "setTraitValues",
+    "from": "0xc9Eddf31f1B8D7C2A9C0B4907E0d1948e4A2E045",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26136160,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x53c588eefe8ae5e228cd237c4c6bb2f43d520cb43f2b75e8c6aa0cd38e6498d3",
+    "timestamp": "2026-10-06T21:54:47.000000Z",
+    "method": "setTraitValues",
+    "from": "0xc9Eddf31f1B8D7C2A9C0B4907E0d1948e4A2E045",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26136158,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xfe9133067f8255f86d11a4e5268065118a399e987b8d5262de22e14694c8fd09",
+    "timestamp": "2026-10-06T21:54:35.000000Z",
+    "method": "setTraitValues",
+    "from": "0xc9Eddf31f1B8D7C2A9C0B4907E0d1948e4A2E045",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26136157,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x8e4a95168f3d408c14c3812aba21c4973705ae552edf2f115fcb2022bf758a0e",
+    "timestamp": "2026-10-06T21:54:23.000000Z",
+    "method": "setTraitValues",
+    "from": "0xc9Eddf31f1B8D7C2A9C0B4907E0d1948e4A2E045",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26136156,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xa76770a4e24f4f95fc3373e14b0cf0e48a7674b9ac61d720d5ba1b9acd312492",
+    "timestamp": "2026-10-06T21:53:59.000000Z",
+    "method": "setTraitValues",
+    "from": "0xc9Eddf31f1B8D7C2A9C0B4907E0d1948e4A2E045",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26136154,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xe97660df467fd1003217c389b5c591dc737dbc6cd400d027526fa5e08d45614d",
+    "timestamp": "2026-10-06T21:53:47.000000Z",
+    "method": "setTraitValues",
+    "from": "0xc9Eddf31f1B8D7C2A9C0B4907E0d1948e4A2E045",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26136153,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xfef2b08dd1e7729296dd3fb7d597d96dcbb765dbd0e4695975c925d44d0e851b",
+    "timestamp": "2026-10-06T21:53:23.000000Z",
+    "method": "setTraitValues",
+    "from": "0xc9Eddf31f1B8D7C2A9C0B4907E0d1948e4A2E045",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26136151,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x86258f14e40af7a896c83693e465f0c46711d746043e70ab805debb97bc8cdb2",
+    "timestamp": "2026-10-06T21:53:11.000000Z",
+    "method": "setTraitValues",
+    "from": "0xc9Eddf31f1B8D7C2A9C0B4907E0d1948e4A2E045",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 26136150,
+    "category": "renderer"
+   }
+  ],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 1,
+    "first": "2026-10-06",
+    "last": "2026-10-06",
+    "last_tx": "0x7504c16684825c9dfda424abb364336c8be8edbe5cdb9b3c67510566f3631364",
+    "list": [
+     {
+      "date": "2026-10-06",
+      "tx": "0x7504c16684825c9dfda424abb364336c8be8edbe5cdb9b3c67510566f3631364",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "c9eddf31f1b8d7c2a9c0b4907e0d1948e4a2e045"
+      ],
+      "data": "0x"
+     }
+    ]
+   },
+   "MetadataUpdate(uint256)": {
+    "n": 0
+   },
+   "BatchMetadataUpdate(uint256,uint256)": {
+    "n": 1,
+    "first": "2026-10-06",
+    "last": "2026-10-06",
+    "last_tx": "0x812d038b41dff4af6f71aa082494781c7bff4001391617af58d628e92d5414dd",
+    "list": [
+     {
+      "date": "2026-10-06",
+      "tx": "0x812d038b41dff4af6f71aa082494781c7bff4001391617af58d628e92d5414dd",
+      "topics": [],
+      "data": "0x00000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000001b58"
+     }
+    ]
+   },
+   "MinterLocked()": {
+    "n": 1,
+    "first": "2026-10-06",
+    "last": "2026-10-06",
+    "last_tx": "0xe78c09ac3be80ce4e3d66ede36f5cdd4cdb78793dbc3da1f2387089fcfe7a19f",
+    "list": [
+     {
+      "date": "2026-10-06",
+      "tx": "0xe78c09ac3be80ce4e3d66ede36f5cdd4cdb78793dbc3da1f2387089fcfe7a19f",
+      "topics": [],
+      "data": "0x"
+     }
+    ]
+   },
+   "TailorShopLocked()": {
+    "n": 0
+   }
+  },
+  "decoded": [
+   {
+    "hash": "0x86258f14e40af7a896c83693e465f0c46711d746043e70ab805debb97bc8cdb2",
+    "timestamp": "2026-10-06T21:53:11.000000Z",
+    "method": "setTraitValues",
+    "category": "renderer",
+    "from": "0xc9Eddf31f1B8D7C2A9C0B4907E0d1948e4A2E045",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "uint256",
+      "value": "0"
+     },
+     {
+      "name": "arg1",
+      "type": "string[]",
+      "value": "['Bubblegum', 'Cigar', 'Dagger', 'Diamond Grill', 'Gold Teeth', 'Harmonica', 'None', 'Paint Brush', 'Pipe', 'Wheat']"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0xfef2b08dd1e7729296dd3fb7d597d96dcbb765dbd0e4695975c925d44d0e851b",
+    "timestamp": "2026-10-06T21:53:23.000000Z",
+    "method": "setTraitValues",
+    "category": "renderer",
+    "from": "0xc9Eddf31f1B8D7C2A9C0B4907E0d1948e4A2E045",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "uint256",
+      "value": "1"
+     },
+     {
+      "name": "arg1",
+      "type": "string[]",
+      "value": "['Aqua', 'Blue', 'Cold', 'Green', 'Neutral', 'Oker', 'Red', 'Warm']"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0xe97660df467fd1003217c389b5c591dc737dbc6cd400d027526fa5e08d45614d",
+    "timestamp": "2026-10-06T21:53:47.000000Z",
+    "method": "setTraitValues",
+    "category": "renderer",
+    "from": "0xc9Eddf31f1B8D7C2A9C0B4907E0d1948e4A2E045",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "uint256",
+      "value": "2"
+     },
+     {
+      "name": "arg1",
+      "type": "string[]",
+      "value": "['Alien', 'Ape', 'Black Wool Coat', 'Blue', 'Brown Suit', 'Cardigan', 'Chainmail', 'Doublet', 'Gold Linen', 'Knight Armor', 'Lumberjack Shirt', 'Orange', 'Prisoner Uniform', 'Rainbow Suit', 'Robot', 'Suit', 'Zombie']"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0x29c16b16d9fbc8140b60d18a20fb274e587f55d07e24c2e0deaddfc3ac381f32",
+    "timestamp": "2026-10-06T21:55:23.000000Z",
+    "method": "setTraitValues",
+    "category": "renderer",
+    "from": "0xc9Eddf31f1B8D7C2A9C0B4907E0d1948e4A2E045",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "uint256",
+      "value": "8"
+     },
+     {
+      "name": "arg1",
+      "type": "string[]",
+      "value": "['Feather Hat', 'Fruit Basket', 'Gold Helmet', 'Halo', 'Hoodie', \"King's Crown\", 'Knight Helmet', 'None', 'Pirate Hat', 'Privateer Hat', 'Sombrero', 'Spinner Hat', 'Top Hat', 'Voltaire Wig', 'Wool Cap']"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0x8b38cf63339f2cc915974123588d23777bb0d6ae9fb8c801a20b099fdde07c62",
+    "timestamp": "2026-10-06T21:55:35.000000Z",
+    "method": "setTraitValues",
+    "category": "renderer",
+    "from": "0xc9Eddf31f1B8D7C2A9C0B4907E0d1948e4A2E045",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "uint256",
+      "value": "9"
+     },
+     {
+      "name": "arg1",
+      "type": "string[]",
+      "value": "['Alien', 'Ape', 'Blue', 'Orange', 'Robot', 'Zombie']"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0x6499ebc733a108fa64e7c42759f05f7c4576b95340137fdf4209f53400630690",
+    "timestamp": "2026-10-06T21:55:47.000000Z",
+    "method": "setTraitValues",
+    "category": "renderer",
+    "from": "0xc9Eddf31f1B8D7C2A9C0B4907E0d1948e4A2E045",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "uint256",
+      "value": "10"
+     },
+     {
+      "name": "arg1",
+      "type": "string[]",
+      "value": "['Arrows', 'None', 'Rifle', 'Spear', 'Sword']"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0x93c8d3fb935540cd92291f137bb6c3f37a841a55f8c75bff280850c04f1edc8b",
+    "timestamp": "2026-10-06T22:02:47.000000Z",
+    "method": "setImagesCID",
+    "category": "renderer",
+    "from": "0xc9Eddf31f1B8D7C2A9C0B4907E0d1948e4A2E045",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "string",
+      "value": "bafybeiczgve33eflcmnqch74o5aobheaxodgboimqxxaqni674paxhhb4a"
+     }
+    ],
+    "value_kinds": [
+     "ipfs"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0x812d038b41dff4af6f71aa082494781c7bff4001391617af58d628e92d5414dd",
+    "timestamp": "2026-10-06T23:22:11.000000Z",
+    "method": "setTailoredImageBaseURI",
+    "category": "uri",
+    "from": "0xc9Eddf31f1B8D7C2A9C0B4907E0d1948e4A2E045",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "string",
+      "value": ""
+     }
+    ],
+    "value_kinds": [
+     "empty"
+    ],
+    "error": null
+   }
+  ],
+  "ownership_transfers": [
+   {
+    "date": "2026-10-06",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0xc9eddf31f1b8d7c2a9c0b4907e0d1948e4a2e045",
+    "tx": "0x7504c16684825c9dfda424abb364336c8be8edbe5cdb9b3c67510566f3631364"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0xf08acc2f16ddf2f5d047fcc4d39a6c528a9645af_reads1.json",
+ "eip4906": true,
+ "owner": {
+  "addr": "0xc9eddf31f1b8d7c2a9c0b4907e0d1948e4a2e045",
+  "code_raw": "data/raw/rpc-mutability/0xc9eddf31f1b8d7c2a9c0b4907e0d1948e4a2e045_holdercode.json",
+  "type": "eoa",
+  "note": "EIP-7702 delegated EOA",
+  "bs_name": null,
+  "ens": null,
+  "bs_impl_names": [
+   "EIP7702StatelessDeleGator"
+  ],
+  "bs_tags": [],
+  "is_contract": true,
+  "creator": null,
+  "is_verified": true,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {
+  "isSealed": 1,
+  "minterLocked": 1,
+  "tailorShopLocked": 0
+ },
+ "tokenuri_path": "override",
+ "lock_functions": [
+  "lockMinter",
+  "lockTailorShop",
+  "seal"
+ ],
+ "lock_flags_true": {
+  "isSealed": 1,
+  "minterLocked": 1
+ },
+ "roles": {},
+ "mutators": [
+  {
+   "name": "setTailoredImageBaseURI",
+   "sig": "setTailoredImageBaseURI(string)",
+   "selector": "0x77e41186",
+   "category": "uri",
+   "inputs": [
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "if (bytes(uri).length > BASE_URI_MAX) revert BadInput();\n        if (!_isJsonSafe(bytes(uri))) revert UnsafeText();\n        tailoredImageBaseURI = uri;\n        ",
+   "writes": [
+    "tailoredImageBaseURI"
+   ],
+   "effective": "no",
+   "power": "eoa",
+   "holder_addrs": [
+    "0xc9eddf31f1b8d7c2a9c0b4907e0d1948e4a2e045"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xc9eddf31f1b8d7c2a9c0b4907e0d1948e4a2e045",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "setImagesCID",
+   "sig": "setImagesCID(string)",
+   "selector": "0x50c29422",
+   "category": "renderer",
+   "inputs": [
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner",
+    "notSealed"
+   ],
+   "body_head": "bytes memory b = bytes(cid);\n        if (b.length == 0 || b.length > CID_MAX) revert BadInput();\n        for (uint256 i = 0; i < b.length; i++) {\n            by",
+   "writes": [
+    "imagesCID"
+   ],
+   "effective": "yes",
+   "power": "eoa",
+   "holder_addrs": [
+    "0xc9eddf31f1b8d7c2a9c0b4907e0d1948e4a2e045"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [
+    "isSealed"
+   ],
+   "frozen": true,
+   "holders": [
+    {
+     "addr": "0xc9eddf31f1b8d7c2a9c0b4907e0d1948e4a2e045",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "setTraitValues",
+   "sig": "setTraitValues(uint256,string[])",
+   "selector": "0x4d080579",
+   "category": "renderer",
+   "inputs": [
+    "uint256",
+    "string[]"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner",
+    "notSealed"
+   ],
+   "body_head": "if (category >= CATEGORY_COUNT || values.length == 0 || values.length > 256) revert BadInput();\n        if (values.length < _values[category].length && _anyChun",
+   "writes": [],
+   "effective": "unknown",
+   "power": "eoa",
+   "holder_addrs": [
+    "0xc9eddf31f1b8d7c2a9c0b4907e0d1948e4a2e045"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [
+    "isSealed"
+   ],
+   "frozen": true,
+   "holders": [
+    {
+     "addr": "0xc9eddf31f1b8d7c2a9c0b4907e0d1948e4a2e045",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  }
+ ],
+ "class_direct": "immutable",
+ "class_reason": "setTailoredImageBaseURI:inert(not read by tokenURI); setImagesCID:frozen(isSealed); setTraitValues:frozen(isSealed)",
+ "live_mutators": [],
+ "dependencies": [],
+ "meta": {
+  "address": "0xf08acc2f16ddf2f5d047fcc4d39a6c528a9645af",
+  "name": "The Ape Society",
+  "w5_claim_strength": "on-chain-generic",
+  "w5_claim_text": "///         Metadata JSON is built on-chain. A separate tailor shop may only set a per-token style,",
+  "w5_source_type": "contract-source",
+  "w5_source_url": "https://etherscan.io/address/0xf08acc2f16ddf2f5d047fcc4d39a6c528a9645af#code (src/TASNFT.sol:16)",
+  "holders_count": 5363.0,
+  "in_w5": true,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": "onchain-renderer",
+  "census_media_class": "ipfs",
+  "census_liveness": "alive",
+  "in_census_onchain": true,
+  "standard": "ERC-721",
+  "creator": "0xc9eddf31f1b8d7c2a9c0b4907e0d1948e4a2e045",
+  "deploy_block": 26136094.0
+ },
+ "class_deps_all": "none",
+ "class_deps": "none",
+ "class_final": "immutable",
+ "pointer_power": null
+}

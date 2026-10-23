@@ -1,0 +1,39 @@
+{
+ "collection": "Trace",
+ "slug": "trace",
+ "contract": "0x691bd9fd56fDD24831b3C3068d4a10EC00341e40",
+ "token_id": 2,
+ "chain_method": "data URI (contract-assembled; technique labelled from verified source flags)",
+ "chain_call": "tokenURI(2)",
+ "json_name": "Trace #2",
+ "fields": {
+  "image": "https",
+  "animation_url": "data:text/html",
+  "external_url": null,
+  "json_how": "data-uri-base64"
+ },
+ "rpc": {
+  "default_public_ok": true,
+  "highgas_drpc_ok": null,
+  "highgas_blxr_ok": null,
+  "fork_ok": null,
+  "rpc": "public-default",
+  "needed_fork": false,
+  "unreadable_from_default_public_call": false,
+  "gas_estimate": null
+ },
+ "medium": "html+js (animation_url data URI)",
+ "primary": "animation_url",
+ "source_flags": {
+  "verified": false
+ },
+ "artwork_file": "artwork.html",
+ "doc_type": "text/html; charset=utf-8",
+ "artwork_bytes": 65956,
+ "artwork_sha256": "ffa6f51c78578a0a0378a0ee6550073fca7a9641441226df3de2f852eaaf4f36",
+ "declared": {
+  "load": [],
+  "literals": []
+ },
+ "built_at": "2026-10-21T20:18:03Z"
+}

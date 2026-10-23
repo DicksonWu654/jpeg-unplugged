@@ -1,0 +1,53 @@
+{
+ "collection": "Proof Of Stake Pages",
+ "slug": "proof-of-stake-pages",
+ "contract": "0x5bF5BCc5362F88721167C1068b58C60caD075aAc",
+ "token_id": 1,
+ "chain_method": "data URI (contract-assembled; technique labelled from verified source flags)",
+ "chain_call": "tokenURI(1)",
+ "json_name": null,
+ "fields": {
+  "image": "data:image/svg+xml",
+  "animation_url": null,
+  "external_url": "https",
+  "json_how": "data-uri-base64"
+ },
+ "rpc": {
+  "default_public_ok": true,
+  "highgas_drpc_ok": null,
+  "highgas_blxr_ok": null,
+  "fork_ok": null,
+  "rpc": "public-default",
+  "needed_fork": false,
+  "unreadable_from_default_public_call": false,
+  "gas_estimate": null
+ },
+ "medium": "svg (image data URI)",
+ "primary": "image",
+ "source_flags": {
+  "verified": true,
+  "contract_name": "ProofOfStake_Pages",
+  "proxy": false,
+  "implementation": null,
+  "sstore2": false,
+  "ethfs": false,
+  "scripty": false,
+  "base64": true,
+  "gzip": false,
+  "data_uri": true,
+  "http_literals": [
+   "https://proofofstake.gitcoin.co/"
+  ],
+  "ipfs_literal": false,
+  "setters": []
+ },
+ "artwork_file": "artwork.svg",
+ "doc_type": "image/svg+xml; charset=utf-8",
+ "artwork_bytes": 6007,
+ "artwork_sha256": "32ec35a0befb28b02567caa232ee9e66bfc5f5e9889215384d03d1556cfaf92e",
+ "declared": {
+  "load": [],
+  "literals": []
+ },
+ "built_at": "2026-10-21T20:18:37Z"
+}

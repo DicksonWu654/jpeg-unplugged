@@ -1,0 +1,685 @@
+{
+ "address": "0xb1b25eeb1026cb947b3f65a5cc123fc28b13eee6",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:46Z",
+ "code_raw": "data/raw/rpc-mutability/0xb1b25eeb1026cb947b3f65a5cc123fc28b13eee6_code.json",
+ "code_len": 17551,
+ "slots": {
+  "slot0": "0x0000000000000000000000004f1ca5ac1ab5e119b2c8f015cdc53e618ae9559a"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0xb1b25eeb1026cb947b3f65a5cc123fc28b13eee6_slots.json",
+ "verified": true,
+ "contract_name": "NounsToken",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 1,
+    "first": "2022-06-01",
+    "last": "2022-06-01",
+    "last_tx": "0xb925e5444c107d12feef446089c76c9e6a8e29ed9717419c03c5acaa12eb3286",
+    "list": [
+     {
+      "date": "2022-06-01",
+      "tx": "0xb925e5444c107d12feef446089c76c9e6a8e29ed9717419c03c5acaa12eb3286",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "4f1ca5ac1ab5e119b2c8f015cdc53e618ae9559a"
+      ],
+      "data": "0x"
+     }
+    ]
+   }
+  },
+  "decoded": [],
+  "ownership_transfers": [
+   {
+    "date": "2022-06-01",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0x4f1ca5ac1ab5e119b2c8f015cdc53e618ae9559a",
+    "tx": "0xb925e5444c107d12feef446089c76c9e6a8e29ed9717419c03c5acaa12eb3286"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0xb1b25eeb1026cb947b3f65a5cc123fc28b13eee6_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0x4f1ca5ac1ab5e119b2c8f015cdc53e618ae9559a",
+  "code_raw": "data/raw/rpc-mutability/0x4f1ca5ac1ab5e119b2c8f015cdc53e618ae9559a_holdercode.json",
+  "type": "eoa",
+  "bs_name": null,
+  "ens": null,
+  "bs_impl_names": [],
+  "bs_tags": [],
+  "is_contract": false,
+  "creator": null,
+  "is_verified": false,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "override",
+ "lock_functions": [],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [],
+ "class_direct": "immutable",
+ "class_reason": "no uri/renderer/upgrade function in ABI and not a proxy",
+ "live_mutators": [],
+ "dependencies": [
+  {
+   "address": "0x0cfdb3ba1694c2bb2cfacb0339ad7b1ae5932b63",
+   "via": "descriptor()",
+   "in_tokenuri_path": true,
+   "via_setter": false,
+   "analysis": {
+    "address": "0x0cfdb3ba1694c2bb2cfacb0339ad7b1ae5932b63",
+    "verified": true,
+    "contract_name": "NounsDescriptor",
+    "proxy": {
+     "kind": null
+    },
+    "owner": {
+     "addr": "0x0bc3807ec262cb779b38d65b38158acc3bfede10",
+     "code_raw": "data/raw/rpc-mutability/0x0bc3807ec262cb779b38d65b38158acc3bfede10_holdercode.json",
+     "code_len": 4721,
+     "probe_raw": "data/raw/rpc-mutability/0x0bc3807ec262cb779b38d65b38158acc3bfede10_holderprobe.json",
+     "type": "timelock",
+     "delay_s": 172800,
+     "flavour": "compound",
+     "controller": {
+      "addr": "0x6f3e6272a167e8accb32072d08e0957f9c79223d",
+      "code_raw": "data/raw/rpc-mutability/0x6f3e6272a167e8accb32072d08e0957f9c79223d_holdercode.json",
+      "code_len": 1072,
+      "probe_raw": "data/raw/rpc-mutability/0x6f3e6272a167e8accb32072d08e0957f9c79223d_holderprobe.json",
+      "type": "governor",
+      "timelock": "0xb1a32fc9f9d8b2cf86c068cae13108809547ef71",
+      "bs_name": "NounsDAOProxy",
+      "ens": null,
+      "bs_impl_names": [
+       "NounsDAOLogicV4"
+      ],
+      "bs_tags": [],
+      "is_contract": true,
+      "creator": "0xFD16F84E1F9Bb5ec33B52D0133d61f7D20699658",
+      "is_verified": true,
+      "bs_reputation": "ok"
+     },
+     "bs_name": "NounsDAOExecutor",
+     "ens": null,
+     "bs_impl_names": [],
+     "bs_tags": [],
+     "is_contract": true,
+     "creator": "0xFD16F84E1F9Bb5ec33B52D0133d61f7D20699658",
+     "is_verified": true,
+     "bs_reputation": "ok"
+    },
+    "admin_fn": null,
+    "uups": false,
+    "lock_views": {
+     "arePartsLocked": 0
+    },
+    "lock_flags_true": {},
+    "lock_functions": [
+     "lockParts"
+    ],
+    "class_direct": "dao-or-timelock-mutable",
+    "class_reason": "live setters (dao-or-timelock): addAccessory,addBackground,addBody,addColorToPalette,addGlasses,addHead",
+    "live_mutators": [
+     "addAccessory",
+     "addBackground",
+     "addBody",
+     "addColorToPalette",
+     "addGlasses",
+     "addHead",
+     "addManyColorsToPalette",
+     "setBaseURI"
+    ],
+    "mutators": [
+     {
+      "name": "setBaseURI",
+      "sig": "setBaseURI(string)",
+      "selector": "0x55f804b3",
+      "category": "uri",
+      "inputs": [
+       "string"
+      ],
+      "gates": [
+       {
+        "type": "owner",
+        "ref": "owner"
+       }
+      ],
+      "modifiers": [
+       "onlyOwner"
+      ],
+      "body_head": "baseURI = _baseURI;\n\n        emit BaseURIUpdated(_baseURI);",
+      "writes": [
+       "baseURI"
+      ],
+      "effective": "yes",
+      "power": "dao-or-timelock",
+      "holder_addrs": [
+       "0x0bc3807ec262cb779b38d65b38158acc3bfede10"
+      ],
+      "holder_how": [
+       "owner()"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0x0bc3807ec262cb779b38d65b38158acc3bfede10",
+        "type": "timelock",
+        "delay_s": 172800,
+        "bs_name": "NounsDAOExecutor",
+        "ens": null,
+        "desc": "timelock(172800s)<-governor",
+        "simple": "dao-or-timelock"
+       }
+      ]
+     },
+     {
+      "name": "addAccessory",
+      "sig": "addAccessory(bytes)",
+      "selector": "0x17b552ab",
+      "category": "renderer",
+      "inputs": [
+       "bytes"
+      ],
+      "gates": [
+       {
+        "type": "owner",
+        "ref": "owner"
+       }
+      ],
+      "modifiers": [
+       "onlyOwner",
+       "whenPartsNotLocked"
+      ],
+      "body_head": "_addAccessory(_accessory);",
+      "writes": [],
+      "effective": "unknown",
+      "power": "dao-or-timelock",
+      "holder_addrs": [
+       "0x0bc3807ec262cb779b38d65b38158acc3bfede10"
+      ],
+      "holder_how": [
+       "owner()"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [
+       "arePartsLocked"
+      ],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0x0bc3807ec262cb779b38d65b38158acc3bfede10",
+        "type": "timelock",
+        "delay_s": 172800,
+        "bs_name": "NounsDAOExecutor",
+        "ens": null,
+        "desc": "timelock(172800s)<-governor",
+        "simple": "dao-or-timelock"
+       }
+      ]
+     },
+     {
+      "name": "addBackground",
+      "sig": "addBackground(string)",
+      "selector": "0x5e70664c",
+      "category": "renderer",
+      "inputs": [
+       "string"
+      ],
+      "gates": [
+       {
+        "type": "owner",
+        "ref": "owner"
+       }
+      ],
+      "modifiers": [
+       "onlyOwner",
+       "whenPartsNotLocked"
+      ],
+      "body_head": "_addBackground(_background);",
+      "writes": [],
+      "effective": "unknown",
+      "power": "dao-or-timelock",
+      "holder_addrs": [
+       "0x0bc3807ec262cb779b38d65b38158acc3bfede10"
+      ],
+      "holder_how": [
+       "owner()"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [
+       "arePartsLocked"
+      ],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0x0bc3807ec262cb779b38d65b38158acc3bfede10",
+        "type": "timelock",
+        "delay_s": 172800,
+        "bs_name": "NounsDAOExecutor",
+        "ens": null,
+        "desc": "timelock(172800s)<-governor",
+        "simple": "dao-or-timelock"
+       }
+      ]
+     },
+     {
+      "name": "addBody",
+      "sig": "addBody(bytes)",
+      "selector": "0x2715c90e",
+      "category": "renderer",
+      "inputs": [
+       "bytes"
+      ],
+      "gates": [
+       {
+        "type": "owner",
+        "ref": "owner"
+       }
+      ],
+      "modifiers": [
+       "onlyOwner",
+       "whenPartsNotLocked"
+      ],
+      "body_head": "_addBody(_body);",
+      "writes": [],
+      "effective": "unknown",
+      "power": "dao-or-timelock",
+      "holder_addrs": [
+       "0x0bc3807ec262cb779b38d65b38158acc3bfede10"
+      ],
+      "holder_how": [
+       "owner()"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [
+       "arePartsLocked"
+      ],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0x0bc3807ec262cb779b38d65b38158acc3bfede10",
+        "type": "timelock",
+        "delay_s": 172800,
+        "bs_name": "NounsDAOExecutor",
+        "ens": null,
+        "desc": "timelock(172800s)<-governor",
+        "simple": "dao-or-timelock"
+       }
+      ]
+     },
+     {
+      "name": "addColorToPalette",
+      "sig": "addColorToPalette(uint8,string)",
+      "selector": "0xf9da8863",
+      "category": "renderer",
+      "inputs": [
+       "uint8",
+       "string"
+      ],
+      "gates": [
+       {
+        "type": "owner",
+        "ref": "owner"
+       }
+      ],
+      "modifiers": [
+       "onlyOwner"
+      ],
+      "body_head": "require(palettes[_paletteIndex].length <= 255, 'Palettes can only hold 256 colors');\n        _addColorToPalette(_paletteIndex, _color);",
+      "writes": [],
+      "effective": "unknown",
+      "power": "dao-or-timelock",
+      "holder_addrs": [
+       "0x0bc3807ec262cb779b38d65b38158acc3bfede10"
+      ],
+      "holder_how": [
+       "owner()"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0x0bc3807ec262cb779b38d65b38158acc3bfede10",
+        "type": "timelock",
+        "delay_s": 172800,
+        "bs_name": "NounsDAOExecutor",
+        "ens": null,
+        "desc": "timelock(172800s)<-governor",
+        "simple": "dao-or-timelock"
+       }
+      ]
+     },
+     {
+      "name": "addGlasses",
+      "sig": "addGlasses(bytes)",
+      "selector": "0x615bda10",
+      "category": "renderer",
+      "inputs": [
+       "bytes"
+      ],
+      "gates": [
+       {
+        "type": "owner",
+        "ref": "owner"
+       }
+      ],
+      "modifiers": [
+       "onlyOwner",
+       "whenPartsNotLocked"
+      ],
+      "body_head": "_addGlasses(_glasses);",
+      "writes": [],
+      "effective": "unknown",
+      "power": "dao-or-timelock",
+      "holder_addrs": [
+       "0x0bc3807ec262cb779b38d65b38158acc3bfede10"
+      ],
+      "holder_how": [
+       "owner()"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [
+       "arePartsLocked"
+      ],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0x0bc3807ec262cb779b38d65b38158acc3bfede10",
+        "type": "timelock",
+        "delay_s": 172800,
+        "bs_name": "NounsDAOExecutor",
+        "ens": null,
+        "desc": "timelock(172800s)<-governor",
+        "simple": "dao-or-timelock"
+       }
+      ]
+     },
+     {
+      "name": "addHead",
+      "sig": "addHead(bytes)",
+      "selector": "0x9a796205",
+      "category": "renderer",
+      "inputs": [
+       "bytes"
+      ],
+      "gates": [
+       {
+        "type": "owner",
+        "ref": "owner"
+       }
+      ],
+      "modifiers": [
+       "onlyOwner",
+       "whenPartsNotLocked"
+      ],
+      "body_head": "_addHead(_head);",
+      "writes": [],
+      "effective": "unknown",
+      "power": "dao-or-timelock",
+      "holder_addrs": [
+       "0x0bc3807ec262cb779b38d65b38158acc3bfede10"
+      ],
+      "holder_how": [
+       "owner()"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [
+       "arePartsLocked"
+      ],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0x0bc3807ec262cb779b38d65b38158acc3bfede10",
+        "type": "timelock",
+        "delay_s": 172800,
+        "bs_name": "NounsDAOExecutor",
+        "ens": null,
+        "desc": "timelock(172800s)<-governor",
+        "simple": "dao-or-timelock"
+       }
+      ]
+     },
+     {
+      "name": "addManyColorsToPalette",
+      "sig": "addManyColorsToPalette(uint8,string[])",
+      "selector": "0x839644da",
+      "category": "renderer",
+      "inputs": [
+       "uint8",
+       "string[]"
+      ],
+      "gates": [
+       {
+        "type": "owner",
+        "ref": "owner"
+       }
+      ],
+      "modifiers": [
+       "onlyOwner"
+      ],
+      "body_head": "require(palettes[paletteIndex].length + newColors.length <= 256, 'Palettes can only hold 256 colors');\n        for (uint256 i = 0; i < newColors.length; i++) {\n",
+      "writes": [],
+      "effective": "unknown",
+      "power": "dao-or-timelock",
+      "holder_addrs": [
+       "0x0bc3807ec262cb779b38d65b38158acc3bfede10"
+      ],
+      "holder_how": [
+       "owner()"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0x0bc3807ec262cb779b38d65b38158acc3bfede10",
+        "type": "timelock",
+        "delay_s": 172800,
+        "bs_name": "NounsDAOExecutor",
+        "ens": null,
+        "desc": "timelock(172800s)<-governor",
+        "simple": "dao-or-timelock"
+       }
+      ]
+     }
+    ],
+    "history": {
+     "txs": [
+      {
+       "hash": "0x0f86e2a2f1fdd2e6d46c2f3a6e531abe9d417706098e5721160c7665d51689b1",
+       "timestamp": "2021-08-08T16:59:47.000000Z",
+       "method": "transferOwnership",
+       "from": "0xFD16F84E1F9Bb5ec33B52D0133d61f7D20699658",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 12985698,
+       "category": "ownership"
+      },
+      {
+       "hash": "0x80d74740e8946c840144cc7c99318b147d136ae4edccfb80cdc32f4f50d66a45",
+       "timestamp": "2021-08-08T16:37:49.000000Z",
+       "method": "addManyColorsToPalette",
+       "from": "0xFD16F84E1F9Bb5ec33B52D0133d61f7D20699658",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 12985595,
+       "category": "renderer"
+      }
+     ],
+     "events": {
+      "OwnershipTransferred(address,address)": {
+       "n": 2,
+       "first": "2021-08-08",
+       "last": "2021-08-08",
+       "last_tx": "0x0f86e2a2f1fdd2e6d46c2f3a6e531abe9d417706098e5721160c7665d51689b1",
+       "list": [
+        {
+         "date": "2021-08-08",
+         "tx": "0x960163ec070b46543c027eb989be368c0f2a75feca499d4c9d58208e61913818",
+         "topics": [
+          "0000000000000000000000000000000000000000",
+          "fd16f84e1f9bb5ec33b52d0133d61f7d20699658"
+         ],
+         "data": "0x"
+        },
+        {
+         "date": "2021-08-08",
+         "tx": "0x0f86e2a2f1fdd2e6d46c2f3a6e531abe9d417706098e5721160c7665d51689b1",
+         "topics": [
+          "fd16f84e1f9bb5ec33b52d0133d61f7d20699658",
+          "0bc3807ec262cb779b38d65b38158acc3bfede10"
+         ],
+         "data": "0x"
+        }
+       ]
+      },
+      "BaseURIUpdated(string)": {
+       "n": 0
+      },
+      "DataURIToggled(bool)": {
+       "n": 0
+      },
+      "PartsLocked()": {
+       "n": 0
+      }
+     },
+     "decoded": [
+      {
+       "hash": "0x80d74740e8946c840144cc7c99318b147d136ae4edccfb80cdc32f4f50d66a45",
+       "timestamp": "2021-08-08T16:37:49.000000Z",
+       "method": "addManyColorsToPalette",
+       "category": "renderer",
+       "from": "0xFD16F84E1F9Bb5ec33B52D0133d61f7D20699658",
+       "params": [
+        {
+         "name": "arg0",
+         "type": "uint8",
+         "value": "0"
+        },
+        {
+         "name": "arg1",
+         "type": "string[]",
+         "value": "['', 'ffffff', 'c5b9a1', 'cfc2ab', '63a0f9', '807f7e', 'caeff9', '5648ed', '5a423f', 'b9185c', 'b87b11', 'fffdf2', '4b4949', '343235', '1f1d29', '068940', '867c1d', 'ae3208', '9f21a0', 'f98f30', 'fe500c', 'd26451', 'fd8b5b', '5a65fa', 'd22209', 'e9265c', 'c54e38', '80a72d', '4bea69', '34ac80', 'eed8"
+        }
+       ],
+       "value_kinds": [],
+       "error": null
+      },
+      {
+       "hash": "0x0f86e2a2f1fdd2e6d46c2f3a6e531abe9d417706098e5721160c7665d51689b1",
+       "timestamp": "2021-08-08T16:59:47.000000Z",
+       "method": "transferOwnership",
+       "category": "ownership",
+       "from": "0xFD16F84E1F9Bb5ec33B52D0133d61f7D20699658",
+       "params": [
+        {
+         "name": "arg0",
+         "type": "address",
+         "value": "0x0bc3807ec262cb779b38d65b38158acc3bfede10"
+        }
+       ],
+       "value_kinds": [
+        "address"
+       ],
+       "error": null
+      }
+     ],
+     "ownership_transfers": [
+      {
+       "date": "2021-08-08",
+       "from": "0x0000000000000000000000000000000000000000",
+       "to": "0xfd16f84e1f9bb5ec33b52d0133d61f7d20699658",
+       "tx": "0x960163ec070b46543c027eb989be368c0f2a75feca499d4c9d58208e61913818"
+      },
+      {
+       "date": "2021-08-08",
+       "from": "0xfd16f84e1f9bb5ec33b52d0133d61f7d20699658",
+       "to": "0x0bc3807ec262cb779b38d65b38158acc3bfede10",
+       "tx": "0x0f86e2a2f1fdd2e6d46c2f3a6e531abe9d417706098e5721160c7665d51689b1"
+      }
+     ],
+     "incomplete": false
+    },
+    "unverified_selector_hits": [],
+    "tokenuri_path": "override"
+   }
+  },
+  {
+   "address": "0xcc8a0fb5ab3c7132c1b2a0109142fb112c4ce515",
+   "via": "seeder()",
+   "in_tokenuri_path": false,
+   "via_setter": false,
+   "analysis": {
+    "address": "0xcc8a0fb5ab3c7132c1b2a0109142fb112c4ce515",
+    "verified": true,
+    "contract_name": "NounsSeeder",
+    "proxy": {
+     "kind": null
+    },
+    "owner": null,
+    "admin_fn": null,
+    "uups": false,
+    "lock_views": {},
+    "lock_flags_true": {},
+    "lock_functions": [],
+    "class_direct": "immutable",
+    "class_reason": "no uri/renderer/upgrade function in ABI and not a proxy",
+    "live_mutators": [],
+    "mutators": [],
+    "history": {},
+    "unverified_selector_hits": [],
+    "tokenuri_path": "none"
+   }
+  }
+ ],
+ "meta": {
+  "address": "0xb1b25eeb1026cb947b3f65a5cc123fc28b13eee6",
+  "name": "Nouns love",
+  "w5_claim_strength": null,
+  "w5_claim_text": null,
+  "w5_source_type": null,
+  "w5_source_url": null,
+  "holders_count": 124.0,
+  "in_w5": false,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": "onchain-renderer",
+  "census_media_class": "data-uri",
+  "census_liveness": "alive",
+  "in_census_onchain": true,
+  "standard": "ERC-721",
+  "creator": "0x4f1ca5ac1ab5e119b2c8f015cdc53e618ae9559a",
+  "deploy_block": 14882077.0
+ },
+ "class_deps_all": "dao-or-timelock-mutable",
+ "class_deps": "dao-or-timelock-mutable",
+ "class_final": "dao-or-timelock-mutable",
+ "pointer_power": "dao-or-timelock"
+}

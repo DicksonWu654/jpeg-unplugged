@@ -1,0 +1,516 @@
+{
+  "collection": {
+    "rank": 56,
+    "source_rank": 59,
+    "name": "3Landers",
+    "contract": "0xb4d06d46a8285f4ec79fd294f78a881799d8ced9",
+    "contracts": [
+      "0xb4d06d46a8285f4ec79fd294f78a881799d8ced9"
+    ],
+    "slug": "3landers",
+    "volume_usd": 96222318.07,
+    "volume_source": "CryptoSlam all-time Ethereum owner-to-owner sales, wash-filtered USD",
+    "source_url": "https://web-api.cryptoslam.io/v1/sales/rank-by-volume?timeRange=all&orderBy=rank&sortDirection=asc&offset=0&limit=100&blockchainId=0&hideInscriptions=false",
+    "ranking_evidence": "data/raw/top100-api/cryptoslam-ranking-0.json",
+    "identity_evidence": "data/raw/top100-api/cryptoslam-info-3landers.json",
+    "token_count": 10000,
+    "all_time_volume": 96222318.07,
+    "volume_currency": "USD",
+    "kind": "art-avatar",
+    "metadata_location": "mixed(broken,http)",
+    "metadata_classes": [
+      "broken",
+      "http"
+    ],
+    "media_location": "unresolved",
+    "primary_image_location": "unresolved",
+    "media_classes": [],
+    "liveness": "dead",
+    "liveness_exact": "dead",
+    "all_declared_media_liveness": "dead",
+    "metadata_failed": true,
+    "n_alive": 0,
+    "n_dead": 3,
+    "n_unknown": 0,
+    "n_degraded": 0,
+    "key_domain_or_gateway": "a dead server",
+    "hosts": [
+      "a dead server"
+    ],
+    "hardcoded_gateways": [],
+    "http_origin_dependency": true,
+    "uses_ipfs": false,
+    "uses_arweave": false,
+    "fully_onchain_all_declared_media": false,
+    "metadata_and_primary_image_onchain": false,
+    "mutability_class": "eoa-mutable",
+    "single_key_mutable": true,
+    "single_key_repointable": true,
+    "base_uri_or_renderer": "0xb4d06d46a8285f4ec79fd294f78a881799d8ced9._tokenBaseURI() = a dead server 0xb4d06d46a8285f4ec79fd294f78a881799d8ced9.tokenBaseURI() = a dead server",
+    "control": [
+      {
+        "contract": "0xb4d06d46a8285f4ec79fd294f78a881799d8ced9",
+        "class": "eoa-mutable",
+        "pointer_power": "eoa",
+        "reason": "live setters (eoa): setBaseURI,setDefaultURI",
+        "owner": {
+          "addr": "0xbdd7efd925980cd07a6654227647ce244aca8021",
+          "code_raw": "data/raw/rpc-mutability/0xbdd7efd925980cd07a6654227647ce244aca8021_holdercode.json",
+          "type": "eoa",
+          "bs_name": null,
+          "ens": null,
+          "bs_impl_names": [],
+          "bs_tags": [],
+          "is_contract": false,
+          "creator": null,
+          "is_verified": false,
+          "bs_reputation": "ok"
+        },
+        "proxy": {
+          "kind": null
+        },
+        "live_mutators": [
+          {
+            "name": "setBaseURI",
+            "sig": "setBaseURI(string)",
+            "category": "uri",
+            "power": "eoa",
+            "holders": [
+              {
+                "addr": "0xbdd7efd925980cd07a6654227647ce244aca8021",
+                "type": "eoa",
+                "bs_name": null,
+                "ens": null,
+                "desc": "eoa",
+                "simple": "eoa"
+              }
+            ],
+            "effective": "yes",
+            "reason": null
+          },
+          {
+            "name": "setDefaultURI",
+            "sig": "setDefaultURI(string)",
+            "category": "uri",
+            "power": "eoa",
+            "holders": [
+              {
+                "addr": "0xbdd7efd925980cd07a6654227647ce244aca8021",
+                "type": "eoa",
+                "bs_name": null,
+                "ens": null,
+                "desc": "eoa",
+                "simple": "eoa"
+              }
+            ],
+            "effective": "yes",
+            "reason": null
+          }
+        ],
+        "lock_flags": {},
+        "dependencies": [],
+        "pointer_getters": [
+          {
+            "getter": "_defaultURI()",
+            "type": "string",
+            "ok": true,
+            "value": "https://3land.mypinata.cloud/ipfs/QmQqREEdph5YuZE6L2svx42HBdvoLraC7hnXSTvf8Wtrpn",
+            "error": null
+          },
+          {
+            "getter": "_tokenBaseURI()",
+            "type": "string",
+            "ok": true,
+            "value": "a dead server",
+            "error": null
+          },
+          {
+            "getter": "tokenBaseURI()",
+            "type": "string",
+            "ok": true,
+            "value": "a dead server",
+            "error": null
+          }
+        ],
+        "analyzed_at": "2026-10-23T02:52:07Z",
+        "history_incomplete": false,
+        "evidence": "data/raw/top100-mutability/0xb4d06d46a8285f4ec79fd294f78a881799d8ced9.json"
+      }
+    ],
+    "samples": 3,
+    "distinct_token_ids": 3,
+    "sample_note": null,
+    "source_contracts_without_sampleable_nfts": [],
+    "ownership_scope_gaps": [],
+    "refreshed_at": "2026-10-23T03:05:03Z",
+    "opensea_rank": 65,
+    "ranking_scope_disagreement": false,
+    "metadata_adapter": false,
+    "evidence": [
+      "data/raw/top100-census/0xb4d06d46a8285f4ec79fd294f78a881799d8ced9/result.json.gz"
+    ],
+    "delivery_note": null
+  },
+  "samples": [
+    {
+      "contract": "0xb4d06d46a8285f4ec79fd294f78a881799d8ced9",
+      "token_id": "1",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(0) [low; totalSupply=10000]",
+      "metadata_location": "http",
+      "metadata_uri": "a dead server",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "a dead server",
+          "url": "a dead server",
+          "status": null,
+          "error_kind": "dns-nxdomain",
+          "v": "dead",
+          "reason": "dns-nxdomain",
+          "seq": 2,
+          "final_url": "a dead server",
+          "content_type": null,
+          "size": 0,
+          "content_length": null,
+          "sha256": null,
+          "t": "2026-10-23T02:50:46Z",
+          "reg_domain_dns": "ok",
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "a dead server",
+          "url": "a dead server",
+          "status": null,
+          "error_kind": "dns-nxdomain",
+          "v": "dead",
+          "reason": "dns-nxdomain",
+          "seq": 11,
+          "final_url": "a dead server",
+          "content_type": null,
+          "size": 0,
+          "content_length": null,
+          "sha256": null,
+          "t": "2026-10-23T02:58:40Z",
+          "reg_domain_dns": "ok",
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "a dead server",
+          "url": "a dead server",
+          "status": null,
+          "error_kind": "dns-nxdomain",
+          "v": "dead",
+          "reason": "dns-nxdomain",
+          "seq": 13,
+          "final_url": "a dead server",
+          "content_type": null,
+          "size": 0,
+          "content_length": null,
+          "sha256": null,
+          "t": "2026-10-23T03:05:03Z",
+          "reg_domain_dns": "ok",
+          "redirected": false
+        }
+      ],
+      "media": [],
+      "derived": {
+        "meta_verdict": "dead",
+        "meta_verdict_reason": "dns-nxdomain",
+        "image_class": null,
+        "anim_class": null,
+        "image_verdict": null,
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {},
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "dead",
+        "liveness_reason": "dns-nxdomain",
+        "liveness_exact": "dead",
+        "liveness_exact_reason": "dns-nxdomain",
+        "meta_verdict_exact": "dead",
+        "image_verdict_exact": null,
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "dns-nxdomain"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000000001",
+          "endpoint": "https://eth.rpc.blxrbdn.com",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0xb4d06d46a8285f4ec79fd294f78a881799d8ced9/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0xb4d06d46a8285f4ec79fd294f78a881799d8ced9",
+      "token_id": "5001",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(5000) [mid; totalSupply=10000]",
+      "metadata_location": "http",
+      "metadata_uri": "a dead server",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "a dead server",
+          "url": "a dead server",
+          "status": null,
+          "error_kind": "dns-nxdomain",
+          "v": "dead",
+          "reason": "dns-nxdomain",
+          "seq": 4,
+          "final_url": "a dead server",
+          "content_type": null,
+          "size": 0,
+          "content_length": null,
+          "sha256": null,
+          "t": "2026-10-23T02:50:46Z",
+          "reg_domain_dns": "ok",
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "a dead server",
+          "url": "a dead server",
+          "status": null,
+          "error_kind": "dns-nxdomain",
+          "v": "dead",
+          "reason": "dns-nxdomain",
+          "seq": 12,
+          "final_url": "a dead server",
+          "content_type": null,
+          "size": 0,
+          "content_length": null,
+          "sha256": null,
+          "t": "2026-10-23T02:58:40Z",
+          "reg_domain_dns": "ok",
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "a dead server",
+          "url": "a dead server",
+          "status": null,
+          "error_kind": "dns-nxdomain",
+          "v": "dead",
+          "reason": "dns-nxdomain",
+          "seq": 14,
+          "final_url": "a dead server",
+          "content_type": null,
+          "size": 0,
+          "content_length": null,
+          "sha256": null,
+          "t": "2026-10-23T03:05:03Z",
+          "reg_domain_dns": "ok",
+          "redirected": false
+        }
+      ],
+      "media": [],
+      "derived": {
+        "meta_verdict": "dead",
+        "meta_verdict_reason": "dns-nxdomain",
+        "image_class": null,
+        "anim_class": null,
+        "image_verdict": null,
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {},
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "dead",
+        "liveness_reason": "dns-nxdomain",
+        "liveness_exact": "dead",
+        "liveness_exact_reason": "dns-nxdomain",
+        "meta_verdict_exact": "dead",
+        "image_verdict_exact": null,
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "dns-nxdomain"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000001389",
+          "endpoint": "https://eth.rpc.blxrbdn.com",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0xb4d06d46a8285f4ec79fd294f78a881799d8ced9/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0xb4d06d46a8285f4ec79fd294f78a881799d8ced9",
+      "token_id": "10000",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(9999) [recent; totalSupply=10000]",
+      "metadata_location": "broken",
+      "metadata_uri": null,
+      "metadata_attempts": [],
+      "media": [],
+      "derived": {
+        "meta_verdict": "dead",
+        "meta_verdict_reason": "tokenuri-revert",
+        "image_class": null,
+        "anim_class": null,
+        "image_verdict": null,
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {},
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "dead",
+        "liveness_reason": "tokenuri-revert",
+        "liveness_exact": "dead",
+        "liveness_exact_reason": "tokenuri-revert",
+        "meta_verdict_exact": "dead",
+        "image_verdict_exact": null,
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "tokenuri-revert"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000002710",
+          "endpoint": "https://eth.rpc.blxrbdn.com",
+          "ok": false,
+          "revert": true,
+          "error": "3: execution reverted: Token not exists.",
+          "raw_result_len": 0,
+          "fallback": [
+            {
+              "endpoint": "https://rpc.mevblocker.io",
+              "ok": false,
+              "revert": true,
+              "error": "3: execution reverted: Token not exists."
+            },
+            {
+              "endpoint": "https://eth-mainnet.public.blastapi.io",
+              "ok": false,
+              "revert": true,
+              "error": "3: execution reverted: Token not exists."
+            }
+          ],
+          "revert_confirmed_on_fallback": true
+        },
+        {
+          "fn": "uri",
+          "calldata": "0x0e89341c0000000000000000000000000000000000000000000000000000000000002710",
+          "endpoint": "https://eth.drpc.org",
+          "ok": false,
+          "revert": true,
+          "error": "3: execution reverted",
+          "raw_result_len": 0,
+          "fallback": [
+            {
+              "endpoint": "https://rpc.mevblocker.io",
+              "ok": false,
+              "revert": true,
+              "error": "3: execution reverted"
+            },
+            {
+              "endpoint": "https://eth-mainnet.public.blastapi.io",
+              "ok": false,
+              "revert": true,
+              "error": "3: execution reverted"
+            }
+          ],
+          "revert_confirmed_on_fallback": true
+        }
+      ],
+      "evidence": "data/raw/top100-census/0xb4d06d46a8285f4ec79fd294f78a881799d8ced9/evidence.jsonl.gz"
+    }
+  ],
+  "saved_packet_index": [
+    {
+      "path": "data/raw/top100-api/opensea-contract-0xb4d06d46a8285f4ec79fd294f78a881799d8ced9-attempt1-1792724309623953295.body",
+      "sha256": "c5a2c167e7cc3fcc7d2f1f6b43d7a37e0344990bbfba64fa1ecb9235a930514e",
+      "retrieved_at": "2026-10-23T02:58:29Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0xb4d06d46a8285f4ec79fd294f78a881799d8ced9",
+      "method": "GET",
+      "status": 200,
+      "error": null,
+      "bytes": 182,
+      "truncated": false
+    },
+    {
+      "path": "data/raw/top100-api/opensea-contract-0xb4d06d46a8285f4ec79fd294f78a881799d8ced9.json",
+      "sha256": "c5a2c167e7cc3fcc7d2f1f6b43d7a37e0344990bbfba64fa1ecb9235a930514e",
+      "retrieved_at": "2026-10-23T02:58:29Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0xb4d06d46a8285f4ec79fd294f78a881799d8ced9",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "data/raw/top100-census/0xb4d06d46a8285f4ec79fd294f78a881799d8ced9/bodies.zip",
+      "sha256": "7cbb79a969edc2d93b5e62e6eb8938e9db5c13a3db51a37a8035fec1751d33e1",
+      "bytes": 1981
+    },
+    {
+      "path": "data/raw/top100-census/0xb4d06d46a8285f4ec79fd294f78a881799d8ced9/evidence.jsonl.gz",
+      "sha256": "0230e022c76baa924d66fc72b8d6da5379eb94d58eca2006c59479328b3df8ac",
+      "bytes": 1763
+    },
+    {
+      "path": "data/raw/top100-census/0xb4d06d46a8285f4ec79fd294f78a881799d8ced9/result.json.gz",
+      "sha256": "2f6e347b6698d30e383f57362b367cb6a7c39b758b22362b79c378f3bb92b398",
+      "bytes": 1218
+    },
+    {
+      "path": "data/raw/top100-mutability/0xb4d06d46a8285f4ec79fd294f78a881799d8ced9.json",
+      "sha256": "50970b841502a4f43a6fd81a9310d6bc36c604ffa50cd1db611c76fdd82eef26",
+      "bytes": 11902
+    },
+    {
+      "path": "data/raw/top100-pointers/0xb4d06d46a8285f4ec79fd294f78a881799d8ced9/bodies.zip",
+      "sha256": "ceb95d61db2881e9c1c89b5088d7743539cb81d96f8d0eb1bb1563f0f9246e1a",
+      "bytes": 783
+    },
+    {
+      "path": "data/raw/top100-pointers/0xb4d06d46a8285f4ec79fd294f78a881799d8ced9/evidence.jsonl.gz",
+      "sha256": "af942c51f65e4cb8ddfd5977cf5b6d9d030f4f446125245589743fbab71917b0",
+      "bytes": 518
+    },
+    {
+      "path": "data/raw/top100-pointers/0xb4d06d46a8285f4ec79fd294f78a881799d8ced9/result.json",
+      "sha256": "ade1e1d3dc66293b20bfc3a527f31967980ad8d899f779f3860ff014893d10d3",
+      "bytes": 705
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0xb4d06d46a8285f4ec79fd294f78a881799d8ced9/bodies.zip",
+      "sha256": "01716da0f1b36a42ac365f6d06349b786189ce20cf4fddcfd68b30616d4dbf95",
+      "bytes": 632
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0xb4d06d46a8285f4ec79fd294f78a881799d8ced9/evidence.jsonl.gz",
+      "sha256": "0d0c885732f2db31fd2c5a90d1f28c5d37c3ac8cc25eab77e91de4f3ca9e1ca2",
+      "bytes": 691
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0xb4d06d46a8285f4ec79fd294f78a881799d8ced9/result.json",
+      "sha256": "fe5708df068a6f001fde15958841629f21b94f2a0e02ff40a1c03633a599ea97",
+      "bytes": 300
+    }
+  ],
+  "interpretation": "Liveness describes sampled metadata and primary-image delivery, not permanent loss of the artwork."
+}

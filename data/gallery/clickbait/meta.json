@@ -1,0 +1,54 @@
+{
+ "collection": "ClickBait",
+ "slug": "clickbait",
+ "contract": "0xb40E4620d3A2bfe0259B409840aDCdD5D78AEe02",
+ "token_id": 1,
+ "chain_method": "data URI (contract-assembled; technique labelled from verified source flags)",
+ "chain_call": "tokenURI(1)",
+ "json_name": "ClickBait #1",
+ "fields": {
+  "image": "data:image/svg+xml",
+  "animation_url": "data:text/html",
+  "external_url": "https",
+  "json_how": "data-uri-base64"
+ },
+ "rpc": {
+  "default_public_ok": true,
+  "highgas_drpc_ok": null,
+  "highgas_blxr_ok": null,
+  "fork_ok": null,
+  "rpc": "public-default",
+  "needed_fork": false,
+  "unreadable_from_default_public_call": false,
+  "gas_estimate": null
+ },
+ "medium": "html+js (animation_url data URI)",
+ "primary": "animation_url",
+ "source_flags": {
+  "verified": true,
+  "contract_name": "ClickBait",
+  "proxy": false,
+  "implementation": null,
+  "sstore2": true,
+  "ethfs": false,
+  "scripty": false,
+  "base64": true,
+  "gzip": false,
+  "data_uri": true,
+  "http_literals": [
+   "https://raw.githubusercontent.com/dievardump/solidity-dynamic-buffer",
+   "https://www.capsule21.com/collections/clickbait"
+  ],
+  "ipfs_literal": false,
+  "setters": []
+ },
+ "artwork_file": "artwork.html",
+ "doc_type": "text/html; charset=utf-8",
+ "artwork_bytes": 54912,
+ "artwork_sha256": "33313440fe16d0147a37c250d821dba966dcd00f928170a773b88104e95c0dfe",
+ "declared": {
+  "load": [],
+  "literals": []
+ },
+ "built_at": "2026-10-21T20:18:15Z"
+}

@@ -1,0 +1,598 @@
+{
+  "collection": {
+    "rank": 46,
+    "source_rank": 47,
+    "name": "Sewer Pass",
+    "contract": "0x764aeebcf425d56800ef2c84f2578689415a2daa",
+    "contracts": [
+      "0x764aeebcf425d56800ef2c84f2578689415a2daa"
+    ],
+    "slug": "sewerpass",
+    "volume_usd": 110803069.7,
+    "volume_source": "CryptoSlam all-time Ethereum owner-to-owner sales, wash-filtered USD",
+    "source_url": "https://web-api.cryptoslam.io/v1/sales/rank-by-volume?timeRange=all&orderBy=rank&sortDirection=asc&offset=0&limit=100&blockchainId=0&hideInscriptions=false",
+    "ranking_evidence": "data/raw/top100-api/cryptoslam-ranking-0.json",
+    "identity_evidence": "data/raw/top100-api/cryptoslam-info-sewerpass.json",
+    "token_count": 26485,
+    "all_time_volume": 110803069.7,
+    "volume_currency": "USD",
+    "kind": "access-pass",
+    "metadata_location": "http",
+    "metadata_classes": [
+      "http"
+    ],
+    "media_location": "http",
+    "primary_image_location": "http",
+    "media_classes": [
+      "http"
+    ],
+    "liveness": "degraded",
+    "liveness_exact": "degraded",
+    "all_declared_media_liveness": "degraded",
+    "metadata_failed": false,
+    "n_alive": 0,
+    "n_dead": 0,
+    "n_unknown": 0,
+    "n_degraded": 3,
+    "key_domain_or_gateway": "api.hv-mtl.com; assets.hv-mtl.com",
+    "hosts": [
+      "api.hv-mtl.com",
+      "assets.hv-mtl.com"
+    ],
+    "hardcoded_gateways": [],
+    "http_origin_dependency": true,
+    "uses_ipfs": false,
+    "uses_arweave": false,
+    "fully_onchain_all_declared_media": false,
+    "metadata_and_primary_image_onchain": false,
+    "mutability_class": "unknown",
+    "single_key_mutable": false,
+    "single_key_repointable": false,
+    "base_uri_or_renderer": "0x764aeebcf425d56800ef2c84f2578689415a2daa.tokenURI/uri",
+    "control": [
+      {
+        "contract": "0x764aeebcf425d56800ef2c84f2578689415a2daa",
+        "class": "unknown",
+        "pointer_power": null,
+        "reason": "live setter with unresolved holder: setBaseURI",
+        "owner": {
+          "addr": "0x6f8f2ac3b7b72e6c31c3acec594b354fd37d0c26",
+          "code_raw": "data/raw/rpc-mutability/0x6f8f2ac3b7b72e6c31c3acec594b354fd37d0c26_holdercode.json",
+          "code_len": 171,
+          "probe_raw": "data/raw/rpc-mutability/0x6f8f2ac3b7b72e6c31c3acec594b354fd37d0c26_holderprobe.json",
+          "type": "safe",
+          "threshold": 2,
+          "n_owners": 5,
+          "owners": [
+            "0xe4768efd2e2461cf263166fc96e6eaf757d996ee",
+            "0xb05ca0c3e565f746b62c5d4e71aaab8443ee50bc",
+            "0xec6b6f36bf65dc4bc962aa8ce9ccede1294e2f9f",
+            "0x86fcc53bfce4137f39cde7b09398509e6f6661f0",
+            "0x596c26313e1f8f7e584a4d44ec7763519726c292"
+          ],
+          "version": "1.3.0",
+          "bs_name": "GnosisSafeProxy",
+          "ens": null,
+          "bs_impl_names": [
+            "GnosisSafe"
+          ],
+          "bs_tags": [],
+          "is_contract": true,
+          "creator": "0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2",
+          "is_verified": true,
+          "bs_reputation": "ok"
+        },
+        "proxy": {
+          "kind": null
+        },
+        "live_mutators": [
+          {
+            "name": "setBaseURI",
+            "sig": "setBaseURI(string)",
+            "category": "uri",
+            "power": "unknown",
+            "holders": [],
+            "effective": "yes",
+            "reason": null
+          }
+        ],
+        "lock_flags": {
+          "contractIsLocked": 0
+        },
+        "dependencies": [],
+        "pointer_getters": [],
+        "analyzed_at": "2026-10-23T02:51:47Z",
+        "history_incomplete": false,
+        "evidence": "data/raw/top100-mutability/0x764aeebcf425d56800ef2c84f2578689415a2daa.json"
+      }
+    ],
+    "samples": 3,
+    "distinct_token_ids": 3,
+    "sample_note": null,
+    "source_contracts_without_sampleable_nfts": [],
+    "ownership_scope_gaps": [],
+    "refreshed_at": "2026-10-23T03:05:04Z",
+    "opensea_rank": 64,
+    "ranking_scope_disagreement": false,
+    "metadata_adapter": false,
+    "evidence": [
+      "data/raw/top100-census/0x764aeebcf425d56800ef2c84f2578689415a2daa/result.json.gz"
+    ],
+    "delivery_note": null
+  },
+  "samples": [
+    {
+      "contract": "0x764aeebcf425d56800ef2c84f2578689415a2daa",
+      "token_id": "26484",
+      "sample_unit": 1,
+      "how_found": "reused census: blockscout-instances-max [recent]",
+      "metadata_location": "http",
+      "metadata_uri": "https://api.hv-mtl.com/sewerpasses/26484",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "api.hv-mtl.com",
+          "url": "https://api.hv-mtl.com/sewerpasses/26484",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 2,
+          "final_url": "https://api.hv-mtl.com/sewerpasses/26484",
+          "content_type": "application/json",
+          "size": 303,
+          "content_length": null,
+          "sha256": "4b17507fcebaf50735de45e1599298aea9295c93601e973e3938aeef29a1c58a",
+          "t": "2026-10-23T02:50:38Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "http",
+          "host": "assets.hv-mtl.com",
+          "gateway": null,
+          "uri": "https://assets.hv-mtl.com/used/3_NA.jpg",
+          "external_refs": [],
+          "liveness": "dead",
+          "reason": "http-4xx",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "assets.hv-mtl.com",
+              "url": "https://assets.hv-mtl.com/used/3_NA.jpg",
+              "status": 404,
+              "error_kind": null,
+              "v": "dead",
+              "reason": "http-4xx",
+              "seq": 5,
+              "final_url": "https://assets.hv-mtl.com/used/3_NA.jpg",
+              "content_type": "text/html; charset=utf-8",
+              "size": 368,
+              "content_length": null,
+              "sha256": "b06d3321aef9532441563cdd7517ec9cef61fa943b5cfbd236a5d25b405b2156",
+              "t": "2026-10-23T02:50:38Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            },
+            {
+              "pass": 2,
+              "gateway": "assets.hv-mtl.com",
+              "url": "https://assets.hv-mtl.com/used/3_NA.jpg",
+              "status": 404,
+              "error_kind": null,
+              "v": "dead",
+              "reason": "http-4xx",
+              "seq": 10,
+              "final_url": "https://assets.hv-mtl.com/used/3_NA.jpg",
+              "content_type": "text/html; charset=utf-8",
+              "size": 368,
+              "content_length": null,
+              "sha256": "209f7c70e3210a4da6397f54810f8b2803a9250b13cfdc341d001e5cb862ea73",
+              "t": "2026-10-23T02:58:40Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            },
+            {
+              "pass": 2,
+              "gateway": "assets.hv-mtl.com",
+              "url": "https://assets.hv-mtl.com/used/3_NA.jpg",
+              "status": 404,
+              "error_kind": null,
+              "v": "dead",
+              "reason": "http-4xx",
+              "seq": 13,
+              "final_url": "https://assets.hv-mtl.com/used/3_NA.jpg",
+              "content_type": "text/html; charset=utf-8",
+              "size": 368,
+              "content_length": null,
+              "sha256": "6ae970d582aacfb19799a9b089c448742dd8e4a312d40f492359b9a656c0614d",
+              "t": "2026-10-23T03:05:02Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "http",
+        "anim_class": null,
+        "image_verdict": "dead",
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "http"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "degraded",
+        "liveness_reason": "media-dead:http-4xx",
+        "liveness_exact": "degraded",
+        "liveness_exact_reason": "media-dead:http-4xx",
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "dead",
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000006774",
+          "endpoint": "https://eth.rpc.blxrbdn.com",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x764aeebcf425d56800ef2c84f2578689415a2daa/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0x764aeebcf425d56800ef2c84f2578689415a2daa",
+      "token_id": "26436",
+      "sample_unit": 1,
+      "how_found": "reused census: blockscout-instances-min [low] (ownerOf(26435) reverted (burned/stale); moved to 26436)",
+      "metadata_location": "http",
+      "metadata_uri": "https://api.hv-mtl.com/sewerpasses/26436",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "api.hv-mtl.com",
+          "url": "https://api.hv-mtl.com/sewerpasses/26436",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 4,
+          "final_url": "https://api.hv-mtl.com/sewerpasses/26436",
+          "content_type": "application/json",
+          "size": 351,
+          "content_length": null,
+          "sha256": "b77546e178b4ecb5e01bc124609148d3f8fd305f1784fb6ee70c16599ba0bbec",
+          "t": "2026-10-23T02:50:38Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "http",
+          "host": "assets.hv-mtl.com",
+          "gateway": null,
+          "uri": "https://assets.hv-mtl.com/used/3_21789.jpg",
+          "external_refs": [],
+          "liveness": "dead",
+          "reason": "http-4xx",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "assets.hv-mtl.com",
+              "url": "https://assets.hv-mtl.com/used/3_21789.jpg",
+              "status": 404,
+              "error_kind": null,
+              "v": "dead",
+              "reason": "http-4xx",
+              "seq": 7,
+              "final_url": "https://assets.hv-mtl.com/used/3_21789.jpg",
+              "content_type": "text/html; charset=utf-8",
+              "size": 371,
+              "content_length": null,
+              "sha256": "12ff79449b573f1ba7303dd3e8c09c8eca8f6f43fe672f6bbaa26ae326a21e24",
+              "t": "2026-10-23T02:50:39Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            },
+            {
+              "pass": 2,
+              "gateway": "assets.hv-mtl.com",
+              "url": "https://assets.hv-mtl.com/used/3_21789.jpg",
+              "status": 404,
+              "error_kind": null,
+              "v": "dead",
+              "reason": "http-4xx",
+              "seq": 11,
+              "final_url": "https://assets.hv-mtl.com/used/3_21789.jpg",
+              "content_type": "text/html; charset=utf-8",
+              "size": 371,
+              "content_length": null,
+              "sha256": "f1bef497a4e02d2a41cfc44d14a27ec67844bddafb1fa407979376efffed6bc4",
+              "t": "2026-10-23T02:58:40Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            },
+            {
+              "pass": 2,
+              "gateway": "assets.hv-mtl.com",
+              "url": "https://assets.hv-mtl.com/used/3_21789.jpg",
+              "status": 404,
+              "error_kind": null,
+              "v": "dead",
+              "reason": "http-4xx",
+              "seq": 14,
+              "final_url": "https://assets.hv-mtl.com/used/3_21789.jpg",
+              "content_type": "text/html; charset=utf-8",
+              "size": 371,
+              "content_length": null,
+              "sha256": "f5e313ef49c2bcc26bb967af0acdec554d7565bd91bebbeb7c1f53bf00f510d0",
+              "t": "2026-10-23T03:05:03Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "http",
+        "anim_class": null,
+        "image_verdict": "dead",
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "http"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "degraded",
+        "liveness_reason": "media-dead:http-4xx",
+        "liveness_exact": "degraded",
+        "liveness_exact_reason": "media-dead:http-4xx",
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "dead",
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000006744",
+          "endpoint": "https://eth.rpc.blxrbdn.com",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x764aeebcf425d56800ef2c84f2578689415a2daa/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0x764aeebcf425d56800ef2c84f2578689415a2daa",
+      "token_id": "26460",
+      "sample_unit": 1,
+      "how_found": "reused census: ownerOf-probe(26459..+15) [mid]",
+      "metadata_location": "http",
+      "metadata_uri": "https://api.hv-mtl.com/sewerpasses/26460",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "api.hv-mtl.com",
+          "url": "https://api.hv-mtl.com/sewerpasses/26460",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 8,
+          "final_url": "https://api.hv-mtl.com/sewerpasses/26460",
+          "content_type": "application/json",
+          "size": 350,
+          "content_length": null,
+          "sha256": "83534b9265112557e3150d68791fd94cd751a8015319572cb4c9efde802a307e",
+          "t": "2026-10-23T02:50:39Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "http",
+          "host": "assets.hv-mtl.com",
+          "gateway": null,
+          "uri": "https://assets.hv-mtl.com/used/1_24261.jpg",
+          "external_refs": [],
+          "liveness": "dead",
+          "reason": "http-4xx",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "assets.hv-mtl.com",
+              "url": "https://assets.hv-mtl.com/used/1_24261.jpg",
+              "status": 404,
+              "error_kind": null,
+              "v": "dead",
+              "reason": "http-4xx",
+              "seq": 9,
+              "final_url": "https://assets.hv-mtl.com/used/1_24261.jpg",
+              "content_type": "text/html; charset=utf-8",
+              "size": 371,
+              "content_length": null,
+              "sha256": "6afa974b63c1a1aa6295f300cdb8acdda3f0daf982563fe07f29c27c7de484c1",
+              "t": "2026-10-23T02:50:39Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            },
+            {
+              "pass": 2,
+              "gateway": "assets.hv-mtl.com",
+              "url": "https://assets.hv-mtl.com/used/1_24261.jpg",
+              "status": 404,
+              "error_kind": null,
+              "v": "dead",
+              "reason": "http-4xx",
+              "seq": 12,
+              "final_url": "https://assets.hv-mtl.com/used/1_24261.jpg",
+              "content_type": "text/html; charset=utf-8",
+              "size": 371,
+              "content_length": null,
+              "sha256": "8427980dfa28b442b14abf879b5c4bb0fe174173309a3dfb5e24ab5139aab224",
+              "t": "2026-10-23T02:58:40Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            },
+            {
+              "pass": 2,
+              "gateway": "assets.hv-mtl.com",
+              "url": "https://assets.hv-mtl.com/used/1_24261.jpg",
+              "status": 404,
+              "error_kind": null,
+              "v": "dead",
+              "reason": "http-4xx",
+              "seq": 15,
+              "final_url": "https://assets.hv-mtl.com/used/1_24261.jpg",
+              "content_type": "text/html; charset=utf-8",
+              "size": 371,
+              "content_length": null,
+              "sha256": "ba23002b5fb69083e08177a338c468a972e1ff0216555c01e7d2aadbb054fde5",
+              "t": "2026-10-23T03:05:03Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "http",
+        "anim_class": null,
+        "image_verdict": "dead",
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "http"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "degraded",
+        "liveness_reason": "media-dead:http-4xx",
+        "liveness_exact": "degraded",
+        "liveness_exact_reason": "media-dead:http-4xx",
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "dead",
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd000000000000000000000000000000000000000000000000000000000000675c",
+          "endpoint": "https://eth.rpc.blxrbdn.com",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x764aeebcf425d56800ef2c84f2578689415a2daa/evidence.jsonl.gz"
+    }
+  ],
+  "saved_packet_index": [
+    {
+      "path": "data/raw/top100-api/opensea-contract-0x764aeebcf425d56800ef2c84f2578689415a2daa-attempt1-1792724302631125983.body",
+      "sha256": "e7435fbb1c5ad5f3795889b78db8f659dff6d30c6b8b48d4369204d05b353f74",
+      "retrieved_at": "2026-10-23T02:58:22Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0x764aeebcf425d56800ef2c84f2578689415a2daa",
+      "method": "GET",
+      "status": 401,
+      "error": null,
+      "bytes": 70,
+      "truncated": false
+    },
+    {
+      "path": "data/raw/top100-api/opensea-contract-0x764aeebcf425d56800ef2c84f2578689415a2daa-attempt1-1792724739409785633.body",
+      "sha256": "e7435fbb1c5ad5f3795889b78db8f659dff6d30c6b8b48d4369204d05b353f74",
+      "retrieved_at": "2026-10-23T03:05:39Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0x764aeebcf425d56800ef2c84f2578689415a2daa",
+      "method": "GET",
+      "status": 401,
+      "error": null,
+      "bytes": 70,
+      "truncated": false
+    },
+    {
+      "path": "data/raw/top100-census/0x764aeebcf425d56800ef2c84f2578689415a2daa/bodies.zip",
+      "sha256": "66505d70156df497504c0e097bd70575f95d580f2f71fb4cf45e66d1b7a2b993",
+      "bytes": 4973
+    },
+    {
+      "path": "data/raw/top100-census/0x764aeebcf425d56800ef2c84f2578689415a2daa/evidence.jsonl.gz",
+      "sha256": "3b3d7ddb601d374c67fe3f4aa8d7d497ca3adfd4d2200a6db4045d296aee659e",
+      "bytes": 2140
+    },
+    {
+      "path": "data/raw/top100-census/0x764aeebcf425d56800ef2c84f2578689415a2daa/result.json.gz",
+      "sha256": "455f6425d18d2fdea0f780419096075ef20a62a30dbd286e7a2aa68d2b1b3f7d",
+      "bytes": 2043
+    },
+    {
+      "path": "data/raw/top100-mutability/0x764aeebcf425d56800ef2c84f2578689415a2daa.json",
+      "sha256": "1aa36f89606616dab56dafd23eb8816b890c9ec095da19ea9177c2ef7332a85e",
+      "bytes": 9169
+    },
+    {
+      "path": "data/raw/top100-pointers/0x764aeebcf425d56800ef2c84f2578689415a2daa/result.json",
+      "sha256": "23a6fbc35df6abe3956c0f83040d850c86ab062ead830ea66496ddad490447bd",
+      "bytes": 203
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x764aeebcf425d56800ef2c84f2578689415a2daa/bodies.zip",
+      "sha256": "79893cd5ad7c3cdde775a93fc693eaffb28fe2ed84749782dc94d78e7712e702",
+      "bytes": 634
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x764aeebcf425d56800ef2c84f2578689415a2daa/evidence.jsonl.gz",
+      "sha256": "d4af6feaf3f88dfc605435c28c5fab5c5107aa74da342769fc0460703398bf17",
+      "bytes": 699
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x764aeebcf425d56800ef2c84f2578689415a2daa/result.json",
+      "sha256": "805c6103b9bfd808aaa0e605dfed4630fcb643739693fb21e494482b46f68576",
+      "bytes": 305
+    }
+  ],
+  "interpretation": "Liveness describes sampled metadata and primary-image delivery, not permanent loss of the artwork."
+}

@@ -1,0 +1,590 @@
+{
+  "collection": {
+    "rank": 73,
+    "source_rank": 78,
+    "name": "Acclimated?MoonCats",
+    "contract": "0xc3f733ca98e0dad0386979eb96fb1722a1a05e69",
+    "contracts": [
+      "0xc3f733ca98e0dad0386979eb96fb1722a1a05e69"
+    ],
+    "slug": "acclimatedmooncats",
+    "volume_usd": 73628776.23,
+    "volume_source": "CryptoSlam all-time Ethereum owner-to-owner sales, wash-filtered USD",
+    "source_url": "https://web-api.cryptoslam.io/v1/sales/rank-by-volume?timeRange=all&orderBy=rank&sortDirection=asc&offset=0&limit=100&blockchainId=0&hideInscriptions=false",
+    "ranking_evidence": "data/raw/top100-api/cryptoslam-ranking-0.json",
+    "identity_evidence": "data/raw/top100-api/cryptoslam-info-acclimatedmooncats.json",
+    "token_count": 21014,
+    "all_time_volume": 73628776.23,
+    "volume_currency": "USD",
+    "kind": "art-avatar",
+    "metadata_location": "http",
+    "metadata_classes": [
+      "http"
+    ],
+    "media_location": "http",
+    "primary_image_location": "http",
+    "media_classes": [
+      "http"
+    ],
+    "liveness": "alive",
+    "liveness_exact": "alive",
+    "all_declared_media_liveness": "alive",
+    "metadata_failed": false,
+    "n_alive": 3,
+    "n_dead": 0,
+    "n_unknown": 0,
+    "n_degraded": 0,
+    "key_domain_or_gateway": "api.mooncatrescue.com",
+    "hosts": [
+      "api.mooncatrescue.com"
+    ],
+    "hardcoded_gateways": [],
+    "http_origin_dependency": true,
+    "uses_ipfs": false,
+    "uses_arweave": false,
+    "fully_onchain_all_declared_media": false,
+    "metadata_and_primary_image_onchain": false,
+    "mutability_class": "eoa-mutable",
+    "single_key_mutable": true,
+    "single_key_repointable": true,
+    "base_uri_or_renderer": "0xc3f733ca98e0dad0386979eb96fb1722a1a05e69.baseURI() = https://api.mooncatrescue.com/mooncat/erc721-metadata/",
+    "control": [
+      {
+        "contract": "0xc3f733ca98e0dad0386979eb96fb1722a1a05e69",
+        "class": "eoa-mutable",
+        "pointer_power": "eoa",
+        "reason": "live setters (eoa): setBaseURI",
+        "owner": {
+          "addr": "0xdf2e60af57c411f848b1ea12b10a404d194bce27",
+          "code_raw": "data/raw/rpc-mutability/0xdf2e60af57c411f848b1ea12b10a404d194bce27_holdercode.json",
+          "type": "eoa",
+          "bs_name": null,
+          "ens": "team.mooncatrescue.eth",
+          "bs_impl_names": [],
+          "bs_tags": [],
+          "is_contract": false,
+          "creator": null,
+          "is_verified": false,
+          "bs_reputation": "ok"
+        },
+        "proxy": {
+          "kind": null
+        },
+        "live_mutators": [
+          {
+            "name": "setBaseURI",
+            "sig": "setBaseURI(string)",
+            "category": "uri",
+            "power": "eoa",
+            "holders": [
+              {
+                "addr": "0xdf2e60af57c411f848b1ea12b10a404d194bce27",
+                "type": "eoa",
+                "bs_name": null,
+                "ens": "team.mooncatrescue.eth",
+                "desc": "eoa",
+                "simple": "eoa"
+              }
+            ],
+            "effective": "unknown",
+            "reason": null
+          }
+        ],
+        "lock_flags": {},
+        "dependencies": [],
+        "pointer_getters": [
+          {
+            "getter": "baseURI()",
+            "type": "string",
+            "ok": true,
+            "value": "https://api.mooncatrescue.com/mooncat/erc721-metadata/",
+            "error": null
+          }
+        ],
+        "analyzed_at": "2026-10-21T23:43:06Z",
+        "history_incomplete": false,
+        "evidence": "data/mutability/evidence/0xc3f733ca98e0dad0386979eb96fb1722a1a05e69.json"
+      }
+    ],
+    "samples": 3,
+    "distinct_token_ids": 3,
+    "sample_note": null,
+    "source_contracts_without_sampleable_nfts": [],
+    "ownership_scope_gaps": [],
+    "refreshed_at": "2026-10-23T03:05:04Z",
+    "opensea_rank": 92,
+    "ranking_scope_disagreement": false,
+    "metadata_adapter": false,
+    "evidence": [
+      "data/raw/top100-census/0xc3f733ca98e0dad0386979eb96fb1722a1a05e69/result.json.gz"
+    ],
+    "delivery_note": null
+  },
+  "samples": [
+    {
+      "contract": "0xc3f733ca98e0dad0386979eb96fb1722a1a05e69",
+      "token_id": "1326",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(0) [low; totalSupply=20955]",
+      "metadata_location": "http",
+      "metadata_uri": "https://api.mooncatrescue.com/mooncat/erc721-metadata/1326",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "api.mooncatrescue.com",
+          "url": "https://api.mooncatrescue.com/mooncat/erc721-metadata/1326",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 2,
+          "final_url": "https://api.mooncatrescue.com/mooncat/erc721-metadata/1326",
+          "content_type": "application/json; charset=utf-8",
+          "size": 1094,
+          "content_length": null,
+          "sha256": "78d5f85b662644b6beab0e02057f0f84e4764ddfb66d17098d4e5d5ac0c23510",
+          "t": "2026-10-23T02:50:54Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "http",
+          "host": "api.mooncatrescue.com",
+          "gateway": null,
+          "uri": "https://api.mooncatrescue.com/mooncat/image/1326?format=png&acc=&scale=7&padding=365x365",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "api.mooncatrescue.com",
+              "url": "https://api.mooncatrescue.com/mooncat/image/1326?format=png&acc=&scale=7&padding=365x365",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 5,
+              "final_url": "https://api.mooncatrescue.com/mooncat/image/1326?format=png&acc=&scale=7&padding=365x365",
+              "content_type": "image/png",
+              "size": 31890,
+              "content_length": 31890,
+              "sha256": "9cfdbd13b36398c167df91213a491669a1300003b0eeecc689d11159155c266f",
+              "t": "2026-10-23T02:50:54Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        },
+        {
+          "field": "animation_url",
+          "location": "http",
+          "host": "api.mooncatrescue.com",
+          "gateway": null,
+          "uri": "https://api.mooncatrescue.com/mooncat/market-view/1326",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok-html",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "api.mooncatrescue.com",
+              "url": "https://api.mooncatrescue.com/mooncat/market-view/1326",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok-html",
+              "seq": 8,
+              "final_url": "https://api.mooncatrescue.com/mooncat/market-view/1326",
+              "content_type": "text/html; charset=utf-8",
+              "size": 2412,
+              "content_length": null,
+              "sha256": "c354931e74b1ad10dfeb6452d83ed32994ebd5fdb3b1d6588fc620aee40a2095",
+              "t": "2026-10-23T02:50:55Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "http",
+        "anim_class": "http",
+        "image_verdict": "alive",
+        "anim_verdict": "alive",
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "http",
+          "animation_url": "http"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "alive",
+        "anim_verdict_exact": "alive",
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd000000000000000000000000000000000000000000000000000000000000052e",
+          "endpoint": "https://eth.rpc.blxrbdn.com",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0xc3f733ca98e0dad0386979eb96fb1722a1a05e69/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0xc3f733ca98e0dad0386979eb96fb1722a1a05e69",
+      "token_id": "14441",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(10477) [mid; totalSupply=20955]",
+      "metadata_location": "http",
+      "metadata_uri": "https://api.mooncatrescue.com/mooncat/erc721-metadata/14441",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "api.mooncatrescue.com",
+          "url": "https://api.mooncatrescue.com/mooncat/erc721-metadata/14441",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 6,
+          "final_url": "https://api.mooncatrescue.com/mooncat/erc721-metadata/14441",
+          "content_type": "application/json; charset=utf-8",
+          "size": 1104,
+          "content_length": null,
+          "sha256": "384aa8dd5ca19eb7ab6ca671a674b0c86c738956335c562036002916675142dc",
+          "t": "2026-10-23T02:50:54Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "http",
+          "host": "api.mooncatrescue.com",
+          "gateway": null,
+          "uri": "https://api.mooncatrescue.com/mooncat/image/14441?format=png&acc=&scale=7&padding=365x365",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "api.mooncatrescue.com",
+              "url": "https://api.mooncatrescue.com/mooncat/image/14441?format=png&acc=&scale=7&padding=365x365",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 9,
+              "final_url": "https://api.mooncatrescue.com/mooncat/image/14441?format=png&acc=&scale=7&padding=365x365",
+              "content_type": "image/png",
+              "size": 38182,
+              "content_length": 38182,
+              "sha256": "6494f32fe186f88137590d2f7e4a22a6202b731580c890a3c56e6276fbac2d1a",
+              "t": "2026-10-23T02:50:55Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        },
+        {
+          "field": "animation_url",
+          "location": "http",
+          "host": "api.mooncatrescue.com",
+          "gateway": null,
+          "uri": "https://api.mooncatrescue.com/mooncat/market-view/14441",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok-html",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "api.mooncatrescue.com",
+              "url": "https://api.mooncatrescue.com/mooncat/market-view/14441",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok-html",
+              "seq": 11,
+              "final_url": "https://api.mooncatrescue.com/mooncat/market-view/14441",
+              "content_type": "text/html; charset=utf-8",
+              "size": 2414,
+              "content_length": null,
+              "sha256": "16a0c171e217a93db4d7553ede62d8b7fe27d7adbb44c6332a6201dd651dbe9f",
+              "t": "2026-10-23T02:50:56Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "http",
+        "anim_class": "http",
+        "image_verdict": "alive",
+        "anim_verdict": "alive",
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "http",
+          "animation_url": "http"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "alive",
+        "anim_verdict_exact": "alive",
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000003869",
+          "endpoint": "https://eth.rpc.blxrbdn.com",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0xc3f733ca98e0dad0386979eb96fb1722a1a05e69/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0xc3f733ca98e0dad0386979eb96fb1722a1a05e69",
+      "token_id": "16529",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(20954) [recent; totalSupply=20955]",
+      "metadata_location": "http",
+      "metadata_uri": "https://api.mooncatrescue.com/mooncat/erc721-metadata/16529",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "api.mooncatrescue.com",
+          "url": "https://api.mooncatrescue.com/mooncat/erc721-metadata/16529",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 7,
+          "final_url": "https://api.mooncatrescue.com/mooncat/erc721-metadata/16529",
+          "content_type": "application/json; charset=utf-8",
+          "size": 1106,
+          "content_length": null,
+          "sha256": "4dbe5b474c4192150661952bc03ef6e0cd4043ec0e2d5afa45b399c2185e610d",
+          "t": "2026-10-23T02:50:55Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "http",
+          "host": "api.mooncatrescue.com",
+          "gateway": null,
+          "uri": "https://api.mooncatrescue.com/mooncat/image/16529?format=png&acc=&scale=7&padding=365x365",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "api.mooncatrescue.com",
+              "url": "https://api.mooncatrescue.com/mooncat/image/16529?format=png&acc=&scale=7&padding=365x365",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 10,
+              "final_url": "https://api.mooncatrescue.com/mooncat/image/16529?format=png&acc=&scale=7&padding=365x365",
+              "content_type": "image/png",
+              "size": 49754,
+              "content_length": 49754,
+              "sha256": "cbeec02a83f5c106bcfe1a6e842ac908658b3e06331356ea60371ff3a96a5410",
+              "t": "2026-10-23T02:50:55Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        },
+        {
+          "field": "animation_url",
+          "location": "http",
+          "host": "api.mooncatrescue.com",
+          "gateway": null,
+          "uri": "https://api.mooncatrescue.com/mooncat/market-view/16529",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok-html",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "api.mooncatrescue.com",
+              "url": "https://api.mooncatrescue.com/mooncat/market-view/16529",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok-html",
+              "seq": 12,
+              "final_url": "https://api.mooncatrescue.com/mooncat/market-view/16529",
+              "content_type": "text/html; charset=utf-8",
+              "size": 2414,
+              "content_length": null,
+              "sha256": "c0d3473c4de78ef227f9505da0bec6b697314a8de6c1444d36320515d4a540a2",
+              "t": "2026-10-23T02:50:56Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "http",
+        "anim_class": "http",
+        "image_verdict": "alive",
+        "anim_verdict": "alive",
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "http",
+          "animation_url": "http"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "alive",
+        "anim_verdict_exact": "alive",
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000004091",
+          "endpoint": "https://eth.rpc.blxrbdn.com",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0xc3f733ca98e0dad0386979eb96fb1722a1a05e69/evidence.jsonl.gz"
+    }
+  ],
+  "saved_packet_index": [
+    {
+      "path": "data/raw/top100-api/opensea-contract-0xc3f733ca98e0dad0386979eb96fb1722a1a05e69-attempt1-1792724324631653858.body",
+      "sha256": "b9ceb6e542a310e193b1b3fcb92d3665c6382b8f973a2103a12bf64f58c34799",
+      "retrieved_at": "2026-10-23T02:58:44Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0xc3f733ca98e0dad0386979eb96fb1722a1a05e69",
+      "method": "GET",
+      "status": 200,
+      "error": null,
+      "bytes": 182,
+      "truncated": false
+    },
+    {
+      "path": "data/raw/top100-api/opensea-contract-0xc3f733ca98e0dad0386979eb96fb1722a1a05e69.json",
+      "sha256": "b9ceb6e542a310e193b1b3fcb92d3665c6382b8f973a2103a12bf64f58c34799",
+      "retrieved_at": "2026-10-23T02:58:44Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0xc3f733ca98e0dad0386979eb96fb1722a1a05e69",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "data/mutability/evidence/0xc3f733ca98e0dad0386979eb96fb1722a1a05e69.json",
+      "sha256": "792cb10f8aa373ff5d80e76353d2d3a37c5c3d88177cba266821e20c521388c2",
+      "bytes": 5923
+    },
+    {
+      "path": "data/raw/top100-census/0xc3f733ca98e0dad0386979eb96fb1722a1a05e69/bodies.zip",
+      "sha256": "bcc8e5b97b7fd4b2630e6a0c614432b78842d0d10af211aa83b4286d3380a982",
+      "bytes": 18438
+    },
+    {
+      "path": "data/raw/top100-census/0xc3f733ca98e0dad0386979eb96fb1722a1a05e69/evidence.jsonl.gz",
+      "sha256": "aab88e6e4b00b80064beacba3cf55cdee3956743a7b3f6291b56c086ab519efa",
+      "bytes": 1419
+    },
+    {
+      "path": "data/raw/top100-census/0xc3f733ca98e0dad0386979eb96fb1722a1a05e69/result.json.gz",
+      "sha256": "04745b6324d643cc7ab6f824a543b75dea9074151159fac6a20a5419f7c8e0b0",
+      "bytes": 2087
+    },
+    {
+      "path": "data/raw/top100-pointers/0xc3f733ca98e0dad0386979eb96fb1722a1a05e69/bodies.zip",
+      "sha256": "c16de1758330b19d39d1923a8fae3d73a8958e1cab4b7f718f2fdc164abfd422",
+      "bytes": 255
+    },
+    {
+      "path": "data/raw/top100-pointers/0xc3f733ca98e0dad0386979eb96fb1722a1a05e69/evidence.jsonl.gz",
+      "sha256": "93510ce3dc6382441d4eefb3f46497a461316457aaeeeaffd026972b89c706d0",
+      "bytes": 335
+    },
+    {
+      "path": "data/raw/top100-pointers/0xc3f733ca98e0dad0386979eb96fb1722a1a05e69/result.json",
+      "sha256": "c539e74ec8169dbbd3fd5c0e150dcdf181c6617839cafc8320d8e6e36aba1b1b",
+      "bytes": 360
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0xc3f733ca98e0dad0386979eb96fb1722a1a05e69/bodies.zip",
+      "sha256": "d858f3c5278648c538e7354cecde7475a08fce91473cb5f8ea65eb1726f303cb",
+      "bytes": 627
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0xc3f733ca98e0dad0386979eb96fb1722a1a05e69/evidence.jsonl.gz",
+      "sha256": "1db60cf83461f0a4fb6f3e6812bfbaf4cd2002b73dbf7a3180e3e0b02e328e35",
+      "bytes": 690
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0xc3f733ca98e0dad0386979eb96fb1722a1a05e69/result.json",
+      "sha256": "70b9f6388d7cee9d976b01592c453836e8d16085468e23289b068b91bdf49f1f",
+      "bytes": 304
+    }
+  ],
+  "interpretation": "Liveness describes sampled metadata and primary-image delivery, not permanent loss of the artwork."
+}

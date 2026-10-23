@@ -1,0 +1,2328 @@
+{
+ "address": "0x922dc160f2ab743312a6bb19dd5152c1d3ecca33",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:32Z",
+ "code_raw": "data/raw/rpc-mutability/0x922dc160f2ab743312a6bb19dd5152c1d3ecca33_code.json",
+ "code_len": 12655,
+ "slots": {
+  "slot0": "0x43727970746f4475636b6965730000000000000000000000000000000000001a"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0x922dc160f2ab743312a6bb19dd5152c1d3ecca33_slots.json",
+ "verified": true,
+ "contract_name": "CryptoDuckies",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [
+   {
+    "hash": "0xe87e2b7e4dc08940d4694d21160022baf1055a100b0ff54f0f47aa28be4493c3",
+    "timestamp": "2022-10-28T17:52:11.000000Z",
+    "method": "transferOwnership",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15848171,
+    "category": "ownership"
+   },
+   {
+    "hash": "0xd5c4f4101e2de90d0bf8ff0b7404be01b3c05d5e4a5fe5105b8207ae2c5ac924",
+    "timestamp": "2021-11-27T19:19:26.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13697888,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x7b577e94add3a4bf1fc12a16d50a8b2aea80e2f290be3bf8228ea46025392b69",
+    "timestamp": "2021-11-27T19:11:13.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13697846,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x36704f6faa6d92bdc8339bfe625fb9422957a18045e4ddcf9e0d66b67cbaf28b",
+    "timestamp": "2021-11-27T17:55:43.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13697515,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xdfa48c5b3f5fb7872e1c31c0badbc8f7324e74be5d843e983e4ffccb12792fc6",
+    "timestamp": "2021-11-27T17:55:33.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13697513,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xd482ceb66a292b0b245db0a34dbe9b9a4f5d3cced2eb397c82544e2cae03fede",
+    "timestamp": "2021-11-27T16:47:11.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13697192,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xf47562d3d0fb21ee57f701ecc4998c9bfbcfdf64dd95f40ff0ef68aa5d532e55",
+    "timestamp": "2021-11-27T16:46:56.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13697190,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xcf24da0024fe4012eb9f6bb10e0fdc5ac187c5aec0c32ec2e85f9fcb23749a29",
+    "timestamp": "2021-11-27T16:46:45.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13697188,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xef49dbb1e2846201b1bbc1ddec64ded2c63bd67f3c564f668bcad6c838d50941",
+    "timestamp": "2021-11-27T16:46:42.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13697187,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x9b7e8c2fe0743ca8a3395983685c4819d8f0c66b2c7daddd6aded094ae159bc4",
+    "timestamp": "2021-11-27T14:55:46.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696696,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x68a887e282150f3d496832986f3f9b2027e73a1588e1687f283ad7033f123bfa",
+    "timestamp": "2021-11-27T14:46:54.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696654,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x72885083161d92c9b95eb17e082ce06c0932bbb201f95f1608f9a3279e873acc",
+    "timestamp": "2021-11-27T14:39:47.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696619,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xbc9c56ae1ce13458092dc99f1eb6c6a5814bf34d5eb349e9c3c06273125bfe61",
+    "timestamp": "2021-11-27T14:28:15.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696572,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x0e5143c1fb55089b2a5d0d2067eb16f30db63803a43768097d34b32c849ac33a",
+    "timestamp": "2021-11-27T14:15:05.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696516,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x02d55ebd9d6e6dd3f41d8fef5c648895b8d76f8726d0591b176d4880e7c84b83",
+    "timestamp": "2021-11-27T14:02:53.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696462,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xf3346263036388abefb754d4139065c7cb6318ffc2da1c0cf5e6bbd6ade20234",
+    "timestamp": "2021-11-27T14:02:22.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696461,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x47ac97a45213ccf5f1666679347f8f43b92e5f2c6174ef285e2f7da9873b4ca6",
+    "timestamp": "2021-11-27T14:02:11.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696459,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x2cf147ee972dd1c6cc17779e1dc6e87a80cdbd3eeffe6d5f9487e0239c228df9",
+    "timestamp": "2021-11-27T14:00:49.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696451,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x7c30b6ba46563a59de7635276ff90b07e74a3813c38f20ea15a70b7da2449e41",
+    "timestamp": "2021-11-27T13:59:55.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696445,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x2b28b65e8d2f0f6363d86b28f8d56a040b1b7d5f44a6bec6b4d566c6f8e66522",
+    "timestamp": "2021-11-27T13:59:23.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696441,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x97fdbe3641d4b05d9fb3a98bb9a581d631a3a5973a73abd58f2f4f6506de14ea",
+    "timestamp": "2021-11-27T13:09:36.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696252,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x749e7fb3a0712b7784215349cd9221d50da040c85ee30e8b1c14028b1484f031",
+    "timestamp": "2021-11-27T12:58:58.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696204,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x11dfbcb303d55452a2514f88f2caabb65ab0490a37d625143839e262908ac7ce",
+    "timestamp": "2021-11-27T12:53:43.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696182,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x6207702826a8274fdb3eaff3a4956bb802e91876472711647aa9b40cf5406a1f",
+    "timestamp": "2021-11-27T12:53:32.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696181,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x30562530c1bf67690ee0e26e2155947386146ec4408f1f3e7ee2f8e69e063b67",
+    "timestamp": "2021-11-27T12:52:20.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696174,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x84bcc32e0d8035befded1234f6700f68df80c1602d33bf05fbca245f5b1f0d55",
+    "timestamp": "2021-11-27T12:49:39.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696160,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x190fc09d7c99d1ab91e7e1dbe312255af31a881745bbf2160a1bfe0d660ab096",
+    "timestamp": "2021-11-27T12:43:16.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696136,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x7119de23caf9746ab07c087cd997af45b1b1cb1378554baab0018e834421078d",
+    "timestamp": "2021-11-27T12:41:40.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696126,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x2706accb3aced22534d8f10feab56bd5e56504d21e18744849a3ccc6c863110b",
+    "timestamp": "2021-11-27T12:40:28.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696119,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xc1769cad3cd299f78fc20b66c31145a4861f39b8e46c0fa607d5739c68e5ea69",
+    "timestamp": "2021-11-27T12:28:19.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696070,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x6b710f7d767963cc697908d3c57e98bc2d811738be1bebf53d5d6a5df50ab9ac",
+    "timestamp": "2021-11-27T12:26:20.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696061,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x687779908c8befd15366a09cb3be40b5c2724875e8720a4345e171a224a54dc5",
+    "timestamp": "2021-11-27T12:14:22.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696015,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xd83fe1f4c9737755ceb559f290552c996c79a9d00e80c969e3c4b6dc76d87813",
+    "timestamp": "2021-11-27T12:11:51.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696003,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x7e2b8af452b686750f87823ffa871e14b4cea732531ffb5c8a20821bd818c661",
+    "timestamp": "2021-11-27T12:11:42.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696001,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xf7eb95da253090537c6c348cbe8e607e012ab5f82d0c9ecbf4929354fa17e2c0",
+    "timestamp": "2021-11-27T11:59:15.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695951,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x726bf6682c121b100524039fc7d20efe7504152b6de191e428e1bc91fac1fb1e",
+    "timestamp": "2021-11-27T11:57:10.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695944,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xa85d3ecc9d7e48cfd37aacf079b3b502e798e0148f6c4f5651c852b87e87ea95",
+    "timestamp": "2021-11-27T11:56:09.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695936,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xd54de507a1b9e637f09f162cd49197cb09b0d32ddacda062a484122ee18dd5f1",
+    "timestamp": "2021-11-27T11:55:08.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695932,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xc76fe28d52af5144d5556f16846d5d1f6f052e2cb608aed21435ce8e2d9ff552",
+    "timestamp": "2021-11-27T11:51:48.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695918,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xfabb935be6a2361e759fc85729b5b70aa7345cd0eadac26c4466cc555ac7a066",
+    "timestamp": "2021-11-27T11:51:17.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695916,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x74e1b92081add9cf3a35172804fbdaada24405ce390614a6b5eeb2dd1ab392c2",
+    "timestamp": "2021-11-27T11:50:13.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695907,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x6442551e11f17e3d156aab8c18be929a159a56cf76bff518e350ff5be9ebc279",
+    "timestamp": "2021-11-27T11:50:02.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695905,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x14624db409e576a5922f78403a1ba955f174ba5005c269e3cfc7f935f948de61",
+    "timestamp": "2021-11-27T11:50:01.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695904,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x6c518e0b8d83b7309ff020ac25119d855ebe79d5b28e0f27076ab73626a50869",
+    "timestamp": "2021-11-27T11:42:12.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695877,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x93ba000675e8576d81c31a3acdb49b797ff0614ea0e2b4d518c50d8d99508c3e",
+    "timestamp": "2021-11-27T11:40:26.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695870,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x15c74eb77b45f5ddbdcd3fddd7c17f10285150c3f475f9cfb74baba330ce2020",
+    "timestamp": "2021-11-27T11:40:05.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695868,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x75b8cdde57e94cd4373d12f4e9df182c92bf362f8d148a9ac2ba9debf4f45e63",
+    "timestamp": "2021-11-27T11:38:01.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695858,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xbafcda3ca391675bdec38b22c5437272aa9461781590e2e83bc8f4bbcc1be423",
+    "timestamp": "2021-11-27T11:37:49.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695857,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x9d0ea685e4f8a44f3f29dfd85fac7eb3f13ecb84933ab709e4d08756e18972f3",
+    "timestamp": "2021-11-27T11:36:03.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695849,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x639a6488f1ae8ac47b0ec3fce00bb17c014a915a40b45783f31e3a08235d96f3",
+    "timestamp": "2021-11-27T11:34:22.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695843,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xe87e2b7e4dc08940d4694d21160022baf1055a100b0ff54f0f47aa28be4493c3",
+    "timestamp": "2022-10-28T17:52:11.000000Z",
+    "method": "transferOwnership",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15848171,
+    "category": "ownership"
+   },
+   {
+    "hash": "0xd5c4f4101e2de90d0bf8ff0b7404be01b3c05d5e4a5fe5105b8207ae2c5ac924",
+    "timestamp": "2021-11-27T19:19:26.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13697888,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x7b577e94add3a4bf1fc12a16d50a8b2aea80e2f290be3bf8228ea46025392b69",
+    "timestamp": "2021-11-27T19:11:13.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13697846,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x36704f6faa6d92bdc8339bfe625fb9422957a18045e4ddcf9e0d66b67cbaf28b",
+    "timestamp": "2021-11-27T17:55:43.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13697515,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xdfa48c5b3f5fb7872e1c31c0badbc8f7324e74be5d843e983e4ffccb12792fc6",
+    "timestamp": "2021-11-27T17:55:33.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13697513,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xd482ceb66a292b0b245db0a34dbe9b9a4f5d3cced2eb397c82544e2cae03fede",
+    "timestamp": "2021-11-27T16:47:11.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13697192,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xf47562d3d0fb21ee57f701ecc4998c9bfbcfdf64dd95f40ff0ef68aa5d532e55",
+    "timestamp": "2021-11-27T16:46:56.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13697190,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xcf24da0024fe4012eb9f6bb10e0fdc5ac187c5aec0c32ec2e85f9fcb23749a29",
+    "timestamp": "2021-11-27T16:46:45.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13697188,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xef49dbb1e2846201b1bbc1ddec64ded2c63bd67f3c564f668bcad6c838d50941",
+    "timestamp": "2021-11-27T16:46:42.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13697187,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x9b7e8c2fe0743ca8a3395983685c4819d8f0c66b2c7daddd6aded094ae159bc4",
+    "timestamp": "2021-11-27T14:55:46.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696696,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x68a887e282150f3d496832986f3f9b2027e73a1588e1687f283ad7033f123bfa",
+    "timestamp": "2021-11-27T14:46:54.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696654,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x72885083161d92c9b95eb17e082ce06c0932bbb201f95f1608f9a3279e873acc",
+    "timestamp": "2021-11-27T14:39:47.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696619,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xbc9c56ae1ce13458092dc99f1eb6c6a5814bf34d5eb349e9c3c06273125bfe61",
+    "timestamp": "2021-11-27T14:28:15.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696572,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x0e5143c1fb55089b2a5d0d2067eb16f30db63803a43768097d34b32c849ac33a",
+    "timestamp": "2021-11-27T14:15:05.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696516,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x02d55ebd9d6e6dd3f41d8fef5c648895b8d76f8726d0591b176d4880e7c84b83",
+    "timestamp": "2021-11-27T14:02:53.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696462,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xf3346263036388abefb754d4139065c7cb6318ffc2da1c0cf5e6bbd6ade20234",
+    "timestamp": "2021-11-27T14:02:22.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696461,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x47ac97a45213ccf5f1666679347f8f43b92e5f2c6174ef285e2f7da9873b4ca6",
+    "timestamp": "2021-11-27T14:02:11.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696459,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x2cf147ee972dd1c6cc17779e1dc6e87a80cdbd3eeffe6d5f9487e0239c228df9",
+    "timestamp": "2021-11-27T14:00:49.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696451,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x7c30b6ba46563a59de7635276ff90b07e74a3813c38f20ea15a70b7da2449e41",
+    "timestamp": "2021-11-27T13:59:55.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696445,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x2b28b65e8d2f0f6363d86b28f8d56a040b1b7d5f44a6bec6b4d566c6f8e66522",
+    "timestamp": "2021-11-27T13:59:23.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696441,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x97fdbe3641d4b05d9fb3a98bb9a581d631a3a5973a73abd58f2f4f6506de14ea",
+    "timestamp": "2021-11-27T13:09:36.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696252,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x749e7fb3a0712b7784215349cd9221d50da040c85ee30e8b1c14028b1484f031",
+    "timestamp": "2021-11-27T12:58:58.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696204,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x11dfbcb303d55452a2514f88f2caabb65ab0490a37d625143839e262908ac7ce",
+    "timestamp": "2021-11-27T12:53:43.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696182,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x6207702826a8274fdb3eaff3a4956bb802e91876472711647aa9b40cf5406a1f",
+    "timestamp": "2021-11-27T12:53:32.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696181,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x30562530c1bf67690ee0e26e2155947386146ec4408f1f3e7ee2f8e69e063b67",
+    "timestamp": "2021-11-27T12:52:20.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696174,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x84bcc32e0d8035befded1234f6700f68df80c1602d33bf05fbca245f5b1f0d55",
+    "timestamp": "2021-11-27T12:49:39.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696160,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x190fc09d7c99d1ab91e7e1dbe312255af31a881745bbf2160a1bfe0d660ab096",
+    "timestamp": "2021-11-27T12:43:16.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696136,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x7119de23caf9746ab07c087cd997af45b1b1cb1378554baab0018e834421078d",
+    "timestamp": "2021-11-27T12:41:40.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696126,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x2706accb3aced22534d8f10feab56bd5e56504d21e18744849a3ccc6c863110b",
+    "timestamp": "2021-11-27T12:40:28.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696119,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xc1769cad3cd299f78fc20b66c31145a4861f39b8e46c0fa607d5739c68e5ea69",
+    "timestamp": "2021-11-27T12:28:19.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696070,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x6b710f7d767963cc697908d3c57e98bc2d811738be1bebf53d5d6a5df50ab9ac",
+    "timestamp": "2021-11-27T12:26:20.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696061,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x687779908c8befd15366a09cb3be40b5c2724875e8720a4345e171a224a54dc5",
+    "timestamp": "2021-11-27T12:14:22.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696015,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xd83fe1f4c9737755ceb559f290552c996c79a9d00e80c969e3c4b6dc76d87813",
+    "timestamp": "2021-11-27T12:11:51.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696003,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x7e2b8af452b686750f87823ffa871e14b4cea732531ffb5c8a20821bd818c661",
+    "timestamp": "2021-11-27T12:11:42.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696001,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xf7eb95da253090537c6c348cbe8e607e012ab5f82d0c9ecbf4929354fa17e2c0",
+    "timestamp": "2021-11-27T11:59:15.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695951,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x726bf6682c121b100524039fc7d20efe7504152b6de191e428e1bc91fac1fb1e",
+    "timestamp": "2021-11-27T11:57:10.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695944,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xa85d3ecc9d7e48cfd37aacf079b3b502e798e0148f6c4f5651c852b87e87ea95",
+    "timestamp": "2021-11-27T11:56:09.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695936,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xd54de507a1b9e637f09f162cd49197cb09b0d32ddacda062a484122ee18dd5f1",
+    "timestamp": "2021-11-27T11:55:08.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695932,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xc76fe28d52af5144d5556f16846d5d1f6f052e2cb608aed21435ce8e2d9ff552",
+    "timestamp": "2021-11-27T11:51:48.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695918,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xfabb935be6a2361e759fc85729b5b70aa7345cd0eadac26c4466cc555ac7a066",
+    "timestamp": "2021-11-27T11:51:17.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695916,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x74e1b92081add9cf3a35172804fbdaada24405ce390614a6b5eeb2dd1ab392c2",
+    "timestamp": "2021-11-27T11:50:13.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695907,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x6442551e11f17e3d156aab8c18be929a159a56cf76bff518e350ff5be9ebc279",
+    "timestamp": "2021-11-27T11:50:02.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695905,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x14624db409e576a5922f78403a1ba955f174ba5005c269e3cfc7f935f948de61",
+    "timestamp": "2021-11-27T11:50:01.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695904,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x6c518e0b8d83b7309ff020ac25119d855ebe79d5b28e0f27076ab73626a50869",
+    "timestamp": "2021-11-27T11:42:12.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695877,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x93ba000675e8576d81c31a3acdb49b797ff0614ea0e2b4d518c50d8d99508c3e",
+    "timestamp": "2021-11-27T11:40:26.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695870,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x15c74eb77b45f5ddbdcd3fddd7c17f10285150c3f475f9cfb74baba330ce2020",
+    "timestamp": "2021-11-27T11:40:05.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695868,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x75b8cdde57e94cd4373d12f4e9df182c92bf362f8d148a9ac2ba9debf4f45e63",
+    "timestamp": "2021-11-27T11:38:01.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695858,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xbafcda3ca391675bdec38b22c5437272aa9461781590e2e83bc8f4bbcc1be423",
+    "timestamp": "2021-11-27T11:37:49.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695857,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x9d0ea685e4f8a44f3f29dfd85fac7eb3f13ecb84933ab709e4d08756e18972f3",
+    "timestamp": "2021-11-27T11:36:03.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695849,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x639a6488f1ae8ac47b0ec3fce00bb17c014a915a40b45783f31e3a08235d96f3",
+    "timestamp": "2021-11-27T11:34:22.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695843,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xe87e2b7e4dc08940d4694d21160022baf1055a100b0ff54f0f47aa28be4493c3",
+    "timestamp": "2022-10-28T17:52:11.000000Z",
+    "method": "transferOwnership",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15848171,
+    "category": "ownership"
+   },
+   {
+    "hash": "0xd5c4f4101e2de90d0bf8ff0b7404be01b3c05d5e4a5fe5105b8207ae2c5ac924",
+    "timestamp": "2021-11-27T19:19:26.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13697888,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x7b577e94add3a4bf1fc12a16d50a8b2aea80e2f290be3bf8228ea46025392b69",
+    "timestamp": "2021-11-27T19:11:13.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13697846,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x36704f6faa6d92bdc8339bfe625fb9422957a18045e4ddcf9e0d66b67cbaf28b",
+    "timestamp": "2021-11-27T17:55:43.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13697515,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xdfa48c5b3f5fb7872e1c31c0badbc8f7324e74be5d843e983e4ffccb12792fc6",
+    "timestamp": "2021-11-27T17:55:33.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13697513,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xd482ceb66a292b0b245db0a34dbe9b9a4f5d3cced2eb397c82544e2cae03fede",
+    "timestamp": "2021-11-27T16:47:11.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13697192,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xf47562d3d0fb21ee57f701ecc4998c9bfbcfdf64dd95f40ff0ef68aa5d532e55",
+    "timestamp": "2021-11-27T16:46:56.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13697190,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xcf24da0024fe4012eb9f6bb10e0fdc5ac187c5aec0c32ec2e85f9fcb23749a29",
+    "timestamp": "2021-11-27T16:46:45.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13697188,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xef49dbb1e2846201b1bbc1ddec64ded2c63bd67f3c564f668bcad6c838d50941",
+    "timestamp": "2021-11-27T16:46:42.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13697187,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x9b7e8c2fe0743ca8a3395983685c4819d8f0c66b2c7daddd6aded094ae159bc4",
+    "timestamp": "2021-11-27T14:55:46.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696696,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x68a887e282150f3d496832986f3f9b2027e73a1588e1687f283ad7033f123bfa",
+    "timestamp": "2021-11-27T14:46:54.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696654,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x72885083161d92c9b95eb17e082ce06c0932bbb201f95f1608f9a3279e873acc",
+    "timestamp": "2021-11-27T14:39:47.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696619,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xbc9c56ae1ce13458092dc99f1eb6c6a5814bf34d5eb349e9c3c06273125bfe61",
+    "timestamp": "2021-11-27T14:28:15.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696572,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x0e5143c1fb55089b2a5d0d2067eb16f30db63803a43768097d34b32c849ac33a",
+    "timestamp": "2021-11-27T14:15:05.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696516,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x02d55ebd9d6e6dd3f41d8fef5c648895b8d76f8726d0591b176d4880e7c84b83",
+    "timestamp": "2021-11-27T14:02:53.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696462,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xf3346263036388abefb754d4139065c7cb6318ffc2da1c0cf5e6bbd6ade20234",
+    "timestamp": "2021-11-27T14:02:22.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696461,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x47ac97a45213ccf5f1666679347f8f43b92e5f2c6174ef285e2f7da9873b4ca6",
+    "timestamp": "2021-11-27T14:02:11.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696459,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x2cf147ee972dd1c6cc17779e1dc6e87a80cdbd3eeffe6d5f9487e0239c228df9",
+    "timestamp": "2021-11-27T14:00:49.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696451,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x7c30b6ba46563a59de7635276ff90b07e74a3813c38f20ea15a70b7da2449e41",
+    "timestamp": "2021-11-27T13:59:55.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696445,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x2b28b65e8d2f0f6363d86b28f8d56a040b1b7d5f44a6bec6b4d566c6f8e66522",
+    "timestamp": "2021-11-27T13:59:23.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696441,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x97fdbe3641d4b05d9fb3a98bb9a581d631a3a5973a73abd58f2f4f6506de14ea",
+    "timestamp": "2021-11-27T13:09:36.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696252,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x749e7fb3a0712b7784215349cd9221d50da040c85ee30e8b1c14028b1484f031",
+    "timestamp": "2021-11-27T12:58:58.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696204,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x11dfbcb303d55452a2514f88f2caabb65ab0490a37d625143839e262908ac7ce",
+    "timestamp": "2021-11-27T12:53:43.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696182,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x6207702826a8274fdb3eaff3a4956bb802e91876472711647aa9b40cf5406a1f",
+    "timestamp": "2021-11-27T12:53:32.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696181,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x30562530c1bf67690ee0e26e2155947386146ec4408f1f3e7ee2f8e69e063b67",
+    "timestamp": "2021-11-27T12:52:20.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696174,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x84bcc32e0d8035befded1234f6700f68df80c1602d33bf05fbca245f5b1f0d55",
+    "timestamp": "2021-11-27T12:49:39.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696160,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x190fc09d7c99d1ab91e7e1dbe312255af31a881745bbf2160a1bfe0d660ab096",
+    "timestamp": "2021-11-27T12:43:16.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696136,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x7119de23caf9746ab07c087cd997af45b1b1cb1378554baab0018e834421078d",
+    "timestamp": "2021-11-27T12:41:40.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696126,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x2706accb3aced22534d8f10feab56bd5e56504d21e18744849a3ccc6c863110b",
+    "timestamp": "2021-11-27T12:40:28.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696119,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xc1769cad3cd299f78fc20b66c31145a4861f39b8e46c0fa607d5739c68e5ea69",
+    "timestamp": "2021-11-27T12:28:19.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696070,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x6b710f7d767963cc697908d3c57e98bc2d811738be1bebf53d5d6a5df50ab9ac",
+    "timestamp": "2021-11-27T12:26:20.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696061,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x687779908c8befd15366a09cb3be40b5c2724875e8720a4345e171a224a54dc5",
+    "timestamp": "2021-11-27T12:14:22.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696015,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xd83fe1f4c9737755ceb559f290552c996c79a9d00e80c969e3c4b6dc76d87813",
+    "timestamp": "2021-11-27T12:11:51.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696003,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x7e2b8af452b686750f87823ffa871e14b4cea732531ffb5c8a20821bd818c661",
+    "timestamp": "2021-11-27T12:11:42.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696001,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xf7eb95da253090537c6c348cbe8e607e012ab5f82d0c9ecbf4929354fa17e2c0",
+    "timestamp": "2021-11-27T11:59:15.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695951,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x726bf6682c121b100524039fc7d20efe7504152b6de191e428e1bc91fac1fb1e",
+    "timestamp": "2021-11-27T11:57:10.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695944,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xa85d3ecc9d7e48cfd37aacf079b3b502e798e0148f6c4f5651c852b87e87ea95",
+    "timestamp": "2021-11-27T11:56:09.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695936,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xd54de507a1b9e637f09f162cd49197cb09b0d32ddacda062a484122ee18dd5f1",
+    "timestamp": "2021-11-27T11:55:08.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695932,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xc76fe28d52af5144d5556f16846d5d1f6f052e2cb608aed21435ce8e2d9ff552",
+    "timestamp": "2021-11-27T11:51:48.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695918,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xfabb935be6a2361e759fc85729b5b70aa7345cd0eadac26c4466cc555ac7a066",
+    "timestamp": "2021-11-27T11:51:17.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695916,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x74e1b92081add9cf3a35172804fbdaada24405ce390614a6b5eeb2dd1ab392c2",
+    "timestamp": "2021-11-27T11:50:13.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695907,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x6442551e11f17e3d156aab8c18be929a159a56cf76bff518e350ff5be9ebc279",
+    "timestamp": "2021-11-27T11:50:02.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695905,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x14624db409e576a5922f78403a1ba955f174ba5005c269e3cfc7f935f948de61",
+    "timestamp": "2021-11-27T11:50:01.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695904,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x6c518e0b8d83b7309ff020ac25119d855ebe79d5b28e0f27076ab73626a50869",
+    "timestamp": "2021-11-27T11:42:12.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695877,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x93ba000675e8576d81c31a3acdb49b797ff0614ea0e2b4d518c50d8d99508c3e",
+    "timestamp": "2021-11-27T11:40:26.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695870,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x15c74eb77b45f5ddbdcd3fddd7c17f10285150c3f475f9cfb74baba330ce2020",
+    "timestamp": "2021-11-27T11:40:05.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695868,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x75b8cdde57e94cd4373d12f4e9df182c92bf362f8d148a9ac2ba9debf4f45e63",
+    "timestamp": "2021-11-27T11:38:01.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695858,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xbafcda3ca391675bdec38b22c5437272aa9461781590e2e83bc8f4bbcc1be423",
+    "timestamp": "2021-11-27T11:37:49.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695857,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x9d0ea685e4f8a44f3f29dfd85fac7eb3f13ecb84933ab709e4d08756e18972f3",
+    "timestamp": "2021-11-27T11:36:03.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695849,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x639a6488f1ae8ac47b0ec3fce00bb17c014a915a40b45783f31e3a08235d96f3",
+    "timestamp": "2021-11-27T11:34:22.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695843,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xe87e2b7e4dc08940d4694d21160022baf1055a100b0ff54f0f47aa28be4493c3",
+    "timestamp": "2022-10-28T17:52:11.000000Z",
+    "method": "transferOwnership",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15848171,
+    "category": "ownership"
+   },
+   {
+    "hash": "0xd5c4f4101e2de90d0bf8ff0b7404be01b3c05d5e4a5fe5105b8207ae2c5ac924",
+    "timestamp": "2021-11-27T19:19:26.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13697888,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x7b577e94add3a4bf1fc12a16d50a8b2aea80e2f290be3bf8228ea46025392b69",
+    "timestamp": "2021-11-27T19:11:13.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13697846,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x36704f6faa6d92bdc8339bfe625fb9422957a18045e4ddcf9e0d66b67cbaf28b",
+    "timestamp": "2021-11-27T17:55:43.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13697515,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xdfa48c5b3f5fb7872e1c31c0badbc8f7324e74be5d843e983e4ffccb12792fc6",
+    "timestamp": "2021-11-27T17:55:33.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13697513,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xd482ceb66a292b0b245db0a34dbe9b9a4f5d3cced2eb397c82544e2cae03fede",
+    "timestamp": "2021-11-27T16:47:11.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13697192,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xf47562d3d0fb21ee57f701ecc4998c9bfbcfdf64dd95f40ff0ef68aa5d532e55",
+    "timestamp": "2021-11-27T16:46:56.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13697190,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xcf24da0024fe4012eb9f6bb10e0fdc5ac187c5aec0c32ec2e85f9fcb23749a29",
+    "timestamp": "2021-11-27T16:46:45.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13697188,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xef49dbb1e2846201b1bbc1ddec64ded2c63bd67f3c564f668bcad6c838d50941",
+    "timestamp": "2021-11-27T16:46:42.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13697187,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x9b7e8c2fe0743ca8a3395983685c4819d8f0c66b2c7daddd6aded094ae159bc4",
+    "timestamp": "2021-11-27T14:55:46.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696696,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x68a887e282150f3d496832986f3f9b2027e73a1588e1687f283ad7033f123bfa",
+    "timestamp": "2021-11-27T14:46:54.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696654,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x72885083161d92c9b95eb17e082ce06c0932bbb201f95f1608f9a3279e873acc",
+    "timestamp": "2021-11-27T14:39:47.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696619,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xbc9c56ae1ce13458092dc99f1eb6c6a5814bf34d5eb349e9c3c06273125bfe61",
+    "timestamp": "2021-11-27T14:28:15.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696572,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x0e5143c1fb55089b2a5d0d2067eb16f30db63803a43768097d34b32c849ac33a",
+    "timestamp": "2021-11-27T14:15:05.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696516,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x02d55ebd9d6e6dd3f41d8fef5c648895b8d76f8726d0591b176d4880e7c84b83",
+    "timestamp": "2021-11-27T14:02:53.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696462,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xf3346263036388abefb754d4139065c7cb6318ffc2da1c0cf5e6bbd6ade20234",
+    "timestamp": "2021-11-27T14:02:22.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696461,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x47ac97a45213ccf5f1666679347f8f43b92e5f2c6174ef285e2f7da9873b4ca6",
+    "timestamp": "2021-11-27T14:02:11.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696459,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x2cf147ee972dd1c6cc17779e1dc6e87a80cdbd3eeffe6d5f9487e0239c228df9",
+    "timestamp": "2021-11-27T14:00:49.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696451,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x7c30b6ba46563a59de7635276ff90b07e74a3813c38f20ea15a70b7da2449e41",
+    "timestamp": "2021-11-27T13:59:55.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696445,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x2b28b65e8d2f0f6363d86b28f8d56a040b1b7d5f44a6bec6b4d566c6f8e66522",
+    "timestamp": "2021-11-27T13:59:23.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696441,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x97fdbe3641d4b05d9fb3a98bb9a581d631a3a5973a73abd58f2f4f6506de14ea",
+    "timestamp": "2021-11-27T13:09:36.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696252,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x749e7fb3a0712b7784215349cd9221d50da040c85ee30e8b1c14028b1484f031",
+    "timestamp": "2021-11-27T12:58:58.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696204,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x11dfbcb303d55452a2514f88f2caabb65ab0490a37d625143839e262908ac7ce",
+    "timestamp": "2021-11-27T12:53:43.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696182,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x6207702826a8274fdb3eaff3a4956bb802e91876472711647aa9b40cf5406a1f",
+    "timestamp": "2021-11-27T12:53:32.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696181,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x30562530c1bf67690ee0e26e2155947386146ec4408f1f3e7ee2f8e69e063b67",
+    "timestamp": "2021-11-27T12:52:20.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696174,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x84bcc32e0d8035befded1234f6700f68df80c1602d33bf05fbca245f5b1f0d55",
+    "timestamp": "2021-11-27T12:49:39.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696160,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x190fc09d7c99d1ab91e7e1dbe312255af31a881745bbf2160a1bfe0d660ab096",
+    "timestamp": "2021-11-27T12:43:16.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696136,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x7119de23caf9746ab07c087cd997af45b1b1cb1378554baab0018e834421078d",
+    "timestamp": "2021-11-27T12:41:40.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696126,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x2706accb3aced22534d8f10feab56bd5e56504d21e18744849a3ccc6c863110b",
+    "timestamp": "2021-11-27T12:40:28.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696119,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xc1769cad3cd299f78fc20b66c31145a4861f39b8e46c0fa607d5739c68e5ea69",
+    "timestamp": "2021-11-27T12:28:19.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696070,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x6b710f7d767963cc697908d3c57e98bc2d811738be1bebf53d5d6a5df50ab9ac",
+    "timestamp": "2021-11-27T12:26:20.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696061,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x687779908c8befd15366a09cb3be40b5c2724875e8720a4345e171a224a54dc5",
+    "timestamp": "2021-11-27T12:14:22.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696015,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xd83fe1f4c9737755ceb559f290552c996c79a9d00e80c969e3c4b6dc76d87813",
+    "timestamp": "2021-11-27T12:11:51.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696003,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x7e2b8af452b686750f87823ffa871e14b4cea732531ffb5c8a20821bd818c661",
+    "timestamp": "2021-11-27T12:11:42.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13696001,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xf7eb95da253090537c6c348cbe8e607e012ab5f82d0c9ecbf4929354fa17e2c0",
+    "timestamp": "2021-11-27T11:59:15.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695951,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x726bf6682c121b100524039fc7d20efe7504152b6de191e428e1bc91fac1fb1e",
+    "timestamp": "2021-11-27T11:57:10.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695944,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xa85d3ecc9d7e48cfd37aacf079b3b502e798e0148f6c4f5651c852b87e87ea95",
+    "timestamp": "2021-11-27T11:56:09.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695936,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xd54de507a1b9e637f09f162cd49197cb09b0d32ddacda062a484122ee18dd5f1",
+    "timestamp": "2021-11-27T11:55:08.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695932,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xc76fe28d52af5144d5556f16846d5d1f6f052e2cb608aed21435ce8e2d9ff552",
+    "timestamp": "2021-11-27T11:51:48.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695918,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xfabb935be6a2361e759fc85729b5b70aa7345cd0eadac26c4466cc555ac7a066",
+    "timestamp": "2021-11-27T11:51:17.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695916,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x74e1b92081add9cf3a35172804fbdaada24405ce390614a6b5eeb2dd1ab392c2",
+    "timestamp": "2021-11-27T11:50:13.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695907,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x6442551e11f17e3d156aab8c18be929a159a56cf76bff518e350ff5be9ebc279",
+    "timestamp": "2021-11-27T11:50:02.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695905,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x14624db409e576a5922f78403a1ba955f174ba5005c269e3cfc7f935f948de61",
+    "timestamp": "2021-11-27T11:50:01.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695904,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x6c518e0b8d83b7309ff020ac25119d855ebe79d5b28e0f27076ab73626a50869",
+    "timestamp": "2021-11-27T11:42:12.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695877,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x93ba000675e8576d81c31a3acdb49b797ff0614ea0e2b4d518c50d8d99508c3e",
+    "timestamp": "2021-11-27T11:40:26.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695870,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x15c74eb77b45f5ddbdcd3fddd7c17f10285150c3f475f9cfb74baba330ce2020",
+    "timestamp": "2021-11-27T11:40:05.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695868,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x75b8cdde57e94cd4373d12f4e9df182c92bf362f8d148a9ac2ba9debf4f45e63",
+    "timestamp": "2021-11-27T11:38:01.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695858,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xbafcda3ca391675bdec38b22c5437272aa9461781590e2e83bc8f4bbcc1be423",
+    "timestamp": "2021-11-27T11:37:49.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695857,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x9d0ea685e4f8a44f3f29dfd85fac7eb3f13ecb84933ab709e4d08756e18972f3",
+    "timestamp": "2021-11-27T11:36:03.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695849,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x639a6488f1ae8ac47b0ec3fce00bb17c014a915a40b45783f31e3a08235d96f3",
+    "timestamp": "2021-11-27T11:34:22.000000Z",
+    "method": "setAsset",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13695843,
+    "category": "renderer"
+   },
+   {
+    "truncated": true,
+    "chunk": 0
+   }
+  ],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 2,
+    "first": "2021-11-21",
+    "last": "2022-10-28",
+    "last_tx": "0xe87e2b7e4dc08940d4694d21160022baf1055a100b0ff54f0f47aa28be4493c3",
+    "list": [
+     {
+      "date": "2021-11-21",
+      "tx": "0xcaba81c692f57c6653de84ea8def6b2ea7e2ff708cae1a1c2a4dbeb814ec1077",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "a4a236d97a2afa4b37693e5df8aa5afc68c42cd1"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2022-10-28",
+      "tx": "0xe87e2b7e4dc08940d4694d21160022baf1055a100b0ff54f0f47aa28be4493c3",
+      "topics": [
+       "a4a236d97a2afa4b37693e5df8aa5afc68c42cd1",
+       "5c6139cd9ff1170197f13935c58f825b422c744c"
+      ],
+      "data": "0x"
+     }
+    ]
+   }
+  },
+  "decoded": [
+   {
+    "hash": "0x639a6488f1ae8ac47b0ec3fce00bb17c014a915a40b45783f31e3a08235d96f3",
+    "timestamp": "2021-11-27T11:34:22.000000Z",
+    "method": "setAsset",
+    "category": "renderer",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "uint256",
+      "value": "71"
+     },
+     {
+      "name": "arg1",
+      "type": "bytes",
+      "value": "0x1804486561640e5069726174652042616e64616e6100000003050200000000ffffffffff0f11f30fc1f0222110fa1f221f00f61101f12121110f81f80f710fff0100"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0x7b577e94add3a4bf1fc12a16d50a8b2aea80e2f290be3bf8228ea46025392b69",
+    "timestamp": "2021-11-27T19:11:13.000000Z",
+    "method": "setAsset",
+    "category": "renderer",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "uint256",
+      "value": "118"
+     },
+     {
+      "name": "arg1",
+      "type": "bytes",
+      "value": "0x040000000b0209000ae8a5ff0be9d5ff09e768ff17d1ecff239decff2780ecff2a61ecff2c45ecff4540ecff11220ff03122450fe31244560fd31245660fd312456770fc312456780ff057880ff008890ff00990"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0xd5c4f4101e2de90d0bf8ff0b7404be01b3c05d5e4a5fe5105b8207ae2c5ac924",
+    "timestamp": "2021-11-27T19:19:26.000000Z",
+    "method": "setAsset",
+    "category": "renderer",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "uint256",
+      "value": "119"
+     },
+     {
+      "name": "arg1",
+      "type": "bytes",
+      "value": "0x04000000060e0c00000000ffc9db0dff8bdb0bffff9600ff57da0cff0bc172ff00b2acff00a4d6ff0089ebff2653ebff3d3ee5ff4934e0ff12f11f30f713f14f210f715f14f01110f716f510f917f510f918f510f919f510f91af510f91bf510f91cf510"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0xe87e2b7e4dc08940d4694d21160022baf1055a100b0ff54f0f47aa28be4493c3",
+    "timestamp": "2022-10-28T17:52:11.000000Z",
+    "method": "transferOwnership",
+    "category": "ownership",
+    "from": "0xA4A236D97a2Afa4B37693e5dF8AA5AFC68c42cD1",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0x5c6139cd9ff1170197f13935c58f825b422c744c"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   }
+  ],
+  "ownership_transfers": [
+   {
+    "date": "2021-11-21",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0xa4a236d97a2afa4b37693e5df8aa5afc68c42cd1",
+    "tx": "0xcaba81c692f57c6653de84ea8def6b2ea7e2ff708cae1a1c2a4dbeb814ec1077"
+   },
+   {
+    "date": "2022-10-28",
+    "from": "0xa4a236d97a2afa4b37693e5df8aa5afc68c42cd1",
+    "to": "0x5c6139cd9ff1170197f13935c58f825b422c744c",
+    "tx": "0xe87e2b7e4dc08940d4694d21160022baf1055a100b0ff54f0f47aa28be4493c3"
+   }
+  ],
+  "incomplete": false,
+  "safe_calls": {
+   "0x5c6139cd9ff1170197f13935c58f825b422c744c": {
+    "count": 2,
+    "calls": [
+     {
+      "date": "2022-12-20",
+      "method": "emergencyMint",
+      "category": null,
+      "params": [
+       {
+        "name": "tokenId",
+        "type": "uint256",
+        "value": "3871"
+       }
+      ],
+      "tx": "0xd6e0d43b678bb83ace1803fed0c058997afc7513bd772d057f7a04fd8ad74913",
+      "success": true,
+      "safe": "0x5c6139cd9ff1170197f13935c58f825b422c744c",
+      "value_kinds": []
+     },
+     {
+      "date": "2022-06-24",
+      "method": "safeTransferFrom",
+      "category": null,
+      "params": [
+       {
+        "name": "from",
+        "type": "address",
+        "value": "0x5c6139cD9fF1170197F13935c58F825b422c744c"
+       },
+       {
+        "name": "to",
+        "type": "address",
+        "value": "0x970c396f73520e21F531bd9B8515F93A19E50Cdb"
+       },
+       {
+        "name": "tokenId",
+        "type": "uint256",
+        "value": "2871"
+       }
+      ],
+      "tx": "0x03355f336c1a4081d456029edfaa6f5cfcb277dbd42d9d3fac0240742298ea0a",
+      "success": true,
+      "safe": "0x5c6139cd9ff1170197f13935c58f825b422c744c",
+      "value_kinds": [
+       "address",
+       "address"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0x922dc160f2ab743312a6bb19dd5152c1d3ecca33_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0x5c6139cd9ff1170197f13935c58f825b422c744c",
+  "code_raw": "data/raw/rpc-mutability/0x5c6139cd9ff1170197f13935c58f825b422c744c_holdercode.json",
+  "code_len": 171,
+  "probe_raw": "data/raw/rpc-mutability/0x5c6139cd9ff1170197f13935c58f825b422c744c_holderprobe.json",
+  "type": "safe",
+  "threshold": 3,
+  "n_owners": 7,
+  "owners": [
+   "0xebc4edef07bee2b1f590c4508aefd10bedc71a73",
+   "0xe5ae1c4b42d2a04ca1c706ffde819067899899ca",
+   "0x848a9126ff57004aa8bfdc99384f36a4754d4367",
+   "0xb0908509c2aac11e4d6faf66b566b3799891d22f",
+   "0xf972cfc362d2eefe55244a5acd64caaa806f5972",
+   "0xf240a63d8cd69904fe4e26da5dc1d1b682d1b6bb",
+   "0x54c20cd386128d36a96ce0582218a1710056652e"
+  ],
+  "version": "1.3.0",
+  "bs_name": "GnosisSafeProxy",
+  "ens": "cryptoduckies.eth",
+  "bs_impl_names": [
+   "GnosisSafe"
+  ],
+  "bs_tags": [],
+  "is_contract": true,
+  "creator": "0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2",
+  "is_verified": true,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {
+  "isSealed": 0
+ },
+ "tokenuri_path": "override",
+ "lock_functions": [
+  "seal"
+ ],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [
+  {
+   "name": "setAsset",
+   "sig": "setAsset(uint256,bytes)",
+   "selector": "0xda6dec9f",
+   "category": "renderer",
+   "inputs": [
+    "uint256",
+    "bytes"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner",
+    "unsealed"
+   ],
+   "body_head": "unchecked {\n            _assets[index-1] = encodedAsset;\n        }",
+   "writes": [
+    "_assets"
+   ],
+   "effective": "no",
+   "power": "multisig",
+   "holder_addrs": [
+    "0x5c6139cd9ff1170197f13935c58f825b422c744c"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [
+    "isSealed"
+   ],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x5c6139cd9ff1170197f13935c58f825b422c744c",
+     "type": "safe",
+     "threshold": 3,
+     "n_owners": 7,
+     "bs_name": "GnosisSafeProxy",
+     "ens": "cryptoduckies.eth",
+     "desc": "safe 3/7",
+     "simple": "multisig"
+    }
+   ]
+  }
+ ],
+ "class_direct": "immutable",
+ "class_reason": "setAsset:inert(not read by tokenURI)",
+ "live_mutators": [],
+ "dependencies": [],
+ "meta": {
+  "address": "0x922dc160f2ab743312a6bb19dd5152c1d3ecca33",
+  "name": "Crypto Duckies",
+  "w5_claim_strength": "on-chain-generic",
+  "w5_claim_text": "Crypto Duckies is a limited collection of 5,000 unique duckies that live on the Ethereum blockchain.",
+  "w5_source_type": "directory",
+  "w5_source_url": "https://www.fullyonchain.art/collections/crypto-duckies",
+  "holders_count": 574.0,
+  "in_w5": true,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": null,
+  "census_media_class": null,
+  "census_liveness": null,
+  "in_census_onchain": false,
+  "standard": "ERC-721",
+  "creator": "0xa4a236d97a2afa4b37693e5df8aa5afc68c42cd1",
+  "deploy_block": 13657215.0
+ },
+ "class_deps_all": "none",
+ "class_deps": "none",
+ "class_final": "immutable",
+ "pointer_power": null
+}

@@ -1,0 +1,484 @@
+{
+  "collection": {
+    "rank": 8,
+    "source_rank": 8,
+    "name": "CloneX",
+    "contract": "0x49cf6f5d44e70224e2e23fdcdd2c053f30ada28b",
+    "contracts": [
+      "0x49cf6f5d44e70224e2e23fdcdd2c053f30ada28b"
+    ],
+    "slug": "clonex",
+    "volume_usd": 897226273.12,
+    "volume_source": "CryptoSlam all-time Ethereum owner-to-owner sales, wash-filtered USD",
+    "source_url": "https://web-api.cryptoslam.io/v1/sales/rank-by-volume?timeRange=all&orderBy=rank&sortDirection=asc&offset=0&limit=100&blockchainId=0&hideInscriptions=false",
+    "ranking_evidence": "data/raw/top100-api/cryptoslam-ranking-0.json",
+    "identity_evidence": "data/raw/top100-api/cryptoslam-info-clonex.json",
+    "token_count": 19763,
+    "all_time_volume": 897226273.12,
+    "volume_currency": "USD",
+    "kind": "art-avatar",
+    "metadata_location": "arweave",
+    "metadata_classes": [
+      "arweave"
+    ],
+    "media_location": "arweave",
+    "primary_image_location": "arweave",
+    "media_classes": [
+      "arweave"
+    ],
+    "liveness": "alive",
+    "liveness_exact": "alive",
+    "all_declared_media_liveness": "alive",
+    "metadata_failed": false,
+    "n_alive": 3,
+    "n_dead": 0,
+    "n_unknown": 0,
+    "n_degraded": 0,
+    "key_domain_or_gateway": "ihlvry2paaiwcl23qcrexyszggewqiqicnkbj7pjito34anjebeq.arweave.net; ohm647fhcdf3f6547mcreqj2pgfdzxba7q54ugunppzk3maqy2ma.arweave.net; ihlvry2paaiwcl23qcrexyszggewqiqicnkbj7pjito34anjebeq.arweave.net; ohm647fhcdf3f6547mcreqj2pgfdzxba7q54ugunppzk3maqy2ma.arweave.net",
+    "hosts": [
+      "ihlvry2paaiwcl23qcrexyszggewqiqicnkbj7pjito34anjebeq.arweave.net",
+      "ohm647fhcdf3f6547mcreqj2pgfdzxba7q54ugunppzk3maqy2ma.arweave.net"
+    ],
+    "hardcoded_gateways": [
+      "ihlvry2paaiwcl23qcrexyszggewqiqicnkbj7pjito34anjebeq.arweave.net",
+      "ohm647fhcdf3f6547mcreqj2pgfdzxba7q54ugunppzk3maqy2ma.arweave.net"
+    ],
+    "http_origin_dependency": false,
+    "uses_ipfs": false,
+    "uses_arweave": true,
+    "fully_onchain_all_declared_media": false,
+    "metadata_and_primary_image_onchain": false,
+    "mutability_class": "immutable",
+    "single_key_mutable": false,
+    "single_key_repointable": false,
+    "base_uri_or_renderer": "0x49cf6f5d44e70224e2e23fdcdd2c053f30ada28b.tokenURI/uri",
+    "control": [
+      {
+        "contract": "0x49cf6f5d44e70224e2e23fdcdd2c053f30ada28b",
+        "class": "immutable",
+        "pointer_power": null,
+        "reason": "no uri/renderer/upgrade function in ABI and not a proxy",
+        "owner": {
+          "addr": "0x12ea19217c65f36385bb030d00525c1034e2f0af",
+          "code_raw": "data/raw/rpc-mutability/0x12ea19217c65f36385bb030d00525c1034e2f0af_holdercode.json",
+          "type": "eoa",
+          "bs_name": null,
+          "ens": null,
+          "bs_impl_names": [],
+          "bs_tags": [],
+          "is_contract": false,
+          "creator": null,
+          "is_verified": false,
+          "bs_reputation": "ok"
+        },
+        "proxy": {
+          "kind": null
+        },
+        "live_mutators": [],
+        "lock_flags": {
+          "contractLocked": 0
+        },
+        "dependencies": [],
+        "pointer_getters": [
+          {
+            "getter": "_tokenUri()",
+            "type": "string",
+            "ok": true,
+            "value": "https://ohm647fhcdf3f6547mcreqj2pgfdzxba7q54ugunppzk3maqy2ma.arweave.net/NGdLvqHyCPyfGzcODgHhOjenXajH--m6mpkp1JLY8M0/",
+            "error": null
+          }
+        ],
+        "analyzed_at": "2026-10-23T02:50:40Z",
+        "history_incomplete": false,
+        "evidence": "data/raw/top100-mutability/0x49cf6f5d44e70224e2e23fdcdd2c053f30ada28b.json"
+      }
+    ],
+    "samples": 3,
+    "distinct_token_ids": 3,
+    "sample_note": null,
+    "source_contracts_without_sampleable_nfts": [],
+    "ownership_scope_gaps": [],
+    "refreshed_at": "2026-10-23T03:05:00Z",
+    "opensea_rank": 7,
+    "ranking_scope_disagreement": false,
+    "metadata_adapter": false,
+    "evidence": [
+      "data/raw/top100-census/0x49cf6f5d44e70224e2e23fdcdd2c053f30ada28b/result.json.gz"
+    ],
+    "delivery_note": null
+  },
+  "samples": [
+    {
+      "contract": "0x49cf6f5d44e70224e2e23fdcdd2c053f30ada28b",
+      "token_id": "1",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(0) [low; totalSupply=19764]",
+      "metadata_location": "arweave",
+      "metadata_uri": "https://ohm647fhcdf3f6547mcreqj2pgfdzxba7q54ugunppzk3maqy2ma.arweave.net/NGdLvqHyCPyfGzcODgHhOjenXajH--m6mpkp1JLY8M0/1",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "ohm647fhcdf3f6547mcreqj2pgfdzxba7q54ugunppzk3maqy2ma.arweave.net",
+          "url": "https://ohm647fhcdf3f6547mcreqj2pgfdzxba7q54ugunppzk3maqy2ma.arweave.net/NGdLvqHyCPyfGzcODgHhOjenXajH--m6mpkp1JLY8M0/1",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 3,
+          "final_url": "https://grtuxpvb6iepzhy3g4ha4apbhi32oxniy756tou2teu5jewy6dgq.arweave.net/NGdLvqHyCPyfGzcODgHhOjenXajH--m6mpkp1JLY8M0/1",
+          "content_type": "application/octet-stream",
+          "size": 1307,
+          "content_length": null,
+          "sha256": "097efe99039d2cd9e8f2f113581d184c0cb8e40e337529ff8ac3d418b8bae76a",
+          "t": "2026-10-23T02:50:14Z",
+          "reg_domain_dns": null,
+          "redirected": true
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "arweave",
+          "host": "ihlvry2paaiwcl23qcrexyszggewqiqicnkbj7pjito34anjebeq.arweave.net",
+          "gateway": "ihlvry2paaiwcl23qcrexyszggewqiqicnkbj7pjito34anjebeq.arweave.net",
+          "uri": "https://ihlvry2paaiwcl23qcrexyszggewqiqicnkbj7pjito34anjebeq.arweave.net/QddY408AEWEvW4CiS-JZMYloIggTVBT96UTdvgGpIEk/1.png",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "ihlvry2paaiwcl23qcrexyszggewqiqicnkbj7pjito34anjebeq.arweave.net",
+              "url": "https://ihlvry2paaiwcl23qcrexyszggewqiqicnkbj7pjito34anjebeq.arweave.net/QddY408AEWEvW4CiS-JZMYloIggTVBT96UTdvgGpIEk/1.png",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 6,
+              "final_url": "https://ihlvry2paaiwcl23qcrexyszggewqiqicnkbj7pjito34anjebeq.arweave.net/QddY408AEWEvW4CiS-JZMYloIggTVBT96UTdvgGpIEk/1.png",
+              "content_type": "image/png",
+              "size": 65536,
+              "content_length": null,
+              "sha256": "124ef07a399b4d53b7d5aafd89ee673940cd555085c84cac3d79fae7aa0bc258",
+              "t": "2026-10-23T02:50:15Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "arweave",
+        "anim_class": null,
+        "image_verdict": "alive",
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "arweave"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "alive",
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000000001",
+          "endpoint": "https://eth.rpc.blxrbdn.com",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 386,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x49cf6f5d44e70224e2e23fdcdd2c053f30ada28b/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0x49cf6f5d44e70224e2e23fdcdd2c053f30ada28b",
+      "token_id": "9883",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(9882) [mid; totalSupply=19764]",
+      "metadata_location": "arweave",
+      "metadata_uri": "https://ohm647fhcdf3f6547mcreqj2pgfdzxba7q54ugunppzk3maqy2ma.arweave.net/NGdLvqHyCPyfGzcODgHhOjenXajH--m6mpkp1JLY8M0/9883",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "ohm647fhcdf3f6547mcreqj2pgfdzxba7q54ugunppzk3maqy2ma.arweave.net",
+          "url": "https://ohm647fhcdf3f6547mcreqj2pgfdzxba7q54ugunppzk3maqy2ma.arweave.net/NGdLvqHyCPyfGzcODgHhOjenXajH--m6mpkp1JLY8M0/9883",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 5,
+          "final_url": "https://grtuxpvb6iepzhy3g4ha4apbhi32oxniy756tou2teu5jewy6dgq.arweave.net/NGdLvqHyCPyfGzcODgHhOjenXajH--m6mpkp1JLY8M0/9883",
+          "content_type": "application/octet-stream",
+          "size": 749,
+          "content_length": null,
+          "sha256": "108cc7cedd47623149a61019663ac6f20e36cf9480dbeb52e808f3b1f3708c86",
+          "t": "2026-10-23T02:50:14Z",
+          "reg_domain_dns": null,
+          "redirected": true
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "arweave",
+          "host": "ihlvry2paaiwcl23qcrexyszggewqiqicnkbj7pjito34anjebeq.arweave.net",
+          "gateway": "ihlvry2paaiwcl23qcrexyszggewqiqicnkbj7pjito34anjebeq.arweave.net",
+          "uri": "https://ihlvry2paaiwcl23qcrexyszggewqiqicnkbj7pjito34anjebeq.arweave.net/QddY408AEWEvW4CiS-JZMYloIggTVBT96UTdvgGpIEk/9883.png",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "ihlvry2paaiwcl23qcrexyszggewqiqicnkbj7pjito34anjebeq.arweave.net",
+              "url": "https://ihlvry2paaiwcl23qcrexyszggewqiqicnkbj7pjito34anjebeq.arweave.net/QddY408AEWEvW4CiS-JZMYloIggTVBT96UTdvgGpIEk/9883.png",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 8,
+              "final_url": "https://ihlvry2paaiwcl23qcrexyszggewqiqicnkbj7pjito34anjebeq.arweave.net/QddY408AEWEvW4CiS-JZMYloIggTVBT96UTdvgGpIEk/9883.png",
+              "content_type": "image/png",
+              "size": 65536,
+              "content_length": null,
+              "sha256": "70a15a4164afdab283f80e0acafaac6250b30947493241d0d429902a9b188e6d",
+              "t": "2026-10-23T02:50:15Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "arweave",
+        "anim_class": null,
+        "image_verdict": "alive",
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "arweave"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "alive",
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd000000000000000000000000000000000000000000000000000000000000269b",
+          "endpoint": "https://eth.rpc.blxrbdn.com",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 386,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x49cf6f5d44e70224e2e23fdcdd2c053f30ada28b/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0x49cf6f5d44e70224e2e23fdcdd2c053f30ada28b",
+      "token_id": "19764",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(19763) [recent; totalSupply=19764]",
+      "metadata_location": "arweave",
+      "metadata_uri": "https://ohm647fhcdf3f6547mcreqj2pgfdzxba7q54ugunppzk3maqy2ma.arweave.net/NGdLvqHyCPyfGzcODgHhOjenXajH--m6mpkp1JLY8M0/19764",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "ohm647fhcdf3f6547mcreqj2pgfdzxba7q54ugunppzk3maqy2ma.arweave.net",
+          "url": "https://ohm647fhcdf3f6547mcreqj2pgfdzxba7q54ugunppzk3maqy2ma.arweave.net/NGdLvqHyCPyfGzcODgHhOjenXajH--m6mpkp1JLY8M0/19764",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 7,
+          "final_url": "https://grtuxpvb6iepzhy3g4ha4apbhi32oxniy756tou2teu5jewy6dgq.arweave.net/NGdLvqHyCPyfGzcODgHhOjenXajH--m6mpkp1JLY8M0/19764",
+          "content_type": "application/octet-stream",
+          "size": 740,
+          "content_length": null,
+          "sha256": "de5ff551ad94170f12bcf233d60135659ce2d53520050c6d10a22acfe39eb96f",
+          "t": "2026-10-23T02:50:15Z",
+          "reg_domain_dns": null,
+          "redirected": true
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "arweave",
+          "host": "ihlvry2paaiwcl23qcrexyszggewqiqicnkbj7pjito34anjebeq.arweave.net",
+          "gateway": "ihlvry2paaiwcl23qcrexyszggewqiqicnkbj7pjito34anjebeq.arweave.net",
+          "uri": "https://ihlvry2paaiwcl23qcrexyszggewqiqicnkbj7pjito34anjebeq.arweave.net/QddY408AEWEvW4CiS-JZMYloIggTVBT96UTdvgGpIEk/19764.png",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "ihlvry2paaiwcl23qcrexyszggewqiqicnkbj7pjito34anjebeq.arweave.net",
+              "url": "https://ihlvry2paaiwcl23qcrexyszggewqiqicnkbj7pjito34anjebeq.arweave.net/QddY408AEWEvW4CiS-JZMYloIggTVBT96UTdvgGpIEk/19764.png",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 9,
+              "final_url": "https://ihlvry2paaiwcl23qcrexyszggewqiqicnkbj7pjito34anjebeq.arweave.net/QddY408AEWEvW4CiS-JZMYloIggTVBT96UTdvgGpIEk/19764.png",
+              "content_type": "image/png",
+              "size": 65536,
+              "content_length": null,
+              "sha256": "b9e06c734fd771224eeaf761fedd47e50926d4fa6100e7361478d1be27e48dc7",
+              "t": "2026-10-23T02:50:16Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "arweave",
+        "anim_class": null,
+        "image_verdict": "alive",
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "arweave"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "alive",
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000004d34",
+          "endpoint": "https://eth.rpc.blxrbdn.com",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 386,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x49cf6f5d44e70224e2e23fdcdd2c053f30ada28b/evidence.jsonl.gz"
+    }
+  ],
+  "saved_packet_index": [
+    {
+      "path": "data/raw/top100-api/opensea-contract-0x49cf6f5d44e70224e2e23fdcdd2c053f30ada28b-attempt1-1792724273086502572.body",
+      "sha256": "252f4811545c9d55ee79959f4a3cf083506e07b0d0b43b898becd9028ddbc7b2",
+      "retrieved_at": "2026-10-23T02:57:53Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0x49cf6f5d44e70224e2e23fdcdd2c053f30ada28b",
+      "method": "GET",
+      "status": 200,
+      "error": null,
+      "bytes": 190,
+      "truncated": false
+    },
+    {
+      "path": "data/raw/top100-api/opensea-contract-0x49cf6f5d44e70224e2e23fdcdd2c053f30ada28b.json",
+      "sha256": "252f4811545c9d55ee79959f4a3cf083506e07b0d0b43b898becd9028ddbc7b2",
+      "retrieved_at": "2026-10-23T02:57:53Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0x49cf6f5d44e70224e2e23fdcdd2c053f30ada28b",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "data/raw/top100-census/0x49cf6f5d44e70224e2e23fdcdd2c053f30ada28b/bodies.zip",
+      "sha256": "52f02511282616136baf788ae8944603f988997df559a1dd856c705d213cd68f",
+      "bytes": 14428
+    },
+    {
+      "path": "data/raw/top100-census/0x49cf6f5d44e70224e2e23fdcdd2c053f30ada28b/evidence.jsonl.gz",
+      "sha256": "4207b2da58c32a16884643c567a8f5c95e15d1df43b9921c751f4d93496db88a",
+      "bytes": 1352
+    },
+    {
+      "path": "data/raw/top100-census/0x49cf6f5d44e70224e2e23fdcdd2c053f30ada28b/result.json.gz",
+      "sha256": "371f4efcbf952366e7f5f1d0ab8b338d49c2be8d92d8110d03f8ec4e5eea38b4",
+      "bytes": 1950
+    },
+    {
+      "path": "data/raw/top100-mutability/0x49cf6f5d44e70224e2e23fdcdd2c053f30ada28b.json",
+      "sha256": "5449753312b669c2137ea4b5d1ca826f84effd2e5714bdb6a042ac95fb7e56fd",
+      "bytes": 11438
+    },
+    {
+      "path": "data/raw/top100-pointers/0x49cf6f5d44e70224e2e23fdcdd2c053f30ada28b/bodies.zip",
+      "sha256": "bb2dffacfe8ea5a05a99d023416fabc995de3c153f22ddc35df8db131101642e",
+      "bytes": 335
+    },
+    {
+      "path": "data/raw/top100-pointers/0x49cf6f5d44e70224e2e23fdcdd2c053f30ada28b/evidence.jsonl.gz",
+      "sha256": "cbff9bd3e0ae3e9ec231072a8aea96bb9d2cce22556db239acface63ccb27306",
+      "bytes": 338
+    },
+    {
+      "path": "data/raw/top100-pointers/0x49cf6f5d44e70224e2e23fdcdd2c053f30ada28b/result.json",
+      "sha256": "9d505faf282147662f63858eea3510d1f5dcee834cde24558cfe24e92a784deb",
+      "bytes": 427
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x49cf6f5d44e70224e2e23fdcdd2c053f30ada28b/bodies.zip",
+      "sha256": "de04c6753f639a0b3abe622dba5243e77237eebf7745441c4dad71383878b43a",
+      "bytes": 632
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x49cf6f5d44e70224e2e23fdcdd2c053f30ada28b/evidence.jsonl.gz",
+      "sha256": "05b80b8716b86764901e17bf6444457624d6aff70c77c0734a0796c8e8f27aa6",
+      "bytes": 700
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x49cf6f5d44e70224e2e23fdcdd2c053f30ada28b/result.json",
+      "sha256": "32c2af336adb3d720418d52748b71336f824141ceda5af78f959cf08455ded85",
+      "bytes": 300
+    }
+  ],
+  "interpretation": "Liveness describes sampled metadata and primary-image delivery, not permanent loss of the artwork."
+}

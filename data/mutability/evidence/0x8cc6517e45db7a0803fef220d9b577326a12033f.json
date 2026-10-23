@@ -1,0 +1,106 @@
+{
+ "address": "0x8cc6517e45db7a0803fef220d9b577326a12033f",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:42:59Z",
+ "code_raw": "data/raw/rpc-mutability/0x8cc6517e45db7a0803fef220d9b577326a12033f_code.json",
+ "code_len": 698,
+ "slots": {
+  "eip1967_impl": "0x31da978036e54ce98463e8e8ec97479fac20b104",
+  "slot0": "0x0000000000000000000000000000000000000000000000000000000000000001"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0x8cc6517e45db7a0803fef220d9b577326a12033f_slots.json",
+ "verified": false,
+ "contract_name": "",
+ "proxy": {
+  "kind": "eip1967",
+  "impl": "0x31da978036e54ce98463e8e8ec97479fac20b104",
+  "impl_verified": false,
+  "impl_name": ""
+ },
+ "has_source": false,
+ "abi_from": null,
+ "unverified_selector_hits": [
+  "proxiableUUID()",
+  "upgradeTo(address)",
+  "upgradeToAndCall(address,bytes)"
+ ],
+ "history": {
+  "txs": [],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 0
+   },
+   "Upgraded(address)": {
+    "n": 1,
+    "first": "2022-07-18",
+    "last": "2022-07-18",
+    "last_tx": "0x8d4b2f4d440114aa2f1e4ffb566527a981027a7aa846aa95c443e6f26a98f5c2",
+    "list": [
+     {
+      "date": "2022-07-18",
+      "tx": "0x8d4b2f4d440114aa2f1e4ffb566527a981027a7aa846aa95c443e6f26a98f5c2",
+      "topics": [
+       "31da978036e54ce98463e8e8ec97479fac20b104"
+      ],
+      "data": "0x"
+     }
+    ]
+   },
+   "AdminChanged(address,address)": {
+    "n": 0
+   },
+   "BeaconUpgraded(address)": {
+    "n": 0
+   }
+  },
+  "decoded": [],
+  "upgrades": [
+   {
+    "date": "2022-07-18",
+    "impl": "0x31da978036e54ce98463e8e8ec97479fac20b104",
+    "tx": "0x8d4b2f4d440114aa2f1e4ffb566527a981027a7aa846aa95c443e6f26a98f5c2"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0x8cc6517e45db7a0803fef220d9b577326a12033f_reads1.json",
+ "eip4906": false,
+ "owner": null,
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "n/a",
+ "lock_functions": [],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [],
+ "class_direct": "unknown",
+ "class_reason": "unverified source; selector hits: proxiableUUID(),upgradeTo(address),upgradeToAndCall(address,bytes)",
+ "live_mutators": [],
+ "dependencies": [],
+ "meta": {
+  "address": "0x8cc6517e45db7a0803fef220d9b577326a12033f",
+  "name": "Link3",
+  "w5_claim_strength": null,
+  "w5_claim_text": null,
+  "w5_source_type": null,
+  "w5_source_url": null,
+  "holders_count": 22946.0,
+  "in_w5": false,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": "onchain-renderer",
+  "census_media_class": "data-uri",
+  "census_liveness": "alive",
+  "in_census_onchain": true,
+  "standard": "ERC-721",
+  "creator": "0xa7b6bef855c1c57df5b7c9c7a4e1eb757e544e7f",
+  "deploy_block": 15164734.0
+ },
+ "class_deps_all": "none",
+ "class_deps": "none",
+ "class_final": "unknown",
+ "pointer_power": null
+}

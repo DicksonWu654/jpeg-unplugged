@@ -1,0 +1,108 @@
+{
+ "slug": "ab-457",
+ "rendered_at": "2026-10-21T20:40:40Z",
+ "viewport": 800,
+ "delay_s": 4,
+ "chromium": "<playwright-cache>/chromium-1243/chrome-linux64/chrome",
+ "runs": {
+  "A": {
+   "n_requests": 2,
+   "n_external": 1,
+   "actions": {
+    "allowed": 1
+   },
+   "n_console_errors": 0,
+   "n_page_errors": 0,
+   "dom": {
+    "canvas": 0,
+    "svg": 0,
+    "img": 0,
+    "iframe": 0,
+    "body_text": "ALL OR NOTHING\nECSTATIC!\nPURE BLISS\nDELIGHTFUL\nDELIGHTFUL\nDELIGHTFUL\nDELIGHTFUL\nDELIGHTFUL\nSEXY\nSEXY\nSEXY\nSEXY\nSEXY\nHOLY COW\nECSTASY\nOBSESSION\nDOPAMINE BOOST!\nPURE ENERGY!\nPARTY TIME\nFRENZY\nMIND=BLOWN",
+    "title": "LUST! ALL OR NOTHING ECSTATIC! PURE BLISS DELIGHTFUL HOLY COW ECSTASY OBSESSION DOPAMINE BOOST! PARTY TIME FRENZY INSTANT GRATIFICATION FORBIDDEN PLEASURES! MIND = BLOWN HIGH OCTANE DELICIOUS SEXY PURE ENERGY! MIND = BLOWN! WILD",
+    "fonts": []
+   }
+  },
+  "A2": {
+   "n_requests": 2,
+   "n_external": 1,
+   "actions": {
+    "allowed": 1
+   },
+   "n_console_errors": 0,
+   "n_page_errors": 0,
+   "dom": {
+    "canvas": 0,
+    "svg": 0,
+    "img": 0,
+    "iframe": 0,
+    "body_text": "ALL OR NOTHING\nECSTATIC!\nPURE BLISS\nDELIGHTFUL\nDELIGHTFUL\nDELIGHTFUL\nDELIGHTFUL\nDELIGHTFUL\nSEXY\nSEXY\nSEXY\nSEXY\nSEXY\nHOLY COW\nECSTASY\nOBSESSION\nDOPAMINE BOOST!\nPURE ENERGY!\nPARTY TIME\nFRENZY\nMIND=BLOWN",
+    "title": "LUST! ALL OR NOTHING ECSTATIC! PURE BLISS DELIGHTFUL HOLY COW ECSTASY OBSESSION DOPAMINE BOOST! PARTY TIME FRENZY INSTANT GRATIFICATION FORBIDDEN PLEASURES! MIND = BLOWN HIGH OCTANE DELICIOUS SEXY PURE ENERGY! MIND = BLOWN! WILD",
+    "fonts": []
+   }
+  },
+  "B": {
+   "n_requests": 2,
+   "n_external": 1,
+   "actions": {
+    "blocked": 1
+   },
+   "n_console_errors": 1,
+   "n_page_errors": 0,
+   "dom": {
+    "canvas": 0,
+    "svg": 0,
+    "img": 0,
+    "iframe": 0,
+    "body_text": "ALL OR NOTHING\nECSTATIC!\nPURE BLISS\nDELIGHTFUL\nDELIGHTFUL\nDELIGHTFUL\nDELIGHTFUL\nDELIGHTFUL\nSEXY\nSEXY\nSEXY\nSEXY\nSEXY\nHOLY COW\nECSTASY\nOBSESSION\nDOPAMINE BOOST!\nPURE ENERGY!\nPARTY TIME\nFRENZY\nMIND=BLOWN",
+    "title": "LUST! ALL OR NOTHING ECSTATIC! PURE BLISS DELIGHTFUL HOLY COW ECSTASY OBSESSION DOPAMINE BOOST! PARTY TIME FRENZY INSTANT GRATIFICATION FORBIDDEN PLEASURES! MIND = BLOWN HIGH OCTANE DELICIOUS SEXY PURE ENERGY! MIND = BLOWN! WILD",
+    "fonts": []
+   }
+  },
+  "C": {
+   "n_requests": 2,
+   "n_external": 1,
+   "actions": {
+    "archive": 1
+   },
+   "n_console_errors": 0,
+   "n_page_errors": 0,
+   "dom": {
+    "canvas": 0,
+    "svg": 0,
+    "img": 0,
+    "iframe": 0,
+    "body_text": "ALL OR NOTHING\nECSTATIC!\nPURE BLISS\nDELIGHTFUL\nDELIGHTFUL\nDELIGHTFUL\nDELIGHTFUL\nDELIGHTFUL\nSEXY\nSEXY\nSEXY\nSEXY\nSEXY\nHOLY COW\nECSTASY\nOBSESSION\nDOPAMINE BOOST!\nPURE ENERGY!\nPARTY TIME\nFRENZY\nMIND=BLOWN",
+    "title": "LUST! ALL OR NOTHING ECSTATIC! PURE BLISS DELIGHTFUL HOLY COW ECSTASY OBSESSION DOPAMINE BOOST! PARTY TIME FRENZY INSTANT GRATIFICATION FORBIDDEN PLEASURES! MIND = BLOWN HIGH OCTANE DELICIOUS SEXY PURE ENERGY! MIND = BLOWN! WILD",
+    "fonts": []
+   }
+  }
+ },
+ "metrics": {
+  "noise_A_vs_A2_and_late": 0.0527,
+  "A_stats": {
+   "non_bg_frac": 0.4535,
+   "n_colors": 11186,
+   "modal": "ff00a8"
+  },
+  "B_stats": {
+   "non_bg_frac": 0.45521,
+   "n_colors": 10382,
+   "modal": "ff00a8"
+  },
+  "identical_threshold": 0.07905,
+  "B": {
+   "diff_frac": 0.03474,
+   "verdict": "identical"
+  },
+  "C_stats": {
+   "non_bg_frac": 0.45495,
+   "n_colors": 10496,
+   "modal": "ff00a8"
+  },
+  "C": {
+   "diff_frac": 0.03494,
+   "verdict": "identical"
+  }
+ }
+}

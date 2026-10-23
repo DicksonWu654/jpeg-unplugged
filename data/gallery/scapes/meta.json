@@ -1,0 +1,66 @@
+{
+ "collection": "Scapes",
+ "slug": "scapes",
+ "contract": "0xb7def63A9040ad5dC431afF79045617922f4023A",
+ "token_id": 1,
+ "chain_method": "data URI (contract-assembled; technique labelled from verified source flags)",
+ "chain_call": "tokenURI(1)",
+ "json_name": "Scape #1",
+ "fields": {
+  "image": "data:image/svg+xml",
+  "animation_url": null,
+  "external_url": "https",
+  "json_how": "data-uri-base64"
+ },
+ "rpc": {
+  "default_public_ok": true,
+  "highgas_drpc_ok": null,
+  "highgas_blxr_ok": null,
+  "fork_ok": null,
+  "rpc": "public-default",
+  "needed_fork": false,
+  "unreadable_from_default_public_call": false,
+  "gas_estimate": null
+ },
+ "medium": "svg (image data URI)",
+ "primary": "image",
+ "source_flags": {
+  "verified": true,
+  "contract_name": "Scapes",
+  "proxy": true,
+  "implementation": "0xda7566aa35a9bcf8c2e9c603e98d7d893046ba2d",
+  "sstore2": false,
+  "ethfs": false,
+  "scripty": false,
+  "base64": false,
+  "gzip": false,
+  "data_uri": false,
+  "http_literals": [],
+  "ipfs_literal": false,
+  "setters": [],
+  "implementation_flags": {
+   "verified": true,
+   "contract_name": "ERC721Marketplace",
+   "proxy": false,
+   "implementation": null,
+   "sstore2": false,
+   "ethfs": false,
+   "scripty": false,
+   "base64": false,
+   "gzip": false,
+   "data_uri": false,
+   "http_literals": [],
+   "ipfs_literal": false,
+   "setters": []
+  }
+ },
+ "artwork_file": "artwork.svg",
+ "doc_type": "image/svg+xml; charset=utf-8",
+ "artwork_bytes": 1620,
+ "artwork_sha256": "20045bd8d6a275851c4da0209171e2e6a26b99cd7f34ab92d04822d86796c92b",
+ "declared": {
+  "load": [],
+  "literals": []
+ },
+ "built_at": "2026-10-21T20:19:19Z"
+}

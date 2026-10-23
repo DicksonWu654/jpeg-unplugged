@@ -1,0 +1,782 @@
+{
+ "address": "0x7915bf033126fa5fcc4dfa79f9bdd5717ed4ce40",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:34Z",
+ "code_raw": "data/raw/rpc-mutability/0x7915bf033126fa5fcc4dfa79f9bdd5717ed4ce40_code.json",
+ "code_len": 23060,
+ "slots": {
+  "slot0": "0x0000000000000000000000000000000000000000000000000000000000000400"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0x7915bf033126fa5fcc4dfa79f9bdd5717ed4ce40_slots.json",
+ "verified": true,
+ "contract_name": "Indelible",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [
+   {
+    "hash": "0x982cb8872af45f8045a659fb856a0c8a90908b1355ecc73b629a57d46086144c",
+    "timestamp": "2026-06-29T05:00:23.000000Z",
+    "method": "setRenderOfTokenId",
+    "from": "0x218736c626a2c846Ae465D39cDC40E8B8218427C",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25421093,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x0e07f9a7e2713830126e4ada16210d69a0b3614975fb3a783abe6408884d7959",
+    "timestamp": "2023-12-15T00:51:23.000000Z",
+    "method": "setRenderOfTokenId",
+    "from": "0x1521714C2EC0f4F0902eb9f2954ED94218Bf2ea4",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 18788059,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x020e934a1db53c97cf463d7117c7a7dd0fd04f352fff86a32898653cc73bae2e",
+    "timestamp": "2023-03-02T07:22:47.000000Z",
+    "method": "setRenderOfTokenId",
+    "from": "0x26a6Cecb6c19F2Ec00C48e4E63767bAd5903edE0",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 16739372,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x7b985d6285278d980b126771fe001b1ed83cbc2f73962fd6a043e5bed54d965c",
+    "timestamp": "2022-11-20T03:28:47.000000Z",
+    "method": "setRenderOfTokenId",
+    "from": "0xD5c27DFc8ad9791d618Bb132a7830c3282E25905",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 16008546,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xc105861a0e6b2f82b7c627fe3c1117aee919efa034d36443373222bec07f5034",
+    "timestamp": "2022-11-16T08:04:59.000000Z",
+    "method": "setRenderOfTokenId",
+    "from": "0xBDea53C6d3dDB380284E66106C3374eb27d1b778",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15981276,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x5681c88cb90d52c5edacb9522733aa57bd7bd2fe00fa5a855b22f4140b055fa5",
+    "timestamp": "2022-11-13T16:39:35.000000Z",
+    "method": "setRenderOfTokenId",
+    "from": "0x1a1427A73b7Cb0F4ea3F71C6c8090c4366c8eBe1",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 15962353,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x1e298dc0fb01c15d0b4493b9c2c0a8ee20840d92f20683fccbc8801c0a9012de",
+    "timestamp": "2022-11-07T21:44:35.000000Z",
+    "method": "setRenderOfTokenId",
+    "from": "0x1a1427A73b7Cb0F4ea3F71C6c8090c4366c8eBe1",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 15920914,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xfc7bf8e137cbaeccf2fafedfc47331254429a5e3ceebee8482a6204da4073fee",
+    "timestamp": "2022-11-07T16:57:11.000000Z",
+    "method": "setRenderOfTokenId",
+    "from": "0x1a1427A73b7Cb0F4ea3F71C6c8090c4366c8eBe1",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 15919485,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xddc541e73a805e7a5427162c9a5ce760c34bdda2543c62f00c3627fb6f0c0077",
+    "timestamp": "2022-11-07T15:12:47.000000Z",
+    "method": "setRenderOfTokenId",
+    "from": "0x1a1427A73b7Cb0F4ea3F71C6c8090c4366c8eBe1",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 15918965,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xa639edf17693f43be58e4b7611aaae9670c289fc78ec88c2ba402799793bcbb8",
+    "timestamp": "2022-11-06T16:59:35.000000Z",
+    "method": "setRenderOfTokenId",
+    "from": "0x2052051A0474fB0B98283b3F38C13b0B0B6a3677",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 15912327,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x8551977ec8260a10ed074b7ec19b2f9b234afdcdbb1d08a60ccd2770186fa3c2",
+    "timestamp": "2022-11-06T15:49:35.000000Z",
+    "method": "setRenderOfTokenId",
+    "from": "0x2CDEeff3B28C0eF0580d6bA79bD0d930545c2767",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15911979,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x96b628760a626f6ca5de0561538c392189f84da41aad29afb8ac10a9a2250ae1",
+    "timestamp": "2022-11-06T15:32:11.000000Z",
+    "method": "setRenderOfTokenId",
+    "from": "0xB4e97F8f109ef877aF08bAfd1D6942C125f7F18d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 15911892,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x6aa8c3c293a7e6e6b85ff439cd4d40edc6343b4796f2b2bd1a2b642001e816fc",
+    "timestamp": "2022-11-06T15:28:11.000000Z",
+    "method": "setRenderOfTokenId",
+    "from": "0xB4e97F8f109ef877aF08bAfd1D6942C125f7F18d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 15911872,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x0f1115ea2ea8bb559d4eb0c3e3e2dbe467d8589a8d58b240967c1696f8cd24c9",
+    "timestamp": "2022-11-05T04:21:23.000000Z",
+    "method": "setBaseURI",
+    "from": "0x1a1427A73b7Cb0F4ea3F71C6c8090c4366c8eBe1",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 15901395,
+    "category": "uri"
+   },
+   {
+    "hash": "0x201d543a00f987e423b494ab68c0fa78573e82dff507e185454b3609fb70b787",
+    "timestamp": "2022-11-05T04:20:35.000000Z",
+    "method": "setLinkedTraits",
+    "from": "0x1a1427A73b7Cb0F4ea3F71C6c8090c4366c8eBe1",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 15901391,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x8bfc977cd67f99cb1c03adc94daad3ce1f3a0814c8a7b2efe1e9cd20377f8208",
+    "timestamp": "2022-11-05T04:19:35.000000Z",
+    "method": "addLayer",
+    "from": "0x1a1427A73b7Cb0F4ea3F71C6c8090c4366c8eBe1",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 15901386,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x9d3e1d87e81ea35dbc2b61dc3628e7c2539fb506da6b1428f28cae2f91bb282c",
+    "timestamp": "2022-11-05T04:19:11.000000Z",
+    "method": "addLayer",
+    "from": "0x1a1427A73b7Cb0F4ea3F71C6c8090c4366c8eBe1",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 15901384,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xe1391c54dbcca0b6032b673bb068a4dac0814d274556d4fe1bf608ea0a011a10",
+    "timestamp": "2022-11-05T04:18:59.000000Z",
+    "method": "addLayer",
+    "from": "0x1a1427A73b7Cb0F4ea3F71C6c8090c4366c8eBe1",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 15901383,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x9acbbabdb8b106166a85c16ea618737ee3f67026c37af9be926890981cb0e1ef",
+    "timestamp": "2022-11-05T04:18:35.000000Z",
+    "method": "addLayer",
+    "from": "0x1a1427A73b7Cb0F4ea3F71C6c8090c4366c8eBe1",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 15901381,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x0a5b91a4f49c25e7d3f22e08865a3f3f68b656136f51033bfd5b032c059f3fca",
+    "timestamp": "2022-11-05T04:18:11.000000Z",
+    "method": "addLayer",
+    "from": "0x1a1427A73b7Cb0F4ea3F71C6c8090c4366c8eBe1",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 15901379,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x5b76a6ef85efbf807618bd515d8f879acc8cd57b317aa1519b14a4e484484744",
+    "timestamp": "2022-11-05T04:17:47.000000Z",
+    "method": "addLayer",
+    "from": "0x1a1427A73b7Cb0F4ea3F71C6c8090c4366c8eBe1",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 15901377,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xaca5756fe8cd429bebc0200e15ccebc44de20d2703bd7b5270e4d7f5af57f0dc",
+    "timestamp": "2022-11-05T04:16:59.000000Z",
+    "method": "addLayer",
+    "from": "0x1a1427A73b7Cb0F4ea3F71C6c8090c4366c8eBe1",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 15901373,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x77d2e84a80dc187af0395d4e5a2b335d21e724d20d1170dba185ef7f4fe7bfa1",
+    "timestamp": "2022-11-05T04:16:35.000000Z",
+    "method": "addLayer",
+    "from": "0x1a1427A73b7Cb0F4ea3F71C6c8090c4366c8eBe1",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 15901371,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xe2cbc0fe5825d8d0a0ea7fef65451c8f6545f94db78f42e2a677a045a5dd5915",
+    "timestamp": "2022-11-05T04:15:59.000000Z",
+    "method": "addLayer",
+    "from": "0x1a1427A73b7Cb0F4ea3F71C6c8090c4366c8eBe1",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 15901368,
+    "category": "renderer"
+   }
+  ],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 1,
+    "first": "2022-11-05",
+    "last": "2022-11-05",
+    "last_tx": "0x526aeee62599e459be8b6a4c692745844e4a3ef9e5527b3228d342e44220620f",
+    "list": [
+     {
+      "date": "2022-11-05",
+      "tx": "0x526aeee62599e459be8b6a4c692745844e4a3ef9e5527b3228d342e44220620f",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "1a1427a73b7cb0f4ea3f71c6c8090c4366c8ebe1"
+      ],
+      "data": "0x"
+     }
+    ]
+   }
+  },
+  "decoded": [
+   {
+    "hash": "0xe2cbc0fe5825d8d0a0ea7fef65451c8f6545f94db78f42e2a677a045a5dd5915",
+    "timestamp": "2022-11-05T04:15:59.000000Z",
+    "method": "addLayer",
+    "category": "renderer",
+    "from": "0x1a1427A73b7Cb0F4ea3F71C6c8090c4366c8eBe1",
+    "params": [
+     {
+      "name": "raw",
+      "type": "bytes",
+      "value": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0x77d2e84a80dc187af0395d4e5a2b335d21e724d20d1170dba185ef7f4fe7bfa1",
+    "timestamp": "2022-11-05T04:16:35.000000Z",
+    "method": "addLayer",
+    "category": "renderer",
+    "from": "0x1a1427A73b7Cb0F4ea3F71C6c8090c4366c8eBe1",
+    "params": [
+     {
+      "name": "raw",
+      "type": "bytes",
+      "value": "0000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0xaca5756fe8cd429bebc0200e15ccebc44de20d2703bd7b5270e4d7f5af57f0dc",
+    "timestamp": "2022-11-05T04:16:59.000000Z",
+    "method": "addLayer",
+    "category": "renderer",
+    "from": "0x1a1427A73b7Cb0F4ea3F71C6c8090c4366c8eBe1",
+    "params": [
+     {
+      "name": "raw",
+      "type": "bytes",
+      "value": "0000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0xc105861a0e6b2f82b7c627fe3c1117aee919efa034d36443373222bec07f5034",
+    "timestamp": "2022-11-16T08:04:59.000000Z",
+    "method": "setRenderOfTokenId",
+    "category": "renderer",
+    "from": "0xBDea53C6d3dDB380284E66106C3374eb27d1b778",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "uint256",
+      "value": "343"
+     },
+     {
+      "name": "arg1",
+      "type": "bool",
+      "value": "True"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0x7b985d6285278d980b126771fe001b1ed83cbc2f73962fd6a043e5bed54d965c",
+    "timestamp": "2022-11-20T03:28:47.000000Z",
+    "method": "setRenderOfTokenId",
+    "category": "renderer",
+    "from": "0xD5c27DFc8ad9791d618Bb132a7830c3282E25905",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "uint256",
+      "value": "551"
+     },
+     {
+      "name": "arg1",
+      "type": "bool",
+      "value": "True"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0x020e934a1db53c97cf463d7117c7a7dd0fd04f352fff86a32898653cc73bae2e",
+    "timestamp": "2023-03-02T07:22:47.000000Z",
+    "method": "setRenderOfTokenId",
+    "category": "renderer",
+    "from": "0x26a6Cecb6c19F2Ec00C48e4E63767bAd5903edE0",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "uint256",
+      "value": "827"
+     },
+     {
+      "name": "arg1",
+      "type": "bool",
+      "value": "False"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0x0e07f9a7e2713830126e4ada16210d69a0b3614975fb3a783abe6408884d7959",
+    "timestamp": "2023-12-15T00:51:23.000000Z",
+    "method": "setRenderOfTokenId",
+    "category": "renderer",
+    "from": "0x1521714C2EC0f4F0902eb9f2954ED94218Bf2ea4",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "uint256",
+      "value": "876"
+     },
+     {
+      "name": "arg1",
+      "type": "bool",
+      "value": "True"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0x982cb8872af45f8045a659fb856a0c8a90908b1355ecc73b629a57d46086144c",
+    "timestamp": "2026-06-29T05:00:23.000000Z",
+    "method": "setRenderOfTokenId",
+    "category": "renderer",
+    "from": "0x218736c626a2c846Ae465D39cDC40E8B8218427C",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "uint256",
+      "value": "78"
+     },
+     {
+      "name": "arg1",
+      "type": "bool",
+      "value": "True"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   }
+  ],
+  "ownership_transfers": [
+   {
+    "date": "2022-11-05",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0x1a1427a73b7cb0f4ea3f71c6c8090c4366c8ebe1",
+    "tx": "0x526aeee62599e459be8b6a4c692745844e4a3ef9e5527b3228d342e44220620f"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0x7915bf033126fa5fcc4dfa79f9bdd5717ed4ce40_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0x1a1427a73b7cb0f4ea3f71c6c8090c4366c8ebe1",
+  "code_raw": "data/raw/rpc-mutability/0x1a1427a73b7cb0f4ea3f71c6c8090c4366c8ebe1_holdercode.json",
+  "type": "eoa",
+  "note": "EIP-7702 delegated EOA",
+  "bs_name": null,
+  "ens": "jsheps.eth",
+  "bs_impl_names": [
+   "EIP7702Proxy"
+  ],
+  "bs_tags": [],
+  "is_contract": true,
+  "creator": null,
+  "is_verified": true,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {
+  "isContractSealed": 0
+ },
+ "tokenuri_path": "override",
+ "lock_functions": [
+  "sealContract"
+ ],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [
+  {
+   "name": "setBaseURI",
+   "sig": "setBaseURI(string)",
+   "selector": "0x55f804b3",
+   "category": "uri",
+   "inputs": [
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "baseURI = uri;",
+   "writes": [
+    "baseURI"
+   ],
+   "effective": "yes",
+   "power": "eoa",
+   "holder_addrs": [
+    "0x1a1427a73b7cb0f4ea3f71c6c8090c4366c8ebe1"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x1a1427a73b7cb0f4ea3f71c6c8090c4366c8ebe1",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": "jsheps.eth",
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "addLayer",
+   "sig": "addLayer(uint256,(string,string,bytes,bool,bool,uint256)[])",
+   "selector": "0x97d194d7",
+   "category": "renderer",
+   "inputs": [
+    "uint256",
+    "tuple[]"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner",
+    "whenUnsealed"
+   ],
+   "body_head": "require(TIERS[layerIndex].length == traits.length, \"Traits size does not match tiers for this index\");\n            address[] memory dataPointers = new address[]",
+   "writes": [
+    "_traitDataPointers",
+    "_traitDetails",
+    "dataPointers"
+   ],
+   "effective": "yes",
+   "power": "eoa",
+   "holder_addrs": [
+    "0x1a1427a73b7cb0f4ea3f71c6c8090c4366c8ebe1"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [
+    "isContractSealed"
+   ],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x1a1427a73b7cb0f4ea3f71c6c8090c4366c8ebe1",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": "jsheps.eth",
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "addTrait",
+   "sig": "addTrait(uint256,uint256,(string,string,bytes,bool,bool,uint256))",
+   "selector": "0x180c2cc0",
+   "category": "renderer",
+   "inputs": [
+    "uint256",
+    "uint256",
+    "tuple"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner",
+    "whenUnsealed"
+   ],
+   "body_head": "_traitDetails[layerIndex][traitIndex] = Trait(trait.name, trait.mimetype, trait.hide);\n            address[] memory dataPointers = _traitDataPointers[layerIndex",
+   "writes": [
+    "_traitDataPointers",
+    "_traitDetails",
+    "dataPointers"
+   ],
+   "effective": "yes",
+   "power": "eoa",
+   "holder_addrs": [
+    "0x1a1427a73b7cb0f4ea3f71c6c8090c4366c8ebe1"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [
+    "isContractSealed"
+   ],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x1a1427a73b7cb0f4ea3f71c6c8090c4366c8ebe1",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": "jsheps.eth",
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "setBackgroundColor",
+   "sig": "setBackgroundColor(string)",
+   "selector": "0x6190e1da",
+   "category": "renderer",
+   "inputs": [
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner",
+    "whenUnsealed"
+   ],
+   "body_head": "backgroundColor = color;",
+   "writes": [
+    "backgroundColor"
+   ],
+   "effective": "yes",
+   "power": "eoa",
+   "holder_addrs": [
+    "0x1a1427a73b7cb0f4ea3f71c6c8090c4366c8ebe1"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [
+    "isContractSealed"
+   ],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x1a1427a73b7cb0f4ea3f71c6c8090c4366c8ebe1",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": "jsheps.eth",
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "setLinkedTraits",
+   "sig": "setLinkedTraits((uint256[],uint256[])[])",
+   "selector": "0xb4568066",
+   "category": "renderer",
+   "inputs": [
+    "tuple[]"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner",
+    "whenUnsealed"
+   ],
+   "body_head": "for (uint i = 0; i < linkedTraits.length; i++) {\n                _linkedTraits[linkedTraits[i].traitA[0]][linkedTraits[i].traitA[1]] = [linkedTraits[i].traitB[0",
+   "writes": [],
+   "effective": "unknown",
+   "power": "eoa",
+   "holder_addrs": [
+    "0x1a1427a73b7cb0f4ea3f71c6c8090c4366c8ebe1"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [
+    "isContractSealed"
+   ],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x1a1427a73b7cb0f4ea3f71c6c8090c4366c8ebe1",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": "jsheps.eth",
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "setRenderOfTokenId",
+   "sig": "setRenderOfTokenId(uint256,bool)",
+   "selector": "0xdbe9875f",
+   "category": "renderer",
+   "inputs": [
+    "uint256",
+    "bool"
+   ],
+   "gates": [
+    {
+     "type": "token-owner",
+     "ref": "ownerOf"
+    }
+   ],
+   "modifiers": [],
+   "body_head": "require(msg.sender == ownerOf(tokenId), \"Only the token owner can set the render method\");\n            _renderTokenOffChain[tokenId] = renderOffChain;",
+   "writes": [
+    "_renderTokenOffChain"
+   ],
+   "effective": "yes",
+   "power": "token-holder",
+   "holder_addrs": [],
+   "holder_how": [
+    "ownerOf"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": true,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": []
+  }
+ ],
+ "class_direct": "eoa-mutable",
+ "class_reason": "live setters (eoa): addLayer,addTrait,setBackgroundColor,setBaseURI,setLinkedTraits",
+ "live_mutators": [
+  "addLayer",
+  "addTrait",
+  "setBackgroundColor",
+  "setBaseURI",
+  "setLinkedTraits",
+  "setRenderOfTokenId"
+ ],
+ "dependencies": [],
+ "meta": {
+  "address": "0x7915bf033126fa5fcc4dfa79f9bdd5717ed4ce40",
+  "name": "Mad Masks",
+  "w5_claim_strength": "on-chain-generic",
+  "w5_claim_text": "Mad Masks is a collection of 1024 randomly generated on-chain pixel art by Jack Shepherd.",
+  "w5_source_type": "contractURI",
+  "w5_source_url": "data:application/json;base64,eyJuYW1lIjoiTWFkIE1hc2tzIiwiZGVzY3JpcHRpb24iOiJNYWQgTWFza3MgaXMgYSBjb2xsZWN0aW9uIG9mIDEwMjQgcmFuZG9tbHkgZ2VuZXJhdGVkIG9uLWNoYWluIHBpeGVsIGFydCBieSBKYWNrIFNoZXBoZXJkLiBTZXQ",
+  "holders_count": 483.0,
+  "in_w5": true,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": null,
+  "census_media_class": null,
+  "census_liveness": null,
+  "in_census_onchain": false,
+  "standard": "ERC-721",
+  "creator": "0x1a1427a73b7cb0f4ea3f71c6c8090c4366c8ebe1",
+  "deploy_block": 15901364.0
+ },
+ "class_deps_all": "none",
+ "class_deps": "none",
+ "class_final": "eoa-mutable",
+ "pointer_power": "eoa"
+}

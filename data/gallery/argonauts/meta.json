@@ -1,0 +1,62 @@
+{
+ "collection": "Argonauts",
+ "slug": "argonauts",
+ "contract": "0x387C41B0B2F1128dE44dB1Bcf8baad085f26392C",
+ "token_id": 1,
+ "chain_method": "data URI (contract-assembled; technique labelled from verified source flags)",
+ "chain_call": "tokenURI(1)",
+ "json_name": "Argonaut #0001",
+ "fields": {
+  "image": "data:image/svg+xml",
+  "animation_url": "data:text/html",
+  "external_url": null,
+  "json_how": "data-uri-base64"
+ },
+ "rpc": {
+  "default_public_ok": true,
+  "highgas_drpc_ok": null,
+  "highgas_blxr_ok": null,
+  "fork_ok": null,
+  "rpc": "public-default",
+  "needed_fork": false,
+  "unreadable_from_default_public_call": false,
+  "gas_estimate": null
+ },
+ "medium": "html+js (animation_url data URI)",
+ "primary": "animation_url",
+ "source_flags": {
+  "verified": true,
+  "contract_name": "Argonauts",
+  "proxy": false,
+  "implementation": null,
+  "sstore2": true,
+  "ethfs": false,
+  "scripty": false,
+  "base64": true,
+  "gzip": false,
+  "data_uri": true,
+  "http_literals": [
+   "https://datatracker.ietf.org/doc/html/rfc4648",
+   "https://docs.ethers.io/v5/api/signer/",
+   "https://en.wikipedia.org/wiki/Fermat",
+   "https://eth.wiki/json-rpc/API",
+   "https://ethereum.github.io/yellowpaper/paper.pdf",
+   "https://web3js.readthedocs.io/en/v1.3.4/web3-eth-accounts.html",
+   "https://www.rfc-editor.org/rfc/rfc4648",
+   "https://xn--2-umb.com/21/muldiv"
+  ],
+  "ipfs_literal": false,
+  "setters": [
+   "setRenderer"
+  ]
+ },
+ "artwork_file": "artwork.html",
+ "doc_type": "text/html; charset=utf-8",
+ "artwork_bytes": 34316,
+ "artwork_sha256": "2c90d270bf18f24cd2ceaeebc2a4ba11d29f53b7f655bae143efa3068d8aae69",
+ "declared": {
+  "load": [],
+  "literals": []
+ },
+ "built_at": "2026-10-21T20:18:02Z"
+}

@@ -1,0 +1,470 @@
+{
+  "collection": {
+    "rank": 85,
+    "source_rank": 90,
+    "name": "RaidParty Fighter",
+    "contract": "0x87e738a3d5e5345d6212d8982205a564289e6324",
+    "contracts": [
+      "0x87e738a3d5e5345d6212d8982205a564289e6324"
+    ],
+    "slug": "fighter",
+    "volume_usd": 66593035.5,
+    "volume_source": "CryptoSlam all-time Ethereum owner-to-owner sales, wash-filtered USD",
+    "source_url": "https://web-api.cryptoslam.io/v1/sales/rank-by-volume?timeRange=all&orderBy=rank&sortDirection=asc&offset=0&limit=100&blockchainId=0&hideInscriptions=false",
+    "ranking_evidence": "data/raw/top100-api/cryptoslam-ranking-0.json",
+    "identity_evidence": "data/raw/top100-api/cryptoslam-info-fighter.json",
+    "token_count": 87609,
+    "all_time_volume": 66593035.5,
+    "volume_currency": "USD",
+    "kind": "game",
+    "metadata_location": "http",
+    "metadata_classes": [
+      "http"
+    ],
+    "media_location": "unresolved",
+    "primary_image_location": "unresolved",
+    "media_classes": [],
+    "liveness": "dead",
+    "liveness_exact": "dead",
+    "all_declared_media_liveness": "dead",
+    "metadata_failed": true,
+    "n_alive": 0,
+    "n_dead": 3,
+    "n_unknown": 0,
+    "n_degraded": 0,
+    "key_domain_or_gateway": "api.raid.party",
+    "hosts": [
+      "api.raid.party"
+    ],
+    "hardcoded_gateways": [],
+    "http_origin_dependency": true,
+    "uses_ipfs": false,
+    "uses_arweave": false,
+    "fully_onchain_all_declared_media": false,
+    "metadata_and_primary_image_onchain": false,
+    "mutability_class": "immutable",
+    "single_key_mutable": false,
+    "single_key_repointable": false,
+    "base_uri_or_renderer": "0x87e738a3d5e5345d6212d8982205a564289e6324.tokenURI/uri",
+    "control": [
+      {
+        "contract": "0x87e738a3d5e5345d6212d8982205a564289e6324",
+        "class": "immutable",
+        "pointer_power": null,
+        "reason": "no uri/renderer/upgrade function in ABI and not a proxy",
+        "owner": null,
+        "proxy": {
+          "kind": null
+        },
+        "live_mutators": [],
+        "lock_flags": {},
+        "dependencies": [
+          {
+            "contract": "0x2ed251752da7f24f33cfbd38438748bb8eeb44e1",
+            "via": "getSeeder()",
+            "class": "multisig-mutable",
+            "in_tokenuri_path": false
+          }
+        ],
+        "pointer_getters": [],
+        "analyzed_at": "2026-10-23T02:53:10Z",
+        "history_incomplete": false,
+        "evidence": "data/raw/top100-mutability/0x87e738a3d5e5345d6212d8982205a564289e6324.json"
+      }
+    ],
+    "samples": 3,
+    "distinct_token_ids": 3,
+    "sample_note": null,
+    "source_contracts_without_sampleable_nfts": [],
+    "ownership_scope_gaps": [],
+    "refreshed_at": "2026-10-23T03:05:06Z",
+    "opensea_rank": null,
+    "ranking_scope_disagreement": false,
+    "metadata_adapter": false,
+    "evidence": [
+      "data/raw/top100-census/0x87e738a3d5e5345d6212d8982205a564289e6324/result.json.gz"
+    ],
+    "delivery_note": null
+  },
+  "samples": [
+    {
+      "contract": "0x87e738a3d5e5345d6212d8982205a564289e6324",
+      "token_id": "1",
+      "sample_unit": 1,
+      "how_found": "reused census: ownerOf-probe(0..15)/grid-min [low]",
+      "metadata_location": "http",
+      "metadata_uri": "https://api.raid.party/metadata/fighter/1",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "api.raid.party",
+          "url": "https://api.raid.party/metadata/fighter/1",
+          "status": null,
+          "error_kind": "tls:hostname-mismatch",
+          "v": "dead",
+          "reason": "tls:hostname-mismatch",
+          "seq": 2,
+          "final_url": "https://api.raid.party/metadata/fighter/1",
+          "content_type": null,
+          "size": 0,
+          "content_length": null,
+          "sha256": null,
+          "t": "2026-10-23T02:51:06Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "api.raid.party",
+          "url": "https://api.raid.party/metadata/fighter/1",
+          "status": null,
+          "error_kind": "tls:hostname-mismatch",
+          "v": "dead",
+          "reason": "tls:hostname-mismatch",
+          "seq": 7,
+          "final_url": "https://api.raid.party/metadata/fighter/1",
+          "content_type": null,
+          "size": 0,
+          "content_length": null,
+          "sha256": null,
+          "t": "2026-10-23T02:58:41Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "api.raid.party",
+          "url": "https://api.raid.party/metadata/fighter/1",
+          "status": null,
+          "error_kind": "tls:hostname-mismatch",
+          "v": "dead",
+          "reason": "tls:hostname-mismatch",
+          "seq": 10,
+          "final_url": "https://api.raid.party/metadata/fighter/1",
+          "content_type": null,
+          "size": 0,
+          "content_length": null,
+          "sha256": null,
+          "t": "2026-10-23T03:05:05Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [],
+      "derived": {
+        "meta_verdict": "dead",
+        "meta_verdict_reason": "tls:hostname-mismatch",
+        "image_class": null,
+        "anim_class": null,
+        "image_verdict": null,
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {},
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "dead",
+        "liveness_reason": "tls:hostname-mismatch",
+        "liveness_exact": "dead",
+        "liveness_exact_reason": "tls:hostname-mismatch",
+        "meta_verdict_exact": "dead",
+        "image_verdict_exact": null,
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "tls:hostname-mismatch"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000000001",
+          "endpoint": "https://eth.drpc.org",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x87e738a3d5e5345d6212d8982205a564289e6324/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0x87e738a3d5e5345d6212d8982205a564289e6324",
+      "token_id": "13402",
+      "sample_unit": 1,
+      "how_found": "reused census: ownerOf-probe(13402..+15) [mid]",
+      "metadata_location": "http",
+      "metadata_uri": "https://api.raid.party/metadata/fighter/13402",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "api.raid.party",
+          "url": "https://api.raid.party/metadata/fighter/13402",
+          "status": null,
+          "error_kind": "tls:hostname-mismatch",
+          "v": "dead",
+          "reason": "tls:hostname-mismatch",
+          "seq": 4,
+          "final_url": "https://api.raid.party/metadata/fighter/13402",
+          "content_type": null,
+          "size": 0,
+          "content_length": null,
+          "sha256": null,
+          "t": "2026-10-23T02:51:07Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "api.raid.party",
+          "url": "https://api.raid.party/metadata/fighter/13402",
+          "status": null,
+          "error_kind": "tls:hostname-mismatch",
+          "v": "dead",
+          "reason": "tls:hostname-mismatch",
+          "seq": 8,
+          "final_url": "https://api.raid.party/metadata/fighter/13402",
+          "content_type": null,
+          "size": 0,
+          "content_length": null,
+          "sha256": null,
+          "t": "2026-10-23T02:58:41Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "api.raid.party",
+          "url": "https://api.raid.party/metadata/fighter/13402",
+          "status": null,
+          "error_kind": "tls:hostname-mismatch",
+          "v": "dead",
+          "reason": "tls:hostname-mismatch",
+          "seq": 11,
+          "final_url": "https://api.raid.party/metadata/fighter/13402",
+          "content_type": null,
+          "size": 0,
+          "content_length": null,
+          "sha256": null,
+          "t": "2026-10-23T03:05:05Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [],
+      "derived": {
+        "meta_verdict": "dead",
+        "meta_verdict_reason": "tls:hostname-mismatch",
+        "image_class": null,
+        "anim_class": null,
+        "image_verdict": null,
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {},
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "dead",
+        "liveness_reason": "tls:hostname-mismatch",
+        "liveness_exact": "dead",
+        "liveness_exact_reason": "tls:hostname-mismatch",
+        "meta_verdict_exact": "dead",
+        "image_verdict_exact": null,
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "tls:hostname-mismatch"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd000000000000000000000000000000000000000000000000000000000000345a",
+          "endpoint": "https://eth.drpc.org",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x87e738a3d5e5345d6212d8982205a564289e6324/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0x87e738a3d5e5345d6212d8982205a564289e6324",
+      "token_id": "26804",
+      "sample_unit": 1,
+      "how_found": "reused census: ownerOf-probe(totalSupply=26802) [recent]",
+      "metadata_location": "http",
+      "metadata_uri": "https://api.raid.party/metadata/fighter/26804",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "api.raid.party",
+          "url": "https://api.raid.party/metadata/fighter/26804",
+          "status": null,
+          "error_kind": "tls:hostname-mismatch",
+          "v": "dead",
+          "reason": "tls:hostname-mismatch",
+          "seq": 6,
+          "final_url": "https://api.raid.party/metadata/fighter/26804",
+          "content_type": null,
+          "size": 0,
+          "content_length": null,
+          "sha256": null,
+          "t": "2026-10-23T02:51:07Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "api.raid.party",
+          "url": "https://api.raid.party/metadata/fighter/26804",
+          "status": null,
+          "error_kind": "tls:hostname-mismatch",
+          "v": "dead",
+          "reason": "tls:hostname-mismatch",
+          "seq": 9,
+          "final_url": "https://api.raid.party/metadata/fighter/26804",
+          "content_type": null,
+          "size": 0,
+          "content_length": null,
+          "sha256": null,
+          "t": "2026-10-23T02:58:41Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "api.raid.party",
+          "url": "https://api.raid.party/metadata/fighter/26804",
+          "status": null,
+          "error_kind": "tls:hostname-mismatch",
+          "v": "dead",
+          "reason": "tls:hostname-mismatch",
+          "seq": 12,
+          "final_url": "https://api.raid.party/metadata/fighter/26804",
+          "content_type": null,
+          "size": 0,
+          "content_length": null,
+          "sha256": null,
+          "t": "2026-10-23T03:05:05Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [],
+      "derived": {
+        "meta_verdict": "dead",
+        "meta_verdict_reason": "tls:hostname-mismatch",
+        "image_class": null,
+        "anim_class": null,
+        "image_verdict": null,
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {},
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "dead",
+        "liveness_reason": "tls:hostname-mismatch",
+        "liveness_exact": "dead",
+        "liveness_exact_reason": "tls:hostname-mismatch",
+        "meta_verdict_exact": "dead",
+        "image_verdict_exact": null,
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "tls:hostname-mismatch"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd00000000000000000000000000000000000000000000000000000000000068b4",
+          "endpoint": "https://eth.drpc.org",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x87e738a3d5e5345d6212d8982205a564289e6324/evidence.jsonl.gz"
+    }
+  ],
+  "saved_packet_index": [
+    {
+      "path": "data/raw/top100-api/opensea-contract-0x87e738a3d5e5345d6212d8982205a564289e6324-attempt1-1792724333195542525.body",
+      "sha256": "e7435fbb1c5ad5f3795889b78db8f659dff6d30c6b8b48d4369204d05b353f74",
+      "retrieved_at": "2026-10-23T02:58:53Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0x87e738a3d5e5345d6212d8982205a564289e6324",
+      "method": "GET",
+      "status": 401,
+      "error": null,
+      "bytes": 70,
+      "truncated": false
+    },
+    {
+      "path": "data/raw/top100-api/opensea-contract-0x87e738a3d5e5345d6212d8982205a564289e6324-attempt1-1792724760291839720.body",
+      "sha256": "716fbfa7b942b0e7f85ee3e924767c6ac9d12bc41b9e09f20ef93971d2d49d10",
+      "retrieved_at": "2026-10-23T03:06:00Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0x87e738a3d5e5345d6212d8982205a564289e6324",
+      "method": "GET",
+      "status": 200,
+      "error": null,
+      "bytes": 191,
+      "truncated": false
+    },
+    {
+      "path": "data/raw/top100-api/opensea-contract-0x87e738a3d5e5345d6212d8982205a564289e6324.json",
+      "sha256": "716fbfa7b942b0e7f85ee3e924767c6ac9d12bc41b9e09f20ef93971d2d49d10",
+      "retrieved_at": "2026-10-23T03:06:00Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0x87e738a3d5e5345d6212d8982205a564289e6324",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "data/raw/top100-census/0x87e738a3d5e5345d6212d8982205a564289e6324/bodies.zip",
+      "sha256": "904e419425381019f2350f146043eb57f978c54b2815059ce64963f1ef0d4957",
+      "bytes": 748
+    },
+    {
+      "path": "data/raw/top100-census/0x87e738a3d5e5345d6212d8982205a564289e6324/evidence.jsonl.gz",
+      "sha256": "c916fb76f9441dc32ab94fa2d3440afb007e1770be6d25741d80d3349d306964",
+      "bytes": 1667
+    },
+    {
+      "path": "data/raw/top100-census/0x87e738a3d5e5345d6212d8982205a564289e6324/result.json.gz",
+      "sha256": "b212b91b3bef62ada432b039a55e9d5b6c739f62c838a76ce8e8b9b416df1730",
+      "bytes": 1096
+    },
+    {
+      "path": "data/raw/top100-mutability/0x87e738a3d5e5345d6212d8982205a564289e6324.json",
+      "sha256": "b0d196531d40e48862a26bd2f35be4156e852a8b899b3dcc607a1cf426e741eb",
+      "bytes": 4285
+    },
+    {
+      "path": "data/raw/top100-pointers/0x87e738a3d5e5345d6212d8982205a564289e6324/result.json",
+      "sha256": "c10b0a0dbb776660e1a5cf26465ddb30aca52c92249c988f66db666aa6fa87dc",
+      "bytes": 203
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x87e738a3d5e5345d6212d8982205a564289e6324/bodies.zip",
+      "sha256": "cd4dde90383d133076e45cddc658dc23867eb86a7a4519bd6bcdfb22a6c5c77a",
+      "bytes": 632
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x87e738a3d5e5345d6212d8982205a564289e6324/evidence.jsonl.gz",
+      "sha256": "190bec3b128b243a8c665146120183a3e5f942de45378c1a5e29a0266a3aaf69",
+      "bytes": 691
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x87e738a3d5e5345d6212d8982205a564289e6324/result.json",
+      "sha256": "8fa1d6444705c452942e1a5a74ee7809c1cc70866b062e609339e4af072161d5",
+      "bytes": 301
+    }
+  ],
+  "interpretation": "Liveness describes sampled metadata and primary-image delivery, not permanent loss of the artwork."
+}

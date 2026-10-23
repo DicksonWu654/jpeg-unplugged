@@ -1,0 +1,312 @@
+{
+ "address": "0xd65c5d035a35f41f31570887e3ddf8c3289eb920",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:31Z",
+ "code_raw": "data/raw/rpc-mutability/0xd65c5d035a35f41f31570887e3ddf8c3289eb920_code.json",
+ "code_len": 20000,
+ "slots": {
+  "slot0": "0x00000000000000000000000000000000000000000000000000000000000010ae"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0xd65c5d035a35f41f31570887e3ddf8c3289eb920_slots.json",
+ "verified": true,
+ "contract_name": "EthTerrestrials",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [
+   {
+    "hash": "0x5bf8d8f7683461122326c569d19af6eb792320e6bf2999b09ed493fcf9f3e5cf",
+    "timestamp": "2022-05-18T18:29:19.000000Z",
+    "method": "transferOwnership",
+    "from": "0xc8D3C371D6a6DD94Fb82e3F17Dc1004D3DD57ffa",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 14800358,
+    "category": "ownership"
+   }
+  ],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 2,
+    "first": "2022-03-16",
+    "last": "2022-05-18",
+    "last_tx": "0x5bf8d8f7683461122326c569d19af6eb792320e6bf2999b09ed493fcf9f3e5cf",
+    "list": [
+     {
+      "date": "2022-03-16",
+      "tx": "0x12abd0ec64d3abf4c542e7d2ade1f590b3d005c53720a17ce823a3e653c80f6f",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "c8d3c371d6a6dd94fb82e3f17dc1004d3dd57ffa"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2022-05-18",
+      "tx": "0x5bf8d8f7683461122326c569d19af6eb792320e6bf2999b09ed493fcf9f3e5cf",
+      "topics": [
+       "c8d3c371d6a6dd94fb82e3f17dc1004d3dd57ffa",
+       "d7d3239511e5f9fd702c78bda9fe3dd8670d5be0"
+      ],
+      "data": "0x"
+     }
+    ]
+   }
+  },
+  "decoded": [
+   {
+    "hash": "0x5bf8d8f7683461122326c569d19af6eb792320e6bf2999b09ed493fcf9f3e5cf",
+    "timestamp": "2022-05-18T18:29:19.000000Z",
+    "method": "transferOwnership",
+    "category": "ownership",
+    "from": "0xc8D3C371D6a6DD94Fb82e3F17Dc1004D3DD57ffa",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0xd7d3239511e5f9fd702c78bda9fe3dd8670d5be0"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   }
+  ],
+  "ownership_transfers": [
+   {
+    "date": "2022-03-16",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0xc8d3c371d6a6dd94fb82e3f17dc1004d3dd57ffa",
+    "tx": "0x12abd0ec64d3abf4c542e7d2ade1f590b3d005c53720a17ce823a3e653c80f6f"
+   },
+   {
+    "date": "2022-05-18",
+    "from": "0xc8d3c371d6a6dd94fb82e3f17dc1004d3dd57ffa",
+    "to": "0xd7d3239511e5f9fd702c78bda9fe3dd8670d5be0",
+    "tx": "0x5bf8d8f7683461122326c569d19af6eb792320e6bf2999b09ed493fcf9f3e5cf"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0xd65c5d035a35f41f31570887e3ddf8c3289eb920_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0xd7d3239511e5f9fd702c78bda9fe3dd8670d5be0",
+  "code_raw": "data/raw/rpc-mutability/0xd7d3239511e5f9fd702c78bda9fe3dd8670d5be0_holdercode.json",
+  "type": "eoa",
+  "bs_name": null,
+  "ens": null,
+  "bs_impl_names": [],
+  "bs_tags": [],
+  "is_contract": false,
+  "creator": null,
+  "is_verified": false,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {
+  "_contractsealed": 0
+ },
+ "tokenuri_path": "override",
+ "lock_functions": [
+  "seal"
+ ],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [],
+ "class_direct": "immutable",
+ "class_reason": "no uri/renderer/upgrade function in ABI and not a proxy",
+ "live_mutators": [],
+ "dependencies": [
+  {
+   "address": "0x33de02a50c39fbaa86b8f9f515b3781b63c7831d",
+   "via": "address_genesis_descriptor()",
+   "in_tokenuri_path": false,
+   "via_setter": false,
+   "analysis": {
+    "address": "0x33de02a50c39fbaa86b8f9f515b3781b63c7831d",
+    "verified": true,
+    "contract_name": "EthTerrestrialsGenesisDescriptor",
+    "proxy": {
+     "kind": null
+    },
+    "owner": null,
+    "admin_fn": null,
+    "uups": false,
+    "lock_views": {
+     "contractsealed": 1
+    },
+    "lock_flags_true": {
+     "contractsealed": 1
+    },
+    "lock_functions": [
+     "sealContract"
+    ],
+    "class_direct": "immutable",
+    "class_reason": "setAccessories:frozen(contractsealed)",
+    "live_mutators": [],
+    "mutators": [
+     {
+      "name": "setAccessories",
+      "sig": "setAccessories(string[],uint256[])",
+      "selector": "0xbd3bd3d5",
+      "category": "renderer",
+      "inputs": [
+       "string[]",
+       "uint256[]"
+      ],
+      "gates": [
+       {
+        "type": "named",
+        "ref": "deployer"
+       }
+      ],
+      "modifiers": [
+       "onlyDeployerWhileUnsealed"
+      ],
+      "body_head": "require(_accesories.length == traitNumber.length);\n      for (uint8 i; i < _accesories.length; i++) accesories[traitNumber[i]] = _accesories[i];",
+      "writes": [],
+      "effective": "unknown",
+      "power": "unknown",
+      "holder_addrs": [],
+      "holder_how": [
+       "deployer (no public getter)"
+      ],
+      "unknown_gate": true,
+      "token_owner_gated": false,
+      "lock_linked": [
+       "contractsealed"
+      ],
+      "frozen": true,
+      "holders": []
+     }
+    ],
+    "history": {
+     "txs": [
+      {
+       "hash": "0xe1d18a4e38ac2ed42514d6f514df180405605caa68328aca886325e9d6e465b8",
+       "timestamp": "2022-04-14T12:35:06.000000Z",
+       "method": "sealContract",
+       "from": "0xc8D3C371D6a6DD94Fb82e3F17Dc1004D3DD57ffa",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 14583567,
+       "category": "lock"
+      },
+      {
+       "hash": "0x765abe6dc0173cbc0ee1ed800c90bdb1519bc6733e6af47e14147c48f25848f7",
+       "timestamp": "2022-03-16T05:11:53.000000Z",
+       "method": "setAccessories",
+       "from": "0xc8D3C371D6a6DD94Fb82e3F17Dc1004D3DD57ffa",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 14395661,
+       "category": "renderer"
+      }
+     ],
+     "events": {
+      "OwnershipTransferred(address,address)": {
+       "n": 0
+      }
+     },
+     "decoded": [
+      {
+       "hash": "0x765abe6dc0173cbc0ee1ed800c90bdb1519bc6733e6af47e14147c48f25848f7",
+       "timestamp": "2022-03-16T05:11:53.000000Z",
+       "method": "setAccessories",
+       "category": "renderer",
+       "from": "0xc8D3C371D6a6DD94Fb82e3F17Dc1004D3DD57ffa",
+       "params": [
+        {
+         "name": "arg0",
+         "type": "string[]",
+         "value": "['Gold Chain', 'Earring', 'Blunt', 'Hoodie', 'Smoking an L', 'VR', 'Pink Jewlz', 'Smoke Plume', 'Holographic', 'Green Hair', 'Buck Teeth', 'Alien Aviators', 'Flying Saucer', 'Shades', 'Tin Foil Hat', 'Tiara', 'Brain', 'Neurotransmitter', 'Anti-Gravity Necklace', 'Crazy Blonde', '4D Glasses', 'Blue B"
+        },
+        {
+         "name": "arg1",
+         "type": "uint256[]",
+         "value": "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52]"
+        }
+       ],
+       "value_kinds": [],
+       "error": null
+      }
+     ],
+     "incomplete": false
+    },
+    "unverified_selector_hits": [],
+    "tokenuri_path": "none"
+   }
+  },
+  {
+   "address": "0xdfe359d2b9d34182c0320125a2886408aac631e7",
+   "via": "address_v2_descriptor()",
+   "in_tokenuri_path": false,
+   "via_setter": false,
+   "analysis": {
+    "address": "0xdfe359d2b9d34182c0320125a2886408aac631e7",
+    "verified": true,
+    "contract_name": "EthTerrestrialsInjector",
+    "proxy": {
+     "kind": null
+    },
+    "owner": {
+     "addr": "0xd7d3239511e5f9fd702c78bda9fe3dd8670d5be0",
+     "code_raw": "data/raw/rpc-mutability/0xd7d3239511e5f9fd702c78bda9fe3dd8670d5be0_holdercode.json",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "bs_impl_names": [],
+     "bs_tags": [],
+     "is_contract": false,
+     "creator": null,
+     "is_verified": false,
+     "bs_reputation": "ok"
+    },
+    "admin_fn": null,
+    "uups": false,
+    "lock_views": {},
+    "lock_flags_true": {},
+    "lock_functions": [],
+    "class_direct": "immutable",
+    "class_reason": "no uri/renderer/upgrade function in ABI and not a proxy",
+    "live_mutators": [],
+    "mutators": [],
+    "history": {},
+    "unverified_selector_hits": [],
+    "tokenuri_path": "none"
+   }
+  }
+ ],
+ "meta": {
+  "address": "0xd65c5d035a35f41f31570887e3ddf8c3289eb920",
+  "name": "ETHTerrestrials",
+  "w5_claim_strength": "explicit-100%/fully",
+  "w5_claim_text": "A CC0 procedural NFT avatar project living entirely on the Ethereum blockchain.",
+  "w5_source_type": "directory",
+  "w5_source_url": "https://www.fullyonchain.art/collections/ethterrestrials",
+  "holders_count": 700.0,
+  "in_w5": true,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": null,
+  "census_media_class": null,
+  "census_liveness": null,
+  "in_census_onchain": false,
+  "standard": "ERC-721",
+  "creator": "0xc8d3c371d6a6dd94fb82e3f17dc1004d3dd57ffa",
+  "deploy_block": 14395440.0
+ },
+ "class_deps_all": "immutable",
+ "class_deps": "none",
+ "class_final": "immutable",
+ "pointer_power": null
+}

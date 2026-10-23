@@ -1,0 +1,57 @@
+{
+ "collection": "The Simulation",
+ "slug": "the-simulation",
+ "contract": "0xc3706195fF60658585B58716717ee7Acc5ebcA60",
+ "token_id": 2,
+ "chain_method": "data URI (contract-assembled; technique labelled from verified source flags)",
+ "chain_call": "tokenURI(2)",
+ "json_name": "UNREALITY",
+ "fields": {
+  "image": "https",
+  "animation_url": "data:text/html",
+  "external_url": null,
+  "json_how": "data-uri-base64"
+ },
+ "rpc": {
+  "default_public_ok": true,
+  "highgas_drpc_ok": null,
+  "highgas_blxr_ok": null,
+  "fork_ok": null,
+  "rpc": "public-default",
+  "needed_fork": false,
+  "unreadable_from_default_public_call": false,
+  "gas_estimate": null
+ },
+ "medium": "html+js (animation_url data URI)",
+ "primary": "animation_url",
+ "source_flags": {
+  "verified": true,
+  "contract_name": "SimulationTypes",
+  "proxy": false,
+  "implementation": null,
+  "sstore2": false,
+  "ethfs": false,
+  "scripty": false,
+  "base64": true,
+  "gzip": false,
+  "data_uri": true,
+  "http_literals": [
+   "https://datatracker.ietf.org/doc/html/rfc4648",
+   "https://en.wikipedia.org/wiki/Fermat",
+   "https://sim.tech/api/nft-thumbnail/1/",
+   "https://www.rfc-editor.org/rfc/rfc4648",
+   "https://xn--2-umb.com/21/muldiv"
+  ],
+  "ipfs_literal": false,
+  "setters": []
+ },
+ "artwork_file": "artwork.html",
+ "doc_type": "text/html; charset=utf-8",
+ "artwork_bytes": 3450,
+ "artwork_sha256": "ff557c159b3b97278cce4cf2a7c35090cded714104c6dcabc23c15aac73a5eae",
+ "declared": {
+  "load": [],
+  "literals": []
+ },
+ "built_at": "2026-10-21T20:18:09Z"
+}

@@ -1,0 +1,35 @@
+{
+ "collection": "Art Blocks #160 Seadragons (Marcin Ignac)",
+ "slug": "ab-160",
+ "contract": "0xa7d8d9ef8D8Ce8992Df33D8b8CF4Aebabd5bD270",
+ "token_id": 160000000,
+ "project_id": 160,
+ "project_name": "Seadragons",
+ "artist": "Marcin Ignac",
+ "script_type": "regl@2.1.0",
+ "script_count": 6,
+ "script_bytes": 42418,
+ "token_hash": "0x143e5170a3187c69fe5752dae1597251bb53f4ea59ab8fde28572a8ea3a6a0c9",
+ "chain_method": "Art Blocks: project script on core contract + libraries from on-chain Dependency Registry, assembled by on-chain Generator getTokenHtml()",
+ "chain_call": "GenArt721Generator.getTokenHtml(0xa7d8d9ef8D8Ce8992Df33D8b8CF4Aebabd5bD270, 160000000) @ 0x953D288708bB771F969FCfD9BA0819eF506Ac718",
+ "medium": "html+js (regl@2.1.0)",
+ "fields": {},
+ "rpc": {
+  "public_rpc_ok": true,
+  "rpc": "public",
+  "gas_estimate": 4728464
+ },
+ "generator_embeds_project_script": true,
+ "note": "tokenURI of the core contract is an HTTPS URL on the Art Blocks API; B uses the on-chain Generator output instead (the honest on-chain test)",
+ "artwork_file": "artwork.html",
+ "doc_type": "text/html; charset=utf-8",
+ "artwork_bytes": 49246,
+ "artwork_sha256": "565728c6bc71207403ed2cde3a6583ff332c0219618d77bb6fcd14a07a2c26a0",
+ "declared": {
+  "load": [
+   "https://cdnjs.cloudflare.com/ajax/libs/regl/2.1.0/regl.min.js"
+  ],
+  "literals": []
+ },
+ "built_at": "2026-10-21T20:17:34Z"
+}

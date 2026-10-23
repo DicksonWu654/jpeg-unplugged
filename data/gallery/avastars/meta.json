@@ -1,0 +1,27 @@
+{
+ "collection": "Avastars",
+ "slug": "avastars",
+ "contract": "0xF3E778F839934fC819cFA1040AabaCeCBA01e049",
+ "token_id": 1,
+ "chain_method": "trait SVG art stored in contract (getTraitArtById); renderAvastar() composes SVG",
+ "chain_call": "renderAvastar(1)",
+ "medium": "svg",
+ "fields": {
+  "image": "svg via renderAvastar",
+  "tokenURI_scheme": "https"
+ },
+ "tokenURI_value": "https://avastars.io/metadata/1",
+ "rpc": {
+  "rpc": "public"
+ },
+ "note": "tokenURI() is an HTTPS URL (avastars.io/metadata/1); the art itself is on chain",
+ "artwork_file": "artwork.svg",
+ "doc_type": "image/svg+xml; charset=utf-8",
+ "artwork_bytes": 62571,
+ "artwork_sha256": "58704a7b8da3c3974310bb3058333dbf93750d7adf8e5af3b296776cb1400450",
+ "declared": {
+  "load": [],
+  "literals": []
+ },
+ "built_at": "2026-10-21T20:06:47Z"
+}

@@ -1,0 +1,1967 @@
+{
+ "address": "0x55ad98c4d8ece5e1f40c04e0e1d87c014584dc76",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:20Z",
+ "code_raw": "data/raw/rpc-mutability/0x55ad98c4d8ece5e1f40c04e0e1d87c014584dc76_code.json",
+ "code_len": 16872,
+ "slots": {
+  "slot0": "0x4f6e436861696e20436974697a656e7320563200000000000000000000000026"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0x55ad98c4d8ece5e1f40c04e0e1d87c014584dc76_slots.json",
+ "verified": true,
+ "contract_name": "OnChainCitizensV2",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [
+   {
+    "hash": "0x0af929d742ed0d9651078046868d7169341b5bd3e247dc56cbaec607f900b142",
+    "timestamp": "2026-07-21T10:49:23.000000Z",
+    "method": "lockTraits",
+    "from": "0x2cee0F981Cf42E55fcf37bcad7e750032eD85686",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25580604,
+    "category": "lock"
+   },
+   {
+    "hash": "0x03e8126e20ea14f18259cc3fd947ed06ce465b961bef0ab1578cdd2670a22e2b",
+    "timestamp": "2026-06-03T17:40:11.000000Z",
+    "method": "lockTraits",
+    "from": "0xA82D36f52Ee9e8CFdDaeC9Ea965CcA28648A41eA",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25238415,
+    "category": "lock"
+   },
+   {
+    "hash": "0xda61278df66527bc163fb6f36000ce2c55f59d3fd5f35e926a51e217854faf12",
+    "timestamp": "2026-06-03T12:30:59.000000Z",
+    "method": "lockTraits",
+    "from": "0xD7AFdc66e0C1Cca76Aca8537f30d10a324E246f1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25236878,
+    "category": "lock"
+   },
+   {
+    "hash": "0x93a6795d3775018a4bc80004c5f54a19da21430d19c335c516c0bb7360a92cac",
+    "timestamp": "2026-06-03T12:10:23.000000Z",
+    "method": "lockTraits",
+    "from": "0xdDe2dFF8E8173F5557639f90B78c31554761c24e",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25236775,
+    "category": "lock"
+   },
+   {
+    "hash": "0x994cf5a4a63276cd22faa60ba717607dd7c790f1aaae7c20ab9c645aadbdcf4b",
+    "timestamp": "2026-06-03T12:03:47.000000Z",
+    "method": "lockTraits",
+    "from": "0xF49C20F57855ee91253195df41389b0Ed6199AD4",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25236742,
+    "category": "lock"
+   },
+   {
+    "hash": "0xdd50cec70d896065b75ec0a2e27eefd631da7146f76108bb9da42d34c27f18e1",
+    "timestamp": "2026-06-03T11:53:11.000000Z",
+    "method": "lockTraits",
+    "from": "0x3e52dbb537f18E7fb46c32FE7cc55E2B3243e241",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25236689,
+    "category": "lock"
+   },
+   {
+    "hash": "0x60f72be724571a23e6136cdfc4a305065b9f5c2acc420674d12bf06331d234e8",
+    "timestamp": "2026-06-03T11:50:47.000000Z",
+    "method": "lockTraits",
+    "from": "0x96Cb8EB2E349e64bA47b1015890A2fe7584c369B",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25236677,
+    "category": "lock"
+   },
+   {
+    "hash": "0xbea945196b5b5ad2d9d52880a5efb914192185a7cccf957e26a10c5acf0ce003",
+    "timestamp": "2026-06-03T11:46:59.000000Z",
+    "method": "lockTraits",
+    "from": "0x96Cb8EB2E349e64bA47b1015890A2fe7584c369B",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25236658,
+    "category": "lock"
+   },
+   {
+    "hash": "0x1262969f8ad5b88edc40850f7bd2fe2d2f97ee5d959ce3eb0e7db5cb39c230d7",
+    "timestamp": "2026-06-03T11:38:11.000000Z",
+    "method": "lockTraits",
+    "from": "0xf1026607Ec90D0eE8Ed527adfD40B940f6C936F7",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25236614,
+    "category": "lock"
+   },
+   {
+    "hash": "0x3678c7d91faf97deb5474b89bcfa95529f83c322d82038773a696b71f94fde3a",
+    "timestamp": "2026-06-03T11:11:23.000000Z",
+    "method": "lockTraits",
+    "from": "0xD2cFC6E10cb8BDf7E7D80801B74877ed67f415D4",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25236480,
+    "category": "lock"
+   },
+   {
+    "hash": "0x9f765189bd8053be367abb277123e775f7fe610c2287c13139e5d374243258a2",
+    "timestamp": "2026-06-01T09:40:11.000000Z",
+    "method": "unlockTraits",
+    "from": "0x2cee0F981Cf42E55fcf37bcad7e750032eD85686",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25221685,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x5ee9b4099263bea23eb2965463c64ab33e9769fc60cc3437d12386b507f49655",
+    "timestamp": "2026-06-01T08:10:23.000000Z",
+    "method": "setTraitSeeder",
+    "from": "0x2cee0F981Cf42E55fcf37bcad7e750032eD85686",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25221239,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x9eb8ffa087c8f043d04878aece1b1b053369a3dd1100fd03403bef9e076a7c36",
+    "timestamp": "2026-06-01T08:04:59.000000Z",
+    "method": "setMetadataGenerator",
+    "from": "0x2cee0F981Cf42E55fcf37bcad7e750032eD85686",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25221212,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x3f0cbaa395c767efa63b5427a91751c48d0a71cc04ad2b028f81d65004b99f39",
+    "timestamp": "2026-05-31T20:03:47.000000Z",
+    "method": "setTraitSeeder",
+    "from": "0x2cee0F981Cf42E55fcf37bcad7e750032eD85686",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25217620,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xc02e0f08023ad09f3ddca57a2bf452afd169f998b3f55a13c583b53557eb4cc4",
+    "timestamp": "2026-05-31T17:34:35.000000Z",
+    "method": "lockTraits",
+    "from": "0x2cee0F981Cf42E55fcf37bcad7e750032eD85686",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25216879,
+    "category": "lock"
+   },
+   {
+    "hash": "0x9402b9f73a4cc5adab63455ab7f883f1002a8370ba5b4ff279284c29b6f19998",
+    "timestamp": "2026-05-31T17:08:47.000000Z",
+    "method": "setTraitSeeder",
+    "from": "0x2cee0F981Cf42E55fcf37bcad7e750032eD85686",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25216750,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xccf1a23e6fbafecaf70b15498fc4bc816e5eeb7ab1ad248503527a5f03c65718",
+    "timestamp": "2026-05-31T16:59:23.000000Z",
+    "method": "setTraitSeeder",
+    "from": "0x2cee0F981Cf42E55fcf37bcad7e750032eD85686",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25216703,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x3e549e232b14e18391b0837fbd0318378b92d3964b59c57ce77e4939622f6d3a",
+    "timestamp": "2026-05-31T15:47:35.000000Z",
+    "method": "unlockTraits",
+    "from": "0x2cee0F981Cf42E55fcf37bcad7e750032eD85686",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25216344,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xf90e03c156ad6105c4eb3414244cb0c647d491a92be3395f378697931a59388e",
+    "timestamp": "2026-05-31T15:46:47.000000Z",
+    "method": "lockTraits",
+    "from": "0x2cee0F981Cf42E55fcf37bcad7e750032eD85686",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25216340,
+    "category": "lock"
+   },
+   {
+    "hash": "0xc5b77a4251b51ba248e297e4b6157f4e8c83a6c07721d127199215f746ca040a",
+    "timestamp": "2026-05-31T15:41:47.000000Z",
+    "method": "setMetadataGenerator",
+    "from": "0x2cee0F981Cf42E55fcf37bcad7e750032eD85686",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25216315,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x0ef86bbb140b07f205c30f5c7d45efec11d534f5ef5eb60cc2dbc6f8a85bcefd",
+    "timestamp": "2026-05-31T14:16:11.000000Z",
+    "method": "unlockTraits",
+    "from": "0x2cee0F981Cf42E55fcf37bcad7e750032eD85686",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25215888,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x788658248e1be9f16214058f27403b5b5af3fa200ce9d1196b5d6c236a30a760",
+    "timestamp": "2026-05-31T10:04:11.000000Z",
+    "method": "lockTraits",
+    "from": "0x2cee0F981Cf42E55fcf37bcad7e750032eD85686",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25214631,
+    "category": "lock"
+   },
+   {
+    "hash": "0x3c8f96c2176b1ca46bce7fd03b4a66e78c6356216520c8e3638263108287732d",
+    "timestamp": "2026-05-31T09:56:11.000000Z",
+    "method": "lockTraits",
+    "from": "0x2cee0F981Cf42E55fcf37bcad7e750032eD85686",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25214591,
+    "category": "lock"
+   },
+   {
+    "hash": "0xd194a8f3505212a1579ef7aa854b7f88f17adb83d77d17efc71800f4e1dfa7b1",
+    "timestamp": "2026-05-31T09:55:23.000000Z",
+    "method": "unlockTraits",
+    "from": "0x2cee0F981Cf42E55fcf37bcad7e750032eD85686",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25214587,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x6047b0d3574e75f14d3a3efb1d676cfd553ae2b57f454f4d63e0150d2d6b1ed8",
+    "timestamp": "2026-05-31T09:53:59.000000Z",
+    "method": "lockTraits",
+    "from": "0x2cee0F981Cf42E55fcf37bcad7e750032eD85686",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25214580,
+    "category": "lock"
+   },
+   {
+    "hash": "0xffa89531a5ec13733475362c949aaeb5c6c74c8a49fe44d6a484a4ee4cc6d5d8",
+    "timestamp": "2026-05-31T09:50:35.000000Z",
+    "method": "setTraitLockFee",
+    "from": "0x2cee0F981Cf42E55fcf37bcad7e750032eD85686",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25214563,
+    "category": "lock"
+   },
+   {
+    "hash": "0x5a7e670417206d0fae816c105bd515b6019161e8b83e0d09e7737fa069c6c950",
+    "timestamp": "2026-05-27T18:24:11.000000Z",
+    "method": "setTraitSeeder",
+    "from": "0x2cee0F981Cf42E55fcf37bcad7e750032eD85686",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25188440,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x06d2ba8872e95ba61d5e7a16eaeebe8d352798d66e1147289fef444d1c225f01",
+    "timestamp": "2026-05-27T18:23:11.000000Z",
+    "method": "setMetadataGenerator",
+    "from": "0x2cee0F981Cf42E55fcf37bcad7e750032eD85686",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25188435,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x35f936fd5a2e2761d44908d9f9d3e5922d5944def1da548c8f7e13740c6d6447",
+    "timestamp": "2026-05-23T10:38:59.000000Z",
+    "method": "lockTraits",
+    "from": "0x2F7F4D273431D343E7b52b9adE86F20f6bbd999C",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25157429,
+    "category": "lock"
+   },
+   {
+    "hash": "0xe30e8fbb315256f38b84651404815969289a2149669dcd8e65cbc29ff78000bf",
+    "timestamp": "2026-05-20T17:56:23.000000Z",
+    "method": "setTraitLockFee",
+    "from": "0x2cee0F981Cf42E55fcf37bcad7e750032eD85686",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25138083,
+    "category": "lock"
+   }
+  ],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 1,
+    "first": "2026-05-20",
+    "last": "2026-05-20",
+    "last_tx": "0x6185f8b0c44c2abef41538323bbe98c20fcb1db2fa575af575d1cab63031b5ff",
+    "list": [
+     {
+      "date": "2026-05-20",
+      "tx": "0x6185f8b0c44c2abef41538323bbe98c20fcb1db2fa575af575d1cab63031b5ff",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "2cee0f981cf42e55fcf37bcad7e750032ed85686"
+      ],
+      "data": "0x"
+     }
+    ]
+   },
+   "MetadataUpdate(uint256)": {
+    "n": 1733,
+    "first": "2026-05-20",
+    "last": "2026-07-21",
+    "last_tx": "0x3122202e0661a1ce1b3299fc3ba6581f484e2163b9f69832f913bf19c12f1ebe",
+    "list": [
+     {
+      "date": "2026-05-20",
+      "tx": "0x53b96051dcb49d7055c6f8644235d1e39c417cea69ef9e404b656abc4577458c",
+      "topics": [],
+      "data": "0x00000000000000000000000000000000000000000000000000000000000011d0"
+     },
+     {
+      "date": "2026-05-21",
+      "tx": "0x865eda5c8ff65c025f9111e109f51e698d1574e36bb570505c36e1b269b0dd25",
+      "topics": [],
+      "data": "0x00000000000000000000000000000000000000000000000000000000000011d2"
+     },
+     {
+      "date": "2026-05-21",
+      "tx": "0x3162e191eb6a310a4b1051a5f254582dcde26ba2f17073889894a637da4c666d",
+      "topics": [],
+      "data": "0x00000000000000000000000000000000000000000000000000000000000011d3"
+     },
+     {
+      "date": "2026-05-21",
+      "tx": "0xe1b7846a1af5489bc714384b4c72a60c0fdd4db947228c9a48d9cb6eca08c34d",
+      "topics": [],
+      "data": "0x00000000000000000000000000000000000000000000000000000000000011d3"
+     },
+     {
+      "date": "2026-05-22",
+      "tx": "0xa58462332c4805cbd57c1e4ff07700b137a55c12fa7a4e0a879a973b877e6a79",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000345"
+     },
+     {
+      "date": "2026-05-22",
+      "tx": "0x950fc12c8f9eb64dd7ee4bd567b23b9ddff97e43e703aaaed7173e06b5abca9e",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000345"
+     },
+     {
+      "date": "2026-05-22",
+      "tx": "0x668202987a3e4f52179083625b888ca95d61800ef1fb8876098d67b9c264729f",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000471"
+     },
+     {
+      "date": "2026-05-23",
+      "tx": "0x488681991259eb04217ddc25586f19a064e8b4846f1d3d49d1aa18e58b502020",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000001622"
+     },
+     {
+      "date": "2026-05-23",
+      "tx": "0x629017126daca31e40fbcfb9d55361bb1d74ae5768bda69f5fee4f2157891bb3",
+      "topics": [],
+      "data": "0x00000000000000000000000000000000000000000000000000000000000011e8"
+     },
+     {
+      "date": "2026-05-23",
+      "tx": "0x34f069ecb7638dbc4ef26bd6096b2f6270ba5a5054b053fcc8f4877fd26798ee",
+      "topics": [],
+      "data": "0x00000000000000000000000000000000000000000000000000000000000011e8"
+     },
+     {
+      "date": "2026-05-23",
+      "tx": "0x0df111396aad56bccb1f8f5a4dc31591009b96c4c3b8f678226e0d6ca1f5f5af",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000001b59"
+     },
+     {
+      "date": "2026-05-23",
+      "tx": "0x6eaeb7fa1622d7fa2fd0f1823bf472dff69d79dacdc37af1dd299ce4429d96b3",
+      "topics": [],
+      "data": "0x00000000000000000000000000000000000000000000000000000000000011ff"
+     },
+     {
+      "date": "2026-05-23",
+      "tx": "0xd62aa6ebc09a40bb1aa294f5605b4f967f467fe9650f5540377879b20d8bad3a",
+      "topics": [],
+      "data": "0x00000000000000000000000000000000000000000000000000000000000013f7"
+     },
+     {
+      "date": "2026-05-23",
+      "tx": "0xa117809d14d5d6e815efb78e5d7597f057c9b61e159c54812e19b07a73d9a56f",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000001366"
+     },
+     {
+      "date": "2026-05-23",
+      "tx": "0x86d31828d3f53304226fb27133b137363dc4fbfffc54c362efeee91349b98b66",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000802"
+     },
+     {
+      "date": "2026-05-23",
+      "tx": "0x248f0fccea1fdc2873bebf1660098609ccdf217fc3b4b54a0993e6456d9c37f4",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000001b94"
+     },
+     {
+      "date": "2026-05-23",
+      "tx": "0xf85c1bea16d94e4b0c4af557d872b6e83277ce964df74c47dfa0d3858d539264",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000001b26"
+     },
+     {
+      "date": "2026-05-23",
+      "tx": "0x746257d144340b0a4aed725261fb80173ec56c91468bf2818dbb9ffe6a381152",
+      "topics": [],
+      "data": "0x000000000000000000000000000000000000000000000000000000000000172d"
+     },
+     {
+      "date": "2026-05-23",
+      "tx": "0x999a6bdd109a95d4802a7dab43a8a7ca674da2fa1dc7d56e0ce0b214963a0fe6",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000001574"
+     },
+     {
+      "date": "2026-05-23",
+      "tx": "0xb68ac20459b815003588cb2f8b3e923b32266a9ae508b1d331edf9419d5ba3e6",
+      "topics": [],
+      "data": "0x000000000000000000000000000000000000000000000000000000000000188e"
+     },
+     {
+      "date": "2026-05-23",
+      "tx": "0xe7b4c5ad152d52ae808be46224f356dd5aa5b7cd52f3842beaea575ce6a5a619",
+      "topics": [],
+      "data": "0x000000000000000000000000000000000000000000000000000000000000108d"
+     },
+     {
+      "date": "2026-05-23",
+      "tx": "0xdc092cc064d4d04d7a557ff81e9388b58d20fec43a47995b8191cdf002fbbc5f",
+      "topics": [],
+      "data": "0x00000000000000000000000000000000000000000000000000000000000017c8"
+     },
+     {
+      "date": "2026-05-23",
+      "tx": "0xdc092cc064d4d04d7a557ff81e9388b58d20fec43a47995b8191cdf002fbbc5f",
+      "topics": [],
+      "data": "0x00000000000000000000000000000000000000000000000000000000000017ca"
+     },
+     {
+      "date": "2026-05-23",
+      "tx": "0xdc092cc064d4d04d7a557ff81e9388b58d20fec43a47995b8191cdf002fbbc5f",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000001290"
+     },
+     {
+      "date": "2026-05-23",
+      "tx": "0xdc092cc064d4d04d7a557ff81e9388b58d20fec43a47995b8191cdf002fbbc5f",
+      "topics": [],
+      "data": "0x00000000000000000000000000000000000000000000000000000000000018f3"
+     },
+     {
+      "date": "2026-05-23",
+      "tx": "0xdc092cc064d4d04d7a557ff81e9388b58d20fec43a47995b8191cdf002fbbc5f",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000001e64"
+     },
+     {
+      "date": "2026-05-23",
+      "tx": "0xdc092cc064d4d04d7a557ff81e9388b58d20fec43a47995b8191cdf002fbbc5f",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000001e63"
+     },
+     {
+      "date": "2026-05-23",
+      "tx": "0xda0bd703a304231fa5e2468d66d397e5aaf3146e070f17ba0fb6d7a3c1fe4811",
+      "topics": [],
+      "data": "0x00000000000000000000000000000000000000000000000000000000000016b3"
+     },
+     {
+      "date": "2026-05-23",
+      "tx": "0xa9fea72b94772d24144ce94826edb511973d12969240b977c44a5c97d246da30",
+      "topics": [],
+      "data": "0x000000000000000000000000000000000000000000000000000000000000174b"
+     },
+     {
+      "date": "2026-05-23",
+      "tx": "0x8e9fc69bd421023090fb3fa44a40ea4f05c5de5c3789dd6bc2d37141acf2c665",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000001703"
+     }
+    ]
+   },
+   "FrozenTraitTransferred(uint256,uint256,uint8,uint16)": {
+    "n": 0
+   },
+   "MetadataGeneratorUpdated(address)": {
+    "n": 3,
+    "first": "2026-05-27",
+    "last": "2026-06-01",
+    "last_tx": "0x9eb8ffa087c8f043d04878aece1b1b053369a3dd1100fd03403bef9e076a7c36",
+    "list": [
+     {
+      "date": "2026-05-27",
+      "tx": "0x06d2ba8872e95ba61d5e7a16eaeebe8d352798d66e1147289fef444d1c225f01",
+      "topics": [
+       "cb07bb0318874e12877f4f6f4e8bb7a2342a2d40"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-05-31",
+      "tx": "0xc5b77a4251b51ba248e297e4b6157f4e8c83a6c07721d127199215f746ca040a",
+      "topics": [
+       "f9df684cffd4009cc1823b1223508d99f03b97c1"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-06-01",
+      "tx": "0x9eb8ffa087c8f043d04878aece1b1b053369a3dd1100fd03403bef9e076a7c36",
+      "topics": [
+       "45c97eceea628a683414210b056ec62651aa662e"
+      ],
+      "data": "0x"
+     }
+    ]
+   },
+   "SVGRendererUpdated(address)": {
+    "n": 0
+   },
+   "TraitLockFeeUpdated(uint256)": {
+    "n": 2,
+    "first": "2026-05-20",
+    "last": "2026-05-31",
+    "last_tx": "0xffa89531a5ec13733475362c949aaeb5c6c74c8a49fe44d6a484a4ee4cc6d5d8",
+    "list": [
+     {
+      "date": "2026-05-20",
+      "tx": "0xe30e8fbb315256f38b84651404815969289a2149669dcd8e65cbc29ff78000bf",
+      "topics": [],
+      "data": "0x00000000000000000000000000000000000000000000000000038d7ea4c68000"
+     },
+     {
+      "date": "2026-05-31",
+      "tx": "0xffa89531a5ec13733475362c949aaeb5c6c74c8a49fe44d6a484a4ee4cc6d5d8",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000000"
+     }
+    ]
+   },
+   "TraitSeederUpdated(address)": {
+    "n": 5,
+    "first": "2026-05-27",
+    "last": "2026-06-01",
+    "last_tx": "0x5ee9b4099263bea23eb2965463c64ab33e9769fc60cc3437d12386b507f49655",
+    "list": [
+     {
+      "date": "2026-05-27",
+      "tx": "0x5a7e670417206d0fae816c105bd515b6019161e8b83e0d09e7737fa069c6c950",
+      "topics": [
+       "df58f04ace781ff09f0d9d2d59464d0557d7f6a1"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-05-31",
+      "tx": "0xccf1a23e6fbafecaf70b15498fc4bc816e5eeb7ab1ad248503527a5f03c65718",
+      "topics": [
+       "727bbe630a6e783915e4d66f00af39ed08ef86a5"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-05-31",
+      "tx": "0x9402b9f73a4cc5adab63455ab7f883f1002a8370ba5b4ff279284c29b6f19998",
+      "topics": [
+       "df58f04ace781ff09f0d9d2d59464d0557d7f6a1"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-05-31",
+      "tx": "0x3f0cbaa395c767efa63b5427a91751c48d0a71cc04ad2b028f81d65004b99f39",
+      "topics": [
+       "59efe1f1ccff2c80f6bc2dde4c0cad486c191d5c"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-06-01",
+      "tx": "0x5ee9b4099263bea23eb2965463c64ab33e9769fc60cc3437d12386b507f49655",
+      "topics": [
+       "f9c2b6baa2a864f9a7a90c09f791c1b6641c4153"
+      ],
+      "data": "0x"
+     }
+    ]
+   },
+   "TraitsFrozen(uint256,address,uint32)": {
+    "n": 16,
+    "first": "2026-05-23",
+    "last": "2026-07-21",
+    "last_tx": "0x0af929d742ed0d9651078046868d7169341b5bd3e247dc56cbaec607f900b142",
+    "list": [
+     {
+      "date": "2026-05-23",
+      "tx": "0x35f936fd5a2e2761d44908d9f9d3e5922d5944def1da548c8f7e13740c6d6447",
+      "topics": [
+       "00000000000000000000000000000000000010c8",
+       "2f7f4d273431d343e7b52b9ade86f20f6bbd999c"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000000"
+     },
+     {
+      "date": "2026-05-31",
+      "tx": "0x6047b0d3574e75f14d3a3efb1d676cfd553ae2b57f454f4d63e0150d2d6b1ed8",
+      "topics": [
+       "0000000000000000000000000000000000001c8e",
+       "2cee0f981cf42e55fcf37bcad7e750032ed85686"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000009"
+     },
+     {
+      "date": "2026-05-31",
+      "tx": "0x3c8f96c2176b1ca46bce7fd03b4a66e78c6356216520c8e3638263108287732d",
+      "topics": [
+       "0000000000000000000000000000000000001c8e",
+       "2cee0f981cf42e55fcf37bcad7e750032ed85686"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000009"
+     },
+     {
+      "date": "2026-05-31",
+      "tx": "0x788658248e1be9f16214058f27403b5b5af3fa200ce9d1196b5d6c236a30a760",
+      "topics": [
+       "0000000000000000000000000000000000000347",
+       "2cee0f981cf42e55fcf37bcad7e750032ed85686"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000009"
+     },
+     {
+      "date": "2026-05-31",
+      "tx": "0xf90e03c156ad6105c4eb3414244cb0c647d491a92be3395f378697931a59388e",
+      "topics": [
+       "0000000000000000000000000000000000001c8e",
+       "2cee0f981cf42e55fcf37bcad7e750032ed85686"
+      ],
+      "data": "0x000000000000000000000000000000000000000000000000000000000000000d"
+     },
+     {
+      "date": "2026-05-31",
+      "tx": "0xc02e0f08023ad09f3ddca57a2bf452afd169f998b3f55a13c583b53557eb4cc4",
+      "topics": [
+       "0000000000000000000000000000000000000347",
+       "2cee0f981cf42e55fcf37bcad7e750032ed85686"
+      ],
+      "data": "0x000000000000000000000000000000000000000000000000000000000000000b"
+     },
+     {
+      "date": "2026-06-03",
+      "tx": "0x3678c7d91faf97deb5474b89bcfa95529f83c322d82038773a696b71f94fde3a",
+      "topics": [
+       "000000000000000000000000000000000000201a",
+       "d2cfc6e10cb8bdf7e7d80801b74877ed67f415d4"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000000"
+     },
+     {
+      "date": "2026-06-03",
+      "tx": "0x1262969f8ad5b88edc40850f7bd2fe2d2f97ee5d959ce3eb0e7db5cb39c230d7",
+      "topics": [
+       "00000000000000000000000000000000000023ce",
+       "f1026607ec90d0ee8ed527adfd40b940f6c936f7"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000000"
+     },
+     {
+      "date": "2026-06-03",
+      "tx": "0xbea945196b5b5ad2d9d52880a5efb914192185a7cccf957e26a10c5acf0ce003",
+      "topics": [
+       "0000000000000000000000000000000000002503",
+       "96cb8eb2e349e64ba47b1015890a2fe7584c369b"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000000"
+     },
+     {
+      "date": "2026-06-03",
+      "tx": "0x60f72be724571a23e6136cdfc4a305065b9f5c2acc420674d12bf06331d234e8",
+      "topics": [
+       "0000000000000000000000000000000000002504",
+       "96cb8eb2e349e64ba47b1015890a2fe7584c369b"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000000"
+     },
+     {
+      "date": "2026-06-03",
+      "tx": "0xdd50cec70d896065b75ec0a2e27eefd631da7146f76108bb9da42d34c27f18e1",
+      "topics": [
+       "000000000000000000000000000000000000137e",
+       "3e52dbb537f18e7fb46c32fe7cc55e2b3243e241"
+      ],
+      "data": "0x000000000000000000000000000000000000000000000000000000000000000b"
+     },
+     {
+      "date": "2026-06-03",
+      "tx": "0x994cf5a4a63276cd22faa60ba717607dd7c790f1aaae7c20ab9c645aadbdcf4b",
+      "topics": [
+       "0000000000000000000000000000000000000649",
+       "f49c20f57855ee91253195df41389b0ed6199ad4"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000001"
+     },
+     {
+      "date": "2026-06-03",
+      "tx": "0x93a6795d3775018a4bc80004c5f54a19da21430d19c335c516c0bb7360a92cac",
+      "topics": [
+       "00000000000000000000000000000000000024f7",
+       "dde2dff8e8173f5557639f90b78c31554761c24e"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000000"
+     },
+     {
+      "date": "2026-06-03",
+      "tx": "0xda61278df66527bc163fb6f36000ce2c55f59d3fd5f35e926a51e217854faf12",
+      "topics": [
+       "0000000000000000000000000000000000001f6b",
+       "d7afdc66e0c1cca76aca8537f30d10a324e246f1"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000001"
+     },
+     {
+      "date": "2026-06-03",
+      "tx": "0x03e8126e20ea14f18259cc3fd947ed06ce465b961bef0ab1578cdd2670a22e2b",
+      "topics": [
+       "000000000000000000000000000000000000084b",
+       "a82d36f52ee9e8cfddaec9ea965cca28648a41ea"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000000"
+     },
+     {
+      "date": "2026-07-21",
+      "tx": "0x0af929d742ed0d9651078046868d7169341b5bd3e247dc56cbaec607f900b142",
+      "topics": [
+       "000000000000000000000000000000000000030c",
+       "2cee0f981cf42e55fcf37bcad7e750032ed85686"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000000"
+     }
+    ]
+   },
+   "TraitsUnfrozen(uint256,address)": {
+    "n": 4,
+    "first": "2026-05-31",
+    "last": "2026-06-01",
+    "last_tx": "0x9f765189bd8053be367abb277123e775f7fe610c2287c13139e5d374243258a2",
+    "list": [
+     {
+      "date": "2026-05-31",
+      "tx": "0xd194a8f3505212a1579ef7aa854b7f88f17adb83d77d17efc71800f4e1dfa7b1",
+      "topics": [
+       "0000000000000000000000000000000000001c8e",
+       "2cee0f981cf42e55fcf37bcad7e750032ed85686"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-05-31",
+      "tx": "0x0ef86bbb140b07f205c30f5c7d45efec11d534f5ef5eb60cc2dbc6f8a85bcefd",
+      "topics": [
+       "0000000000000000000000000000000000001c8e",
+       "2cee0f981cf42e55fcf37bcad7e750032ed85686"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-05-31",
+      "tx": "0x3e549e232b14e18391b0837fbd0318378b92d3964b59c57ce77e4939622f6d3a",
+      "topics": [
+       "0000000000000000000000000000000000000347",
+       "2cee0f981cf42e55fcf37bcad7e750032ed85686"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-06-01",
+      "tx": "0x9f765189bd8053be367abb277123e775f7fe610c2287c13139e5d374243258a2",
+      "topics": [
+       "0000000000000000000000000000000000001c8e",
+       "2cee0f981cf42e55fcf37bcad7e750032ed85686"
+      ],
+      "data": "0x"
+     }
+    ]
+   }
+  },
+  "decoded": [
+   {
+    "hash": "0x06d2ba8872e95ba61d5e7a16eaeebe8d352798d66e1147289fef444d1c225f01",
+    "timestamp": "2026-05-27T18:23:11.000000Z",
+    "method": "setMetadataGenerator",
+    "category": "renderer",
+    "from": "0x2cee0F981Cf42E55fcf37bcad7e750032eD85686",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0xcb07bb0318874e12877f4f6f4e8bb7a2342a2d40"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0x5a7e670417206d0fae816c105bd515b6019161e8b83e0d09e7737fa069c6c950",
+    "timestamp": "2026-05-27T18:24:11.000000Z",
+    "method": "setTraitSeeder",
+    "category": "renderer",
+    "from": "0x2cee0F981Cf42E55fcf37bcad7e750032eD85686",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0xdf58f04ace781ff09f0d9d2d59464d0557d7f6a1"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0xd194a8f3505212a1579ef7aa854b7f88f17adb83d77d17efc71800f4e1dfa7b1",
+    "timestamp": "2026-05-31T09:55:23.000000Z",
+    "method": "unlockTraits",
+    "category": "renderer",
+    "from": "0x2cee0F981Cf42E55fcf37bcad7e750032eD85686",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "uint256",
+      "value": "7310"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0x9402b9f73a4cc5adab63455ab7f883f1002a8370ba5b4ff279284c29b6f19998",
+    "timestamp": "2026-05-31T17:08:47.000000Z",
+    "method": "setTraitSeeder",
+    "category": "renderer",
+    "from": "0x2cee0F981Cf42E55fcf37bcad7e750032eD85686",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0xdf58f04ace781ff09f0d9d2d59464d0557d7f6a1"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0x3f0cbaa395c767efa63b5427a91751c48d0a71cc04ad2b028f81d65004b99f39",
+    "timestamp": "2026-05-31T20:03:47.000000Z",
+    "method": "setTraitSeeder",
+    "category": "renderer",
+    "from": "0x2cee0F981Cf42E55fcf37bcad7e750032eD85686",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0x59efe1f1ccff2c80f6bc2dde4c0cad486c191d5c"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0x9eb8ffa087c8f043d04878aece1b1b053369a3dd1100fd03403bef9e076a7c36",
+    "timestamp": "2026-06-01T08:04:59.000000Z",
+    "method": "setMetadataGenerator",
+    "category": "renderer",
+    "from": "0x2cee0F981Cf42E55fcf37bcad7e750032eD85686",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0x45c97eceea628a683414210b056ec62651aa662e"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0x5ee9b4099263bea23eb2965463c64ab33e9769fc60cc3437d12386b507f49655",
+    "timestamp": "2026-06-01T08:10:23.000000Z",
+    "method": "setTraitSeeder",
+    "category": "renderer",
+    "from": "0x2cee0F981Cf42E55fcf37bcad7e750032eD85686",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0xf9c2b6baa2a864f9a7a90c09f791c1b6641c4153"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0x9f765189bd8053be367abb277123e775f7fe610c2287c13139e5d374243258a2",
+    "timestamp": "2026-06-01T09:40:11.000000Z",
+    "method": "unlockTraits",
+    "category": "renderer",
+    "from": "0x2cee0F981Cf42E55fcf37bcad7e750032eD85686",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "uint256",
+      "value": "7310"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   }
+  ],
+  "ownership_transfers": [
+   {
+    "date": "2026-05-20",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0x2cee0f981cf42e55fcf37bcad7e750032ed85686",
+    "tx": "0x6185f8b0c44c2abef41538323bbe98c20fcb1db2fa575af575d1cab63031b5ff"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0x55ad98c4d8ece5e1f40c04e0e1d87c014584dc76_reads1.json",
+ "eip4906": true,
+ "owner": {
+  "addr": "0x2cee0f981cf42e55fcf37bcad7e750032ed85686",
+  "code_raw": "data/raw/rpc-mutability/0x2cee0f981cf42e55fcf37bcad7e750032ed85686_holdercode.json",
+  "type": "eoa",
+  "bs_name": null,
+  "ens": null,
+  "bs_impl_names": [],
+  "bs_tags": [],
+  "is_contract": false,
+  "creator": null,
+  "is_verified": false,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "override",
+ "lock_functions": [
+  "lockTraits",
+  "setTraitLockFee"
+ ],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [
+  {
+   "name": "addTraitTrader",
+   "sig": "addTraitTrader(address)",
+   "selector": "0xaa665326",
+   "category": "renderer",
+   "inputs": [
+    "address"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "if (trader == address(0)) revert OCCV2_ZeroAddress();\n        approvedTraitTraders[trader] = true;\n        emit TraitTraderUpdated(trader, true);",
+   "writes": [
+    "approvedTraitTraders"
+   ],
+   "effective": "no",
+   "power": "eoa",
+   "holder_addrs": [
+    "0x2cee0f981cf42e55fcf37bcad7e750032ed85686"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x2cee0f981cf42e55fcf37bcad7e750032ed85686",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "removeTraitTrader",
+   "sig": "removeTraitTrader(address)",
+   "selector": "0x6ad55594",
+   "category": "renderer",
+   "inputs": [
+    "address"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "approvedTraitTraders[trader] = false;\n        emit TraitTraderUpdated(trader, false);",
+   "writes": [
+    "approvedTraitTraders"
+   ],
+   "effective": "no",
+   "power": "eoa",
+   "holder_addrs": [
+    "0x2cee0f981cf42e55fcf37bcad7e750032ed85686"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x2cee0f981cf42e55fcf37bcad7e750032ed85686",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "setMetadataGenerator",
+   "sig": "setMetadataGenerator(address)",
+   "selector": "0x93777369",
+   "category": "renderer",
+   "inputs": [
+    "address"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "if (newGenerator == address(0)) revert OCCV2_ZeroAddress();\n        metadataGenerator = IOCCV2MetadataGenerator(newGenerator);\n        emit MetadataGeneratorUpd",
+   "writes": [
+    "metadataGenerator"
+   ],
+   "effective": "yes",
+   "power": "eoa",
+   "holder_addrs": [
+    "0x2cee0f981cf42e55fcf37bcad7e750032ed85686"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x2cee0f981cf42e55fcf37bcad7e750032ed85686",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "setSVGRenderer",
+   "sig": "setSVGRenderer(address)",
+   "selector": "0xb8ac69eb",
+   "category": "renderer",
+   "inputs": [
+    "address"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "if (newRenderer == address(0)) revert OCCV2_ZeroAddress();\n        svgRenderer = IOCCV2SVGRenderer(newRenderer);\n        emit SVGRendererUpdated(newRenderer);",
+   "writes": [
+    "svgRenderer"
+   ],
+   "effective": "no",
+   "power": "eoa",
+   "holder_addrs": [
+    "0x2cee0f981cf42e55fcf37bcad7e750032ed85686"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x2cee0f981cf42e55fcf37bcad7e750032ed85686",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "setTraitRegistry",
+   "sig": "setTraitRegistry(address)",
+   "selector": "0x4d7a13dd",
+   "category": "renderer",
+   "inputs": [
+    "address"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "if (newRegistry == address(0)) revert OCCV2_ZeroAddress();\n        traitRegistry = IOCCV2TraitRegistry(newRegistry);\n        emit TraitRegistryUpdated(newRegist",
+   "writes": [
+    "traitRegistry"
+   ],
+   "effective": "no",
+   "power": "eoa",
+   "holder_addrs": [
+    "0x2cee0f981cf42e55fcf37bcad7e750032ed85686"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x2cee0f981cf42e55fcf37bcad7e750032ed85686",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "setTraitSeeder",
+   "sig": "setTraitSeeder(address)",
+   "selector": "0x91332570",
+   "category": "renderer",
+   "inputs": [
+    "address"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "if (newSeeder == address(0)) revert OCCV2_ZeroAddress();\n        traitSeeder = IOCCV2TraitSeeder(newSeeder);\n        emit TraitSeederUpdated(newSeeder);",
+   "writes": [
+    "traitSeeder"
+   ],
+   "effective": "no",
+   "power": "eoa",
+   "holder_addrs": [
+    "0x2cee0f981cf42e55fcf37bcad7e750032ed85686"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x2cee0f981cf42e55fcf37bcad7e750032ed85686",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "swapFrozenTraits",
+   "sig": "swapFrozenTraits(uint256,uint256,uint8,address,address)",
+   "selector": "0x44112f86",
+   "category": "renderer",
+   "inputs": [
+    "uint256",
+    "uint256",
+    "uint8",
+    "address",
+    "address"
+   ],
+   "gates": [
+    {
+     "type": "allowlist",
+     "ref": "approvedTraitTraders"
+    }
+   ],
+   "modifiers": [
+    "onlyApprovedTraitTrader"
+   ],
+   "body_head": "if (fromTokenId == toTokenId) revert OCCV2_SameTokenSwap();\n\n         \n        _requireOwned(fromTokenId);\n        _requireOwned(toTokenId);\n\n         \n        ",
+   "writes": [],
+   "effective": "unknown",
+   "power": "unknown",
+   "holder_addrs": [],
+   "holder_how": [
+    "mapping approvedTraitTraders"
+   ],
+   "unknown_gate": true,
+   "token_owner_gated": false,
+   "lock_linked": [
+    "lockTraits()->traitsLocked"
+   ],
+   "frozen": true,
+   "frozen_by_history": "2026-05-23",
+   "holders": []
+  },
+  {
+   "name": "unlockTraits",
+   "sig": "unlockTraits(uint256)",
+   "selector": "0x21bcd2ee",
+   "category": "renderer",
+   "inputs": [
+    "uint256"
+   ],
+   "gates": [
+    {
+     "type": "token-owner",
+     "ref": "ownerOf"
+    }
+   ],
+   "modifiers": [
+    "nonReentrant"
+   ],
+   "body_head": "_requireOwned(tokenId);\n        if (ownerOf(tokenId) != msg.sender) revert OCCV2_NotTokenOwner();\n        TokenState storage st = _tokenStates[tokenId];\n       ",
+   "writes": [
+    "traitsLocked"
+   ],
+   "effective": "yes",
+   "power": "token-holder",
+   "holder_addrs": [],
+   "holder_how": [
+    "ownerOf"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": true,
+   "lock_linked": [
+    "lockTraits()->traitsLocked"
+   ],
+   "frozen": true,
+   "frozen_by_history": "2026-05-23",
+   "holders": []
+  }
+ ],
+ "class_direct": "eoa-mutable",
+ "class_reason": "live setters (eoa): setMetadataGenerator",
+ "live_mutators": [
+  "setMetadataGenerator"
+ ],
+ "dependencies": [
+  {
+   "address": "0x45c97eceea628a683414210b056ec62651aa662e",
+   "via": "metadataGenerator()",
+   "in_tokenuri_path": true,
+   "via_setter": true,
+   "analysis": {
+    "address": "0x45c97eceea628a683414210b056ec62651aa662e",
+    "verified": true,
+    "contract_name": "OCCV2MetadataGeneratorV22",
+    "proxy": {
+     "kind": null
+    },
+    "owner": {
+     "addr": "0x2cee0f981cf42e55fcf37bcad7e750032ed85686",
+     "code_raw": "data/raw/rpc-mutability/0x2cee0f981cf42e55fcf37bcad7e750032ed85686_holdercode.json",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "bs_impl_names": [],
+     "bs_tags": [],
+     "is_contract": false,
+     "creator": null,
+     "is_verified": false,
+     "bs_reputation": "ok"
+    },
+    "admin_fn": null,
+    "uups": false,
+    "lock_views": {},
+    "lock_flags_true": {},
+    "lock_functions": [],
+    "class_direct": "eoa-mutable",
+    "class_reason": "live setters (eoa): setTraitSeeder",
+    "live_mutators": [
+     "setTraitSeeder"
+    ],
+    "mutators": [
+     {
+      "name": "setTraitSeeder",
+      "sig": "setTraitSeeder(address)",
+      "selector": "0x91332570",
+      "category": "renderer",
+      "inputs": [
+       "address"
+      ],
+      "gates": [
+       {
+        "type": "owner",
+        "ref": "owner"
+       }
+      ],
+      "modifiers": [
+       "onlyOwner"
+      ],
+      "body_head": "if (newSeeder == address(0)) revert OCCV2_ZeroAddress();\n        emit TraitSeederUpdated(address(traitSeeder), newSeeder);\n        traitSeeder = IOCCV2TraitSeed",
+      "writes": [
+       "traitSeeder"
+      ],
+      "effective": "unknown",
+      "power": "eoa",
+      "holder_addrs": [
+       "0x2cee0f981cf42e55fcf37bcad7e750032ed85686"
+      ],
+      "holder_how": [
+       "owner()"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0x2cee0f981cf42e55fcf37bcad7e750032ed85686",
+        "type": "eoa",
+        "bs_name": null,
+        "ens": null,
+        "desc": "eoa",
+        "simple": "eoa"
+       }
+      ]
+     }
+    ],
+    "history": {
+     "txs": [
+      {
+       "hash": "0x85481b9e36e08355b2ce098a3113d89a7043343c5c0fb53f794f955a39c5eb61",
+       "timestamp": "2026-06-01T08:07:23.000000Z",
+       "method": "setTraitSeeder",
+       "from": "0x2cee0F981Cf42E55fcf37bcad7e750032eD85686",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 25221224,
+       "category": "renderer"
+      }
+     ],
+     "events": {
+      "OwnershipTransferred(address,address)": {
+       "n": 1,
+       "first": "2026-06-01",
+       "last": "2026-06-01",
+       "last_tx": "0x12235976a9fe3d3275ea2c2927f848286d4761816229f1c621dfb1e3be1d306a",
+       "list": [
+        {
+         "date": "2026-06-01",
+         "tx": "0x12235976a9fe3d3275ea2c2927f848286d4761816229f1c621dfb1e3be1d306a",
+         "topics": [
+          "0000000000000000000000000000000000000000",
+          "2cee0f981cf42e55fcf37bcad7e750032ed85686"
+         ],
+         "data": "0x"
+        }
+       ]
+      },
+      "TraitSeederUpdated(address,address)": {
+       "n": 2,
+       "first": "2026-06-01",
+       "last": "2026-06-01",
+       "last_tx": "0x85481b9e36e08355b2ce098a3113d89a7043343c5c0fb53f794f955a39c5eb61",
+       "list": [
+        {
+         "date": "2026-06-01",
+         "tx": "0x12235976a9fe3d3275ea2c2927f848286d4761816229f1c621dfb1e3be1d306a",
+         "topics": [
+          "0000000000000000000000000000000000000000",
+          "f9c2b6baa2a864f9a7a90c09f791c1b6641c4153"
+         ],
+         "data": "0x"
+        },
+        {
+         "date": "2026-06-01",
+         "tx": "0x85481b9e36e08355b2ce098a3113d89a7043343c5c0fb53f794f955a39c5eb61",
+         "topics": [
+          "f9c2b6baa2a864f9a7a90c09f791c1b6641c4153",
+          "f9c2b6baa2a864f9a7a90c09f791c1b6641c4153"
+         ],
+         "data": "0x"
+        }
+       ]
+      }
+     },
+     "decoded": [
+      {
+       "hash": "0x85481b9e36e08355b2ce098a3113d89a7043343c5c0fb53f794f955a39c5eb61",
+       "timestamp": "2026-06-01T08:07:23.000000Z",
+       "method": "setTraitSeeder",
+       "category": "renderer",
+       "from": "0x2cee0F981Cf42E55fcf37bcad7e750032eD85686",
+       "params": [
+        {
+         "name": "arg0",
+         "type": "address",
+         "value": "0xf9c2b6baa2a864f9a7a90c09f791c1b6641c4153"
+        }
+       ],
+       "value_kinds": [
+        "address"
+       ],
+       "error": null
+      }
+     ],
+     "ownership_transfers": [
+      {
+       "date": "2026-06-01",
+       "from": "0x0000000000000000000000000000000000000000",
+       "to": "0x2cee0f981cf42e55fcf37bcad7e750032ed85686",
+       "tx": "0x12235976a9fe3d3275ea2c2927f848286d4761816229f1c621dfb1e3be1d306a"
+      }
+     ],
+     "incomplete": false
+    },
+    "unverified_selector_hits": [],
+    "tokenuri_path": "none"
+   }
+  },
+  {
+   "address": "0x752e51e708809c9da790a091e064d83216122070",
+   "via": "svgRenderer()",
+   "in_tokenuri_path": false,
+   "via_setter": true,
+   "analysis": {
+    "address": "0x752e51e708809c9da790a091e064d83216122070",
+    "verified": true,
+    "contract_name": "OCCV2SVGRenderer",
+    "proxy": {
+     "kind": null
+    },
+    "owner": {
+     "addr": "0x2cee0f981cf42e55fcf37bcad7e750032ed85686",
+     "code_raw": "data/raw/rpc-mutability/0x2cee0f981cf42e55fcf37bcad7e750032ed85686_holdercode.json",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "bs_impl_names": [],
+     "bs_tags": [],
+     "is_contract": false,
+     "creator": null,
+     "is_verified": false,
+     "bs_reputation": "ok"
+    },
+    "admin_fn": null,
+    "uups": false,
+    "lock_views": {},
+    "lock_flags_true": {},
+    "lock_functions": [
+     "setEarsBlockedHairMask"
+    ],
+    "class_direct": "immutable",
+    "class_reason": "no uri/renderer/upgrade function in ABI and not a proxy",
+    "live_mutators": [],
+    "mutators": [],
+    "history": {},
+    "unverified_selector_hits": [],
+    "tokenuri_path": "none"
+   }
+  },
+  {
+   "address": "0x682ea5bb4b1a8138c9eb5cd753d811f83f8f5aa2",
+   "via": "traitRegistry()",
+   "in_tokenuri_path": false,
+   "via_setter": true,
+   "analysis": {
+    "address": "0x682ea5bb4b1a8138c9eb5cd753d811f83f8f5aa2",
+    "verified": true,
+    "contract_name": "OCCV2TraitRegistry",
+    "proxy": {
+     "kind": null
+    },
+    "owner": {
+     "addr": "0x2cee0f981cf42e55fcf37bcad7e750032ed85686",
+     "code_raw": "data/raw/rpc-mutability/0x2cee0f981cf42e55fcf37bcad7e750032ed85686_holdercode.json",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "bs_impl_names": [],
+     "bs_tags": [],
+     "is_contract": false,
+     "creator": null,
+     "is_verified": false,
+     "bs_reputation": "ok"
+    },
+    "admin_fn": null,
+    "uups": false,
+    "lock_views": {},
+    "lock_flags_true": {},
+    "lock_functions": [],
+    "class_direct": "eoa-mutable",
+    "class_reason": "live setters (eoa): addTraitBatch",
+    "live_mutators": [
+     "addTraitBatch"
+    ],
+    "mutators": [
+     {
+      "name": "addTraitBatch",
+      "sig": "addTraitBatch(uint8,string[],bytes[],uint16[],bool[],bool[],uint8[],uint16[],uint32[],uint32[],uint32[])",
+      "selector": "0x316d9786",
+      "category": "renderer",
+      "inputs": [
+       "uint8",
+       "string[]",
+       "bytes[]",
+       "uint16[]",
+       "bool[]",
+       "bool[]",
+       "uint8[]",
+       "uint16[]",
+       "uint32[]",
+       "uint32[]",
+       "uint32[]"
+      ],
+      "gates": [
+       {
+        "type": "owner",
+        "ref": "owner"
+       }
+      ],
+      "modifiers": [
+       "onlyOwner"
+      ],
+      "body_head": "uint256 len = names.length;\n        if (len == 0) revert OCCV2_EmptyBatch();\n        if (\n            len != svgData.length ||\n            len != weights.length",
+      "writes": [],
+      "effective": "unknown",
+      "power": "eoa",
+      "holder_addrs": [
+       "0x2cee0f981cf42e55fcf37bcad7e750032ed85686"
+      ],
+      "holder_how": [
+       "owner()"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0x2cee0f981cf42e55fcf37bcad7e750032ed85686",
+        "type": "eoa",
+        "bs_name": null,
+        "ens": null,
+        "desc": "eoa",
+        "simple": "eoa"
+       }
+      ]
+     }
+    ],
+    "history": {
+     "txs": [
+      {
+       "hash": "0x2d3f025ebdb8f6afdcba0b11aaa610dd0e4730dd48bdd1a76b6d6e90c61dac1b",
+       "timestamp": "2026-05-20T18:06:11.000000Z",
+       "method": "0x316d9786",
+       "from": "0x2cee0F981Cf42E55fcf37bcad7e750032eD85686",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 25138132,
+       "category": null
+      },
+      {
+       "hash": "0x4ce7b44d12d2954ddb2bdc5a15ede54877a88628d27a97539d97193720b4f1f1",
+       "timestamp": "2026-05-20T18:05:47.000000Z",
+       "method": "0x316d9786",
+       "from": "0x2cee0F981Cf42E55fcf37bcad7e750032eD85686",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 25138130,
+       "category": null
+      },
+      {
+       "hash": "0x4dc6a85f6cddd1cf5eee7d92b9cac68e9fb537d08f89bc538de400754402d7f2",
+       "timestamp": "2026-05-20T18:05:11.000000Z",
+       "method": "0x316d9786",
+       "from": "0x2cee0F981Cf42E55fcf37bcad7e750032eD85686",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 25138127,
+       "category": null
+      },
+      {
+       "hash": "0xa031ff60bf8982b6e997499bbf1b62415c4cb12cc258bb3c24bea9cc35fc0261",
+       "timestamp": "2026-05-20T18:04:59.000000Z",
+       "method": "0x316d9786",
+       "from": "0x2cee0F981Cf42E55fcf37bcad7e750032eD85686",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 25138126,
+       "category": null
+      },
+      {
+       "hash": "0x30c47034f565824a98d513c09bc51ab0fd025cf638681d6f16e00cf2188558ca",
+       "timestamp": "2026-05-20T18:04:47.000000Z",
+       "method": "0x316d9786",
+       "from": "0x2cee0F981Cf42E55fcf37bcad7e750032eD85686",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 25138125,
+       "category": null
+      },
+      {
+       "hash": "0x9564321eb3e695f918ed589f3396965a9f4699b27c0e25ff7cb8b46b09f087e5",
+       "timestamp": "2026-05-20T18:04:23.000000Z",
+       "method": "0x316d9786",
+       "from": "0x2cee0F981Cf42E55fcf37bcad7e750032eD85686",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 25138123,
+       "category": null
+      },
+      {
+       "hash": "0x91adc23e83cf43ccd65579b622b9283d7379aa0f87be9224cacada79613067c7",
+       "timestamp": "2026-05-20T18:03:47.000000Z",
+       "method": "0x316d9786",
+       "from": "0x2cee0F981Cf42E55fcf37bcad7e750032eD85686",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 25138120,
+       "category": null
+      },
+      {
+       "hash": "0x4f791e31d2c9bc1c3bccda2de9efa3c75c8bbf4b7c5a0274bbe5c48d9e68ce2c",
+       "timestamp": "2026-05-20T18:03:11.000000Z",
+       "method": "0x316d9786",
+       "from": "0x2cee0F981Cf42E55fcf37bcad7e750032eD85686",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 25138117,
+       "category": null
+      },
+      {
+       "hash": "0x43e653e805a2730ef2c9c28e4f76d902542f799cd9a8dc12c5a65bee89602762",
+       "timestamp": "2026-05-20T18:02:47.000000Z",
+       "method": "0x316d9786",
+       "from": "0x2cee0F981Cf42E55fcf37bcad7e750032eD85686",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 25138115,
+       "category": null
+      },
+      {
+       "hash": "0x792d20096d3f3b3cf5746a392245d16449ed46a713aaba063ae07ba8d3f4513d",
+       "timestamp": "2026-05-20T18:02:23.000000Z",
+       "method": "0x316d9786",
+       "from": "0x2cee0F981Cf42E55fcf37bcad7e750032eD85686",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 25138113,
+       "category": null
+      },
+      {
+       "hash": "0xec686062cd2d4983489142eda6784aa58200ed2d21317f0802c10429b45de4ce",
+       "timestamp": "2026-05-20T18:01:59.000000Z",
+       "method": "0x316d9786",
+       "from": "0x2cee0F981Cf42E55fcf37bcad7e750032eD85686",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 25138111,
+       "category": null
+      },
+      {
+       "hash": "0xf789d0b1a81832ec46623d2a2ce1505c39d7fe2b32a6ce0aa7611a9d4ed15d6b",
+       "timestamp": "2026-05-20T18:01:35.000000Z",
+       "method": "0x316d9786",
+       "from": "0x2cee0F981Cf42E55fcf37bcad7e750032eD85686",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 25138109,
+       "category": null
+      },
+      {
+       "hash": "0x9fa17a270156fc1f0b05d20bc92b2f47f74ec62298c04aa3d24e05eabeea8c6e",
+       "timestamp": "2026-05-20T18:00:59.000000Z",
+       "method": "0x316d9786",
+       "from": "0x2cee0F981Cf42E55fcf37bcad7e750032eD85686",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 25138106,
+       "category": null
+      },
+      {
+       "hash": "0x07c03c9dc7ec65467f55f5636d99af3afba4971b2f7c8215015f93f7b7adf2bc",
+       "timestamp": "2026-05-20T18:00:35.000000Z",
+       "method": "0x316d9786",
+       "from": "0x2cee0F981Cf42E55fcf37bcad7e750032eD85686",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 25138104,
+       "category": null
+      },
+      {
+       "hash": "0xc0cd5a9aba4388495c6d947476fad95b5787e4c4b8e03fb91c57e2751b46e311",
+       "timestamp": "2026-05-20T18:00:23.000000Z",
+       "method": "0x316d9786",
+       "from": "0x2cee0F981Cf42E55fcf37bcad7e750032eD85686",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 25138103,
+       "category": null
+      },
+      {
+       "hash": "0x0738bb05be39cfa7890c5be6833ba141b3ac13ad1ddeb146f368df825b070265",
+       "timestamp": "2026-05-20T17:59:47.000000Z",
+       "method": "0x316d9786",
+       "from": "0x2cee0F981Cf42E55fcf37bcad7e750032eD85686",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 25138100,
+       "category": null
+      },
+      {
+       "hash": "0xdd83b61d44e5e9bc186dae1307b09cfe9f2138c427dc33da29669ddec5c78c78",
+       "timestamp": "2026-05-20T17:59:35.000000Z",
+       "method": "0x316d9786",
+       "from": "0x2cee0F981Cf42E55fcf37bcad7e750032eD85686",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 25138099,
+       "category": null
+      },
+      {
+       "hash": "0xa701ca9d792c7317dfd7ab25b3aff69d4a359918112493ebee5c4c2a119b8921",
+       "timestamp": "2026-05-20T17:59:23.000000Z",
+       "method": "0x316d9786",
+       "from": "0x2cee0F981Cf42E55fcf37bcad7e750032eD85686",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 25138098,
+       "category": null
+      },
+      {
+       "hash": "0x12c1fcf454e9e7ed34790bb43d071a47dd5ca257e6743938b21db9f1b37e361b",
+       "timestamp": "2026-05-20T17:58:47.000000Z",
+       "method": "0x316d9786",
+       "from": "0x2cee0F981Cf42E55fcf37bcad7e750032eD85686",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 25138095,
+       "category": null
+      },
+      {
+       "hash": "0x1afc27c58395c305cb6ddfe11cc39225854fbbb38b07a207f6ebb3dcd84077fb",
+       "timestamp": "2026-05-20T17:58:11.000000Z",
+       "method": "0x316d9786",
+       "from": "0x2cee0F981Cf42E55fcf37bcad7e750032eD85686",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 25138092,
+       "category": null
+      },
+      {
+       "hash": "0xb64b2c15beff5eb2a6bf75459fde90af011a5d70481cef2833ddda9bda751105",
+       "timestamp": "2026-05-20T17:57:47.000000Z",
+       "method": "0x316d9786",
+       "from": "0x2cee0F981Cf42E55fcf37bcad7e750032eD85686",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 25138090,
+       "category": null
+      },
+      {
+       "hash": "0xf721f808ea8afc463368a8550040b83e6c63490fa85ca0227ad1b0fe1ffcd244",
+       "timestamp": "2026-05-20T17:57:23.000000Z",
+       "method": "0x316d9786",
+       "from": "0x2cee0F981Cf42E55fcf37bcad7e750032eD85686",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 25138088,
+       "category": null
+      }
+     ],
+     "events": {
+      "OwnershipTransferred(address,address)": {
+       "n": 1,
+       "first": "2026-05-20",
+       "last": "2026-05-20",
+       "last_tx": "0xe2e36789d0c3002a03d2b620d59a4249b2739f306be19131ec107e7d56dd6daf",
+       "list": [
+        {
+         "date": "2026-05-20",
+         "tx": "0xe2e36789d0c3002a03d2b620d59a4249b2739f306be19131ec107e7d56dd6daf",
+         "topics": [
+          "0000000000000000000000000000000000000000",
+          "2cee0f981cf42e55fcf37bcad7e750032ed85686"
+         ],
+         "data": "0x"
+        }
+       ]
+      }
+     },
+     "decoded": [],
+     "ownership_transfers": [
+      {
+       "date": "2026-05-20",
+       "from": "0x0000000000000000000000000000000000000000",
+       "to": "0x2cee0f981cf42e55fcf37bcad7e750032ed85686",
+       "tx": "0xe2e36789d0c3002a03d2b620d59a4249b2739f306be19131ec107e7d56dd6daf"
+      }
+     ],
+     "incomplete": false
+    },
+    "unverified_selector_hits": [],
+    "tokenuri_path": "none"
+   }
+  },
+  {
+   "address": "0xf9c2b6baa2a864f9a7a90c09f791c1b6641c4153",
+   "via": "traitSeeder()",
+   "in_tokenuri_path": false,
+   "via_setter": true,
+   "analysis": {
+    "address": "0xf9c2b6baa2a864f9a7a90c09f791c1b6641c4153",
+    "verified": true,
+    "contract_name": "OCCV2TraitSeederV5",
+    "proxy": {
+     "kind": null
+    },
+    "owner": null,
+    "admin_fn": null,
+    "uups": false,
+    "lock_views": {},
+    "lock_flags_true": {},
+    "lock_functions": [],
+    "class_direct": "immutable",
+    "class_reason": "no uri/renderer/upgrade function in ABI and not a proxy",
+    "live_mutators": [],
+    "mutators": [],
+    "history": {},
+    "unverified_selector_hits": [],
+    "tokenuri_path": "none"
+   }
+  }
+ ],
+ "meta": {
+  "address": "0x55ad98c4d8ece5e1f40c04e0e1d87c014584dc76",
+  "name": "OnChain Citizens V2",
+  "w5_claim_strength": null,
+  "w5_claim_text": null,
+  "w5_source_type": null,
+  "w5_source_url": null,
+  "holders_count": 2502.0,
+  "in_w5": false,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": "onchain-renderer",
+  "census_media_class": "data-uri",
+  "census_liveness": "alive",
+  "in_census_onchain": true,
+  "standard": "ERC-721",
+  "creator": "0x2cee0f981cf42e55fcf37bcad7e750032ed85686",
+  "deploy_block": 25138080.0
+ },
+ "class_deps_all": "eoa-mutable",
+ "class_deps": "eoa-mutable",
+ "class_final": "eoa-mutable",
+ "pointer_power": "eoa"
+}

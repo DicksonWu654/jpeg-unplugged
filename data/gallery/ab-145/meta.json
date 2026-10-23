@@ -1,0 +1,35 @@
+{
+ "collection": "Art Blocks #145 Beatboxes (Zeblocks)",
+ "slug": "ab-145",
+ "contract": "0xa7d8d9ef8D8Ce8992Df33D8b8CF4Aebabd5bD270",
+ "token_id": 145000000,
+ "project_id": 145,
+ "project_name": "Beatboxes",
+ "artist": "Zeblocks",
+ "script_type": "a-frame@1.2.0",
+ "script_count": 1,
+ "script_bytes": 29709,
+ "token_hash": "0x25dc892f3a764729ef3808a6f3331144bf69174760592ea3d62375df0d90eba6",
+ "chain_method": "Art Blocks: project script on core contract + libraries from on-chain Dependency Registry, assembled by on-chain Generator getTokenHtml()",
+ "chain_call": "GenArt721Generator.getTokenHtml(0xa7d8d9ef8D8Ce8992Df33D8b8CF4Aebabd5bD270, 145000000) @ 0x953D288708bB771F969FCfD9BA0819eF506Ac718",
+ "medium": "html+js (a-frame@1.2.0)",
+ "fields": {},
+ "rpc": {
+  "public_rpc_ok": true,
+  "rpc": "public",
+  "gas_estimate": 3145119
+ },
+ "generator_embeds_project_script": true,
+ "note": "tokenURI of the core contract is an HTTPS URL on the Art Blocks API; B uses the on-chain Generator output instead (the honest on-chain test)",
+ "artwork_file": "artwork.html",
+ "doc_type": "text/html; charset=utf-8",
+ "artwork_bytes": 36541,
+ "artwork_sha256": "fcc3b20a702da6ae507b583845de67965d71caddb67d0312d578877454ea21bc",
+ "declared": {
+  "load": [
+   "https://cdnjs.cloudflare.com/ajax/libs/aframe/1.2.0/aframe.min.js"
+  ],
+  "literals": []
+ },
+ "built_at": "2026-10-21T20:15:44Z"
+}

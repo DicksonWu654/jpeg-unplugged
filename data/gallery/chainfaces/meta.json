@@ -1,0 +1,27 @@
+{
+ "collection": "ChainFaces",
+ "slug": "chainfaces",
+ "contract": "0x91047Abf3cAb8da5A9515c8750Ab33B4f1560a7A",
+ "token_id": 1,
+ "chain_method": "contract getFace()/colors: text face generated on chain",
+ "chain_call": "getFace(1), getBackgroundColor(1), getTextColor(1)",
+ "medium": "ascii text (rendered in a <pre> viewer)",
+ "fields": {
+  "image": null,
+  "tokenURI_scheme": "https"
+ },
+ "tokenURI_value": "https://chainfacesrinkeby.azurewebsites.net/api/HttpTrigger?id=1",
+ "rpc": {
+  "rpc": "public"
+ },
+ "note": "tokenURI() points at an HTTP API (chainfacesrinkeby.azurewebsites.net) although getFace() draws on chain",
+ "artwork_file": "artwork.html",
+ "doc_type": "text/html; charset=utf-8",
+ "artwork_bytes": 175,
+ "artwork_sha256": "beef0f27486064c3b537d806046f7aed4bd2029ca2be7b6c6f81ad303a26b92b",
+ "declared": {
+  "load": [],
+  "literals": []
+ },
+ "built_at": "2026-10-21T20:06:46Z"
+}

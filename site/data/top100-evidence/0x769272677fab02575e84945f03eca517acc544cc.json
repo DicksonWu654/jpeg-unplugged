@@ -1,0 +1,1483 @@
+{
+  "collection": {
+    "rank": 23,
+    "source_rank": 23,
+    "name": "The Captainz",
+    "contract": "0x769272677fab02575e84945f03eca517acc544cc",
+    "contracts": [
+      "0x769272677fab02575e84945f03eca517acc544cc",
+      "0x977c677bd1d3a40e70b5e402a6d040dc055d6333"
+    ],
+    "slug": "captainz",
+    "volume_usd": 236772023.21,
+    "volume_source": "CryptoSlam all-time Ethereum owner-to-owner sales, wash-filtered USD",
+    "source_url": "https://web-api.cryptoslam.io/v1/sales/rank-by-volume?timeRange=all&orderBy=rank&sortDirection=asc&offset=0&limit=100&blockchainId=0&hideInscriptions=false",
+    "ranking_evidence": "data/raw/top100-api/cryptoslam-ranking-0.json",
+    "identity_evidence": "data/raw/top100-api/cryptoslam-info-captainz.json",
+    "token_count": 9999,
+    "all_time_volume": 236772023.21,
+    "volume_currency": "USD",
+    "kind": "art-avatar",
+    "metadata_location": "mixed(http,ipfs)",
+    "metadata_classes": [
+      "http",
+      "ipfs"
+    ],
+    "media_location": "http",
+    "primary_image_location": "http",
+    "media_classes": [
+      "http"
+    ],
+    "liveness": "degraded",
+    "liveness_exact": "degraded",
+    "all_declared_media_liveness": "degraded",
+    "metadata_failed": true,
+    "n_alive": 3,
+    "n_dead": 3,
+    "n_unknown": 0,
+    "n_degraded": 0,
+    "key_domain_or_gateway": "captainz-api.memeland.com; captainz-cards.memeland.com",
+    "hosts": [
+      "captainz-api.memeland.com",
+      "captainz-cards.memeland.com"
+    ],
+    "hardcoded_gateways": [],
+    "http_origin_dependency": true,
+    "uses_ipfs": true,
+    "uses_arweave": false,
+    "fully_onchain_all_declared_media": false,
+    "metadata_and_primary_image_onchain": false,
+    "mutability_class": "eoa-mutable",
+    "single_key_mutable": true,
+    "single_key_repointable": true,
+    "base_uri_or_renderer": "0x769272677fab02575e84945f03eca517acc544cc.baseTokenURI() = https://captainz-api.memeland.com/metadata/",
+    "control": [
+      {
+        "contract": "0x769272677fab02575e84945f03eca517acc544cc",
+        "class": "eoa-mutable",
+        "pointer_power": "eoa",
+        "reason": "live setters (eoa): changeAdmin,setBaseURI,setTokenURIOverride,setTokenURISuffix,upgradeTo,upgradeToAndCall",
+        "owner": {
+          "addr": "0x1c593c369136264abfb908b4b20e74c9a5949417",
+          "code_raw": "data/raw/rpc-mutability/0x1c593c369136264abfb908b4b20e74c9a5949417_holdercode.json",
+          "type": "eoa",
+          "bs_name": null,
+          "ens": "memeland.eth",
+          "bs_impl_names": [],
+          "bs_tags": [],
+          "is_contract": false,
+          "creator": null,
+          "is_verified": false,
+          "bs_reputation": "ok"
+        },
+        "proxy": {
+          "kind": "eip1967",
+          "impl": "0x96e1e58f7f70ba35367b2690682496fc2dbb3753",
+          "impl_verified": true,
+          "impl_name": "Captainz",
+          "admin": {
+            "addr": "0x72115c0c35fb0cf9dad52fcc6f9f55b6b61cdeb1",
+            "code_raw": "data/raw/rpc-mutability/0x72115c0c35fb0cf9dad52fcc6f9f55b6b61cdeb1_holdercode.json",
+            "code_len": 1640,
+            "probe_raw": "data/raw/rpc-mutability/0x72115c0c35fb0cf9dad52fcc6f9f55b6b61cdeb1_holderprobe.json",
+            "type": "contract-owned",
+            "owner": "0x105e8dd64d13b960ff082b1fb342e357f9168cd3",
+            "controller": {
+              "addr": "0x105e8dd64d13b960ff082b1fb342e357f9168cd3",
+              "code_raw": "data/raw/rpc-mutability/0x105e8dd64d13b960ff082b1fb342e357f9168cd3_holdercode.json",
+              "type": "eoa",
+              "bs_name": null,
+              "ens": null,
+              "bs_impl_names": [],
+              "bs_tags": [],
+              "is_contract": false,
+              "creator": null,
+              "is_verified": false,
+              "bs_reputation": "ok"
+            },
+            "bs_name": "ProxyAdmin",
+            "ens": null,
+            "bs_impl_names": [],
+            "bs_tags": [],
+            "is_contract": true,
+            "creator": "0x105E8dd64D13b960fF082B1fB342e357F9168Cd3",
+            "is_verified": true,
+            "bs_reputation": "ok"
+          }
+        },
+        "live_mutators": [
+          {
+            "name": "setBaseURI",
+            "sig": "setBaseURI(string)",
+            "category": "uri",
+            "power": "eoa",
+            "holders": [
+              {
+                "addr": "0x1c593c369136264abfb908b4b20e74c9a5949417",
+                "type": "eoa",
+                "bs_name": null,
+                "ens": "memeland.eth",
+                "desc": "eoa",
+                "simple": "eoa"
+              }
+            ],
+            "effective": "yes",
+            "reason": null
+          },
+          {
+            "name": "setTokenURIOverride",
+            "sig": "setTokenURIOverride(string)",
+            "category": "uri",
+            "power": "eoa",
+            "holders": [
+              {
+                "addr": "0x1c593c369136264abfb908b4b20e74c9a5949417",
+                "type": "eoa",
+                "bs_name": null,
+                "ens": "memeland.eth",
+                "desc": "eoa",
+                "simple": "eoa"
+              }
+            ],
+            "effective": "yes",
+            "reason": null
+          },
+          {
+            "name": "setTokenURISuffix",
+            "sig": "setTokenURISuffix(string)",
+            "category": "uri",
+            "power": "eoa",
+            "holders": [
+              {
+                "addr": "0x1c593c369136264abfb908b4b20e74c9a5949417",
+                "type": "eoa",
+                "bs_name": null,
+                "ens": "memeland.eth",
+                "desc": "eoa",
+                "simple": "eoa"
+              }
+            ],
+            "effective": "yes",
+            "reason": null
+          },
+          {
+            "name": "changeAdmin",
+            "sig": "changeAdmin(address)",
+            "category": "upgrade",
+            "power": "eoa",
+            "holders": [
+              {
+                "addr": "0x72115c0c35fb0cf9dad52fcc6f9f55b6b61cdeb1",
+                "type": "contract-owned",
+                "bs_name": "ProxyAdmin",
+                "ens": null,
+                "desc": "ProxyAdmin->eoa",
+                "simple": "eoa"
+              }
+            ],
+            "effective": null,
+            "reason": null
+          },
+          {
+            "name": "upgradeTo",
+            "sig": "upgradeTo(address)",
+            "category": "upgrade",
+            "power": "eoa",
+            "holders": [
+              {
+                "addr": "0x72115c0c35fb0cf9dad52fcc6f9f55b6b61cdeb1",
+                "type": "contract-owned",
+                "bs_name": "ProxyAdmin",
+                "ens": null,
+                "desc": "ProxyAdmin->eoa",
+                "simple": "eoa"
+              }
+            ],
+            "effective": null,
+            "reason": null
+          },
+          {
+            "name": "upgradeToAndCall",
+            "sig": "upgradeToAndCall(address,bytes)",
+            "category": "upgrade",
+            "power": "eoa",
+            "holders": [
+              {
+                "addr": "0x72115c0c35fb0cf9dad52fcc6f9f55b6b61cdeb1",
+                "type": "contract-owned",
+                "bs_name": "ProxyAdmin",
+                "ens": null,
+                "desc": "ProxyAdmin->eoa",
+                "simple": "eoa"
+              }
+            ],
+            "effective": null,
+            "reason": null
+          }
+        ],
+        "lock_flags": {},
+        "dependencies": [
+          {
+            "contract": "0x3cc6cdda760b79bafa08df41ecfa224f810dceb6",
+            "via": "constant DEFAULT_SUBSCRIPTION",
+            "class": "immutable",
+            "in_tokenuri_path": false
+          }
+        ],
+        "pointer_getters": [
+          {
+            "getter": "baseTokenURI()",
+            "type": "string",
+            "ok": true,
+            "value": "https://captainz-api.memeland.com/metadata/",
+            "error": null
+          },
+          {
+            "getter": "tokenURIOverride()",
+            "type": "string",
+            "ok": true,
+            "value": "",
+            "error": null
+          },
+          {
+            "getter": "tokenURISuffix()",
+            "type": "string",
+            "ok": true,
+            "value": ".json",
+            "error": null
+          }
+        ],
+        "analyzed_at": "2026-10-23T02:56:43Z",
+        "history_incomplete": false,
+        "evidence": "data/raw/top100-mutability/0x769272677fab02575e84945f03eca517acc544cc.json"
+      },
+      {
+        "contract": "0x977c677bd1d3a40e70b5e402a6d040dc055d6333",
+        "class": "unknown",
+        "pointer_power": null,
+        "reason": "unverified source; selector hits: owner()",
+        "owner": {
+          "addr": "0x54f9ecbf6aa464b928fce8734974efc0c6713ab9",
+          "code_raw": "data/raw/rpc-mutability/0x54f9ecbf6aa464b928fce8734974efc0c6713ab9_holdercode.json",
+          "type": "eoa",
+          "bs_name": null,
+          "ens": null,
+          "bs_impl_names": [],
+          "bs_tags": [],
+          "is_contract": false,
+          "creator": null,
+          "is_verified": false,
+          "bs_reputation": "ok"
+        },
+        "proxy": {
+          "kind": null
+        },
+        "live_mutators": [],
+        "lock_flags": {},
+        "dependencies": [],
+        "pointer_getters": [],
+        "analyzed_at": "2026-10-23T02:56:43Z",
+        "history_incomplete": false,
+        "evidence": "data/raw/top100-mutability/0x977c677bd1d3a40e70b5e402a6d040dc055d6333.json"
+      }
+    ],
+    "samples": 6,
+    "distinct_token_ids": 6,
+    "sample_note": null,
+    "source_contracts_without_sampleable_nfts": [],
+    "ownership_scope_gaps": [],
+    "refreshed_at": "2026-10-23T03:06:39Z",
+    "opensea_rank": 22,
+    "ranking_scope_disagreement": false,
+    "metadata_adapter": false,
+    "evidence": [
+      "data/raw/top100-census/0x769272677fab02575e84945f03eca517acc544cc/result.json.gz",
+      "data/raw/top100-census/0x977c677bd1d3a40e70b5e402a6d040dc055d6333/result.json.gz"
+    ],
+    "delivery_note": null
+  },
+  "samples": [
+    {
+      "contract": "0x769272677fab02575e84945f03eca517acc544cc",
+      "token_id": "0",
+      "sample_unit": 1,
+      "how_found": "reused census: ownerOf-probe(0..15)/grid-min [low]",
+      "metadata_location": "http",
+      "metadata_uri": "https://captainz-api.memeland.com/metadata/0.json",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "captainz-api.memeland.com",
+          "url": "https://captainz-api.memeland.com/metadata/0.json",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 3,
+          "final_url": "https://captainz-api.memeland.com/metadata/0.json",
+          "content_type": "application/json; charset=utf-8",
+          "size": 382,
+          "content_length": null,
+          "sha256": "309af54671398c71a74218832f0bbd7c6283e09230fbbdb8de0b3af5a472d865",
+          "t": "2026-10-23T02:54:21Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "http",
+          "host": "captainz-cards.memeland.com",
+          "gateway": null,
+          "uri": "https://captainz-cards.memeland.com/human/00000000000000000000000000000000.png",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "captainz-cards.memeland.com",
+              "url": "https://captainz-cards.memeland.com/human/00000000000000000000000000000000.png",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 6,
+              "final_url": "https://captainz-cards.memeland.com/human/00000000000000000000000000000000.png",
+              "content_type": "image/png",
+              "size": 65536,
+              "content_length": 14561972,
+              "sha256": "44a0c62ba4e496508569860de1d2decafa38ac3fcd10f8a668bca07738af09c9",
+              "t": "2026-10-23T02:54:22Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        },
+        {
+          "field": "animation_url",
+          "location": "http",
+          "host": "captainz-cards.memeland.com",
+          "gateway": null,
+          "uri": "https://captainz-cards.memeland.com/human/00000000000000000000000000000000.mp4",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "captainz-cards.memeland.com",
+              "url": "https://captainz-cards.memeland.com/human/00000000000000000000000000000000.mp4",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 9,
+              "final_url": "https://captainz-cards.memeland.com/human/00000000000000000000000000000000.mp4",
+              "content_type": "video/mp4",
+              "size": 65536,
+              "content_length": 6430115,
+              "sha256": "43325023b92ac1cb4235e7b3d8285618097ce7a99070bd416ee3d97b57c06be3",
+              "t": "2026-10-23T02:54:22Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "http",
+        "anim_class": "http",
+        "image_verdict": "alive",
+        "anim_verdict": "alive",
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "http",
+          "animation_url": "http"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "alive",
+        "anim_verdict_exact": "alive",
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000000000",
+          "endpoint": "https://eth.drpc.org",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x769272677fab02575e84945f03eca517acc544cc/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0x769272677fab02575e84945f03eca517acc544cc",
+      "token_id": "4999",
+      "sample_unit": 1,
+      "how_found": "reused census: ownerOf-probe(4999..+15) [mid]",
+      "metadata_location": "http",
+      "metadata_uri": "https://captainz-api.memeland.com/metadata/4999.json",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "captainz-api.memeland.com",
+          "url": "https://captainz-api.memeland.com/metadata/4999.json",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 5,
+          "final_url": "https://captainz-api.memeland.com/metadata/4999.json",
+          "content_type": "application/json; charset=utf-8",
+          "size": 423,
+          "content_length": null,
+          "sha256": "5ae5d38721231bc82e100b0c1d629d25c6eb0b91607c1b98c02da461e0184a46",
+          "t": "2026-10-23T02:54:21Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "http",
+          "host": "captainz-cards.memeland.com",
+          "gateway": null,
+          "uri": "https://captainz-cards.memeland.com/5c1300b5511f164b-2k.png",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "captainz-cards.memeland.com",
+              "url": "https://captainz-cards.memeland.com/5c1300b5511f164b-2k.png",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 8,
+              "final_url": "https://captainz-cards.memeland.com/5c1300b5511f164b-2k.png",
+              "content_type": "image/png",
+              "size": 65536,
+              "content_length": 1408739,
+              "sha256": "61d16db96850f4c5701ac53dc8e0b581033ee79d5ebcb1f4bca5066bad39d8e3",
+              "t": "2026-10-23T02:54:22Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        },
+        {
+          "field": "animation_url",
+          "location": "http",
+          "host": "captainz-cards.memeland.com",
+          "gateway": null,
+          "uri": "https://captainz-cards.memeland.com/5c1300b5511f164b-2k.mp4",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "captainz-cards.memeland.com",
+              "url": "https://captainz-cards.memeland.com/5c1300b5511f164b-2k.mp4",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 10,
+              "final_url": "https://captainz-cards.memeland.com/5c1300b5511f164b-2k.mp4",
+              "content_type": "video/mp4",
+              "size": 65536,
+              "content_length": 1398456,
+              "sha256": "f638ed32f98dd88e0e98a4090acbc219ec821e1b54b1db439a445ed1e27dc14d",
+              "t": "2026-10-23T02:54:23Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "http",
+        "anim_class": "http",
+        "image_verdict": "alive",
+        "anim_verdict": "alive",
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "http",
+          "animation_url": "http"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "alive",
+        "anim_verdict_exact": "alive",
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000001387",
+          "endpoint": "https://eth.drpc.org",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x769272677fab02575e84945f03eca517acc544cc/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0x769272677fab02575e84945f03eca517acc544cc",
+      "token_id": "9998",
+      "sample_unit": 1,
+      "how_found": "reused census: ownerOf-probe(totalSupply=9999) [recent]",
+      "metadata_location": "http",
+      "metadata_uri": "https://captainz-api.memeland.com/metadata/9998.json",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "captainz-api.memeland.com",
+          "url": "https://captainz-api.memeland.com/metadata/9998.json",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 7,
+          "final_url": "https://captainz-api.memeland.com/metadata/9998.json",
+          "content_type": "application/json; charset=utf-8",
+          "size": 423,
+          "content_length": null,
+          "sha256": "8394019711662d3b2231693abc3ad4602c1591d11b033e08b9d842fe0700508f",
+          "t": "2026-10-23T02:54:22Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "http",
+          "host": "captainz-cards.memeland.com",
+          "gateway": null,
+          "uri": "https://captainz-cards.memeland.com/aedacd71173cb5b4-2k.png",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "captainz-cards.memeland.com",
+              "url": "https://captainz-cards.memeland.com/aedacd71173cb5b4-2k.png",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 11,
+              "final_url": "https://captainz-cards.memeland.com/aedacd71173cb5b4-2k.png",
+              "content_type": "image/png",
+              "size": 65536,
+              "content_length": 5346577,
+              "sha256": "57274f8fc278cc537d1d298f66eb4e8e611a46039a909d26c0843fb8ff857c37",
+              "t": "2026-10-23T02:54:22Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        },
+        {
+          "field": "animation_url",
+          "location": "http",
+          "host": "captainz-cards.memeland.com",
+          "gateway": null,
+          "uri": "https://captainz-cards.memeland.com/aedacd71173cb5b4-2k.mp4",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "captainz-cards.memeland.com",
+              "url": "https://captainz-cards.memeland.com/aedacd71173cb5b4-2k.mp4",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 12,
+              "final_url": "https://captainz-cards.memeland.com/aedacd71173cb5b4-2k.mp4",
+              "content_type": "video/mp4",
+              "size": 65536,
+              "content_length": 10245252,
+              "sha256": "f7f3f2bc5d2605117df071cfe4b31f97ca031b927bd978e5797de2f3ff015acc",
+              "t": "2026-10-23T02:54:24Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "http",
+        "anim_class": "http",
+        "image_verdict": "alive",
+        "anim_verdict": "alive",
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "http",
+          "animation_url": "http"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "alive",
+        "anim_verdict_exact": "alive",
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd000000000000000000000000000000000000000000000000000000000000270e",
+          "endpoint": "https://eth.drpc.org",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x769272677fab02575e84945f03eca517acc544cc/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0x977c677bd1d3a40e70b5e402a6d040dc055d6333",
+      "token_id": "0",
+      "sample_unit": 1,
+      "how_found": "ownerOf-probe(0..15)/grid-min [low]",
+      "metadata_location": "ipfs",
+      "metadata_uri": "ipfs://bafybeia32dwzibrn3o42gz5dffdzl6uobrzplrtsi2bpbale7wl76hlwc4/0.json",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "magic.decentralized-content.com",
+          "url": "https://magic.decentralized-content.com/ipfs/bafybeia32dwzibrn3o42gz5dffdzl6uobrzplrtsi2bpbale7wl76hlwc4/0.json",
+          "status": null,
+          "error_kind": "timeout",
+          "v": "unknown",
+          "reason": "timeout",
+          "seq": 10,
+          "final_url": "https://magic.decentralized-content.com/ipfs/bafybeia32dwzibrn3o42gz5dffdzl6uobrzplrtsi2bpbale7wl76hlwc4/0.json",
+          "content_type": null,
+          "size": 0,
+          "content_length": null,
+          "sha256": null,
+          "t": "2026-10-23T02:54:29Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        },
+        {
+          "pass": 1,
+          "gateway": "ipfs.blockfrost.dev",
+          "url": "https://ipfs.blockfrost.dev/ipfs/bafybeia32dwzibrn3o42gz5dffdzl6uobrzplrtsi2bpbale7wl76hlwc4/0.json",
+          "status": 504,
+          "error_kind": null,
+          "v": "dead",
+          "reason": "http-5xx",
+          "seq": 13,
+          "final_url": "https://ipfs.blockfrost.dev/ipfs/bafybeia32dwzibrn3o42gz5dffdzl6uobrzplrtsi2bpbale7wl76hlwc4/0.json",
+          "content_type": "text/html",
+          "size": 160,
+          "content_length": 160,
+          "sha256": "c9c89d274726b86306e1c97d80360f820bce86042c34c9bb2487aac4ada6d606",
+          "t": "2026-10-23T02:54:44Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "ipfs.raribleuserdata.com",
+          "url": "https://ipfs.raribleuserdata.com/ipfs/bafybeia32dwzibrn3o42gz5dffdzl6uobrzplrtsi2bpbale7wl76hlwc4/0.json",
+          "status": 404,
+          "error_kind": null,
+          "v": "dead",
+          "reason": "http-4xx",
+          "seq": 16,
+          "final_url": "https://ipfs.raribleuserdata.com/ipfs/bafybeia32dwzibrn3o42gz5dffdzl6uobrzplrtsi2bpbale7wl76hlwc4/0.json",
+          "content_type": "text/plain; charset=utf-8",
+          "size": 0,
+          "content_length": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "t": "2026-10-23T02:58:40Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "ipfs.hypha.coop",
+          "url": "https://ipfs.hypha.coop/ipfs/bafybeia32dwzibrn3o42gz5dffdzl6uobrzplrtsi2bpbale7wl76hlwc4/0.json",
+          "status": null,
+          "error_kind": "timeout",
+          "v": "unknown",
+          "reason": "timeout",
+          "seq": 17,
+          "final_url": "https://ipfs.hypha.coop/ipfs/bafybeia32dwzibrn3o42gz5dffdzl6uobrzplrtsi2bpbale7wl76hlwc4/0.json",
+          "content_type": null,
+          "size": 0,
+          "content_length": null,
+          "sha256": null,
+          "t": "2026-10-23T02:58:42Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "ipfs.4everland.io",
+          "url": "https://ipfs.4everland.io/ipfs/bafybeia32dwzibrn3o42gz5dffdzl6uobrzplrtsi2bpbale7wl76hlwc4/0.json",
+          "status": 504,
+          "error_kind": null,
+          "v": "dead",
+          "reason": "http-5xx",
+          "seq": 18,
+          "final_url": "https://ipfs.4everland.io/ipfs/bafybeia32dwzibrn3o42gz5dffdzl6uobrzplrtsi2bpbale7wl76hlwc4/0.json",
+          "content_type": "application/json; charset=utf-8",
+          "size": 903,
+          "content_length": 903,
+          "sha256": "ac51c321e3a769757302bb6f02020877d606ad529b17edd0993f63980ca3167a",
+          "t": "2026-10-23T02:59:12Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "ipfs.sphn.link",
+          "url": "https://ipfs.sphn.link/ipfs/bafybeia32dwzibrn3o42gz5dffdzl6uobrzplrtsi2bpbale7wl76hlwc4/0.json",
+          "status": 200,
+          "error_kind": null,
+          "v": "dead",
+          "reason": "not-json:html",
+          "seq": 19,
+          "final_url": "https://www.spheron.network/",
+          "content_type": "text/html; charset=utf-8",
+          "size": 228170,
+          "content_length": null,
+          "sha256": "72aa8605b0627913fc42fe2e3d1f7bc6287215b6dbb88275557c0f4551ea12c3",
+          "t": "2026-10-23T02:59:43Z",
+          "reg_domain_dns": null,
+          "redirected": true
+        },
+        {
+          "pass": 2,
+          "gateway": "ipfs.filebase.io",
+          "url": "https://ipfs.filebase.io/ipfs/bafybeia32dwzibrn3o42gz5dffdzl6uobrzplrtsi2bpbale7wl76hlwc4/0.json",
+          "status": 404,
+          "error_kind": null,
+          "v": "dead",
+          "reason": "http-4xx",
+          "seq": 28,
+          "final_url": "https://ipfs.filebase.io/ipfs/bafybeia32dwzibrn3o42gz5dffdzl6uobrzplrtsi2bpbale7wl76hlwc4/0.json",
+          "content_type": "text/plain; charset=utf-8",
+          "size": 0,
+          "content_length": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "t": "2026-10-23T03:05:02Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "ipfs.raribleuserdata.com",
+          "url": "https://ipfs.raribleuserdata.com/ipfs/bafybeia32dwzibrn3o42gz5dffdzl6uobrzplrtsi2bpbale7wl76hlwc4/0.json",
+          "status": 404,
+          "error_kind": null,
+          "v": "dead",
+          "reason": "http-4xx",
+          "seq": 29,
+          "final_url": "https://ipfs.raribleuserdata.com/ipfs/bafybeia32dwzibrn3o42gz5dffdzl6uobrzplrtsi2bpbale7wl76hlwc4/0.json",
+          "content_type": "text/plain; charset=utf-8",
+          "size": 0,
+          "content_length": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "t": "2026-10-23T03:05:02Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "magic.decentralized-content.com",
+          "url": "https://magic.decentralized-content.com/ipfs/bafybeia32dwzibrn3o42gz5dffdzl6uobrzplrtsi2bpbale7wl76hlwc4/0.json",
+          "status": null,
+          "error_kind": "timeout",
+          "v": "unknown",
+          "reason": "timeout",
+          "seq": 30,
+          "final_url": "https://magic.decentralized-content.com/ipfs/bafybeia32dwzibrn3o42gz5dffdzl6uobrzplrtsi2bpbale7wl76hlwc4/0.json",
+          "content_type": null,
+          "size": 0,
+          "content_length": null,
+          "sha256": null,
+          "t": "2026-10-23T03:05:03Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "ipfs.blockfrost.dev",
+          "url": "https://ipfs.blockfrost.dev/ipfs/bafybeia32dwzibrn3o42gz5dffdzl6uobrzplrtsi2bpbale7wl76hlwc4/0.json",
+          "status": 404,
+          "error_kind": null,
+          "v": "dead",
+          "reason": "http-4xx",
+          "seq": 31,
+          "final_url": "https://ipfs.blockfrost.dev/ipfs/bafybeia32dwzibrn3o42gz5dffdzl6uobrzplrtsi2bpbale7wl76hlwc4/0.json",
+          "content_type": "text/plain; charset=utf-8",
+          "size": 181,
+          "content_length": null,
+          "sha256": "87a4878ea42650da709d0de5e744bc3c95954fe97aa23bb7b34a6f4e40ee8735",
+          "t": "2026-10-23T03:05:34Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [],
+      "derived": {
+        "meta_verdict": "dead",
+        "meta_verdict_reason": "gateway-not-found:http-4xx",
+        "image_class": null,
+        "anim_class": null,
+        "image_verdict": null,
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {},
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "dead",
+        "liveness_reason": "gateway-not-found:http-4xx",
+        "liveness_exact": "dead",
+        "liveness_exact_reason": "gateway-not-found:http-4xx",
+        "meta_verdict_exact": "dead",
+        "image_verdict_exact": null,
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "gateway-not-found:http-4xx"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000000000",
+          "endpoint": "https://eth.rpc.blxrbdn.com",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 322,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x977c677bd1d3a40e70b5e402a6d040dc055d6333/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0x977c677bd1d3a40e70b5e402a6d040dc055d6333",
+      "token_id": "1099377410048",
+      "sample_unit": 1,
+      "how_found": "ownerOf-probe(1099377410048..+15) [mid]",
+      "metadata_location": "ipfs",
+      "metadata_uri": "ipfs://bafybeia32dwzibrn3o42gz5dffdzl6uobrzplrtsi2bpbale7wl76hlwc4/1099377410048.json",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "magic.decentralized-content.com",
+          "url": "https://magic.decentralized-content.com/ipfs/bafybeia32dwzibrn3o42gz5dffdzl6uobrzplrtsi2bpbale7wl76hlwc4/1099377410048.json",
+          "status": null,
+          "error_kind": "timeout",
+          "v": "unknown",
+          "reason": "timeout",
+          "seq": 11,
+          "final_url": "https://magic.decentralized-content.com/ipfs/bafybeia32dwzibrn3o42gz5dffdzl6uobrzplrtsi2bpbale7wl76hlwc4/1099377410048.json",
+          "content_type": null,
+          "size": 0,
+          "content_length": null,
+          "sha256": null,
+          "t": "2026-10-23T02:54:29Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        },
+        {
+          "pass": 1,
+          "gateway": "ipfs.blockfrost.dev",
+          "url": "https://ipfs.blockfrost.dev/ipfs/bafybeia32dwzibrn3o42gz5dffdzl6uobrzplrtsi2bpbale7wl76hlwc4/1099377410048.json",
+          "status": 504,
+          "error_kind": null,
+          "v": "dead",
+          "reason": "http-5xx",
+          "seq": 14,
+          "final_url": "https://ipfs.blockfrost.dev/ipfs/bafybeia32dwzibrn3o42gz5dffdzl6uobrzplrtsi2bpbale7wl76hlwc4/1099377410048.json",
+          "content_type": "text/html",
+          "size": 160,
+          "content_length": 160,
+          "sha256": "c9c89d274726b86306e1c97d80360f820bce86042c34c9bb2487aac4ada6d606",
+          "t": "2026-10-23T02:54:45Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "ipfs.raribleuserdata.com",
+          "url": "https://ipfs.raribleuserdata.com/ipfs/bafybeia32dwzibrn3o42gz5dffdzl6uobrzplrtsi2bpbale7wl76hlwc4/1099377410048.json",
+          "status": 404,
+          "error_kind": null,
+          "v": "dead",
+          "reason": "http-4xx",
+          "seq": 20,
+          "final_url": "https://ipfs.raribleuserdata.com/ipfs/bafybeia32dwzibrn3o42gz5dffdzl6uobrzplrtsi2bpbale7wl76hlwc4/1099377410048.json",
+          "content_type": "text/plain; charset=utf-8",
+          "size": 0,
+          "content_length": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "t": "2026-10-23T02:59:43Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "ipfs.hypha.coop",
+          "url": "https://ipfs.hypha.coop/ipfs/bafybeia32dwzibrn3o42gz5dffdzl6uobrzplrtsi2bpbale7wl76hlwc4/1099377410048.json",
+          "status": 400,
+          "error_kind": null,
+          "v": "dead",
+          "reason": "http-4xx",
+          "seq": 21,
+          "final_url": "https://ipfs.hypha.coop/ipfs/bafybeia32dwzibrn3o42gz5dffdzl6uobrzplrtsi2bpbale7wl76hlwc4/1099377410048.json",
+          "content_type": "text/plain; charset=utf-8",
+          "size": 129,
+          "content_length": 129,
+          "sha256": "ebf8e84fce4c156cf29a42d2f78058f8754441bd9b4099ab02e98343abf486f0",
+          "t": "2026-10-23T02:59:43Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "ipfs.4everland.io",
+          "url": "https://ipfs.4everland.io/ipfs/bafybeia32dwzibrn3o42gz5dffdzl6uobrzplrtsi2bpbale7wl76hlwc4/1099377410048.json",
+          "status": 504,
+          "error_kind": null,
+          "v": "dead",
+          "reason": "http-5xx",
+          "seq": 22,
+          "final_url": "https://ipfs.4everland.io/ipfs/bafybeia32dwzibrn3o42gz5dffdzl6uobrzplrtsi2bpbale7wl76hlwc4/1099377410048.json",
+          "content_type": "application/json; charset=utf-8",
+          "size": 903,
+          "content_length": 903,
+          "sha256": "414969fecc3ce94906728922a0db3125424bca322f9eac90507d9653c76d574a",
+          "t": "2026-10-23T03:00:01Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "ipfs.sphn.link",
+          "url": "https://ipfs.sphn.link/ipfs/bafybeia32dwzibrn3o42gz5dffdzl6uobrzplrtsi2bpbale7wl76hlwc4/1099377410048.json",
+          "status": 200,
+          "error_kind": null,
+          "v": "dead",
+          "reason": "not-json:html",
+          "seq": 23,
+          "final_url": "https://www.spheron.network/",
+          "content_type": "text/html; charset=utf-8",
+          "size": 228170,
+          "content_length": null,
+          "sha256": "72aa8605b0627913fc42fe2e3d1f7bc6287215b6dbb88275557c0f4551ea12c3",
+          "t": "2026-10-23T03:00:32Z",
+          "reg_domain_dns": null,
+          "redirected": true
+        },
+        {
+          "pass": 2,
+          "gateway": "ipfs.filebase.io",
+          "url": "https://ipfs.filebase.io/ipfs/bafybeia32dwzibrn3o42gz5dffdzl6uobrzplrtsi2bpbale7wl76hlwc4/1099377410048.json",
+          "status": 404,
+          "error_kind": null,
+          "v": "dead",
+          "reason": "http-4xx",
+          "seq": 32,
+          "final_url": "https://ipfs.filebase.io/ipfs/bafybeia32dwzibrn3o42gz5dffdzl6uobrzplrtsi2bpbale7wl76hlwc4/1099377410048.json",
+          "content_type": "text/plain; charset=utf-8",
+          "size": 0,
+          "content_length": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "t": "2026-10-23T03:05:35Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "ipfs.raribleuserdata.com",
+          "url": "https://ipfs.raribleuserdata.com/ipfs/bafybeia32dwzibrn3o42gz5dffdzl6uobrzplrtsi2bpbale7wl76hlwc4/1099377410048.json",
+          "status": 404,
+          "error_kind": null,
+          "v": "dead",
+          "reason": "http-4xx",
+          "seq": 33,
+          "final_url": "https://ipfs.raribleuserdata.com/ipfs/bafybeia32dwzibrn3o42gz5dffdzl6uobrzplrtsi2bpbale7wl76hlwc4/1099377410048.json",
+          "content_type": "text/plain; charset=utf-8",
+          "size": 0,
+          "content_length": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "t": "2026-10-23T03:05:35Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "magic.decentralized-content.com",
+          "url": "https://magic.decentralized-content.com/ipfs/bafybeia32dwzibrn3o42gz5dffdzl6uobrzplrtsi2bpbale7wl76hlwc4/1099377410048.json",
+          "status": null,
+          "error_kind": "timeout",
+          "v": "unknown",
+          "reason": "timeout",
+          "seq": 34,
+          "final_url": "https://magic.decentralized-content.com/ipfs/bafybeia32dwzibrn3o42gz5dffdzl6uobrzplrtsi2bpbale7wl76hlwc4/1099377410048.json",
+          "content_type": null,
+          "size": 0,
+          "content_length": null,
+          "sha256": null,
+          "t": "2026-10-23T03:05:35Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "ipfs.blockfrost.dev",
+          "url": "https://ipfs.blockfrost.dev/ipfs/bafybeia32dwzibrn3o42gz5dffdzl6uobrzplrtsi2bpbale7wl76hlwc4/1099377410048.json",
+          "status": 404,
+          "error_kind": null,
+          "v": "dead",
+          "reason": "http-4xx",
+          "seq": 35,
+          "final_url": "https://ipfs.blockfrost.dev/ipfs/bafybeia32dwzibrn3o42gz5dffdzl6uobrzplrtsi2bpbale7wl76hlwc4/1099377410048.json",
+          "content_type": "text/plain; charset=utf-8",
+          "size": 205,
+          "content_length": null,
+          "sha256": "15da87bce96ff575b9cba255bc795e553d128ab048aba89c68b5bf67391c8407",
+          "t": "2026-10-23T03:06:06Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [],
+      "derived": {
+        "meta_verdict": "dead",
+        "meta_verdict_reason": "gateway-not-found:http-4xx",
+        "image_class": null,
+        "anim_class": null,
+        "image_verdict": null,
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {},
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "dead",
+        "liveness_reason": "gateway-not-found:http-4xx",
+        "liveness_exact": "dead",
+        "liveness_exact_reason": "gateway-not-found:http-4xx",
+        "meta_verdict_exact": "dead",
+        "image_verdict_exact": null,
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "gateway-not-found:http-4xx"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd000000000000000000000000000000000000000000000000000000fff8000000",
+          "endpoint": "https://eth.rpc.blxrbdn.com",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 322,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x977c677bd1d3a40e70b5e402a6d040dc055d6333/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0x977c677bd1d3a40e70b5e402a6d040dc055d6333",
+      "token_id": "2198754820096",
+      "sample_unit": 1,
+      "how_found": "ownerOf-geometric-probe [recent]",
+      "metadata_location": "ipfs",
+      "metadata_uri": "ipfs://bafybeia32dwzibrn3o42gz5dffdzl6uobrzplrtsi2bpbale7wl76hlwc4/2198754820096.json",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "magic.decentralized-content.com",
+          "url": "https://magic.decentralized-content.com/ipfs/bafybeia32dwzibrn3o42gz5dffdzl6uobrzplrtsi2bpbale7wl76hlwc4/2198754820096.json",
+          "status": null,
+          "error_kind": "timeout",
+          "v": "unknown",
+          "reason": "timeout",
+          "seq": 12,
+          "final_url": "https://magic.decentralized-content.com/ipfs/bafybeia32dwzibrn3o42gz5dffdzl6uobrzplrtsi2bpbale7wl76hlwc4/2198754820096.json",
+          "content_type": null,
+          "size": 0,
+          "content_length": null,
+          "sha256": null,
+          "t": "2026-10-23T02:54:30Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        },
+        {
+          "pass": 1,
+          "gateway": "ipfs.blockfrost.dev",
+          "url": "https://ipfs.blockfrost.dev/ipfs/bafybeia32dwzibrn3o42gz5dffdzl6uobrzplrtsi2bpbale7wl76hlwc4/2198754820096.json",
+          "status": null,
+          "error_kind": "timeout",
+          "v": "unknown",
+          "reason": "timeout",
+          "seq": 15,
+          "final_url": "https://ipfs.blockfrost.dev/ipfs/bafybeia32dwzibrn3o42gz5dffdzl6uobrzplrtsi2bpbale7wl76hlwc4/2198754820096.json",
+          "content_type": null,
+          "size": 0,
+          "content_length": null,
+          "sha256": null,
+          "t": "2026-10-23T02:54:45Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "ipfs.raribleuserdata.com",
+          "url": "https://ipfs.raribleuserdata.com/ipfs/bafybeia32dwzibrn3o42gz5dffdzl6uobrzplrtsi2bpbale7wl76hlwc4/2198754820096.json",
+          "status": 404,
+          "error_kind": null,
+          "v": "dead",
+          "reason": "http-4xx",
+          "seq": 24,
+          "final_url": "https://ipfs.raribleuserdata.com/ipfs/bafybeia32dwzibrn3o42gz5dffdzl6uobrzplrtsi2bpbale7wl76hlwc4/2198754820096.json",
+          "content_type": "text/plain; charset=utf-8",
+          "size": 0,
+          "content_length": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "t": "2026-10-23T03:00:33Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "ipfs.hypha.coop",
+          "url": "https://ipfs.hypha.coop/ipfs/bafybeia32dwzibrn3o42gz5dffdzl6uobrzplrtsi2bpbale7wl76hlwc4/2198754820096.json",
+          "status": null,
+          "error_kind": "timeout",
+          "v": "unknown",
+          "reason": "timeout",
+          "seq": 25,
+          "final_url": "https://ipfs.hypha.coop/ipfs/bafybeia32dwzibrn3o42gz5dffdzl6uobrzplrtsi2bpbale7wl76hlwc4/2198754820096.json",
+          "content_type": null,
+          "size": 0,
+          "content_length": null,
+          "sha256": null,
+          "t": "2026-10-23T03:00:33Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "ipfs.4everland.io",
+          "url": "https://ipfs.4everland.io/ipfs/bafybeia32dwzibrn3o42gz5dffdzl6uobrzplrtsi2bpbale7wl76hlwc4/2198754820096.json",
+          "status": 504,
+          "error_kind": null,
+          "v": "dead",
+          "reason": "http-5xx",
+          "seq": 26,
+          "final_url": "https://ipfs.4everland.io/ipfs/bafybeia32dwzibrn3o42gz5dffdzl6uobrzplrtsi2bpbale7wl76hlwc4/2198754820096.json",
+          "content_type": "application/json; charset=utf-8",
+          "size": 903,
+          "content_length": 903,
+          "sha256": "8c40858ddf333c728137b824c9bc76552ffecf505153b008709a55b8c47aa872",
+          "t": "2026-10-23T03:01:04Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "ipfs.sphn.link",
+          "url": "https://ipfs.sphn.link/ipfs/bafybeia32dwzibrn3o42gz5dffdzl6uobrzplrtsi2bpbale7wl76hlwc4/2198754820096.json",
+          "status": 200,
+          "error_kind": null,
+          "v": "dead",
+          "reason": "not-json:html",
+          "seq": 27,
+          "final_url": "https://www.spheron.network/",
+          "content_type": "text/html; charset=utf-8",
+          "size": 228170,
+          "content_length": null,
+          "sha256": "72aa8605b0627913fc42fe2e3d1f7bc6287215b6dbb88275557c0f4551ea12c3",
+          "t": "2026-10-23T03:01:34Z",
+          "reg_domain_dns": null,
+          "redirected": true
+        },
+        {
+          "pass": 2,
+          "gateway": "ipfs.filebase.io",
+          "url": "https://ipfs.filebase.io/ipfs/bafybeia32dwzibrn3o42gz5dffdzl6uobrzplrtsi2bpbale7wl76hlwc4/2198754820096.json",
+          "status": 404,
+          "error_kind": null,
+          "v": "dead",
+          "reason": "http-4xx",
+          "seq": 36,
+          "final_url": "https://ipfs.filebase.io/ipfs/bafybeia32dwzibrn3o42gz5dffdzl6uobrzplrtsi2bpbale7wl76hlwc4/2198754820096.json",
+          "content_type": "text/plain; charset=utf-8",
+          "size": 0,
+          "content_length": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "t": "2026-10-23T03:06:07Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "ipfs.raribleuserdata.com",
+          "url": "https://ipfs.raribleuserdata.com/ipfs/bafybeia32dwzibrn3o42gz5dffdzl6uobrzplrtsi2bpbale7wl76hlwc4/2198754820096.json",
+          "status": 404,
+          "error_kind": null,
+          "v": "dead",
+          "reason": "http-4xx",
+          "seq": 37,
+          "final_url": "https://ipfs.raribleuserdata.com/ipfs/bafybeia32dwzibrn3o42gz5dffdzl6uobrzplrtsi2bpbale7wl76hlwc4/2198754820096.json",
+          "content_type": "text/plain; charset=utf-8",
+          "size": 0,
+          "content_length": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "t": "2026-10-23T03:06:07Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "magic.decentralized-content.com",
+          "url": "https://magic.decentralized-content.com/ipfs/bafybeia32dwzibrn3o42gz5dffdzl6uobrzplrtsi2bpbale7wl76hlwc4/2198754820096.json",
+          "status": null,
+          "error_kind": "timeout",
+          "v": "unknown",
+          "reason": "timeout",
+          "seq": 38,
+          "final_url": "https://magic.decentralized-content.com/ipfs/bafybeia32dwzibrn3o42gz5dffdzl6uobrzplrtsi2bpbale7wl76hlwc4/2198754820096.json",
+          "content_type": null,
+          "size": 0,
+          "content_length": null,
+          "sha256": null,
+          "t": "2026-10-23T03:06:07Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "ipfs.blockfrost.dev",
+          "url": "https://ipfs.blockfrost.dev/ipfs/bafybeia32dwzibrn3o42gz5dffdzl6uobrzplrtsi2bpbale7wl76hlwc4/2198754820096.json",
+          "status": 404,
+          "error_kind": null,
+          "v": "dead",
+          "reason": "http-4xx",
+          "seq": 39,
+          "final_url": "https://ipfs.blockfrost.dev/ipfs/bafybeia32dwzibrn3o42gz5dffdzl6uobrzplrtsi2bpbale7wl76hlwc4/2198754820096.json",
+          "content_type": "text/plain; charset=utf-8",
+          "size": 205,
+          "content_length": null,
+          "sha256": "0abd8725856589cc7304e97434f073445855bf12c85ce6d5c9cf298fb0e49d79",
+          "t": "2026-10-23T03:06:38Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [],
+      "derived": {
+        "meta_verdict": "dead",
+        "meta_verdict_reason": "gateway-not-found:http-4xx",
+        "image_class": null,
+        "anim_class": null,
+        "image_verdict": null,
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {},
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "dead",
+        "liveness_reason": "gateway-not-found:http-4xx",
+        "liveness_exact": "dead",
+        "liveness_exact_reason": "gateway-not-found:http-4xx",
+        "meta_verdict_exact": "dead",
+        "image_verdict_exact": null,
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "gateway-not-found:http-4xx"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd000000000000000000000000000000000000000000000000000001fff0000000",
+          "endpoint": "https://eth.rpc.blxrbdn.com",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 322,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x977c677bd1d3a40e70b5e402a6d040dc055d6333/evidence.jsonl.gz"
+    }
+  ],
+  "saved_packet_index": [
+    {
+      "path": "data/raw/top100-api/opensea-contract-0x769272677fab02575e84945f03eca517acc544cc-attempt1-1792724285634678862.body",
+      "sha256": "e7435fbb1c5ad5f3795889b78db8f659dff6d30c6b8b48d4369204d05b353f74",
+      "retrieved_at": "2026-10-23T02:58:05Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0x769272677fab02575e84945f03eca517acc544cc",
+      "method": "GET",
+      "status": 401,
+      "error": null,
+      "bytes": 70,
+      "truncated": false
+    },
+    {
+      "path": "data/raw/top100-api/opensea-contract-0x769272677fab02575e84945f03eca517acc544cc-attempt1-1792724726498819639.body",
+      "sha256": "e7435fbb1c5ad5f3795889b78db8f659dff6d30c6b8b48d4369204d05b353f74",
+      "retrieved_at": "2026-10-23T03:05:26Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0x769272677fab02575e84945f03eca517acc544cc",
+      "method": "GET",
+      "status": 401,
+      "error": null,
+      "bytes": 70,
+      "truncated": false
+    },
+    {
+      "path": "data/raw/top100-census/0x769272677fab02575e84945f03eca517acc544cc/bodies.zip",
+      "sha256": "096c21937734a0a2e589e523ba9dcab0ae87e7c1d531584fe815c0e1be366f8e",
+      "bytes": 15963
+    },
+    {
+      "path": "data/raw/top100-census/0x769272677fab02575e84945f03eca517acc544cc/evidence.jsonl.gz",
+      "sha256": "260f6b65859ee5474cd0a69a17fd2999de17e37b6ab9cd4991562bff3bd89055",
+      "bytes": 1384
+    },
+    {
+      "path": "data/raw/top100-census/0x769272677fab02575e84945f03eca517acc544cc/result.json.gz",
+      "sha256": "3e19f72fb96ec9bd8cf5400fd64996c06448e8127a20e28119968590881be3d2",
+      "bytes": 2047
+    },
+    {
+      "path": "data/raw/top100-census/0x977c677bd1d3a40e70b5e402a6d040dc055d6333/bodies.zip",
+      "sha256": "e33faafb7a5c88388970f9e7381ed55f3a5d34e3f7195f08423dcbefc12f6565",
+      "bytes": 120632
+    },
+    {
+      "path": "data/raw/top100-census/0x977c677bd1d3a40e70b5e402a6d040dc055d6333/evidence.jsonl.gz",
+      "sha256": "9ecf3ebe79a5f0e626f297130bbeed6a701ce49ccb2ffd2dc5e1c48981cea575",
+      "bytes": 3514
+    },
+    {
+      "path": "data/raw/top100-census/0x977c677bd1d3a40e70b5e402a6d040dc055d6333/result.json.gz",
+      "sha256": "01206f8ce5b0459ecb46443c839bc644202bb10a058546c5b16e8f6c94848029",
+      "bytes": 2367
+    },
+    {
+      "path": "data/raw/top100-mutability/0x769272677fab02575e84945f03eca517acc544cc.json",
+      "sha256": "832ac59a8eb2525f1e63e900c7919a42c7955cd71153e01d8ca8e7d9c5aa2df2",
+      "bytes": 34179
+    },
+    {
+      "path": "data/raw/top100-mutability/0x977c677bd1d3a40e70b5e402a6d040dc055d6333.json",
+      "sha256": "939aaced107ea7d7b950b3612c4817a3cb77bf0b0e7c2fba3918720af56e800c",
+      "bytes": 1747
+    },
+    {
+      "path": "data/raw/top100-pointers/0x769272677fab02575e84945f03eca517acc544cc/bodies.zip",
+      "sha256": "9359718a5f5ff1c690db82e283aae88554f90f25c118b024208e7a86d78b6fa4",
+      "bytes": 627
+    },
+    {
+      "path": "data/raw/top100-pointers/0x769272677fab02575e84945f03eca517acc544cc/evidence.jsonl.gz",
+      "sha256": "3408dc5b5688dd3728a8cb12d77e070ee590f529d51919c5e0cfdf64a9148946",
+      "bytes": 531
+    },
+    {
+      "path": "data/raw/top100-pointers/0x769272677fab02575e84945f03eca517acc544cc/result.json",
+      "sha256": "4a7f5945a4d223e7da1603772cfe2e443e7ed18d4261c82b77edb67292f0c0fe",
+      "bytes": 585
+    },
+    {
+      "path": "data/raw/top100-pointers/0x977c677bd1d3a40e70b5e402a6d040dc055d6333/result.json",
+      "sha256": "a9e6d115b491992184556ad15d8cdae2f53825ff4e9dcdf8d6d0f86ac7ccd35f",
+      "bytes": 203
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x769272677fab02575e84945f03eca517acc544cc/bodies.zip",
+      "sha256": "7d5648d44625c02454e60d8ec5166871d45c50e3de7a9f0740be3a9d9b0e9c8c",
+      "bytes": 630
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x769272677fab02575e84945f03eca517acc544cc/evidence.jsonl.gz",
+      "sha256": "7254fadbae72c821dcd86c0d3a9cdcdc3e8c03c9d5e03e7cc8639f417258997a",
+      "bytes": 680
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x769272677fab02575e84945f03eca517acc544cc/result.json",
+      "sha256": "82d17bb6f0b8293b5c4dfd64f6c51f0e1c3a0cffaa403ed007d8ae99e5319da7",
+      "bytes": 299
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x977c677bd1d3a40e70b5e402a6d040dc055d6333/result.json",
+      "sha256": "af3d16a6ecb627d4b5d5f2919897ea80612c8f3769ad76972b088dddb588fbdb",
+      "bytes": 137
+    }
+  ],
+  "interpretation": "Liveness describes sampled metadata and primary-image delivery, not permanent loss of the artwork."
+}

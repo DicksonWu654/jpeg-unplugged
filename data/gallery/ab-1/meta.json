@@ -1,0 +1,35 @@
+{
+ "collection": "Art Blocks #1 Genesis (DCA)",
+ "slug": "ab-1",
+ "contract": "0x059EDD72Cd353dF5106D2B9cC5ab83a52287aC3a",
+ "token_id": 1000000,
+ "project_id": 1,
+ "project_name": "Genesis",
+ "artist": "DCA",
+ "script_type": "processing@1.1.9",
+ "script_count": 2,
+ "script_bytes": 14769,
+ "token_hash": null,
+ "chain_method": "Art Blocks: project script on core contract + libraries from on-chain Dependency Registry, assembled by on-chain Generator getTokenHtml()",
+ "chain_call": "GenArt721Generator.getTokenHtml(0x059EDD72Cd353dF5106D2B9cC5ab83a52287aC3a, 1000000) @ 0x953D288708bB771F969FCfD9BA0819eF506Ac718",
+ "medium": "html+js (processing@1.1.9)",
+ "fields": {},
+ "rpc": {
+  "public_rpc_ok": true,
+  "rpc": "public",
+  "gas_estimate": 1805278
+ },
+ "generator_embeds_project_script": true,
+ "note": "tokenURI of the core contract is an HTTPS URL on the Art Blocks API; B uses the on-chain Generator output instead (the honest on-chain test)",
+ "artwork_file": "artwork.html",
+ "doc_type": "text/html; charset=utf-8",
+ "artwork_bytes": 21687,
+ "artwork_sha256": "61b7d3251d085d512cb37afde63d966c939b3bfe6b304978869944dca6470642",
+ "declared": {
+  "load": [
+   "https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.4.6/processing.min.js"
+  ],
+  "literals": []
+ },
+ "built_at": "2026-10-21T20:08:51Z"
+}

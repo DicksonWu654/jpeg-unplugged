@@ -1,0 +1,251 @@
+{
+ "address": "0x8690b7bbd11c02d803d15a3b288b8beba95f4674",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:13Z",
+ "code_raw": "data/raw/rpc-mutability/0x8690b7bbd11c02d803d15a3b288b8beba95f4674_code.json",
+ "code_len": 5926,
+ "slots": {
+  "slot0": "0x0000000000000000000000000000000000000000000000000000000000002711"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0x8690b7bbd11c02d803d15a3b288b8beba95f4674_slots.json",
+ "verified": true,
+ "contract_name": "Tessera",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [
+   {
+    "hash": "0x14b0be8cdd64c6398a841ec33e32bedae00f0dd0edbf35ea5c6e53c5791d7058",
+    "timestamp": "2026-06-15T08:16:47.000000Z",
+    "method": "setRenderer",
+    "from": "0xD62CA8DddE2CafB29EC1d5da5C25650cd7fBeA87",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25321647,
+    "category": "renderer"
+   }
+  ],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 1,
+    "first": "2026-06-15",
+    "last": "2026-06-15",
+    "last_tx": "0x8afc42c6556c9ed9d6c864368805ca7fcae832a10dfa8db3e6342545090e5e0c",
+    "list": [
+     {
+      "date": "2026-06-15",
+      "tx": "0x8afc42c6556c9ed9d6c864368805ca7fcae832a10dfa8db3e6342545090e5e0c",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "d62ca8ddde2cafb29ec1d5da5c25650cd7fbea87"
+      ],
+      "data": "0x"
+     }
+    ]
+   }
+  },
+  "decoded": [
+   {
+    "hash": "0x14b0be8cdd64c6398a841ec33e32bedae00f0dd0edbf35ea5c6e53c5791d7058",
+    "timestamp": "2026-06-15T08:16:47.000000Z",
+    "method": "setRenderer",
+    "category": "renderer",
+    "from": "0xD62CA8DddE2CafB29EC1d5da5C25650cd7fBeA87",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0xc413092aaaa8e206a6818a67a18d312134ee5548"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   }
+  ],
+  "ownership_transfers": [
+   {
+    "date": "2026-06-15",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0xd62ca8ddde2cafb29ec1d5da5c25650cd7fbea87",
+    "tx": "0x8afc42c6556c9ed9d6c864368805ca7fcae832a10dfa8db3e6342545090e5e0c"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0x8690b7bbd11c02d803d15a3b288b8beba95f4674_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0xd62ca8ddde2cafb29ec1d5da5c25650cd7fbea87",
+  "code_raw": "data/raw/rpc-mutability/0xd62ca8ddde2cafb29ec1d5da5c25650cd7fbea87_holdercode.json",
+  "type": "eoa",
+  "bs_name": null,
+  "ens": null,
+  "bs_impl_names": [],
+  "bs_tags": [],
+  "is_contract": false,
+  "creator": null,
+  "is_verified": false,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "override",
+ "lock_functions": [],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [
+  {
+   "name": "setRenderer",
+   "sig": "setRenderer(address)",
+   "selector": "0x56d3163d",
+   "category": "renderer",
+   "inputs": [
+    "address"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "renderer = ITesseraRenderer(r);",
+   "writes": [
+    "renderer"
+   ],
+   "effective": "yes",
+   "power": "eoa",
+   "holder_addrs": [
+    "0xd62ca8ddde2cafb29ec1d5da5c25650cd7fbea87"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xd62ca8ddde2cafb29ec1d5da5c25650cd7fbea87",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "setContractURI",
+   "sig": "setContractURI(string)",
+   "selector": "0x938e3d7b",
+   "category": "contracturi",
+   "inputs": [
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "_contractURI = uri;",
+   "writes": [
+    "_contractURI"
+   ],
+   "power": "eoa",
+   "holder_addrs": [
+    "0xd62ca8ddde2cafb29ec1d5da5c25650cd7fbea87"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xd62ca8ddde2cafb29ec1d5da5c25650cd7fbea87",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  }
+ ],
+ "class_direct": "eoa-mutable",
+ "class_reason": "live setters (eoa): setRenderer",
+ "live_mutators": [
+  "setRenderer"
+ ],
+ "dependencies": [
+  {
+   "address": "0xc413092aaaa8e206a6818a67a18d312134ee5548",
+   "via": "renderer()",
+   "in_tokenuri_path": true,
+   "via_setter": true,
+   "analysis": {
+    "address": "0xc413092aaaa8e206a6818a67a18d312134ee5548",
+    "verified": true,
+    "contract_name": "TesseraRenderer",
+    "proxy": {
+     "kind": null
+    },
+    "owner": null,
+    "admin_fn": null,
+    "uups": false,
+    "lock_views": {},
+    "lock_flags_true": {},
+    "lock_functions": [],
+    "class_direct": "immutable",
+    "class_reason": "no uri/renderer/upgrade function in ABI and not a proxy",
+    "live_mutators": [],
+    "mutators": [],
+    "history": {},
+    "unverified_selector_hits": [],
+    "tokenuri_path": "override"
+   }
+  }
+ ],
+ "meta": {
+  "address": "0x8690b7bbd11c02d803d15a3b288b8beba95f4674",
+  "name": "Tessera",
+  "w5_claim_strength": null,
+  "w5_claim_text": null,
+  "w5_source_type": null,
+  "w5_source_url": null,
+  "holders_count": 4079.0,
+  "in_w5": false,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": "onchain-renderer",
+  "census_media_class": "data-uri",
+  "census_liveness": "alive",
+  "in_census_onchain": true,
+  "standard": "ERC-721",
+  "creator": "0xd62ca8ddde2cafb29ec1d5da5c25650cd7fbea87",
+  "deploy_block": 25321641.0
+ },
+ "class_deps_all": "immutable",
+ "class_deps": "immutable",
+ "class_final": "eoa-mutable",
+ "pointer_power": "eoa"
+}

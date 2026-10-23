@@ -1,0 +1,35 @@
+{
+ "collection": "Art Blocks #161 spawn (john provencher)",
+ "slug": "ab-161",
+ "contract": "0xa7d8d9ef8D8Ce8992Df33D8b8CF4Aebabd5bD270",
+ "token_id": 161000000,
+ "project_id": 161,
+ "project_name": "spawn",
+ "artist": "john provencher",
+ "script_type": "paperjs@0.12.15",
+ "script_count": 1,
+ "script_bytes": 2826,
+ "token_hash": "0x2ecf5282d7ab89d9dc9b752514ddb51f0c6260d546c962cc172a1c15d8e1a027",
+ "chain_method": "Art Blocks: project script on core contract + libraries from on-chain Dependency Registry, assembled by on-chain Generator getTokenHtml()",
+ "chain_call": "GenArt721Generator.getTokenHtml(0xa7d8d9ef8D8Ce8992Df33D8b8CF4Aebabd5bD270, 161000000) @ 0x953D288708bB771F969FCfD9BA0819eF506Ac718",
+ "medium": "html+js (paperjs@0.12.15)",
+ "fields": {},
+ "rpc": {
+  "public_rpc_ok": true,
+  "rpc": "public",
+  "gas_estimate": 697131
+ },
+ "generator_embeds_project_script": true,
+ "note": "tokenURI of the core contract is an HTTPS URL on the Art Blocks API; B uses the on-chain Generator output instead (the honest on-chain test)",
+ "artwork_file": "artwork.html",
+ "doc_type": "text/html; charset=utf-8",
+ "artwork_bytes": 9666,
+ "artwork_sha256": "76462386b97e8151a4d43374d328bd9a70b7d767ee05dfbcc0524a3cc85059ac",
+ "declared": {
+  "load": [
+   "https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.15/paper-full.min.js"
+  ],
+  "literals": []
+ },
+ "built_at": "2026-10-21T20:17:44Z"
+}

@@ -1,0 +1,23 @@
+[
+ {
+  "t": 0.26,
+  "url": "https://onchain.invalid/",
+  "type": "document",
+  "method": "GET",
+  "frame": "about:blank",
+  "action": "served-from-chain",
+  "status": 200,
+  "bytes": null
+ },
+ {
+  "t": 0.395,
+  "url": "https://unpkg.com/twemoji@14.0.2/dist/twemoji.min.js",
+  "type": "script",
+  "method": "GET",
+  "frame": "https://onchain.invalid/",
+  "action": "archive",
+  "sha256": "706224d8dc5440460f8ed91c1a6aad25d732af6e0ee6fb31151b157ab485babb",
+  "status": 200,
+  "bytes": 17437
+ }
+]

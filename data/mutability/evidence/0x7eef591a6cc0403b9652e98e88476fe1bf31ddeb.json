@@ -1,0 +1,824 @@
+{
+ "address": "0x7eef591a6cc0403b9652e98e88476fe1bf31ddeb",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:11Z",
+ "code_raw": "data/raw/rpc-mutability/0x7eef591a6cc0403b9652e98e88476fe1bf31ddeb_code.json",
+ "code_len": 15233,
+ "slots": {},
+ "slots_raw": "data/raw/rpc-mutability/0x7eef591a6cc0403b9652e98e88476fe1bf31ddeb_slots.json",
+ "verified": true,
+ "contract_name": "CitizenNFT",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [
+   {
+    "hash": "0xebc7aef0611273d43d95fb1a8f7bad41136863d8b34bbb9f785b7d02be766664",
+    "timestamp": "2021-12-06T23:47:26.000000Z",
+    "method": "transferOwnership",
+    "from": "0x05A56DB5f286a099b12ac78d9713e55Ad42Eebb4",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13755244,
+    "category": "ownership"
+   },
+   {
+    "hash": "0x6ddb3ae699b477000e00b58d3d9dcb8b8b006cb9e6748117fd3b67e0490ef9ba",
+    "timestamp": "2021-11-08T00:07:58.000000Z",
+    "method": "transferOwnership",
+    "from": "0x33eD481F752f05A292346C71E16aFbB0fE548656",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13572523,
+    "category": "ownership"
+   },
+   {
+    "hash": "0xedcb768f7e4a275b8555c30f6a5f9141e19ea1ead7b451c0089142b6dc03a087",
+    "timestamp": "2021-11-07T16:17:07.000000Z",
+    "method": "transferOwnership",
+    "from": "0x05A56DB5f286a099b12ac78d9713e55Ad42Eebb4",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13570380,
+    "category": "ownership"
+   }
+  ],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 4,
+    "first": "2021-11-01",
+    "last": "2021-12-06",
+    "last_tx": "0xebc7aef0611273d43d95fb1a8f7bad41136863d8b34bbb9f785b7d02be766664",
+    "list": [
+     {
+      "date": "2021-11-01",
+      "tx": "0x7eb55d0f6ffb7cb7b1d638c136a3f166b27a20c8061653e6b75b298eb6dd9b89",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "05a56db5f286a099b12ac78d9713e55ad42eebb4"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2021-11-07",
+      "tx": "0xedcb768f7e4a275b8555c30f6a5f9141e19ea1ead7b451c0089142b6dc03a087",
+      "topics": [
+       "05a56db5f286a099b12ac78d9713e55ad42eebb4",
+       "33ed481f752f05a292346c71e16afbb0fe548656"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2021-11-08",
+      "tx": "0x6ddb3ae699b477000e00b58d3d9dcb8b8b006cb9e6748117fd3b67e0490ef9ba",
+      "topics": [
+       "33ed481f752f05a292346c71e16afbb0fe548656",
+       "05a56db5f286a099b12ac78d9713e55ad42eebb4"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2021-12-06",
+      "tx": "0xebc7aef0611273d43d95fb1a8f7bad41136863d8b34bbb9f785b7d02be766664",
+      "topics": [
+       "05a56db5f286a099b12ac78d9713e55ad42eebb4",
+       "60e7343205c9c88788a22c40030d35f9370d302d"
+      ],
+      "data": "0x"
+     }
+    ]
+   },
+   "URI(string,uint256)": {
+    "n": 0
+   }
+  },
+  "decoded": [
+   {
+    "hash": "0xedcb768f7e4a275b8555c30f6a5f9141e19ea1ead7b451c0089142b6dc03a087",
+    "timestamp": "2021-11-07T16:17:07.000000Z",
+    "method": "transferOwnership",
+    "category": "ownership",
+    "from": "0x05A56DB5f286a099b12ac78d9713e55Ad42Eebb4",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0x33ed481f752f05a292346c71e16afbb0fe548656"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0x6ddb3ae699b477000e00b58d3d9dcb8b8b006cb9e6748117fd3b67e0490ef9ba",
+    "timestamp": "2021-11-08T00:07:58.000000Z",
+    "method": "transferOwnership",
+    "category": "ownership",
+    "from": "0x33eD481F752f05A292346C71E16aFbB0fE548656",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0x05a56db5f286a099b12ac78d9713e55ad42eebb4"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0xebc7aef0611273d43d95fb1a8f7bad41136863d8b34bbb9f785b7d02be766664",
+    "timestamp": "2021-12-06T23:47:26.000000Z",
+    "method": "transferOwnership",
+    "category": "ownership",
+    "from": "0x05A56DB5f286a099b12ac78d9713e55Ad42Eebb4",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0x60e7343205c9c88788a22c40030d35f9370d302d"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   }
+  ],
+  "ownership_transfers": [
+   {
+    "date": "2021-11-01",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0x05a56db5f286a099b12ac78d9713e55ad42eebb4",
+    "tx": "0x7eb55d0f6ffb7cb7b1d638c136a3f166b27a20c8061653e6b75b298eb6dd9b89"
+   },
+   {
+    "date": "2021-11-07",
+    "from": "0x05a56db5f286a099b12ac78d9713e55ad42eebb4",
+    "to": "0x33ed481f752f05a292346c71e16afbb0fe548656",
+    "tx": "0xedcb768f7e4a275b8555c30f6a5f9141e19ea1ead7b451c0089142b6dc03a087"
+   },
+   {
+    "date": "2021-11-08",
+    "from": "0x33ed481f752f05a292346c71e16afbb0fe548656",
+    "to": "0x05a56db5f286a099b12ac78d9713e55ad42eebb4",
+    "tx": "0x6ddb3ae699b477000e00b58d3d9dcb8b8b006cb9e6748117fd3b67e0490ef9ba"
+   },
+   {
+    "date": "2021-12-06",
+    "from": "0x05a56db5f286a099b12ac78d9713e55ad42eebb4",
+    "to": "0x60e7343205c9c88788a22c40030d35f9370d302d",
+    "tx": "0xebc7aef0611273d43d95fb1a8f7bad41136863d8b34bbb9f785b7d02be766664"
+   }
+  ],
+  "incomplete": false,
+  "safe_calls": {
+   "0x60e7343205c9c88788a22c40030d35f9370d302d": {
+    "count": 18,
+    "calls": [
+     {
+      "date": "2022-09-14",
+      "method": "safeTransferFrom",
+      "category": null,
+      "params": [
+       {
+        "name": "from",
+        "type": "address",
+        "value": "0x60e7343205C9C88788a22C40030d35f9370d302D"
+       },
+       {
+        "name": "to",
+        "type": "address",
+        "value": "0x196Bc77E860334e4d40f46D7ED6f59dC14b61B70"
+       },
+       {
+        "name": "id",
+        "type": "uint256",
+        "value": "42"
+       }
+      ],
+      "tx": "0xbe2b4cf12527e3c0acee4d496b94a5a355897812aeba7b702ef7931b974fb827",
+      "success": true,
+      "safe": "0x60e7343205c9c88788a22c40030d35f9370d302d",
+      "value_kinds": [
+       "address",
+       "address"
+      ]
+     },
+     {
+      "date": "2022-09-10",
+      "method": "safeTransferFrom",
+      "category": null,
+      "params": [
+       {
+        "name": "from",
+        "type": "address",
+        "value": "0x60e7343205C9C88788a22C40030d35f9370d302D"
+       },
+       {
+        "name": "to",
+        "type": "address",
+        "value": "0x5b807f0274FA7F4B56DCd0d8F24294A92b1716a1"
+       },
+       {
+        "name": "id",
+        "type": "uint256",
+        "value": "42"
+       }
+      ],
+      "tx": "0xcb90d8d50a3222653f1e3e38e8cbfacdf8d3ba6b30ab911615b9efbfe0774277",
+      "success": true,
+      "safe": "0x60e7343205c9c88788a22c40030d35f9370d302d",
+      "value_kinds": [
+       "address",
+       "address"
+      ]
+     },
+     {
+      "date": "2022-08-18",
+      "method": "safeTransferFrom",
+      "category": null,
+      "params": [
+       {
+        "name": "from",
+        "type": "address",
+        "value": "0x60e7343205C9C88788a22C40030d35f9370d302D"
+       },
+       {
+        "name": "to",
+        "type": "address",
+        "value": "0xA8cDF0EDe057e29690F50d1E64C89abe73B93855"
+       },
+       {
+        "name": "id",
+        "type": "uint256",
+        "value": "42"
+       }
+      ],
+      "tx": "0x207711c8c0f006dce0c5e7f139d89fdaf19f7d49d2693ddab027895155a887ac",
+      "success": true,
+      "safe": "0x60e7343205c9c88788a22c40030d35f9370d302d",
+      "value_kinds": [
+       "address",
+       "address"
+      ]
+     },
+     {
+      "date": "2022-06-21",
+      "method": "safeTransferFrom",
+      "category": null,
+      "params": [
+       {
+        "name": "from",
+        "type": "address",
+        "value": "0x60e7343205C9C88788a22C40030d35f9370d302D"
+       },
+       {
+        "name": "to",
+        "type": "address",
+        "value": "0xDfEd06193F1C54ac5A9807E0D46A1181aD6BBaF8"
+       },
+       {
+        "name": "id",
+        "type": "uint256",
+        "value": "69"
+       }
+      ],
+      "tx": "0x1c6ca75de3606355829a4ece9affef3545a40893c750fba7f9d7a022a280f51f",
+      "success": true,
+      "safe": "0x60e7343205c9c88788a22c40030d35f9370d302d",
+      "value_kinds": [
+       "address",
+       "address"
+      ]
+     },
+     {
+      "date": "2022-06-08",
+      "method": "setApprovalForAll",
+      "category": null,
+      "params": [
+       {
+        "name": "operator",
+        "type": "address",
+        "value": "0x8Bfac9EF3d73cE08C7CEC339C0fE3B2e57814c1E"
+       },
+       {
+        "name": "approved",
+        "type": "bool",
+        "value": "True"
+       }
+      ],
+      "tx": "0x37fb4cc09c91abfd0321e3f11063d87fb6c388b74bbb1fc2d7c73a7b7e7345ad",
+      "success": true,
+      "safe": "0x60e7343205c9c88788a22c40030d35f9370d302d",
+      "value_kinds": [
+       "address"
+      ]
+     },
+     {
+      "date": "2022-06-08",
+      "method": "safeTransferFrom",
+      "category": null,
+      "params": [
+       {
+        "name": "from",
+        "type": "address",
+        "value": "0x60e7343205C9C88788a22C40030d35f9370d302D"
+       },
+       {
+        "name": "to",
+        "type": "address",
+        "value": "0xC09D3402515676B81a2F768C365146ea3faa5605"
+       },
+       {
+        "name": "id",
+        "type": "uint256",
+        "value": "69"
+       }
+      ],
+      "tx": "0x863e14fccf3d99d5625bdafa3f4c5aa8807352098e6e9530d138c42e7e96efbf",
+      "success": true,
+      "safe": "0x60e7343205c9c88788a22c40030d35f9370d302d",
+      "value_kinds": [
+       "address",
+       "address"
+      ]
+     },
+     {
+      "date": "2022-05-14",
+      "method": "safeTransferFrom",
+      "category": null,
+      "params": [
+       {
+        "name": "from",
+        "type": "address",
+        "value": "0x60e7343205C9C88788a22C40030d35f9370d302D"
+       },
+       {
+        "name": "to",
+        "type": "address",
+        "value": "0x98416a54043D277Dea1725Fbba56e77b3FB64743"
+       },
+       {
+        "name": "id",
+        "type": "uint256",
+        "value": "42"
+       }
+      ],
+      "tx": "0x98c7ec2beea1d8216dee75bbdcf24ed2c5fff2c01d89d9c71368306e4a9be922",
+      "success": true,
+      "safe": "0x60e7343205c9c88788a22c40030d35f9370d302d",
+      "value_kinds": [
+       "address",
+       "address"
+      ]
+     },
+     {
+      "date": "2022-05-11",
+      "method": "safeTransferFrom",
+      "category": null,
+      "params": [
+       {
+        "name": "from",
+        "type": "address",
+        "value": "0x60e7343205C9C88788a22C40030d35f9370d302D"
+       },
+       {
+        "name": "to",
+        "type": "address",
+        "value": "0x57559246958078503FBc24D8E8D5b419d6CAb24C"
+       },
+       {
+        "name": "id",
+        "type": "uint256",
+        "value": "69"
+       }
+      ],
+      "tx": "0x5e127916b0586615731371ac3a157bc2d4e4b58a443f9e78f403359f6f9b9486",
+      "success": true,
+      "safe": "0x60e7343205c9c88788a22c40030d35f9370d302d",
+      "value_kinds": [
+       "address",
+       "address"
+      ]
+     },
+     {
+      "date": "2022-04-23",
+      "method": "safeTransferFrom",
+      "category": null,
+      "params": [
+       {
+        "name": "from",
+        "type": "address",
+        "value": "0x60e7343205C9C88788a22C40030d35f9370d302D"
+       },
+       {
+        "name": "to",
+        "type": "address",
+        "value": "0x98416a54043D277Dea1725Fbba56e77b3FB64743"
+       },
+       {
+        "name": "id",
+        "type": "uint256",
+        "value": "42"
+       }
+      ],
+      "tx": "0xb2999add1b7d69b04a7b55c6aa6ed75a9619abdf2c904ce750ab4508f263ca8a",
+      "success": true,
+      "safe": "0x60e7343205c9c88788a22c40030d35f9370d302d",
+      "value_kinds": [
+       "address",
+       "address"
+      ]
+     },
+     {
+      "date": "2022-04-17",
+      "method": "safeTransferFrom",
+      "category": null,
+      "params": [
+       {
+        "name": "from",
+        "type": "address",
+        "value": "0x60e7343205C9C88788a22C40030d35f9370d302D"
+       },
+       {
+        "name": "to",
+        "type": "address",
+        "value": "0x8486EA4C42c36B83924E1550d9803DcD1b82527E"
+       },
+       {
+        "name": "id",
+        "type": "uint256",
+        "value": "69"
+       }
+      ],
+      "tx": "0xb2033280a51be411eb222bed2505984530b9b031bcf7e0d8ef59bfb273f6cd90",
+      "success": true,
+      "safe": "0x60e7343205c9c88788a22c40030d35f9370d302d",
+      "value_kinds": [
+       "address",
+       "address"
+      ]
+     },
+     {
+      "date": "2022-04-17",
+      "method": "safeTransferFrom",
+      "category": null,
+      "params": [
+       {
+        "name": "from",
+        "type": "address",
+        "value": "0x60e7343205C9C88788a22C40030d35f9370d302D"
+       },
+       {
+        "name": "to",
+        "type": "address",
+        "value": "0xf51c7e2C8f72DCdF40c6272729996976AEFaFAEB"
+       },
+       {
+        "name": "id",
+        "type": "uint256",
+        "value": "42"
+       }
+      ],
+      "tx": "0x5d670b3b845015851f5036d943475dc969592aa7a40528c6a346f9633734a117",
+      "success": true,
+      "safe": "0x60e7343205c9c88788a22c40030d35f9370d302d",
+      "value_kinds": [
+       "address",
+       "address"
+      ]
+     },
+     {
+      "date": "2022-03-23",
+      "method": "safeTransferFrom",
+      "category": null,
+      "params": [
+       {
+        "name": "from",
+        "type": "address",
+        "value": "0x60e7343205C9C88788a22C40030d35f9370d302D"
+       },
+       {
+        "name": "to",
+        "type": "address",
+        "value": "0x180efb3E67f9Ac37c95E3bBA2FcA41B594Cba562"
+       },
+       {
+        "name": "id",
+        "type": "uint256",
+        "value": "42"
+       }
+      ],
+      "tx": "0xeabfa0a216743e12546361d7f7baf3696495e0b02a634020b290734d1d84954d",
+      "success": true,
+      "safe": "0x60e7343205c9c88788a22c40030d35f9370d302d",
+      "value_kinds": [
+       "address",
+       "address"
+      ]
+     },
+     {
+      "date": "2022-03-16",
+      "method": "safeTransferFrom",
+      "category": null,
+      "params": [
+       {
+        "name": "from",
+        "type": "address",
+        "value": "0x60e7343205C9C88788a22C40030d35f9370d302D"
+       },
+       {
+        "name": "to",
+        "type": "address",
+        "value": "0x8B6ec2Cf7E3bE432f25ae7A587c2903ec595D859"
+       },
+       {
+        "name": "id",
+        "type": "uint256",
+        "value": "69"
+       }
+      ],
+      "tx": "0x3f76a385b08658eef7ed528d94778ec4dabf55ac576fea244f1785a51410b32c",
+      "success": true,
+      "safe": "0x60e7343205c9c88788a22c40030d35f9370d302d",
+      "value_kinds": [
+       "address",
+       "address"
+      ]
+     },
+     {
+      "date": "2022-02-22",
+      "method": "safeTransferFrom",
+      "category": null,
+      "params": [
+       {
+        "name": "from",
+        "type": "address",
+        "value": "0x60e7343205C9C88788a22C40030d35f9370d302D"
+       },
+       {
+        "name": "to",
+        "type": "address",
+        "value": "0x7A2eF71816ebd7502f8E1a5eeC6c476fA5483098"
+       },
+       {
+        "name": "id",
+        "type": "uint256",
+        "value": "42"
+       }
+      ],
+      "tx": "0x84a7bd024d2d1cb1f06630bf3f9407cc6037681a5b8e6b40e0ae5d18d703ef84",
+      "success": true,
+      "safe": "0x60e7343205c9c88788a22c40030d35f9370d302d",
+      "value_kinds": [
+       "address",
+       "address"
+      ]
+     },
+     {
+      "date": "2022-01-27",
+      "method": "safeTransferFrom",
+      "category": null,
+      "params": [
+       {
+        "name": "from",
+        "type": "address",
+        "value": "0x60e7343205C9C88788a22C40030d35f9370d302D"
+       },
+       {
+        "name": "to",
+        "type": "address",
+        "value": "0x094a9009Fe93A85658E4b49604fD8177620F8Cd8"
+       },
+       {
+        "name": "id",
+        "type": "uint256",
+        "value": "69"
+       }
+      ],
+      "tx": "0xf7bf8fc4deb966a28f44c2c3aea63345ec18548b935278fe0b93ac6db7a64e94",
+      "success": true,
+      "safe": "0x60e7343205c9c88788a22c40030d35f9370d302d",
+      "value_kinds": [
+       "address",
+       "address"
+      ]
+     },
+     {
+      "date": "2022-01-27",
+      "method": "safeTransferFrom",
+      "category": null,
+      "params": [
+       {
+        "name": "from",
+        "type": "address",
+        "value": "0x60e7343205C9C88788a22C40030d35f9370d302D"
+       },
+       {
+        "name": "to",
+        "type": "address",
+        "value": "0x282173335ae1F328b34Eb9Acadc052E59E70A89f"
+       },
+       {
+        "name": "id",
+        "type": "uint256",
+        "value": "69"
+       }
+      ],
+      "tx": "0x3d5946272c65d83386276d02493465ad60ec50a29794dd0e3657029c9987835d",
+      "success": true,
+      "safe": "0x60e7343205c9c88788a22c40030d35f9370d302d",
+      "value_kinds": [
+       "address",
+       "address"
+      ]
+     },
+     {
+      "date": "2022-01-02",
+      "method": "safeTransferFrom",
+      "category": null,
+      "params": [
+       {
+        "name": "from",
+        "type": "address",
+        "value": "0x60e7343205C9C88788a22C40030d35f9370d302D"
+       },
+       {
+        "name": "to",
+        "type": "address",
+        "value": "0x5Ce6b83FdA27C3027FFDF3e8b97c0Eb2f57bfd6E"
+       },
+       {
+        "name": "id",
+        "type": "uint256",
+        "value": "42"
+       }
+      ],
+      "tx": "0xda144a000edb3dcc338e35e39d31b89fb57dae02a2ab4d4c54fb9499b92b990a",
+      "success": true,
+      "safe": "0x60e7343205c9c88788a22c40030d35f9370d302d",
+      "value_kinds": [
+       "address",
+       "address"
+      ]
+     },
+     {
+      "date": "2021-12-31",
+      "method": "safeTransferFrom",
+      "category": null,
+      "params": [
+       {
+        "name": "from",
+        "type": "address",
+        "value": "0x60e7343205C9C88788a22C40030d35f9370d302D"
+       },
+       {
+        "name": "to",
+        "type": "address",
+        "value": "0x51869683791F9950B19145fDC0be0feDF743dd78"
+       },
+       {
+        "name": "id",
+        "type": "uint256",
+        "value": "69"
+       }
+      ],
+      "tx": "0xb07f48fc50f4cf30a4cc7ee8146dc1e68883398502bfe25903820e76db619b3d",
+      "success": true,
+      "safe": "0x60e7343205c9c88788a22c40030d35f9370d302d",
+      "value_kinds": [
+       "address",
+       "address"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0x7eef591a6cc0403b9652e98e88476fe1bf31ddeb_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0x60e7343205c9c88788a22c40030d35f9370d302d",
+  "code_raw": "data/raw/rpc-mutability/0x60e7343205c9c88788a22c40030d35f9370d302d_holdercode.json",
+  "code_len": 170,
+  "probe_raw": "data/raw/rpc-mutability/0x60e7343205c9c88788a22c40030d35f9370d302d_holderprobe.json",
+  "type": "safe",
+  "threshold": 5,
+  "n_owners": 9,
+  "owners": [
+   "0x83b909bcf4b938f1e876350a4d20ec23a9eb505e",
+   "0x89f04f5c012eda374e38a7012aeb3cb43c90a52f",
+   "0xb17cc2ef62d526081692fa274686c8fc571eb1ab",
+   "0xcd5384ea2e0e35d072bc81673c7eb06e1b500d74",
+   "0xf46902313f7cbcac6a3154f214e88d0085d062de",
+   "0x267a3195ea57ad38e65993dbcb9fbebf8995621d",
+   "0xed2b0d2a2d55f57a65e11be0926133b50e72af5a",
+   "0x98416a54043d277dea1725fbba56e77b3fb64743",
+   "0x5b807f0274fa7f4b56dcd0d8f24294a92b1716a1"
+  ],
+  "version": "1.3.0",
+  "bs_name": "GnosisSafeProxy",
+  "ens": null,
+  "bs_impl_names": [
+   "GnosisSafe"
+  ],
+  "bs_tags": [],
+  "is_contract": true,
+  "creator": "0x76E2cFc1F5Fa8F6a5b3fC4c8F4788F0116861F9B",
+  "is_verified": true,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "override",
+ "lock_functions": [],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [
+  {
+   "name": "changeURIs",
+   "sig": "changeURIs(string[],uint256[])",
+   "selector": "0x74b005d6",
+   "category": "uri",
+   "inputs": [
+    "string[]",
+    "uint256[]"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "for (uint256 i = 0; i < _tokenURIs.length; i++) {\n            tokenURIs[_citizenNFTIds[i]] = _tokenURIs[i];\n        }",
+   "writes": [],
+   "effective": "unknown",
+   "power": "multisig",
+   "holder_addrs": [
+    "0x60e7343205c9c88788a22c40030d35f9370d302d"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x60e7343205c9c88788a22c40030d35f9370d302d",
+     "type": "safe",
+     "threshold": 5,
+     "n_owners": 9,
+     "bs_name": "GnosisSafeProxy",
+     "ens": null,
+     "desc": "safe 5/9",
+     "simple": "multisig"
+    }
+   ]
+  }
+ ],
+ "class_direct": "multisig-mutable",
+ "class_reason": "live setters (multisig): changeURIs",
+ "live_mutators": [
+  "changeURIs"
+ ],
+ "dependencies": [],
+ "meta": {
+  "address": "0x7eef591a6cc0403b9652e98e88476fe1bf31ddeb",
+  "name": null,
+  "w5_claim_strength": null,
+  "w5_claim_text": null,
+  "w5_source_type": null,
+  "w5_source_url": null,
+  "holders_count": 4815.0,
+  "in_w5": false,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": "onchain-renderer",
+  "census_media_class": "ipfs",
+  "census_liveness": "alive",
+  "in_census_onchain": true,
+  "standard": "ERC-1155",
+  "creator": "0x05a56db5f286a099b12ac78d9713e55ad42eebb4",
+  "deploy_block": 13533149.0
+ },
+ "class_deps_all": "none",
+ "class_deps": "none",
+ "class_final": "multisig-mutable",
+ "pointer_power": "multisig"
+}

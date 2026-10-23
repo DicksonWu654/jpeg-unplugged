@@ -1,0 +1,1613 @@
+{
+ "address": "0x9c8ff314c9bc7f6e59a9d9225fb22946427edc03",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:31Z",
+ "code_raw": "data/raw/rpc-mutability/0x9c8ff314c9bc7f6e59a9d9225fb22946427edc03_code.json",
+ "code_len": 17520,
+ "slots": {
+  "slot0": "0x000000000000000000000000b1a32fc9f9d8b2cf86c068cae13108809547ef71"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0x9c8ff314c9bc7f6e59a9d9225fb22946427edc03_slots.json",
+ "verified": true,
+ "contract_name": "NounsToken",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [
+   {
+    "hash": "0x59e96bf8293419e24bd893849b6e7efb7ebb0c90cf50ecd418b8b8971fbbdf12",
+    "timestamp": "2021-08-08T16:59:43.000000Z",
+    "method": "transferOwnership",
+    "from": "0xFD16F84E1F9Bb5ec33B52D0133d61f7D20699658",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 12985697,
+    "category": "ownership"
+   }
+  ],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 3,
+    "first": "2021-08-08",
+    "last": "2023-08-26",
+    "last_tx": "0xd2bffdf331f022b2ce5214b51e6513febf8c772303ab0a407a5ef62b6cda9719",
+    "list": [
+     {
+      "date": "2021-08-08",
+      "tx": "0xe8aeb9055e334dc12e4e7cf16a7b630b1a070727c380caf65a03feccc26e0be3",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "fd16f84e1f9bb5ec33b52d0133d61f7d20699658"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2021-08-08",
+      "tx": "0x59e96bf8293419e24bd893849b6e7efb7ebb0c90cf50ecd418b8b8971fbbdf12",
+      "topics": [
+       "fd16f84e1f9bb5ec33b52d0133d61f7d20699658",
+       "0bc3807ec262cb779b38d65b38158acc3bfede10"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2023-08-26",
+      "tx": "0xd2bffdf331f022b2ce5214b51e6513febf8c772303ab0a407a5ef62b6cda9719",
+      "topics": [
+       "0bc3807ec262cb779b38d65b38158acc3bfede10",
+       "b1a32fc9f9d8b2cf86c068cae13108809547ef71"
+      ],
+      "data": "0x"
+     }
+    ]
+   },
+   "DescriptorLocked()": {
+    "n": 0
+   },
+   "DescriptorUpdated(address)": {
+    "n": 3,
+    "first": "2022-07-22",
+    "last": "2024-09-04",
+    "last_tx": "0x7d7349b404521a3e34d7421c05292caad718fe3f736ba72c55ebadb07c08e5db",
+    "list": [
+     {
+      "date": "2022-07-22",
+      "tx": "0xfd30eed50c37f441ad3f922358fca76a0d32919344736a6434d941791eb016cb",
+      "topics": [],
+      "data": "0x0000000000000000000000006229c811d04501523c6058bfaac29c91bb586268"
+     },
+     {
+      "date": "2023-10-15",
+      "tx": "0x46129a078a69cb54ed379d0cdae44aec7c13d5e8e24b9441d6a722ea1e4b9fec",
+      "topics": [],
+      "data": "0x00000000000000000000000025ff2fde7df1a433e09749c952f7e09ad3c27951"
+     },
+     {
+      "date": "2024-09-04",
+      "tx": "0x7d7349b404521a3e34d7421c05292caad718fe3f736ba72c55ebadb07c08e5db",
+      "topics": [],
+      "data": "0x00000000000000000000000033a9c445fb4fb21f2c030a6b2d3e2f12d017bfac"
+     }
+    ]
+   },
+   "MinterLocked()": {
+    "n": 0
+   },
+   "SeederLocked()": {
+    "n": 0
+   },
+   "SeederUpdated(address)": {
+    "n": 0
+   }
+  },
+  "decoded": [
+   {
+    "hash": "0x59e96bf8293419e24bd893849b6e7efb7ebb0c90cf50ecd418b8b8971fbbdf12",
+    "timestamp": "2021-08-08T16:59:43.000000Z",
+    "method": "transferOwnership",
+    "category": "ownership",
+    "from": "0xFD16F84E1F9Bb5ec33B52D0133d61f7D20699658",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0x0bc3807ec262cb779b38d65b38158acc3bfede10"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   }
+  ],
+  "ownership_transfers": [
+   {
+    "date": "2021-08-08",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0xfd16f84e1f9bb5ec33b52d0133d61f7d20699658",
+    "tx": "0xe8aeb9055e334dc12e4e7cf16a7b630b1a070727c380caf65a03feccc26e0be3"
+   },
+   {
+    "date": "2021-08-08",
+    "from": "0xfd16f84e1f9bb5ec33b52d0133d61f7d20699658",
+    "to": "0x0bc3807ec262cb779b38d65b38158acc3bfede10",
+    "tx": "0x59e96bf8293419e24bd893849b6e7efb7ebb0c90cf50ecd418b8b8971fbbdf12"
+   },
+   {
+    "date": "2023-08-26",
+    "from": "0x0bc3807ec262cb779b38d65b38158acc3bfede10",
+    "to": "0xb1a32fc9f9d8b2cf86c068cae13108809547ef71",
+    "tx": "0xd2bffdf331f022b2ce5214b51e6513febf8c772303ab0a407a5ef62b6cda9719"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0x9c8ff314c9bc7f6e59a9d9225fb22946427edc03_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0xb1a32fc9f9d8b2cf86c068cae13108809547ef71",
+  "code_raw": "data/raw/rpc-mutability/0xb1a32fc9f9d8b2cf86c068cae13108809547ef71_holdercode.json",
+  "code_len": 177,
+  "probe_raw": "data/raw/rpc-mutability/0xb1a32fc9f9d8b2cf86c068cae13108809547ef71_holderprobe.json",
+  "type": "timelock",
+  "delay_s": 172800,
+  "flavour": "compound",
+  "controller": {
+   "addr": "0x6f3e6272a167e8accb32072d08e0957f9c79223d",
+   "code_raw": "data/raw/rpc-mutability/0x6f3e6272a167e8accb32072d08e0957f9c79223d_holdercode.json",
+   "code_len": 1072,
+   "probe_raw": "data/raw/rpc-mutability/0x6f3e6272a167e8accb32072d08e0957f9c79223d_holderprobe.json",
+   "type": "governor",
+   "timelock": "0xb1a32fc9f9d8b2cf86c068cae13108809547ef71",
+   "bs_name": "NounsDAOProxy",
+   "ens": null,
+   "bs_impl_names": [
+    "NounsDAOLogicV4"
+   ],
+   "bs_tags": [],
+   "is_contract": true,
+   "creator": "0xFD16F84E1F9Bb5ec33B52D0133d61f7D20699658",
+   "is_verified": true,
+   "bs_reputation": "ok"
+  },
+  "bs_name": "NounsDAOExecutorProxy",
+  "ens": "nouns.eth",
+  "bs_impl_names": [
+   "NounsDAOExecutorV2"
+  ],
+  "bs_tags": [],
+  "is_contract": true,
+  "creator": "0xAC56E6156C9c0C56b6D9a4E8388799F25d7fEb86",
+  "is_verified": true,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {
+  "isDescriptorLocked": 0,
+  "isMinterLocked": 0,
+  "isSeederLocked": 0
+ },
+ "tokenuri_path": "override",
+ "lock_functions": [
+  "lockDescriptor",
+  "lockMinter",
+  "lockSeeder"
+ ],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [
+  {
+   "name": "setDescriptor",
+   "sig": "setDescriptor(address)",
+   "selector": "0x01b9a397",
+   "category": "renderer",
+   "inputs": [
+    "address"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner",
+    "whenDescriptorNotLocked"
+   ],
+   "body_head": "descriptor = _descriptor;\n\n        emit DescriptorUpdated(_descriptor);",
+   "writes": [
+    "descriptor"
+   ],
+   "effective": "yes",
+   "power": "dao-or-timelock",
+   "holder_addrs": [
+    "0xb1a32fc9f9d8b2cf86c068cae13108809547ef71"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [
+    "isDescriptorLocked"
+   ],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xb1a32fc9f9d8b2cf86c068cae13108809547ef71",
+     "type": "timelock",
+     "delay_s": 172800,
+     "bs_name": "NounsDAOExecutorProxy",
+     "ens": "nouns.eth",
+     "desc": "timelock(172800s)<-governor",
+     "simple": "dao-or-timelock"
+    }
+   ]
+  },
+  {
+   "name": "setSeeder",
+   "sig": "setSeeder(address)",
+   "selector": "0xd50b31eb",
+   "category": "reveal",
+   "inputs": [
+    "address"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner",
+    "whenSeederNotLocked"
+   ],
+   "body_head": "seeder = _seeder;\n\n        emit SeederUpdated(_seeder);",
+   "writes": [
+    "seeder"
+   ],
+   "power": "dao-or-timelock",
+   "holder_addrs": [
+    "0xb1a32fc9f9d8b2cf86c068cae13108809547ef71"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [
+    "isSeederLocked"
+   ],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xb1a32fc9f9d8b2cf86c068cae13108809547ef71",
+     "type": "timelock",
+     "delay_s": 172800,
+     "bs_name": "NounsDAOExecutorProxy",
+     "ens": "nouns.eth",
+     "desc": "timelock(172800s)<-governor",
+     "simple": "dao-or-timelock"
+    }
+   ]
+  },
+  {
+   "name": "setContractURIHash",
+   "sig": "setContractURIHash(string)",
+   "selector": "0xbaedc1c4",
+   "category": "contracturi",
+   "inputs": [
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "_contractURIHash = newContractURIHash;",
+   "writes": [
+    "_contractURIHash"
+   ],
+   "power": "dao-or-timelock",
+   "holder_addrs": [
+    "0xb1a32fc9f9d8b2cf86c068cae13108809547ef71"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xb1a32fc9f9d8b2cf86c068cae13108809547ef71",
+     "type": "timelock",
+     "delay_s": 172800,
+     "bs_name": "NounsDAOExecutorProxy",
+     "ens": "nouns.eth",
+     "desc": "timelock(172800s)<-governor",
+     "simple": "dao-or-timelock"
+    }
+   ]
+  }
+ ],
+ "class_direct": "dao-or-timelock-mutable",
+ "class_reason": "live setters (dao-or-timelock): setDescriptor",
+ "live_mutators": [
+  "setDescriptor"
+ ],
+ "dependencies": [
+  {
+   "address": "0x33a9c445fb4fb21f2c030a6b2d3e2f12d017bfac",
+   "via": "descriptor()",
+   "in_tokenuri_path": true,
+   "via_setter": true,
+   "analysis": {
+    "address": "0x33a9c445fb4fb21f2c030a6b2d3e2f12d017bfac",
+    "verified": true,
+    "contract_name": "NounsDescriptorV3",
+    "proxy": {
+     "kind": null
+    },
+    "owner": {
+     "addr": "0xb1a32fc9f9d8b2cf86c068cae13108809547ef71",
+     "code_raw": "data/raw/rpc-mutability/0xb1a32fc9f9d8b2cf86c068cae13108809547ef71_holdercode.json",
+     "code_len": 177,
+     "probe_raw": "data/raw/rpc-mutability/0xb1a32fc9f9d8b2cf86c068cae13108809547ef71_holderprobe.json",
+     "type": "timelock",
+     "delay_s": 172800,
+     "flavour": "compound",
+     "controller": {
+      "addr": "0x6f3e6272a167e8accb32072d08e0957f9c79223d",
+      "code_raw": "data/raw/rpc-mutability/0x6f3e6272a167e8accb32072d08e0957f9c79223d_holdercode.json",
+      "code_len": 1072,
+      "probe_raw": "data/raw/rpc-mutability/0x6f3e6272a167e8accb32072d08e0957f9c79223d_holderprobe.json",
+      "type": "governor",
+      "timelock": "0xb1a32fc9f9d8b2cf86c068cae13108809547ef71",
+      "bs_name": "NounsDAOProxy",
+      "ens": null,
+      "bs_impl_names": [
+       "NounsDAOLogicV4"
+      ],
+      "bs_tags": [],
+      "is_contract": true,
+      "creator": "0xFD16F84E1F9Bb5ec33B52D0133d61f7D20699658",
+      "is_verified": true,
+      "bs_reputation": "ok"
+     },
+     "bs_name": "NounsDAOExecutorProxy",
+     "ens": "nouns.eth",
+     "bs_impl_names": [
+      "NounsDAOExecutorV2"
+     ],
+     "bs_tags": [],
+     "is_contract": true,
+     "creator": "0xAC56E6156C9c0C56b6D9a4E8388799F25d7fEb86",
+     "is_verified": true,
+     "bs_reputation": "ok"
+    },
+    "admin_fn": null,
+    "uups": false,
+    "lock_views": {
+     "arePartsLocked": 0
+    },
+    "lock_flags_true": {},
+    "lock_functions": [
+     "lockParts"
+    ],
+    "class_direct": "dao-or-timelock-mutable",
+    "class_reason": "live setters (dao-or-timelock): addAccessories,addAccessoriesFromPointer,addBackground,addGlasses,addGlassesFromPointer,addHeads",
+    "live_mutators": [
+     "addAccessories",
+     "addAccessoriesFromPointer",
+     "addBackground",
+     "addGlasses",
+     "addGlassesFromPointer",
+     "addHeads",
+     "addHeadsFromPointer",
+     "setArtDescriptor",
+     "setBaseURI",
+     "setPalette",
+     "setPalettePointer",
+     "updateAccessories",
+     "updateAccessoriesFromPointer",
+     "updateGlasses",
+     "updateGlassesFromPointer",
+     "updateHeads",
+     "updateHeadsFromPointer"
+    ],
+    "mutators": [
+     {
+      "name": "setBaseURI",
+      "sig": "setBaseURI(string)",
+      "selector": "0x55f804b3",
+      "category": "uri",
+      "inputs": [
+       "string"
+      ],
+      "gates": [
+       {
+        "type": "owner",
+        "ref": "owner"
+       }
+      ],
+      "modifiers": [
+       "onlyOwner"
+      ],
+      "body_head": "baseURI = _baseURI;\n\n        emit BaseURIUpdated(_baseURI);",
+      "writes": [
+       "baseURI"
+      ],
+      "effective": "yes",
+      "power": "dao-or-timelock",
+      "holder_addrs": [
+       "0xb1a32fc9f9d8b2cf86c068cae13108809547ef71"
+      ],
+      "holder_how": [
+       "owner()"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0xb1a32fc9f9d8b2cf86c068cae13108809547ef71",
+        "type": "timelock",
+        "delay_s": 172800,
+        "bs_name": "NounsDAOExecutorProxy",
+        "ens": "nouns.eth",
+        "desc": "timelock(172800s)<-governor",
+        "simple": "dao-or-timelock"
+       }
+      ]
+     },
+     {
+      "name": "addAccessories",
+      "sig": "addAccessories(bytes,uint80,uint16)",
+      "selector": "0x0ba3db1a",
+      "category": "renderer",
+      "inputs": [
+       "bytes",
+       "uint80",
+       "uint16"
+      ],
+      "gates": [
+       {
+        "type": "owner",
+        "ref": "owner"
+       }
+      ],
+      "modifiers": [
+       "onlyOwner",
+       "whenPartsNotLocked"
+      ],
+      "body_head": "art.addAccessories(encodedCompressed, decompressedLength, imageCount);",
+      "writes": [],
+      "effective": "unknown",
+      "power": "dao-or-timelock",
+      "holder_addrs": [
+       "0xb1a32fc9f9d8b2cf86c068cae13108809547ef71"
+      ],
+      "holder_how": [
+       "owner()"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [
+       "arePartsLocked"
+      ],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0xb1a32fc9f9d8b2cf86c068cae13108809547ef71",
+        "type": "timelock",
+        "delay_s": 172800,
+        "bs_name": "NounsDAOExecutorProxy",
+        "ens": "nouns.eth",
+        "desc": "timelock(172800s)<-governor",
+        "simple": "dao-or-timelock"
+       }
+      ]
+     },
+     {
+      "name": "addAccessoriesFromPointer",
+      "sig": "addAccessoriesFromPointer(address,uint80,uint16)",
+      "selector": "0x6e856531",
+      "category": "renderer",
+      "inputs": [
+       "address",
+       "uint80",
+       "uint16"
+      ],
+      "gates": [
+       {
+        "type": "owner",
+        "ref": "owner"
+       }
+      ],
+      "modifiers": [
+       "onlyOwner",
+       "whenPartsNotLocked"
+      ],
+      "body_head": "art.addAccessoriesFromPointer(pointer, decompressedLength, imageCount);",
+      "writes": [],
+      "effective": "unknown",
+      "power": "dao-or-timelock",
+      "holder_addrs": [
+       "0xb1a32fc9f9d8b2cf86c068cae13108809547ef71"
+      ],
+      "holder_how": [
+       "owner()"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [
+       "arePartsLocked"
+      ],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0xb1a32fc9f9d8b2cf86c068cae13108809547ef71",
+        "type": "timelock",
+        "delay_s": 172800,
+        "bs_name": "NounsDAOExecutorProxy",
+        "ens": "nouns.eth",
+        "desc": "timelock(172800s)<-governor",
+        "simple": "dao-or-timelock"
+       }
+      ]
+     },
+     {
+      "name": "addBackground",
+      "sig": "addBackground(string)",
+      "selector": "0x5e70664c",
+      "category": "renderer",
+      "inputs": [
+       "string"
+      ],
+      "gates": [
+       {
+        "type": "owner",
+        "ref": "owner"
+       }
+      ],
+      "modifiers": [
+       "onlyOwner",
+       "whenPartsNotLocked"
+      ],
+      "body_head": "art.addBackground(_background);",
+      "writes": [],
+      "effective": "unknown",
+      "power": "dao-or-timelock",
+      "holder_addrs": [
+       "0xb1a32fc9f9d8b2cf86c068cae13108809547ef71"
+      ],
+      "holder_how": [
+       "owner()"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [
+       "arePartsLocked"
+      ],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0xb1a32fc9f9d8b2cf86c068cae13108809547ef71",
+        "type": "timelock",
+        "delay_s": 172800,
+        "bs_name": "NounsDAOExecutorProxy",
+        "ens": "nouns.eth",
+        "desc": "timelock(172800s)<-governor",
+        "simple": "dao-or-timelock"
+       }
+      ]
+     },
+     {
+      "name": "addGlasses",
+      "sig": "addGlasses(bytes,uint80,uint16)",
+      "selector": "0x353c36a0",
+      "category": "renderer",
+      "inputs": [
+       "bytes",
+       "uint80",
+       "uint16"
+      ],
+      "gates": [
+       {
+        "type": "owner",
+        "ref": "owner"
+       }
+      ],
+      "modifiers": [
+       "onlyOwner",
+       "whenPartsNotLocked"
+      ],
+      "body_head": "art.addGlasses(encodedCompressed, decompressedLength, imageCount);",
+      "writes": [],
+      "effective": "unknown",
+      "power": "dao-or-timelock",
+      "holder_addrs": [
+       "0xb1a32fc9f9d8b2cf86c068cae13108809547ef71"
+      ],
+      "holder_how": [
+       "owner()"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [
+       "arePartsLocked"
+      ],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0xb1a32fc9f9d8b2cf86c068cae13108809547ef71",
+        "type": "timelock",
+        "delay_s": 172800,
+        "bs_name": "NounsDAOExecutorProxy",
+        "ens": "nouns.eth",
+        "desc": "timelock(172800s)<-governor",
+        "simple": "dao-or-timelock"
+       }
+      ]
+     },
+     {
+      "name": "addGlassesFromPointer",
+      "sig": "addGlassesFromPointer(address,uint80,uint16)",
+      "selector": "0x73ac736b",
+      "category": "renderer",
+      "inputs": [
+       "address",
+       "uint80",
+       "uint16"
+      ],
+      "gates": [
+       {
+        "type": "owner",
+        "ref": "owner"
+       }
+      ],
+      "modifiers": [
+       "onlyOwner",
+       "whenPartsNotLocked"
+      ],
+      "body_head": "art.addGlassesFromPointer(pointer, decompressedLength, imageCount);",
+      "writes": [],
+      "effective": "unknown",
+      "power": "dao-or-timelock",
+      "holder_addrs": [
+       "0xb1a32fc9f9d8b2cf86c068cae13108809547ef71"
+      ],
+      "holder_how": [
+       "owner()"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [
+       "arePartsLocked"
+      ],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0xb1a32fc9f9d8b2cf86c068cae13108809547ef71",
+        "type": "timelock",
+        "delay_s": 172800,
+        "bs_name": "NounsDAOExecutorProxy",
+        "ens": "nouns.eth",
+        "desc": "timelock(172800s)<-governor",
+        "simple": "dao-or-timelock"
+       }
+      ]
+     },
+     {
+      "name": "addHeads",
+      "sig": "addHeads(bytes,uint80,uint16)",
+      "selector": "0x94f3df61",
+      "category": "renderer",
+      "inputs": [
+       "bytes",
+       "uint80",
+       "uint16"
+      ],
+      "gates": [
+       {
+        "type": "owner",
+        "ref": "owner"
+       }
+      ],
+      "modifiers": [
+       "onlyOwner",
+       "whenPartsNotLocked"
+      ],
+      "body_head": "art.addHeads(encodedCompressed, decompressedLength, imageCount);",
+      "writes": [],
+      "effective": "unknown",
+      "power": "dao-or-timelock",
+      "holder_addrs": [
+       "0xb1a32fc9f9d8b2cf86c068cae13108809547ef71"
+      ],
+      "holder_how": [
+       "owner()"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [
+       "arePartsLocked"
+      ],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0xb1a32fc9f9d8b2cf86c068cae13108809547ef71",
+        "type": "timelock",
+        "delay_s": 172800,
+        "bs_name": "NounsDAOExecutorProxy",
+        "ens": "nouns.eth",
+        "desc": "timelock(172800s)<-governor",
+        "simple": "dao-or-timelock"
+       }
+      ]
+     },
+     {
+      "name": "addHeadsFromPointer",
+      "sig": "addHeadsFromPointer(address,uint80,uint16)",
+      "selector": "0x461fc5af",
+      "category": "renderer",
+      "inputs": [
+       "address",
+       "uint80",
+       "uint16"
+      ],
+      "gates": [
+       {
+        "type": "owner",
+        "ref": "owner"
+       }
+      ],
+      "modifiers": [
+       "onlyOwner",
+       "whenPartsNotLocked"
+      ],
+      "body_head": "art.addHeadsFromPointer(pointer, decompressedLength, imageCount);",
+      "writes": [],
+      "effective": "unknown",
+      "power": "dao-or-timelock",
+      "holder_addrs": [
+       "0xb1a32fc9f9d8b2cf86c068cae13108809547ef71"
+      ],
+      "holder_how": [
+       "owner()"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [
+       "arePartsLocked"
+      ],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0xb1a32fc9f9d8b2cf86c068cae13108809547ef71",
+        "type": "timelock",
+        "delay_s": 172800,
+        "bs_name": "NounsDAOExecutorProxy",
+        "ens": "nouns.eth",
+        "desc": "timelock(172800s)<-governor",
+        "simple": "dao-or-timelock"
+       }
+      ]
+     },
+     {
+      "name": "setArt",
+      "sig": "setArt(address)",
+      "selector": "0xe6b1a3ae",
+      "category": "renderer",
+      "inputs": [
+       "address"
+      ],
+      "gates": [
+       {
+        "type": "owner",
+        "ref": "owner"
+       }
+      ],
+      "modifiers": [
+       "onlyOwner",
+       "whenPartsNotLocked"
+      ],
+      "body_head": "art = _art;\n\n        emit ArtUpdated(_art);",
+      "writes": [
+       "art"
+      ],
+      "effective": "no",
+      "power": "dao-or-timelock",
+      "holder_addrs": [
+       "0xb1a32fc9f9d8b2cf86c068cae13108809547ef71"
+      ],
+      "holder_how": [
+       "owner()"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [
+       "arePartsLocked"
+      ],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0xb1a32fc9f9d8b2cf86c068cae13108809547ef71",
+        "type": "timelock",
+        "delay_s": 172800,
+        "bs_name": "NounsDAOExecutorProxy",
+        "ens": "nouns.eth",
+        "desc": "timelock(172800s)<-governor",
+        "simple": "dao-or-timelock"
+       }
+      ]
+     },
+     {
+      "name": "setArtDescriptor",
+      "sig": "setArtDescriptor(address)",
+      "selector": "0x010ecde7",
+      "category": "renderer",
+      "inputs": [
+       "address"
+      ],
+      "gates": [
+       {
+        "type": "owner",
+        "ref": "owner"
+       }
+      ],
+      "modifiers": [
+       "onlyOwner"
+      ],
+      "body_head": "art.setDescriptor(descriptor);",
+      "writes": [],
+      "effective": "unknown",
+      "power": "dao-or-timelock",
+      "holder_addrs": [
+       "0xb1a32fc9f9d8b2cf86c068cae13108809547ef71"
+      ],
+      "holder_how": [
+       "owner()"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0xb1a32fc9f9d8b2cf86c068cae13108809547ef71",
+        "type": "timelock",
+        "delay_s": 172800,
+        "bs_name": "NounsDAOExecutorProxy",
+        "ens": "nouns.eth",
+        "desc": "timelock(172800s)<-governor",
+        "simple": "dao-or-timelock"
+       }
+      ]
+     },
+     {
+      "name": "setPalette",
+      "sig": "setPalette(uint8,bytes)",
+      "selector": "0xe79c9ea6",
+      "category": "renderer",
+      "inputs": [
+       "uint8",
+       "bytes"
+      ],
+      "gates": [
+       {
+        "type": "owner",
+        "ref": "owner"
+       }
+      ],
+      "modifiers": [
+       "onlyOwner",
+       "whenPartsNotLocked"
+      ],
+      "body_head": "art.setPalette(paletteIndex, palette);",
+      "writes": [],
+      "effective": "unknown",
+      "power": "dao-or-timelock",
+      "holder_addrs": [
+       "0xb1a32fc9f9d8b2cf86c068cae13108809547ef71"
+      ],
+      "holder_how": [
+       "owner()"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [
+       "arePartsLocked"
+      ],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0xb1a32fc9f9d8b2cf86c068cae13108809547ef71",
+        "type": "timelock",
+        "delay_s": 172800,
+        "bs_name": "NounsDAOExecutorProxy",
+        "ens": "nouns.eth",
+        "desc": "timelock(172800s)<-governor",
+        "simple": "dao-or-timelock"
+       }
+      ]
+     },
+     {
+      "name": "setPalettePointer",
+      "sig": "setPalettePointer(uint8,address)",
+      "selector": "0x8bd54c06",
+      "category": "renderer",
+      "inputs": [
+       "uint8",
+       "address"
+      ],
+      "gates": [
+       {
+        "type": "owner",
+        "ref": "owner"
+       }
+      ],
+      "modifiers": [
+       "onlyOwner",
+       "whenPartsNotLocked"
+      ],
+      "body_head": "art.setPalettePointer(paletteIndex, pointer);",
+      "writes": [],
+      "effective": "unknown",
+      "power": "dao-or-timelock",
+      "holder_addrs": [
+       "0xb1a32fc9f9d8b2cf86c068cae13108809547ef71"
+      ],
+      "holder_how": [
+       "owner()"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [
+       "arePartsLocked"
+      ],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0xb1a32fc9f9d8b2cf86c068cae13108809547ef71",
+        "type": "timelock",
+        "delay_s": 172800,
+        "bs_name": "NounsDAOExecutorProxy",
+        "ens": "nouns.eth",
+        "desc": "timelock(172800s)<-governor",
+        "simple": "dao-or-timelock"
+       }
+      ]
+     },
+     {
+      "name": "setRenderer",
+      "sig": "setRenderer(address)",
+      "selector": "0x56d3163d",
+      "category": "renderer",
+      "inputs": [
+       "address"
+      ],
+      "gates": [
+       {
+        "type": "owner",
+        "ref": "owner"
+       }
+      ],
+      "modifiers": [
+       "onlyOwner"
+      ],
+      "body_head": "renderer = _renderer;\n\n        emit RendererUpdated(_renderer);",
+      "writes": [
+       "renderer"
+      ],
+      "effective": "no",
+      "power": "dao-or-timelock",
+      "holder_addrs": [
+       "0xb1a32fc9f9d8b2cf86c068cae13108809547ef71"
+      ],
+      "holder_how": [
+       "owner()"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0xb1a32fc9f9d8b2cf86c068cae13108809547ef71",
+        "type": "timelock",
+        "delay_s": 172800,
+        "bs_name": "NounsDAOExecutorProxy",
+        "ens": "nouns.eth",
+        "desc": "timelock(172800s)<-governor",
+        "simple": "dao-or-timelock"
+       }
+      ]
+     },
+     {
+      "name": "updateAccessories",
+      "sig": "updateAccessories(bytes,uint80,uint16)",
+      "selector": "0xd6d7f8b6",
+      "category": "renderer",
+      "inputs": [
+       "bytes",
+       "uint80",
+       "uint16"
+      ],
+      "gates": [
+       {
+        "type": "owner",
+        "ref": "owner"
+       }
+      ],
+      "modifiers": [
+       "onlyOwner",
+       "whenPartsNotLocked"
+      ],
+      "body_head": "uint256 originalCount = accessoryCount();\n        art.updateAccessories(encodedCompressed, decompressedLength, imageCount);\n        require(originalCount == acc",
+      "writes": [],
+      "effective": "unknown",
+      "power": "dao-or-timelock",
+      "holder_addrs": [
+       "0xb1a32fc9f9d8b2cf86c068cae13108809547ef71"
+      ],
+      "holder_how": [
+       "owner()"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [
+       "arePartsLocked"
+      ],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0xb1a32fc9f9d8b2cf86c068cae13108809547ef71",
+        "type": "timelock",
+        "delay_s": 172800,
+        "bs_name": "NounsDAOExecutorProxy",
+        "ens": "nouns.eth",
+        "desc": "timelock(172800s)<-governor",
+        "simple": "dao-or-timelock"
+       }
+      ]
+     },
+     {
+      "name": "updateAccessoriesFromPointer",
+      "sig": "updateAccessoriesFromPointer(address,uint80,uint16)",
+      "selector": "0x83f74116",
+      "category": "renderer",
+      "inputs": [
+       "address",
+       "uint80",
+       "uint16"
+      ],
+      "gates": [
+       {
+        "type": "owner",
+        "ref": "owner"
+       }
+      ],
+      "modifiers": [
+       "onlyOwner",
+       "whenPartsNotLocked"
+      ],
+      "body_head": "uint256 originalCount = accessoryCount();\n        art.updateAccessoriesFromPointer(pointer, decompressedLength, imageCount);\n        require(originalCount == ac",
+      "writes": [],
+      "effective": "unknown",
+      "power": "dao-or-timelock",
+      "holder_addrs": [
+       "0xb1a32fc9f9d8b2cf86c068cae13108809547ef71"
+      ],
+      "holder_how": [
+       "owner()"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [
+       "arePartsLocked"
+      ],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0xb1a32fc9f9d8b2cf86c068cae13108809547ef71",
+        "type": "timelock",
+        "delay_s": 172800,
+        "bs_name": "NounsDAOExecutorProxy",
+        "ens": "nouns.eth",
+        "desc": "timelock(172800s)<-governor",
+        "simple": "dao-or-timelock"
+       }
+      ]
+     },
+     {
+      "name": "updateGlasses",
+      "sig": "updateGlasses(bytes,uint80,uint16)",
+      "selector": "0xcd5b95c8",
+      "category": "renderer",
+      "inputs": [
+       "bytes",
+       "uint80",
+       "uint16"
+      ],
+      "gates": [
+       {
+        "type": "owner",
+        "ref": "owner"
+       }
+      ],
+      "modifiers": [
+       "onlyOwner",
+       "whenPartsNotLocked"
+      ],
+      "body_head": "uint256 originalCount = glassesCount();\n        art.updateGlasses(encodedCompressed, decompressedLength, imageCount);\n        require(originalCount == glassesCo",
+      "writes": [],
+      "effective": "unknown",
+      "power": "dao-or-timelock",
+      "holder_addrs": [
+       "0xb1a32fc9f9d8b2cf86c068cae13108809547ef71"
+      ],
+      "holder_how": [
+       "owner()"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [
+       "arePartsLocked"
+      ],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0xb1a32fc9f9d8b2cf86c068cae13108809547ef71",
+        "type": "timelock",
+        "delay_s": 172800,
+        "bs_name": "NounsDAOExecutorProxy",
+        "ens": "nouns.eth",
+        "desc": "timelock(172800s)<-governor",
+        "simple": "dao-or-timelock"
+       }
+      ]
+     },
+     {
+      "name": "updateGlassesFromPointer",
+      "sig": "updateGlassesFromPointer(address,uint80,uint16)",
+      "selector": "0xdbb55d2d",
+      "category": "renderer",
+      "inputs": [
+       "address",
+       "uint80",
+       "uint16"
+      ],
+      "gates": [
+       {
+        "type": "owner",
+        "ref": "owner"
+       }
+      ],
+      "modifiers": [
+       "onlyOwner",
+       "whenPartsNotLocked"
+      ],
+      "body_head": "uint256 originalCount = glassesCount();\n        art.updateGlassesFromPointer(pointer, decompressedLength, imageCount);\n        require(originalCount == glassesC",
+      "writes": [],
+      "effective": "unknown",
+      "power": "dao-or-timelock",
+      "holder_addrs": [
+       "0xb1a32fc9f9d8b2cf86c068cae13108809547ef71"
+      ],
+      "holder_how": [
+       "owner()"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [
+       "arePartsLocked"
+      ],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0xb1a32fc9f9d8b2cf86c068cae13108809547ef71",
+        "type": "timelock",
+        "delay_s": 172800,
+        "bs_name": "NounsDAOExecutorProxy",
+        "ens": "nouns.eth",
+        "desc": "timelock(172800s)<-governor",
+        "simple": "dao-or-timelock"
+       }
+      ]
+     },
+     {
+      "name": "updateHeads",
+      "sig": "updateHeads(bytes,uint80,uint16)",
+      "selector": "0xe4973050",
+      "category": "renderer",
+      "inputs": [
+       "bytes",
+       "uint80",
+       "uint16"
+      ],
+      "gates": [
+       {
+        "type": "owner",
+        "ref": "owner"
+       }
+      ],
+      "modifiers": [
+       "onlyOwner",
+       "whenPartsNotLocked"
+      ],
+      "body_head": "uint256 originalCount = headCount();\n        art.updateHeads(encodedCompressed, decompressedLength, imageCount);\n        require(originalCount == headCount(), '",
+      "writes": [],
+      "effective": "unknown",
+      "power": "dao-or-timelock",
+      "holder_addrs": [
+       "0xb1a32fc9f9d8b2cf86c068cae13108809547ef71"
+      ],
+      "holder_how": [
+       "owner()"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [
+       "arePartsLocked"
+      ],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0xb1a32fc9f9d8b2cf86c068cae13108809547ef71",
+        "type": "timelock",
+        "delay_s": 172800,
+        "bs_name": "NounsDAOExecutorProxy",
+        "ens": "nouns.eth",
+        "desc": "timelock(172800s)<-governor",
+        "simple": "dao-or-timelock"
+       }
+      ]
+     },
+     {
+      "name": "updateHeadsFromPointer",
+      "sig": "updateHeadsFromPointer(address,uint80,uint16)",
+      "selector": "0x925b63a7",
+      "category": "renderer",
+      "inputs": [
+       "address",
+       "uint80",
+       "uint16"
+      ],
+      "gates": [
+       {
+        "type": "owner",
+        "ref": "owner"
+       }
+      ],
+      "modifiers": [
+       "onlyOwner",
+       "whenPartsNotLocked"
+      ],
+      "body_head": "uint256 originalCount = headCount();\n        art.updateHeadsFromPointer(pointer, decompressedLength, imageCount);\n        require(originalCount == headCount(), ",
+      "writes": [],
+      "effective": "unknown",
+      "power": "dao-or-timelock",
+      "holder_addrs": [
+       "0xb1a32fc9f9d8b2cf86c068cae13108809547ef71"
+      ],
+      "holder_how": [
+       "owner()"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [
+       "arePartsLocked"
+      ],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0xb1a32fc9f9d8b2cf86c068cae13108809547ef71",
+        "type": "timelock",
+        "delay_s": 172800,
+        "bs_name": "NounsDAOExecutorProxy",
+        "ens": "nouns.eth",
+        "desc": "timelock(172800s)<-governor",
+        "simple": "dao-or-timelock"
+       }
+      ]
+     }
+    ],
+    "history": {
+     "txs": [
+      {
+       "hash": "0xef68fdfe062341b208b851cb33c6fa170e9d99c2b98d2f83e5267da57c0461cb",
+       "timestamp": "2024-08-22T13:16:35.000000Z",
+       "method": "addHeads",
+       "from": "0xa6ef22a84521DDD11c1282Ec8f8a9255dbAC04a0",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 20584386,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x22549793b29d609584592a253b232b35a50c756aa378c8ccf27799cf3be41eb0",
+       "timestamp": "2024-08-22T13:12:59.000000Z",
+       "method": "addAccessories",
+       "from": "0xa6ef22a84521DDD11c1282Ec8f8a9255dbAC04a0",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 20584368,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x5ae3ea6860be03546262c512b888c1c02bb8c6867c984c1aba1b0411bced1a88",
+       "timestamp": "2024-08-22T13:12:59.000000Z",
+       "method": "addGlasses",
+       "from": "0xa6ef22a84521DDD11c1282Ec8f8a9255dbAC04a0",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 20584368,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xe2c920aa7dd2f70db5ad63ee8a252016be0c6333509913dbf93710929fad3086",
+       "timestamp": "2024-08-22T13:10:23.000000Z",
+       "method": "setPalette",
+       "from": "0xa6ef22a84521DDD11c1282Ec8f8a9255dbAC04a0",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 20584355,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x52108873982210d51b32df1109c73be18b215a9afebaae14c45d9a656d7fa370",
+       "timestamp": "2024-08-26T02:13:59.000000Z",
+       "method": "transferOwnership",
+       "from": "0xa6ef22a84521DDD11c1282Ec8f8a9255dbAC04a0",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 20609713,
+       "category": "ownership"
+      }
+     ],
+     "events": {
+      "OwnershipTransferred(address,address)": {
+       "n": 2,
+       "first": "2024-08-22",
+       "last": "2024-08-26",
+       "last_tx": "0x52108873982210d51b32df1109c73be18b215a9afebaae14c45d9a656d7fa370",
+       "list": [
+        {
+         "date": "2024-08-22",
+         "tx": "0xa319809c5ec31327ba4eae65227c1a0c046915c9bc9f34c3e6b84b2fdcb5be38",
+         "topics": [
+          "0000000000000000000000000000000000000000",
+          "a6ef22a84521ddd11c1282ec8f8a9255dbac04a0"
+         ],
+         "data": "0x"
+        },
+        {
+         "date": "2024-08-26",
+         "tx": "0x52108873982210d51b32df1109c73be18b215a9afebaae14c45d9a656d7fa370",
+         "topics": [
+          "a6ef22a84521ddd11c1282ec8f8a9255dbac04a0",
+          "b1a32fc9f9d8b2cf86c068cae13108809547ef71"
+         ],
+         "data": "0x"
+        }
+       ]
+      },
+      "BaseURIUpdated(string)": {
+       "n": 0
+      },
+      "DataURIToggled(bool)": {
+       "n": 0
+      },
+      "PartsLocked()": {
+       "n": 0
+      },
+      "RendererUpdated(address)": {
+       "n": 0
+      }
+     },
+     "decoded": [
+      {
+       "hash": "0xe2c920aa7dd2f70db5ad63ee8a252016be0c6333509913dbf93710929fad3086",
+       "timestamp": "2024-08-22T13:10:23.000000Z",
+       "method": "setPalette",
+       "category": "renderer",
+       "from": "0xa6ef22a84521DDD11c1282Ec8f8a9255dbAC04a0",
+       "params": [
+        {
+         "name": "arg0",
+         "type": "uint8",
+         "value": "0"
+        },
+        {
+         "name": "arg1",
+         "type": "bytes",
+         "value": "0x000000c5b9a1ffffffcfc2ab63a0f9807f7ecaeff95648ed5a423fb9185ccbc1bcb87b11fffdf24b49493432351f1d29068940867c1dae32089f21a0f98f30fe500cd26451fd8b5b5a65fad22209e9265cc54e3880a72d4bea6934ac80eed81162616dff638d8bc0c5c4da53000000f3322cffae1affc110505a5cffef16fff671fff449db8323df2c39f938d85c25fb2a86fd45fa"
+        }
+       ],
+       "value_kinds": [],
+       "error": null
+      },
+      {
+       "hash": "0x22549793b29d609584592a253b232b35a50c756aa378c8ccf27799cf3be41eb0",
+       "timestamp": "2024-08-22T13:12:59.000000Z",
+       "method": "addAccessories",
+       "category": "renderer",
+       "from": "0xa6ef22a84521DDD11c1282Ec8f8a9255dbAC04a0",
+       "params": [
+        {
+         "name": "arg0",
+         "type": "bytes",
+         "value": "0xbd5b5b731cc775ee3eddb38bd5609720c0c5820016200980b89182288a244011044540a22892a6ad1b454bb26532b41cdab475b36325625552790853a9ca93f29eaafc91bcfb4ff8a7e43ba77b766757c09e995dc55df5ede9d397af4f9fe9e9e9ee99356660383538dbfce7e0ece3ff3b387f52e19ffc6725ffaf83f3a76e28f90aff94c27f42e13fa1f4bfa9f4bff9df83f3a707"
+        },
+        {
+         "name": "arg1",
+         "type": "uint80",
+         "value": "20000"
+        },
+        {
+         "name": "arg2",
+         "type": "uint16",
+         "value": "142"
+        }
+       ],
+       "value_kinds": [],
+       "error": null
+      },
+      {
+       "hash": "0x5ae3ea6860be03546262c512b888c1c02bb8c6867c984c1aba1b0411bced1a88",
+       "timestamp": "2024-08-22T13:12:59.000000Z",
+       "method": "addGlasses",
+       "category": "renderer",
+       "from": "0xa6ef22a84521DDD11c1282Ec8f8a9255dbAC04a0",
+       "params": [
+        {
+         "name": "arg0",
+         "type": "bytes",
+         "value": "0xa555416e1a4110dcee61bcded88e2c05e41352901659fc804b6ee4c83117a248f121c91738e601fc804bf809475e81f29414356ecbf18cb7d964a5adedaeeeae9ad91d4455755eefbbcbd55d77597f77d7c357a7eecc0f9cf981331f9df9e8cc5f38f317fbee7aedccd78effa5337fe9cc37ce7ce3ccbff9d95dbfea2e5757cefcb5337fedccdf38e7f7e65777fdad77fe3f555777"
+        },
+        {
+         "name": "arg1",
+         "type": "uint80",
+         "value": "3808"
+        },
+        {
+         "name": "arg2",
+         "type": "uint16",
+         "value": "23"
+        }
+       ],
+       "value_kinds": [],
+       "error": null
+      },
+      {
+       "hash": "0xef68fdfe062341b208b851cb33c6fa170e9d99c2b98d2f83e5267da57c0461cb",
+       "timestamp": "2024-08-22T13:16:35.000000Z",
+       "method": "addHeads",
+       "category": "renderer",
+       "from": "0xa6ef22a84521DDD11c1282Ec8f8a9255dbAC04a0",
+       "params": [
+        {
+         "name": "arg0",
+         "type": "bytes",
+         "value": "0xccbd0b985d577526b8d7da7b9fd7bdf7dc53b76e95542557a964dfe25ab29ac93408cb783c1da40a26167444a55d126037c206fcd04826ad18052b7a3f2d211c8c6597300e492c878e6963d4d0219800866e82787412c00d26241892b44ca64977a7bfc93099ee7cdffc6b9d73ab6e954a75aaca6466cef7adb39e7befb5cfd967efb5cf631f63e6dd46e6579bbf9f5fbdf2374ab2"
+        },
+        {
+         "name": "arg1",
+         "type": "uint80",
+         "value": "65024"
+        },
+        {
+         "name": "arg2",
+         "type": "uint16",
+         "value": "253"
+        }
+       ],
+       "value_kinds": [],
+       "error": null
+      },
+      {
+       "hash": "0x52108873982210d51b32df1109c73be18b215a9afebaae14c45d9a656d7fa370",
+       "timestamp": "2024-08-26T02:13:59.000000Z",
+       "method": "transferOwnership",
+       "category": "ownership",
+       "from": "0xa6ef22a84521DDD11c1282Ec8f8a9255dbAC04a0",
+       "params": [
+        {
+         "name": "arg0",
+         "type": "address",
+         "value": "0xb1a32fc9f9d8b2cf86c068cae13108809547ef71"
+        }
+       ],
+       "value_kinds": [
+        "address"
+       ],
+       "error": null
+      }
+     ],
+     "ownership_transfers": [
+      {
+       "date": "2024-08-22",
+       "from": "0x0000000000000000000000000000000000000000",
+       "to": "0xa6ef22a84521ddd11c1282ec8f8a9255dbac04a0",
+       "tx": "0xa319809c5ec31327ba4eae65227c1a0c046915c9bc9f34c3e6b84b2fdcb5be38"
+      },
+      {
+       "date": "2024-08-26",
+       "from": "0xa6ef22a84521ddd11c1282ec8f8a9255dbac04a0",
+       "to": "0xb1a32fc9f9d8b2cf86c068cae13108809547ef71",
+       "tx": "0x52108873982210d51b32df1109c73be18b215a9afebaae14c45d9a656d7fa370"
+      }
+     ],
+     "incomplete": false
+    },
+    "unverified_selector_hits": [],
+    "tokenuri_path": "override"
+   }
+  },
+  {
+   "address": "0xcc8a0fb5ab3c7132c1b2a0109142fb112c4ce515",
+   "via": "seeder()",
+   "in_tokenuri_path": false,
+   "via_setter": false,
+   "analysis": {
+    "address": "0xcc8a0fb5ab3c7132c1b2a0109142fb112c4ce515",
+    "verified": true,
+    "contract_name": "NounsSeeder",
+    "proxy": {
+     "kind": null
+    },
+    "owner": null,
+    "admin_fn": null,
+    "uups": false,
+    "lock_views": {},
+    "lock_flags_true": {},
+    "lock_functions": [],
+    "class_direct": "immutable",
+    "class_reason": "no uri/renderer/upgrade function in ABI and not a proxy",
+    "live_mutators": [],
+    "mutators": [],
+    "history": {},
+    "unverified_selector_hits": [],
+    "tokenuri_path": "none"
+   }
+  }
+ ],
+ "meta": {
+  "address": "0x9c8ff314c9bc7f6e59a9d9225fb22946427edc03",
+  "name": "Nouns",
+  "w5_claim_strength": "on-chain-generic",
+  "w5_claim_text": "All Noun artwork is stored and rendered on-chain.",
+  "w5_source_type": "website",
+  "w5_source_url": "https://raw.githubusercontent.com/nounsDAO/nouns-monorepo/master/packages/nouns-contracts/README.md",
+  "holders_count": 682.0,
+  "in_w5": true,
+  "gallery_slugs": "nouns",
+  "gallery_tokens": "1500",
+  "in_gallery": true,
+  "census_meta_class": "onchain-renderer",
+  "census_media_class": "data-uri",
+  "census_liveness": "alive",
+  "in_census_onchain": true,
+  "standard": "ERC-721",
+  "creator": "0xfd16f84e1f9bb5ec33b52d0133d61f7d20699658",
+  "deploy_block": 12985438.0
+ },
+ "class_deps_all": "dao-or-timelock-mutable",
+ "class_deps": "dao-or-timelock-mutable",
+ "class_final": "dao-or-timelock-mutable",
+ "pointer_power": "dao-or-timelock"
+}

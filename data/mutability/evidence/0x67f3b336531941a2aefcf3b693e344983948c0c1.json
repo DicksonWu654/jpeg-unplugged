@@ -1,0 +1,290 @@
+{
+ "address": "0x67f3b336531941a2aefcf3b693e344983948c0c1",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:46Z",
+ "code_raw": "data/raw/rpc-mutability/0x67f3b336531941a2aefcf3b693e344983948c0c1_code.json",
+ "code_len": 45,
+ "slots": {
+  "slot0": "0x0000000000000000000000000000000000000000000000000000000000000001"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0x67f3b336531941a2aefcf3b693e344983948c0c1_slots.json",
+ "verified": false,
+ "contract_name": "",
+ "proxy": {
+  "kind": "eip1167-clone",
+  "impl": "0x1462112a90d93d2f6c14eb128dcb528045cd0d93",
+  "impl_verified": true,
+  "impl_name": "TwoFiveSixProject"
+ },
+ "has_source": true,
+ "abi_from": "impl+proxy",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [
+   {
+    "hash": "0xbff44bd1d5dc03458ec411033753b07fcdbbee7ebd753ba1e40ca5c6e9c88bde",
+    "timestamp": "2026-08-07T09:18:47.000000Z",
+    "method": "0x55f804b3",
+    "from": "0x4d95B1ea2a8a021fE98b5D60E5f835Aa7bA3362B",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25702146,
+    "category": null
+   },
+   {
+    "hash": "0xcf440758b9405a63071a69086dc3e409c5af18016fcc5b8747af46fd0c7396ac",
+    "timestamp": "2022-10-27T11:19:11.000000Z",
+    "method": "setArtScriptAddress",
+    "from": "0x4d95B1ea2a8a021fE98b5D60E5f835Aa7bA3362B",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15839072,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xc8bf8e8c50bf419597c1f3439c2846b3c0d15c1b3a78dbe96e9abecfa146695e",
+    "timestamp": "2022-05-18T16:12:04.000000Z",
+    "method": "0x55f804b3",
+    "from": "0x4d95B1ea2a8a021fE98b5D60E5f835Aa7bA3362B",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 14799787,
+    "category": null
+   }
+  ],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 1,
+    "first": "2022-05-18",
+    "last": "2022-05-18",
+    "last_tx": "0x16f356934fa61f7eeb253903167b03aa7c772572971d6d0e8a1626339c74871f",
+    "list": [
+     {
+      "date": "2022-05-18",
+      "tx": "0x16f356934fa61f7eeb253903167b03aa7c772572971d6d0e8a1626339c74871f",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "4d95b1ea2a8a021fe98b5d60e5f835aa7ba3362b"
+      ],
+      "data": "0x"
+     }
+    ]
+   }
+  },
+  "decoded": [
+   {
+    "hash": "0xcf440758b9405a63071a69086dc3e409c5af18016fcc5b8747af46fd0c7396ac",
+    "timestamp": "2022-10-27T11:19:11.000000Z",
+    "method": "setArtScriptAddress",
+    "category": "renderer",
+    "from": "0x4d95B1ea2a8a021fE98b5D60E5f835Aa7bA3362B",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0xa7de2470e777174233b324e8a39d1990883b5731"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   }
+  ],
+  "ownership_transfers": [
+   {
+    "date": "2022-05-18",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0x4d95b1ea2a8a021fe98b5d60e5f835aa7ba3362b",
+    "tx": "0x16f356934fa61f7eeb253903167b03aa7c772572971d6d0e8a1626339c74871f"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0x67f3b336531941a2aefcf3b693e344983948c0c1_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0x4d95b1ea2a8a021fe98b5d60e5f835aa7ba3362b",
+  "code_raw": "data/raw/rpc-mutability/0x4d95b1ea2a8a021fe98b5d60e5f835aa7ba3362b_holdercode.json",
+  "type": "eoa",
+  "bs_name": null,
+  "ens": "256art.eth",
+  "bs_impl_names": [],
+  "bs_tags": [],
+  "is_contract": false,
+  "creator": null,
+  "is_verified": false,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "override",
+ "lock_functions": [],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [
+  {
+   "name": "setBaseURI",
+   "sig": "setBaseURI(string)",
+   "selector": "0x55f804b3",
+   "category": "uri",
+   "inputs": [
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "baseURI = _baseURI;",
+   "writes": [
+    "baseURI"
+   ],
+   "effective": "yes",
+   "power": "eoa",
+   "holder_addrs": [
+    "0x4d95b1ea2a8a021fe98b5d60e5f835aa7ba3362b"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x4d95b1ea2a8a021fe98b5d60e5f835aa7ba3362b",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": "256art.eth",
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "setArtScriptAddress",
+   "sig": "setArtScriptAddress(address)",
+   "selector": "0xcb8f1595",
+   "category": "renderer",
+   "inputs": [
+    "address"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "project.artScriptAddress = _artScriptAddress;",
+   "writes": [
+    "artScriptAddress"
+   ],
+   "effective": "no",
+   "power": "eoa",
+   "holder_addrs": [
+    "0x4d95b1ea2a8a021fe98b5d60e5f835aa7ba3362b"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x4d95b1ea2a8a021fe98b5d60e5f835aa7ba3362b",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": "256art.eth",
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  }
+ ],
+ "class_direct": "eoa-mutable",
+ "class_reason": "live setters (eoa): setBaseURI",
+ "live_mutators": [
+  "setBaseURI"
+ ],
+ "dependencies": [
+  {
+   "address": "0xa7de2470e777174233b324e8a39d1990883b5731",
+   "via": "artScriptAddress()",
+   "in_tokenuri_path": false,
+   "via_setter": true,
+   "analysis": {
+    "address": "0xa7de2470e777174233b324e8a39d1990883b5731",
+    "verified": true,
+    "contract_name": "ArtScript",
+    "proxy": {
+     "kind": null
+    },
+    "owner": {
+     "addr": "0x8c16bc0e54cad7a312862b285a5b9eb753901b68",
+     "code_raw": "data/raw/rpc-mutability/0x8c16bc0e54cad7a312862b285a5b9eb753901b68_holdercode.json",
+     "type": "eoa",
+     "note": "EIP-7702 delegated EOA",
+     "bs_name": null,
+     "ens": "tiboutshaik.eth",
+     "bs_impl_names": [
+      "EIP7702StatelessDeleGator"
+     ],
+     "bs_tags": [],
+     "is_contract": true,
+     "creator": null,
+     "is_verified": true,
+     "bs_reputation": "ok"
+    },
+    "admin_fn": null,
+    "uups": false,
+    "lock_views": {},
+    "lock_flags_true": {},
+    "lock_functions": [],
+    "class_direct": "immutable",
+    "class_reason": "no uri/renderer/upgrade function in ABI and not a proxy",
+    "live_mutators": [],
+    "mutators": [],
+    "history": {},
+    "unverified_selector_hits": [],
+    "tokenuri_path": "none"
+   }
+  }
+ ],
+ "meta": {
+  "address": "0x67f3b336531941a2aefcf3b693e344983948c0c1",
+  "name": "It's (a)live",
+  "w5_claim_strength": "on-chain-generic",
+  "w5_claim_text": "Art is on chain.",
+  "w5_source_type": "directory",
+  "w5_source_url": "https://www.fullyonchain.art/collections/its-a-live",
+  "holders_count": 118.0,
+  "in_w5": true,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": null,
+  "census_media_class": null,
+  "census_liveness": null,
+  "in_census_onchain": false,
+  "standard": "ERC-721",
+  "creator": "0x8c16bc0e54cad7a312862b285a5b9eb753901b68",
+  "deploy_block": 14799506.0
+ },
+ "class_deps_all": "immutable",
+ "class_deps": "immutable",
+ "class_final": "eoa-mutable",
+ "pointer_power": "eoa"
+}

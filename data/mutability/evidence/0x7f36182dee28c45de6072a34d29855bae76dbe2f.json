@@ -1,0 +1,320 @@
+{
+ "address": "0x7f36182dee28c45de6072a34d29855bae76dbe2f",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:24Z",
+ "code_raw": "data/raw/rpc-mutability/0x7f36182dee28c45de6072a34d29855bae76dbe2f_code.json",
+ "code_len": 2141,
+ "slots": {
+  "eip1967_impl": "0x22110d707be8a9eb9f509184e8471f9e90b55e93",
+  "eip1967_admin": "0x9d84a96e8234d757c079ee9daafb0834a298a329",
+  "slot0": "0x0000000000000000000000000000000000000000000000000000000000000001"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0x7f36182dee28c45de6072a34d29855bae76dbe2f_slots.json",
+ "verified": true,
+ "contract_name": "TransparentUpgradeableProxy",
+ "proxy": {
+  "kind": "eip1967",
+  "impl": "0x22110d707be8a9eb9f509184e8471f9e90b55e93",
+  "impl_verified": false,
+  "impl_name": "",
+  "admin": {
+   "addr": "0x9d84a96e8234d757c079ee9daafb0834a298a329",
+   "code_raw": "data/raw/rpc-mutability/0x9d84a96e8234d757c079ee9daafb0834a298a329_holdercode.json",
+   "code_len": 1881,
+   "probe_raw": "data/raw/rpc-mutability/0x9d84a96e8234d757c079ee9daafb0834a298a329_holderprobe.json",
+   "type": "contract-owned",
+   "owner": "0x25025e203f892f50c357bc0703eaf258879a8def",
+   "controller": {
+    "addr": "0x25025e203f892f50c357bc0703eaf258879a8def",
+    "code_raw": "data/raw/rpc-mutability/0x25025e203f892f50c357bc0703eaf258879a8def_holdercode.json",
+    "type": "eoa",
+    "bs_name": null,
+    "ens": "wolfgame.eth",
+    "bs_impl_names": [],
+    "bs_tags": [],
+    "is_contract": false,
+    "creator": null,
+    "is_verified": false,
+    "bs_reputation": "ok"
+   },
+   "bs_name": "ProxyAdmin",
+   "ens": null,
+   "bs_impl_names": [],
+   "bs_tags": [],
+   "is_contract": true,
+   "creator": "0x25025E203f892F50c357BC0703eAF258879a8DEF",
+   "is_verified": true,
+   "bs_reputation": "ok"
+  }
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [],
+  "events": {
+   "Upgraded(address)": {
+    "n": 4,
+    "first": "2021-11-28",
+    "last": "2026-05-23",
+    "last_tx": "0xe77f7c8050623c503c9f5dc9da0b1f9ef878a1d0f3b4df9586d6a9a97e21d02c",
+    "list": [
+     {
+      "date": "2021-11-28",
+      "tx": "0x295c63de14353a9775800946c3b10842292aeaeab3f7b4ae684815fc90812496",
+      "topics": [
+       "6aed9e5dda93b4243e87438790fea310fd182ea1"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2023-02-24",
+      "tx": "0x81c73d9489f7ae5889a42c9a1ff0eaa0f9172d5ab5be1c1eed3b298390e4d9b8",
+      "topics": [
+       "2718dd3d7913997a6dbcbbe1de697b50cde3f429"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2025-06-11",
+      "tx": "0xd6ad9fc538bce8971023177832a3838641ae74df59f045b2dd00b11bc5b0c323",
+      "topics": [
+       "fbd0e09f1c1b3516322000ac6c3c486b6afa382a"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-05-23",
+      "tx": "0xe77f7c8050623c503c9f5dc9da0b1f9ef878a1d0f3b4df9586d6a9a97e21d02c",
+      "topics": [
+       "22110d707be8a9eb9f509184e8471f9e90b55e93"
+      ],
+      "data": "0x"
+     }
+    ]
+   },
+   "AdminChanged(address,address)": {
+    "n": 1,
+    "first": "2021-11-28",
+    "last": "2021-11-28",
+    "last_tx": "0x295c63de14353a9775800946c3b10842292aeaeab3f7b4ae684815fc90812496",
+    "list": [
+     {
+      "date": "2021-11-28",
+      "tx": "0x295c63de14353a9775800946c3b10842292aeaeab3f7b4ae684815fc90812496",
+      "topics": [],
+      "data": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000009d84a96e8234d757c079ee9daafb0834a298a329"
+     }
+    ]
+   },
+   "BeaconUpgraded(address)": {
+    "n": 0
+   }
+  },
+  "decoded": [],
+  "upgrades": [
+   {
+    "date": "2021-11-28",
+    "impl": "0x6aed9e5dda93b4243e87438790fea310fd182ea1",
+    "tx": "0x295c63de14353a9775800946c3b10842292aeaeab3f7b4ae684815fc90812496"
+   },
+   {
+    "date": "2023-02-24",
+    "impl": "0x2718dd3d7913997a6dbcbbe1de697b50cde3f429",
+    "tx": "0x81c73d9489f7ae5889a42c9a1ff0eaa0f9172d5ab5be1c1eed3b298390e4d9b8"
+   },
+   {
+    "date": "2025-06-11",
+    "impl": "0xfbd0e09f1c1b3516322000ac6c3c486b6afa382a",
+    "tx": "0xd6ad9fc538bce8971023177832a3838641ae74df59f045b2dd00b11bc5b0c323"
+   },
+   {
+    "date": "2026-05-23",
+    "impl": "0x22110d707be8a9eb9f509184e8471f9e90b55e93",
+    "tx": "0xe77f7c8050623c503c9f5dc9da0b1f9ef878a1d0f3b4df9586d6a9a97e21d02c"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0x7f36182dee28c45de6072a34d29855bae76dbe2f_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0x25025e203f892f50c357bc0703eaf258879a8def",
+  "code_raw": "data/raw/rpc-mutability/0x25025e203f892f50c357bc0703eaf258879a8def_holdercode.json",
+  "type": "eoa",
+  "bs_name": null,
+  "ens": "wolfgame.eth",
+  "bs_impl_names": [],
+  "bs_tags": [],
+  "is_contract": false,
+  "creator": null,
+  "is_verified": false,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "none",
+ "lock_functions": [],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [
+  {
+   "name": "changeAdmin",
+   "sig": "changeAdmin(address)",
+   "selector": "0x8f283970",
+   "category": "upgrade",
+   "inputs": [
+    "address"
+   ],
+   "gates": [
+    {
+     "type": "named",
+     "ref": "_getAdmin"
+    }
+   ],
+   "modifiers": [
+    "ifAdmin"
+   ],
+   "body_head": "_changeAdmin(newAdmin);",
+   "writes": [],
+   "power": "eoa",
+   "holder_addrs": [
+    "0x9d84a96e8234d757c079ee9daafb0834a298a329"
+   ],
+   "holder_how": [
+    "eip1967 admin slot"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x9d84a96e8234d757c079ee9daafb0834a298a329",
+     "type": "contract-owned",
+     "bs_name": "ProxyAdmin",
+     "ens": null,
+     "desc": "ProxyAdmin->eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "upgradeTo",
+   "sig": "upgradeTo(address)",
+   "selector": "0x3659cfe6",
+   "category": "upgrade",
+   "inputs": [
+    "address"
+   ],
+   "gates": [
+    {
+     "type": "named",
+     "ref": "_getAdmin"
+    }
+   ],
+   "modifiers": [
+    "ifAdmin"
+   ],
+   "body_head": "_upgradeToAndCall(newImplementation, bytes(\"\"), false);",
+   "writes": [],
+   "power": "eoa",
+   "holder_addrs": [
+    "0x9d84a96e8234d757c079ee9daafb0834a298a329"
+   ],
+   "holder_how": [
+    "eip1967 admin slot"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x9d84a96e8234d757c079ee9daafb0834a298a329",
+     "type": "contract-owned",
+     "bs_name": "ProxyAdmin",
+     "ens": null,
+     "desc": "ProxyAdmin->eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "upgradeToAndCall",
+   "sig": "upgradeToAndCall(address,bytes)",
+   "selector": "0x4f1ef286",
+   "category": "upgrade",
+   "inputs": [
+    "address",
+    "bytes"
+   ],
+   "gates": [
+    {
+     "type": "named",
+     "ref": "_getAdmin"
+    }
+   ],
+   "modifiers": [
+    "ifAdmin"
+   ],
+   "body_head": "_upgradeToAndCall(newImplementation, data, true);",
+   "writes": [],
+   "power": "eoa",
+   "holder_addrs": [
+    "0x9d84a96e8234d757c079ee9daafb0834a298a329"
+   ],
+   "holder_how": [
+    "eip1967 admin slot"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x9d84a96e8234d757c079ee9daafb0834a298a329",
+     "type": "contract-owned",
+     "bs_name": "ProxyAdmin",
+     "ens": null,
+     "desc": "ProxyAdmin->eoa",
+     "simple": "eoa"
+    }
+   ]
+  }
+ ],
+ "class_direct": "eoa-mutable",
+ "class_reason": "live setters (eoa): changeAdmin,upgradeTo,upgradeToAndCall",
+ "live_mutators": [
+  "changeAdmin",
+  "upgradeTo",
+  "upgradeToAndCall"
+ ],
+ "dependencies": [],
+ "meta": {
+  "address": "0x7f36182dee28c45de6072a34d29855bae76dbe2f",
+  "name": "Wolf Game",
+  "w5_claim_strength": "explicit-100%/fully",
+  "w5_claim_text": "What we love most about Wolf Game is the conscious effort to put as much of the game fully on-chain.",
+  "w5_source_type": "directory",
+  "w5_source_url": "https://www.fullyonchain.art/collections/wolf-game",
+  "holders_count": 2247.0,
+  "in_w5": true,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": null,
+  "census_media_class": null,
+  "census_liveness": null,
+  "in_census_onchain": false,
+  "standard": "ERC-721",
+  "creator": "0x25025e203f892f50c357bc0703eaf258879a8def",
+  "deploy_block": 13699765.0
+ },
+ "class_deps_all": "none",
+ "class_deps": "none",
+ "class_final": "eoa-mutable",
+ "pointer_power": "eoa"
+}

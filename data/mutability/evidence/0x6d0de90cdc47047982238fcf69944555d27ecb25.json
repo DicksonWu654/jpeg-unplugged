@@ -1,0 +1,829 @@
+{
+ "address": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:22Z",
+ "code_raw": "data/raw/rpc-mutability/0x6d0de90cdc47047982238fcf69944555d27ecb25_code.json",
+ "code_len": 2141,
+ "slots": {
+  "eip1967_impl": "0xc1ff360c1e8296012db2969d1ba6e1bf3069b33e",
+  "eip1967_admin": "0x6ae4dec4e091eefcaaa4ec140d72e3b2ada6e1b0",
+  "slot0": "0x0000000000000000000000000000000000000000000000000000000000000001"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0x6d0de90cdc47047982238fcf69944555d27ecb25_slots.json",
+ "verified": true,
+ "contract_name": "TransparentUpgradeableProxy",
+ "proxy": {
+  "kind": "eip1967",
+  "impl": "0xc1ff360c1e8296012db2969d1ba6e1bf3069b33e",
+  "impl_verified": true,
+  "impl_name": "RegularsV2",
+  "admin": {
+   "addr": "0x6ae4dec4e091eefcaaa4ec140d72e3b2ada6e1b0",
+   "code_raw": "data/raw/rpc-mutability/0x6ae4dec4e091eefcaaa4ec140d72e3b2ada6e1b0_holdercode.json",
+   "code_len": 1881,
+   "probe_raw": "data/raw/rpc-mutability/0x6ae4dec4e091eefcaaa4ec140d72e3b2ada6e1b0_holderprobe.json",
+   "type": "contract-owned",
+   "owner": "0xb4005db54adecf669babc3efb19b9b7e3978ebc2",
+   "controller": {
+    "addr": "0xb4005db54adecf669babc3efb19b9b7e3978ebc2",
+    "code_raw": "data/raw/rpc-mutability/0xb4005db54adecf669babc3efb19b9b7e3978ebc2_holdercode.json",
+    "type": "eoa",
+    "bs_name": null,
+    "ens": "p0pps.eth",
+    "bs_impl_names": [],
+    "bs_tags": [],
+    "is_contract": false,
+    "creator": null,
+    "is_verified": false,
+    "bs_reputation": "ok"
+   },
+   "bs_name": "ProxyAdmin",
+   "ens": null,
+   "bs_impl_names": [],
+   "bs_tags": [],
+   "is_contract": true,
+   "creator": "0xb4005DB54aDecf669BaBC3efb19B9B7E3978ebc2",
+   "is_verified": true,
+   "bs_reputation": "ok"
+  }
+ },
+ "has_source": true,
+ "abi_from": "impl+proxy",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [
+   {
+    "hash": "0x6ed937146b7f0b29d77dc15a981e46c367b14596534d1bc0b990ffff6db3780a",
+    "timestamp": "2022-08-18T02:50:40.000000Z",
+    "method": "setMetadataParser",
+    "from": "0xb4005DB54aDecf669BaBC3efb19B9B7E3978ebc2",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15362485,
+    "category": "renderer"
+   }
+  ],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 1,
+    "first": "2021-10-30",
+    "last": "2021-10-30",
+    "last_tx": "0x2dfea6ed1cc901a41616c2f529df4e3ae82dc76b296ec1e0ce7b2a0cd7e7bd1c",
+    "list": [
+     {
+      "date": "2021-10-30",
+      "tx": "0x2dfea6ed1cc901a41616c2f529df4e3ae82dc76b296ec1e0ce7b2a0cd7e7bd1c",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "b4005db54adecf669babc3efb19b9b7e3978ebc2"
+      ],
+      "data": "0x"
+     }
+    ]
+   },
+   "Upgraded(address)": {
+    "n": 2,
+    "first": "2021-10-30",
+    "last": "2022-08-18",
+    "last_tx": "0x30b12637ab87ef49d6c3885113a314a78b345d77ca66fac7e611e7050eb5d64e",
+    "list": [
+     {
+      "date": "2021-10-30",
+      "tx": "0x2dfea6ed1cc901a41616c2f529df4e3ae82dc76b296ec1e0ce7b2a0cd7e7bd1c",
+      "topics": [
+       "7ffd2171b10c134ca9de94df09d4f9adfeb096f3"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2022-08-18",
+      "tx": "0x30b12637ab87ef49d6c3885113a314a78b345d77ca66fac7e611e7050eb5d64e",
+      "topics": [
+       "c1ff360c1e8296012db2969d1ba6e1bf3069b33e"
+      ],
+      "data": "0x"
+     }
+    ]
+   },
+   "AdminChanged(address,address)": {
+    "n": 1,
+    "first": "2021-10-30",
+    "last": "2021-10-30",
+    "last_tx": "0x2dfea6ed1cc901a41616c2f529df4e3ae82dc76b296ec1e0ce7b2a0cd7e7bd1c",
+    "list": [
+     {
+      "date": "2021-10-30",
+      "tx": "0x2dfea6ed1cc901a41616c2f529df4e3ae82dc76b296ec1e0ce7b2a0cd7e7bd1c",
+      "topics": [],
+      "data": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000006ae4dec4e091eefcaaa4ec140d72e3b2ada6e1b0"
+     }
+    ]
+   },
+   "BeaconUpgraded(address)": {
+    "n": 0
+   }
+  },
+  "decoded": [
+   {
+    "hash": "0x6ed937146b7f0b29d77dc15a981e46c367b14596534d1bc0b990ffff6db3780a",
+    "timestamp": "2022-08-18T02:50:40.000000Z",
+    "method": "setMetadataParser",
+    "category": "renderer",
+    "from": "0xb4005DB54aDecf669BaBC3efb19B9B7E3978ebc2",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0x20fd34215489d59d323909f1d9fc45ef1c29666b"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   }
+  ],
+  "ownership_transfers": [
+   {
+    "date": "2021-10-30",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0xb4005db54adecf669babc3efb19b9b7e3978ebc2",
+    "tx": "0x2dfea6ed1cc901a41616c2f529df4e3ae82dc76b296ec1e0ce7b2a0cd7e7bd1c"
+   }
+  ],
+  "upgrades": [
+   {
+    "date": "2021-10-30",
+    "impl": "0x7ffd2171b10c134ca9de94df09d4f9adfeb096f3",
+    "tx": "0x2dfea6ed1cc901a41616c2f529df4e3ae82dc76b296ec1e0ce7b2a0cd7e7bd1c"
+   },
+   {
+    "date": "2022-08-18",
+    "impl": "0xc1ff360c1e8296012db2969d1ba6e1bf3069b33e",
+    "tx": "0x30b12637ab87ef49d6c3885113a314a78b345d77ca66fac7e611e7050eb5d64e"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0x6d0de90cdc47047982238fcf69944555d27ecb25_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0xb4005db54adecf669babc3efb19b9b7e3978ebc2",
+  "code_raw": "data/raw/rpc-mutability/0xb4005db54adecf669babc3efb19b9b7e3978ebc2_holdercode.json",
+  "type": "eoa",
+  "bs_name": null,
+  "ens": "p0pps.eth",
+  "bs_impl_names": [],
+  "bs_tags": [],
+  "is_contract": false,
+  "creator": null,
+  "is_verified": false,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "override",
+ "lock_functions": [],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [
+  {
+   "name": "setMetadataParser",
+   "sig": "setMetadataParser(address)",
+   "selector": "0x077f402b",
+   "category": "renderer",
+   "inputs": [
+    "address"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner()"
+   ],
+   "body_head": "mdParser = MDParserInterface(addr);",
+   "writes": [
+    "mdParser"
+   ],
+   "effective": "yes",
+   "power": "eoa",
+   "holder_addrs": [
+    "0xb4005db54adecf669babc3efb19b9b7e3978ebc2"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xb4005db54adecf669babc3efb19b9b7e3978ebc2",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": "p0pps.eth",
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "changeAdmin",
+   "sig": "changeAdmin(address)",
+   "selector": "0x8f283970",
+   "category": "upgrade",
+   "inputs": [
+    "address"
+   ],
+   "gates": [
+    {
+     "type": "named",
+     "ref": "_getAdmin"
+    }
+   ],
+   "modifiers": [
+    "ifAdmin"
+   ],
+   "body_head": "_changeAdmin(newAdmin);",
+   "writes": [],
+   "power": "eoa",
+   "holder_addrs": [
+    "0x6ae4dec4e091eefcaaa4ec140d72e3b2ada6e1b0"
+   ],
+   "holder_how": [
+    "eip1967 admin slot"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x6ae4dec4e091eefcaaa4ec140d72e3b2ada6e1b0",
+     "type": "contract-owned",
+     "bs_name": "ProxyAdmin",
+     "ens": null,
+     "desc": "ProxyAdmin->eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "upgradeTo",
+   "sig": "upgradeTo(address)",
+   "selector": "0x3659cfe6",
+   "category": "upgrade",
+   "inputs": [
+    "address"
+   ],
+   "gates": [],
+   "modifiers": [],
+   "body_head": "_authorizeUpgrade(newImplementation);\n        _upgradeToAndCallSecure(newImplementation, bytes(\"\"), false);",
+   "writes": [],
+   "power": "eoa",
+   "holder_addrs": [
+    "0x6ae4dec4e091eefcaaa4ec140d72e3b2ada6e1b0"
+   ],
+   "holder_how": [
+    "no access check found in header/body head",
+    "fallback: eip1967 admin slot"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x6ae4dec4e091eefcaaa4ec140d72e3b2ada6e1b0",
+     "type": "contract-owned",
+     "bs_name": "ProxyAdmin",
+     "ens": null,
+     "desc": "ProxyAdmin->eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "upgradeToAndCall",
+   "sig": "upgradeToAndCall(address,bytes)",
+   "selector": "0x4f1ef286",
+   "category": "upgrade",
+   "inputs": [
+    "address",
+    "bytes"
+   ],
+   "gates": [],
+   "modifiers": [],
+   "body_head": "_authorizeUpgrade(newImplementation);\n        _upgradeToAndCallSecure(newImplementation, data, true);",
+   "writes": [],
+   "power": "eoa",
+   "holder_addrs": [
+    "0x6ae4dec4e091eefcaaa4ec140d72e3b2ada6e1b0"
+   ],
+   "holder_how": [
+    "no access check found in header/body head",
+    "fallback: eip1967 admin slot"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x6ae4dec4e091eefcaaa4ec140d72e3b2ada6e1b0",
+     "type": "contract-owned",
+     "bs_name": "ProxyAdmin",
+     "ens": null,
+     "desc": "ProxyAdmin->eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "setContractURI",
+   "sig": "setContractURI(string)",
+   "selector": "0x938e3d7b",
+   "category": "contracturi",
+   "inputs": [
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner()"
+   ],
+   "body_head": "_contractURI = newURI;",
+   "writes": [
+    "_contractURI"
+   ],
+   "power": "eoa",
+   "holder_addrs": [
+    "0xb4005db54adecf669babc3efb19b9b7e3978ebc2"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xb4005db54adecf669babc3efb19b9b7e3978ebc2",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": "p0pps.eth",
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  }
+ ],
+ "class_direct": "eoa-mutable",
+ "class_reason": "live setters (eoa): changeAdmin,setMetadataParser,upgradeTo,upgradeToAndCall",
+ "live_mutators": [
+  "changeAdmin",
+  "setMetadataParser",
+  "upgradeTo",
+  "upgradeToAndCall"
+ ],
+ "dependencies": [
+  {
+   "address": "0x20fd34215489d59d323909f1d9fc45ef1c29666b",
+   "via": "mdParser()",
+   "in_tokenuri_path": true,
+   "via_setter": false,
+   "analysis": {
+    "address": "0x20fd34215489d59d323909f1d9fc45ef1c29666b",
+    "verified": true,
+    "contract_name": "MetadataParser",
+    "proxy": {
+     "kind": null
+    },
+    "owner": null,
+    "admin_fn": null,
+    "uups": false,
+    "lock_views": {},
+    "lock_flags_true": {},
+    "lock_functions": [
+     "renounceRole"
+    ],
+    "class_direct": "eoa-mutable",
+    "class_reason": "live setters (eoa): setDescription,setExternalUrl,setFullImage,setImage,setMetadata,setStorageAddr",
+    "live_mutators": [
+     "setDescription",
+     "setExternalUrl",
+     "setFullImage",
+     "setImage",
+     "setMetadata",
+     "setStorageAddr"
+    ],
+    "mutators": [
+     {
+      "name": "setExternalUrl",
+      "sig": "setExternalUrl(string)",
+      "selector": "0x26d58ad3",
+      "category": "uri",
+      "inputs": [
+       "string"
+      ],
+      "gates": [
+       {
+        "type": "role",
+        "ref": "MINTER_ROLE"
+       }
+      ],
+      "modifiers": [
+       "onlyRole(MINTER_ROLE)"
+      ],
+      "body_head": "metadata.external_url = external_url;",
+      "writes": [
+       "external_url"
+      ],
+      "effective": "yes",
+      "power": "eoa",
+      "holder_addrs": [
+       "0xb4005db54adecf669babc3efb19b9b7e3978ebc2"
+      ],
+      "holder_how": [
+       "role:MINTER_ROLE"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0xb4005db54adecf669babc3efb19b9b7e3978ebc2",
+        "type": "eoa",
+        "bs_name": null,
+        "ens": "p0pps.eth",
+        "desc": "eoa",
+        "simple": "eoa"
+       }
+      ]
+     },
+     {
+      "name": "setDescription",
+      "sig": "setDescription(string)",
+      "selector": "0x90c3f38f",
+      "category": "renderer",
+      "inputs": [
+       "string"
+      ],
+      "gates": [
+       {
+        "type": "role",
+        "ref": "MINTER_ROLE"
+       }
+      ],
+      "modifiers": [
+       "onlyRole(MINTER_ROLE)"
+      ],
+      "body_head": "metadata.description = description;",
+      "writes": [
+       "description"
+      ],
+      "effective": "yes",
+      "power": "eoa",
+      "holder_addrs": [
+       "0xb4005db54adecf669babc3efb19b9b7e3978ebc2"
+      ],
+      "holder_how": [
+       "role:MINTER_ROLE"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0xb4005db54adecf669babc3efb19b9b7e3978ebc2",
+        "type": "eoa",
+        "bs_name": null,
+        "ens": "p0pps.eth",
+        "desc": "eoa",
+        "simple": "eoa"
+       }
+      ]
+     },
+     {
+      "name": "setFullImage",
+      "sig": "setFullImage(string,string,uint256)",
+      "selector": "0x6d5f5fe9",
+      "category": "renderer",
+      "inputs": [
+       "string",
+       "string",
+       "uint256"
+      ],
+      "gates": [
+       {
+        "type": "role",
+        "ref": "MINTER_ROLE"
+       }
+      ],
+      "modifiers": [
+       "onlyRole(MINTER_ROLE)"
+      ],
+      "body_head": "require(_batch == 1 || _batch == 2, \"only two batches\");\n      if (_batch == 1)\n        metadata.image_base_full_uri_1 = _uri;\n      else\n        metadata.image",
+      "writes": [
+       "image_base_full_uri_1",
+       "image_base_full_uri_2",
+       "image_full_extension"
+      ],
+      "effective": "yes",
+      "power": "eoa",
+      "holder_addrs": [
+       "0xb4005db54adecf669babc3efb19b9b7e3978ebc2"
+      ],
+      "holder_how": [
+       "role:MINTER_ROLE"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0xb4005db54adecf669babc3efb19b9b7e3978ebc2",
+        "type": "eoa",
+        "bs_name": null,
+        "ens": "p0pps.eth",
+        "desc": "eoa",
+        "simple": "eoa"
+       }
+      ]
+     },
+     {
+      "name": "setImage",
+      "sig": "setImage(string,string)",
+      "selector": "0xc4e1750b",
+      "category": "renderer",
+      "inputs": [
+       "string",
+       "string"
+      ],
+      "gates": [
+       {
+        "type": "role",
+        "ref": "MINTER_ROLE"
+       }
+      ],
+      "modifiers": [
+       "onlyRole(MINTER_ROLE)"
+      ],
+      "body_head": "metadata.image_base_uri = image_base_uri;\n      metadata.image_extension = image_extension;",
+      "writes": [
+       "image_base_uri",
+       "image_extension"
+      ],
+      "effective": "yes",
+      "power": "eoa",
+      "holder_addrs": [
+       "0xb4005db54adecf669babc3efb19b9b7e3978ebc2"
+      ],
+      "holder_how": [
+       "role:MINTER_ROLE"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0xb4005db54adecf669babc3efb19b9b7e3978ebc2",
+        "type": "eoa",
+        "bs_name": null,
+        "ens": "p0pps.eth",
+        "desc": "eoa",
+        "simple": "eoa"
+       }
+      ]
+     },
+     {
+      "name": "setMetadata",
+      "sig": "setMetadata((string,string,string,string,string,string,string,string))",
+      "selector": "0x39b71788",
+      "category": "renderer",
+      "inputs": [
+       "tuple"
+      ],
+      "gates": [
+       {
+        "type": "role",
+        "ref": "MINTER_ROLE"
+       }
+      ],
+      "modifiers": [
+       "onlyRole(MINTER_ROLE)"
+      ],
+      "body_head": "metadata = _metadata;",
+      "writes": [
+       "metadata"
+      ],
+      "effective": "yes",
+      "power": "eoa",
+      "holder_addrs": [
+       "0xb4005db54adecf669babc3efb19b9b7e3978ebc2"
+      ],
+      "holder_how": [
+       "role:MINTER_ROLE"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0xb4005db54adecf669babc3efb19b9b7e3978ebc2",
+        "type": "eoa",
+        "bs_name": null,
+        "ens": "p0pps.eth",
+        "desc": "eoa",
+        "simple": "eoa"
+       }
+      ]
+     },
+     {
+      "name": "setStorageAddr",
+      "sig": "setStorageAddr(address)",
+      "selector": "0xa6fa0b7b",
+      "category": "renderer",
+      "inputs": [
+       "address"
+      ],
+      "gates": [
+       {
+        "type": "role",
+        "ref": "MINTER_ROLE"
+       }
+      ],
+      "modifiers": [
+       "onlyRole(MINTER_ROLE)"
+      ],
+      "body_head": "storageContract = storageI(_addr);",
+      "writes": [
+       "storageContract"
+      ],
+      "effective": "yes",
+      "power": "eoa",
+      "holder_addrs": [
+       "0xb4005db54adecf669babc3efb19b9b7e3978ebc2"
+      ],
+      "holder_how": [
+       "role:MINTER_ROLE"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0xb4005db54adecf669babc3efb19b9b7e3978ebc2",
+        "type": "eoa",
+        "bs_name": null,
+        "ens": "p0pps.eth",
+        "desc": "eoa",
+        "simple": "eoa"
+       }
+      ]
+     },
+     {
+      "name": "setTrait",
+      "sig": "setTrait(uint8,uint8,string)",
+      "selector": "0xab790932",
+      "category": "renderer",
+      "inputs": [
+       "uint8",
+       "uint8",
+       "string"
+      ],
+      "gates": [
+       {
+        "type": "role",
+        "ref": "MINTER_ROLE"
+       }
+      ],
+      "modifiers": [
+       "onlyRole(MINTER_ROLE)"
+      ],
+      "body_head": "traitValues[trait_type][trait_idx] = value;",
+      "writes": [
+       "traitValues"
+      ],
+      "effective": "no",
+      "power": "eoa",
+      "holder_addrs": [
+       "0xb4005db54adecf669babc3efb19b9b7e3978ebc2"
+      ],
+      "holder_how": [
+       "role:MINTER_ROLE"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0xb4005db54adecf669babc3efb19b9b7e3978ebc2",
+        "type": "eoa",
+        "bs_name": null,
+        "ens": "p0pps.eth",
+        "desc": "eoa",
+        "simple": "eoa"
+       }
+      ]
+     },
+     {
+      "name": "setTraitType",
+      "sig": "setTraitType(uint8,string)",
+      "selector": "0x1f36f142",
+      "category": "renderer",
+      "inputs": [
+       "uint8",
+       "string"
+      ],
+      "gates": [
+       {
+        "type": "role",
+        "ref": "MINTER_ROLE"
+       }
+      ],
+      "modifiers": [
+       "onlyRole(MINTER_ROLE)"
+      ],
+      "body_head": "traits[trait_type_idx] = TraitType(trait_type, trait_type_idx);",
+      "writes": [
+       "traits"
+      ],
+      "effective": "no",
+      "power": "eoa",
+      "holder_addrs": [
+       "0xb4005db54adecf669babc3efb19b9b7e3978ebc2"
+      ],
+      "holder_how": [
+       "role:MINTER_ROLE"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0xb4005db54adecf669babc3efb19b9b7e3978ebc2",
+        "type": "eoa",
+        "bs_name": null,
+        "ens": "p0pps.eth",
+        "desc": "eoa",
+        "simple": "eoa"
+       }
+      ]
+     }
+    ],
+    "history": {
+     "txs": [],
+     "events": {},
+     "decoded": [],
+     "incomplete": false
+    },
+    "unverified_selector_hits": [],
+    "tokenuri_path": "override"
+   }
+  }
+ ],
+ "meta": {
+  "address": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+  "name": "Regulars",
+  "w5_claim_strength": null,
+  "w5_claim_text": null,
+  "w5_source_type": null,
+  "w5_source_url": null,
+  "holders_count": 2367.0,
+  "in_w5": false,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": "data-uri",
+  "census_media_class": "ipfs",
+  "census_liveness": "alive",
+  "in_census_onchain": true,
+  "standard": "ERC-721",
+  "creator": "0xb4005db54adecf669babc3efb19b9b7e3978ebc2",
+  "deploy_block": 13518847.0
+ },
+ "class_deps_all": "eoa-mutable",
+ "class_deps": "eoa-mutable",
+ "class_final": "eoa-mutable",
+ "pointer_power": "eoa"
+}

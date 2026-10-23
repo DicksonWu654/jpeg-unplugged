@@ -1,0 +1,103 @@
+{
+ "address": "0x37a8faac244b4d21bade30db8accee784a3f170d",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:46Z",
+ "code_raw": "data/raw/rpc-mutability/0x37a8faac244b4d21bade30db8accee784a3f170d_code.json",
+ "code_len": 22621,
+ "slots": {
+  "slot0": "0x4c6f6f742028666f72204170652900000000000000000000000000000000001c"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0x37a8faac244b4d21bade30db8accee784a3f170d_slots.json",
+ "verified": true,
+ "contract_name": "LootForApe",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 1,
+    "first": "2021-09-03",
+    "last": "2021-09-03",
+    "last_tx": "0xff9c199e1dd20b9a71976a7f74a387d0bde7429f464f76af18dacfb05b8aa79f",
+    "list": [
+     {
+      "date": "2021-09-03",
+      "tx": "0xff9c199e1dd20b9a71976a7f74a387d0bde7429f464f76af18dacfb05b8aa79f",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "8f20914995adb5c8ced34d54da14be1a9aaccf62"
+      ],
+      "data": "0x"
+     }
+    ]
+   }
+  },
+  "decoded": [],
+  "ownership_transfers": [
+   {
+    "date": "2021-09-03",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0x8f20914995adb5c8ced34d54da14be1a9aaccf62",
+    "tx": "0xff9c199e1dd20b9a71976a7f74a387d0bde7429f464f76af18dacfb05b8aa79f"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0x37a8faac244b4d21bade30db8accee784a3f170d_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0x8f20914995adb5c8ced34d54da14be1a9aaccf62",
+  "code_raw": "data/raw/rpc-mutability/0x8f20914995adb5c8ced34d54da14be1a9aaccf62_holdercode.json",
+  "type": "eoa",
+  "bs_name": null,
+  "ens": null,
+  "bs_impl_names": [],
+  "bs_tags": [],
+  "is_contract": false,
+  "creator": null,
+  "is_verified": false,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "override",
+ "lock_functions": [],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [],
+ "class_direct": "immutable",
+ "class_reason": "no uri/renderer/upgrade function in ABI and not a proxy",
+ "live_mutators": [],
+ "dependencies": [],
+ "meta": {
+  "address": "0x37a8faac244b4d21bade30db8accee784a3f170d",
+  "name": "Loot (for Ape)",
+  "w5_claim_strength": "on-chain-generic",
+  "w5_claim_text": "string memory json = Base64.encode(bytes(string(abi.encodePacked('{\"name\": \"Bag #', toString(tokenId), '\", \"description\": \"Loot (for Ape) is randomized adventurer gear generated and stored on chain. Stats, images, and other functionality are intentionally omitted for others to interpret. Feel free to use Loot in any way you want.\", \"image\": \"data:image/svg+xml;base64,', Base64.encode(bytes(output)",
+  "w5_source_type": "contract-source",
+  "w5_source_url": "https://etherscan.io/address/0x37a8faac244b4d21bade30db8accee784a3f170d#code (contracts/LootForApe.sol:287)",
+  "holders_count": 118.0,
+  "in_w5": true,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": "onchain-renderer",
+  "census_media_class": "data-uri",
+  "census_liveness": "alive",
+  "in_census_onchain": true,
+  "standard": "ERC-721",
+  "creator": "0x8f20914995adb5c8ced34d54da14be1a9aaccf62",
+  "deploy_block": 13154173.0
+ },
+ "class_deps_all": "none",
+ "class_deps": "none",
+ "class_final": "immutable",
+ "pointer_power": null
+}

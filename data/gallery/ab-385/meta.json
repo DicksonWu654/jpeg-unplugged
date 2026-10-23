@@ -1,0 +1,35 @@
+{
+ "collection": "Art Blocks #385 Dipolar (Junia Farquhar)",
+ "slug": "ab-385",
+ "contract": "0x99a9B7c1116f9ceEB1652de04d5969CcE509B069",
+ "token_id": 385000000,
+ "project_id": 385,
+ "project_name": "Dipolar",
+ "artist": "Junia Farquhar",
+ "script_type": "paper@0.12.15",
+ "script_count": 2,
+ "script_bytes": 18776,
+ "token_hash": "0x96df6923f51eb28437fbb2e46421d47e9fe124895eae2f8a901d29e50d113f6e",
+ "chain_method": "Art Blocks: project script on core contract + libraries from on-chain Dependency Registry, assembled by on-chain Generator getTokenHtml()",
+ "chain_call": "GenArt721Generator.getTokenHtml(0x99a9B7c1116f9ceEB1652de04d5969CcE509B069, 385000000) @ 0x953D288708bB771F969FCfD9BA0819eF506Ac718",
+ "medium": "html+js (paper@0.12.15)",
+ "fields": {},
+ "rpc": {
+  "public_rpc_ok": true,
+  "rpc": "public",
+  "gas_estimate": 950866
+ },
+ "generator_embeds_project_script": true,
+ "note": "tokenURI of the core contract is an HTTPS URL on the Art Blocks API; B uses the on-chain Generator output instead (the honest on-chain test)",
+ "artwork_file": "artwork.html",
+ "doc_type": "text/html; charset=utf-8",
+ "artwork_bytes": 25616,
+ "artwork_sha256": "fd56cbacaa4784d3eb74d2de16144a2d2dcd7cd506db347dffce2165933acfc7",
+ "declared": {
+  "load": [
+   "https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.15/paper-full.min.js"
+  ],
+  "literals": []
+ },
+ "built_at": "2026-10-21T20:21:37Z"
+}

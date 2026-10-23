@@ -1,0 +1,567 @@
+{
+  "collection": {
+    "rank": 4,
+    "source_rank": 4,
+    "name": "Art Blocks",
+    "contract": "0x059edd72cd353df5106d2b9cc5ab83a52287ac3a",
+    "contracts": [
+      "0x059edd72cd353df5106d2b9cc5ab83a52287ac3a"
+    ],
+    "slug": "art-blocks",
+    "volume_usd": 1493973579.8669,
+    "volume_source": "CryptoSlam all-time Ethereum owner-to-owner sales, wash-filtered USD",
+    "source_url": "https://web-api.cryptoslam.io/v1/sales/rank-by-volume?timeRange=all&orderBy=rank&sortDirection=asc&offset=0&limit=100&blockchainId=0&hideInscriptions=false",
+    "ranking_evidence": "data/raw/top100-api/cryptoslam-ranking-0.json",
+    "identity_evidence": "data/raw/top100-api/cryptoslam-info-art-blocks.json",
+    "token_count": 0,
+    "all_time_volume": 1493973579.8669,
+    "volume_currency": "USD",
+    "kind": "art-avatar",
+    "metadata_location": "http",
+    "metadata_classes": [
+      "http"
+    ],
+    "media_location": "http",
+    "primary_image_location": "http",
+    "media_classes": [
+      "http"
+    ],
+    "liveness": "alive",
+    "liveness_exact": "alive",
+    "all_declared_media_liveness": "alive",
+    "metadata_failed": false,
+    "n_alive": 3,
+    "n_dead": 0,
+    "n_unknown": 0,
+    "n_degraded": 0,
+    "key_domain_or_gateway": "api.artblocks.io; generator.artblocks.io; media-proxy.artblocks.io",
+    "hosts": [
+      "api.artblocks.io",
+      "generator.artblocks.io",
+      "media-proxy.artblocks.io"
+    ],
+    "hardcoded_gateways": [],
+    "http_origin_dependency": true,
+    "uses_ipfs": false,
+    "uses_arweave": false,
+    "fully_onchain_all_declared_media": false,
+    "metadata_and_primary_image_onchain": false,
+    "mutability_class": "eoa-mutable",
+    "single_key_mutable": true,
+    "single_key_repointable": true,
+    "base_uri_or_renderer": "0x059edd72cd353df5106d2b9cc5ab83a52287ac3a.tokenURI/uri",
+    "control": [
+      {
+        "contract": "0x059edd72cd353df5106d2b9cc5ab83a52287ac3a",
+        "class": "eoa-mutable",
+        "pointer_power": "eoa",
+        "reason": "Art Blocks V0/V1 (per-project artist gated projectBaseURI); tokenURI = baseURI + id (off-chain API); 3/3 sampled project scripts locked (lock does not freeze projectBaseURI)",
+        "owner": null,
+        "proxy": {
+          "kind": null
+        },
+        "live_mutators": [
+          {
+            "name": "clearTokenIpfsImageUri",
+            "sig": "clearTokenIpfsImageUri(uint256)",
+            "category": "uri",
+            "power": "unknown",
+            "holders": [],
+            "effective": "unknown",
+            "reason": null
+          },
+          {
+            "name": "overrideTokenDynamicImageWithIpfsLink",
+            "sig": "overrideTokenDynamicImageWithIpfsLink(uint256,string)",
+            "category": "uri",
+            "power": "unknown",
+            "holders": [],
+            "effective": "yes",
+            "reason": null
+          },
+          {
+            "name": "toggleProjectUseIpfsForStatic",
+            "sig": "toggleProjectUseIpfsForStatic(uint256)",
+            "category": "uri",
+            "power": "unknown",
+            "holders": [],
+            "effective": "yes",
+            "reason": null
+          },
+          {
+            "name": "updateProjectBaseIpfsURI",
+            "sig": "updateProjectBaseIpfsURI(uint256,string)",
+            "category": "uri",
+            "power": "unknown",
+            "holders": [],
+            "effective": "yes",
+            "reason": null
+          },
+          {
+            "name": "updateProjectBaseURI",
+            "sig": "updateProjectBaseURI(uint256,string)",
+            "category": "uri",
+            "power": "unknown",
+            "holders": [],
+            "effective": "yes",
+            "reason": null
+          },
+          {
+            "name": "addProject",
+            "sig": "addProject(uint256,bool)",
+            "category": "renderer",
+            "power": "unknown",
+            "holders": [],
+            "effective": "yes",
+            "reason": null
+          }
+        ],
+        "lock_flags": {},
+        "dependencies": [],
+        "pointer_getters": [],
+        "analyzed_at": "2026-10-21T23:43:15Z",
+        "history_incomplete": false,
+        "evidence": "data/mutability/evidence/0x059edd72cd353df5106d2b9cc5ab83a52287ac3a.json"
+      }
+    ],
+    "samples": 3,
+    "distinct_token_ids": 3,
+    "sample_note": null,
+    "source_contracts_without_sampleable_nfts": [],
+    "ownership_scope_gaps": [],
+    "refreshed_at": "2026-10-23T03:05:00Z",
+    "opensea_rank": 26,
+    "ranking_scope_disagreement": true,
+    "metadata_adapter": false,
+    "evidence": [
+      "data/raw/top100-census/0x059edd72cd353df5106d2b9cc5ab83a52287ac3a/result.json.gz"
+    ],
+    "delivery_note": null
+  },
+  "samples": [
+    {
+      "contract": "0x059edd72cd353df5106d2b9cc5ab83a52287ac3a",
+      "token_id": "2000000",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(0) [low; totalSupply=11012]",
+      "metadata_location": "http",
+      "metadata_uri": "https://api.artblocks.io/token/2000000",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "api.artblocks.io",
+          "url": "https://api.artblocks.io/token/2000000",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 4,
+          "final_url": "https://token.artblocks.io/1/0x059edd72cd353df5106d2b9cc5ab83a52287ac3a/2000000",
+          "content_type": "application/json",
+          "size": 2166,
+          "content_length": null,
+          "sha256": "fd8eaed880dc6da745ba29e19b7918527811a9725ad1ea7aa6a525edcc8a66d4",
+          "t": "2026-10-23T02:50:10Z",
+          "reg_domain_dns": null,
+          "redirected": true
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "http",
+          "host": "media-proxy.artblocks.io",
+          "gateway": null,
+          "uri": "https://media-proxy.artblocks.io/1/0x059edd72cd353df5106d2b9cc5ab83a52287ac3a/2000000.png",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "media-proxy.artblocks.io",
+              "url": "https://media-proxy.artblocks.io/1/0x059edd72cd353df5106d2b9cc5ab83a52287ac3a/2000000.png",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 6,
+              "final_url": "a dead server",
+              "content_type": "image/png",
+              "size": 29611,
+              "content_length": 29611,
+              "sha256": "0a0b7edd33b5e522db1208b05d210aba10fc6336c07ef19ea21a9c4eeec07849",
+              "t": "2026-10-23T02:50:11Z",
+              "reg_domain_dns": null,
+              "redirected": true
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "http",
+        "anim_class": null,
+        "image_verdict": "alive",
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "http"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "alive",
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd00000000000000000000000000000000000000000000000000000000001e8480",
+          "endpoint": "https://eth.rpc.blxrbdn.com",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x059edd72cd353df5106d2b9cc5ab83a52287ac3a/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0x059edd72cd353df5106d2b9cc5ab83a52287ac3a",
+      "token_id": "4494",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(5506) [mid; totalSupply=11012]",
+      "metadata_location": "http",
+      "metadata_uri": "https://api.artblocks.io/token/4494",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "api.artblocks.io",
+          "url": "https://api.artblocks.io/token/4494",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 5,
+          "final_url": "https://token.artblocks.io/1/0x059edd72cd353df5106d2b9cc5ab83a52287ac3a/4494",
+          "content_type": "application/json",
+          "size": 2790,
+          "content_length": null,
+          "sha256": "c99846a929bf64e8e6f721934d265dfa12bc541b5c675daabde1770bf567cfaa",
+          "t": "2026-10-23T02:50:11Z",
+          "reg_domain_dns": null,
+          "redirected": true
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "http",
+          "host": "media-proxy.artblocks.io",
+          "gateway": null,
+          "uri": "https://media-proxy.artblocks.io/1/0x059edd72cd353df5106d2b9cc5ab83a52287ac3a/4494.png",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "media-proxy.artblocks.io",
+              "url": "https://media-proxy.artblocks.io/1/0x059edd72cd353df5106d2b9cc5ab83a52287ac3a/4494.png",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 8,
+              "final_url": "a dead server",
+              "content_type": "image/png",
+              "size": 65536,
+              "content_length": 250135,
+              "sha256": "ffcdb3878bc4736c0b1c2032d05b14c5adce3e9625e590957863de5cb9e4a7b0",
+              "t": "2026-10-23T02:50:12Z",
+              "reg_domain_dns": null,
+              "redirected": true
+            }
+          ]
+        },
+        {
+          "field": "animation_url",
+          "location": "http",
+          "host": "generator.artblocks.io",
+          "gateway": null,
+          "uri": "https://generator.artblocks.io/1/0x059edd72cd353df5106d2b9cc5ab83a52287ac3a/4494",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok-html",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "generator.artblocks.io",
+              "url": "https://generator.artblocks.io/1/0x059edd72cd353df5106d2b9cc5ab83a52287ac3a/4494",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok-html",
+              "seq": 9,
+              "final_url": "https://generator.artblocks.io/1/0x059edd72cd353df5106d2b9cc5ab83a52287ac3a/4494",
+              "content_type": "text/html; charset=UTF-8",
+              "size": 6124,
+              "content_length": null,
+              "sha256": "426471a3c6a99ee94a217554ef86c641af6c377e1443a1d290bffe2ceabdcefd",
+              "t": "2026-10-23T02:50:13Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "http",
+        "anim_class": "http",
+        "image_verdict": "alive",
+        "anim_verdict": "alive",
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "http",
+          "animation_url": "http"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "alive",
+        "anim_verdict_exact": "alive",
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd000000000000000000000000000000000000000000000000000000000000118e",
+          "endpoint": "https://eth.rpc.blxrbdn.com",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x059edd72cd353df5106d2b9cc5ab83a52287ac3a/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0x059edd72cd353df5106d2b9cc5ab83a52287ac3a",
+      "token_id": "9999",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(11011) [recent; totalSupply=11012]",
+      "metadata_location": "http",
+      "metadata_uri": "https://api.artblocks.io/token/9999",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "api.artblocks.io",
+          "url": "https://api.artblocks.io/token/9999",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 7,
+          "final_url": "https://token.artblocks.io/1/0x059edd72cd353df5106d2b9cc5ab83a52287ac3a/9999",
+          "content_type": "application/json",
+          "size": 2791,
+          "content_length": null,
+          "sha256": "6e141cf87471d14573a6aee7aa5fd177c0dec20b5822ce44f22b8c59b039222d",
+          "t": "2026-10-23T02:50:11Z",
+          "reg_domain_dns": null,
+          "redirected": true
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "http",
+          "host": "media-proxy.artblocks.io",
+          "gateway": null,
+          "uri": "https://media-proxy.artblocks.io/1/0x059edd72cd353df5106d2b9cc5ab83a52287ac3a/9999.png",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "media-proxy.artblocks.io",
+              "url": "https://media-proxy.artblocks.io/1/0x059edd72cd353df5106d2b9cc5ab83a52287ac3a/9999.png",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 10,
+              "final_url": "a dead server",
+              "content_type": "image/png",
+              "size": 65536,
+              "content_length": 232707,
+              "sha256": "afb1a249d69195e8b56e9fcf60f3deb2c4fe934f1a4494e7e980017681b4f004",
+              "t": "2026-10-23T02:50:12Z",
+              "reg_domain_dns": null,
+              "redirected": true
+            }
+          ]
+        },
+        {
+          "field": "animation_url",
+          "location": "http",
+          "host": "generator.artblocks.io",
+          "gateway": null,
+          "uri": "https://generator.artblocks.io/1/0x059edd72cd353df5106d2b9cc5ab83a52287ac3a/9999",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok-html",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "generator.artblocks.io",
+              "url": "https://generator.artblocks.io/1/0x059edd72cd353df5106d2b9cc5ab83a52287ac3a/9999",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok-html",
+              "seq": 11,
+              "final_url": "https://generator.artblocks.io/1/0x059edd72cd353df5106d2b9cc5ab83a52287ac3a/9999",
+              "content_type": "text/html; charset=UTF-8",
+              "size": 6124,
+              "content_length": null,
+              "sha256": "34c6344c32ac56968cc74c950e8f61b560ce8ad10e59c01c23dd16ef80cb9ee0",
+              "t": "2026-10-23T02:50:13Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "http",
+        "anim_class": "http",
+        "image_verdict": "alive",
+        "anim_verdict": "alive",
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "http",
+          "animation_url": "http"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "alive",
+        "anim_verdict_exact": "alive",
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd000000000000000000000000000000000000000000000000000000000000270f",
+          "endpoint": "https://eth.rpc.blxrbdn.com",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x059edd72cd353df5106d2b9cc5ab83a52287ac3a/evidence.jsonl.gz"
+    }
+  ],
+  "saved_packet_index": [
+    {
+      "path": "data/raw/top100-api/opensea-contract-0x059edd72cd353df5106d2b9cc5ab83a52287ac3a-attempt1-1792724269604762664.body",
+      "sha256": "063a8f26da6710ff134750de5c30891c883e4b0f90a03fb643d65ff886ab347c",
+      "retrieved_at": "2026-10-23T02:57:49Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0x059edd72cd353df5106d2b9cc5ab83a52287ac3a",
+      "method": "GET",
+      "status": 200,
+      "error": null,
+      "bytes": 220,
+      "truncated": false
+    },
+    {
+      "path": "data/raw/top100-api/opensea-contract-0x059edd72cd353df5106d2b9cc5ab83a52287ac3a.json",
+      "sha256": "063a8f26da6710ff134750de5c30891c883e4b0f90a03fb643d65ff886ab347c",
+      "retrieved_at": "2026-10-23T02:57:49Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0x059edd72cd353df5106d2b9cc5ab83a52287ac3a",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "data/mutability/evidence/0x059edd72cd353df5106d2b9cc5ab83a52287ac3a.json",
+      "sha256": "f176961a064d0f9afc324034dd16ec417a9eac2e6586cf5d429dfe814d6e3843",
+      "bytes": 40833
+    },
+    {
+      "path": "data/raw/top100-census/0x059edd72cd353df5106d2b9cc5ab83a52287ac3a/bodies.zip",
+      "sha256": "1af1576d10d880e7032baf53d9cc8d5b7705c37d2b5cdc1010ca0c5c73b3d1bf",
+      "bytes": 9960
+    },
+    {
+      "path": "data/raw/top100-census/0x059edd72cd353df5106d2b9cc5ab83a52287ac3a/evidence.jsonl.gz",
+      "sha256": "e84da82896a79fb293b5a1cbaa1b3d7ca95519ee92243daaff94a4d29bed70ba",
+      "bytes": 1501
+    },
+    {
+      "path": "data/raw/top100-census/0x059edd72cd353df5106d2b9cc5ab83a52287ac3a/result.json.gz",
+      "sha256": "b992e2f27b57cb15090621f0d7e0fd9ee6b7accbcad5f50d25f1e6b5bccf1cdd",
+      "bytes": 2048
+    },
+    {
+      "path": "data/raw/top100-pointers/0x059edd72cd353df5106d2b9cc5ab83a52287ac3a/result.json",
+      "sha256": "abe0779023fa46a6e6c53f09ad4c893186b55e8fb170a7662063c16dbabbcffe",
+      "bytes": 201
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x059edd72cd353df5106d2b9cc5ab83a52287ac3a/bodies.zip",
+      "sha256": "417f6c8416da8605cf32d2047e5d974958c0ca41b7cd8312eb37892e8cf43314",
+      "bytes": 636
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x059edd72cd353df5106d2b9cc5ab83a52287ac3a/evidence.jsonl.gz",
+      "sha256": "710dc9c65152cf1b7ba79ff1b2db1b6b46b22b9e13968fed754511ef41ee8061",
+      "bytes": 698
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x059edd72cd353df5106d2b9cc5ab83a52287ac3a/result.json",
+      "sha256": "92bdd28d16a4dc489c7ba2c1d816519292316ee5ead3de2ab2e807b6f10505f1",
+      "bytes": 305
+    }
+  ],
+  "interpretation": "Liveness describes sampled metadata and primary-image delivery, not permanent loss of the artwork."
+}

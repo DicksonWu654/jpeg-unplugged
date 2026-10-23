@@ -1,0 +1,51 @@
+{
+ "collection": "Art Blocks #487 Cytographia (Golan Levin)",
+ "slug": "ab-487",
+ "contract": "0x99a9B7c1116f9ceEB1652de04d5969CcE509B069",
+ "token_id": 487000000,
+ "project_id": 487,
+ "project_name": "Cytographia",
+ "artist": "Golan Levin",
+ "script_type": "p5@1.0.0",
+ "script_count": 13,
+ "script_bytes": 287857,
+ "token_hash": "0xf146ffb500b4093d504812844ed44f8b96e1051eedbd99f18de6c1ff4f7bfb47",
+ "chain_method": "Art Blocks: project script on core contract + libraries from on-chain Dependency Registry, assembled by on-chain Generator getTokenHtml()",
+ "chain_call": "GenArt721Generator.getTokenHtml(0x99a9B7c1116f9ceEB1652de04d5969CcE509B069, 487000000) @ 0x953D288708bB771F969FCfD9BA0819eF506Ac718",
+ "medium": "html+js (p5@1.0.0)",
+ "fields": {},
+ "rpc": {
+  "public_rpc_ok": true,
+  "rpc": "public",
+  "gas_estimate": 26200349
+ },
+ "generator_embeds_project_script": true,
+ "note": "tokenURI of the core contract is an HTTPS URL on the Art Blocks API; B uses the on-chain Generator output instead (the honest on-chain test)",
+ "artwork_file": "artwork.html",
+ "doc_type": "text/html; charset=utf-8",
+ "artwork_bytes": 511737,
+ "artwork_sha256": "a1570464deac6a79cd6c5e28dce7ca90a79bade2fc5035b5d85abbead714f5d8",
+ "declared": {
+  "load": [],
+  "literals": [
+   "http://www.flong.com/",
+   "https://art.cmu.edu/people/golan-levin/",
+   "https://beallcenter.uci.edu/exhibitions/eyecode",
+   "https://bitforms.art/exhibition/golan-levin-new-installations-and-sculpture/",
+   "https://collection.cooperhewitt.org/people/51679259/objects/",
+   "https://github.com/d3/d3-delaunay",
+   "https://github.com/imagej/ImageJ/blob/master/ij/process/BinaryInterpolator.java",
+   "https://github.com/jamieowen/glsl-blend",
+   "https://github.com/openframeworks/openFrameworks/tree/master/libs/openFrameworks/graphics",
+   "https://github.com/stegu/webgl-noise/blob/master/src/classicnoise2D.glsl",
+   "https://mattdesl.github.io/webgl-lines/expanded/gl-line-2d.js",
+   "https://mitpress.mit.edu/9780262542043/code-as-creative-medium/",
+   "https://p5js.org/",
+   "https://whitney.org/www/2004biennial/flash/poplg.php",
+   "https://www.moma.org/artists/39123",
+   "https://www.shadertoy.com/view/lsf3WH",
+   "https://zkm.de/en/artwork/messa-di-voce"
+  ]
+ },
+ "built_at": "2026-10-21T20:21:53Z"
+}

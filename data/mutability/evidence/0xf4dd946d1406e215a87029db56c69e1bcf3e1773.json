@@ -1,0 +1,393 @@
+{
+ "address": "0xf4dd946d1406e215a87029db56c69e1bcf3e1773",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:42:56Z",
+ "code_raw": "data/raw/rpc-mutability/0xf4dd946d1406e215a87029db56c69e1bcf3e1773_code.json",
+ "code_len": 8841,
+ "slots": {},
+ "slots_raw": "data/raw/rpc-mutability/0xf4dd946d1406e215a87029db56c69e1bcf3e1773_slots.json",
+ "verified": true,
+ "contract_name": "ProofOfMerge",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 1,
+    "first": "2022-09-11",
+    "last": "2022-09-11",
+    "last_tx": "0x126960b88cb89bd12c9354a32ad2d00d28159ef70ea5e5737583f83e2453b806",
+    "list": [
+     {
+      "date": "2022-09-11",
+      "tx": "0x126960b88cb89bd12c9354a32ad2d00d28159ef70ea5e5737583f83e2453b806",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "b3968c8e5280adf1523d5947dfb7b83e8c80dd99"
+      ],
+      "data": "0x"
+     }
+    ]
+   },
+   "URI(string,uint256)": {
+    "n": 0
+   }
+  },
+  "decoded": [],
+  "ownership_transfers": [
+   {
+    "date": "2022-09-11",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0xb3968c8e5280adf1523d5947dfb7b83e8c80dd99",
+    "tx": "0x126960b88cb89bd12c9354a32ad2d00d28159ef70ea5e5737583f83e2453b806"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0xf4dd946d1406e215a87029db56c69e1bcf3e1773_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0xb3968c8e5280adf1523d5947dfb7b83e8c80dd99",
+  "code_raw": "data/raw/rpc-mutability/0xb3968c8e5280adf1523d5947dfb7b83e8c80dd99_holdercode.json",
+  "type": "eoa",
+  "bs_name": null,
+  "ens": null,
+  "bs_impl_names": [],
+  "bs_tags": [],
+  "is_contract": false,
+  "creator": null,
+  "is_verified": false,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "override",
+ "lock_functions": [],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [
+  {
+   "name": "setASCIIGenerator",
+   "sig": "setASCIIGenerator(address)",
+   "selector": "0xe54e6cc0",
+   "category": "renderer",
+   "inputs": [
+    "address"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "asciiGenerator = _asciiGenerator;",
+   "writes": [
+    "asciiGenerator"
+   ],
+   "effective": "yes",
+   "power": "eoa",
+   "holder_addrs": [
+    "0xb3968c8e5280adf1523d5947dfb7b83e8c80dd99"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xb3968c8e5280adf1523d5947dfb7b83e8c80dd99",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  }
+ ],
+ "class_direct": "eoa-mutable",
+ "class_reason": "live setters (eoa): setASCIIGenerator",
+ "live_mutators": [
+  "setASCIIGenerator"
+ ],
+ "dependencies": [
+  {
+   "address": "0xcd6f0bfa1a53408de5c15d2028bae7afd6b30bc2",
+   "via": "asciiGenerator()",
+   "in_tokenuri_path": true,
+   "via_setter": true,
+   "analysis": {
+    "address": "0xcd6f0bfa1a53408de5c15d2028bae7afd6b30bc2",
+    "verified": true,
+    "contract_name": "ASCIIGenerator",
+    "proxy": {
+     "kind": null
+    },
+    "owner": {
+     "addr": "0xb3968c8e5280adf1523d5947dfb7b83e8c80dd99",
+     "code_raw": "data/raw/rpc-mutability/0xb3968c8e5280adf1523d5947dfb7b83e8c80dd99_holdercode.json",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "bs_impl_names": [],
+     "bs_tags": [],
+     "is_contract": false,
+     "creator": null,
+     "is_verified": false,
+     "bs_reputation": "ok"
+    },
+    "admin_fn": null,
+    "uups": false,
+    "lock_views": {},
+    "lock_flags_true": {},
+    "lock_functions": [],
+    "class_direct": "eoa-mutable",
+    "class_reason": "live setters (eoa): setDescription,setSVGParts,storeImageParts",
+    "live_mutators": [
+     "setDescription",
+     "setSVGParts",
+     "storeImageParts"
+    ],
+    "mutators": [
+     {
+      "name": "setDescription",
+      "sig": "setDescription(string)",
+      "selector": "0x90c3f38f",
+      "category": "renderer",
+      "inputs": [
+       "string"
+      ],
+      "gates": [
+       {
+        "type": "owner",
+        "ref": "owner"
+       }
+      ],
+      "modifiers": [
+       "onlyOwner"
+      ],
+      "body_head": "description = _description;",
+      "writes": [
+       "description"
+      ],
+      "effective": "unknown",
+      "power": "eoa",
+      "holder_addrs": [
+       "0xb3968c8e5280adf1523d5947dfb7b83e8c80dd99"
+      ],
+      "holder_how": [
+       "owner()"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0xb3968c8e5280adf1523d5947dfb7b83e8c80dd99",
+        "type": "eoa",
+        "bs_name": null,
+        "ens": null,
+        "desc": "eoa",
+        "simple": "eoa"
+       }
+      ]
+     },
+     {
+      "name": "setSVGParts",
+      "sig": "setSVGParts(string,string,string,uint256)",
+      "selector": "0x96b899f8",
+      "category": "renderer",
+      "inputs": [
+       "string",
+       "string",
+       "string",
+       "uint256"
+      ],
+      "gates": [
+       {
+        "type": "owner",
+        "ref": "owner"
+       }
+      ],
+      "modifiers": [
+       "onlyOwner"
+      ],
+      "body_head": "SVGHeader = _SVGHeader;\n        SVGFooter = _SVGFooter;\n        firstTextTagPart = _firstTextTagPart;\n        tspanLineHeight = _tspanLineHeight;",
+      "writes": [
+       "SVGFooter",
+       "SVGHeader",
+       "firstTextTagPart",
+       "tspanLineHeight"
+      ],
+      "effective": "unknown",
+      "power": "eoa",
+      "holder_addrs": [
+       "0xb3968c8e5280adf1523d5947dfb7b83e8c80dd99"
+      ],
+      "holder_how": [
+       "owner()"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0xb3968c8e5280adf1523d5947dfb7b83e8c80dd99",
+        "type": "eoa",
+        "bs_name": null,
+        "ens": null,
+        "desc": "eoa",
+        "simple": "eoa"
+       }
+      ]
+     },
+     {
+      "name": "storeImageParts",
+      "sig": "storeImageParts(uint256[][])",
+      "selector": "0x6bcc9b3b",
+      "category": "renderer",
+      "inputs": [
+       "uint256[][]"
+      ],
+      "gates": [
+       {
+        "type": "owner",
+        "ref": "owner"
+       }
+      ],
+      "modifiers": [
+       "onlyOwner"
+      ],
+      "body_head": "imagePhases = _imagePhases;",
+      "writes": [
+       "imagePhases"
+      ],
+      "effective": "unknown",
+      "power": "eoa",
+      "holder_addrs": [
+       "0xb3968c8e5280adf1523d5947dfb7b83e8c80dd99"
+      ],
+      "holder_how": [
+       "owner()"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0xb3968c8e5280adf1523d5947dfb7b83e8c80dd99",
+        "type": "eoa",
+        "bs_name": null,
+        "ens": null,
+        "desc": "eoa",
+        "simple": "eoa"
+       }
+      ]
+     }
+    ],
+    "history": {
+     "txs": [
+      {
+       "hash": "0x3800f83ebb193df7c6a7dce4202d7c0693b6492e35dfe693b2fc79466f467881",
+       "timestamp": "2022-09-09T02:46:53.000000Z",
+       "method": "storeImageParts",
+       "from": "0xB3968C8E5280aDf1523d5947dFb7B83e8c80dd99",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 15500308,
+       "category": "renderer"
+      }
+     ],
+     "events": {
+      "OwnershipTransferred(address,address)": {
+       "n": 1,
+       "first": "2022-09-09",
+       "last": "2022-09-09",
+       "last_tx": "0xbc23f738e9a70b2eafb4d38cf81573036bb1f32dfcc3ab3883d0ca9a91ea1dd0",
+       "list": [
+        {
+         "date": "2022-09-09",
+         "tx": "0xbc23f738e9a70b2eafb4d38cf81573036bb1f32dfcc3ab3883d0ca9a91ea1dd0",
+         "topics": [
+          "0000000000000000000000000000000000000000",
+          "b3968c8e5280adf1523d5947dfb7b83e8c80dd99"
+         ],
+         "data": "0x"
+        }
+       ]
+      }
+     },
+     "decoded": [
+      {
+       "hash": "0x3800f83ebb193df7c6a7dce4202d7c0693b6492e35dfe693b2fc79466f467881",
+       "timestamp": "2022-09-09T02:46:53.000000Z",
+       "method": "storeImageParts",
+       "category": "renderer",
+       "from": "0xB3968C8E5280aDf1523d5947dFb7B83e8c80dd99",
+       "params": [
+        {
+         "name": "arg0",
+         "type": "uint256[][]",
+         "value": "[(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 39575395630904500800603553792, 2535300595993549000076865044480, 40485610349823258516594964267008, 157188675023318622908641471094784, 608472288144967862465839784523776, 2433889152447054892532650366467584, 9735556609754867847838135341809408, 1817303"
+        }
+       ],
+       "value_kinds": [],
+       "error": null
+      }
+     ],
+     "ownership_transfers": [
+      {
+       "date": "2022-09-09",
+       "from": "0x0000000000000000000000000000000000000000",
+       "to": "0xb3968c8e5280adf1523d5947dfb7b83e8c80dd99",
+       "tx": "0xbc23f738e9a70b2eafb4d38cf81573036bb1f32dfcc3ab3883d0ca9a91ea1dd0"
+      }
+     ],
+     "incomplete": false
+    },
+    "unverified_selector_hits": [],
+    "tokenuri_path": "none"
+   }
+  }
+ ],
+ "meta": {
+  "address": "0xf4dd946d1406e215a87029db56c69e1bcf3e1773",
+  "name": "Proof of Merge [ERC-1155]",
+  "w5_claim_strength": null,
+  "w5_claim_text": null,
+  "w5_source_type": null,
+  "w5_source_url": null,
+  "holders_count": 42551.0,
+  "in_w5": false,
+  "gallery_slugs": "proof-of-merge",
+  "gallery_tokens": "1",
+  "in_gallery": true,
+  "census_meta_class": "onchain-renderer",
+  "census_media_class": "data-uri",
+  "census_liveness": "alive",
+  "in_census_onchain": true,
+  "standard": "ERC-1155",
+  "creator": "0xb3968c8e5280adf1523d5947dfb7b83e8c80dd99",
+  "deploy_block": 15517416.0
+ },
+ "class_deps_all": "eoa-mutable",
+ "class_deps": "eoa-mutable",
+ "class_final": "eoa-mutable",
+ "pointer_power": "eoa"
+}

@@ -1,0 +1,22 @@
+[
+ {
+  "t": 0.239,
+  "url": "https://onchain.invalid/",
+  "type": "document",
+  "method": "GET",
+  "frame": "about:blank",
+  "action": "served-from-chain",
+  "status": 200,
+  "bytes": null
+ },
+ {
+  "t": 0.294,
+  "url": "https://cdnjs.cloudflare.com/ajax/libs/aframe/1.2.0/aframe.min.js",
+  "type": "script",
+  "method": "GET",
+  "frame": "https://onchain.invalid/",
+  "action": "blocked",
+  "failure": "net::ERR_BLOCKED_BY_CLIENT.Inspector",
+  "status": null
+ }
+]

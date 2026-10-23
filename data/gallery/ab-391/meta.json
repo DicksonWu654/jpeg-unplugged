@@ -1,0 +1,35 @@
+{
+ "collection": "Art Blocks #391 Contrast Agent (Tim Richardson + Sean Zellmer)",
+ "slug": "ab-391",
+ "contract": "0x99a9B7c1116f9ceEB1652de04d5969CcE509B069",
+ "token_id": 391000000,
+ "project_id": 391,
+ "project_name": "Contrast Agent",
+ "artist": "Tim Richardson + Sean Zellmer",
+ "script_type": "regl@2.1.0",
+ "script_count": 1,
+ "script_bytes": 20277,
+ "token_hash": "0x145393b5947666b8a608df6d89f6b5193558dec616774bb3e912c8a551e3652b",
+ "chain_method": "Art Blocks: project script on core contract + libraries from on-chain Dependency Registry, assembled by on-chain Generator getTokenHtml()",
+ "chain_call": "GenArt721Generator.getTokenHtml(0x99a9B7c1116f9ceEB1652de04d5969CcE509B069, 391000000) @ 0x953D288708bB771F969FCfD9BA0819eF506Ac718",
+ "medium": "html+js (regl@2.1.0)",
+ "fields": {},
+ "rpc": {
+  "public_rpc_ok": true,
+  "rpc": "public",
+  "gas_estimate": 984413
+ },
+ "generator_embeds_project_script": true,
+ "note": "tokenURI of the core contract is an HTTPS URL on the Art Blocks API; B uses the on-chain Generator output instead (the honest on-chain test)",
+ "artwork_file": "artwork.html",
+ "doc_type": "text/html; charset=utf-8",
+ "artwork_bytes": 27105,
+ "artwork_sha256": "6cb0f20a1d04452542c7f23a86f3f61fc3ff24f2d62a9dad9c52c409be87e78a",
+ "declared": {
+  "load": [
+   "https://cdnjs.cloudflare.com/ajax/libs/regl/2.1.0/regl.min.js"
+  ],
+  "literals": []
+ },
+ "built_at": "2026-10-21T20:21:39Z"
+}

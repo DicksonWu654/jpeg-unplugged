@@ -1,0 +1,192 @@
+{
+ "address": "0xa6653bec60234562d3b453d10314d8762de51405",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:35Z",
+ "code_raw": "data/raw/rpc-mutability/0xa6653bec60234562d3b453d10314d8762de51405_code.json",
+ "code_len": 24555,
+ "slots": {
+  "slot0": "0x00000000000000000000000000000000000000000000000000000000000000df"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0xa6653bec60234562d3b453d10314d8762de51405_slots.json",
+ "verified": true,
+ "contract_name": "CryptoEddies",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [
+   {
+    "hash": "0xdbf5d15ca9dc1028c9b50115b191d8a3a32f9221b467e4f845ac868f0d8ef28e",
+    "timestamp": "2022-09-08T20:47:10.000000Z",
+    "method": "transferOwnership",
+    "from": "0x37A55F9E3B82f479589D9e7284d8B3337E9bed49",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15498742,
+    "category": "ownership"
+   }
+  ],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 2,
+    "first": "2022-08-18",
+    "last": "2022-09-08",
+    "last_tx": "0xdbf5d15ca9dc1028c9b50115b191d8a3a32f9221b467e4f845ac868f0d8ef28e",
+    "list": [
+     {
+      "date": "2022-08-18",
+      "tx": "0x2eaf3a79529c591803c56117c60d684e5b9421eb8107d689e2ab9eb446d91bdf",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "37a55f9e3b82f479589d9e7284d8b3337e9bed49"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2022-09-08",
+      "tx": "0xdbf5d15ca9dc1028c9b50115b191d8a3a32f9221b467e4f845ac868f0d8ef28e",
+      "topics": [
+       "37a55f9e3b82f479589d9e7284d8b3337e9bed49",
+       "9d0f63a1f277f96fa7361af622b0d719b22a37f5"
+      ],
+      "data": "0x"
+     }
+    ]
+   }
+  },
+  "decoded": [
+   {
+    "hash": "0xdbf5d15ca9dc1028c9b50115b191d8a3a32f9221b467e4f845ac868f0d8ef28e",
+    "timestamp": "2022-09-08T20:47:10.000000Z",
+    "method": "transferOwnership",
+    "category": "ownership",
+    "from": "0x37A55F9E3B82f479589D9e7284d8B3337E9bed49",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0x9d0f63a1f277f96fa7361af622b0d719b22a37f5"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   }
+  ],
+  "ownership_transfers": [
+   {
+    "date": "2022-08-18",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0x37a55f9e3b82f479589d9e7284d8b3337e9bed49",
+    "tx": "0x2eaf3a79529c591803c56117c60d684e5b9421eb8107d689e2ab9eb446d91bdf"
+   },
+   {
+    "date": "2022-09-08",
+    "from": "0x37a55f9e3b82f479589d9e7284d8b3337e9bed49",
+    "to": "0x9d0f63a1f277f96fa7361af622b0d719b22a37f5",
+    "tx": "0xdbf5d15ca9dc1028c9b50115b191d8a3a32f9221b467e4f845ac868f0d8ef28e"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0xa6653bec60234562d3b453d10314d8762de51405_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0x9d0f63a1f277f96fa7361af622b0d719b22a37f5",
+  "code_raw": "data/raw/rpc-mutability/0x9d0f63a1f277f96fa7361af622b0d719b22a37f5_holdercode.json",
+  "type": "eoa",
+  "bs_name": null,
+  "ens": "eddietree.eth",
+  "bs_impl_names": [],
+  "bs_tags": [],
+  "is_contract": false,
+  "creator": null,
+  "is_verified": false,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "override",
+ "lock_functions": [],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [
+  {
+   "name": "setRevealed",
+   "sig": "setRevealed(bool)",
+   "selector": "0xe0a80853",
+   "category": "reveal",
+   "inputs": [
+    "bool"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "revealed = _revealed;",
+   "writes": [
+    "revealed"
+   ],
+   "power": "eoa",
+   "holder_addrs": [
+    "0x9d0f63a1f277f96fa7361af622b0d719b22a37f5"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x9d0f63a1f277f96fa7361af622b0d719b22a37f5",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": "eddietree.eth",
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  }
+ ],
+ "class_direct": "immutable",
+ "class_reason": "no uri/renderer/upgrade function in ABI and not a proxy",
+ "live_mutators": [],
+ "dependencies": [],
+ "meta": {
+  "address": "0xa6653bec60234562d3b453d10314d8762de51405",
+  "name": "CryptoEddies",
+  "w5_claim_strength": "explicit-100%/fully",
+  "w5_claim_text": "/// @notice CryptoEddies is an 100% on-chain experimental NFT character project.",
+  "w5_source_type": "contract-source",
+  "w5_source_url": "https://etherscan.io/address/0xa6653bec60234562d3b453d10314d8762de51405#code (contracts/CryptoEddies.sol:69)",
+  "holders_count": 399.0,
+  "in_w5": true,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": null,
+  "census_media_class": null,
+  "census_liveness": null,
+  "in_census_onchain": false,
+  "standard": "ERC-721",
+  "creator": "0x37a55f9e3b82f479589d9e7284d8b3337e9bed49",
+  "deploy_block": 15364294.0
+ },
+ "class_deps_all": "none",
+ "class_deps": "none",
+ "class_final": "immutable",
+ "pointer_power": null
+}

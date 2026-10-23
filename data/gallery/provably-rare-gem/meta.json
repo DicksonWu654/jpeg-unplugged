@@ -1,0 +1,74 @@
+{
+ "collection": "Provably Rare Gem [ERC-1155]",
+ "slug": "provably-rare-gem",
+ "contract": "0xC67DED0eC78b849e17771b2E8a7e303B4dAd6dD4",
+ "token_id": 1,
+ "chain_method": "ERC-1155 uri(): data URI (contract-assembled)",
+ "chain_call": "uri(1)",
+ "json_name": "Topaz #1",
+ "fields": {
+  "image": "data:image/svg+xml",
+  "animation_url": null,
+  "external_url": null,
+  "json_how": "data-uri-base64"
+ },
+ "rpc": {
+  "default_public_ok": true,
+  "highgas_drpc_ok": null,
+  "highgas_blxr_ok": null,
+  "fork_ok": null,
+  "rpc": "public-default",
+  "needed_fork": false,
+  "unreadable_from_default_public_call": false,
+  "gas_estimate": null
+ },
+ "medium": "svg (image data URI)",
+ "primary": "image",
+ "source_flags": {
+  "verified": true,
+  "contract_name": "ProvablyRareGemProxy",
+  "proxy": true,
+  "implementation": "0x8b57560152374c04b0eb384de8f963dc7c0c8fd8",
+  "sstore2": false,
+  "ethfs": false,
+  "scripty": false,
+  "base64": false,
+  "gzip": false,
+  "data_uri": false,
+  "http_literals": [
+   "https://eth.wiki/json-rpc/API"
+  ],
+  "ipfs_literal": false,
+  "setters": [
+   "upgradeTo"
+  ],
+  "implementation_flags": {
+   "verified": true,
+   "contract_name": "ProvablyRareGemV2",
+   "proxy": false,
+   "implementation": null,
+   "sstore2": false,
+   "ethfs": false,
+   "scripty": false,
+   "base64": true,
+   "gzip": false,
+   "data_uri": true,
+   "http_literals": [
+    "https://token-cdn-domain/",
+    "https://token-cdn-domain/000000000000000000000000000000000000000000000000000000000004cce0.json",
+    "https://twitter.com/nomorebear"
+   ],
+   "ipfs_literal": false,
+   "setters": []
+  }
+ },
+ "artwork_file": "artwork.svg",
+ "doc_type": "image/svg+xml; charset=utf-8",
+ "artwork_bytes": 2374,
+ "artwork_sha256": "d8412330fc66e6d621ae17b5a66058ab6e7b2510d1855555df203badd88c708a",
+ "declared": {
+  "load": [],
+  "literals": []
+ },
+ "built_at": "2026-10-21T20:26:30Z"
+}

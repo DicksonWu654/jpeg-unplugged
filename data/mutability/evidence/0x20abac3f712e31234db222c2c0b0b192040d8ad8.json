@@ -1,0 +1,1010 @@
+{
+ "address": "0x20abac3f712e31234db222c2c0b0b192040d8ad8",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:29Z",
+ "code_raw": "data/raw/rpc-mutability/0x20abac3f712e31234db222c2c0b0b192040d8ad8_code.json",
+ "code_len": 190,
+ "slots": {
+  "eip1967_impl": "0x2eb9b14677df35998a4393cdefab352b526239eb",
+  "slot0": "0x0000000000000000000000000000000000000000000000000000000000000001"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0x20abac3f712e31234db222c2c0b0b192040d8ad8_slots.json",
+ "verified": true,
+ "contract_name": "PerilsOfSese",
+ "proxy": {
+  "kind": "eip1967",
+  "impl": "0x2eb9b14677df35998a4393cdefab352b526239eb",
+  "impl_verified": true,
+  "impl_name": "ERC721TLM"
+ },
+ "has_source": true,
+ "abi_from": "impl+proxy",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [
+   {
+    "hash": "0x2842dacdd09a56827ee55b660fb79ae23da15e01335074c7630ddebd5a742267",
+    "timestamp": "2024-07-22T22:43:47.000000Z",
+    "method": "addTokenUris",
+    "from": "0xbfCb7FC3Ec9923Ae2e20C8eC6C5fc43A4c23F089",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 20365130,
+    "category": "uri"
+   },
+   {
+    "hash": "0x262dc61d9ee86afc0cdd7dff81cf228ec9b92234785f7cdbbc5c2160bb3242d3",
+    "timestamp": "2024-06-21T15:21:11.000000Z",
+    "method": "addTokenUris",
+    "from": "0xbfCb7FC3Ec9923Ae2e20C8eC6C5fc43A4c23F089",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 20140957,
+    "category": "uri"
+   },
+   {
+    "hash": "0x12b24fe64579e0cfe40b0ea2284fd2ab0f91cbe00f48e6837213c104c5f1b547",
+    "timestamp": "2024-05-31T21:28:47.000000Z",
+    "method": "addTokenUris",
+    "from": "0xbfCb7FC3Ec9923Ae2e20C8eC6C5fc43A4c23F089",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 19992499,
+    "category": "uri"
+   },
+   {
+    "hash": "0x599fea5431e39463a184843dd275edb94ada61b2cf4df944e0d75b7c7e57f35c",
+    "timestamp": "2024-05-10T19:42:35.000000Z",
+    "method": "addTokenUris",
+    "from": "0xbfCb7FC3Ec9923Ae2e20C8eC6C5fc43A4c23F089",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 19841796,
+    "category": "uri"
+   },
+   {
+    "hash": "0x69177f4bed8783b27f4f6d2d3ed5325c45871c2793f4b58b1568241f906e480f",
+    "timestamp": "2024-05-06T19:28:23.000000Z",
+    "method": "addTokenUris",
+    "from": "0xbfCb7FC3Ec9923Ae2e20C8eC6C5fc43A4c23F089",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 19813128,
+    "category": "uri"
+   },
+   {
+    "hash": "0x343dae1c57611fa01b152611b98934d7f320f225f06c0a658ec123f3b8e98845",
+    "timestamp": "2024-04-25T20:55:47.000000Z",
+    "method": "addTokenUris",
+    "from": "0xbfCb7FC3Ec9923Ae2e20C8eC6C5fc43A4c23F089",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 19734905,
+    "category": "uri"
+   },
+   {
+    "hash": "0x76f014750504027c78bada5e15ad1dc8c5abd5b0c838b04628a62a341e4a0f8b",
+    "timestamp": "2024-04-23T21:06:11.000000Z",
+    "method": "addTokenUris",
+    "from": "0xbfCb7FC3Ec9923Ae2e20C8eC6C5fc43A4c23F089",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 19720665,
+    "category": "uri"
+   },
+   {
+    "hash": "0x0b408416c4ea96382a58fc023525c9af21ad7a00c46921a8a7b1d365c9e83f23",
+    "timestamp": "2024-04-11T15:10:35.000000Z",
+    "method": "addTokenUris",
+    "from": "0xbfCb7FC3Ec9923Ae2e20C8eC6C5fc43A4c23F089",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 19633182,
+    "category": "uri"
+   },
+   {
+    "hash": "0xba8670a89c6c29521babe56e73bab1ca011436a6d2d256abc3e5b32c6e42c9fb",
+    "timestamp": "2024-04-10T23:06:23.000000Z",
+    "method": "addTokenUris",
+    "from": "0xbfCb7FC3Ec9923Ae2e20C8eC6C5fc43A4c23F089",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 19628403,
+    "category": "uri"
+   },
+   {
+    "hash": "0x85e3a3016167484d63ba2395f6e6796918e59a791814749d1d4f5ed734120f86",
+    "timestamp": "2024-03-28T23:23:23.000000Z",
+    "method": "addTokenUris",
+    "from": "0xbfCb7FC3Ec9923Ae2e20C8eC6C5fc43A4c23F089",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 19535770,
+    "category": "uri"
+   },
+   {
+    "hash": "0x4a9ae912200d9a40aec83cd31e2fe760fbae4610797599ced9e5c816bbf52bd6",
+    "timestamp": "2024-03-28T23:22:47.000000Z",
+    "method": "addTokenUris",
+    "from": "0xbfCb7FC3Ec9923Ae2e20C8eC6C5fc43A4c23F089",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 19535767,
+    "category": "uri"
+   },
+   {
+    "hash": "0xafdb6f5cc14d1b68d9289d2f689a29061563657ef73ed33c43a89fec79478af8",
+    "timestamp": "2024-03-28T23:21:59.000000Z",
+    "method": "addTokenUris",
+    "from": "0xbfCb7FC3Ec9923Ae2e20C8eC6C5fc43A4c23F089",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 19535763,
+    "category": "uri"
+   },
+   {
+    "hash": "0xa57331472513c5742d9e46637a03e37d075b0ba0d80c6a74aea2f0db0fc6e768",
+    "timestamp": "2024-03-28T23:21:11.000000Z",
+    "method": "addTokenUris",
+    "from": "0xbfCb7FC3Ec9923Ae2e20C8eC6C5fc43A4c23F089",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 19535759,
+    "category": "uri"
+   },
+   {
+    "hash": "0xc26013ee34ce7bf2edbf24ed5f7020858ef132e367daec58deccb50613025cc1",
+    "timestamp": "2024-03-28T23:14:59.000000Z",
+    "method": "addTokenUris",
+    "from": "0xbfCb7FC3Ec9923Ae2e20C8eC6C5fc43A4c23F089",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 19535728,
+    "category": "uri"
+   },
+   {
+    "hash": "0x81b1f9c3858a3ce4cffecbc25a2bbf0ebf6299fd96ed0c0a8e893ce3137c927c",
+    "timestamp": "2024-03-28T23:13:59.000000Z",
+    "method": "addTokenUris",
+    "from": "0xbfCb7FC3Ec9923Ae2e20C8eC6C5fc43A4c23F089",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 19535723,
+    "category": "uri"
+   },
+   {
+    "hash": "0xb45c1c19705cb6bc2c62888869fab7f579519be9c05159ac016f39a0323d8907",
+    "timestamp": "2024-03-22T15:10:23.000000Z",
+    "method": "addTokenUris",
+    "from": "0xbfCb7FC3Ec9923Ae2e20C8eC6C5fc43A4c23F089",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 19490969,
+    "category": "uri"
+   },
+   {
+    "hash": "0x63e658a53eea8b0049b90a82390f1b5d99fe9f7f2cd6c9b12042bb6efdf48a42",
+    "timestamp": "2024-03-22T15:10:11.000000Z",
+    "method": "addTokenUris",
+    "from": "0xbfCb7FC3Ec9923Ae2e20C8eC6C5fc43A4c23F089",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 19490968,
+    "category": "uri"
+   },
+   {
+    "hash": "0xa1b6961e39b9adf8d7a33ae54684c47bbfe32833da4efeddc287f52ae7ec8f91",
+    "timestamp": "2024-03-22T15:08:35.000000Z",
+    "method": "addTokenUris",
+    "from": "0xbfCb7FC3Ec9923Ae2e20C8eC6C5fc43A4c23F089",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 19490961,
+    "category": "uri"
+   },
+   {
+    "hash": "0x4044ba163513e262230b4532b08690c4cfcc0624999513f731487e00ec0bd507",
+    "timestamp": "2024-03-22T15:07:35.000000Z",
+    "method": "addTokenUris",
+    "from": "0xbfCb7FC3Ec9923Ae2e20C8eC6C5fc43A4c23F089",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 19490956,
+    "category": "uri"
+   },
+   {
+    "hash": "0x8ecd22e56aa0686e6b02445bf1ad76979ec62ec79618bffc5a1419f9cfdf826e",
+    "timestamp": "2024-03-22T15:06:11.000000Z",
+    "method": "addTokenUris",
+    "from": "0xbfCb7FC3Ec9923Ae2e20C8eC6C5fc43A4c23F089",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 19490949,
+    "category": "uri"
+   },
+   {
+    "hash": "0xbfb2a7300740b544dcb4e30d868a0c0e3b28a182dcd2019bd59fb84c36e8ceda",
+    "timestamp": "2024-03-22T15:05:11.000000Z",
+    "method": "addTokenUris",
+    "from": "0xbfCb7FC3Ec9923Ae2e20C8eC6C5fc43A4c23F089",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 19490944,
+    "category": "uri"
+   },
+   {
+    "hash": "0xb895cb290d5fdbca9694535119d484645d18646a2f37eee9a181e8028e9ca845",
+    "timestamp": "2024-01-26T21:29:11.000000Z",
+    "method": "addTokenUris",
+    "from": "0xbfCb7FC3Ec9923Ae2e20C8eC6C5fc43A4c23F089",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 19093458,
+    "category": "uri"
+   },
+   {
+    "hash": "0x59f33307cbf9a07311f7deb24ad9a7865479978f7876bfd673cc4e354cad9f26",
+    "timestamp": "2024-01-19T23:37:23.000000Z",
+    "method": "addTokenUris",
+    "from": "0xbfCb7FC3Ec9923Ae2e20C8eC6C5fc43A4c23F089",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 19044235,
+    "category": "uri"
+   },
+   {
+    "hash": "0x222c216093faae54740e34c8a53c88ac9dd28e0694f1e9a982b9faead0c8af97",
+    "timestamp": "2024-01-19T23:35:23.000000Z",
+    "method": "addTokenUris",
+    "from": "0xdF8b134fb7743aCD805eCDeE11335dd0Cca921fc",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 19044226,
+    "category": "uri"
+   },
+   {
+    "hash": "0x73ff3761ad79dd68d5edef744c25a3d6e5a347ec1d4a17fac1b97de17b23b1b5",
+    "timestamp": "2024-01-12T22:50:47.000000Z",
+    "method": "addTokenUris",
+    "from": "0xbfCb7FC3Ec9923Ae2e20C8eC6C5fc43A4c23F089",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 18993908,
+    "category": "uri"
+   },
+   {
+    "hash": "0xbcdd65bc5e3d2756b153c0e2e81d07b10999d15a7ef616f726915bea5614aa55",
+    "timestamp": "2024-01-05T15:43:47.000000Z",
+    "method": "addTokenUris",
+    "from": "0xbfCb7FC3Ec9923Ae2e20C8eC6C5fc43A4c23F089",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 18942036,
+    "category": "uri"
+   },
+   {
+    "hash": "0x4cb14c1e07f8d8014decad15e62f38005ef2b6e419ee60ac9c05501baee28c92",
+    "timestamp": "2024-01-05T15:42:47.000000Z",
+    "method": "addTokenUris",
+    "from": "0xbfCb7FC3Ec9923Ae2e20C8eC6C5fc43A4c23F089",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 18942031,
+    "category": "uri"
+   },
+   {
+    "hash": "0xdbc931f92c58d6cf0073bb0cc8d2b2d3db03eaf768914c7a0cd9fab9c63cb607",
+    "timestamp": "2023-12-22T19:12:11.000000Z",
+    "method": "addTokenUris",
+    "from": "0xbfCb7FC3Ec9923Ae2e20C8eC6C5fc43A4c23F089",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 18843383,
+    "category": "uri"
+   },
+   {
+    "hash": "0xdb4f10dc46ccf184b25e8b860d8d8d8d6b22f764dbd6a3b24e406684c883eace",
+    "timestamp": "2023-12-22T19:11:23.000000Z",
+    "method": "addTokenUris",
+    "from": "0xbfCb7FC3Ec9923Ae2e20C8eC6C5fc43A4c23F089",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 18843379,
+    "category": "uri"
+   },
+   {
+    "hash": "0xc7128057089942618655d55c1adf0fcf8069b7ef4978c91242df869aa59ca2b5",
+    "timestamp": "2023-12-22T19:10:35.000000Z",
+    "method": "addTokenUris",
+    "from": "0xbfCb7FC3Ec9923Ae2e20C8eC6C5fc43A4c23F089",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 18843375,
+    "category": "uri"
+   },
+   {
+    "hash": "0x15e43e0384196e87a1ea46d07e8c77e12290555901894b248648ec351275b9a2",
+    "timestamp": "2023-12-22T19:09:47.000000Z",
+    "method": "addTokenUris",
+    "from": "0xbfCb7FC3Ec9923Ae2e20C8eC6C5fc43A4c23F089",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 18843371,
+    "category": "uri"
+   },
+   {
+    "hash": "0x385380d59e23351293ae8f2d1e059626d541e397e18ae280a6c943d30201abbe",
+    "timestamp": "2023-12-22T19:08:47.000000Z",
+    "method": "addTokenUris",
+    "from": "0xbfCb7FC3Ec9923Ae2e20C8eC6C5fc43A4c23F089",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 18843366,
+    "category": "uri"
+   },
+   {
+    "hash": "0xcb533b23b203d8534796b0383781d01b2cebadf3e2c3e036282fffb27e8c7db3",
+    "timestamp": "2023-12-22T19:05:59.000000Z",
+    "method": "addTokenUris",
+    "from": "0xbfCb7FC3Ec9923Ae2e20C8eC6C5fc43A4c23F089",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 18843352,
+    "category": "uri"
+   },
+   {
+    "hash": "0x40cdd79bafc21f2bf878b371b5243452ae6e78318ecb3faf90b2169934b81fe4",
+    "timestamp": "2023-12-22T19:04:59.000000Z",
+    "method": "addTokenUris",
+    "from": "0xbfCb7FC3Ec9923Ae2e20C8eC6C5fc43A4c23F089",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 18843347,
+    "category": "uri"
+   },
+   {
+    "hash": "0x1c8b57f27daaf211ee44c0095a0c952df1b315c8b20dd61333cdfdb0a9b42294",
+    "timestamp": "2023-12-22T19:03:59.000000Z",
+    "method": "addTokenUris",
+    "from": "0xbfCb7FC3Ec9923Ae2e20C8eC6C5fc43A4c23F089",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 18843342,
+    "category": "uri"
+   },
+   {
+    "hash": "0xbfd2e5c699a2596b4498b4b1eb673cb9598cac7037b99d52fedaa60832c4ff8d",
+    "timestamp": "2023-12-22T19:02:59.000000Z",
+    "method": "addTokenUris",
+    "from": "0xbfCb7FC3Ec9923Ae2e20C8eC6C5fc43A4c23F089",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 18843337,
+    "category": "uri"
+   },
+   {
+    "hash": "0x7489acd3262fdf82b99cbecdf274c759136fdcbaff196d0091a8eda3cf188a39",
+    "timestamp": "2023-12-22T19:01:11.000000Z",
+    "method": "addTokenUris",
+    "from": "0xbfCb7FC3Ec9923Ae2e20C8eC6C5fc43A4c23F089",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 18843328,
+    "category": "uri"
+   },
+   {
+    "hash": "0xc3fcba9530d5d19d761e0b866209d02024f37b778698c694d8a696fa83de27dd",
+    "timestamp": "2023-12-22T19:00:11.000000Z",
+    "method": "addTokenUris",
+    "from": "0xbfCb7FC3Ec9923Ae2e20C8eC6C5fc43A4c23F089",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 18843323,
+    "category": "uri"
+   },
+   {
+    "hash": "0x07b7ec7e9c75fc7a877b341a72b6d0c3b09630c7cc80add6003d2be78f8143bb",
+    "timestamp": "2023-12-22T18:58:23.000000Z",
+    "method": "addTokenUris",
+    "from": "0xbfCb7FC3Ec9923Ae2e20C8eC6C5fc43A4c23F089",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 18843314,
+    "category": "uri"
+   },
+   {
+    "hash": "0x4d121ca6819cfad5799ef00df528e45fc0cfd1db2f3fd17ebaa188a4fcbe4ba8",
+    "timestamp": "2023-12-22T18:55:35.000000Z",
+    "method": "addTokenUris",
+    "from": "0xbfCb7FC3Ec9923Ae2e20C8eC6C5fc43A4c23F089",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 18843300,
+    "category": "uri"
+   },
+   {
+    "hash": "0xe49fd96b804619f7b3ddd4f35924d085eb82038bf40586ded1ae48bef4d1086e",
+    "timestamp": "2023-12-01T18:10:47.000000Z",
+    "method": "addTokenUris",
+    "from": "0x77B35947d508012589a91CA4c9d168824376Cc7D",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 18693263,
+    "category": "uri"
+   }
+  ],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 2,
+    "first": "2023-11-29",
+    "last": "2023-11-29",
+    "last_tx": "0x39f699c775ed5bad6477a98287dae6ed9ffa577f1138d62281a57b8141b3dd50",
+    "list": [
+     {
+      "date": "2023-11-29",
+      "tx": "0x39f699c775ed5bad6477a98287dae6ed9ffa577f1138d62281a57b8141b3dd50",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "1502316d29bc2a6bba3b74c3e92ed4516b6f61c1"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2023-11-29",
+      "tx": "0x39f699c775ed5bad6477a98287dae6ed9ffa577f1138d62281a57b8141b3dd50",
+      "topics": [
+       "1502316d29bc2a6bba3b74c3e92ed4516b6f61c1",
+       "1502316d29bc2a6bba3b74c3e92ed4516b6f61c1"
+      ],
+      "data": "0x"
+     }
+    ]
+   },
+   "Upgraded(address)": {
+    "n": 1,
+    "first": "2023-11-29",
+    "last": "2023-11-29",
+    "last_tx": "0x39f699c775ed5bad6477a98287dae6ed9ffa577f1138d62281a57b8141b3dd50",
+    "list": [
+     {
+      "date": "2023-11-29",
+      "tx": "0x39f699c775ed5bad6477a98287dae6ed9ffa577f1138d62281a57b8141b3dd50",
+      "topics": [
+       "2eb9b14677df35998a4393cdefab352b526239eb"
+      ],
+      "data": "0x"
+     }
+    ]
+   },
+   "AdminChanged(address,address)": {
+    "n": 0
+   },
+   "BeaconUpgraded(address)": {
+    "n": 0
+   },
+   "MetadataUpdate(uint256)": {
+    "n": 2000,
+    "first": "2023-12-01",
+    "last": "2023-12-22",
+    "last_tx": "0x15e43e0384196e87a1ea46d07e8c77e12290555901894b248648ec351275b9a2",
+    "list": [
+     {
+      "date": "2023-12-01",
+      "tx": "0xe49fd96b804619f7b3ddd4f35924d085eb82038bf40586ded1ae48bef4d1086e",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000025"
+     },
+     {
+      "date": "2023-12-22",
+      "tx": "0x4d121ca6819cfad5799ef00df528e45fc0cfd1db2f3fd17ebaa188a4fcbe4ba8",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000001"
+     },
+     {
+      "date": "2023-12-22",
+      "tx": "0x4d121ca6819cfad5799ef00df528e45fc0cfd1db2f3fd17ebaa188a4fcbe4ba8",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000002"
+     },
+     {
+      "date": "2023-12-22",
+      "tx": "0x4d121ca6819cfad5799ef00df528e45fc0cfd1db2f3fd17ebaa188a4fcbe4ba8",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000003"
+     },
+     {
+      "date": "2023-12-22",
+      "tx": "0x4d121ca6819cfad5799ef00df528e45fc0cfd1db2f3fd17ebaa188a4fcbe4ba8",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000004"
+     },
+     {
+      "date": "2023-12-22",
+      "tx": "0x4d121ca6819cfad5799ef00df528e45fc0cfd1db2f3fd17ebaa188a4fcbe4ba8",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000005"
+     },
+     {
+      "date": "2023-12-22",
+      "tx": "0x4d121ca6819cfad5799ef00df528e45fc0cfd1db2f3fd17ebaa188a4fcbe4ba8",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000006"
+     },
+     {
+      "date": "2023-12-22",
+      "tx": "0x4d121ca6819cfad5799ef00df528e45fc0cfd1db2f3fd17ebaa188a4fcbe4ba8",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000007"
+     },
+     {
+      "date": "2023-12-22",
+      "tx": "0x4d121ca6819cfad5799ef00df528e45fc0cfd1db2f3fd17ebaa188a4fcbe4ba8",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000008"
+     },
+     {
+      "date": "2023-12-22",
+      "tx": "0x4d121ca6819cfad5799ef00df528e45fc0cfd1db2f3fd17ebaa188a4fcbe4ba8",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000009"
+     },
+     {
+      "date": "2023-12-22",
+      "tx": "0x4d121ca6819cfad5799ef00df528e45fc0cfd1db2f3fd17ebaa188a4fcbe4ba8",
+      "topics": [],
+      "data": "0x000000000000000000000000000000000000000000000000000000000000000a"
+     },
+     {
+      "date": "2023-12-22",
+      "tx": "0x4d121ca6819cfad5799ef00df528e45fc0cfd1db2f3fd17ebaa188a4fcbe4ba8",
+      "topics": [],
+      "data": "0x000000000000000000000000000000000000000000000000000000000000000b"
+     },
+     {
+      "date": "2023-12-22",
+      "tx": "0x4d121ca6819cfad5799ef00df528e45fc0cfd1db2f3fd17ebaa188a4fcbe4ba8",
+      "topics": [],
+      "data": "0x000000000000000000000000000000000000000000000000000000000000000c"
+     },
+     {
+      "date": "2023-12-22",
+      "tx": "0x4d121ca6819cfad5799ef00df528e45fc0cfd1db2f3fd17ebaa188a4fcbe4ba8",
+      "topics": [],
+      "data": "0x000000000000000000000000000000000000000000000000000000000000000d"
+     },
+     {
+      "date": "2023-12-22",
+      "tx": "0x4d121ca6819cfad5799ef00df528e45fc0cfd1db2f3fd17ebaa188a4fcbe4ba8",
+      "topics": [],
+      "data": "0x000000000000000000000000000000000000000000000000000000000000000e"
+     },
+     {
+      "date": "2023-12-22",
+      "tx": "0x4d121ca6819cfad5799ef00df528e45fc0cfd1db2f3fd17ebaa188a4fcbe4ba8",
+      "topics": [],
+      "data": "0x000000000000000000000000000000000000000000000000000000000000000f"
+     },
+     {
+      "date": "2023-12-22",
+      "tx": "0x4d121ca6819cfad5799ef00df528e45fc0cfd1db2f3fd17ebaa188a4fcbe4ba8",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000010"
+     },
+     {
+      "date": "2023-12-22",
+      "tx": "0x4d121ca6819cfad5799ef00df528e45fc0cfd1db2f3fd17ebaa188a4fcbe4ba8",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000011"
+     },
+     {
+      "date": "2023-12-22",
+      "tx": "0x4d121ca6819cfad5799ef00df528e45fc0cfd1db2f3fd17ebaa188a4fcbe4ba8",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000012"
+     },
+     {
+      "date": "2023-12-22",
+      "tx": "0x4d121ca6819cfad5799ef00df528e45fc0cfd1db2f3fd17ebaa188a4fcbe4ba8",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000013"
+     },
+     {
+      "date": "2023-12-22",
+      "tx": "0x4d121ca6819cfad5799ef00df528e45fc0cfd1db2f3fd17ebaa188a4fcbe4ba8",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000014"
+     },
+     {
+      "date": "2023-12-22",
+      "tx": "0x4d121ca6819cfad5799ef00df528e45fc0cfd1db2f3fd17ebaa188a4fcbe4ba8",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000015"
+     },
+     {
+      "date": "2023-12-22",
+      "tx": "0x4d121ca6819cfad5799ef00df528e45fc0cfd1db2f3fd17ebaa188a4fcbe4ba8",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000016"
+     },
+     {
+      "date": "2023-12-22",
+      "tx": "0x4d121ca6819cfad5799ef00df528e45fc0cfd1db2f3fd17ebaa188a4fcbe4ba8",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000017"
+     },
+     {
+      "date": "2023-12-22",
+      "tx": "0x4d121ca6819cfad5799ef00df528e45fc0cfd1db2f3fd17ebaa188a4fcbe4ba8",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000018"
+     },
+     {
+      "date": "2023-12-22",
+      "tx": "0x4d121ca6819cfad5799ef00df528e45fc0cfd1db2f3fd17ebaa188a4fcbe4ba8",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000019"
+     },
+     {
+      "date": "2023-12-22",
+      "tx": "0x4d121ca6819cfad5799ef00df528e45fc0cfd1db2f3fd17ebaa188a4fcbe4ba8",
+      "topics": [],
+      "data": "0x000000000000000000000000000000000000000000000000000000000000001a"
+     },
+     {
+      "date": "2023-12-22",
+      "tx": "0x4d121ca6819cfad5799ef00df528e45fc0cfd1db2f3fd17ebaa188a4fcbe4ba8",
+      "topics": [],
+      "data": "0x000000000000000000000000000000000000000000000000000000000000001b"
+     },
+     {
+      "date": "2023-12-22",
+      "tx": "0x4d121ca6819cfad5799ef00df528e45fc0cfd1db2f3fd17ebaa188a4fcbe4ba8",
+      "topics": [],
+      "data": "0x000000000000000000000000000000000000000000000000000000000000001c"
+     },
+     {
+      "date": "2023-12-22",
+      "tx": "0x4d121ca6819cfad5799ef00df528e45fc0cfd1db2f3fd17ebaa188a4fcbe4ba8",
+      "topics": [],
+      "data": "0x000000000000000000000000000000000000000000000000000000000000001d"
+     }
+    ]
+   },
+   "BatchMetadataUpdate(uint256,uint256)": {
+    "n": 0
+   },
+   "BlockListRegistryUpdated(address,address,address)": {
+    "n": 1,
+    "first": "2023-11-29",
+    "last": "2023-11-29",
+    "last_tx": "0x39f699c775ed5bad6477a98287dae6ed9ffa577f1138d62281a57b8141b3dd50",
+    "list": [
+     {
+      "date": "2023-11-29",
+      "tx": "0x39f699c775ed5bad6477a98287dae6ed9ffa577f1138d62281a57b8141b3dd50",
+      "topics": [
+       "1502316d29bc2a6bba3b74c3e92ed4516b6f61c1",
+       "0000000000000000000000000000000000000000",
+       "56fe4de01b15bb2afa969f914692867acac27ba5"
+      ],
+      "data": "0x"
+     }
+    ]
+   },
+   "TokenUriPinned(uint256,uint256)": {
+    "n": 0
+   },
+   "TokenUriUnpinned(uint256)": {
+    "n": 0
+   }
+  },
+  "decoded": [
+   {
+    "hash": "0xe49fd96b804619f7b3ddd4f35924d085eb82038bf40586ded1ae48bef4d1086e",
+    "timestamp": "2023-12-01T18:10:47.000000Z",
+    "method": "addTokenUris",
+    "category": "uri",
+    "from": "0x77B35947d508012589a91CA4c9d168824376Cc7D",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "uint256[]",
+      "value": "[37]"
+     },
+     {
+      "name": "arg1",
+      "type": "string",
+      "value": "https://arweave.net/P6I136KHAOAG5xpvywZsRcMEtXJ5-DZaRvgoFVPSOKE"
+     }
+    ],
+    "value_kinds": [
+     "http"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0x4d121ca6819cfad5799ef00df528e45fc0cfd1db2f3fd17ebaa188a4fcbe4ba8",
+    "timestamp": "2023-12-22T18:55:35.000000Z",
+    "method": "addTokenUris",
+    "category": "uri",
+    "from": "0xbfCb7FC3Ec9923Ae2e20C8eC6C5fc43A4c23F089",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "uint256[]",
+      "value": "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, "
+     },
+     {
+      "name": "arg1",
+      "type": "string",
+      "value": "https://arweave.net/FhM7KFyBD7AK7xZNL2CY-avfhpjfpjWX4k-1T9EXaxk"
+     }
+    ],
+    "value_kinds": [
+     "http"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0x07b7ec7e9c75fc7a877b341a72b6d0c3b09630c7cc80add6003d2be78f8143bb",
+    "timestamp": "2023-12-22T18:58:23.000000Z",
+    "method": "addTokenUris",
+    "category": "uri",
+    "from": "0xbfCb7FC3Ec9923Ae2e20C8eC6C5fc43A4c23F089",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "uint256[]",
+      "value": "[219, 220, 221, 222, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 237, 238, 239, 240, 241, 242, 243, 244, 246, 247, 248, 249, 250, 251, 253, 256, 257, 258, 259, 260, 261, 262, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 281, 282, 283, 284, 285,"
+     },
+     {
+      "name": "arg1",
+      "type": "string",
+      "value": "https://arweave.net/YqJ5Heupn31xGMqqTopCV5lnuBZeFf7vRSAQLRPn9U8"
+     }
+    ],
+    "value_kinds": [
+     "http"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0x69177f4bed8783b27f4f6d2d3ed5325c45871c2793f4b58b1568241f906e480f",
+    "timestamp": "2024-05-06T19:28:23.000000Z",
+    "method": "addTokenUris",
+    "category": "uri",
+    "from": "0xbfCb7FC3Ec9923Ae2e20C8eC6C5fc43A4c23F089",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "uint256[]",
+      "value": "[137, 260, 262, 285, 287, 295, 615, 791, 832, 857, 935, 1078, 1168, 1534, 1676, 1778, 1857, 1885, 2004, 2138, 2156, 2192, 2193, 2194, 2846]"
+     },
+     {
+      "name": "arg1",
+      "type": "string",
+      "value": "https://arweave.net/jIfYtVL8PfFlTr6ZX39betIepHF2uLuq2H9Z2KfdNKw"
+     }
+    ],
+    "value_kinds": [
+     "http"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0x599fea5431e39463a184843dd275edb94ada61b2cf4df944e0d75b7c7e57f35c",
+    "timestamp": "2024-05-10T19:42:35.000000Z",
+    "method": "addTokenUris",
+    "category": "uri",
+    "from": "0xbfCb7FC3Ec9923Ae2e20C8eC6C5fc43A4c23F089",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "uint256[]",
+      "value": "[140, 194, 312, 324, 325, 354, 413, 419, 421, 438, 587, 599, 642, 675, 688, 711, 767, 817, 915, 1080, 1138, 1278, 1279, 1280, 1356, 1375, 1481, 1631, 1677, 1734, 1828, 1829, 2160, 2326, 2360, 2439, 2681]"
+     },
+     {
+      "name": "arg1",
+      "type": "string",
+      "value": "https://arweave.net/O68n-Eo_y3QpJg-7UbPN73bbxg0FX9io2j4wE5S-FAs"
+     }
+    ],
+    "value_kinds": [
+     "http"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0x12b24fe64579e0cfe40b0ea2284fd2ab0f91cbe00f48e6837213c104c5f1b547",
+    "timestamp": "2024-05-31T21:28:47.000000Z",
+    "method": "addTokenUris",
+    "category": "uri",
+    "from": "0xbfCb7FC3Ec9923Ae2e20C8eC6C5fc43A4c23F089",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "uint256[]",
+      "value": "[15, 102, 166, 173, 218, 301, 352, 363, 427, 491, 524, 683, 693, 748, 795, 807, 878, 943, 962, 1052, 1106, 1196, 1242, 1336, 1395, 1401, 1428, 1551, 1552, 1553, 1584, 1612, 1644, 1714, 1802, 1813, 1814, 1833, 1858, 1948, 2035, 2051, 2209, 2257, 2299, 2392, 2396, 2397, 2398, 2468, 2544]"
+     },
+     {
+      "name": "arg1",
+      "type": "string",
+      "value": "https://arweave.net/vtAH6AA_LhOsEfZR4JwuTtdbfcqnbL0EW9LqmKRn1LA"
+     }
+    ],
+    "value_kinds": [
+     "http"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0x262dc61d9ee86afc0cdd7dff81cf228ec9b92234785f7cdbbc5c2160bb3242d3",
+    "timestamp": "2024-06-21T15:21:11.000000Z",
+    "method": "addTokenUris",
+    "category": "uri",
+    "from": "0xbfCb7FC3Ec9923Ae2e20C8eC6C5fc43A4c23F089",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "uint256[]",
+      "value": "[192, 221, 336, 474, 544, 653, 663, 746, 753, 1076, 1315, 1454, 1570, 1707, 1756, 1757, 1866, 2221, 2269, 2272, 2275]"
+     },
+     {
+      "name": "arg1",
+      "type": "string",
+      "value": "https://arweave.net/xICxvyQBlOoJ_Ijuw0yqTkT3L9o58klY5YSmcfuWY1E"
+     }
+    ],
+    "value_kinds": [
+     "http"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0x2842dacdd09a56827ee55b660fb79ae23da15e01335074c7630ddebd5a742267",
+    "timestamp": "2024-07-22T22:43:47.000000Z",
+    "method": "addTokenUris",
+    "category": "uri",
+    "from": "0xbfCb7FC3Ec9923Ae2e20C8eC6C5fc43A4c23F089",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "uint256[]",
+      "value": "[74, 143, 181, 199, 249, 270, 273, 305, 341, 367, 407, 410, 429, 460, 487, 496, 535, 543, 570, 605, 930, 936, 1048, 1084, 1085, 1093, 1110, 1136, 1197, 1230, 1250, 1263, 1276, 1299, 1327, 1330, 1343, 1358, 1361, 1452, 1498, 1548, 1614, 1617, 1638, 1710, 1716, 1722, 1755, 1947, 1965, 2061, 2072, 2134"
+     },
+     {
+      "name": "arg1",
+      "type": "string",
+      "value": "https://arweave.net/KDDVlQmjebU6F-ixhe2OxZ7UMwI-N-AuMLpMHeTGRP0"
+     }
+    ],
+    "value_kinds": [
+     "http"
+    ],
+    "error": null
+   }
+  ],
+  "ownership_transfers": [
+   {
+    "date": "2023-11-29",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0x1502316d29bc2a6bba3b74c3e92ed4516b6f61c1",
+    "tx": "0x39f699c775ed5bad6477a98287dae6ed9ffa577f1138d62281a57b8141b3dd50"
+   },
+   {
+    "date": "2023-11-29",
+    "from": "0x1502316d29bc2a6bba3b74c3e92ed4516b6f61c1",
+    "to": "0x1502316d29bc2a6bba3b74c3e92ed4516b6f61c1",
+    "tx": "0x39f699c775ed5bad6477a98287dae6ed9ffa577f1138d62281a57b8141b3dd50"
+   }
+  ],
+  "upgrades": [
+   {
+    "date": "2023-11-29",
+    "impl": "0x2eb9b14677df35998a4393cdefab352b526239eb",
+    "tx": "0x39f699c775ed5bad6477a98287dae6ed9ffa577f1138d62281a57b8141b3dd50"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0x20abac3f712e31234db222c2c0b0b192040d8ad8_reads1.json",
+ "eip4906": true,
+ "owner": {
+  "addr": "0x1502316d29bc2a6bba3b74c3e92ed4516b6f61c1",
+  "code_raw": "data/raw/rpc-mutability/0x1502316d29bc2a6bba3b74c3e92ed4516b6f61c1_holdercode.json",
+  "type": "eoa",
+  "bs_name": null,
+  "ens": "allseeingseneca.eth",
+  "bs_impl_names": [],
+  "bs_tags": [],
+  "is_contract": false,
+  "creator": null,
+  "is_verified": false,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "override",
+ "lock_functions": [
+  "renounceRole"
+ ],
+ "lock_flags_true": {},
+ "roles": {
+  "role": {
+   "value": null,
+   "members": null,
+   "source": "enumerable"
+  },
+  "DEFAULT_ADMIN_ROLE": {
+   "value": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "members": [],
+   "source": "RoleGranted logs + hasRole"
+  }
+ },
+ "mutators": [
+  {
+   "name": "addTokenUris",
+   "sig": "addTokenUris(uint256[],string)",
+   "selector": "0x6bf0651f",
+   "category": "uri",
+   "inputs": [
+    "uint256[]",
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "role",
+     "ref": "role"
+    }
+   ],
+   "modifiers": [
+    "onlyRoleOrOwner(ADMIN_ROLE)"
+   ],
+   "body_head": "if (bytes(baseUri).length == 0) revert EmptyTokenURI();\n        if (tokenIds.length == 0) revert NoTokensSpecified();\n        uint128 baseUriIndex = uint128(_mu",
+   "writes": [],
+   "effective": "unknown",
+   "power": "unknown",
+   "holder_addrs": [],
+   "holder_how": [
+    "role:role"
+   ],
+   "unknown_gate": true,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": []
+  }
+ ],
+ "class_direct": "unknown",
+ "class_reason": "live setter with unresolved holder: addTokenUris",
+ "live_mutators": [
+  "addTokenUris"
+ ],
+ "dependencies": [],
+ "meta": {
+  "address": "0x20abac3f712e31234db222c2c0b0b192040d8ad8",
+  "name": "Perils of S\u0113s\u0113 by All Seeing Seneca",
+  "w5_claim_strength": "on-chain-generic",
+  "w5_claim_text": "/// @notice Check on-chain if a token id has a pinned uri or not",
+  "w5_source_type": "contract-source",
+  "w5_source_url": "https://etherscan.io/address/0x20abac3f712e31234db222c2c0b0b192040d8ad8#code (src/multi-metadata/IERC7160.sol:40)",
+  "holders_count": 1144.0,
+  "in_w5": true,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": null,
+  "census_media_class": null,
+  "census_liveness": null,
+  "in_census_onchain": false,
+  "standard": "ERC-721",
+  "creator": "0x1502316d29bc2a6bba3b74c3e92ed4516b6f61c1",
+  "deploy_block": 18679015.0
+ },
+ "class_deps_all": "none",
+ "class_deps": "none",
+ "class_final": "unknown",
+ "pointer_power": null
+}

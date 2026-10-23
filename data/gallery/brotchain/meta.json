@@ -1,0 +1,31 @@
+{
+ "collection": "Brotchain",
+ "slug": "brotchain",
+ "contract": "0xd31fC221D2b0E0321C43E9F6824b26ebfFf01D7D",
+ "token_id": 1,
+ "chain_method": "data URI: contract computes Mandelbrot bitmap (BMP)",
+ "chain_call": "tokenURI(1)",
+ "json_name": "Mandelbrot #1",
+ "fields": {
+  "image": "data:image/bmp",
+  "animation_url": null,
+  "external_url": "https",
+  "json_how": "data-uri-utf8"
+ },
+ "rpc": {
+  "public_rpc_ok": true,
+  "rpc": "public",
+  "gas_estimate": null
+ },
+ "medium": "image/bmp (image data URI)",
+ "primary": "image",
+ "artwork_file": "artwork.html",
+ "doc_type": "text/html; charset=utf-8",
+ "artwork_bytes": 89072,
+ "artwork_sha256": "87089f5ea8bca3a43bcf680f29c082a03c1071c9352b1a046be3bbc9c03da24c",
+ "declared": {
+  "load": [],
+  "literals": []
+ },
+ "built_at": "2026-10-21T20:05:45Z"
+}

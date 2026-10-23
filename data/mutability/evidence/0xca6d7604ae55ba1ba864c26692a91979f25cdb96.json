@@ -1,0 +1,754 @@
+{
+ "address": "0xca6d7604ae55ba1ba864c26692a91979f25cdb96",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:01Z",
+ "code_raw": "data/raw/rpc-mutability/0xca6d7604ae55ba1ba864c26692a91979f25cdb96_code.json",
+ "code_len": 1091,
+ "slots": {
+  "eip1967_impl": "0x27427a8f21a499b766a51a4b6efa547d943fe6fd",
+  "slot0": "0x0000000000000000000000000000000000000000000000000000000000003dc0"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0xca6d7604ae55ba1ba864c26692a91979f25cdb96_slots.json",
+ "verified": true,
+ "contract_name": "DailyCargoProxy",
+ "proxy": {
+  "kind": "eip1967",
+  "impl": "0x27427a8f21a499b766a51a4b6efa547d943fe6fd",
+  "impl_verified": true,
+  "impl_name": "FreeNFTDailyCargo"
+ },
+ "has_source": true,
+ "abi_from": "impl+proxy",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [
+   {
+    "hash": "0xd7c485c8bc6c61f5b9dae0c638895e39fafb3e21e2e2d6fc809ab084ac6b1a4c",
+    "timestamp": "2023-03-13T22:16:47.000000Z",
+    "method": "transferOwnership",
+    "from": "0xDda089B7A30b3F2Aa819aCbEf6e96CC4627e1a4A",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 16821979,
+    "category": "ownership"
+   },
+   {
+    "hash": "0xc533832ad19c8a000d89bb5220232305ace10da771a513aaa69a7a6c77bf8110",
+    "timestamp": "2022-11-28T03:46:47.000000Z",
+    "method": "upgradeTo",
+    "from": "0xDda089B7A30b3F2Aa819aCbEf6e96CC4627e1a4A",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 16065884,
+    "category": "upgrade"
+   },
+   {
+    "hash": "0x663a6b00d8724a8279d73b90ddbf159ab2a04c930b63881018fb170866210b00",
+    "timestamp": "2022-11-25T20:34:23.000000Z",
+    "method": "setAttributesEnd",
+    "from": "0xDda089B7A30b3F2Aa819aCbEf6e96CC4627e1a4A",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 16049413,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x635b5ba31d105e007b4c52ef6db5839393b681b30fb58eff0ded3ace5d53c325",
+    "timestamp": "2022-11-25T20:33:59.000000Z",
+    "method": "setAttributesStart",
+    "from": "0xDda089B7A30b3F2Aa819aCbEf6e96CC4627e1a4A",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 16049411,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x851864a7e783e77253f07be3ae1784023dd7b87a1f30e021930d25064c650990",
+    "timestamp": "2022-11-25T20:29:35.000000Z",
+    "method": "setBaseURI",
+    "from": "0xDda089B7A30b3F2Aa819aCbEf6e96CC4627e1a4A",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 16049389,
+    "category": "uri"
+   },
+   {
+    "hash": "0x84b9b067b184429584802aaa58d7c68971dfe4428e197bbedc1bfca21f0c7511",
+    "timestamp": "2022-11-25T20:29:23.000000Z",
+    "method": "setExternalUrl",
+    "from": "0xDda089B7A30b3F2Aa819aCbEf6e96CC4627e1a4A",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 16049388,
+    "category": "uri"
+   },
+   {
+    "hash": "0xc37c0cde6e3e491a95b6ac1f80bf7f69a09cc39a797c52506cf000faf9f646ca",
+    "timestamp": "2022-11-25T20:28:59.000000Z",
+    "method": "setDescription",
+    "from": "0xDda089B7A30b3F2Aa819aCbEf6e96CC4627e1a4A",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 16049386,
+    "category": "renderer"
+   }
+  ],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 2,
+    "first": "2022-11-25",
+    "last": "2023-03-13",
+    "last_tx": "0xd7c485c8bc6c61f5b9dae0c638895e39fafb3e21e2e2d6fc809ab084ac6b1a4c",
+    "list": [
+     {
+      "date": "2022-11-25",
+      "tx": "0x1e4b224942b935d6359ec53999da9d3591f6c21a0c62a9ff897677173a7a25fa",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "dda089b7a30b3f2aa819acbef6e96cc4627e1a4a"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2023-03-13",
+      "tx": "0xd7c485c8bc6c61f5b9dae0c638895e39fafb3e21e2e2d6fc809ab084ac6b1a4c",
+      "topics": [
+       "dda089b7a30b3f2aa819acbef6e96cc4627e1a4a",
+       "40543d76fb35c60ff578b648d723e14ccab8b390"
+      ],
+      "data": "0x"
+     }
+    ]
+   },
+   "Upgraded(address)": {
+    "n": 2,
+    "first": "2022-11-25",
+    "last": "2022-11-28",
+    "last_tx": "0xc533832ad19c8a000d89bb5220232305ace10da771a513aaa69a7a6c77bf8110",
+    "list": [
+     {
+      "date": "2022-11-25",
+      "tx": "0x2da01dc48f4106faf9b1b61654693d8eed81735ba469a425fe1b587de541937f",
+      "topics": [
+       "10453962b2f5675bc715f5329f5a0291a3f8f8af"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2022-11-28",
+      "tx": "0xc533832ad19c8a000d89bb5220232305ace10da771a513aaa69a7a6c77bf8110",
+      "topics": [
+       "27427a8f21a499b766a51a4b6efa547d943fe6fd"
+      ],
+      "data": "0x"
+     }
+    ]
+   },
+   "AdminChanged(address,address)": {
+    "n": 0
+   },
+   "BeaconUpgraded(address)": {
+    "n": 0
+   }
+  },
+  "decoded": [
+   {
+    "hash": "0xc37c0cde6e3e491a95b6ac1f80bf7f69a09cc39a797c52506cf000faf9f646ca",
+    "timestamp": "2022-11-25T20:28:59.000000Z",
+    "method": "setDescription",
+    "category": "renderer",
+    "from": "0xDda089B7A30b3F2Aa819aCbEf6e96CC4627e1a4A",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "string",
+      "value": "Go to https://freenft.xyz every day to upgrade your cargo, maintain your streak and win rewards."
+     }
+    ],
+    "value_kinds": [
+     "other"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0x84b9b067b184429584802aaa58d7c68971dfe4428e197bbedc1bfca21f0c7511",
+    "timestamp": "2022-11-25T20:29:23.000000Z",
+    "method": "setExternalUrl",
+    "category": "uri",
+    "from": "0xDda089B7A30b3F2Aa819aCbEf6e96CC4627e1a4A",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "string",
+      "value": "https://freenft.xyz"
+     }
+    ],
+    "value_kinds": [
+     "http"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0x851864a7e783e77253f07be3ae1784023dd7b87a1f30e021930d25064c650990",
+    "timestamp": "2022-11-25T20:29:35.000000Z",
+    "method": "setBaseURI",
+    "category": "uri",
+    "from": "0xDda089B7A30b3F2Aa819aCbEf6e96CC4627e1a4A",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "string",
+      "value": "https://a2vh8vk6r7.execute-api.us-east-1.amazonaws.com/prod/daily_chest_image/"
+     }
+    ],
+    "value_kinds": [
+     "http"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0x635b5ba31d105e007b4c52ef6db5839393b681b30fb58eff0ded3ace5d53c325",
+    "timestamp": "2022-11-25T20:33:59.000000Z",
+    "method": "setAttributesStart",
+    "category": "renderer",
+    "from": "0xDda089B7A30b3F2Aa819aCbEf6e96CC4627e1a4A",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "string",
+      "value": "[{\"trait_type\": \"Streak\", \"value\":"
+     }
+    ],
+    "value_kinds": [
+     "other"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0x663a6b00d8724a8279d73b90ddbf159ab2a04c930b63881018fb170866210b00",
+    "timestamp": "2022-11-25T20:34:23.000000Z",
+    "method": "setAttributesEnd",
+    "category": "renderer",
+    "from": "0xDda089B7A30b3F2Aa819aCbEf6e96CC4627e1a4A",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "string",
+      "value": "}]"
+     }
+    ],
+    "value_kinds": [
+     "other"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0xc533832ad19c8a000d89bb5220232305ace10da771a513aaa69a7a6c77bf8110",
+    "timestamp": "2022-11-28T03:46:47.000000Z",
+    "method": "upgradeTo",
+    "category": "upgrade",
+    "from": "0xDda089B7A30b3F2Aa819aCbEf6e96CC4627e1a4A",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0x27427a8f21a499b766a51a4b6efa547d943fe6fd"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0xd7c485c8bc6c61f5b9dae0c638895e39fafb3e21e2e2d6fc809ab084ac6b1a4c",
+    "timestamp": "2023-03-13T22:16:47.000000Z",
+    "method": "transferOwnership",
+    "category": "ownership",
+    "from": "0xDda089B7A30b3F2Aa819aCbEf6e96CC4627e1a4A",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0x40543d76fb35c60ff578b648d723e14ccab8b390"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   }
+  ],
+  "ownership_transfers": [
+   {
+    "date": "2022-11-25",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0xdda089b7a30b3f2aa819acbef6e96cc4627e1a4a",
+    "tx": "0x1e4b224942b935d6359ec53999da9d3591f6c21a0c62a9ff897677173a7a25fa"
+   },
+   {
+    "date": "2023-03-13",
+    "from": "0xdda089b7a30b3f2aa819acbef6e96cc4627e1a4a",
+    "to": "0x40543d76fb35c60ff578b648d723e14ccab8b390",
+    "tx": "0xd7c485c8bc6c61f5b9dae0c638895e39fafb3e21e2e2d6fc809ab084ac6b1a4c"
+   }
+  ],
+  "upgrades": [
+   {
+    "date": "2022-11-25",
+    "impl": "0x10453962b2f5675bc715f5329f5a0291a3f8f8af",
+    "tx": "0x2da01dc48f4106faf9b1b61654693d8eed81735ba469a425fe1b587de541937f"
+   },
+   {
+    "date": "2022-11-28",
+    "impl": "0x27427a8f21a499b766a51a4b6efa547d943fe6fd",
+    "tx": "0xc533832ad19c8a000d89bb5220232305ace10da771a513aaa69a7a6c77bf8110"
+   }
+  ],
+  "incomplete": false,
+  "safe_calls": {
+   "0x40543d76fb35c60ff578b648d723e14ccab8b390": {
+    "count": 0,
+    "calls": []
+   }
+  }
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0xca6d7604ae55ba1ba864c26692a91979f25cdb96_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0x40543d76fb35c60ff578b648d723e14ccab8b390",
+  "code_raw": "data/raw/rpc-mutability/0x40543d76fb35c60ff578b648d723e14ccab8b390_holdercode.json",
+  "code_len": 171,
+  "probe_raw": "data/raw/rpc-mutability/0x40543d76fb35c60ff578b648d723e14ccab8b390_holderprobe.json",
+  "type": "safe",
+  "threshold": 2,
+  "n_owners": 3,
+  "owners": [
+   "0x786401ea633bcc82b40abf0e821eeffdb0dbf309",
+   "0xc58be29e4dd270967d5edca91c451e8aff7a8656",
+   "0xe5b265fd6a08c98580c07f2537051775c943061f"
+  ],
+  "version": "1.3.0",
+  "bs_name": "GnosisSafeProxy",
+  "ens": null,
+  "bs_impl_names": [
+   "GnosisSafe"
+  ],
+  "bs_tags": [],
+  "is_contract": true,
+  "creator": "0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2",
+  "is_verified": true,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "override",
+ "lock_functions": [],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [
+  {
+   "name": "setBaseURI",
+   "sig": "setBaseURI(string)",
+   "selector": "0x55f804b3",
+   "category": "uri",
+   "inputs": [
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "baseURI = _baseURI;",
+   "writes": [
+    "baseURI"
+   ],
+   "effective": "yes",
+   "power": "multisig",
+   "holder_addrs": [
+    "0x40543d76fb35c60ff578b648d723e14ccab8b390"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x40543d76fb35c60ff578b648d723e14ccab8b390",
+     "type": "safe",
+     "threshold": 2,
+     "n_owners": 3,
+     "bs_name": "GnosisSafeProxy",
+     "ens": null,
+     "desc": "safe 2/3",
+     "simple": "multisig"
+    }
+   ]
+  },
+  {
+   "name": "setExternalUrl",
+   "sig": "setExternalUrl(string)",
+   "selector": "0x26d58ad3",
+   "category": "uri",
+   "inputs": [
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "externalUrl = _externalUrl;",
+   "writes": [
+    "externalUrl"
+   ],
+   "effective": "yes",
+   "power": "multisig",
+   "holder_addrs": [
+    "0x40543d76fb35c60ff578b648d723e14ccab8b390"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x40543d76fb35c60ff578b648d723e14ccab8b390",
+     "type": "safe",
+     "threshold": 2,
+     "n_owners": 3,
+     "bs_name": "GnosisSafeProxy",
+     "ens": null,
+     "desc": "safe 2/3",
+     "simple": "multisig"
+    }
+   ]
+  },
+  {
+   "name": "setAttributesEnd",
+   "sig": "setAttributesEnd(string)",
+   "selector": "0x4e63510f",
+   "category": "renderer",
+   "inputs": [
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "attributesEnd = _attributesEnd;",
+   "writes": [
+    "attributesEnd"
+   ],
+   "effective": "yes",
+   "power": "multisig",
+   "holder_addrs": [
+    "0x40543d76fb35c60ff578b648d723e14ccab8b390"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x40543d76fb35c60ff578b648d723e14ccab8b390",
+     "type": "safe",
+     "threshold": 2,
+     "n_owners": 3,
+     "bs_name": "GnosisSafeProxy",
+     "ens": null,
+     "desc": "safe 2/3",
+     "simple": "multisig"
+    }
+   ]
+  },
+  {
+   "name": "setAttributesStart",
+   "sig": "setAttributesStart(string)",
+   "selector": "0x1edbd4c8",
+   "category": "renderer",
+   "inputs": [
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "attributesStart = _attributesStart;",
+   "writes": [
+    "attributesStart"
+   ],
+   "effective": "yes",
+   "power": "multisig",
+   "holder_addrs": [
+    "0x40543d76fb35c60ff578b648d723e14ccab8b390"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x40543d76fb35c60ff578b648d723e14ccab8b390",
+     "type": "safe",
+     "threshold": 2,
+     "n_owners": 3,
+     "bs_name": "GnosisSafeProxy",
+     "ens": null,
+     "desc": "safe 2/3",
+     "simple": "multisig"
+    }
+   ]
+  },
+  {
+   "name": "setDescription",
+   "sig": "setDescription(string)",
+   "selector": "0x90c3f38f",
+   "category": "renderer",
+   "inputs": [
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "description = _description;",
+   "writes": [
+    "description"
+   ],
+   "effective": "yes",
+   "power": "multisig",
+   "holder_addrs": [
+    "0x40543d76fb35c60ff578b648d723e14ccab8b390"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x40543d76fb35c60ff578b648d723e14ccab8b390",
+     "type": "safe",
+     "threshold": 2,
+     "n_owners": 3,
+     "bs_name": "GnosisSafeProxy",
+     "ens": null,
+     "desc": "safe 2/3",
+     "simple": "multisig"
+    }
+   ]
+  },
+  {
+   "name": "upgradeTo",
+   "sig": "upgradeTo(address)",
+   "selector": "0x3659cfe6",
+   "category": "upgrade",
+   "inputs": [
+    "address"
+   ],
+   "gates": [],
+   "modifiers": [
+    "onlyProxy"
+   ],
+   "body_head": "_authorizeUpgrade(newImplementation);\n        _upgradeToAndCallUUPS(newImplementation, new bytes(0), false);",
+   "writes": [],
+   "power": "multisig",
+   "holder_addrs": [
+    "0x40543d76fb35c60ff578b648d723e14ccab8b390"
+   ],
+   "holder_how": [
+    "no access check found in header/body head",
+    "fallback: owner() (upgrade authority not parsed)"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x40543d76fb35c60ff578b648d723e14ccab8b390",
+     "type": "safe",
+     "threshold": 2,
+     "n_owners": 3,
+     "bs_name": "GnosisSafeProxy",
+     "ens": null,
+     "desc": "safe 2/3",
+     "simple": "multisig"
+    }
+   ]
+  },
+  {
+   "name": "upgradeToAndCall",
+   "sig": "upgradeToAndCall(address,bytes)",
+   "selector": "0x4f1ef286",
+   "category": "upgrade",
+   "inputs": [
+    "address",
+    "bytes"
+   ],
+   "gates": [],
+   "modifiers": [
+    "onlyProxy"
+   ],
+   "body_head": "_authorizeUpgrade(newImplementation);\n        _upgradeToAndCallUUPS(newImplementation, data, true);",
+   "writes": [],
+   "power": "multisig",
+   "holder_addrs": [
+    "0x40543d76fb35c60ff578b648d723e14ccab8b390"
+   ],
+   "holder_how": [
+    "no access check found in header/body head",
+    "fallback: owner() (upgrade authority not parsed)"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x40543d76fb35c60ff578b648d723e14ccab8b390",
+     "type": "safe",
+     "threshold": 2,
+     "n_owners": 3,
+     "bs_name": "GnosisSafeProxy",
+     "ens": null,
+     "desc": "safe 2/3",
+     "simple": "multisig"
+    }
+   ]
+  }
+ ],
+ "class_direct": "multisig-mutable",
+ "class_reason": "live setters (multisig): setAttributesEnd,setAttributesStart,setBaseURI,setDescription,setExternalUrl,upgradeTo",
+ "live_mutators": [
+  "setAttributesEnd",
+  "setAttributesStart",
+  "setBaseURI",
+  "setDescription",
+  "setExternalUrl",
+  "upgradeTo",
+  "upgradeToAndCall"
+ ],
+ "dependencies": [
+  {
+   "address": "0x3cc6cdda760b79bafa08df41ecfa224f810dceb6",
+   "via": "constant DEFAULT_SUBSCRIPTION",
+   "in_tokenuri_path": false,
+   "via_setter": false,
+   "analysis": {
+    "address": "0x3cc6cdda760b79bafa08df41ecfa224f810dceb6",
+    "verified": true,
+    "contract_name": "OwnedRegistrant",
+    "proxy": {
+     "kind": null
+    },
+    "owner": {
+     "addr": "0xc669b5f25f03be2ac0323037cb57f49eb543657a",
+     "code_raw": "data/raw/rpc-mutability/0xc669b5f25f03be2ac0323037cb57f49eb543657a_holdercode.json",
+     "code_len": 171,
+     "probe_raw": "data/raw/rpc-mutability/0xc669b5f25f03be2ac0323037cb57f49eb543657a_holderprobe.json",
+     "type": "safe",
+     "threshold": 5,
+     "n_owners": 7,
+     "owners": [
+      "0x1049f38c6ef26b195cdaf54337e8079eea9376f1",
+      "0x59f4ec41bfdca22b4c0f1fd4b4ced52f79c3d09f",
+      "0x435949f7363093620bb0d3900180c22273f076ab",
+      "0xe80a65eb7a3018deda407e621ef5fb5b416678ca",
+      "0xb20f88febd0adc79c58982c9cc88938de81fe451",
+      "0xbf81d02f3ee59e79af3d9337a186f65c9fae39f3",
+      "0x30809f074db2fb7cfdf68b1d25cfac7c96b5fb6c"
+     ],
+     "version": "1.3.0",
+     "bs_name": "GnosisSafeProxy",
+     "ens": null,
+     "bs_impl_names": [
+      "GnosisSafe"
+     ],
+     "bs_tags": [],
+     "is_contract": true,
+     "creator": "0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2",
+     "is_verified": true,
+     "bs_reputation": "ok"
+    },
+    "admin_fn": null,
+    "uups": false,
+    "lock_views": {},
+    "lock_flags_true": {},
+    "lock_functions": [],
+    "class_direct": "immutable",
+    "class_reason": "no uri/renderer/upgrade function in ABI and not a proxy",
+    "live_mutators": [],
+    "mutators": [],
+    "history": {},
+    "unverified_selector_hits": [],
+    "tokenuri_path": "none"
+   }
+  }
+ ],
+ "meta": {
+  "address": "0xca6d7604ae55ba1ba864c26692a91979f25cdb96",
+  "name": "Daily Cargo",
+  "w5_claim_strength": null,
+  "w5_claim_text": null,
+  "w5_source_type": null,
+  "w5_source_url": null,
+  "holders_count": 11540.0,
+  "in_w5": false,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": "onchain-renderer",
+  "census_media_class": "http",
+  "census_liveness": "degraded",
+  "in_census_onchain": true,
+  "standard": "ERC-721",
+  "creator": "0xdda089b7a30b3f2aa819acbef6e96cc4627e1a4a",
+  "deploy_block": 16049255.0
+ },
+ "class_deps_all": "immutable",
+ "class_deps": "none",
+ "class_final": "multisig-mutable",
+ "pointer_power": "multisig"
+}

@@ -1,0 +1,630 @@
+{
+ "address": "0x8972c720c0a50ca7c5c026ad52c4964a58c54214",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:45Z",
+ "code_raw": "data/raw/rpc-mutability/0x8972c720c0a50ca7c5c026ad52c4964a58c54214_code.json",
+ "code_len": 24460,
+ "slots": {
+  "slot0": "0x0000000000000000000000000000000000000000000000000000000000000214"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0x8972c720c0a50ca7c5c026ad52c4964a58c54214_slots.json",
+ "verified": true,
+ "contract_name": "OnChainAlphaV2",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [
+   {
+    "hash": "0xf7bd62f8ad4b3f10753885f328bc0080f4e8aeb9d04b8123dcae9891d6e296c5",
+    "timestamp": "2023-02-28T04:49:47.000000Z",
+    "method": "transferOwnership",
+    "from": "0x1834d2D1F60ed3589B01dcebbdf826a966Ef0DF1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 16724394,
+    "category": "ownership"
+   },
+   {
+    "hash": "0x3627a02d7b71bcd603d63d695f6d5860bd5e931153912ec97813b843d464319e",
+    "timestamp": "2023-02-28T04:44:47.000000Z",
+    "method": "addLayer",
+    "from": "0x1834d2D1F60ed3589B01dcebbdf826a966Ef0DF1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 16724369,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x3e2dc4bf03773ca2f62c5bda72e0a442938a9af5f3d3c03940d41c53b0a2affe",
+    "timestamp": "2023-02-28T04:43:23.000000Z",
+    "method": "addLayer",
+    "from": "0x1834d2D1F60ed3589B01dcebbdf826a966Ef0DF1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 16724362,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xf985df58c4f2638c30997eb75e74b82a464f8ffb1d4f1ef3a032f8701b514a2f",
+    "timestamp": "2023-02-28T04:42:59.000000Z",
+    "method": "addLayer",
+    "from": "0x1834d2D1F60ed3589B01dcebbdf826a966Ef0DF1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 16724360,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xf8ef3d668ec4e406de4043b1617ab36876f3fccaf88c8566823f27459591a5de",
+    "timestamp": "2023-02-28T04:41:23.000000Z",
+    "method": "addLayer",
+    "from": "0x1834d2D1F60ed3589B01dcebbdf826a966Ef0DF1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 16724352,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x313be789b5bb7fdf4bf818d4d3521d980b319269977f3fed92bd262b9427be3c",
+    "timestamp": "2023-02-28T04:40:11.000000Z",
+    "method": "addLayer",
+    "from": "0x1834d2D1F60ed3589B01dcebbdf826a966Ef0DF1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 16724346,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xb802316c241f36b1754cf86f9b4bd0acbd185391f1fb56b7f6f73e4efb3008c4",
+    "timestamp": "2023-02-28T04:39:23.000000Z",
+    "method": "addLayer",
+    "from": "0x1834d2D1F60ed3589B01dcebbdf826a966Ef0DF1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 16724342,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xdba65b6f08825ecaa5d514e7a55c796af0317d4bb9f509257e3b20d4db58ab0e",
+    "timestamp": "2023-02-28T04:38:59.000000Z",
+    "method": "addLayer",
+    "from": "0x1834d2D1F60ed3589B01dcebbdf826a966Ef0DF1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 16724340,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xa6fdb96641c0d74d2760b585b0068d22f7dcb21be0ccc7376ce360cbe90bc067",
+    "timestamp": "2023-02-28T04:38:11.000000Z",
+    "method": "addLayer",
+    "from": "0x1834d2D1F60ed3589B01dcebbdf826a966Ef0DF1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 16724336,
+    "category": "renderer"
+   }
+  ],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 2,
+    "first": "2023-02-28",
+    "last": "2023-02-28",
+    "last_tx": "0xf7bd62f8ad4b3f10753885f328bc0080f4e8aeb9d04b8123dcae9891d6e296c5",
+    "list": [
+     {
+      "date": "2023-02-28",
+      "tx": "0x9b2ad4102408487d6e2893b314b08dcd2459854d8cd5a05aceef782a8049d1f1",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "1834d2d1f60ed3589b01dcebbdf826a966ef0df1"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2023-02-28",
+      "tx": "0xf7bd62f8ad4b3f10753885f328bc0080f4e8aeb9d04b8123dcae9891d6e296c5",
+      "topics": [
+       "1834d2d1f60ed3589b01dcebbdf826a966ef0df1",
+       "957356f9412830c992d465ff8cdb9b0aa023020b"
+      ],
+      "data": "0x"
+     }
+    ]
+   },
+   "LayersRevealed(uint256,uint256)": {
+    "n": 0
+   }
+  },
+  "decoded": [
+   {
+    "hash": "0xa6fdb96641c0d74d2760b585b0068d22f7dcb21be0ccc7376ce360cbe90bc067",
+    "timestamp": "2023-02-28T04:38:11.000000Z",
+    "method": "addLayer",
+    "category": "renderer",
+    "from": "0x1834d2D1F60ed3589B01dcebbdf826a966Ef0DF1",
+    "params": [
+     {
+      "name": "raw",
+      "type": "bytes",
+      "value": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0xdba65b6f08825ecaa5d514e7a55c796af0317d4bb9f509257e3b20d4db58ab0e",
+    "timestamp": "2023-02-28T04:38:59.000000Z",
+    "method": "addLayer",
+    "category": "renderer",
+    "from": "0x1834d2D1F60ed3589B01dcebbdf826a966Ef0DF1",
+    "params": [
+     {
+      "name": "raw",
+      "type": "bytes",
+      "value": "0000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0xb802316c241f36b1754cf86f9b4bd0acbd185391f1fb56b7f6f73e4efb3008c4",
+    "timestamp": "2023-02-28T04:39:23.000000Z",
+    "method": "addLayer",
+    "category": "renderer",
+    "from": "0x1834d2D1F60ed3589B01dcebbdf826a966Ef0DF1",
+    "params": [
+     {
+      "name": "raw",
+      "type": "bytes",
+      "value": "0000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0x313be789b5bb7fdf4bf818d4d3521d980b319269977f3fed92bd262b9427be3c",
+    "timestamp": "2023-02-28T04:40:11.000000Z",
+    "method": "addLayer",
+    "category": "renderer",
+    "from": "0x1834d2D1F60ed3589B01dcebbdf826a966Ef0DF1",
+    "params": [
+     {
+      "name": "raw",
+      "type": "bytes",
+      "value": "0000000000000000000000000000000000000000000000000000000000000006000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0xf8ef3d668ec4e406de4043b1617ab36876f3fccaf88c8566823f27459591a5de",
+    "timestamp": "2023-02-28T04:41:23.000000Z",
+    "method": "addLayer",
+    "category": "renderer",
+    "from": "0x1834d2D1F60ed3589B01dcebbdf826a966Ef0DF1",
+    "params": [
+     {
+      "name": "raw",
+      "type": "bytes",
+      "value": "0000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0xf985df58c4f2638c30997eb75e74b82a464f8ffb1d4f1ef3a032f8701b514a2f",
+    "timestamp": "2023-02-28T04:42:59.000000Z",
+    "method": "addLayer",
+    "category": "renderer",
+    "from": "0x1834d2D1F60ed3589B01dcebbdf826a966Ef0DF1",
+    "params": [
+     {
+      "name": "raw",
+      "type": "bytes",
+      "value": "000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0x3e2dc4bf03773ca2f62c5bda72e0a442938a9af5f3d3c03940d41c53b0a2affe",
+    "timestamp": "2023-02-28T04:43:23.000000Z",
+    "method": "addLayer",
+    "category": "renderer",
+    "from": "0x1834d2D1F60ed3589B01dcebbdf826a966Ef0DF1",
+    "params": [
+     {
+      "name": "raw",
+      "type": "bytes",
+      "value": "000000000000000000000000000000000000000000000000000000000000000c000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0x3627a02d7b71bcd603d63d695f6d5860bd5e931153912ec97813b843d464319e",
+    "timestamp": "2023-02-28T04:44:47.000000Z",
+    "method": "addLayer",
+    "category": "renderer",
+    "from": "0x1834d2D1F60ed3589B01dcebbdf826a966Ef0DF1",
+    "params": [
+     {
+      "name": "raw",
+      "type": "bytes",
+      "value": "000000000000000000000000000000000000000000000000000000000000000e000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0xf7bd62f8ad4b3f10753885f328bc0080f4e8aeb9d04b8123dcae9891d6e296c5",
+    "timestamp": "2023-02-28T04:49:47.000000Z",
+    "method": "transferOwnership",
+    "category": "ownership",
+    "from": "0x1834d2D1F60ed3589B01dcebbdf826a966Ef0DF1",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0x957356f9412830c992d465ff8cdb9b0aa023020b"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   }
+  ],
+  "ownership_transfers": [
+   {
+    "date": "2023-02-28",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0x1834d2d1f60ed3589b01dcebbdf826a966ef0df1",
+    "tx": "0x9b2ad4102408487d6e2893b314b08dcd2459854d8cd5a05aceef782a8049d1f1"
+   },
+   {
+    "date": "2023-02-28",
+    "from": "0x1834d2d1f60ed3589b01dcebbdf826a966ef0df1",
+    "to": "0x957356f9412830c992d465ff8cdb9b0aa023020b",
+    "tx": "0xf7bd62f8ad4b3f10753885f328bc0080f4e8aeb9d04b8123dcae9891d6e296c5"
+   }
+  ],
+  "incomplete": false,
+  "safe_calls": {
+   "0x957356f9412830c992d465ff8cdb9b0aa023020b": {
+    "count": 1,
+    "calls": [
+     {
+      "date": "2023-03-02",
+      "method": "togglePublicMint",
+      "category": null,
+      "params": [],
+      "tx": "0x96e528add2844e1d173ccd5f00a3991fd9c16e5e641df87fa70a2deb10414530",
+      "success": true,
+      "safe": "0x957356f9412830c992d465ff8cdb9b0aa023020b",
+      "value_kinds": []
+     }
+    ]
+   }
+  }
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0x8972c720c0a50ca7c5c026ad52c4964a58c54214_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0x957356f9412830c992d465ff8cdb9b0aa023020b",
+  "code_raw": "data/raw/rpc-mutability/0x957356f9412830c992d465ff8cdb9b0aa023020b_holdercode.json",
+  "code_len": 171,
+  "probe_raw": "data/raw/rpc-mutability/0x957356f9412830c992d465ff8cdb9b0aa023020b_holderprobe.json",
+  "type": "safe",
+  "threshold": 1,
+  "n_owners": 1,
+  "owners": [
+   "0xf1aa941d56041d47a9a18e99609a047707fe96c7"
+  ],
+  "version": "1.3.0",
+  "bs_name": "GnosisSafeProxy",
+  "ens": null,
+  "bs_impl_names": [
+   "GnosisSafe"
+  ],
+  "bs_tags": [],
+  "is_contract": true,
+  "creator": "0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2",
+  "is_verified": true,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "override",
+ "lock_functions": [],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [
+  {
+   "name": "setBaseURI",
+   "sig": "setBaseURI(string)",
+   "selector": "0x55f804b3",
+   "category": "uri",
+   "inputs": [
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "baseURI = _baseURI;",
+   "writes": [
+    "baseURI"
+   ],
+   "effective": "yes",
+   "power": "multisig",
+   "holder_addrs": [
+    "0x957356f9412830c992d465ff8cdb9b0aa023020b"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x957356f9412830c992d465ff8cdb9b0aa023020b",
+     "type": "safe",
+     "threshold": 1,
+     "n_owners": 1,
+     "bs_name": "GnosisSafeProxy",
+     "ens": null,
+     "desc": "safe 1/1",
+     "simple": "multisig"
+    }
+   ]
+  },
+  {
+   "name": "addLayer",
+   "sig": "addLayer(uint256,(string,string,bytes)[])",
+   "selector": "0x716e43d7",
+   "category": "renderer",
+   "inputs": [
+    "uint256",
+    "tuple[]"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "require(TIERS[_layerIndex].length == traits.length);\n        address[] memory dataPointers = new address[](traits.length);\n        for (uint256 i = 0; i < trait",
+   "writes": [
+    "_traitDataPointers",
+    "_traitDetails",
+    "dataPointers"
+   ],
+   "effective": "yes",
+   "power": "multisig",
+   "holder_addrs": [
+    "0x957356f9412830c992d465ff8cdb9b0aa023020b"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x957356f9412830c992d465ff8cdb9b0aa023020b",
+     "type": "safe",
+     "threshold": 1,
+     "n_owners": 1,
+     "bs_name": "GnosisSafeProxy",
+     "ens": null,
+     "desc": "safe 1/1",
+     "simple": "multisig"
+    }
+   ]
+  },
+  {
+   "name": "setLayerNames",
+   "sig": "setLayerNames(uint256,string)",
+   "selector": "0xfb38d211",
+   "category": "renderer",
+   "inputs": [
+    "uint256",
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "LAYER_NAMES[_layerNum] = _value;",
+   "writes": [
+    "LAYER_NAMES"
+   ],
+   "effective": "yes",
+   "power": "multisig",
+   "holder_addrs": [
+    "0x957356f9412830c992d465ff8cdb9b0aa023020b"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x957356f9412830c992d465ff8cdb9b0aa023020b",
+     "type": "safe",
+     "threshold": 1,
+     "n_owners": 1,
+     "bs_name": "GnosisSafeProxy",
+     "ens": null,
+     "desc": "safe 1/1",
+     "simple": "multisig"
+    }
+   ]
+  },
+  {
+   "name": "setRenderOfTokenId",
+   "sig": "setRenderOfTokenId(uint256,bool)",
+   "selector": "0xdbe9875f",
+   "category": "renderer",
+   "inputs": [
+    "uint256",
+    "bool"
+   ],
+   "gates": [
+    {
+     "type": "token-owner",
+     "ref": "ownerOf"
+    }
+   ],
+   "modifiers": [],
+   "body_head": "require(msg.sender == ownerOf(_tokenId));\n        _renderTokenOffChain[_tokenId] = _renderOffChain;",
+   "writes": [
+    "_renderTokenOffChain"
+   ],
+   "effective": "yes",
+   "power": "token-holder",
+   "holder_addrs": [],
+   "holder_how": [
+    "ownerOf"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": true,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": []
+  },
+  {
+   "name": "toggleLayers",
+   "sig": "toggleLayers(uint256,bool[])",
+   "selector": "0x2437013d",
+   "category": "renderer",
+   "inputs": [
+    "uint256",
+    "bool[]"
+   ],
+   "gates": [
+    {
+     "type": "token-owner",
+     "ref": "ownerOf"
+    }
+   ],
+   "modifiers": [],
+   "body_head": "require(msg.sender == ownerOf(_tokenId));\n        for (uint256 i = 0; i < NUM_LAYERS; i++) {\n            _hideLayer[_tokenId][i] = states[i];\n        }\n\n       ",
+   "writes": [
+    "_hideLayer"
+   ],
+   "effective": "yes",
+   "power": "token-holder",
+   "holder_addrs": [],
+   "holder_how": [
+    "ownerOf"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": true,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": []
+  },
+  {
+   "name": "revealLayers",
+   "sig": "revealLayers(uint256,uint256)",
+   "selector": "0x97e2155d",
+   "category": "reveal",
+   "inputs": [
+    "uint256",
+    "uint256"
+   ],
+   "gates": [
+    {
+     "type": "token-owner",
+     "ref": "ownerOf"
+    }
+   ],
+   "modifiers": [],
+   "body_head": "require(_layer < 15);\n        require(msg.sender == ownerOf(_tokenId));\n\n        _revealLayer[_tokenId][_layer] = true;\n\n        emit LayersRevealed(_tokenId, _",
+   "writes": [
+    "_revealLayer"
+   ],
+   "power": "token-holder",
+   "holder_addrs": [],
+   "holder_how": [
+    "ownerOf"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": true,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": []
+  }
+ ],
+ "class_direct": "multisig-mutable",
+ "class_reason": "live setters (multisig): addLayer,setBaseURI,setLayerNames",
+ "live_mutators": [
+  "addLayer",
+  "setBaseURI",
+  "setLayerNames",
+  "setRenderOfTokenId",
+  "toggleLayers"
+ ],
+ "dependencies": [],
+ "meta": {
+  "address": "0x8972c720c0a50ca7c5c026ad52c4964a58c54214",
+  "name": "On-Chain Alpha V2",
+  "w5_claim_strength": "on-chain-generic",
+  "w5_claim_text": "On-Chain Alpha is a collection of 7777 customizable digital identity tokens stored entirely on the Ethereum blockchain.",
+  "w5_source_type": "contractURI",
+  "w5_source_url": "data:application/json;base64,eyJuYW1lIjoiT24tQ2hhaW4gQWxwaGEgVjIiLCJkZXNjcmlwdGlvbiI6Ik9uLUNoYWluIEFscGhhIGlzIGEgY29sbGVjdGlvbiBvZiA3Nzc3IGN1c3RvbWl6YWJsZSBkaWdpdGFsIGlkZW50aXR5IHRva2VucyBzdG9yZWQgZW5",
+  "holders_count": 133.0,
+  "in_w5": true,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": null,
+  "census_media_class": null,
+  "census_liveness": null,
+  "in_census_onchain": false,
+  "standard": "ERC-721",
+  "creator": "0x1834d2d1f60ed3589b01dcebbdf826a966ef0df1",
+  "deploy_block": 16724294.0
+ },
+ "class_deps_all": "none",
+ "class_deps": "none",
+ "class_final": "multisig-mutable",
+ "pointer_power": "multisig"
+}

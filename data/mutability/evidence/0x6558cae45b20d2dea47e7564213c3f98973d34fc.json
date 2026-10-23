@@ -1,0 +1,865 @@
+{
+ "address": "0x6558cae45b20d2dea47e7564213c3f98973d34fc",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:34Z",
+ "code_raw": "data/raw/rpc-mutability/0x6558cae45b20d2dea47e7564213c3f98973d34fc_code.json",
+ "code_len": 24340,
+ "slots": {
+  "slot0": "0x0000000000000000000000000000000000000000000000000000000000000834"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0x6558cae45b20d2dea47e7564213c3f98973d34fc_slots.json",
+ "verified": true,
+ "contract_name": "Indelible",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [
+   {
+    "hash": "0xb71fee624a14e07111f458f94e5449dad7107825ad593cae4fd6c5f71fccd6fa",
+    "timestamp": "2023-03-16T06:00:11.000000Z",
+    "method": "setBaseURI",
+    "from": "0xD1871927EB021f69c168222937Cd378840b99d8f",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 16838494,
+    "category": "uri"
+   },
+   {
+    "hash": "0x1e9e6342deca9d3024bd5b2c5280d282c4cb35ce3ea4619a6680f53d1faa083c",
+    "timestamp": "2023-03-13T08:39:23.000000Z",
+    "method": "setLinkedTraits",
+    "from": "0xD1871927EB021f69c168222937Cd378840b99d8f",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 16817939,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x118197780cbd446add566db25c9c1d8f72c8b0eb75bf8374cbecd77fed3a027a",
+    "timestamp": "2023-03-10T22:31:11.000000Z",
+    "method": "setRandomSeed",
+    "from": "0xD1871927EB021f69c168222937Cd378840b99d8f",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 16800704,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x9c432f79eca3788854e2261ab18cb0ad3c4f87f36ee51a6b07f635f553ff38f7",
+    "timestamp": "2023-03-07T11:57:23.000000Z",
+    "method": "addLayer",
+    "from": "0xD1871927EB021f69c168222937Cd378840b99d8f",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 16776270,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x5998b30ff3efeb9fb4993be88d3a76a979b24aa5523dad7332ac07546e83d9c1",
+    "timestamp": "2023-03-07T11:57:11.000000Z",
+    "method": "addLayer",
+    "from": "0xD1871927EB021f69c168222937Cd378840b99d8f",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 16776269,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x5ae773e011788c8ba9576ce3971552cd66b0ba444eb70861c31f224275715f21",
+    "timestamp": "2023-03-07T11:56:11.000000Z",
+    "method": "addLayer",
+    "from": "0xD1871927EB021f69c168222937Cd378840b99d8f",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 16776264,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x1130c702f9cbee3ff46f546615dac6f1d4aef23ded8e4a0753ac9ab9d4968c17",
+    "timestamp": "2023-03-07T11:54:35.000000Z",
+    "method": "addLayer",
+    "from": "0xD1871927EB021f69c168222937Cd378840b99d8f",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 16776256,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x05ac661210db5317536260fa20b23a144f95505c5fb65e5e9ba05fd924eac648",
+    "timestamp": "2023-03-07T11:49:23.000000Z",
+    "method": "addLayer",
+    "from": "0xD1871927EB021f69c168222937Cd378840b99d8f",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 16776231,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x9a4488befabab91a64e8a0fcf2eac78e5baf3682c50fa8fe5b9613c13696976f",
+    "timestamp": "2023-03-07T11:41:11.000000Z",
+    "method": "addLayer",
+    "from": "0xD1871927EB021f69c168222937Cd378840b99d8f",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 16776190,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x00fc601b417dd428df22f776d0dc463e81fe6a134c87483dfcfb22a11e85ccb8",
+    "timestamp": "2023-03-07T11:40:47.000000Z",
+    "method": "addLayer",
+    "from": "0xD1871927EB021f69c168222937Cd378840b99d8f",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 16776188,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x5ebf5da2db4acd9e7ef68b3b7a7043301bd718171e2eaaae54be0f460117521b",
+    "timestamp": "2023-03-07T11:39:47.000000Z",
+    "method": "addLayer",
+    "from": "0xD1871927EB021f69c168222937Cd378840b99d8f",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 16776183,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xd352d3040fdad19b78f67391b0346f2195143c7e66d13372ff8446cb0768ca9a",
+    "timestamp": "2023-03-07T11:38:59.000000Z",
+    "method": "addLayer",
+    "from": "0xD1871927EB021f69c168222937Cd378840b99d8f",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 16776179,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x7f0df28c001400a3de8045c5f09d012cb6fc889610bbead43e07308d341e234b",
+    "timestamp": "2023-03-07T11:31:11.000000Z",
+    "method": "addLayer",
+    "from": "0xD1871927EB021f69c168222937Cd378840b99d8f",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 16776141,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x2a345777a9e1fbf59ee6bd813854994f4d57a46e3bb5fe6a2689545644199892",
+    "timestamp": "2023-03-07T11:28:23.000000Z",
+    "method": "addLayer",
+    "from": "0xD1871927EB021f69c168222937Cd378840b99d8f",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 16776127,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x45f35038992fd319379b76701f075a24ed4c2640d2d0d05e7e7bede725afa7b7",
+    "timestamp": "2023-03-07T10:29:23.000000Z",
+    "method": "addLayer",
+    "from": "0xD1871927EB021f69c168222937Cd378840b99d8f",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 16775836,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x8dbd86d74a6ba416f9141f601492f3ca550780079feea2f70fe82919556e4e93",
+    "timestamp": "2023-03-07T10:28:47.000000Z",
+    "method": "addLayer",
+    "from": "0xD1871927EB021f69c168222937Cd378840b99d8f",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 16775833,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x92bf0b03e5916b5e1e7668aa44f3dd1f0ea68ac41f326c8cf59bcb0c8970f812",
+    "timestamp": "2023-03-07T10:27:47.000000Z",
+    "method": "addLayer",
+    "from": "0xD1871927EB021f69c168222937Cd378840b99d8f",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 16775828,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xc79b265133c3ff9d8d7324fde3daf86136884a1be14f14a678b04ec689b087c7",
+    "timestamp": "2023-03-07T10:26:47.000000Z",
+    "method": "addLayer",
+    "from": "0xD1871927EB021f69c168222937Cd378840b99d8f",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 16775823,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x353a004a3d7bb5891b1eb4c052c40969ceef9e000141c15d757d9776500b775a",
+    "timestamp": "2023-03-06T17:53:47.000000Z",
+    "method": "addLayer",
+    "from": "0xD1871927EB021f69c168222937Cd378840b99d8f",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 16770923,
+    "category": "renderer"
+   }
+  ],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 1,
+    "first": "2023-03-06",
+    "last": "2023-03-06",
+    "last_tx": "0x03285c56be240851b6ec3bf58f1ea39ef6f12d2624cf126574e88a8f48db5f62",
+    "list": [
+     {
+      "date": "2023-03-06",
+      "tx": "0x03285c56be240851b6ec3bf58f1ea39ef6f12d2624cf126574e88a8f48db5f62",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "d1871927eb021f69c168222937cd378840b99d8f"
+      ],
+      "data": "0x"
+     }
+    ]
+   },
+   "MetadataUpdate(uint256)": {
+    "n": 0
+   },
+   "BatchMetadataUpdate(uint256,uint256)": {
+    "n": 2,
+    "first": "2023-03-10",
+    "last": "2023-03-16",
+    "last_tx": "0xb71fee624a14e07111f458f94e5449dad7107825ad593cae4fd6c5f71fccd6fa",
+    "list": [
+     {
+      "date": "2023-03-10",
+      "tx": "0x118197780cbd446add566db25c9c1d8f72c8b0eb75bf8374cbecd77fed3a027a",
+      "topics": [],
+      "data": "0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000015b2"
+     },
+     {
+      "date": "2023-03-16",
+      "tx": "0xb71fee624a14e07111f458f94e5449dad7107825ad593cae4fd6c5f71fccd6fa",
+      "topics": [],
+      "data": "0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000015b2"
+     }
+    ]
+   }
+  },
+  "decoded": [
+   {
+    "hash": "0x353a004a3d7bb5891b1eb4c052c40969ceef9e000141c15d757d9776500b775a",
+    "timestamp": "2023-03-06T17:53:47.000000Z",
+    "method": "addLayer",
+    "category": "renderer",
+    "from": "0xD1871927EB021f69c168222937Cd378840b99d8f",
+    "params": [
+     {
+      "name": "raw",
+      "type": "bytes",
+      "value": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0xc79b265133c3ff9d8d7324fde3daf86136884a1be14f14a678b04ec689b087c7",
+    "timestamp": "2023-03-07T10:26:47.000000Z",
+    "method": "addLayer",
+    "category": "renderer",
+    "from": "0xD1871927EB021f69c168222937Cd378840b99d8f",
+    "params": [
+     {
+      "name": "raw",
+      "type": "bytes",
+      "value": "0000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0x92bf0b03e5916b5e1e7668aa44f3dd1f0ea68ac41f326c8cf59bcb0c8970f812",
+    "timestamp": "2023-03-07T10:27:47.000000Z",
+    "method": "addLayer",
+    "category": "renderer",
+    "from": "0xD1871927EB021f69c168222937Cd378840b99d8f",
+    "params": [
+     {
+      "name": "raw",
+      "type": "bytes",
+      "value": "0000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0x5998b30ff3efeb9fb4993be88d3a76a979b24aa5523dad7332ac07546e83d9c1",
+    "timestamp": "2023-03-07T11:57:11.000000Z",
+    "method": "addLayer",
+    "category": "renderer",
+    "from": "0xD1871927EB021f69c168222937Cd378840b99d8f",
+    "params": [
+     {
+      "name": "raw",
+      "type": "bytes",
+      "value": "000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0x9c432f79eca3788854e2261ab18cb0ad3c4f87f36ee51a6b07f635f553ff38f7",
+    "timestamp": "2023-03-07T11:57:23.000000Z",
+    "method": "addLayer",
+    "category": "renderer",
+    "from": "0xD1871927EB021f69c168222937Cd378840b99d8f",
+    "params": [
+     {
+      "name": "raw",
+      "type": "bytes",
+      "value": "000000000000000000000000000000000000000000000000000000000000000c000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0x118197780cbd446add566db25c9c1d8f72c8b0eb75bf8374cbecd77fed3a027a",
+    "timestamp": "2023-03-10T22:31:11.000000Z",
+    "method": "setRandomSeed",
+    "category": "reveal",
+    "from": "0xD1871927EB021f69c168222937Cd378840b99d8f",
+    "params": [],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0x1e9e6342deca9d3024bd5b2c5280d282c4cb35ce3ea4619a6680f53d1faa083c",
+    "timestamp": "2023-03-13T08:39:23.000000Z",
+    "method": "setLinkedTraits",
+    "category": "renderer",
+    "from": "0xD1871927EB021f69c168222937Cd378840b99d8f",
+    "params": [
+     {
+      "name": "raw",
+      "type": "bytes",
+      "value": "000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000001570000000000000000000000000000000000000000000000000000000000002a"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0xb71fee624a14e07111f458f94e5449dad7107825ad593cae4fd6c5f71fccd6fa",
+    "timestamp": "2023-03-16T06:00:11.000000Z",
+    "method": "setBaseURI",
+    "category": "uri",
+    "from": "0xD1871927EB021f69c168222937Cd378840b99d8f",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "string",
+      "value": "https://app.indelible.xyz/api/png/0x6558cae45b20d2dea47e7564213c3f98973d34fc/"
+     }
+    ],
+    "value_kinds": [
+     "http"
+    ],
+    "error": null
+   }
+  ],
+  "ownership_transfers": [
+   {
+    "date": "2023-03-06",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0xd1871927eb021f69c168222937cd378840b99d8f",
+    "tx": "0x03285c56be240851b6ec3bf58f1ea39ef6f12d2624cf126574e88a8f48db5f62"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0x6558cae45b20d2dea47e7564213c3f98973d34fc_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0xd1871927eb021f69c168222937cd378840b99d8f",
+  "code_raw": "data/raw/rpc-mutability/0xd1871927eb021f69c168222937cd378840b99d8f_holdercode.json",
+  "type": "eoa",
+  "bs_name": null,
+  "ens": null,
+  "bs_impl_names": [],
+  "bs_tags": [],
+  "is_contract": false,
+  "creator": null,
+  "is_verified": false,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {
+  "isContractSealed": 0
+ },
+ "tokenuri_path": "override",
+ "lock_functions": [
+  "sealContract"
+ ],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [
+  {
+   "name": "setBaseURI",
+   "sig": "setBaseURI(string)",
+   "selector": "0x55f804b3",
+   "category": "uri",
+   "inputs": [
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "baseURI = uri;\n\n        emit BatchMetadataUpdate(0, maxSupply - 1);",
+   "writes": [
+    "baseURI"
+   ],
+   "effective": "yes",
+   "power": "eoa",
+   "holder_addrs": [
+    "0xd1871927eb021f69c168222937cd378840b99d8f"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xd1871927eb021f69c168222937cd378840b99d8f",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "setPlaceholderImage",
+   "sig": "setPlaceholderImage(string)",
+   "selector": "0xb75f1aef",
+   "category": "uri",
+   "inputs": [
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "placeholderImage = placeholder;",
+   "writes": [
+    "placeholderImage"
+   ],
+   "effective": "yes",
+   "power": "eoa",
+   "holder_addrs": [
+    "0xd1871927eb021f69c168222937cd378840b99d8f"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xd1871927eb021f69c168222937cd378840b99d8f",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "addLayer",
+   "sig": "addLayer(uint256,(string,string,bytes,bool,bool,uint256)[])",
+   "selector": "0x97d194d7",
+   "category": "renderer",
+   "inputs": [
+    "uint256",
+    "tuple[]"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner",
+    "whenUnsealed"
+   ],
+   "body_head": "require(tiers[layerIndex].length == traits.length, \"Traits length is incorrect\");\n        address[] memory dataPointers = new address[](traits.length);\n        ",
+   "writes": [
+    "_traitDataPointers",
+    "_traitDetails",
+    "dataPointers"
+   ],
+   "effective": "yes",
+   "power": "eoa",
+   "holder_addrs": [
+    "0xd1871927eb021f69c168222937cd378840b99d8f"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [
+    "isContractSealed"
+   ],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xd1871927eb021f69c168222937cd378840b99d8f",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "addTrait",
+   "sig": "addTrait(uint256,uint256,(string,string,bytes,bool,bool,uint256))",
+   "selector": "0x180c2cc0",
+   "category": "renderer",
+   "inputs": [
+    "uint256",
+    "uint256",
+    "tuple"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner",
+    "whenUnsealed"
+   ],
+   "body_head": "_traitDetails[layerIndex][traitIndex] = Trait(trait.name, trait.mimetype, trait.hide);\n        address[] memory dataPointers = _traitDataPointers[layerIndex];\n ",
+   "writes": [
+    "_traitDataPointers",
+    "_traitDetails",
+    "dataPointers"
+   ],
+   "effective": "yes",
+   "power": "eoa",
+   "holder_addrs": [
+    "0xd1871927eb021f69c168222937cd378840b99d8f"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [
+    "isContractSealed"
+   ],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xd1871927eb021f69c168222937cd378840b99d8f",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "setBackgroundColor",
+   "sig": "setBackgroundColor(string)",
+   "selector": "0x6190e1da",
+   "category": "renderer",
+   "inputs": [
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner",
+    "whenUnsealed"
+   ],
+   "body_head": "backgroundColor = color;",
+   "writes": [
+    "backgroundColor"
+   ],
+   "effective": "yes",
+   "power": "eoa",
+   "holder_addrs": [
+    "0xd1871927eb021f69c168222937cd378840b99d8f"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [
+    "isContractSealed"
+   ],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xd1871927eb021f69c168222937cd378840b99d8f",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "setLinkedTraits",
+   "sig": "setLinkedTraits((uint256[],uint256[])[])",
+   "selector": "0xb4568066",
+   "category": "renderer",
+   "inputs": [
+    "tuple[]"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner",
+    "whenUnsealed"
+   ],
+   "body_head": "for (uint i = 0; i < linkedTraits.length; i++) {\n            _linkedTraits[linkedTraits[i].traitA[0]][linkedTraits[i].traitA[1]] = [linkedTraits[i].traitB[0],li",
+   "writes": [],
+   "effective": "unknown",
+   "power": "eoa",
+   "holder_addrs": [
+    "0xd1871927eb021f69c168222937cd378840b99d8f"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [
+    "isContractSealed"
+   ],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xd1871927eb021f69c168222937cd378840b99d8f",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "setRenderOfTokenId",
+   "sig": "setRenderOfTokenId(uint256,bool)",
+   "selector": "0xdbe9875f",
+   "category": "renderer",
+   "inputs": [
+    "uint256",
+    "bool"
+   ],
+   "gates": [
+    {
+     "type": "token-owner",
+     "ref": "ownerOf"
+    }
+   ],
+   "modifiers": [],
+   "body_head": "require(msg.sender == ownerOf(tokenId), \"Not token owner\");\n        _renderTokenOffChain[tokenId] = renderOffChain;\n\n        emit MetadataUpdate(tokenId);",
+   "writes": [
+    "_renderTokenOffChain"
+   ],
+   "effective": "yes",
+   "power": "token-holder",
+   "holder_addrs": [],
+   "holder_how": [
+    "ownerOf"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": true,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": []
+  },
+  {
+   "name": "setRandomSeed",
+   "sig": "setRandomSeed()",
+   "selector": "0x38f897b8",
+   "category": "reveal",
+   "inputs": [],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "require(randomSeed == 0, \"Random seed is already set\");\n        randomSeed = uint(\n            keccak256(\n                abi.encodePacked(\n                    ",
+   "writes": [
+    "randomSeed"
+   ],
+   "power": "eoa",
+   "holder_addrs": [
+    "0xd1871927eb021f69c168222937cd378840b99d8f"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xd1871927eb021f69c168222937cd378840b99d8f",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  }
+ ],
+ "class_direct": "eoa-mutable",
+ "class_reason": "live setters (eoa): addLayer,addTrait,setBackgroundColor,setBaseURI,setLinkedTraits,setPlaceholderImage",
+ "live_mutators": [
+  "addLayer",
+  "addTrait",
+  "setBackgroundColor",
+  "setBaseURI",
+  "setLinkedTraits",
+  "setPlaceholderImage",
+  "setRenderOfTokenId"
+ ],
+ "dependencies": [
+  {
+   "address": "0x3cc6cdda760b79bafa08df41ecfa224f810dceb6",
+   "via": "constant DEFAULT_SUBSCRIPTION",
+   "in_tokenuri_path": false,
+   "via_setter": false,
+   "analysis": {
+    "address": "0x3cc6cdda760b79bafa08df41ecfa224f810dceb6",
+    "verified": true,
+    "contract_name": "OwnedRegistrant",
+    "proxy": {
+     "kind": null
+    },
+    "owner": {
+     "addr": "0xc669b5f25f03be2ac0323037cb57f49eb543657a",
+     "code_raw": "data/raw/rpc-mutability/0xc669b5f25f03be2ac0323037cb57f49eb543657a_holdercode.json",
+     "code_len": 171,
+     "probe_raw": "data/raw/rpc-mutability/0xc669b5f25f03be2ac0323037cb57f49eb543657a_holderprobe.json",
+     "type": "safe",
+     "threshold": 5,
+     "n_owners": 7,
+     "owners": [
+      "0x1049f38c6ef26b195cdaf54337e8079eea9376f1",
+      "0x59f4ec41bfdca22b4c0f1fd4b4ced52f79c3d09f",
+      "0x435949f7363093620bb0d3900180c22273f076ab",
+      "0xe80a65eb7a3018deda407e621ef5fb5b416678ca",
+      "0xb20f88febd0adc79c58982c9cc88938de81fe451",
+      "0xbf81d02f3ee59e79af3d9337a186f65c9fae39f3",
+      "0x30809f074db2fb7cfdf68b1d25cfac7c96b5fb6c"
+     ],
+     "version": "1.3.0",
+     "bs_name": "GnosisSafeProxy",
+     "ens": null,
+     "bs_impl_names": [
+      "GnosisSafe"
+     ],
+     "bs_tags": [],
+     "is_contract": true,
+     "creator": "0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2",
+     "is_verified": true,
+     "bs_reputation": "ok"
+    },
+    "admin_fn": null,
+    "uups": false,
+    "lock_views": {},
+    "lock_flags_true": {},
+    "lock_functions": [],
+    "class_direct": "immutable",
+    "class_reason": "no uri/renderer/upgrade function in ABI and not a proxy",
+    "live_mutators": [],
+    "mutators": [],
+    "history": {},
+    "unverified_selector_hits": [],
+    "tokenuri_path": "none"
+   }
+  }
+ ],
+ "meta": {
+  "address": "0x6558cae45b20d2dea47e7564213c3f98973d34fc",
+  "name": "BONBON by Usagi",
+  "w5_claim_strength": "explicit-100%/fully",
+  "w5_claim_text": "BONBON is the 1st Pixel Rabbit NFT released 100% on-chain!",
+  "w5_source_type": "contractURI",
+  "w5_source_url": "data:application/json;base64,eyJuYW1lIjoiQk9OQk9OIGJ5IFVzYWdpIiwiZGVzY3JpcHRpb24iOiJCT05CT04gaXMgdGhlIDFzdCBQaXhlbCBSYWJiaXQgTkZUIHJlbGVhc2VkIDEwMCUgb24tY2hhaW4hIDU1NTUgY29sbGVjdGlibGUgY2hhcmFjdGVycyB",
+  "holders_count": 477.0,
+  "in_w5": true,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": null,
+  "census_media_class": null,
+  "census_liveness": null,
+  "in_census_onchain": false,
+  "standard": "ERC-721",
+  "creator": "0xd1871927eb021f69c168222937cd378840b99d8f",
+  "deploy_block": 16770871.0
+ },
+ "class_deps_all": "immutable",
+ "class_deps": "none",
+ "class_final": "eoa-mutable",
+ "pointer_power": "eoa"
+}

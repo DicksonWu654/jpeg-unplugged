@@ -1,0 +1,501 @@
+{
+  "collection": {
+    "rank": 35,
+    "source_rank": 35,
+    "name": "FLUF World",
+    "contract": "0xccc441ac31f02cd96c153db6fd5fe0a2f4e6a68d",
+    "contracts": [
+      "0xccc441ac31f02cd96c153db6fd5fe0a2f4e6a68d"
+    ],
+    "slug": "fluf-world",
+    "volume_usd": 138344533.53,
+    "volume_source": "CryptoSlam all-time Ethereum owner-to-owner sales, wash-filtered USD",
+    "source_url": "https://web-api.cryptoslam.io/v1/sales/rank-by-volume?timeRange=all&orderBy=rank&sortDirection=asc&offset=0&limit=100&blockchainId=0&hideInscriptions=false",
+    "ranking_evidence": "data/raw/top100-api/cryptoslam-ranking-0.json",
+    "identity_evidence": "data/raw/top100-api/cryptoslam-info-fluf-world.json",
+    "token_count": 10000,
+    "all_time_volume": 138344533.53,
+    "volume_currency": "USD",
+    "kind": "art-avatar",
+    "metadata_location": "http",
+    "metadata_classes": [
+      "http"
+    ],
+    "media_location": "unresolved",
+    "primary_image_location": "unresolved",
+    "media_classes": [],
+    "liveness": "dead",
+    "liveness_exact": "dead",
+    "all_declared_media_liveness": "dead",
+    "metadata_failed": true,
+    "n_alive": 0,
+    "n_dead": 3,
+    "n_unknown": 0,
+    "n_degraded": 0,
+    "key_domain_or_gateway": "api.fluf.world",
+    "hosts": [
+      "api.fluf.world"
+    ],
+    "hardcoded_gateways": [],
+    "http_origin_dependency": true,
+    "uses_ipfs": false,
+    "uses_arweave": false,
+    "fully_onchain_all_declared_media": false,
+    "metadata_and_primary_image_onchain": false,
+    "mutability_class": "eoa-mutable",
+    "single_key_mutable": true,
+    "single_key_repointable": true,
+    "base_uri_or_renderer": "0xccc441ac31f02cd96c153db6fd5fe0a2f4e6a68d.baseTokenURI() = https://api.fluf.world/api/token/",
+    "control": [
+      {
+        "contract": "0xccc441ac31f02cd96c153db6fd5fe0a2f4e6a68d",
+        "class": "eoa-mutable",
+        "pointer_power": "eoa",
+        "reason": "live setters (eoa): setTokenURI",
+        "owner": {
+          "addr": "0x2d7365e143f71400d2cd7b54462f4365282d6940",
+          "code_raw": "data/raw/rpc-mutability/0x2d7365e143f71400d2cd7b54462f4365282d6940_holdercode.json",
+          "type": "eoa",
+          "bs_name": null,
+          "ens": null,
+          "bs_impl_names": [],
+          "bs_tags": [],
+          "is_contract": false,
+          "creator": null,
+          "is_verified": false,
+          "bs_reputation": "ok"
+        },
+        "proxy": {
+          "kind": null
+        },
+        "live_mutators": [
+          {
+            "name": "setTokenURI",
+            "sig": "setTokenURI(string)",
+            "category": "uri",
+            "power": "eoa",
+            "holders": [
+              {
+                "addr": "0x2d7365e143f71400d2cd7b54462f4365282d6940",
+                "type": "eoa",
+                "bs_name": null,
+                "ens": null,
+                "desc": "eoa",
+                "simple": "eoa"
+              }
+            ],
+            "effective": "yes",
+            "reason": null
+          }
+        ],
+        "lock_flags": {},
+        "dependencies": [],
+        "pointer_getters": [
+          {
+            "getter": "baseTokenURI()",
+            "type": "string",
+            "ok": true,
+            "value": "https://api.fluf.world/api/token/",
+            "error": null
+          }
+        ],
+        "analyzed_at": "2026-10-23T02:51:23Z",
+        "history_incomplete": false,
+        "evidence": "data/raw/top100-mutability/0xccc441ac31f02cd96c153db6fd5fe0a2f4e6a68d.json"
+      }
+    ],
+    "samples": 3,
+    "distinct_token_ids": 3,
+    "sample_note": null,
+    "source_contracts_without_sampleable_nfts": [],
+    "ownership_scope_gaps": [],
+    "refreshed_at": "2026-10-23T03:05:05Z",
+    "opensea_rank": 42,
+    "ranking_scope_disagreement": false,
+    "metadata_adapter": false,
+    "evidence": [
+      "data/raw/top100-census/0xccc441ac31f02cd96c153db6fd5fe0a2f4e6a68d/result.json.gz"
+    ],
+    "delivery_note": null
+  },
+  "samples": [
+    {
+      "contract": "0xccc441ac31f02cd96c153db6fd5fe0a2f4e6a68d",
+      "token_id": "8710",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(0) [low; totalSupply=10000]",
+      "metadata_location": "http",
+      "metadata_uri": "https://api.fluf.world/api/token/8710",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "api.fluf.world",
+          "url": "https://api.fluf.world/api/token/8710",
+          "status": null,
+          "error_kind": "dns-servfail",
+          "v": "dead",
+          "reason": "dns-servfail",
+          "seq": 3,
+          "final_url": "https://api.fluf.world/api/token/8710",
+          "content_type": null,
+          "size": 0,
+          "content_length": null,
+          "sha256": null,
+          "t": "2026-10-23T02:50:29Z",
+          "reg_domain_dns": "servfail",
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "api.fluf.world",
+          "url": "https://api.fluf.world/api/token/8710",
+          "status": null,
+          "error_kind": "dns-servfail",
+          "v": "dead",
+          "reason": "dns-servfail",
+          "seq": 7,
+          "final_url": "https://api.fluf.world/api/token/8710",
+          "content_type": null,
+          "size": 0,
+          "content_length": null,
+          "sha256": null,
+          "t": "2026-10-23T02:58:40Z",
+          "reg_domain_dns": "servfail",
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "api.fluf.world",
+          "url": "https://api.fluf.world/api/token/8710",
+          "status": null,
+          "error_kind": "dns-servfail",
+          "v": "dead",
+          "reason": "dns-servfail",
+          "seq": 10,
+          "final_url": "https://api.fluf.world/api/token/8710",
+          "content_type": null,
+          "size": 0,
+          "content_length": null,
+          "sha256": null,
+          "t": "2026-10-23T03:05:02Z",
+          "reg_domain_dns": "servfail",
+          "redirected": false
+        }
+      ],
+      "media": [],
+      "derived": {
+        "meta_verdict": "dead",
+        "meta_verdict_reason": "dns-servfail",
+        "image_class": null,
+        "anim_class": null,
+        "image_verdict": null,
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {},
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "dead",
+        "liveness_reason": "dns-servfail",
+        "liveness_exact": "dead",
+        "liveness_exact_reason": "dns-servfail",
+        "meta_verdict_exact": "dead",
+        "image_verdict_exact": null,
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "dns-servfail"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000002206",
+          "endpoint": "https://eth.rpc.blxrbdn.com",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0xccc441ac31f02cd96c153db6fd5fe0a2f4e6a68d/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0xccc441ac31f02cd96c153db6fd5fe0a2f4e6a68d",
+      "token_id": "3710",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(5000) [mid; totalSupply=10000]",
+      "metadata_location": "http",
+      "metadata_uri": "https://api.fluf.world/api/token/3710",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "api.fluf.world",
+          "url": "https://api.fluf.world/api/token/3710",
+          "status": null,
+          "error_kind": "dns-servfail",
+          "v": "dead",
+          "reason": "dns-servfail",
+          "seq": 4,
+          "final_url": "https://api.fluf.world/api/token/3710",
+          "content_type": null,
+          "size": 0,
+          "content_length": null,
+          "sha256": null,
+          "t": "2026-10-23T02:50:29Z",
+          "reg_domain_dns": "servfail",
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "api.fluf.world",
+          "url": "https://api.fluf.world/api/token/3710",
+          "status": null,
+          "error_kind": "dns-servfail",
+          "v": "dead",
+          "reason": "dns-servfail",
+          "seq": 8,
+          "final_url": "https://api.fluf.world/api/token/3710",
+          "content_type": null,
+          "size": 0,
+          "content_length": null,
+          "sha256": null,
+          "t": "2026-10-23T02:58:41Z",
+          "reg_domain_dns": "servfail",
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "api.fluf.world",
+          "url": "https://api.fluf.world/api/token/3710",
+          "status": null,
+          "error_kind": "dns-servfail",
+          "v": "dead",
+          "reason": "dns-servfail",
+          "seq": 11,
+          "final_url": "https://api.fluf.world/api/token/3710",
+          "content_type": null,
+          "size": 0,
+          "content_length": null,
+          "sha256": null,
+          "t": "2026-10-23T03:05:04Z",
+          "reg_domain_dns": "servfail",
+          "redirected": false
+        }
+      ],
+      "media": [],
+      "derived": {
+        "meta_verdict": "dead",
+        "meta_verdict_reason": "dns-servfail",
+        "image_class": null,
+        "anim_class": null,
+        "image_verdict": null,
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {},
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "dead",
+        "liveness_reason": "dns-servfail",
+        "liveness_exact": "dead",
+        "liveness_exact_reason": "dns-servfail",
+        "meta_verdict_exact": "dead",
+        "image_verdict_exact": null,
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "dns-servfail"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000000e7e",
+          "endpoint": "https://eth.rpc.blxrbdn.com",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0xccc441ac31f02cd96c153db6fd5fe0a2f4e6a68d/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0xccc441ac31f02cd96c153db6fd5fe0a2f4e6a68d",
+      "token_id": "8709",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(9999) [recent; totalSupply=10000]",
+      "metadata_location": "http",
+      "metadata_uri": "https://api.fluf.world/api/token/8709",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "api.fluf.world",
+          "url": "https://api.fluf.world/api/token/8709",
+          "status": null,
+          "error_kind": "dns-servfail",
+          "v": "dead",
+          "reason": "dns-servfail",
+          "seq": 6,
+          "final_url": "https://api.fluf.world/api/token/8709",
+          "content_type": null,
+          "size": 0,
+          "content_length": null,
+          "sha256": null,
+          "t": "2026-10-23T02:50:30Z",
+          "reg_domain_dns": "servfail",
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "api.fluf.world",
+          "url": "https://api.fluf.world/api/token/8709",
+          "status": null,
+          "error_kind": "dns-servfail",
+          "v": "dead",
+          "reason": "dns-servfail",
+          "seq": 9,
+          "final_url": "https://api.fluf.world/api/token/8709",
+          "content_type": null,
+          "size": 0,
+          "content_length": null,
+          "sha256": null,
+          "t": "2026-10-23T02:58:41Z",
+          "reg_domain_dns": "servfail",
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "api.fluf.world",
+          "url": "https://api.fluf.world/api/token/8709",
+          "status": null,
+          "error_kind": "dns-servfail",
+          "v": "dead",
+          "reason": "dns-servfail",
+          "seq": 12,
+          "final_url": "https://api.fluf.world/api/token/8709",
+          "content_type": null,
+          "size": 0,
+          "content_length": null,
+          "sha256": null,
+          "t": "2026-10-23T03:05:04Z",
+          "reg_domain_dns": "servfail",
+          "redirected": false
+        }
+      ],
+      "media": [],
+      "derived": {
+        "meta_verdict": "dead",
+        "meta_verdict_reason": "dns-servfail",
+        "image_class": null,
+        "anim_class": null,
+        "image_verdict": null,
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {},
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "dead",
+        "liveness_reason": "dns-servfail",
+        "liveness_exact": "dead",
+        "liveness_exact_reason": "dns-servfail",
+        "meta_verdict_exact": "dead",
+        "image_verdict_exact": null,
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "dns-servfail"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000002205",
+          "endpoint": "https://eth.rpc.blxrbdn.com",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0xccc441ac31f02cd96c153db6fd5fe0a2f4e6a68d/evidence.jsonl.gz"
+    }
+  ],
+  "saved_packet_index": [
+    {
+      "path": "data/raw/top100-api/opensea-contract-0xccc441ac31f02cd96c153db6fd5fe0a2f4e6a68d-attempt1-1792724293611013538.body",
+      "sha256": "d6f025d76412f333b700cf3399223749805c8e67fc8d7e0d015fbc96284c1d41",
+      "retrieved_at": "2026-10-23T02:58:13Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0xccc441ac31f02cd96c153db6fd5fe0a2f4e6a68d",
+      "method": "GET",
+      "status": 200,
+      "error": null,
+      "bytes": 170,
+      "truncated": false
+    },
+    {
+      "path": "data/raw/top100-api/opensea-contract-0xccc441ac31f02cd96c153db6fd5fe0a2f4e6a68d.json",
+      "sha256": "d6f025d76412f333b700cf3399223749805c8e67fc8d7e0d015fbc96284c1d41",
+      "retrieved_at": "2026-10-23T02:58:13Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0xccc441ac31f02cd96c153db6fd5fe0a2f4e6a68d",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "data/raw/top100-census/0xccc441ac31f02cd96c153db6fd5fe0a2f4e6a68d/bodies.zip",
+      "sha256": "4a59aa6d6085219ce8e2d511c9d708019d51a533e28511ef4667558416c0968e",
+      "bytes": 735
+    },
+    {
+      "path": "data/raw/top100-census/0xccc441ac31f02cd96c153db6fd5fe0a2f4e6a68d/evidence.jsonl.gz",
+      "sha256": "3fc321d80c544495aa10393aa469d2078af7dd493467a083ad8bbd393b09756f",
+      "bytes": 1459
+    },
+    {
+      "path": "data/raw/top100-census/0xccc441ac31f02cd96c153db6fd5fe0a2f4e6a68d/result.json.gz",
+      "sha256": "4c6f3e08163fb3508ee4bf95917844b40ce1b2b93029f4118165ee4c0a321971",
+      "bytes": 1075
+    },
+    {
+      "path": "data/raw/top100-mutability/0xccc441ac31f02cd96c153db6fd5fe0a2f4e6a68d.json",
+      "sha256": "4df6705d6342e5c809fab2888b1e40bc049cfd72a4dbf1691f46ce09c74779d2",
+      "bytes": 90036
+    },
+    {
+      "path": "data/raw/top100-pointers/0xccc441ac31f02cd96c153db6fd5fe0a2f4e6a68d/bodies.zip",
+      "sha256": "6ddb50b6268e182480aedd02a01921abf81ed3e3d58cf27b3ea58e8cb70871cd",
+      "bytes": 249
+    },
+    {
+      "path": "data/raw/top100-pointers/0xccc441ac31f02cd96c153db6fd5fe0a2f4e6a68d/evidence.jsonl.gz",
+      "sha256": "dbb81683208711f3073c1e73b396a77e86efc8e7b528d844c69e5f80118fe3cd",
+      "bytes": 342
+    },
+    {
+      "path": "data/raw/top100-pointers/0xccc441ac31f02cd96c153db6fd5fe0a2f4e6a68d/result.json",
+      "sha256": "6365db146ca78e18f17d9c576c6af8b10c4612e60282359ca9589dfc04182f0d",
+      "bytes": 346
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0xccc441ac31f02cd96c153db6fd5fe0a2f4e6a68d/bodies.zip",
+      "sha256": "15d72c07fb17be5a20b03bb01c386ec0ee2515cc22929f6b685142fb0789c848",
+      "bytes": 628
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0xccc441ac31f02cd96c153db6fd5fe0a2f4e6a68d/evidence.jsonl.gz",
+      "sha256": "99656af0e4adba10a721c02d8199bcc2cdf129106f7bf911ffed9d32432044ab",
+      "bytes": 686
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0xccc441ac31f02cd96c153db6fd5fe0a2f4e6a68d/result.json",
+      "sha256": "5d7dbc7d264299b9c05719f78f5af20523cf7a7de128c2798a7779d2bc18da23",
+      "bytes": 302
+    }
+  ],
+  "interpretation": "Liveness describes sampled metadata and primary-image delivery, not permanent loss of the artwork."
+}

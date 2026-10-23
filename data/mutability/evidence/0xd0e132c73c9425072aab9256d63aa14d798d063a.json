@@ -1,0 +1,303 @@
+{
+ "address": "0xd0e132c73c9425072aab9256d63aa14d798d063a",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:42:55Z",
+ "code_raw": "data/raw/rpc-mutability/0xd0e132c73c9425072aab9256d63aa14d798d063a_code.json",
+ "code_len": 212,
+ "slots": {
+  "eip1967_impl": "0x683a180d369448b19073759883b2a70f2c61c34c"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0xd0e132c73c9425072aab9256d63aa14d798d063a_slots.json",
+ "verified": true,
+ "contract_name": "ERC1967Proxy",
+ "proxy": {
+  "kind": "eip1967",
+  "impl": "0x683a180d369448b19073759883b2a70f2c61c34c",
+  "impl_verified": true,
+  "impl_name": "GenesisSBT"
+ },
+ "has_source": true,
+ "abi_from": "impl+proxy",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [
+   {
+    "hash": "0x0462def76b91c668e20a3706c88458be54044eec72ec92bbc0b3434585693b7b",
+    "timestamp": "2025-12-19T01:51:47.000000Z",
+    "method": "setNftDescription",
+    "from": "0xfA0B0f5d298d28EFE4d35641724141ef19C05684",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 24043483,
+    "category": "renderer"
+   }
+  ],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 1,
+    "first": "2025-12-19",
+    "last": "2025-12-19",
+    "last_tx": "0xf82e1e4f88f22c6822b146794fb0bfba8d4f3aecb099c37c2c04a3211eda1383",
+    "list": [
+     {
+      "date": "2025-12-19",
+      "tx": "0xf82e1e4f88f22c6822b146794fb0bfba8d4f3aecb099c37c2c04a3211eda1383",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "fa0b0f5d298d28efe4d35641724141ef19c05684"
+      ],
+      "data": "0x"
+     }
+    ]
+   },
+   "Upgraded(address)": {
+    "n": 1,
+    "first": "2025-12-19",
+    "last": "2025-12-19",
+    "last_tx": "0xf82e1e4f88f22c6822b146794fb0bfba8d4f3aecb099c37c2c04a3211eda1383",
+    "list": [
+     {
+      "date": "2025-12-19",
+      "tx": "0xf82e1e4f88f22c6822b146794fb0bfba8d4f3aecb099c37c2c04a3211eda1383",
+      "topics": [
+       "683a180d369448b19073759883b2a70f2c61c34c"
+      ],
+      "data": "0x"
+     }
+    ]
+   },
+   "AdminChanged(address,address)": {
+    "n": 0
+   },
+   "BeaconUpgraded(address)": {
+    "n": 0
+   },
+   "MetadataUpdate(uint256)": {
+    "n": 0
+   },
+   "BatchMetadataUpdate(uint256,uint256)": {
+    "n": 0
+   }
+  },
+  "decoded": [
+   {
+    "hash": "0x0462def76b91c668e20a3706c88458be54044eec72ec92bbc0b3434585693b7b",
+    "timestamp": "2025-12-19T01:51:47.000000Z",
+    "method": "setNftDescription",
+    "category": "renderer",
+    "from": "0xfA0B0f5d298d28EFE4d35641724141ef19C05684",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "string",
+      "value": "Your Genesis SBT proves you were early to Fast Protocol. Your progress will carry into the main Fast ecosystem at launch."
+     }
+    ],
+    "value_kinds": [
+     "other"
+    ],
+    "error": null
+   }
+  ],
+  "ownership_transfers": [
+   {
+    "date": "2025-12-19",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0xfa0b0f5d298d28efe4d35641724141ef19c05684",
+    "tx": "0xf82e1e4f88f22c6822b146794fb0bfba8d4f3aecb099c37c2c04a3211eda1383"
+   }
+  ],
+  "upgrades": [
+   {
+    "date": "2025-12-19",
+    "impl": "0x683a180d369448b19073759883b2a70f2c61c34c",
+    "tx": "0xf82e1e4f88f22c6822b146794fb0bfba8d4f3aecb099c37c2c04a3211eda1383"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0xd0e132c73c9425072aab9256d63aa14d798d063a_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0xfa0b0f5d298d28efe4d35641724141ef19c05684",
+  "code_raw": "data/raw/rpc-mutability/0xfa0b0f5d298d28efe4d35641724141ef19c05684_holdercode.json",
+  "type": "eoa",
+  "note": "EIP-7702 delegated EOA",
+  "bs_name": null,
+  "ens": "preconf.eth",
+  "bs_impl_names": [
+   "Kernel"
+  ],
+  "bs_tags": [],
+  "is_contract": true,
+  "creator": null,
+  "is_verified": true,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "override",
+ "lock_functions": [],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [
+  {
+   "name": "setAssetURI",
+   "sig": "setAssetURI(string)",
+   "selector": "0x42cc9c73",
+   "category": "uri",
+   "inputs": [
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "_assetURI = assetURI;\n        _updateMetadata();",
+   "writes": [
+    "_assetURI"
+   ],
+   "effective": "yes",
+   "power": "eoa",
+   "holder_addrs": [
+    "0xfa0b0f5d298d28efe4d35641724141ef19c05684"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xfa0b0f5d298d28efe4d35641724141ef19c05684",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": "preconf.eth",
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "setNftDescription",
+   "sig": "setNftDescription(string)",
+   "selector": "0x42b545fc",
+   "category": "renderer",
+   "inputs": [
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "_nftDescription = nftDescription;\n        _updateMetadata();",
+   "writes": [
+    "_nftDescription"
+   ],
+   "effective": "yes",
+   "power": "eoa",
+   "holder_addrs": [
+    "0xfa0b0f5d298d28efe4d35641724141ef19c05684"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xfa0b0f5d298d28efe4d35641724141ef19c05684",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": "preconf.eth",
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "upgradeToAndCall",
+   "sig": "upgradeToAndCall(address,bytes)",
+   "selector": "0x4f1ef286",
+   "category": "upgrade",
+   "inputs": [
+    "address",
+    "bytes"
+   ],
+   "gates": [],
+   "modifiers": [],
+   "body_head": "_setImplementation(newImplementation);\n        emit IERC1967.Upgraded(newImplementation);\n\n        if (data.length > 0) {\n            Address.functionDelegateCa",
+   "writes": [],
+   "power": "eoa",
+   "holder_addrs": [
+    "0xfa0b0f5d298d28efe4d35641724141ef19c05684"
+   ],
+   "holder_how": [
+    "no access check found in header/body head",
+    "fallback: owner() (upgrade authority not parsed)"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xfa0b0f5d298d28efe4d35641724141ef19c05684",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": "preconf.eth",
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  }
+ ],
+ "class_direct": "eoa-mutable",
+ "class_reason": "live setters (eoa): setAssetURI,setNftDescription,upgradeToAndCall",
+ "live_mutators": [
+  "setAssetURI",
+  "setNftDescription",
+  "upgradeToAndCall"
+ ],
+ "dependencies": [],
+ "meta": {
+  "address": "0xd0e132c73c9425072aab9256d63aa14d798d063a",
+  "name": "Genesis SBT",
+  "w5_claim_strength": null,
+  "w5_claim_text": null,
+  "w5_source_type": null,
+  "w5_source_url": null,
+  "holders_count": 112774.0,
+  "in_w5": false,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": "onchain-renderer",
+  "census_media_class": "ipfs",
+  "census_liveness": "alive",
+  "in_census_onchain": true,
+  "standard": "ERC-721",
+  "creator": "0xfa0b0f5d298d28efe4d35641724141ef19c05684",
+  "deploy_block": 24043483.0
+ },
+ "class_deps_all": "none",
+ "class_deps": "none",
+ "class_final": "eoa-mutable",
+ "pointer_power": "eoa"
+}

@@ -1,0 +1,917 @@
+{
+ "address": "0x3abedba3052845ce3f57818032bfa747cded3fca",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:31Z",
+ "code_raw": "data/raw/rpc-mutability/0x3abedba3052845ce3f57818032bfa747cded3fca_code.json",
+ "code_len": 757,
+ "slots": {
+  "slot0": "0x00000000000000000000000025ed7235a171bf8a281aa2807a3ca6f21b80f833"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0x3abedba3052845ce3f57818032bfa747cded3fca_slots.json",
+ "verified": true,
+ "contract_name": "Proxy",
+ "proxy": {
+  "kind": "explorer-detected",
+  "impl": "0x25ed7235a171bf8a281aa2807a3ca6f21b80f833",
+  "impl_verified": true,
+  "impl_name": "EtherOrcs"
+ },
+ "has_source": true,
+ "abi_from": "impl+proxy",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [
+   {
+    "hash": "0x525f62202ce631df1ac7b91f1cd40d66ad3b5ff2e38d5bce800ae5ad2b0faffb",
+    "timestamp": "2023-09-22T01:04:47.000000Z",
+    "method": "setImplementation",
+    "from": "0xe37Da1e4632B94e601Ac015Be8DB554E0456B01a",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 18188005,
+    "category": "upgrade"
+   },
+   {
+    "hash": "0xc21d6cb167381af427ce32b20d65dde2df84f64f7edbf3546f878b487939f559",
+    "timestamp": "2022-11-03T19:03:11.000000Z",
+    "method": "setImplementation",
+    "from": "0xe37Da1e4632B94e601Ac015Be8DB554E0456B01a",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15891450,
+    "category": "upgrade"
+   },
+   {
+    "hash": "0x796dc7aba8000b7e35ef26e08e556ca2a4f4fbd027e590e792906a328104cb46",
+    "timestamp": "2022-03-09T23:57:46.000000Z",
+    "method": "setImplementation",
+    "from": "0xe37Da1e4632B94e601Ac015Be8DB554E0456B01a",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 14355737,
+    "category": "upgrade"
+   },
+   {
+    "hash": "0xc7bc16ee5d1f9fbd1f148b600768abe0b7da2e225618b4fde791de6e72a9a04c",
+    "timestamp": "2022-01-18T13:29:02.000000Z",
+    "method": "setImplementation",
+    "from": "0xe37Da1e4632B94e601Ac015Be8DB554E0456B01a",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 14029758,
+    "category": "upgrade"
+   },
+   {
+    "hash": "0x61dc32015e350f21eed1e4a283056f00492c8c7d31d32aa2ef7c1e15ad443aeb",
+    "timestamp": "2022-01-14T20:55:09.000000Z",
+    "method": "setImplementation",
+    "from": "0xe37Da1e4632B94e601Ac015Be8DB554E0456B01a",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 14005901,
+    "category": "upgrade"
+   },
+   {
+    "hash": "0x7994346cc999d8b14084072c0ea7c3c4f428d41f5398a2607fe23b9e18ddb512",
+    "timestamp": "2021-12-14T14:14:11.000000Z",
+    "method": "setImplementation",
+    "from": "0xe37Da1e4632B94e601Ac015Be8DB554E0456B01a",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13803753,
+    "category": "upgrade"
+   },
+   {
+    "hash": "0x120bff61fe4d493c76fd8d7d29d04f7c2b7d5d26b32f2eda04efd56c8bc0bba0",
+    "timestamp": "2021-12-14T13:31:51.000000Z",
+    "method": "setImplementation",
+    "from": "0xe37Da1e4632B94e601Ac015Be8DB554E0456B01a",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13803575,
+    "category": "upgrade"
+   },
+   {
+    "hash": "0xb046a6398a04f58b7578ad059580b34119a2c618dfc6cf27a00ab8f40daf9d44",
+    "timestamp": "2021-12-14T12:37:25.000000Z",
+    "method": "setImplementation",
+    "from": "0xe37Da1e4632B94e601Ac015Be8DB554E0456B01a",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13803323,
+    "category": "upgrade"
+   },
+   {
+    "hash": "0xe7aac84a64be9c0853957d814dcf218fe83e0030dbeb3fb559eba2cd76b93106",
+    "timestamp": "2021-11-30T22:33:23.000000Z",
+    "method": "setImplementation",
+    "from": "0xe37Da1e4632B94e601Ac015Be8DB554E0456B01a",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13717486,
+    "category": "upgrade"
+   },
+   {
+    "hash": "0x50065dd3b33d53b03e0c60390c87eef9f28d5584a10b1476c397611a857c3c06",
+    "timestamp": "2021-11-13T17:11:24.000000Z",
+    "method": "setImplementation",
+    "from": "0xe37Da1e4632B94e601Ac015Be8DB554E0456B01a",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13608899,
+    "category": "upgrade"
+   },
+   {
+    "hash": "0x67d373558556169945e11c2d46388f04d4e288d00108f25433ae2c80bfa6f66c",
+    "timestamp": "2021-11-13T16:04:24.000000Z",
+    "method": "setImplementation",
+    "from": "0xe37Da1e4632B94e601Ac015Be8DB554E0456B01a",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13608622,
+    "category": "upgrade"
+   },
+   {
+    "hash": "0xb8a65dae931075e670b05881a29897325644faedc85dcfd1f5e38d6a6b9957d5",
+    "timestamp": "2021-11-02T20:34:41.000000Z",
+    "method": "setImplementation",
+    "from": "0xe37Da1e4632B94e601Ac015Be8DB554E0456B01a",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13539675,
+    "category": "upgrade"
+   },
+   {
+    "hash": "0x557d56c68e7c77bf7d667c1f329eb916e8c2b9eefed0d73eef3e191891e1516b",
+    "timestamp": "2021-10-30T14:08:21.000000Z",
+    "method": "setImplementation",
+    "from": "0xe37Da1e4632B94e601Ac015Be8DB554E0456B01a",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13518904,
+    "category": "upgrade"
+   },
+   {
+    "hash": "0xf45c750bc2189c294cebf8b77f91427581b751e4e51a0a4549a7f64f9bf66337",
+    "timestamp": "2021-10-22T22:47:50.000000Z",
+    "method": "setImplementation",
+    "from": "0xe37Da1e4632B94e601Ac015Be8DB554E0456B01a",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13470180,
+    "category": "upgrade"
+   },
+   {
+    "hash": "0x4a6ffad41660da20b268f956155abbea45c167f6fc24c87a46115ea6f5173b23",
+    "timestamp": "2021-10-22T22:32:34.000000Z",
+    "method": "setImplementation",
+    "from": "0xe37Da1e4632B94e601Ac015Be8DB554E0456B01a",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13470117,
+    "category": "upgrade"
+   },
+   {
+    "hash": "0x29a192546a324c7e34746e342a69f97d9b98a5a061c0295736c6b37b0c01d4f8",
+    "timestamp": "2021-10-20T22:31:54.000000Z",
+    "method": "setImplementation",
+    "from": "0xe37Da1e4632B94e601Ac015Be8DB554E0456B01a",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13457260,
+    "category": "upgrade"
+   },
+   {
+    "hash": "0x283a1521f5b8786925b4d5ad1c58fe7dfb8c36a4c3b0aab3260c14b107507680",
+    "timestamp": "2021-10-20T22:25:11.000000Z",
+    "method": "setImplementation",
+    "from": "0xe37Da1e4632B94e601Ac015Be8DB554E0456B01a",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13457226,
+    "category": "upgrade"
+   },
+   {
+    "hash": "0xb8524df6365cf82f1f04fab708ea2f86d94af62b406ac45366d736501a682f50",
+    "timestamp": "2021-10-20T12:17:23.000000Z",
+    "method": "setImplementation",
+    "from": "0xe37Da1e4632B94e601Ac015Be8DB554E0456B01a",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13454547,
+    "category": "upgrade"
+   },
+   {
+    "hash": "0x33d3b71984bb0e040916487bde49c6fcf82381b79ed604e51b7f01451c89aadc",
+    "timestamp": "2021-10-18T23:00:41.000000Z",
+    "method": "setImplementation",
+    "from": "0xe37Da1e4632B94e601Ac015Be8DB554E0456B01a",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13444572,
+    "category": "upgrade"
+   },
+   {
+    "hash": "0x8870bb062bab7b9e78f6b4ed902b60f8a907118e71ce6de268e644c67a46c3b4",
+    "timestamp": "2021-10-18T22:55:46.000000Z",
+    "method": "setImplementation",
+    "from": "0xe37Da1e4632B94e601Ac015Be8DB554E0456B01a",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13444548,
+    "category": "upgrade"
+   },
+   {
+    "hash": "0x373e30fd4a31c35f3c43cd985c38736d3c683555d2b83bb2e91ef0b585067701",
+    "timestamp": "2021-10-18T22:13:42.000000Z",
+    "method": "setImplementation",
+    "from": "0xe37Da1e4632B94e601Ac015Be8DB554E0456B01a",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13444381,
+    "category": "upgrade"
+   },
+   {
+    "hash": "0xfde1debbda94862022fb8e2bde35dab5cd9967abe281ce3d34f3d887b5cd140c",
+    "timestamp": "2021-10-18T21:54:14.000000Z",
+    "method": "setImplementation",
+    "from": "0xe37Da1e4632B94e601Ac015Be8DB554E0456B01a",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13444295,
+    "category": "upgrade"
+   },
+   {
+    "hash": "0xdb99bc8bad06ee3343f39d2a7fae3b35db06d32fbafb88916c19913b687ba2a3",
+    "timestamp": "2021-10-18T21:14:31.000000Z",
+    "method": "setImplementation",
+    "from": "0xe37Da1e4632B94e601Ac015Be8DB554E0456B01a",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13444145,
+    "category": "upgrade"
+   },
+   {
+    "hash": "0x6c36bbb4c82cb7bfb9c889ea875641149f38e27f90a0087932976fdd3694928b",
+    "timestamp": "2021-10-18T21:02:01.000000Z",
+    "method": "setImplementation",
+    "from": "0xe37Da1e4632B94e601Ac015Be8DB554E0456B01a",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13444092,
+    "category": "upgrade"
+   },
+   {
+    "hash": "0x6c761004afb149be4180e4d58b9fd48bce750376dc8e7fb54b4c952f00ecbccb",
+    "timestamp": "2021-10-18T20:10:15.000000Z",
+    "method": "setImplementation",
+    "from": "0xe37Da1e4632B94e601Ac015Be8DB554E0456B01a",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13443861,
+    "category": "upgrade"
+   },
+   {
+    "hash": "0x621023d3cee1fbc9a0babd33e56622e3cd0b96d94edaaf79006ed428bec87846",
+    "timestamp": "2021-10-18T18:03:42.000000Z",
+    "method": "setImplementation",
+    "from": "0xe37Da1e4632B94e601Ac015Be8DB554E0456B01a",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13443290,
+    "category": "upgrade"
+   },
+   {
+    "hash": "0x73227842a7cc7e48622be0ee5ab7b1bb20ee543168c1335d3e4c647eed608bdc",
+    "timestamp": "2021-10-18T15:52:02.000000Z",
+    "method": "setImplementation",
+    "from": "0xe37Da1e4632B94e601Ac015Be8DB554E0456B01a",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13442703,
+    "category": "upgrade"
+   },
+   {
+    "hash": "0x2463cf89845b7556ffacf506e4c8165b2a78f3a9e70b366c9bb948754ec3dc4b",
+    "timestamp": "2021-10-18T14:27:34.000000Z",
+    "method": "setImplementation",
+    "from": "0xe37Da1e4632B94e601Ac015Be8DB554E0456B01a",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13442354,
+    "category": "upgrade"
+   },
+   {
+    "hash": "0x4100113f32f81f6d48f6bc5c8214e3dcb37f30acb7e8eacaab2a22252d3d2540",
+    "timestamp": "2021-10-18T00:47:02.000000Z",
+    "method": "setImplementation",
+    "from": "0xe37Da1e4632B94e601Ac015Be8DB554E0456B01a",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13438735,
+    "category": "upgrade"
+   },
+   {
+    "hash": "0x5be6f17dfc5f194a5120821949c7d88cfb69253998f385ba3532ff820035f3b7",
+    "timestamp": "2021-10-17T22:42:45.000000Z",
+    "method": "setImplementation",
+    "from": "0xe37Da1e4632B94e601Ac015Be8DB554E0456B01a",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13438190,
+    "category": "upgrade"
+   },
+   {
+    "hash": "0xf4b11bb1fc89ec580e5aa9b236d35217fc8677e7efa5c9ec9967070df035e143",
+    "timestamp": "2021-10-17T21:35:47.000000Z",
+    "method": "setImplementation",
+    "from": "0xe37Da1e4632B94e601Ac015Be8DB554E0456B01a",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13437889,
+    "category": "upgrade"
+   },
+   {
+    "hash": "0x30256c01ccc8ac1b65fb06eae380057de8152373f4c731984a1d7cf3819a5547",
+    "timestamp": "2021-10-17T20:02:28.000000Z",
+    "method": "setImplementation",
+    "from": "0xe37Da1e4632B94e601Ac015Be8DB554E0456B01a",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13437489,
+    "category": "upgrade"
+   },
+   {
+    "hash": "0x73bc41202d8651e59c11e5c0054c87d8a1117e5f77cf8de9e23c46f4bacc9934",
+    "timestamp": "2021-10-17T18:54:08.000000Z",
+    "method": "setImplementation",
+    "from": "0xe37Da1e4632B94e601Ac015Be8DB554E0456B01a",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13437153,
+    "category": "upgrade"
+   },
+   {
+    "hash": "0x72a454188381ee5420adb36aebff11c13bdc16599e5bc988d6b5e7598ac75b6a",
+    "timestamp": "2021-10-17T06:18:19.000000Z",
+    "method": "setImplementation",
+    "from": "0xe37Da1e4632B94e601Ac015Be8DB554E0456B01a",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13433791,
+    "category": "upgrade"
+   },
+   {
+    "hash": "0x7ec955e66b8520cf73b5e61fb5a86e58a251690be60a3c11220b586163034cb2",
+    "timestamp": "2021-10-17T04:44:14.000000Z",
+    "method": "setImplementation",
+    "from": "0xe37Da1e4632B94e601Ac015Be8DB554E0456B01a",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13433374,
+    "category": "upgrade"
+   },
+   {
+    "hash": "0x3b6d6334d72cfdfc70b1274d76044c5c81beb3d9761568b6fffdf76fd27b51d0",
+    "timestamp": "2021-10-17T02:46:51.000000Z",
+    "method": "setImplementation",
+    "from": "0xe37Da1e4632B94e601Ac015Be8DB554E0456B01a",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13432864,
+    "category": "upgrade"
+   },
+   {
+    "hash": "0x3e1dce8563b9597f4da91fa1928c05881ec1b684475ab936cd716799ddfacd70",
+    "timestamp": "2021-10-17T01:16:22.000000Z",
+    "method": "setImplementation",
+    "from": "0xe37Da1e4632B94e601Ac015Be8DB554E0456B01a",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13432487,
+    "category": "upgrade"
+   },
+   {
+    "hash": "0x6d222a40bc6e54bae1ce75e81338809a9edd6857968448b88d88a7dc633d180f",
+    "timestamp": "2021-10-17T01:09:09.000000Z",
+    "method": "setImplementation",
+    "from": "0xe37Da1e4632B94e601Ac015Be8DB554E0456B01a",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13432454,
+    "category": "upgrade"
+   },
+   {
+    "hash": "0x426d23261eeb48b7cc04f9b4f74b01c3f6869020e5a47dc567d4413d9619633e",
+    "timestamp": "2021-10-17T01:08:02.000000Z",
+    "method": "setImplementation",
+    "from": "0xe37Da1e4632B94e601Ac015Be8DB554E0456B01a",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13432449,
+    "category": "upgrade"
+   },
+   {
+    "hash": "0x1b3a0a0c8b9ec8b2875dbc0d577a9ba95585f862562f770f436c62e2da1c4cba",
+    "timestamp": "2021-10-17T00:34:59.000000Z",
+    "method": "setImplementation",
+    "from": "0xe37Da1e4632B94e601Ac015Be8DB554E0456B01a",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13432305,
+    "category": "upgrade"
+   },
+   {
+    "hash": "0x9b63ef2cdbd63bba0228c71012d78595ac967166e94db547fa564dc49c62a772",
+    "timestamp": "2021-10-17T00:23:13.000000Z",
+    "method": "setImplementation",
+    "from": "0xe37Da1e4632B94e601Ac015Be8DB554E0456B01a",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13432239,
+    "category": "upgrade"
+   },
+   {
+    "hash": "0x8c36a38bc1b653a4e636bdeb2285f35a4a316e147706d28c6fde9f75eefc28c2",
+    "timestamp": "2021-10-17T00:12:59.000000Z",
+    "method": "setImplementation",
+    "from": "0x4e5028F8E0bE6cEba157166C42CA9196460A11a0",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 13432200,
+    "category": "upgrade"
+   },
+   {
+    "hash": "0xbf919705f2d3ddcfff9e4193f2ba12782678c874ab11b130f22481196e07eebd",
+    "timestamp": "2021-10-17T00:12:59.000000Z",
+    "method": "setImplementation",
+    "from": "0x4e5028F8E0bE6cEba157166C42CA9196460A11a0",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 13432200,
+    "category": "upgrade"
+   },
+   {
+    "hash": "0xc9c6b37803b874e67aeea0adb926e87b5a9f679bab07966a08a6a87b4763b832",
+    "timestamp": "2021-10-17T00:12:59.000000Z",
+    "method": "setImplementation",
+    "from": "0x4e5028F8E0bE6cEba157166C42CA9196460A11a0",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 13432200,
+    "category": "upgrade"
+   },
+   {
+    "hash": "0x7f1ef69cf6ef42f894054cca5180f1ec8ad3c16e9a90720102587fa8f8c554bc",
+    "timestamp": "2021-10-17T00:12:59.000000Z",
+    "method": "setImplementation",
+    "from": "0x4e5028F8E0bE6cEba157166C42CA9196460A11a0",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 13432200,
+    "category": "upgrade"
+   },
+   {
+    "hash": "0x704fced9da068c94adc5560cadeaa66e82c555978fbdd13ba2d11376d918f500",
+    "timestamp": "2021-10-17T00:11:51.000000Z",
+    "method": "setImplementation",
+    "from": "0x4e5028F8E0bE6cEba157166C42CA9196460A11a0",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 13432195,
+    "category": "upgrade"
+   },
+   {
+    "hash": "0x9bedb308025763128b38c83bc0e53abf4f539237201c9d32c78bc2247ac2d831",
+    "timestamp": "2021-10-17T00:08:31.000000Z",
+    "method": "setImplementation",
+    "from": "0x4e5028F8E0bE6cEba157166C42CA9196460A11a0",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 13432184,
+    "category": "upgrade"
+   },
+   {
+    "hash": "0x13221503238ca1dd3ddf9d4ced8bc5df25ab6e89e88ca134c42fc1b184caa530",
+    "timestamp": "2021-10-17T00:08:31.000000Z",
+    "method": "setImplementation",
+    "from": "0x4e5028F8E0bE6cEba157166C42CA9196460A11a0",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 13432184,
+    "category": "upgrade"
+   },
+   {
+    "hash": "0x4f8cc8b24c136aad261bc5ec48a86c2cbd71fbd9cf6b5533b88611ff7e1e21e4",
+    "timestamp": "2021-10-17T00:08:31.000000Z",
+    "method": "setImplementation",
+    "from": "0x4e5028F8E0bE6cEba157166C42CA9196460A11a0",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 13432184,
+    "category": "upgrade"
+   }
+  ],
+  "events": {
+   "Upgraded(address)": {
+    "n": 0
+   },
+   "AdminChanged(address,address)": {
+    "n": 0
+   },
+   "BeaconUpgraded(address)": {
+    "n": 0
+   }
+  },
+  "decoded": [
+   {
+    "hash": "0x9b63ef2cdbd63bba0228c71012d78595ac967166e94db547fa564dc49c62a772",
+    "timestamp": "2021-10-17T00:23:13.000000Z",
+    "method": "setImplementation",
+    "category": "upgrade",
+    "from": "0xe37Da1e4632B94e601Ac015Be8DB554E0456B01a",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0xe37da1e4632b94e601ac015be8db554e0456b01a"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0x1b3a0a0c8b9ec8b2875dbc0d577a9ba95585f862562f770f436c62e2da1c4cba",
+    "timestamp": "2021-10-17T00:34:59.000000Z",
+    "method": "setImplementation",
+    "category": "upgrade",
+    "from": "0xe37Da1e4632B94e601Ac015Be8DB554E0456B01a",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0x2ea4c537c833595185f4f35a77a5c2d3748b2b0d"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0x426d23261eeb48b7cc04f9b4f74b01c3f6869020e5a47dc567d4413d9619633e",
+    "timestamp": "2021-10-17T01:08:02.000000Z",
+    "method": "setImplementation",
+    "category": "upgrade",
+    "from": "0xe37Da1e4632B94e601Ac015Be8DB554E0456B01a",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0xaf0bc0a1276785190ae447a05616ffb7a3de4764"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0x61dc32015e350f21eed1e4a283056f00492c8c7d31d32aa2ef7c1e15ad443aeb",
+    "timestamp": "2022-01-14T20:55:09.000000Z",
+    "method": "setImplementation",
+    "category": "upgrade",
+    "from": "0xe37Da1e4632B94e601Ac015Be8DB554E0456B01a",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0xc7019179cb767221a7e626054db1810160276ff3"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0xc7bc16ee5d1f9fbd1f148b600768abe0b7da2e225618b4fde791de6e72a9a04c",
+    "timestamp": "2022-01-18T13:29:02.000000Z",
+    "method": "setImplementation",
+    "category": "upgrade",
+    "from": "0xe37Da1e4632B94e601Ac015Be8DB554E0456B01a",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0x56358e2993cf4cc84220911d4f551a886ed13e38"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0x796dc7aba8000b7e35ef26e08e556ca2a4f4fbd027e590e792906a328104cb46",
+    "timestamp": "2022-03-09T23:57:46.000000Z",
+    "method": "setImplementation",
+    "category": "upgrade",
+    "from": "0xe37Da1e4632B94e601Ac015Be8DB554E0456B01a",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0x7d436c562351ab2a2d7b1a69fd22d3a2f2badfdc"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0xc21d6cb167381af427ce32b20d65dde2df84f64f7edbf3546f878b487939f559",
+    "timestamp": "2022-11-03T19:03:11.000000Z",
+    "method": "setImplementation",
+    "category": "upgrade",
+    "from": "0xe37Da1e4632B94e601Ac015Be8DB554E0456B01a",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0x5ca63179b9b0a94bceb685fd5b2bce736b9e90e8"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0x525f62202ce631df1ac7b91f1cd40d66ad3b5ff2e38d5bce800ae5ad2b0faffb",
+    "timestamp": "2023-09-22T01:04:47.000000Z",
+    "method": "setImplementation",
+    "category": "upgrade",
+    "from": "0xe37Da1e4632B94e601Ac015Be8DB554E0456B01a",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0x25ed7235a171bf8a281aa2807a3ca6f21b80f833"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0x3abedba3052845ce3f57818032bfa747cded3fca_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0xdcc9a456b0fbe5f8ac6bcd61fb668991f7bbbadb",
+  "code_raw": "data/raw/rpc-mutability/0xdcc9a456b0fbe5f8ac6bcd61fb668991f7bbbadb_holdercode.json",
+  "type": "eoa",
+  "bs_name": null,
+  "ens": null,
+  "bs_impl_names": [],
+  "bs_tags": [],
+  "is_contract": false,
+  "creator": null,
+  "is_verified": false,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": {
+  "addr": "0xdcc9a456b0fbe5f8ac6bcd61fb668991f7bbbadb",
+  "code_raw": "data/raw/rpc-mutability/0xdcc9a456b0fbe5f8ac6bcd61fb668991f7bbbadb_holdercode.json",
+  "type": "eoa",
+  "bs_name": null,
+  "ens": null,
+  "bs_impl_names": [],
+  "bs_tags": [],
+  "is_contract": false,
+  "creator": null,
+  "is_verified": false,
+  "bs_reputation": "ok"
+ },
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "override",
+ "lock_functions": [],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [
+  {
+   "name": "setImplementation",
+   "sig": "setImplementation(address)",
+   "selector": "0xd784d426",
+   "category": "upgrade",
+   "inputs": [
+    "address"
+   ],
+   "gates": [
+    {
+     "type": "named",
+     "ref": "admin"
+    }
+   ],
+   "modifiers": [],
+   "body_head": "require(msg.sender == admin);\n        implementation_ = newImpl;",
+   "writes": [
+    "implementation_"
+   ],
+   "power": "eoa",
+   "holder_addrs": [
+    "0xdcc9a456b0fbe5f8ac6bcd61fb668991f7bbbadb"
+   ],
+   "holder_how": [
+    "admin()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xdcc9a456b0fbe5f8ac6bcd61fb668991f7bbbadb",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  }
+ ],
+ "class_direct": "eoa-mutable",
+ "class_reason": "live setters (eoa): setImplementation",
+ "live_mutators": [
+  "setImplementation"
+ ],
+ "dependencies": [
+  {
+   "address": "0xea2977e88938561dc633c560d0a170c91d90da95",
+   "via": "metadaHandler()",
+   "in_tokenuri_path": true,
+   "via_setter": false,
+   "analysis": {
+    "address": "0xea2977e88938561dc633c560d0a170c91d90da95",
+    "verified": true,
+    "contract_name": "Proxy",
+    "proxy": {
+     "kind": "explorer-detected",
+     "impl": "0x164b9511af29baf9095dc1deeb767e28aca78f0c",
+     "impl_verified": true,
+     "impl_name": "InventoryManager"
+    },
+    "owner": null,
+    "admin_fn": {
+     "addr": "0x6c58b161a87ad622e61c9e804cf7ecea6b1219a2",
+     "code_raw": "data/raw/rpc-mutability/0x6c58b161a87ad622e61c9e804cf7ecea6b1219a2_holdercode.json",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "bs_impl_names": [],
+     "bs_tags": [],
+     "is_contract": false,
+     "creator": null,
+     "is_verified": false,
+     "bs_reputation": "ok"
+    },
+    "uups": false,
+    "lock_views": {},
+    "lock_flags_true": {},
+    "lock_functions": [],
+    "class_direct": "eoa-mutable",
+    "class_reason": "live setters (eoa): setImplementation",
+    "live_mutators": [
+     "setImplementation"
+    ],
+    "mutators": [
+     {
+      "name": "setImplementation",
+      "sig": "setImplementation(address)",
+      "selector": "0xd784d426",
+      "category": "upgrade",
+      "inputs": [
+       "address"
+      ],
+      "gates": [
+       {
+        "type": "named",
+        "ref": "admin"
+       }
+      ],
+      "modifiers": [],
+      "body_head": "require(msg.sender == admin);\n        implementation_ = newImpl;",
+      "writes": [
+       "implementation_"
+      ],
+      "power": "eoa",
+      "holder_addrs": [
+       "0x6c58b161a87ad622e61c9e804cf7ecea6b1219a2"
+      ],
+      "holder_how": [
+       "admin()"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0x6c58b161a87ad622e61c9e804cf7ecea6b1219a2",
+        "type": "eoa",
+        "bs_name": null,
+        "ens": null,
+        "desc": "eoa",
+        "simple": "eoa"
+       }
+      ]
+     }
+    ],
+    "history": {
+     "txs": [
+      {
+       "hash": "0xb69311c9090819f1e4938bcad1b80a91e2e58226a8a1e5aa46c1637408b09eb2",
+       "timestamp": "2021-11-02T22:34:22.000000Z",
+       "method": "setImplementation",
+       "from": "0x6C58b161a87AD622e61c9E804cF7EcEa6b1219a2",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 13540211,
+       "category": "upgrade"
+      }
+     ],
+     "events": {
+      "OwnershipTransferred(address,address)": {
+       "n": 0
+      },
+      "Upgraded(address)": {
+       "n": 0
+      },
+      "AdminChanged(address,address)": {
+       "n": 0
+      },
+      "BeaconUpgraded(address)": {
+       "n": 0
+      }
+     },
+     "decoded": [
+      {
+       "hash": "0xb69311c9090819f1e4938bcad1b80a91e2e58226a8a1e5aa46c1637408b09eb2",
+       "timestamp": "2021-11-02T22:34:22.000000Z",
+       "method": "setImplementation",
+       "category": "upgrade",
+       "from": "0x6C58b161a87AD622e61c9E804cF7EcEa6b1219a2",
+       "params": [
+        {
+         "name": "arg0",
+         "type": "address",
+         "value": "0x7e9cff2581330658acc0f593130dfc3840cbd493"
+        }
+       ],
+       "value_kinds": [
+        "address"
+       ],
+       "error": null
+      }
+     ],
+     "incomplete": false
+    },
+    "unverified_selector_hits": [],
+    "tokenuri_path": "none"
+   }
+  }
+ ],
+ "meta": {
+  "address": "0x3abedba3052845ce3f57818032bfa747cded3fca",
+  "name": "Ether Orcs Genesis",
+  "w5_claim_strength": "explicit-100%/fully",
+  "w5_claim_text": "With no IPFS or API, these Orcs are the very first game that takes place 100% on-chain.",
+  "w5_source_type": "marketplace",
+  "w5_source_url": "https://api.opensea.io/api/v2/collections/ether-orcs",
+  "holders_count": 656.0,
+  "in_w5": true,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": null,
+  "census_media_class": null,
+  "census_liveness": null,
+  "in_census_onchain": false,
+  "standard": "ERC-721",
+  "creator": "0xe37da1e4632b94e601ac015be8db554e0456b01a",
+  "deploy_block": 13431828.0
+ },
+ "class_deps_all": "eoa-mutable",
+ "class_deps": "eoa-mutable",
+ "class_final": "eoa-mutable",
+ "pointer_power": "eoa"
+}

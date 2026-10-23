@@ -1,0 +1,103 @@
+{
+ "address": "0x5fa42f94e553f566bc2a0eb252ab36e3a432b0f5",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:25Z",
+ "code_raw": "data/raw/rpc-mutability/0x5fa42f94e553f566bc2a0eb252ab36e3a432b0f5_code.json",
+ "code_len": 22591,
+ "slots": {
+  "slot0": "0x4f6e636861696e20426c6f636b20496e7661646572730000000000000000002c"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0x5fa42f94e553f566bc2a0eb252ab36e3a432b0f5_slots.json",
+ "verified": true,
+ "contract_name": "BlockInvaders",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 1,
+    "first": "2022-06-05",
+    "last": "2022-06-05",
+    "last_tx": "0xe6811609a113b2c8498754f044601316929d5759c1516b727937a287bf2fa592",
+    "list": [
+     {
+      "date": "2022-06-05",
+      "tx": "0xe6811609a113b2c8498754f044601316929d5759c1516b727937a287bf2fa592",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "489c09ef7c495b103006f681e4a7008d0f5347a8"
+      ],
+      "data": "0x"
+     }
+    ]
+   }
+  },
+  "decoded": [],
+  "ownership_transfers": [
+   {
+    "date": "2022-06-05",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0x489c09ef7c495b103006f681e4a7008d0f5347a8",
+    "tx": "0xe6811609a113b2c8498754f044601316929d5759c1516b727937a287bf2fa592"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0x5fa42f94e553f566bc2a0eb252ab36e3a432b0f5_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0x489c09ef7c495b103006f681e4a7008d0f5347a8",
+  "code_raw": "data/raw/rpc-mutability/0x489c09ef7c495b103006f681e4a7008d0f5347a8_holdercode.json",
+  "type": "eoa",
+  "bs_name": null,
+  "ens": null,
+  "bs_impl_names": [],
+  "bs_tags": [],
+  "is_contract": false,
+  "creator": null,
+  "is_verified": false,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "override",
+ "lock_functions": [],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [],
+ "class_direct": "immutable",
+ "class_reason": "no uri/renderer/upgrade function in ABI and not a proxy",
+ "live_mutators": [],
+ "dependencies": [],
+ "meta": {
+  "address": "0x5fa42f94e553f566bc2a0eb252ab36e3a432b0f5",
+  "name": "Onchain Block Invaders",
+  "w5_claim_strength": "explicit-100%/fully",
+  "w5_claim_text": "\u2022 OBI is a FULL ON-CHAIN 5400 PFP 2.0 Evolvable Collection",
+  "w5_source_type": "directory",
+  "w5_source_url": "https://www.fullyonchain.art/collections/onchain-block-invaders",
+  "holders_count": 2118.0,
+  "in_w5": true,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": null,
+  "census_media_class": null,
+  "census_liveness": null,
+  "in_census_onchain": false,
+  "standard": "ERC-721",
+  "creator": "0x489c09ef7c495b103006f681e4a7008d0f5347a8",
+  "deploy_block": 14907585.0
+ },
+ "class_deps_all": "none",
+ "class_deps": "none",
+ "class_final": "immutable",
+ "pointer_power": null
+}

@@ -1,0 +1,156 @@
+{
+ "address": "0xd95921d552fde3587b1961ce65b7e27ed3ec1b41",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:17Z",
+ "code_raw": "data/raw/rpc-mutability/0xd95921d552fde3587b1961ce65b7e27ed3ec1b41_code.json",
+ "code_len": 4399,
+ "slots": {
+  "slot0": "0x0000000000000000000019d0df0c6569cd07254e30d482bc40ce6acb4e6c18c8"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0xd95921d552fde3587b1961ce65b7e27ed3ec1b41_slots.json",
+ "verified": true,
+ "contract_name": "PunksDNA",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [],
+  "events": {
+   "RendererUpdated(address,address)": {
+    "n": 0
+   }
+  },
+  "decoded": [],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0xd95921d552fde3587b1961ce65b7e27ed3ec1b41_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0xdf0c6569cd07254e30d482bc40ce6acb4e6c18c8",
+  "code_raw": "data/raw/rpc-mutability/0xdf0c6569cd07254e30d482bc40ce6acb4e6c18c8_holdercode.json",
+  "type": "eoa",
+  "bs_name": null,
+  "ens": null,
+  "bs_impl_names": [],
+  "bs_tags": [],
+  "is_contract": false,
+  "creator": null,
+  "is_verified": false,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "override",
+ "lock_functions": [],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [
+  {
+   "name": "setRenderer",
+   "sig": "setRenderer(address)",
+   "selector": "0x56d3163d",
+   "category": "renderer",
+   "inputs": [
+    "address"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "address old = address(renderer);\n        renderer = ICryptoPunkDNARenderer(_newRenderer);\n        emit RendererUpdated(old, _newRenderer);",
+   "writes": [
+    "renderer"
+   ],
+   "effective": "yes",
+   "power": "eoa",
+   "holder_addrs": [
+    "0xdf0c6569cd07254e30d482bc40ce6acb4e6c18c8"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xdf0c6569cd07254e30d482bc40ce6acb4e6c18c8",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  }
+ ],
+ "class_direct": "eoa-mutable",
+ "class_reason": "live setters (eoa): setRenderer",
+ "live_mutators": [
+  "setRenderer"
+ ],
+ "dependencies": [
+  {
+   "address": "0x05ad65134a19c513c1a295534e07cb7542083236",
+   "via": "renderer()",
+   "in_tokenuri_path": true,
+   "via_setter": true,
+   "analysis": {
+    "address": "0x05ad65134a19c513c1a295534e07cb7542083236",
+    "verified": true,
+    "contract_name": "CryptoPunkDNARenderer",
+    "proxy": {
+     "kind": null
+    },
+    "owner": null,
+    "admin_fn": null,
+    "uups": false,
+    "lock_views": {},
+    "lock_flags_true": {},
+    "lock_functions": [],
+    "class_direct": "immutable",
+    "class_reason": "no uri/renderer/upgrade function in ABI and not a proxy",
+    "live_mutators": [],
+    "mutators": [],
+    "history": {},
+    "unverified_selector_hits": [],
+    "tokenuri_path": "override"
+   }
+  }
+ ],
+ "meta": {
+  "address": "0xd95921d552fde3587b1961ce65b7e27ed3ec1b41",
+  "name": "Punks DNA",
+  "w5_claim_strength": null,
+  "w5_claim_text": null,
+  "w5_source_type": null,
+  "w5_source_url": null,
+  "holders_count": 2971.0,
+  "in_w5": false,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": "onchain-renderer",
+  "census_media_class": "data-uri",
+  "census_liveness": "alive",
+  "in_census_onchain": true,
+  "standard": "ERC-721",
+  "creator": "0xdf0c6569cd07254e30d482bc40ce6acb4e6c18c8",
+  "deploy_block": 25116398.0
+ },
+ "class_deps_all": "immutable",
+ "class_deps": "immutable",
+ "class_final": "eoa-mutable",
+ "pointer_power": "eoa"
+}

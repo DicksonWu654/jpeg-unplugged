@@ -1,0 +1,2963 @@
+{
+ "address": "0x9e732f7eff260c408639dc06b04b94088c39852e",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:24Z",
+ "code_raw": "data/raw/rpc-mutability/0x9e732f7eff260c408639dc06b04b94088c39852e_code.json",
+ "code_len": 843,
+ "slots": {
+  "eip1967_impl": "0x8237f421357f87a23ed0cff3a5586172f210a21b",
+  "slot0": "0x0000000000000000000000000000000000000000000000000000000000000001"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0x9e732f7eff260c408639dc06b04b94088c39852e_slots.json",
+ "verified": true,
+ "contract_name": "ERC721DropProxy",
+ "proxy": {
+  "kind": "eip1967",
+  "impl": "0x8237f421357f87a23ed0cff3a5586172f210a21b",
+  "impl_verified": true,
+  "impl_name": "ERC721Drop"
+ },
+ "has_source": true,
+ "abi_from": "impl+proxy",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [
+   {
+    "hash": "0x47488759ded1b17714e69572a7fae2c4cb5143ba2782f76c766e5397597ceaf9",
+    "timestamp": "2024-04-25T16:52:35.000000Z",
+    "method": "upgradeTo",
+    "from": "0x6a4AA35badeb1417811Edb4D005384678f4dA79e",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 19733694,
+    "category": "upgrade"
+   },
+   {
+    "hash": "0xd802694631e93ec68ec3b41c6dfcb0710b1c19606e08c10f60134f5feb9f4e8e",
+    "timestamp": "2023-04-05T07:08:23.000000Z",
+    "method": "setMetadataRenderer",
+    "from": "0xCB43078C32423F5348Cab5885911C3B5faE217F9",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 16981010,
+    "category": "renderer"
+   }
+  ],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 1,
+    "first": "2023-04-05",
+    "last": "2023-04-05",
+    "last_tx": "0x199f80dbe3e7ec68853b918d1ff365e024217ae816b0f6c76eff224baa917a91",
+    "list": [
+     {
+      "date": "2023-04-05",
+      "tx": "0x199f80dbe3e7ec68853b918d1ff365e024217ae816b0f6c76eff224baa917a91",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "6a4aa35badeb1417811edb4d005384678f4da79e"
+      ],
+      "data": "0x"
+     }
+    ]
+   },
+   "Upgraded(address)": {
+    "n": 2,
+    "first": "2023-04-05",
+    "last": "2024-04-25",
+    "last_tx": "0x47488759ded1b17714e69572a7fae2c4cb5143ba2782f76c766e5397597ceaf9",
+    "list": [
+     {
+      "date": "2023-04-05",
+      "tx": "0x199f80dbe3e7ec68853b918d1ff365e024217ae816b0f6c76eff224baa917a91",
+      "topics": [
+       "5eb5babcefea846b220c82f222f00df95934f5f0"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2024-04-25",
+      "tx": "0x47488759ded1b17714e69572a7fae2c4cb5143ba2782f76c766e5397597ceaf9",
+      "topics": [
+       "8237f421357f87a23ed0cff3a5586172f210a21b"
+      ],
+      "data": "0x"
+     }
+    ]
+   },
+   "AdminChanged(address,address)": {
+    "n": 0
+   },
+   "BeaconUpgraded(address)": {
+    "n": 0
+   },
+   "MetadataUpdate(uint256)": {
+    "n": 0
+   },
+   "BatchMetadataUpdate(uint256,uint256)": {
+    "n": 0
+   },
+   "UpdatedMetadataRenderer(address,address)": {
+    "n": 1,
+    "first": "2023-04-05",
+    "last": "2023-04-05",
+    "last_tx": "0xd802694631e93ec68ec3b41c6dfcb0710b1c19606e08c10f60134f5feb9f4e8e",
+    "list": [
+     {
+      "date": "2023-04-05",
+      "tx": "0xd802694631e93ec68ec3b41c6dfcb0710b1c19606e08c10f60134f5feb9f4e8e",
+      "topics": [],
+      "data": "0x000000000000000000000000cb43078c32423f5348cab5885911c3b5fae217f90000000000000000000000006e2485e99ee39b659b9915e85942756b7f59d5b4"
+     }
+    ]
+   }
+  },
+  "decoded": [
+   {
+    "hash": "0xd802694631e93ec68ec3b41c6dfcb0710b1c19606e08c10f60134f5feb9f4e8e",
+    "timestamp": "2023-04-05T07:08:23.000000Z",
+    "method": "setMetadataRenderer",
+    "category": "renderer",
+    "from": "0xCB43078C32423F5348Cab5885911C3B5faE217F9",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0x6e2485e99ee39b659b9915e85942756b7f59d5b4"
+     },
+     {
+      "name": "arg1",
+      "type": "bytes",
+      "value": "0x"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0x47488759ded1b17714e69572a7fae2c4cb5143ba2782f76c766e5397597ceaf9",
+    "timestamp": "2024-04-25T16:52:35.000000Z",
+    "method": "upgradeTo",
+    "category": "upgrade",
+    "from": "0x6a4AA35badeb1417811Edb4D005384678f4dA79e",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0x8237f421357f87a23ed0cff3a5586172f210a21b"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   }
+  ],
+  "ownership_transfers": [
+   {
+    "date": "2023-04-05",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0x6a4aa35badeb1417811edb4d005384678f4da79e",
+    "tx": "0x199f80dbe3e7ec68853b918d1ff365e024217ae816b0f6c76eff224baa917a91"
+   }
+  ],
+  "upgrades": [
+   {
+    "date": "2023-04-05",
+    "impl": "0x5eb5babcefea846b220c82f222f00df95934f5f0",
+    "tx": "0x199f80dbe3e7ec68853b918d1ff365e024217ae816b0f6c76eff224baa917a91"
+   },
+   {
+    "date": "2024-04-25",
+    "impl": "0x8237f421357f87a23ed0cff3a5586172f210a21b",
+    "tx": "0x47488759ded1b17714e69572a7fae2c4cb5143ba2782f76c766e5397597ceaf9"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0x9e732f7eff260c408639dc06b04b94088c39852e_reads1.json",
+ "eip4906": true,
+ "owner": {
+  "addr": "0x6a4aa35badeb1417811edb4d005384678f4da79e",
+  "code_raw": "data/raw/rpc-mutability/0x6a4aa35badeb1417811edb4d005384678f4da79e_holdercode.json",
+  "type": "eoa",
+  "note": "EIP-7702 delegated EOA",
+  "bs_name": null,
+  "ens": "jimmyyy.eth",
+  "bs_impl_names": [
+   "EIP7702StatelessDeleGator"
+  ],
+  "bs_tags": [],
+  "is_contract": true,
+  "creator": null,
+  "is_verified": true,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "override",
+ "lock_functions": [
+  "finalizeOpenEdition",
+  "renounceRole"
+ ],
+ "lock_flags_true": {},
+ "roles": {
+  "DEFAULT_ADMIN_ROLE": {
+   "value": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "members": [
+    "0x6a4aa35badeb1417811edb4d005384678f4da79e",
+    "0xcb43078c32423f5348cab5885911c3b5fae217f9"
+   ],
+   "source": "RoleGranted logs + hasRole"
+  }
+ },
+ "mutators": [
+  {
+   "name": "setMetadataRenderer",
+   "sig": "setMetadataRenderer(address,bytes)",
+   "selector": "0x3bcdcc87",
+   "category": "renderer",
+   "inputs": [
+    "address",
+    "bytes"
+   ],
+   "gates": [
+    {
+     "type": "role",
+     "ref": "DEFAULT_ADMIN_ROLE"
+    }
+   ],
+   "modifiers": [
+    "onlyAdmin"
+   ],
+   "body_head": "config.metadataRenderer = newRenderer;\n\n        if (setupRenderer.length > 0) {\n            newRenderer.initializeWithData(setupRenderer);\n        }\n\n        em",
+   "writes": [
+    "metadataRenderer"
+   ],
+   "effective": "yes",
+   "power": "eoa",
+   "holder_addrs": [
+    "0x6a4aa35badeb1417811edb4d005384678f4da79e",
+    "0xcb43078c32423f5348cab5885911c3b5fae217f9"
+   ],
+   "holder_how": [
+    "role:DEFAULT_ADMIN_ROLE"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x6a4aa35badeb1417811edb4d005384678f4da79e",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": "jimmyyy.eth",
+     "desc": "eoa",
+     "simple": "eoa"
+    },
+    {
+     "addr": "0xcb43078c32423f5348cab5885911c3b5fae217f9",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": "ripe0x.eth",
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "upgradeTo",
+   "sig": "upgradeTo(address)",
+   "selector": "0x3659cfe6",
+   "category": "upgrade",
+   "inputs": [
+    "address"
+   ],
+   "gates": [
+    {
+     "type": "role",
+     "ref": "DEFAULT_ADMIN_ROLE"
+    }
+   ],
+   "modifiers": [
+    "onlyProxy"
+   ],
+   "body_head": "_authorizeUpgrade(newImplementation);\n        _upgradeToAndCallUUPS(newImplementation, new bytes(0), false);",
+   "writes": [],
+   "power": "eoa",
+   "holder_addrs": [
+    "0x6a4aa35badeb1417811edb4d005384678f4da79e",
+    "0xcb43078c32423f5348cab5885911c3b5fae217f9"
+   ],
+   "holder_how": [
+    "role:DEFAULT_ADMIN_ROLE"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x6a4aa35badeb1417811edb4d005384678f4da79e",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": "jimmyyy.eth",
+     "desc": "eoa",
+     "simple": "eoa"
+    },
+    {
+     "addr": "0xcb43078c32423f5348cab5885911c3b5fae217f9",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": "ripe0x.eth",
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "upgradeToAndCall",
+   "sig": "upgradeToAndCall(address,bytes)",
+   "selector": "0x4f1ef286",
+   "category": "upgrade",
+   "inputs": [
+    "address",
+    "bytes"
+   ],
+   "gates": [
+    {
+     "type": "role",
+     "ref": "DEFAULT_ADMIN_ROLE"
+    }
+   ],
+   "modifiers": [
+    "onlyProxy"
+   ],
+   "body_head": "_authorizeUpgrade(newImplementation);\n        _upgradeToAndCallUUPS(newImplementation, data, true);",
+   "writes": [],
+   "power": "eoa",
+   "holder_addrs": [
+    "0x6a4aa35badeb1417811edb4d005384678f4da79e",
+    "0xcb43078c32423f5348cab5885911c3b5fae217f9"
+   ],
+   "holder_how": [
+    "role:DEFAULT_ADMIN_ROLE"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x6a4aa35badeb1417811edb4d005384678f4da79e",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": "jimmyyy.eth",
+     "desc": "eoa",
+     "simple": "eoa"
+    },
+    {
+     "addr": "0xcb43078c32423f5348cab5885911c3b5fae217f9",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": "ripe0x.eth",
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  }
+ ],
+ "class_direct": "eoa-mutable",
+ "class_reason": "live setters (eoa): setMetadataRenderer,upgradeTo,upgradeToAndCall",
+ "live_mutators": [
+  "setMetadataRenderer",
+  "upgradeTo",
+  "upgradeToAndCall"
+ ],
+ "dependencies": [
+  {
+   "address": "0x6e2485e99ee39b659b9915e85942756b7f59d5b4",
+   "via": "metadataRenderer()",
+   "in_tokenuri_path": true,
+   "via_setter": true,
+   "analysis": {
+    "address": "0x6e2485e99ee39b659b9915e85942756b7f59d5b4",
+    "verified": true,
+    "contract_name": "TransparentUpgradeableProxy",
+    "proxy": {
+     "kind": "eip1967",
+     "impl": "0x871d062412e7a4813e25673abc8d24b1223d7b7a",
+     "impl_verified": true,
+     "impl_name": "DescriptorV2",
+     "admin": {
+      "addr": "0xe21c0d7472c1083cb7d089729f93ce37bf604e4e",
+      "code_raw": "data/raw/rpc-mutability/0xe21c0d7472c1083cb7d089729f93ce37bf604e4e_holdercode.json",
+      "code_len": 1891,
+      "probe_raw": "data/raw/rpc-mutability/0xe21c0d7472c1083cb7d089729f93ce37bf604e4e_holderprobe.json",
+      "type": "contract-owned",
+      "owner": "0xcb43078c32423f5348cab5885911c3b5fae217f9",
+      "controller": {
+       "addr": "0xcb43078c32423f5348cab5885911c3b5fae217f9",
+       "code_raw": "data/raw/rpc-mutability/0xcb43078c32423f5348cab5885911c3b5fae217f9_holdercode.json",
+       "type": "eoa",
+       "note": "EIP-7702 delegated EOA",
+       "bs_name": null,
+       "ens": "ripe0x.eth",
+       "bs_impl_names": [
+        "CaliburEntry"
+       ],
+       "bs_tags": [],
+       "is_contract": true,
+       "creator": null,
+       "is_verified": true,
+       "bs_reputation": "ok"
+      },
+      "bs_name": "ProxyAdmin",
+      "ens": null,
+      "bs_impl_names": [],
+      "bs_tags": [],
+      "is_contract": true,
+      "creator": "0xCB43078C32423F5348Cab5885911C3B5faE217F9",
+      "is_verified": true,
+      "bs_reputation": "ok"
+     }
+    },
+    "owner": {
+     "addr": "0x0000000000000000000000000000000000000000",
+     "type": "renounced"
+    },
+    "admin_fn": null,
+    "uups": false,
+    "lock_views": {},
+    "lock_flags_true": {},
+    "lock_functions": [],
+    "class_direct": "eoa-mutable",
+    "class_reason": "live setters (eoa): changeAdmin,upgradeTo,upgradeToAndCall",
+    "live_mutators": [
+     "changeAdmin",
+     "removeTokenArtwork",
+     "setDescription",
+     "setTokenArtwork",
+     "upgradeTo",
+     "upgradeToAndCall"
+    ],
+    "mutators": [
+     {
+      "name": "setAnimationURL",
+      "sig": "setAnimationURL(string)",
+      "selector": "0x650ea5b9",
+      "category": "uri",
+      "inputs": [
+       "string"
+      ],
+      "gates": [
+       {
+        "type": "owner",
+        "ref": "owner"
+       }
+      ],
+      "modifiers": [],
+      "body_head": "require(msg.sender == _owner, \"Rejected: not owner\");\n        animationUrl = _animationUrl;",
+      "writes": [
+       "animationUrl"
+      ],
+      "effective": "no",
+      "power": "renounced",
+      "holder_addrs": [
+       "0x0000000000000000000000000000000000000000"
+      ],
+      "holder_how": [
+       "owner()"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0x0000000000000000000000000000000000000000",
+        "type": "renounced",
+        "desc": "renounced",
+        "simple": "renounced"
+       }
+      ]
+     },
+     {
+      "name": "removeTokenArtwork",
+      "sig": "removeTokenArtwork(uint256)",
+      "selector": "0x7e5aa6c9",
+      "category": "renderer",
+      "inputs": [
+       "uint256"
+      ],
+      "gates": [
+       {
+        "type": "named",
+        "ref": "ownerAddress"
+       }
+      ],
+      "modifiers": [],
+      "body_head": "address ownerAddress = getOwnerOf(tokenId);\n        require(msg.sender == ownerAddress, \"Rejected: not token owner\");\n\n        emit TokenArtworkRemoved(tokenId,",
+      "writes": [
+       "tokenImageRefs"
+      ],
+      "effective": "yes",
+      "power": "unknown",
+      "holder_addrs": [],
+      "holder_how": [
+       "ownerAddress (no public getter)"
+      ],
+      "unknown_gate": true,
+      "token_owner_gated": false,
+      "lock_linked": [],
+      "frozen": false,
+      "holders": []
+     },
+     {
+      "name": "setContractImage",
+      "sig": "setContractImage(string)",
+      "selector": "0xdc42c255",
+      "category": "renderer",
+      "inputs": [
+       "string"
+      ],
+      "gates": [
+       {
+        "type": "owner",
+        "ref": "owner"
+       }
+      ],
+      "modifiers": [],
+      "body_head": "require(msg.sender == _owner, \"Rejected: not owner\");\n        contractImage = _contractImage;",
+      "writes": [
+       "contractImage"
+      ],
+      "effective": "no",
+      "power": "renounced",
+      "holder_addrs": [
+       "0x0000000000000000000000000000000000000000"
+      ],
+      "holder_how": [
+       "owner()"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0x0000000000000000000000000000000000000000",
+        "type": "renounced",
+        "desc": "renounced",
+        "simple": "renounced"
+       }
+      ]
+     },
+     {
+      "name": "setDescription",
+      "sig": "setDescription(string)",
+      "selector": "0x90c3f38f",
+      "category": "renderer",
+      "inputs": [
+       "string"
+      ],
+      "gates": [
+       {
+        "type": "owner",
+        "ref": "owner"
+       }
+      ],
+      "modifiers": [],
+      "body_head": "require(msg.sender == _owner, \"Rejected: not owner\");\n        description = _description;",
+      "writes": [
+       "description"
+      ],
+      "effective": "yes",
+      "power": "renounced",
+      "holder_addrs": [
+       "0x0000000000000000000000000000000000000000"
+      ],
+      "holder_how": [
+       "owner()"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0x0000000000000000000000000000000000000000",
+        "type": "renounced",
+        "desc": "renounced",
+        "simple": "renounced"
+       }
+      ]
+     },
+     {
+      "name": "setTokenArtwork",
+      "sig": "setTokenArtwork(uint256,string)",
+      "selector": "0x5b61f0ef",
+      "category": "renderer",
+      "inputs": [
+       "uint256",
+       "string"
+      ],
+      "gates": [
+       {
+        "type": "named",
+        "ref": "ownerAddress"
+       }
+      ],
+      "modifiers": [],
+      "body_head": "address ownerAddress = getOwnerOf(tokenId);\n        require(msg.sender == ownerAddress, \"Rejected: not token owner\");\n\n        emit TokenArtworkUpdated(tokenId,",
+      "writes": [
+       "tokenImageRefs"
+      ],
+      "effective": "yes",
+      "power": "unknown",
+      "holder_addrs": [],
+      "holder_how": [
+       "ownerAddress (no public getter)"
+      ],
+      "unknown_gate": true,
+      "token_owner_gated": false,
+      "lock_linked": [],
+      "frozen": false,
+      "holders": []
+     },
+     {
+      "name": "toggleIsArtworkUpdatable",
+      "sig": "toggleIsArtworkUpdatable()",
+      "selector": "0xa63fc9d3",
+      "category": "renderer",
+      "inputs": [],
+      "gates": [
+       {
+        "type": "owner",
+        "ref": "owner"
+       }
+      ],
+      "modifiers": [],
+      "body_head": "require(msg.sender == _owner, \"Rejected: not owner\");\n        isArtworkUpdatable = !isArtworkUpdatable;",
+      "writes": [
+       "isArtworkUpdatable"
+      ],
+      "effective": "no",
+      "power": "renounced",
+      "holder_addrs": [
+       "0x0000000000000000000000000000000000000000"
+      ],
+      "holder_how": [
+       "owner()"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0x0000000000000000000000000000000000000000",
+        "type": "renounced",
+        "desc": "renounced",
+        "simple": "renounced"
+       }
+      ]
+     },
+     {
+      "name": "changeAdmin",
+      "sig": "changeAdmin(address)",
+      "selector": "0x8f283970",
+      "category": "upgrade",
+      "inputs": [
+       "address"
+      ],
+      "gates": [
+       {
+        "type": "named",
+        "ref": "_getAdmin"
+       }
+      ],
+      "modifiers": [
+       "ifAdmin"
+      ],
+      "body_head": "_changeAdmin(newAdmin);",
+      "writes": [],
+      "power": "eoa",
+      "holder_addrs": [
+       "0xe21c0d7472c1083cb7d089729f93ce37bf604e4e"
+      ],
+      "holder_how": [
+       "eip1967 admin slot"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0xe21c0d7472c1083cb7d089729f93ce37bf604e4e",
+        "type": "contract-owned",
+        "bs_name": "ProxyAdmin",
+        "ens": null,
+        "desc": "ProxyAdmin->eoa",
+        "simple": "eoa"
+       }
+      ]
+     },
+     {
+      "name": "upgradeTo",
+      "sig": "upgradeTo(address)",
+      "selector": "0x3659cfe6",
+      "category": "upgrade",
+      "inputs": [
+       "address"
+      ],
+      "gates": [
+       {
+        "type": "named",
+        "ref": "_getAdmin"
+       }
+      ],
+      "modifiers": [
+       "ifAdmin"
+      ],
+      "body_head": "_upgradeToAndCall(newImplementation, bytes(\"\"), false);",
+      "writes": [],
+      "power": "eoa",
+      "holder_addrs": [
+       "0xe21c0d7472c1083cb7d089729f93ce37bf604e4e"
+      ],
+      "holder_how": [
+       "eip1967 admin slot"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0xe21c0d7472c1083cb7d089729f93ce37bf604e4e",
+        "type": "contract-owned",
+        "bs_name": "ProxyAdmin",
+        "ens": null,
+        "desc": "ProxyAdmin->eoa",
+        "simple": "eoa"
+       }
+      ]
+     },
+     {
+      "name": "upgradeToAndCall",
+      "sig": "upgradeToAndCall(address,bytes)",
+      "selector": "0x4f1ef286",
+      "category": "upgrade",
+      "inputs": [
+       "address",
+       "bytes"
+      ],
+      "gates": [
+       {
+        "type": "named",
+        "ref": "_getAdmin"
+       }
+      ],
+      "modifiers": [
+       "ifAdmin"
+      ],
+      "body_head": "_upgradeToAndCall(newImplementation, data, true);",
+      "writes": [],
+      "power": "eoa",
+      "holder_addrs": [
+       "0xe21c0d7472c1083cb7d089729f93ce37bf604e4e"
+      ],
+      "holder_how": [
+       "eip1967 admin slot"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0xe21c0d7472c1083cb7d089729f93ce37bf604e4e",
+        "type": "contract-owned",
+        "bs_name": "ProxyAdmin",
+        "ens": null,
+        "desc": "ProxyAdmin->eoa",
+        "simple": "eoa"
+       }
+      ]
+     }
+    ],
+    "history": {
+     "txs": [
+      {
+       "hash": "0xccd02f866794dd83852a576030766907eed4926d960100b04d6d060dfebe54f7",
+       "timestamp": "2024-05-05T23:30:23.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xaD854616E67959D7F8F8FF481740D0F2621329d5",
+       "from_is_contract": true,
+       "status": "Reverted",
+       "block": 19807182,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x734db7608594692785bb2cf74bba666b6f79090b70430be23a59f21e97d36b8a",
+       "timestamp": "2024-01-06T02:20:59.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xaD854616E67959D7F8F8FF481740D0F2621329d5",
+       "from_is_contract": true,
+       "status": "out of gas",
+       "block": 18945177,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x54488451de3b34e30ebaa434e0a8a572ca87216cba8e853cadde92cb2e94b4aa",
+       "timestamp": "2024-01-06T02:20:11.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xaD854616E67959D7F8F8FF481740D0F2621329d5",
+       "from_is_contract": true,
+       "status": "out of gas",
+       "block": 18945173,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x6a18bf0dc38cba332b8a5b6be73c8c7d328d39c4f48d6f1bcff8c4537ad6ecdd",
+       "timestamp": "2023-12-12T18:38:23.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xaD854616E67959D7F8F8FF481740D0F2621329d5",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 18771939,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xcfeee0ed00ef3d0091ead0917e340c802f466dc63ae88bad02640047df1cf614",
+       "timestamp": "2023-12-12T18:03:11.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xaD854616E67959D7F8F8FF481740D0F2621329d5",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 18771766,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x810ee23566bbd92b0368c5fb8dc77138095203e2b7c8418ae8018a8d79d5c97b",
+       "timestamp": "2023-11-13T23:01:59.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x7eD6268cc786be6521fa947d3CAc40E12d8b809C",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 18566129,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x03354f2d171b78824aadcc78d629a9e03c14621b635b4d3c8c3c7f33f380442c",
+       "timestamp": "2023-11-13T22:46:23.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x7eD6268cc786be6521fa947d3CAc40E12d8b809C",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 18566051,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x235bce2ae8dfcdccda4c6061dee5cf4cfbe8475d4356ad41da0420024976cad9",
+       "timestamp": "2023-04-27T15:29:35.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xC1352B8CaebeC86E828516CB4622c12A61C692DC",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 17138410,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x3b0515b7377da7c7d787cb8c814e592470b34b03dda281317e9a5730895a544f",
+       "timestamp": "2023-04-27T15:15:47.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xC1352B8CaebeC86E828516CB4622c12A61C692DC",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 17138342,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xa27569f9c633f5d7071890e1c5ee1d7cdb55d9bef541e99bd213b096f084ca14",
+       "timestamp": "2023-04-27T15:07:47.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xC1352B8CaebeC86E828516CB4622c12A61C692DC",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 17138302,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x67c64895525f39d352db1c0a3b18a18e630066b5c074be1df1c55af22db35e72",
+       "timestamp": "2023-04-27T14:45:23.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xC1352B8CaebeC86E828516CB4622c12A61C692DC",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 17138191,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x908ff1e910cfe9a7037749380723aaeda40dab16b3d058b90c607e0287ba199d",
+       "timestamp": "2023-04-24T16:22:11.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x41d22Fc30AA15eee064139089aa80F688F245315",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17117302,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x5d02b6df71c2120b077bb1d7fffc27bbfbb82cda8246a144fcf9920c14ec45f5",
+       "timestamp": "2023-04-24T16:20:47.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x41d22Fc30AA15eee064139089aa80F688F245315",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17117295,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x616c6a80c8a5f5b05f47179b16efcb8883103138e3de05cbec94c3683f988da7",
+       "timestamp": "2023-04-21T19:06:23.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x41d22Fc30AA15eee064139089aa80F688F245315",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17096720,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xb82554e336f3698ff85fb1ca8c559115c999e56147b188a54b87ebcb8029a4e9",
+       "timestamp": "2023-04-21T19:03:59.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x41d22Fc30AA15eee064139089aa80F688F245315",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17096708,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x450f30df955017d6c84c4648285a883bfff4383b5786dbf1ea82268e9108307b",
+       "timestamp": "2023-04-17T23:56:59.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xD61A6fb2c107a02459f069A6701deBB45Ef21fd4",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17069883,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xaa2595aeaf22f90279807fe9cd38ef6c632890d72189bb691572abf9d6530939",
+       "timestamp": "2023-04-13T21:29:11.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x41d22Fc30AA15eee064139089aa80F688F245315",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17041031,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xd2052ec161372fecb02e6793afc6ade6a075c20ab788650b73ddcc1faeef0c6e",
+       "timestamp": "2023-04-12T09:34:23.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xb1a2C4Ad959Fe8dC61f1e55c4b134B12F4cf5358",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 17031069,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x5cba525beb0ac3d13de303c3cb7dab5be35a63cc18a2d115bb6d4399a2163adc",
+       "timestamp": "2023-04-11T09:39:59.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x9C4d83D302F642B528fD47559c194606B86e63b5",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 17024024,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xc021e53a0d5180b608f55907af0c28d847f17bcca29d1870637ff66987079d02",
+       "timestamp": "2023-04-11T04:47:11.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xbA9b6F92d48133bDdDEe52D4C8e5AA9271Ef6210",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17022590,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xbb90672b8012e7b11579efa1142ad655a4d4ea86630e3b371e9f98fc9c240c71",
+       "timestamp": "2023-04-11T04:36:35.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xbA9b6F92d48133bDdDEe52D4C8e5AA9271Ef6210",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17022539,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xf463fcac3e2b631fad54dd101f18eb525aaec0846ae53b97467e745347e5f0d9",
+       "timestamp": "2023-04-10T22:40:35.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xbA9b6F92d48133bDdDEe52D4C8e5AA9271Ef6210",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17020792,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x7c4790a9c86d9f2ff8e9301654982e09060afbce19ccf240bf0587bfd4c26859",
+       "timestamp": "2023-04-09T21:32:47.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x7E0Ca74b0Ad81F4332B947194e3988Ac8E676609",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17013397,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xad6aebbaf795cf31497569bb123576c279fad52f70934068923994caeace5f9a",
+       "timestamp": "2023-04-09T20:45:11.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x41d22Fc30AA15eee064139089aa80F688F245315",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17013165,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x01bb2c870309451bfcfa8b1073473c1d5bb56df38e6f9ffe8c067167f6ba148d",
+       "timestamp": "2023-04-09T19:37:11.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x1c5cf95FEE6BbD42E23B36167bCa43c44B279E3C",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17012839,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x2901211129b03ff98fc9a1c8e0d87dcce80ca03648d17ed191567da88ea4c8bf",
+       "timestamp": "2023-04-09T06:59:23.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x41d22Fc30AA15eee064139089aa80F688F245315",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17009135,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xb096d3509041c4860d54a8edfbc16616a673b69379c8c801744b77ca32068fd3",
+       "timestamp": "2023-04-08T20:38:23.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x41d22Fc30AA15eee064139089aa80F688F245315",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17006078,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x70a311dc07fc4bad3dbb59c1a0f0a700c31307b1b2f57fe861a68723ace68275",
+       "timestamp": "2023-04-08T18:41:11.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xD61A6fb2c107a02459f069A6701deBB45Ef21fd4",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17005503,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x9c8976327647aa23a1647ca8f64bba6518d0903d6cc011577352f0924160b304",
+       "timestamp": "2023-04-08T09:53:23.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xb1a2C4Ad959Fe8dC61f1e55c4b134B12F4cf5358",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 17002920,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x615e6bda4cd991b62c42932948797e3feb7ce9f1a7d7368eb7f0af716eaa17ac",
+       "timestamp": "2023-04-08T06:50:59.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xC244D43B8216B68cBf9404C1ead4F930eA8ffb6c",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 17002031,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xf19b59efdbae743f1081865929389017fe91e18e2b03b6419db8cac37166a54b",
+       "timestamp": "2023-04-08T02:58:47.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xc83e83677dD95618686aC9aF2cd48972F1B72c22",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 17000888,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x3e9ce28b4766c26e9efa2d07ac99fa1063ddf658b168996ce82ebb15f3fdf0f8",
+       "timestamp": "2023-04-08T02:52:35.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xc83e83677dD95618686aC9aF2cd48972F1B72c22",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 17000857,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xc92a1a671f7b05839a464041bdf72cf2416bf992787090da30e291a42d449721",
+       "timestamp": "2023-04-07T18:34:35.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x7eD6268cc786be6521fa947d3CAc40E12d8b809C",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16998414,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x046102068165795206a6f9f74d2694a97098ad9fddb953e220d2570a981f0631",
+       "timestamp": "2023-04-07T17:54:47.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x7eD6268cc786be6521fa947d3CAc40E12d8b809C",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16998219,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xc19fc113bcd70547d671103d3003bcbdca20b91d833e0cc7c0d57ddc92df8a03",
+       "timestamp": "2023-04-07T17:36:47.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x7eD6268cc786be6521fa947d3CAc40E12d8b809C",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16998129,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x7e3c8dc13970933d177bdf4cf1aa464f54deae4a67af6894663979c2fd2e12a2",
+       "timestamp": "2023-04-07T16:40:47.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x7eD6268cc786be6521fa947d3CAc40E12d8b809C",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16997853,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xc9417f1d630c89b10a3102ab2a19cff184d07fa55b7411a5dd89b489e7e936c2",
+       "timestamp": "2023-04-07T16:40:23.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x7eD6268cc786be6521fa947d3CAc40E12d8b809C",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16997851,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x073f620c6f6b0d3321890a7ca18423128f7c9a7c40e6d1f3beefca6f081e93f8",
+       "timestamp": "2023-04-07T15:58:35.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x7eD6268cc786be6521fa947d3CAc40E12d8b809C",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16997643,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x8ff59616ccc0374956ae9b1a70c001f3eba18bdb0b8d19e20ec66d6f76eb24c1",
+       "timestamp": "2023-04-07T14:01:11.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x41d22Fc30AA15eee064139089aa80F688F245315",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16997067,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xcd8f5c8dcce0c8a633624f119ac892af721d2d79a545adf4814406db9579d402",
+       "timestamp": "2023-04-07T11:52:23.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xeD50B7114A69c69CBbB9A38d234d1514FD952413",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16996436,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xac63ef660d2446d208d4bc3094549190944ff515de999198120a3d992fc35cf2",
+       "timestamp": "2023-04-07T09:54:35.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xeD50B7114A69c69CBbB9A38d234d1514FD952413",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16995861,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xd5f2e6fc2dd0c2451630bae1546a3f314736b964b1233dde57d757338ad52e2b",
+       "timestamp": "2023-04-07T09:02:35.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xde9ba5F62D6047C4a9cCF24455AA733cCC5B8F41",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 16995608,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x6508156dcfdf0c55b33e4ec3ad8612bab75c8c940bc1b28a073b2dbd28377c8c",
+       "timestamp": "2023-04-07T08:46:59.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xde9ba5F62D6047C4a9cCF24455AA733cCC5B8F41",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 16995531,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xe65d0fb9951cccd118c1b6c033f7d4a4c6d2c02fbcafa5ea6a9002cf7cce8d1c",
+       "timestamp": "2023-04-07T06:35:23.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xde9ba5F62D6047C4a9cCF24455AA733cCC5B8F41",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 16994893,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x8508bdcc348ec2417a13fa8f4994ad09840ebb5a1f123d547d62ebf50709bbf5",
+       "timestamp": "2023-04-07T06:17:35.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xde9ba5F62D6047C4a9cCF24455AA733cCC5B8F41",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 16994804,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x7a748f27c1829870c8ddfb659f6bbca48628eeb6228f34932d5df9aeb7137295",
+       "timestamp": "2023-04-07T04:48:47.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xCB43078C32423F5348Cab5885911C3B5faE217F9",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 16994364,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x07815fc292f7b67a7e24323653a363482ed1e7adf8be78e87eeaed1abe7e7628",
+       "timestamp": "2023-04-07T04:19:35.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x08cEb8Bba685ee708C9c4c65576837cbE19B9dea",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16994221,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xc2f2dc9480aeb6195f2fd2de727cfa7093d7d234d8d21d4dbbd88a3771db4423",
+       "timestamp": "2023-04-07T04:18:47.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x08cEb8Bba685ee708C9c4c65576837cbE19B9dea",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16994217,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x65904706ef463ea965e97add1f56446eef9af23ef3b601b6dd1cc565bfa1e7a9",
+       "timestamp": "2023-04-07T04:11:47.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x08cEb8Bba685ee708C9c4c65576837cbE19B9dea",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16994183,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xe1f601707787aa4fa9e6b9cbb9fbd05785cc7b0c93f9aee74ccd94ec5a5a77f5",
+       "timestamp": "2023-04-07T04:09:35.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x08cEb8Bba685ee708C9c4c65576837cbE19B9dea",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16994172,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xccd02f866794dd83852a576030766907eed4926d960100b04d6d060dfebe54f7",
+       "timestamp": "2024-05-05T23:30:23.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xaD854616E67959D7F8F8FF481740D0F2621329d5",
+       "from_is_contract": true,
+       "status": "Reverted",
+       "block": 19807182,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x734db7608594692785bb2cf74bba666b6f79090b70430be23a59f21e97d36b8a",
+       "timestamp": "2024-01-06T02:20:59.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xaD854616E67959D7F8F8FF481740D0F2621329d5",
+       "from_is_contract": true,
+       "status": "out of gas",
+       "block": 18945177,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x54488451de3b34e30ebaa434e0a8a572ca87216cba8e853cadde92cb2e94b4aa",
+       "timestamp": "2024-01-06T02:20:11.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xaD854616E67959D7F8F8FF481740D0F2621329d5",
+       "from_is_contract": true,
+       "status": "out of gas",
+       "block": 18945173,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x6a18bf0dc38cba332b8a5b6be73c8c7d328d39c4f48d6f1bcff8c4537ad6ecdd",
+       "timestamp": "2023-12-12T18:38:23.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xaD854616E67959D7F8F8FF481740D0F2621329d5",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 18771939,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xcfeee0ed00ef3d0091ead0917e340c802f466dc63ae88bad02640047df1cf614",
+       "timestamp": "2023-12-12T18:03:11.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xaD854616E67959D7F8F8FF481740D0F2621329d5",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 18771766,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x810ee23566bbd92b0368c5fb8dc77138095203e2b7c8418ae8018a8d79d5c97b",
+       "timestamp": "2023-11-13T23:01:59.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x7eD6268cc786be6521fa947d3CAc40E12d8b809C",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 18566129,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x03354f2d171b78824aadcc78d629a9e03c14621b635b4d3c8c3c7f33f380442c",
+       "timestamp": "2023-11-13T22:46:23.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x7eD6268cc786be6521fa947d3CAc40E12d8b809C",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 18566051,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x235bce2ae8dfcdccda4c6061dee5cf4cfbe8475d4356ad41da0420024976cad9",
+       "timestamp": "2023-04-27T15:29:35.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xC1352B8CaebeC86E828516CB4622c12A61C692DC",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 17138410,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x3b0515b7377da7c7d787cb8c814e592470b34b03dda281317e9a5730895a544f",
+       "timestamp": "2023-04-27T15:15:47.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xC1352B8CaebeC86E828516CB4622c12A61C692DC",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 17138342,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xa27569f9c633f5d7071890e1c5ee1d7cdb55d9bef541e99bd213b096f084ca14",
+       "timestamp": "2023-04-27T15:07:47.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xC1352B8CaebeC86E828516CB4622c12A61C692DC",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 17138302,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x67c64895525f39d352db1c0a3b18a18e630066b5c074be1df1c55af22db35e72",
+       "timestamp": "2023-04-27T14:45:23.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xC1352B8CaebeC86E828516CB4622c12A61C692DC",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 17138191,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x908ff1e910cfe9a7037749380723aaeda40dab16b3d058b90c607e0287ba199d",
+       "timestamp": "2023-04-24T16:22:11.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x41d22Fc30AA15eee064139089aa80F688F245315",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17117302,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x5d02b6df71c2120b077bb1d7fffc27bbfbb82cda8246a144fcf9920c14ec45f5",
+       "timestamp": "2023-04-24T16:20:47.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x41d22Fc30AA15eee064139089aa80F688F245315",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17117295,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x616c6a80c8a5f5b05f47179b16efcb8883103138e3de05cbec94c3683f988da7",
+       "timestamp": "2023-04-21T19:06:23.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x41d22Fc30AA15eee064139089aa80F688F245315",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17096720,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xb82554e336f3698ff85fb1ca8c559115c999e56147b188a54b87ebcb8029a4e9",
+       "timestamp": "2023-04-21T19:03:59.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x41d22Fc30AA15eee064139089aa80F688F245315",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17096708,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x450f30df955017d6c84c4648285a883bfff4383b5786dbf1ea82268e9108307b",
+       "timestamp": "2023-04-17T23:56:59.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xD61A6fb2c107a02459f069A6701deBB45Ef21fd4",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17069883,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xaa2595aeaf22f90279807fe9cd38ef6c632890d72189bb691572abf9d6530939",
+       "timestamp": "2023-04-13T21:29:11.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x41d22Fc30AA15eee064139089aa80F688F245315",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17041031,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xd2052ec161372fecb02e6793afc6ade6a075c20ab788650b73ddcc1faeef0c6e",
+       "timestamp": "2023-04-12T09:34:23.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xb1a2C4Ad959Fe8dC61f1e55c4b134B12F4cf5358",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 17031069,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x5cba525beb0ac3d13de303c3cb7dab5be35a63cc18a2d115bb6d4399a2163adc",
+       "timestamp": "2023-04-11T09:39:59.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x9C4d83D302F642B528fD47559c194606B86e63b5",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 17024024,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xc021e53a0d5180b608f55907af0c28d847f17bcca29d1870637ff66987079d02",
+       "timestamp": "2023-04-11T04:47:11.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xbA9b6F92d48133bDdDEe52D4C8e5AA9271Ef6210",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17022590,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xbb90672b8012e7b11579efa1142ad655a4d4ea86630e3b371e9f98fc9c240c71",
+       "timestamp": "2023-04-11T04:36:35.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xbA9b6F92d48133bDdDEe52D4C8e5AA9271Ef6210",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17022539,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xf463fcac3e2b631fad54dd101f18eb525aaec0846ae53b97467e745347e5f0d9",
+       "timestamp": "2023-04-10T22:40:35.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xbA9b6F92d48133bDdDEe52D4C8e5AA9271Ef6210",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17020792,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x7c4790a9c86d9f2ff8e9301654982e09060afbce19ccf240bf0587bfd4c26859",
+       "timestamp": "2023-04-09T21:32:47.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x7E0Ca74b0Ad81F4332B947194e3988Ac8E676609",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17013397,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xad6aebbaf795cf31497569bb123576c279fad52f70934068923994caeace5f9a",
+       "timestamp": "2023-04-09T20:45:11.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x41d22Fc30AA15eee064139089aa80F688F245315",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17013165,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x01bb2c870309451bfcfa8b1073473c1d5bb56df38e6f9ffe8c067167f6ba148d",
+       "timestamp": "2023-04-09T19:37:11.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x1c5cf95FEE6BbD42E23B36167bCa43c44B279E3C",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17012839,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x2901211129b03ff98fc9a1c8e0d87dcce80ca03648d17ed191567da88ea4c8bf",
+       "timestamp": "2023-04-09T06:59:23.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x41d22Fc30AA15eee064139089aa80F688F245315",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17009135,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xb096d3509041c4860d54a8edfbc16616a673b69379c8c801744b77ca32068fd3",
+       "timestamp": "2023-04-08T20:38:23.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x41d22Fc30AA15eee064139089aa80F688F245315",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17006078,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x70a311dc07fc4bad3dbb59c1a0f0a700c31307b1b2f57fe861a68723ace68275",
+       "timestamp": "2023-04-08T18:41:11.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xD61A6fb2c107a02459f069A6701deBB45Ef21fd4",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17005503,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x9c8976327647aa23a1647ca8f64bba6518d0903d6cc011577352f0924160b304",
+       "timestamp": "2023-04-08T09:53:23.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xb1a2C4Ad959Fe8dC61f1e55c4b134B12F4cf5358",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 17002920,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x615e6bda4cd991b62c42932948797e3feb7ce9f1a7d7368eb7f0af716eaa17ac",
+       "timestamp": "2023-04-08T06:50:59.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xC244D43B8216B68cBf9404C1ead4F930eA8ffb6c",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 17002031,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xf19b59efdbae743f1081865929389017fe91e18e2b03b6419db8cac37166a54b",
+       "timestamp": "2023-04-08T02:58:47.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xc83e83677dD95618686aC9aF2cd48972F1B72c22",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 17000888,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x3e9ce28b4766c26e9efa2d07ac99fa1063ddf658b168996ce82ebb15f3fdf0f8",
+       "timestamp": "2023-04-08T02:52:35.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xc83e83677dD95618686aC9aF2cd48972F1B72c22",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 17000857,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xc92a1a671f7b05839a464041bdf72cf2416bf992787090da30e291a42d449721",
+       "timestamp": "2023-04-07T18:34:35.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x7eD6268cc786be6521fa947d3CAc40E12d8b809C",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16998414,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x046102068165795206a6f9f74d2694a97098ad9fddb953e220d2570a981f0631",
+       "timestamp": "2023-04-07T17:54:47.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x7eD6268cc786be6521fa947d3CAc40E12d8b809C",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16998219,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xc19fc113bcd70547d671103d3003bcbdca20b91d833e0cc7c0d57ddc92df8a03",
+       "timestamp": "2023-04-07T17:36:47.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x7eD6268cc786be6521fa947d3CAc40E12d8b809C",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16998129,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x7e3c8dc13970933d177bdf4cf1aa464f54deae4a67af6894663979c2fd2e12a2",
+       "timestamp": "2023-04-07T16:40:47.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x7eD6268cc786be6521fa947d3CAc40E12d8b809C",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16997853,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xc9417f1d630c89b10a3102ab2a19cff184d07fa55b7411a5dd89b489e7e936c2",
+       "timestamp": "2023-04-07T16:40:23.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x7eD6268cc786be6521fa947d3CAc40E12d8b809C",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16997851,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x073f620c6f6b0d3321890a7ca18423128f7c9a7c40e6d1f3beefca6f081e93f8",
+       "timestamp": "2023-04-07T15:58:35.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x7eD6268cc786be6521fa947d3CAc40E12d8b809C",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16997643,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x8ff59616ccc0374956ae9b1a70c001f3eba18bdb0b8d19e20ec66d6f76eb24c1",
+       "timestamp": "2023-04-07T14:01:11.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x41d22Fc30AA15eee064139089aa80F688F245315",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16997067,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xcd8f5c8dcce0c8a633624f119ac892af721d2d79a545adf4814406db9579d402",
+       "timestamp": "2023-04-07T11:52:23.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xeD50B7114A69c69CBbB9A38d234d1514FD952413",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16996436,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xac63ef660d2446d208d4bc3094549190944ff515de999198120a3d992fc35cf2",
+       "timestamp": "2023-04-07T09:54:35.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xeD50B7114A69c69CBbB9A38d234d1514FD952413",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16995861,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xd5f2e6fc2dd0c2451630bae1546a3f314736b964b1233dde57d757338ad52e2b",
+       "timestamp": "2023-04-07T09:02:35.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xde9ba5F62D6047C4a9cCF24455AA733cCC5B8F41",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 16995608,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x6508156dcfdf0c55b33e4ec3ad8612bab75c8c940bc1b28a073b2dbd28377c8c",
+       "timestamp": "2023-04-07T08:46:59.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xde9ba5F62D6047C4a9cCF24455AA733cCC5B8F41",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 16995531,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xe65d0fb9951cccd118c1b6c033f7d4a4c6d2c02fbcafa5ea6a9002cf7cce8d1c",
+       "timestamp": "2023-04-07T06:35:23.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xde9ba5F62D6047C4a9cCF24455AA733cCC5B8F41",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 16994893,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x8508bdcc348ec2417a13fa8f4994ad09840ebb5a1f123d547d62ebf50709bbf5",
+       "timestamp": "2023-04-07T06:17:35.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xde9ba5F62D6047C4a9cCF24455AA733cCC5B8F41",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 16994804,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x7a748f27c1829870c8ddfb659f6bbca48628eeb6228f34932d5df9aeb7137295",
+       "timestamp": "2023-04-07T04:48:47.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xCB43078C32423F5348Cab5885911C3B5faE217F9",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 16994364,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x07815fc292f7b67a7e24323653a363482ed1e7adf8be78e87eeaed1abe7e7628",
+       "timestamp": "2023-04-07T04:19:35.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x08cEb8Bba685ee708C9c4c65576837cbE19B9dea",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16994221,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xc2f2dc9480aeb6195f2fd2de727cfa7093d7d234d8d21d4dbbd88a3771db4423",
+       "timestamp": "2023-04-07T04:18:47.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x08cEb8Bba685ee708C9c4c65576837cbE19B9dea",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16994217,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x65904706ef463ea965e97add1f56446eef9af23ef3b601b6dd1cc565bfa1e7a9",
+       "timestamp": "2023-04-07T04:11:47.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x08cEb8Bba685ee708C9c4c65576837cbE19B9dea",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16994183,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xe1f601707787aa4fa9e6b9cbb9fbd05785cc7b0c93f9aee74ccd94ec5a5a77f5",
+       "timestamp": "2023-04-07T04:09:35.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x08cEb8Bba685ee708C9c4c65576837cbE19B9dea",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16994172,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xccd02f866794dd83852a576030766907eed4926d960100b04d6d060dfebe54f7",
+       "timestamp": "2024-05-05T23:30:23.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xaD854616E67959D7F8F8FF481740D0F2621329d5",
+       "from_is_contract": true,
+       "status": "Reverted",
+       "block": 19807182,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x734db7608594692785bb2cf74bba666b6f79090b70430be23a59f21e97d36b8a",
+       "timestamp": "2024-01-06T02:20:59.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xaD854616E67959D7F8F8FF481740D0F2621329d5",
+       "from_is_contract": true,
+       "status": "out of gas",
+       "block": 18945177,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x54488451de3b34e30ebaa434e0a8a572ca87216cba8e853cadde92cb2e94b4aa",
+       "timestamp": "2024-01-06T02:20:11.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xaD854616E67959D7F8F8FF481740D0F2621329d5",
+       "from_is_contract": true,
+       "status": "out of gas",
+       "block": 18945173,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x6a18bf0dc38cba332b8a5b6be73c8c7d328d39c4f48d6f1bcff8c4537ad6ecdd",
+       "timestamp": "2023-12-12T18:38:23.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xaD854616E67959D7F8F8FF481740D0F2621329d5",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 18771939,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xcfeee0ed00ef3d0091ead0917e340c802f466dc63ae88bad02640047df1cf614",
+       "timestamp": "2023-12-12T18:03:11.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xaD854616E67959D7F8F8FF481740D0F2621329d5",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 18771766,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x810ee23566bbd92b0368c5fb8dc77138095203e2b7c8418ae8018a8d79d5c97b",
+       "timestamp": "2023-11-13T23:01:59.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x7eD6268cc786be6521fa947d3CAc40E12d8b809C",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 18566129,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x03354f2d171b78824aadcc78d629a9e03c14621b635b4d3c8c3c7f33f380442c",
+       "timestamp": "2023-11-13T22:46:23.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x7eD6268cc786be6521fa947d3CAc40E12d8b809C",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 18566051,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x235bce2ae8dfcdccda4c6061dee5cf4cfbe8475d4356ad41da0420024976cad9",
+       "timestamp": "2023-04-27T15:29:35.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xC1352B8CaebeC86E828516CB4622c12A61C692DC",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 17138410,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x3b0515b7377da7c7d787cb8c814e592470b34b03dda281317e9a5730895a544f",
+       "timestamp": "2023-04-27T15:15:47.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xC1352B8CaebeC86E828516CB4622c12A61C692DC",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 17138342,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xa27569f9c633f5d7071890e1c5ee1d7cdb55d9bef541e99bd213b096f084ca14",
+       "timestamp": "2023-04-27T15:07:47.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xC1352B8CaebeC86E828516CB4622c12A61C692DC",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 17138302,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x67c64895525f39d352db1c0a3b18a18e630066b5c074be1df1c55af22db35e72",
+       "timestamp": "2023-04-27T14:45:23.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xC1352B8CaebeC86E828516CB4622c12A61C692DC",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 17138191,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x908ff1e910cfe9a7037749380723aaeda40dab16b3d058b90c607e0287ba199d",
+       "timestamp": "2023-04-24T16:22:11.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x41d22Fc30AA15eee064139089aa80F688F245315",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17117302,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x5d02b6df71c2120b077bb1d7fffc27bbfbb82cda8246a144fcf9920c14ec45f5",
+       "timestamp": "2023-04-24T16:20:47.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x41d22Fc30AA15eee064139089aa80F688F245315",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17117295,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x616c6a80c8a5f5b05f47179b16efcb8883103138e3de05cbec94c3683f988da7",
+       "timestamp": "2023-04-21T19:06:23.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x41d22Fc30AA15eee064139089aa80F688F245315",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17096720,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xb82554e336f3698ff85fb1ca8c559115c999e56147b188a54b87ebcb8029a4e9",
+       "timestamp": "2023-04-21T19:03:59.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x41d22Fc30AA15eee064139089aa80F688F245315",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17096708,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x450f30df955017d6c84c4648285a883bfff4383b5786dbf1ea82268e9108307b",
+       "timestamp": "2023-04-17T23:56:59.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xD61A6fb2c107a02459f069A6701deBB45Ef21fd4",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17069883,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xaa2595aeaf22f90279807fe9cd38ef6c632890d72189bb691572abf9d6530939",
+       "timestamp": "2023-04-13T21:29:11.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x41d22Fc30AA15eee064139089aa80F688F245315",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17041031,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xd2052ec161372fecb02e6793afc6ade6a075c20ab788650b73ddcc1faeef0c6e",
+       "timestamp": "2023-04-12T09:34:23.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xb1a2C4Ad959Fe8dC61f1e55c4b134B12F4cf5358",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 17031069,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x5cba525beb0ac3d13de303c3cb7dab5be35a63cc18a2d115bb6d4399a2163adc",
+       "timestamp": "2023-04-11T09:39:59.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x9C4d83D302F642B528fD47559c194606B86e63b5",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 17024024,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xc021e53a0d5180b608f55907af0c28d847f17bcca29d1870637ff66987079d02",
+       "timestamp": "2023-04-11T04:47:11.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xbA9b6F92d48133bDdDEe52D4C8e5AA9271Ef6210",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17022590,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xbb90672b8012e7b11579efa1142ad655a4d4ea86630e3b371e9f98fc9c240c71",
+       "timestamp": "2023-04-11T04:36:35.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xbA9b6F92d48133bDdDEe52D4C8e5AA9271Ef6210",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17022539,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xf463fcac3e2b631fad54dd101f18eb525aaec0846ae53b97467e745347e5f0d9",
+       "timestamp": "2023-04-10T22:40:35.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xbA9b6F92d48133bDdDEe52D4C8e5AA9271Ef6210",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17020792,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x7c4790a9c86d9f2ff8e9301654982e09060afbce19ccf240bf0587bfd4c26859",
+       "timestamp": "2023-04-09T21:32:47.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x7E0Ca74b0Ad81F4332B947194e3988Ac8E676609",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17013397,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xad6aebbaf795cf31497569bb123576c279fad52f70934068923994caeace5f9a",
+       "timestamp": "2023-04-09T20:45:11.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x41d22Fc30AA15eee064139089aa80F688F245315",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17013165,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x01bb2c870309451bfcfa8b1073473c1d5bb56df38e6f9ffe8c067167f6ba148d",
+       "timestamp": "2023-04-09T19:37:11.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x1c5cf95FEE6BbD42E23B36167bCa43c44B279E3C",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17012839,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x2901211129b03ff98fc9a1c8e0d87dcce80ca03648d17ed191567da88ea4c8bf",
+       "timestamp": "2023-04-09T06:59:23.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x41d22Fc30AA15eee064139089aa80F688F245315",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17009135,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xb096d3509041c4860d54a8edfbc16616a673b69379c8c801744b77ca32068fd3",
+       "timestamp": "2023-04-08T20:38:23.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x41d22Fc30AA15eee064139089aa80F688F245315",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17006078,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x70a311dc07fc4bad3dbb59c1a0f0a700c31307b1b2f57fe861a68723ace68275",
+       "timestamp": "2023-04-08T18:41:11.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xD61A6fb2c107a02459f069A6701deBB45Ef21fd4",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17005503,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x9c8976327647aa23a1647ca8f64bba6518d0903d6cc011577352f0924160b304",
+       "timestamp": "2023-04-08T09:53:23.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xb1a2C4Ad959Fe8dC61f1e55c4b134B12F4cf5358",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 17002920,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x615e6bda4cd991b62c42932948797e3feb7ce9f1a7d7368eb7f0af716eaa17ac",
+       "timestamp": "2023-04-08T06:50:59.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xC244D43B8216B68cBf9404C1ead4F930eA8ffb6c",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 17002031,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xf19b59efdbae743f1081865929389017fe91e18e2b03b6419db8cac37166a54b",
+       "timestamp": "2023-04-08T02:58:47.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xc83e83677dD95618686aC9aF2cd48972F1B72c22",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 17000888,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x3e9ce28b4766c26e9efa2d07ac99fa1063ddf658b168996ce82ebb15f3fdf0f8",
+       "timestamp": "2023-04-08T02:52:35.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xc83e83677dD95618686aC9aF2cd48972F1B72c22",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 17000857,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xc92a1a671f7b05839a464041bdf72cf2416bf992787090da30e291a42d449721",
+       "timestamp": "2023-04-07T18:34:35.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x7eD6268cc786be6521fa947d3CAc40E12d8b809C",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16998414,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x046102068165795206a6f9f74d2694a97098ad9fddb953e220d2570a981f0631",
+       "timestamp": "2023-04-07T17:54:47.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x7eD6268cc786be6521fa947d3CAc40E12d8b809C",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16998219,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xc19fc113bcd70547d671103d3003bcbdca20b91d833e0cc7c0d57ddc92df8a03",
+       "timestamp": "2023-04-07T17:36:47.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x7eD6268cc786be6521fa947d3CAc40E12d8b809C",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16998129,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x7e3c8dc13970933d177bdf4cf1aa464f54deae4a67af6894663979c2fd2e12a2",
+       "timestamp": "2023-04-07T16:40:47.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x7eD6268cc786be6521fa947d3CAc40E12d8b809C",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16997853,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xc9417f1d630c89b10a3102ab2a19cff184d07fa55b7411a5dd89b489e7e936c2",
+       "timestamp": "2023-04-07T16:40:23.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x7eD6268cc786be6521fa947d3CAc40E12d8b809C",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16997851,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x073f620c6f6b0d3321890a7ca18423128f7c9a7c40e6d1f3beefca6f081e93f8",
+       "timestamp": "2023-04-07T15:58:35.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x7eD6268cc786be6521fa947d3CAc40E12d8b809C",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16997643,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x8ff59616ccc0374956ae9b1a70c001f3eba18bdb0b8d19e20ec66d6f76eb24c1",
+       "timestamp": "2023-04-07T14:01:11.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x41d22Fc30AA15eee064139089aa80F688F245315",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16997067,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xcd8f5c8dcce0c8a633624f119ac892af721d2d79a545adf4814406db9579d402",
+       "timestamp": "2023-04-07T11:52:23.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xeD50B7114A69c69CBbB9A38d234d1514FD952413",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16996436,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xac63ef660d2446d208d4bc3094549190944ff515de999198120a3d992fc35cf2",
+       "timestamp": "2023-04-07T09:54:35.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xeD50B7114A69c69CBbB9A38d234d1514FD952413",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16995861,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xd5f2e6fc2dd0c2451630bae1546a3f314736b964b1233dde57d757338ad52e2b",
+       "timestamp": "2023-04-07T09:02:35.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xde9ba5F62D6047C4a9cCF24455AA733cCC5B8F41",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 16995608,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x6508156dcfdf0c55b33e4ec3ad8612bab75c8c940bc1b28a073b2dbd28377c8c",
+       "timestamp": "2023-04-07T08:46:59.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xde9ba5F62D6047C4a9cCF24455AA733cCC5B8F41",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 16995531,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xe65d0fb9951cccd118c1b6c033f7d4a4c6d2c02fbcafa5ea6a9002cf7cce8d1c",
+       "timestamp": "2023-04-07T06:35:23.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xde9ba5F62D6047C4a9cCF24455AA733cCC5B8F41",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 16994893,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x8508bdcc348ec2417a13fa8f4994ad09840ebb5a1f123d547d62ebf50709bbf5",
+       "timestamp": "2023-04-07T06:17:35.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xde9ba5F62D6047C4a9cCF24455AA733cCC5B8F41",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 16994804,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x7a748f27c1829870c8ddfb659f6bbca48628eeb6228f34932d5df9aeb7137295",
+       "timestamp": "2023-04-07T04:48:47.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xCB43078C32423F5348Cab5885911C3B5faE217F9",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 16994364,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x07815fc292f7b67a7e24323653a363482ed1e7adf8be78e87eeaed1abe7e7628",
+       "timestamp": "2023-04-07T04:19:35.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x08cEb8Bba685ee708C9c4c65576837cbE19B9dea",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16994221,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xc2f2dc9480aeb6195f2fd2de727cfa7093d7d234d8d21d4dbbd88a3771db4423",
+       "timestamp": "2023-04-07T04:18:47.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x08cEb8Bba685ee708C9c4c65576837cbE19B9dea",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16994217,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x65904706ef463ea965e97add1f56446eef9af23ef3b601b6dd1cc565bfa1e7a9",
+       "timestamp": "2023-04-07T04:11:47.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x08cEb8Bba685ee708C9c4c65576837cbE19B9dea",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16994183,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xe1f601707787aa4fa9e6b9cbb9fbd05785cc7b0c93f9aee74ccd94ec5a5a77f5",
+       "timestamp": "2023-04-07T04:09:35.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x08cEb8Bba685ee708C9c4c65576837cbE19B9dea",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16994172,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xccd02f866794dd83852a576030766907eed4926d960100b04d6d060dfebe54f7",
+       "timestamp": "2024-05-05T23:30:23.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xaD854616E67959D7F8F8FF481740D0F2621329d5",
+       "from_is_contract": true,
+       "status": "Reverted",
+       "block": 19807182,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x734db7608594692785bb2cf74bba666b6f79090b70430be23a59f21e97d36b8a",
+       "timestamp": "2024-01-06T02:20:59.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xaD854616E67959D7F8F8FF481740D0F2621329d5",
+       "from_is_contract": true,
+       "status": "out of gas",
+       "block": 18945177,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x54488451de3b34e30ebaa434e0a8a572ca87216cba8e853cadde92cb2e94b4aa",
+       "timestamp": "2024-01-06T02:20:11.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xaD854616E67959D7F8F8FF481740D0F2621329d5",
+       "from_is_contract": true,
+       "status": "out of gas",
+       "block": 18945173,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x6a18bf0dc38cba332b8a5b6be73c8c7d328d39c4f48d6f1bcff8c4537ad6ecdd",
+       "timestamp": "2023-12-12T18:38:23.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xaD854616E67959D7F8F8FF481740D0F2621329d5",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 18771939,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xcfeee0ed00ef3d0091ead0917e340c802f466dc63ae88bad02640047df1cf614",
+       "timestamp": "2023-12-12T18:03:11.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xaD854616E67959D7F8F8FF481740D0F2621329d5",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 18771766,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x810ee23566bbd92b0368c5fb8dc77138095203e2b7c8418ae8018a8d79d5c97b",
+       "timestamp": "2023-11-13T23:01:59.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x7eD6268cc786be6521fa947d3CAc40E12d8b809C",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 18566129,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x03354f2d171b78824aadcc78d629a9e03c14621b635b4d3c8c3c7f33f380442c",
+       "timestamp": "2023-11-13T22:46:23.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x7eD6268cc786be6521fa947d3CAc40E12d8b809C",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 18566051,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x235bce2ae8dfcdccda4c6061dee5cf4cfbe8475d4356ad41da0420024976cad9",
+       "timestamp": "2023-04-27T15:29:35.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xC1352B8CaebeC86E828516CB4622c12A61C692DC",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 17138410,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x3b0515b7377da7c7d787cb8c814e592470b34b03dda281317e9a5730895a544f",
+       "timestamp": "2023-04-27T15:15:47.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xC1352B8CaebeC86E828516CB4622c12A61C692DC",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 17138342,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xa27569f9c633f5d7071890e1c5ee1d7cdb55d9bef541e99bd213b096f084ca14",
+       "timestamp": "2023-04-27T15:07:47.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xC1352B8CaebeC86E828516CB4622c12A61C692DC",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 17138302,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x67c64895525f39d352db1c0a3b18a18e630066b5c074be1df1c55af22db35e72",
+       "timestamp": "2023-04-27T14:45:23.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xC1352B8CaebeC86E828516CB4622c12A61C692DC",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 17138191,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x908ff1e910cfe9a7037749380723aaeda40dab16b3d058b90c607e0287ba199d",
+       "timestamp": "2023-04-24T16:22:11.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x41d22Fc30AA15eee064139089aa80F688F245315",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17117302,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x5d02b6df71c2120b077bb1d7fffc27bbfbb82cda8246a144fcf9920c14ec45f5",
+       "timestamp": "2023-04-24T16:20:47.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x41d22Fc30AA15eee064139089aa80F688F245315",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17117295,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x616c6a80c8a5f5b05f47179b16efcb8883103138e3de05cbec94c3683f988da7",
+       "timestamp": "2023-04-21T19:06:23.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x41d22Fc30AA15eee064139089aa80F688F245315",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17096720,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xb82554e336f3698ff85fb1ca8c559115c999e56147b188a54b87ebcb8029a4e9",
+       "timestamp": "2023-04-21T19:03:59.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x41d22Fc30AA15eee064139089aa80F688F245315",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17096708,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x450f30df955017d6c84c4648285a883bfff4383b5786dbf1ea82268e9108307b",
+       "timestamp": "2023-04-17T23:56:59.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xD61A6fb2c107a02459f069A6701deBB45Ef21fd4",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17069883,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xaa2595aeaf22f90279807fe9cd38ef6c632890d72189bb691572abf9d6530939",
+       "timestamp": "2023-04-13T21:29:11.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x41d22Fc30AA15eee064139089aa80F688F245315",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17041031,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xd2052ec161372fecb02e6793afc6ade6a075c20ab788650b73ddcc1faeef0c6e",
+       "timestamp": "2023-04-12T09:34:23.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xb1a2C4Ad959Fe8dC61f1e55c4b134B12F4cf5358",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 17031069,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x5cba525beb0ac3d13de303c3cb7dab5be35a63cc18a2d115bb6d4399a2163adc",
+       "timestamp": "2023-04-11T09:39:59.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x9C4d83D302F642B528fD47559c194606B86e63b5",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 17024024,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xc021e53a0d5180b608f55907af0c28d847f17bcca29d1870637ff66987079d02",
+       "timestamp": "2023-04-11T04:47:11.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xbA9b6F92d48133bDdDEe52D4C8e5AA9271Ef6210",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17022590,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xbb90672b8012e7b11579efa1142ad655a4d4ea86630e3b371e9f98fc9c240c71",
+       "timestamp": "2023-04-11T04:36:35.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xbA9b6F92d48133bDdDEe52D4C8e5AA9271Ef6210",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17022539,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xf463fcac3e2b631fad54dd101f18eb525aaec0846ae53b97467e745347e5f0d9",
+       "timestamp": "2023-04-10T22:40:35.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xbA9b6F92d48133bDdDEe52D4C8e5AA9271Ef6210",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17020792,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x7c4790a9c86d9f2ff8e9301654982e09060afbce19ccf240bf0587bfd4c26859",
+       "timestamp": "2023-04-09T21:32:47.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x7E0Ca74b0Ad81F4332B947194e3988Ac8E676609",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17013397,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xad6aebbaf795cf31497569bb123576c279fad52f70934068923994caeace5f9a",
+       "timestamp": "2023-04-09T20:45:11.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x41d22Fc30AA15eee064139089aa80F688F245315",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17013165,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x01bb2c870309451bfcfa8b1073473c1d5bb56df38e6f9ffe8c067167f6ba148d",
+       "timestamp": "2023-04-09T19:37:11.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x1c5cf95FEE6BbD42E23B36167bCa43c44B279E3C",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17012839,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x2901211129b03ff98fc9a1c8e0d87dcce80ca03648d17ed191567da88ea4c8bf",
+       "timestamp": "2023-04-09T06:59:23.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x41d22Fc30AA15eee064139089aa80F688F245315",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17009135,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xb096d3509041c4860d54a8edfbc16616a673b69379c8c801744b77ca32068fd3",
+       "timestamp": "2023-04-08T20:38:23.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x41d22Fc30AA15eee064139089aa80F688F245315",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17006078,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x70a311dc07fc4bad3dbb59c1a0f0a700c31307b1b2f57fe861a68723ace68275",
+       "timestamp": "2023-04-08T18:41:11.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xD61A6fb2c107a02459f069A6701deBB45Ef21fd4",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 17005503,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x9c8976327647aa23a1647ca8f64bba6518d0903d6cc011577352f0924160b304",
+       "timestamp": "2023-04-08T09:53:23.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xb1a2C4Ad959Fe8dC61f1e55c4b134B12F4cf5358",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 17002920,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x615e6bda4cd991b62c42932948797e3feb7ce9f1a7d7368eb7f0af716eaa17ac",
+       "timestamp": "2023-04-08T06:50:59.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xC244D43B8216B68cBf9404C1ead4F930eA8ffb6c",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 17002031,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xf19b59efdbae743f1081865929389017fe91e18e2b03b6419db8cac37166a54b",
+       "timestamp": "2023-04-08T02:58:47.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xc83e83677dD95618686aC9aF2cd48972F1B72c22",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 17000888,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x3e9ce28b4766c26e9efa2d07ac99fa1063ddf658b168996ce82ebb15f3fdf0f8",
+       "timestamp": "2023-04-08T02:52:35.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xc83e83677dD95618686aC9aF2cd48972F1B72c22",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 17000857,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xc92a1a671f7b05839a464041bdf72cf2416bf992787090da30e291a42d449721",
+       "timestamp": "2023-04-07T18:34:35.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x7eD6268cc786be6521fa947d3CAc40E12d8b809C",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16998414,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x046102068165795206a6f9f74d2694a97098ad9fddb953e220d2570a981f0631",
+       "timestamp": "2023-04-07T17:54:47.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x7eD6268cc786be6521fa947d3CAc40E12d8b809C",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16998219,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xc19fc113bcd70547d671103d3003bcbdca20b91d833e0cc7c0d57ddc92df8a03",
+       "timestamp": "2023-04-07T17:36:47.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x7eD6268cc786be6521fa947d3CAc40E12d8b809C",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16998129,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x7e3c8dc13970933d177bdf4cf1aa464f54deae4a67af6894663979c2fd2e12a2",
+       "timestamp": "2023-04-07T16:40:47.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x7eD6268cc786be6521fa947d3CAc40E12d8b809C",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16997853,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xc9417f1d630c89b10a3102ab2a19cff184d07fa55b7411a5dd89b489e7e936c2",
+       "timestamp": "2023-04-07T16:40:23.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x7eD6268cc786be6521fa947d3CAc40E12d8b809C",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16997851,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x073f620c6f6b0d3321890a7ca18423128f7c9a7c40e6d1f3beefca6f081e93f8",
+       "timestamp": "2023-04-07T15:58:35.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x7eD6268cc786be6521fa947d3CAc40E12d8b809C",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16997643,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x8ff59616ccc0374956ae9b1a70c001f3eba18bdb0b8d19e20ec66d6f76eb24c1",
+       "timestamp": "2023-04-07T14:01:11.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x41d22Fc30AA15eee064139089aa80F688F245315",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16997067,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xcd8f5c8dcce0c8a633624f119ac892af721d2d79a545adf4814406db9579d402",
+       "timestamp": "2023-04-07T11:52:23.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xeD50B7114A69c69CBbB9A38d234d1514FD952413",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16996436,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xac63ef660d2446d208d4bc3094549190944ff515de999198120a3d992fc35cf2",
+       "timestamp": "2023-04-07T09:54:35.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xeD50B7114A69c69CBbB9A38d234d1514FD952413",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16995861,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xd5f2e6fc2dd0c2451630bae1546a3f314736b964b1233dde57d757338ad52e2b",
+       "timestamp": "2023-04-07T09:02:35.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xde9ba5F62D6047C4a9cCF24455AA733cCC5B8F41",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 16995608,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x6508156dcfdf0c55b33e4ec3ad8612bab75c8c940bc1b28a073b2dbd28377c8c",
+       "timestamp": "2023-04-07T08:46:59.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xde9ba5F62D6047C4a9cCF24455AA733cCC5B8F41",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 16995531,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xe65d0fb9951cccd118c1b6c033f7d4a4c6d2c02fbcafa5ea6a9002cf7cce8d1c",
+       "timestamp": "2023-04-07T06:35:23.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xde9ba5F62D6047C4a9cCF24455AA733cCC5B8F41",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 16994893,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x8508bdcc348ec2417a13fa8f4994ad09840ebb5a1f123d547d62ebf50709bbf5",
+       "timestamp": "2023-04-07T06:17:35.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xde9ba5F62D6047C4a9cCF24455AA733cCC5B8F41",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 16994804,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x7a748f27c1829870c8ddfb659f6bbca48628eeb6228f34932d5df9aeb7137295",
+       "timestamp": "2023-04-07T04:48:47.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0xCB43078C32423F5348Cab5885911C3B5faE217F9",
+       "from_is_contract": true,
+       "status": "success",
+       "block": 16994364,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x07815fc292f7b67a7e24323653a363482ed1e7adf8be78e87eeaed1abe7e7628",
+       "timestamp": "2023-04-07T04:19:35.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x08cEb8Bba685ee708C9c4c65576837cbE19B9dea",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16994221,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xc2f2dc9480aeb6195f2fd2de727cfa7093d7d234d8d21d4dbbd88a3771db4423",
+       "timestamp": "2023-04-07T04:18:47.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x08cEb8Bba685ee708C9c4c65576837cbE19B9dea",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16994217,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x65904706ef463ea965e97add1f56446eef9af23ef3b601b6dd1cc565bfa1e7a9",
+       "timestamp": "2023-04-07T04:11:47.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x08cEb8Bba685ee708C9c4c65576837cbE19B9dea",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16994183,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xe1f601707787aa4fa9e6b9cbb9fbd05785cc7b0c93f9aee74ccd94ec5a5a77f5",
+       "timestamp": "2023-04-07T04:09:35.000000Z",
+       "method": "setTokenArtwork",
+       "from": "0x08cEb8Bba685ee708C9c4c65576837cbE19B9dea",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 16994172,
+       "category": "renderer"
+      },
+      {
+       "truncated": true,
+       "chunk": 0
+      }
+     ],
+     "events": {
+      "OwnershipTransferred(address,address)": {
+       "n": 0
+      },
+      "Upgraded(address)": {
+       "n": 2,
+       "first": "2023-04-05",
+       "last": "2023-04-05",
+       "last_tx": "0xf2f1f09e4c961406ebb99bf0fe454b8dfa37b0a912735741766724f490033074",
+       "list": [
+        {
+         "date": "2023-04-05",
+         "tx": "0xb26fac8fcfdcfc62206e13a925a9b92d978ba0dde8162cef614304982f94978c",
+         "topics": [
+          "0df68959ee799e25558124a3b7a505eeafe121ff"
+         ],
+         "data": "0x"
+        },
+        {
+         "date": "2023-04-05",
+         "tx": "0xf2f1f09e4c961406ebb99bf0fe454b8dfa37b0a912735741766724f490033074",
+         "topics": [
+          "871d062412e7a4813e25673abc8d24b1223d7b7a"
+         ],
+         "data": "0x"
+        }
+       ]
+      },
+      "AdminChanged(address,address)": {
+       "n": 1,
+       "first": "2023-04-05",
+       "last": "2023-04-05",
+       "last_tx": "0xb26fac8fcfdcfc62206e13a925a9b92d978ba0dde8162cef614304982f94978c",
+       "list": [
+        {
+         "date": "2023-04-05",
+         "tx": "0xb26fac8fcfdcfc62206e13a925a9b92d978ba0dde8162cef614304982f94978c",
+         "topics": [],
+         "data": "0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000e21c0d7472c1083cb7d089729f93ce37bf604e4e"
+        }
+       ]
+      },
+      "BeaconUpgraded(address)": {
+       "n": 0
+      }
+     },
+     "decoded": [
+      {
+       "hash": "0xe1f601707787aa4fa9e6b9cbb9fbd05785cc7b0c93f9aee74ccd94ec5a5a77f5",
+       "timestamp": "2023-04-07T04:09:35.000000Z",
+       "method": "setTokenArtwork",
+       "category": "renderer",
+       "from": "0x08cEb8Bba685ee708C9c4c65576837cbE19B9dea",
+       "params": [
+        {
+         "name": "arg0",
+         "type": "uint256",
+         "value": "1217"
+        },
+        {
+         "name": "arg1",
+         "type": "string",
+         "value": "https://gateway.pinata.cloud/ipfs/QmYcPTN3UQNzUi2atTGgJ2LJ2seu2aBjPe9gCCSXNMcjb7?_gl=1*1sdpl9q*rs_ga*OTQ2NDg2OGUtYzk1Zi00Yzk1LWEyNDUtYjhjMGMyMjZjZWQ0*rs_ga_5RMPXG14TE*MTY4MDg0MDA5NS4xLjEuMTY4MDg0MDExOC4zNy4wLjA."
+        }
+       ],
+       "value_kinds": [
+        "http"
+       ],
+       "error": null
+      },
+      {
+       "hash": "0xcfeee0ed00ef3d0091ead0917e340c802f466dc63ae88bad02640047df1cf614",
+       "timestamp": "2023-12-12T18:03:11.000000Z",
+       "method": "setTokenArtwork",
+       "category": "renderer",
+       "from": "0xaD854616E67959D7F8F8FF481740D0F2621329d5",
+       "params": [
+        {
+         "name": "arg0",
+         "type": "uint256",
+         "value": "3584"
+        },
+        {
+         "name": "arg1",
+         "type": "string",
+         "value": "https://etherscan.io/address/0x6e2485e99ee39b659b9915e85942756b7f59d5b4#writeProxyContract%23F11"
+        }
+       ],
+       "value_kinds": [
+        "http"
+       ],
+       "error": null
+      },
+      {
+       "hash": "0x6a18bf0dc38cba332b8a5b6be73c8c7d328d39c4f48d6f1bcff8c4537ad6ecdd",
+       "timestamp": "2023-12-12T18:38:23.000000Z",
+       "method": "setTokenArtwork",
+       "category": "renderer",
+       "from": "0xaD854616E67959D7F8F8FF481740D0F2621329d5",
+       "params": [
+        {
+         "name": "arg0",
+         "type": "uint256",
+         "value": "3584"
+        },
+        {
+         "name": "arg1",
+         "type": "string",
+         "value": "https://ipfs.io/ipfs/bafkreifvbpnfjysbptiwa6slsizw2zqntcz4pb4kw6yqb3jwyhz56prdjy"
+        }
+       ],
+       "value_kinds": [
+        "http"
+       ],
+       "error": null
+      }
+     ],
+     "upgrades": [
+      {
+       "date": "2023-04-05",
+       "impl": "0x0df68959ee799e25558124a3b7a505eeafe121ff",
+       "tx": "0xb26fac8fcfdcfc62206e13a925a9b92d978ba0dde8162cef614304982f94978c"
+      },
+      {
+       "date": "2023-04-05",
+       "impl": "0x871d062412e7a4813e25673abc8d24b1223d7b7a",
+       "tx": "0xf2f1f09e4c961406ebb99bf0fe454b8dfa37b0a912735741766724f490033074"
+      }
+     ],
+     "incomplete": false
+    },
+    "unverified_selector_hits": [],
+    "tokenuri_path": "override"
+   }
+  }
+ ],
+ "meta": {
+  "address": "0x9e732f7eff260c408639dc06b04b94088c39852e",
+  "name": "PROMPTZ",
+  "w5_claim_strength": null,
+  "w5_claim_text": null,
+  "w5_source_type": null,
+  "w5_source_url": null,
+  "holders_count": 2258.0,
+  "in_w5": false,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": "onchain-renderer",
+  "census_media_class": "data-uri",
+  "census_liveness": "alive",
+  "in_census_onchain": true,
+  "standard": "ERC-721",
+  "creator": "0x6a4aa35badeb1417811edb4d005384678f4da79e",
+  "deploy_block": 16979038.0
+ },
+ "class_deps_all": "eoa-mutable",
+ "class_deps": "eoa-mutable",
+ "class_final": "eoa-mutable",
+ "pointer_power": "eoa"
+}

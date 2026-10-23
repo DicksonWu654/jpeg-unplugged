@@ -1,0 +1,108 @@
+{
+ "address": "0xf9ad106debd339579bebc0014273c88092177dc2",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:01Z",
+ "code_raw": "data/raw/rpc-mutability/0xf9ad106debd339579bebc0014273c88092177dc2_code.json",
+ "code_len": 10362,
+ "slots": {
+  "slot0": "0x426974636f696e2047656e650000000000000000000000000000000000000018"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0xf9ad106debd339579bebc0014273c88092177dc2_slots.json",
+ "verified": false,
+ "contract_name": "",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": false,
+ "abi_from": null,
+ "unverified_selector_hits": [
+  "owner()",
+  "renounceOwnership()",
+  "transferOwnership(address)"
+ ],
+ "history": {
+  "txs": [],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 1,
+    "first": "2026-04-18",
+    "last": "2026-04-18",
+    "last_tx": "0x6a34b3a8f826cefdcc7f48a04229212590e2b6a0911e269b107bf07e8328f0f9",
+    "list": [
+     {
+      "date": "2026-04-18",
+      "tx": "0x6a34b3a8f826cefdcc7f48a04229212590e2b6a0911e269b107bf07e8328f0f9",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "69864247702881474ef0bc182cdfba09e814f0fd"
+      ],
+      "data": "0x"
+     }
+    ]
+   }
+  },
+  "decoded": [],
+  "ownership_transfers": [
+   {
+    "date": "2026-04-18",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0x69864247702881474ef0bc182cdfba09e814f0fd",
+    "tx": "0x6a34b3a8f826cefdcc7f48a04229212590e2b6a0911e269b107bf07e8328f0f9"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0xf9ad106debd339579bebc0014273c88092177dc2_reads1.json",
+ "eip4906": true,
+ "owner": {
+  "addr": "0x69864247702881474ef0bc182cdfba09e814f0fd",
+  "code_raw": "data/raw/rpc-mutability/0x69864247702881474ef0bc182cdfba09e814f0fd_holdercode.json",
+  "type": "eoa",
+  "bs_name": null,
+  "ens": null,
+  "bs_impl_names": [],
+  "bs_tags": [],
+  "is_contract": false,
+  "creator": null,
+  "is_verified": false,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "n/a",
+ "lock_functions": [],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [],
+ "likely_class_if_setters": "eoa",
+ "class_direct": "unknown",
+ "class_reason": "unverified source; selector hits: owner(),renounceOwnership(),transferOwnership(address)",
+ "live_mutators": [],
+ "dependencies": [],
+ "meta": {
+  "address": "0xf9ad106debd339579bebc0014273c88092177dc2",
+  "name": "Bitcoin Gene",
+  "w5_claim_strength": null,
+  "w5_claim_text": null,
+  "w5_source_type": null,
+  "w5_source_url": null,
+  "holders_count": 11774.0,
+  "in_w5": false,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": "onchain-renderer",
+  "census_media_class": "ipfs",
+  "census_liveness": "alive",
+  "in_census_onchain": true,
+  "standard": "ERC-721",
+  "creator": "0x69864247702881474ef0bc182cdfba09e814f0fd",
+  "deploy_block": 24904928.0
+ },
+ "class_deps_all": "none",
+ "class_deps": "none",
+ "class_final": "unknown",
+ "pointer_power": null
+}

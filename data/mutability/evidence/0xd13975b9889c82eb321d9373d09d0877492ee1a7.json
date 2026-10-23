@@ -1,0 +1,414 @@
+{
+ "address": "0xd13975b9889c82eb321d9373d09d0877492ee1a7",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:16Z",
+ "code_raw": "data/raw/rpc-mutability/0xd13975b9889c82eb321d9373d09d0877492ee1a7_code.json",
+ "code_len": 6312,
+ "slots": {
+  "slot0": "0x4f6e636861696e2050617261736974657320426c6f6f6d00000000000000002e"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0xd13975b9889c82eb321d9373d09d0877492ee1a7_slots.json",
+ "verified": true,
+ "contract_name": "ParasiteBloom",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [
+   {
+    "hash": "0xfe3e69ecc765129b30fd4185e960e8359b0074982215136794f6ac6560e371f8",
+    "timestamp": "2026-06-10T06:21:59.000000Z",
+    "method": "renounceOwnership",
+    "from": "0x8A429181D2E5068598d2C31ed68bB68F9A0f7EFf",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25285223,
+    "category": "ownership"
+   },
+   {
+    "hash": "0x8e6d79ca698f34937eb3e0701ea8c6e99eeda136dd5b8ad2f29de03cf6f210c5",
+    "timestamp": "2026-05-20T04:37:11.000000Z",
+    "method": "renounceOwnership",
+    "from": "0x8A429181D2E5068598d2C31ed68bB68F9A0f7EFf",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25134098,
+    "category": "ownership"
+   },
+   {
+    "hash": "0x8aa99139cba6ae790b4848b38586349f99ce13725e878885843c46308cd7ee03",
+    "timestamp": "2026-05-17T00:40:35.000000Z",
+    "method": "renounceOwnership",
+    "from": "0x1112b8C161119D4F866e4C21Bacf0eeB3a1c91d9",
+    "from_is_contract": true,
+    "status": "Reverted",
+    "block": 25111384,
+    "category": "ownership"
+   },
+   {
+    "hash": "0xb28b8deaec7e166ad5f8992246f2d08a92a57e038e59ffe5e4c8d26b6874eb3a",
+    "timestamp": "2026-05-17T00:11:47.000000Z",
+    "method": "renounceOwnership",
+    "from": "0xcAaB8fBA5ADCBc02E71Ff5471449848A3556972D",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25111240,
+    "category": "ownership"
+   },
+   {
+    "hash": "0x0b134fe706358c92cd4bf7f93a3f7010f08d37a3b50703479fd1a076a9ed4b49",
+    "timestamp": "2026-05-16T23:44:59.000000Z",
+    "method": "renounceOwnership",
+    "from": "0x06828B9BCAcEeFE9Ba0363C86D602a5248cf7D22",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25111107,
+    "category": "ownership"
+   },
+   {
+    "hash": "0xb6c631a7f64defcc23f3776208a29977ca403fb375b6820671be8b4f066200ce",
+    "timestamp": "2026-05-16T23:41:23.000000Z",
+    "method": "renounceOwnership",
+    "from": "0x06828B9BCAcEeFE9Ba0363C86D602a5248cf7D22",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25111089,
+    "category": "ownership"
+   },
+   {
+    "hash": "0x2087f3ab10164c65832c2f3c112e0462e6da365409566fd89f8f9fdd8267add1",
+    "timestamp": "2026-05-16T23:34:59.000000Z",
+    "method": "renounceOwnership",
+    "from": "0x13a6C88f79445f0A9C026aEAebfbc17449E2A134",
+    "from_is_contract": true,
+    "status": "Reverted",
+    "block": 25111057,
+    "category": "ownership"
+   },
+   {
+    "hash": "0xc616e41ff241f2796778736481924d1700a8eb86eb6a9a305d409b2354f720e8",
+    "timestamp": "2026-05-16T23:15:35.000000Z",
+    "method": "renounceOwnership",
+    "from": "0x13a6C88f79445f0A9C026aEAebfbc17449E2A134",
+    "from_is_contract": true,
+    "status": "Reverted",
+    "block": 25110960,
+    "category": "ownership"
+   },
+   {
+    "hash": "0xd05463c262717d4a7a45a8ed3e731091e4a8936247757cce7f970e74e74ffc7e",
+    "timestamp": "2026-05-16T23:12:47.000000Z",
+    "method": "renounceOwnership",
+    "from": "0x13a6C88f79445f0A9C026aEAebfbc17449E2A134",
+    "from_is_contract": true,
+    "status": "Reverted",
+    "block": 25110946,
+    "category": "ownership"
+   },
+   {
+    "hash": "0xf3a5d792c9fc250ba1e535612e3c171e73f944dca2561cf3d2edfda2c1af6b03",
+    "timestamp": "2026-05-16T23:01:35.000000Z",
+    "method": "renounceOwnership",
+    "from": "0x8bA63400ddd3BCC6850402dD9a8C57F5B4b72fb3",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25110890,
+    "category": "ownership"
+   },
+   {
+    "hash": "0x25dbf85d550d9993ef5414156fff150e1ff5997af06256d577b7fdb38f3c6905",
+    "timestamp": "2026-05-16T22:53:23.000000Z",
+    "method": "renounceOwnership",
+    "from": "0x354BAb4d9191375da145E5bc3C1f67E6d3d70231",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25110849,
+    "category": "ownership"
+   },
+   {
+    "hash": "0xf7bd07ebf20cc41b86887c0ac5fbf8b67ae805551e8ce3b57d0fcd3a2eff79ba",
+    "timestamp": "2026-05-16T22:49:23.000000Z",
+    "method": "renounceOwnership",
+    "from": "0x22a50C19c1bA9Fe72Eb28a77a49fdd69C3349F54",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25110829,
+    "category": "ownership"
+   },
+   {
+    "hash": "0x756b000072a492bd37dc68bfd2de31ad59b5aede9919e09c5040cc1dc9e0bb56",
+    "timestamp": "2026-05-16T22:49:11.000000Z",
+    "method": "renounceOwnership",
+    "from": "0x22a50C19c1bA9Fe72Eb28a77a49fdd69C3349F54",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25110828,
+    "category": "ownership"
+   },
+   {
+    "hash": "0x68af79e967e893618d7fce2387dd5f0f762a322b48ffa8815a2d963e2e131bc6",
+    "timestamp": "2026-05-16T22:48:47.000000Z",
+    "method": "renounceOwnership",
+    "from": "0x22a50C19c1bA9Fe72Eb28a77a49fdd69C3349F54",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25110826,
+    "category": "ownership"
+   },
+   {
+    "hash": "0xfcd529bd027fb50699cc80b7c1f2e3b97241e684f6b3a3d4501025098a58ed4b",
+    "timestamp": "2026-05-16T22:45:47.000000Z",
+    "method": "renounceOwnership",
+    "from": "0xea2F530ecCF52d01706e1F30e322FD771eF03ED9",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25110811,
+    "category": "ownership"
+   },
+   {
+    "hash": "0x6b3e47a92a73df5685d1fd091d63ff0a65f6fdd629a8b98cb5e9b36079e9b563",
+    "timestamp": "2026-05-16T22:43:23.000000Z",
+    "method": "renounceOwnership",
+    "from": "0x704bE882E16D50E8626882a5ce9B2fb112E56920",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25110799,
+    "category": "ownership"
+   },
+   {
+    "hash": "0x30619a2ca5f47c076385ddfbf17ad829eece020ad54a7de7186223bd3c793e1b",
+    "timestamp": "2026-05-16T22:41:11.000000Z",
+    "method": "renounceOwnership",
+    "from": "0x955D5C51dEe6ceC7A4074Ee19Cb90bD9763A0134",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25110788,
+    "category": "ownership"
+   },
+   {
+    "hash": "0x5812836d6b77cc9fa4b80424c4a9f914380876739247ab01c67c0c4d068b3e2f",
+    "timestamp": "2026-05-16T22:40:35.000000Z",
+    "method": "renounceOwnership",
+    "from": "0x2E2ba3E6046119c779c6563495c9FA3d79e3A8cA",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25110785,
+    "category": "ownership"
+   },
+   {
+    "hash": "0x6e448a8ca2202d024f9ef6597d60267b20467b20789940bf296e2ab19d83441e",
+    "timestamp": "2026-05-16T22:39:59.000000Z",
+    "method": "renounceOwnership",
+    "from": "0x2E2ba3E6046119c779c6563495c9FA3d79e3A8cA",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25110782,
+    "category": "ownership"
+   },
+   {
+    "hash": "0x32f52a724fc0c0f10df8dfabfd2a111c3c56e363bca73422aa7b5cf085eec077",
+    "timestamp": "2026-05-16T22:38:59.000000Z",
+    "method": "renounceOwnership",
+    "from": "0x2E2ba3E6046119c779c6563495c9FA3d79e3A8cA",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25110777,
+    "category": "ownership"
+   },
+   {
+    "hash": "0x975ffa087a5f2c26c5203c904ee60078d20b86eb0e1a008485191372eda3f9a9",
+    "timestamp": "2026-05-16T22:38:11.000000Z",
+    "method": "renounceOwnership",
+    "from": "0x955D5C51dEe6ceC7A4074Ee19Cb90bD9763A0134",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25110773,
+    "category": "ownership"
+   },
+   {
+    "hash": "0xfa489a2d464ceaff426e44aca39c74c31b4ef004086fbcc2398dba186d357d15",
+    "timestamp": "2026-05-16T22:37:35.000000Z",
+    "method": "renounceOwnership",
+    "from": "0x955D5C51dEe6ceC7A4074Ee19Cb90bD9763A0134",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25110770,
+    "category": "ownership"
+   },
+   {
+    "hash": "0x83ed49c6709344ae77a102b7e4f46f28a518a031ce878580db071cbca760cb8e",
+    "timestamp": "2026-05-16T22:36:47.000000Z",
+    "method": "renounceOwnership",
+    "from": "0x8A429181D2E5068598d2C31ed68bB68F9A0f7EFf",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25110766,
+    "category": "ownership"
+   },
+   {
+    "hash": "0x171c417c2ebe52655aab6fc909d7d8b717910624643ada79e344bee64c98019a",
+    "timestamp": "2026-05-16T22:36:35.000000Z",
+    "method": "renounceOwnership",
+    "from": "0xea2F530ecCF52d01706e1F30e322FD771eF03ED9",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25110765,
+    "category": "ownership"
+   },
+   {
+    "hash": "0xf8025cbc4b3ef5bbac5cb9a8fe6f21a88aa1c8f1187ea33d56f46824557e52fe",
+    "timestamp": "2026-05-16T22:35:59.000000Z",
+    "method": "renounceOwnership",
+    "from": "0xea2F530ecCF52d01706e1F30e322FD771eF03ED9",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25110762,
+    "category": "ownership"
+   },
+   {
+    "hash": "0x0d37da954c1bcd4ed49e40a8064ff729162bbf7b448c5ec2f1095dcd2029cba2",
+    "timestamp": "2026-05-16T22:34:59.000000Z",
+    "method": "renounceOwnership",
+    "from": "0xea2F530ecCF52d01706e1F30e322FD771eF03ED9",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25110757,
+    "category": "ownership"
+   },
+   {
+    "hash": "0x31098045c46866f516cb6e175555aee0065983968311c3a78d07df49b42c80c1",
+    "timestamp": "2026-05-16T22:34:59.000000Z",
+    "method": "renounceOwnership",
+    "from": "0x955D5C51dEe6ceC7A4074Ee19Cb90bD9763A0134",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25110757,
+    "category": "ownership"
+   },
+   {
+    "hash": "0xc7e8b96c967bc30eaccb8427035966a4ea8df64225b49f629e164b28d8e3233f",
+    "timestamp": "2026-05-16T22:33:47.000000Z",
+    "method": "renounceOwnership",
+    "from": "0x8A429181D2E5068598d2C31ed68bB68F9A0f7EFf",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25110751,
+    "category": "ownership"
+   },
+   {
+    "hash": "0x520a8bea072ac89634004c0281a464c7bc7df4b597579fdcd74a119a196a7c29",
+    "timestamp": "2026-05-16T22:33:35.000000Z",
+    "method": "renounceOwnership",
+    "from": "0x955D5C51dEe6ceC7A4074Ee19Cb90bD9763A0134",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25110750,
+    "category": "ownership"
+   },
+   {
+    "hash": "0xe61faed66d7fbeac3a9d581f20d6445fc7fc2f68d04a7f30a5c891d707f664ce",
+    "timestamp": "2026-05-16T22:33:11.000000Z",
+    "method": "renounceOwnership",
+    "from": "0x955D5C51dEe6ceC7A4074Ee19Cb90bD9763A0134",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25110748,
+    "category": "ownership"
+   },
+   {
+    "hash": "0x3e3dc057da7bfaf53a7f616d623f0372e38021e2cdb0df29a36ef9fcd0a3da0e",
+    "timestamp": "2026-05-16T22:32:23.000000Z",
+    "method": "renounceOwnership",
+    "from": "0x955D5C51dEe6ceC7A4074Ee19Cb90bD9763A0134",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25110744,
+    "category": "ownership"
+   }
+  ],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 1,
+    "first": "2026-05-16",
+    "last": "2026-05-16",
+    "last_tx": "0xc1fd0d6493e31c5dca6f69c406d358674e4fd58c69afecfdd1f9398b136322cd",
+    "list": [
+     {
+      "date": "2026-05-16",
+      "tx": "0xc1fd0d6493e31c5dca6f69c406d358674e4fd58c69afecfdd1f9398b136322cd",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "054165f5617bf1ba2049031703aec7129bcb47ab"
+      ],
+      "data": "0x"
+     }
+    ]
+   }
+  },
+  "decoded": [],
+  "ownership_transfers": [
+   {
+    "date": "2026-05-16",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0x054165f5617bf1ba2049031703aec7129bcb47ab",
+    "tx": "0xc1fd0d6493e31c5dca6f69c406d358674e4fd58c69afecfdd1f9398b136322cd"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0xd13975b9889c82eb321d9373d09d0877492ee1a7_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0x054165f5617bf1ba2049031703aec7129bcb47ab",
+  "code_raw": "data/raw/rpc-mutability/0x054165f5617bf1ba2049031703aec7129bcb47ab_holdercode.json",
+  "type": "eoa",
+  "bs_name": null,
+  "ens": null,
+  "bs_impl_names": [],
+  "bs_tags": [],
+  "is_contract": false,
+  "creator": null,
+  "is_verified": false,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "override",
+ "lock_functions": [],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [],
+ "class_direct": "immutable",
+ "class_reason": "no uri/renderer/upgrade function in ABI and not a proxy",
+ "live_mutators": [],
+ "dependencies": [],
+ "meta": {
+  "address": "0xd13975b9889c82eb321d9373d09d0877492ee1a7",
+  "name": "Onchain Parasites Bloom",
+  "w5_claim_strength": null,
+  "w5_claim_text": null,
+  "w5_source_type": null,
+  "w5_source_url": null,
+  "holders_count": 3068.0,
+  "in_w5": false,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": "onchain-renderer",
+  "census_media_class": "data-uri",
+  "census_liveness": "alive",
+  "in_census_onchain": true,
+  "standard": "ERC-721",
+  "creator": "0x054165f5617bf1ba2049031703aec7129bcb47ab",
+  "deploy_block": 25110542.0
+ },
+ "class_deps_all": "none",
+ "class_deps": "none",
+ "class_final": "immutable",
+ "pointer_power": null
+}

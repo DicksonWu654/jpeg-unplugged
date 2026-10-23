@@ -1,0 +1,550 @@
+{
+ "address": "0x9d1c0529884a60a941074e541188a4564a500e6c",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:10Z",
+ "code_raw": "data/raw/rpc-mutability/0x9d1c0529884a60a941074e541188a4564a500e6c_code.json",
+ "code_len": 7859,
+ "slots": {
+  "slot0": "0x43686f7743686f772047656e6573697300000000000000000000000000000020"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0x9d1c0529884a60a941074e541188a4564a500e6c_slots.json",
+ "verified": true,
+ "contract_name": "V4DogNFT",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [
+   {
+    "hash": "0x285cd9aa16c736492357d6baca9f9c2f81ce3c0e7446ef262636e731f1b2bb48",
+    "timestamp": "2026-06-11T06:30:35.000000Z",
+    "method": "finalizeSale",
+    "from": "0xb06aC2Fe37DA6dCBb20508D1dfaB8Cc5e6282F86",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25292434,
+    "category": "lock"
+   },
+   {
+    "hash": "0xcdb4d80b3558a73669833aaa498da48071a283409d01624f9b49b8f9ce461dba",
+    "timestamp": "2026-06-11T06:29:35.000000Z",
+    "method": "finalizeSale",
+    "from": "0x71cAFAC959C4a82f027e81Af3078b931C2452711",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25292429,
+    "category": "lock"
+   },
+   {
+    "hash": "0x43fb04429efd84071b7e92911d7a5aaaa4665050153f9e13f9d0cfab3ac7a1c6",
+    "timestamp": "2026-06-11T06:29:35.000000Z",
+    "method": "finalizeSale",
+    "from": "0xF6a9Be5ebB12f3C19Ec34b4f3281c699AAc873eB",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25292429,
+    "category": "lock"
+   },
+   {
+    "hash": "0xd309e5a9e2e23d8ba4b0f2c1aa48a4e0df37118e2054b084f65568eb37cb8765",
+    "timestamp": "2026-06-11T06:29:35.000000Z",
+    "method": "finalizeSale",
+    "from": "0xb5b0da774158eBE064Cc1a4e65AB7C1CDF54A04a",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25292429,
+    "category": "lock"
+   },
+   {
+    "hash": "0x761d6de01a376c6de06fd310944b8c7451b3b8042ecc2b80ebf2e9ca5e37c920",
+    "timestamp": "2026-06-11T06:29:35.000000Z",
+    "method": "finalizeSale",
+    "from": "0x3E07207efB6Bbdc7173Af1C32475d2AcE3106e1E",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25292429,
+    "category": "lock"
+   },
+   {
+    "hash": "0xea5a6cf7e2637b5bf35db54cf365c211dc8ed47baba8d2807636a10c44111b44",
+    "timestamp": "2026-06-11T06:29:35.000000Z",
+    "method": "finalizeSale",
+    "from": "0x5DFdaBA5970b75D6357d313044Ee3aB98265B8F1",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25292429,
+    "category": "lock"
+   },
+   {
+    "hash": "0x60c0e88ca89790275ea08c3e1ce944e97263a254486c97220013c1b1c9b53df6",
+    "timestamp": "2026-06-11T06:29:35.000000Z",
+    "method": "finalizeSale",
+    "from": "0xBa207c210d37aa7327AE19B59a6b43Bf759d58f0",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25292429,
+    "category": "lock"
+   },
+   {
+    "hash": "0xd2638d531f73820d6e58f04d4d340efc39bfab6822b90c1a006247902bcb0d16",
+    "timestamp": "2026-06-11T06:29:35.000000Z",
+    "method": "finalizeSale",
+    "from": "0x9bb959B7E2785cdb869B676277E6f8D767F7F50c",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25292429,
+    "category": "lock"
+   },
+   {
+    "hash": "0x3d17f1b66c74a94d71bcb3618cc08193b9f48fca19ce744403899bec454e20e6",
+    "timestamp": "2026-06-11T06:29:35.000000Z",
+    "method": "finalizeSale",
+    "from": "0x3630021Ea05724C8cF420842f64D01290b13b353",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25292429,
+    "category": "lock"
+   },
+   {
+    "hash": "0x7d35a36c6c65b97c9c74c90aadd2b8c964ca659f5409a7b1b9f65fd3a0f9d7c5",
+    "timestamp": "2026-06-11T06:29:35.000000Z",
+    "method": "finalizeSale",
+    "from": "0x4FEC567B71Fd9a90fF821A4492D2BBfb37ac8861",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25292429,
+    "category": "lock"
+   },
+   {
+    "hash": "0x3c49a6d32f8219f4b76f5a57313ed5c29530a5e2a97f3751cdb7acdfdaa021e8",
+    "timestamp": "2026-06-11T06:29:35.000000Z",
+    "method": "finalizeSale",
+    "from": "0x49Aaa2802f9ABcd9CFDda7a7631250705411Db8d",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25292429,
+    "category": "lock"
+   },
+   {
+    "hash": "0xb0332551f2213727e940f501eb8ab220ac4dfe36f97e6bfe3d5e5a89d71199f5",
+    "timestamp": "2026-06-11T06:29:35.000000Z",
+    "method": "finalizeSale",
+    "from": "0x3CbB099174883c3a6847aA470F4e38861aE783A5",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25292429,
+    "category": "lock"
+   },
+   {
+    "hash": "0x67611853832f795b7c12b27a58309c21a5bf533930a79c5a37c38cc48ba21381",
+    "timestamp": "2026-06-11T06:29:35.000000Z",
+    "method": "finalizeSale",
+    "from": "0x67CeE4bd1f9fA1254cd45b9f981ED2A85D127854",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25292429,
+    "category": "lock"
+   },
+   {
+    "hash": "0x8408453c300f86bfb701253870319f7a20494718135ef67c439334a87adfb721",
+    "timestamp": "2026-06-11T06:29:35.000000Z",
+    "method": "finalizeSale",
+    "from": "0x04C80efcc3edA1B9A3F72452b979a3B3f391557e",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25292429,
+    "category": "lock"
+   },
+   {
+    "hash": "0xce108f0f23efb64426ddff95b7f581591352b2e0a6b04a685e61dbc3cc759f8b",
+    "timestamp": "2026-06-11T06:29:35.000000Z",
+    "method": "finalizeSale",
+    "from": "0x98EA01aE3D1530a45b9Fd6B0A88450f4A4d8CEF0",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25292429,
+    "category": "lock"
+   },
+   {
+    "hash": "0xce883715c328341b164eb7150ece2f65ec441cbca385586fce5b5d1b0e6b8c37",
+    "timestamp": "2026-06-11T06:29:35.000000Z",
+    "method": "finalizeSale",
+    "from": "0x576c23406932c6d979Cade9b8caa9e62041653b5",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25292429,
+    "category": "lock"
+   },
+   {
+    "hash": "0x3dbefcbf2e8bca8420efd92debfee4d89f17b6e2e7720485882a476d21c5d33b",
+    "timestamp": "2026-06-11T06:29:35.000000Z",
+    "method": "finalizeSale",
+    "from": "0x800263A3ac14024C8c02E944C6a9108735e50e4a",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25292429,
+    "category": "lock"
+   },
+   {
+    "hash": "0xf9908ec227ed57d8a16157e5cf11401b601e3a00655076ebeeb9e65e276bd185",
+    "timestamp": "2026-06-11T06:29:35.000000Z",
+    "method": "finalizeSale",
+    "from": "0xf82Ca75eF86EAbDbD2e949bDcd85e73306F57f20",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25292429,
+    "category": "lock"
+   },
+   {
+    "hash": "0xfea0539e4ba3177b99b753253a4d04f632fd9bfe43d3429d5af2e3bdb89b7da8",
+    "timestamp": "2026-06-11T06:29:35.000000Z",
+    "method": "finalizeSale",
+    "from": "0xE25680C916a4c87c8EDA027A9a08BFE31aDBC8C1",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25292429,
+    "category": "lock"
+   },
+   {
+    "hash": "0x853daa9c8ff91aaf0b64dfb0c547b79a37230d56773edd62bb02a580b610e86c",
+    "timestamp": "2026-06-11T06:29:35.000000Z",
+    "method": "finalizeSale",
+    "from": "0xa95E4d0Bf8672A92768EFfC3Be01Ab4525D92C3a",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25292429,
+    "category": "lock"
+   },
+   {
+    "hash": "0x286d0387b8c6f2e4e07e28593792a15a6bfb55c138cd9cdb1598938f54d5bc5e",
+    "timestamp": "2026-06-11T06:29:35.000000Z",
+    "method": "finalizeSale",
+    "from": "0x93Fa90d0313BF9a07f58E3C60b959248B509bCD0",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25292429,
+    "category": "lock"
+   },
+   {
+    "hash": "0x8ae60458c20890a6fdb609b2255c041dd0c29198b1613187cbc2169ee5fd3da8",
+    "timestamp": "2026-06-11T06:29:35.000000Z",
+    "method": "finalizeSale",
+    "from": "0xc6a339CA5fc2e00E9459494b2adCfa11DBaacC3f",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25292429,
+    "category": "lock"
+   },
+   {
+    "hash": "0x72cad5ca27b6e3763c833ea4719d68b974efe6cd5ddad0f2ee946827d398551e",
+    "timestamp": "2026-06-11T06:29:35.000000Z",
+    "method": "finalizeSale",
+    "from": "0x0866ce146D25A8FFe9b59CE98C30806878c2484c",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25292429,
+    "category": "lock"
+   },
+   {
+    "hash": "0x014566688e1e2d5c14649abc2d5157a3e7087788a5a89199bd143cf69951da1a",
+    "timestamp": "2026-06-11T06:29:35.000000Z",
+    "method": "finalizeSale",
+    "from": "0xA2E867C2d3caE6e5dBe83a85385AE65C59E3460a",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25292429,
+    "category": "lock"
+   },
+   {
+    "hash": "0x983b29eec537412cadf8f0b36b98ac81c03f4760ac5e891e6d4f8ea083015b72",
+    "timestamp": "2026-06-11T06:29:35.000000Z",
+    "method": "finalizeSale",
+    "from": "0x21026871064486D71414C54A4566B508515aB9C1",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25292429,
+    "category": "lock"
+   },
+   {
+    "hash": "0x09df1904fcb9004b80fab9590c55a089dba97775fb204396e1f42b5bb698fc2b",
+    "timestamp": "2026-06-11T06:29:35.000000Z",
+    "method": "finalizeSale",
+    "from": "0x8aCEe8A7bb21A56362DfBc4604fC3e7bEd0eE221",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25292429,
+    "category": "lock"
+   },
+   {
+    "hash": "0xbe89719378612e06017d60e14bbe178f020b0f00a045fe989b6319cc86e3db4c",
+    "timestamp": "2026-06-11T06:29:35.000000Z",
+    "method": "finalizeSale",
+    "from": "0x2715616bB87A5b91b33E2D8b35D47Ebbc0a2Bc50",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25292429,
+    "category": "lock"
+   },
+   {
+    "hash": "0xc31eef6be8691cc99aa3f027b6e0674856b084c3df12471aa8a31d47abf4900b",
+    "timestamp": "2026-06-11T06:29:35.000000Z",
+    "method": "finalizeSale",
+    "from": "0x0A9eD63B2013F2B2678719a48E6E023DfAff48B6",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25292429,
+    "category": "lock"
+   },
+   {
+    "hash": "0x0f250560c1a77c3dd8e097c40e295367905a812a852ab450afee08f7e58870dd",
+    "timestamp": "2026-06-11T06:29:35.000000Z",
+    "method": "finalizeSale",
+    "from": "0xeAD4f7Bab209f222D705159F2D927Ac420Af5416",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25292429,
+    "category": "lock"
+   },
+   {
+    "hash": "0x036c76dc2c60199cc1a26992f70901dfdfe332f433977d2a785af77c2ec1e966",
+    "timestamp": "2026-06-11T06:29:35.000000Z",
+    "method": "finalizeSale",
+    "from": "0x4F55cd8be732E4fBe87357365A5c0673EdE5ABe3",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25292429,
+    "category": "lock"
+   },
+   {
+    "hash": "0xc1c825e1caa5b4f7430be51c4ecb79a9ea7963775fc26b77c8829faab8f4a65d",
+    "timestamp": "2026-06-11T06:29:35.000000Z",
+    "method": "finalizeSale",
+    "from": "0x1cEC253B82D9Dc388b7c278D03c382F1F336ca9c",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25292429,
+    "category": "lock"
+   },
+   {
+    "hash": "0x2407097dafbe22f26c13532ba2a349a616e8b295f7a2d9a2c66b4aabea486f45",
+    "timestamp": "2026-06-11T06:29:35.000000Z",
+    "method": "finalizeSale",
+    "from": "0x4797c429795985e901a4A70eb1EE38083f4E998b",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25292429,
+    "category": "lock"
+   },
+   {
+    "hash": "0xdcb9f4f0c42a04f8e53371327d7aa5b2d918dbc06a41de27fb2a2f3740254019",
+    "timestamp": "2026-06-11T06:29:35.000000Z",
+    "method": "finalizeSale",
+    "from": "0x786985687d0A97aD65fd3BeA5BD5788173d85FcC",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25292429,
+    "category": "lock"
+   },
+   {
+    "hash": "0xd1e45847c61b4027334b0b86a0dda4c7f33d973e7b38e8a66f25d14de2443c1f",
+    "timestamp": "2026-06-11T06:29:35.000000Z",
+    "method": "finalizeSale",
+    "from": "0xE951F90565D2985dFddEeb4a22B2FBd3dE843434",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25292429,
+    "category": "lock"
+   },
+   {
+    "hash": "0xdf86193f89ae68ce45c8f7c1515cc025222b533644271d52581af1e29f145b49",
+    "timestamp": "2026-06-11T06:29:35.000000Z",
+    "method": "finalizeSale",
+    "from": "0xb06aC2Fe37DA6dCBb20508D1dfaB8Cc5e6282F86",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25292429,
+    "category": "lock"
+   },
+   {
+    "hash": "0x66e356ddc29a02bd23c204af5ede53ae23102e6139295e73575990179d335241",
+    "timestamp": "2026-06-11T06:29:35.000000Z",
+    "method": "finalizeSale",
+    "from": "0xb9c899A12b7a3B7d7a6df613482BBc51B837407f",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25292429,
+    "category": "lock"
+   },
+   {
+    "hash": "0xce4b2638c7796d9ff1c1185f96c9c57a77170090bf91e145d2cbe046d3ff8a69",
+    "timestamp": "2026-06-11T06:29:35.000000Z",
+    "method": "finalizeSale",
+    "from": "0xc2bF2d192924daE9542b5f9138588fb8e5Ba5897",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25292429,
+    "category": "lock"
+   },
+   {
+    "hash": "0x2f757bbd5349f55a2dc59e3b5653e7b22a488681524a19185118be403fe1ab42",
+    "timestamp": "2026-06-11T06:29:35.000000Z",
+    "method": "finalizeSale",
+    "from": "0x6ca06D7BC25F0db43eD3e0eaDdF394C1241eE4bc",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25292429,
+    "category": "lock"
+   },
+   {
+    "hash": "0x517b7da15aae929d1aba997ce93500ccae2a5a25c47adbdb7bbaea4fe76233e9",
+    "timestamp": "2026-06-11T06:29:35.000000Z",
+    "method": "finalizeSale",
+    "from": "0x7dC30DdD4525E2A248FE6Afcd11224e9b906B9d6",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25292429,
+    "category": "lock"
+   },
+   {
+    "hash": "0x8c71ceb39b8f0477cf08251fb6e355b5bec628b2be89e16612353b0ecd84ce4a",
+    "timestamp": "2026-06-11T06:29:35.000000Z",
+    "method": "finalizeSale",
+    "from": "0xf616a1B77F3aC9F6fcDeD5E63AfB760800C671E6",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25292429,
+    "category": "lock"
+   },
+   {
+    "hash": "0xac6c333099c3fe13710dc6870cf33426816976aebd03fc8f7face453eab6fadf",
+    "timestamp": "2026-06-11T06:29:35.000000Z",
+    "method": "finalizeSale",
+    "from": "0x388A10992bbadeDDf520C3B50142E59EB3A2B49C",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25292429,
+    "category": "lock"
+   }
+  ],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 1,
+    "first": "2026-06-11",
+    "last": "2026-06-11",
+    "last_tx": "0x648050b733fd792c6ea2543cc1c867e9d1bbb58700b6342ac6f42558cb1e87d2",
+    "list": [
+     {
+      "date": "2026-06-11",
+      "tx": "0x648050b733fd792c6ea2543cc1c867e9d1bbb58700b6342ac6f42558cb1e87d2",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "5894ee4289d29817cb35f37e7b55f431abcc333b"
+      ],
+      "data": "0x"
+     }
+    ]
+   },
+   "BlockedWalletSet(address,bool)": {
+    "n": 0
+   }
+  },
+  "decoded": [],
+  "ownership_transfers": [
+   {
+    "date": "2026-06-11",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0x5894ee4289d29817cb35f37e7b55f431abcc333b",
+    "tx": "0x648050b733fd792c6ea2543cc1c867e9d1bbb58700b6342ac6f42558cb1e87d2"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0x9d1c0529884a60a941074e541188a4564a500e6c_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0x5894ee4289d29817cb35f37e7b55f431abcc333b",
+  "code_raw": "data/raw/rpc-mutability/0x5894ee4289d29817cb35f37e7b55f431abcc333b_holdercode.json",
+  "type": "eoa",
+  "bs_name": null,
+  "ens": null,
+  "bs_impl_names": [],
+  "bs_tags": [],
+  "is_contract": false,
+  "creator": null,
+  "is_verified": false,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {
+  "saleFinalized": 0
+ },
+ "tokenuri_path": "override",
+ "lock_functions": [
+  "finalizeSale",
+  "setBlockedWallet"
+ ],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [],
+ "class_direct": "immutable",
+ "class_reason": "no uri/renderer/upgrade function in ABI and not a proxy",
+ "live_mutators": [],
+ "dependencies": [
+  {
+   "address": "0x1c6bbfcdf137af416d5d4a87d2e2108c9affb6dc",
+   "via": "renderer()",
+   "in_tokenuri_path": true,
+   "via_setter": false,
+   "analysis": {
+    "address": "0x1c6bbfcdf137af416d5d4a87d2e2108c9affb6dc",
+    "verified": true,
+    "contract_name": "V4DogRenderer",
+    "proxy": {
+     "kind": null
+    },
+    "owner": null,
+    "admin_fn": null,
+    "uups": false,
+    "lock_views": {},
+    "lock_flags_true": {},
+    "lock_functions": [],
+    "class_direct": "immutable",
+    "class_reason": "no uri/renderer/upgrade function in ABI and not a proxy",
+    "live_mutators": [],
+    "mutators": [],
+    "history": {},
+    "unverified_selector_hits": [],
+    "tokenuri_path": "none"
+   }
+  }
+ ],
+ "meta": {
+  "address": "0x9d1c0529884a60a941074e541188a4564a500e6c",
+  "name": "ChowChow Genesis",
+  "w5_claim_strength": null,
+  "w5_claim_text": null,
+  "w5_source_type": null,
+  "w5_source_url": null,
+  "holders_count": 5002.0,
+  "in_w5": false,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": "onchain-renderer",
+  "census_media_class": "data-uri",
+  "census_liveness": "alive",
+  "in_census_onchain": true,
+  "standard": "ERC-721",
+  "creator": "0x5894ee4289d29817cb35f37e7b55f431abcc333b",
+  "deploy_block": 25291504.0
+ },
+ "class_deps_all": "immutable",
+ "class_deps": "immutable",
+ "class_final": "immutable",
+ "pointer_power": null
+}

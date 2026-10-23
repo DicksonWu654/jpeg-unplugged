@@ -1,0 +1,55 @@
+{
+ "collection": "Air Rune [ERC-1155]",
+ "slug": "air-rune",
+ "contract": "0xFa1A07056C48DCbA4B5E9e71aACC6aa791A93929",
+ "token_id": 1,
+ "chain_method": "ERC-1155 uri(): data URI (contract-assembled)",
+ "chain_call": "uri(1)",
+ "json_name": "Air Rune",
+ "fields": {
+  "image": "data:image/svg+xml",
+  "animation_url": null,
+  "external_url": null,
+  "json_how": "data-uri-base64"
+ },
+ "rpc": {
+  "default_public_ok": true,
+  "highgas_drpc_ok": null,
+  "highgas_blxr_ok": null,
+  "fork_ok": null,
+  "rpc": "public-default",
+  "needed_fork": false,
+  "unreadable_from_default_public_call": false,
+  "gas_estimate": null
+ },
+ "medium": "svg (image data URI)",
+ "primary": "image",
+ "source_flags": {
+  "verified": true,
+  "contract_name": "SacrificialAlter",
+  "proxy": false,
+  "implementation": null,
+  "sstore2": false,
+  "ethfs": false,
+  "scripty": false,
+  "base64": true,
+  "gzip": false,
+  "data_uri": true,
+  "http_literals": [
+   "https://en.wikipedia.org/wiki/Set_",
+   "https://token-cdn-domain/",
+   "https://token-cdn-domain/000000000000000000000000000000000000000000000000000000000004cce0.json"
+  ],
+  "ipfs_literal": false,
+  "setters": []
+ },
+ "artwork_file": "artwork.svg",
+ "doc_type": "image/svg+xml; charset=utf-8",
+ "artwork_bytes": 855,
+ "artwork_sha256": "7028d30d58fc013d12416360942367a2ca145ee3db6830cc036d4c1e20340970",
+ "declared": {
+  "load": [],
+  "literals": []
+ },
+ "built_at": "2026-10-21T20:26:33Z"
+}

@@ -1,0 +1,499 @@
+{
+  "collection": {
+    "rank": 60,
+    "source_rank": 63,
+    "name": "Psychedelics Anonymous Genesis",
+    "contract": "0x75e95ba5997eb235f40ecf8347cdb11f18ff640b",
+    "contracts": [
+      "0x75e95ba5997eb235f40ecf8347cdb11f18ff640b"
+    ],
+    "slug": "psychedelics-anonymous-genesis",
+    "volume_usd": 90701519.49,
+    "volume_source": "CryptoSlam all-time Ethereum owner-to-owner sales, wash-filtered USD",
+    "source_url": "https://web-api.cryptoslam.io/v1/sales/rank-by-volume?timeRange=all&orderBy=rank&sortDirection=asc&offset=0&limit=100&blockchainId=0&hideInscriptions=false",
+    "ranking_evidence": "data/raw/top100-api/cryptoslam-ranking-0.json",
+    "identity_evidence": "data/raw/top100-api/cryptoslam-info-psychedelics-anonymous-genesis.json",
+    "token_count": 9595,
+    "all_time_volume": 90701519.49,
+    "volume_currency": "USD",
+    "kind": "art-avatar",
+    "metadata_location": "http",
+    "metadata_classes": [
+      "http"
+    ],
+    "media_location": "http",
+    "primary_image_location": "http",
+    "media_classes": [
+      "http"
+    ],
+    "liveness": "alive",
+    "liveness_exact": "alive",
+    "all_declared_media_liveness": "alive",
+    "metadata_failed": false,
+    "n_alive": 3,
+    "n_dead": 0,
+    "n_unknown": 0,
+    "n_degraded": 0,
+    "key_domain_or_gateway": "api.newdawn.xyz; new-dawn-assets.b-cdn.net; pa-genesis-previews.b-cdn.net",
+    "hosts": [
+      "api.newdawn.xyz",
+      "new-dawn-assets.b-cdn.net",
+      "pa-genesis-previews.b-cdn.net"
+    ],
+    "hardcoded_gateways": [],
+    "http_origin_dependency": true,
+    "uses_ipfs": false,
+    "uses_arweave": false,
+    "fully_onchain_all_declared_media": false,
+    "metadata_and_primary_image_onchain": false,
+    "mutability_class": "eoa-mutable",
+    "single_key_mutable": true,
+    "single_key_repointable": true,
+    "base_uri_or_renderer": "0x75e95ba5997eb235f40ecf8347cdb11f18ff640b.baseTokenURI() = https://api.newdawn.xyz/v1/collections/1/mt/",
+    "control": [
+      {
+        "contract": "0x75e95ba5997eb235f40ecf8347cdb11f18ff640b",
+        "class": "eoa-mutable",
+        "pointer_power": "eoa",
+        "reason": "live setters (eoa): setBaseURI",
+        "owner": {
+          "addr": "0x7875b5cb5975750e123234c01d71982ceb090b59",
+          "code_raw": "data/raw/rpc-mutability/0x7875b5cb5975750e123234c01d71982ceb090b59_holdercode.json",
+          "type": "eoa",
+          "bs_name": null,
+          "ens": null,
+          "bs_impl_names": [],
+          "bs_tags": [],
+          "is_contract": false,
+          "creator": null,
+          "is_verified": false,
+          "bs_reputation": "ok"
+        },
+        "proxy": {
+          "kind": null
+        },
+        "live_mutators": [
+          {
+            "name": "setBaseURI",
+            "sig": "setBaseURI(string)",
+            "category": "uri",
+            "power": "eoa",
+            "holders": [
+              {
+                "addr": "0x7875b5cb5975750e123234c01d71982ceb090b59",
+                "type": "eoa",
+                "bs_name": null,
+                "ens": null,
+                "desc": "eoa",
+                "simple": "eoa"
+              }
+            ],
+            "effective": "yes",
+            "reason": null
+          }
+        ],
+        "lock_flags": {},
+        "dependencies": [],
+        "pointer_getters": [
+          {
+            "getter": "baseTokenURI()",
+            "type": "string",
+            "ok": true,
+            "value": "https://api.newdawn.xyz/v1/collections/1/mt/",
+            "error": null
+          }
+        ],
+        "analyzed_at": "2026-10-23T02:52:15Z",
+        "history_incomplete": false,
+        "evidence": "data/raw/top100-mutability/0x75e95ba5997eb235f40ecf8347cdb11f18ff640b.json"
+      }
+    ],
+    "samples": 3,
+    "distinct_token_ids": 3,
+    "sample_note": null,
+    "source_contracts_without_sampleable_nfts": [],
+    "ownership_scope_gaps": [],
+    "refreshed_at": "2026-10-23T03:05:03Z",
+    "opensea_rank": 75,
+    "ranking_scope_disagreement": false,
+    "metadata_adapter": false,
+    "evidence": [
+      "data/raw/top100-census/0x75e95ba5997eb235f40ecf8347cdb11f18ff640b/result.json.gz"
+    ],
+    "delivery_note": null
+  },
+  "samples": [
+    {
+      "contract": "0x75e95ba5997eb235f40ecf8347cdb11f18ff640b",
+      "token_id": "9595",
+      "sample_unit": 1,
+      "how_found": "reused census: blockscout-instances-max [recent]",
+      "metadata_location": "http",
+      "metadata_uri": "https://api.newdawn.xyz/v1/collections/1/mt/9595",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "api.newdawn.xyz",
+          "url": "https://api.newdawn.xyz/v1/collections/1/mt/9595",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 2,
+          "final_url": "https://api.newdawn.xyz/v1/collections/1/mt/9595",
+          "content_type": "application/json; charset=utf-8",
+          "size": 667,
+          "content_length": null,
+          "sha256": "58949b3691a8168fc3b7b8f53923febe610876677defd1a2e7d1f1a11371ba6b",
+          "t": "2026-10-23T02:50:45Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "http",
+          "host": "new-dawn-assets.b-cdn.net",
+          "gateway": null,
+          "uri": "https://new-dawn-assets.b-cdn.net/tokens/1-9595-0ffb1c04-e86a-472c-bff0-5274824b66d2.png",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "new-dawn-assets.b-cdn.net",
+              "url": "https://new-dawn-assets.b-cdn.net/tokens/1-9595-0ffb1c04-e86a-472c-bff0-5274824b66d2.png",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 4,
+              "final_url": "https://new-dawn-assets.b-cdn.net/tokens/1-9595-0ffb1c04-e86a-472c-bff0-5274824b66d2.png",
+              "content_type": "image/png",
+              "size": 65536,
+              "content_length": 4197580,
+              "sha256": "95f22183d4c451cc99d0f2ad5bfab26e4d57b2de4d64801da42b2992dc6c0719",
+              "t": "2026-10-23T02:50:45Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "http",
+        "anim_class": null,
+        "image_verdict": "alive",
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "http"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "alive",
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd000000000000000000000000000000000000000000000000000000000000257b",
+          "endpoint": "https://eth.drpc.org",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x75e95ba5997eb235f40ecf8347cdb11f18ff640b/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0x75e95ba5997eb235f40ecf8347cdb11f18ff640b",
+      "token_id": "1",
+      "sample_unit": 1,
+      "how_found": "reused census: ownerOf-probe(0..15) [low]",
+      "metadata_location": "http",
+      "metadata_uri": "https://api.newdawn.xyz/v1/collections/1/mt/1",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "api.newdawn.xyz",
+          "url": "https://api.newdawn.xyz/v1/collections/1/mt/1",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 5,
+          "final_url": "https://api.newdawn.xyz/v1/collections/1/mt/1",
+          "content_type": "application/json; charset=utf-8",
+          "size": 684,
+          "content_length": null,
+          "sha256": "b3b1d413b449ad083787b26ae0eab8481178f4d9eda02bea77074a343af1696e",
+          "t": "2026-10-23T02:50:45Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "http",
+          "host": "pa-genesis-previews.b-cdn.net",
+          "gateway": null,
+          "uri": "https://pa-genesis-previews.b-cdn.net/1.jpg",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "pa-genesis-previews.b-cdn.net",
+              "url": "https://pa-genesis-previews.b-cdn.net/1.jpg",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 6,
+              "final_url": "https://pa-genesis-previews.b-cdn.net/1.jpg",
+              "content_type": "image/jpeg",
+              "size": 65536,
+              "content_length": 1490624,
+              "sha256": "6b3488403c0f040922a0f7275129ec92d236e77ad789e612e12acbe3beb2b2e7",
+              "t": "2026-10-23T02:50:45Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "http",
+        "anim_class": null,
+        "image_verdict": "alive",
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "http"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "alive",
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000000001",
+          "endpoint": "https://eth.drpc.org",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x75e95ba5997eb235f40ecf8347cdb11f18ff640b/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0x75e95ba5997eb235f40ecf8347cdb11f18ff640b",
+      "token_id": "4798",
+      "sample_unit": 1,
+      "how_found": "reused census: ownerOf-probe(4798..+15) [mid]",
+      "metadata_location": "http",
+      "metadata_uri": "https://api.newdawn.xyz/v1/collections/1/mt/4798",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "api.newdawn.xyz",
+          "url": "https://api.newdawn.xyz/v1/collections/1/mt/4798",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 8,
+          "final_url": "https://api.newdawn.xyz/v1/collections/1/mt/4798",
+          "content_type": "application/json; charset=utf-8",
+          "size": 673,
+          "content_length": null,
+          "sha256": "7d19b49064ce133d6a8d14cae5371964119431d7c086a1601f5897e0014e2e7b",
+          "t": "2026-10-23T02:50:45Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "http",
+          "host": "new-dawn-assets.b-cdn.net",
+          "gateway": null,
+          "uri": "https://new-dawn-assets.b-cdn.net/tokens/1-4798-144e619e-61d4-4ac2-829f-b73164800d5c.png",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "new-dawn-assets.b-cdn.net",
+              "url": "https://new-dawn-assets.b-cdn.net/tokens/1-4798-144e619e-61d4-4ac2-829f-b73164800d5c.png",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 9,
+              "final_url": "https://new-dawn-assets.b-cdn.net/tokens/1-4798-144e619e-61d4-4ac2-829f-b73164800d5c.png",
+              "content_type": "image/png",
+              "size": 65536,
+              "content_length": 2787371,
+              "sha256": "d3d006ebcedcf4b9b9910f9490b763fb6c186c25af4e0f1b5b0a400db93cee9f",
+              "t": "2026-10-23T02:50:46Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "http",
+        "anim_class": null,
+        "image_verdict": "alive",
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "http"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "alive",
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd00000000000000000000000000000000000000000000000000000000000012be",
+          "endpoint": "https://eth.drpc.org",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x75e95ba5997eb235f40ecf8347cdb11f18ff640b/evidence.jsonl.gz"
+    }
+  ],
+  "saved_packet_index": [
+    {
+      "path": "data/raw/top100-api/opensea-contract-0x75e95ba5997eb235f40ecf8347cdb11f18ff640b-attempt1-1792724313624681196.body",
+      "sha256": "000859c359a78b96a4b8df0c2e04595890d9c13a7c9b5a6263ec9add5a242261",
+      "retrieved_at": "2026-10-23T02:58:33Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0x75e95ba5997eb235f40ecf8347cdb11f18ff640b",
+      "method": "GET",
+      "status": 200,
+      "error": null,
+      "bytes": 208,
+      "truncated": false
+    },
+    {
+      "path": "data/raw/top100-api/opensea-contract-0x75e95ba5997eb235f40ecf8347cdb11f18ff640b.json",
+      "sha256": "000859c359a78b96a4b8df0c2e04595890d9c13a7c9b5a6263ec9add5a242261",
+      "retrieved_at": "2026-10-23T02:58:33Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0x75e95ba5997eb235f40ecf8347cdb11f18ff640b",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "data/raw/top100-census/0x75e95ba5997eb235f40ecf8347cdb11f18ff640b/bodies.zip",
+      "sha256": "0ff9a665732b14b17c5bb418bdf32a79fbffd40f7c0ff7c898ad700383852696",
+      "bytes": 12809
+    },
+    {
+      "path": "data/raw/top100-census/0x75e95ba5997eb235f40ecf8347cdb11f18ff640b/evidence.jsonl.gz",
+      "sha256": "fbd8482c47a292152f5ab842fe88bfdc842dfdd77dfe241595009ea8c19ee890",
+      "bytes": 1219
+    },
+    {
+      "path": "data/raw/top100-census/0x75e95ba5997eb235f40ecf8347cdb11f18ff640b/result.json.gz",
+      "sha256": "2d9927a7d856cf5551ecd849b6ee141fbcb4ce91e5d8682074390ed60c948380",
+      "bytes": 1813
+    },
+    {
+      "path": "data/raw/top100-mutability/0x75e95ba5997eb235f40ecf8347cdb11f18ff640b.json",
+      "sha256": "ee55f26673c28ece66904de7d89485c550a4dbf8724ea63beeb712bb2247207f",
+      "bytes": 8240
+    },
+    {
+      "path": "data/raw/top100-pointers/0x75e95ba5997eb235f40ecf8347cdb11f18ff640b/bodies.zip",
+      "sha256": "5cb8eab099e7c00b434d880e7b971dd8944b3793ee2785887eb46087d5fefc05",
+      "bytes": 261
+    },
+    {
+      "path": "data/raw/top100-pointers/0x75e95ba5997eb235f40ecf8347cdb11f18ff640b/evidence.jsonl.gz",
+      "sha256": "e5406c30d55f0f4716d4a7fcb629db706dbcb878ba1745a20a96bf1628822c55",
+      "bytes": 344
+    },
+    {
+      "path": "data/raw/top100-pointers/0x75e95ba5997eb235f40ecf8347cdb11f18ff640b/result.json",
+      "sha256": "9d67daf1d7ef5dfc04638ccaccdd9f81da6716accf1e48c9cad6ff32eaaf4c88",
+      "bytes": 357
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x75e95ba5997eb235f40ecf8347cdb11f18ff640b/bodies.zip",
+      "sha256": "ba98cd3426e6ada07c9c894570170ba8d1475231c38a3c2bf41ce7e5b1b96119",
+      "bytes": 636
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x75e95ba5997eb235f40ecf8347cdb11f18ff640b/evidence.jsonl.gz",
+      "sha256": "8c0e1780df3b5c0909bc58bb53d0d886159b46505a167db025ff7c8a0de11a2c",
+      "bytes": 689
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x75e95ba5997eb235f40ecf8347cdb11f18ff640b/result.json",
+      "sha256": "c9ede46f9d72e72d284da92ea7af690b8725f50333ce3eabdf1b7ef8566953b3",
+      "bytes": 299
+    }
+  ],
+  "interpretation": "Liveness describes sampled metadata and primary-image delivery, not permanent loss of the artwork."
+}

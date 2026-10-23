@@ -1,0 +1,747 @@
+{
+ "address": "0x1d0db695f3033875d1b6a0155c38b3ee2aed3082",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:38Z",
+ "code_raw": "data/raw/rpc-mutability/0x1d0db695f3033875d1b6a0155c38b3ee2aed3082_code.json",
+ "code_len": 837,
+ "slots": {
+  "eip1967_beacon": "0x7304f76a57b469c07a7ea6bf14eb0a182fb11e56",
+  "slot0": "0x0000000000000000000000000000000000000000000000000000000000000001"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0x1d0db695f3033875d1b6a0155c38b3ee2aed3082_slots.json",
+ "verified": true,
+ "contract_name": "BeaconProxy",
+ "proxy": {
+  "kind": "beacon",
+  "beacon": "0x7304f76a57b469c07a7ea6bf14eb0a182fb11e56",
+  "beacon_raw": "data/raw/rpc-mutability/0x1d0db695f3033875d1b6a0155c38b3ee2aed3082_beacon.json",
+  "impl": "0x0c268f80236e91951bfe9d74715f7b5006cef4ab",
+  "beacon_owner": {
+   "addr": "0x5531f96bb9e9559ae9880cc0109e06ef477aef8e",
+   "code_raw": "data/raw/rpc-mutability/0x5531f96bb9e9559ae9880cc0109e06ef477aef8e_holdercode.json",
+   "code_len": 13662,
+   "probe_raw": "data/raw/rpc-mutability/0x5531f96bb9e9559ae9880cc0109e06ef477aef8e_holderprobe.json",
+   "type": "contract-unknown",
+   "bs_name": "PayableBeaconFactory",
+   "ens": null,
+   "bs_impl_names": [],
+   "bs_tags": [],
+   "is_contract": true,
+   "creator": "0x4e59b44847b379578588920cA78FbF26c0B4956C",
+   "is_verified": true,
+   "bs_reputation": "ok"
+  },
+  "impl_verified": true,
+  "impl_name": "OpenFundRedemptionDelegate"
+ },
+ "has_source": true,
+ "abi_from": "impl+proxy",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [],
+  "events": {
+   "Upgraded(address)": {
+    "n": 0
+   },
+   "AdminChanged(address,address)": {
+    "n": 0
+   },
+   "BeaconUpgraded(address)": {
+    "n": 1,
+    "first": "2023-12-06",
+    "last": "2023-12-06",
+    "last_tx": "0x7af6e590959695b0687860af7947c901a30f410b26f98427ffffd45052dadfa3",
+    "list": [
+     {
+      "date": "2023-12-06",
+      "tx": "0x7af6e590959695b0687860af7947c901a30f410b26f98427ffffd45052dadfa3",
+      "topics": [
+       "7304f76a57b469c07a7ea6bf14eb0a182fb11e56"
+      ],
+      "data": "0x"
+     }
+    ]
+   },
+   "SetMetadataDescriptor(address)": {
+    "n": 1,
+    "first": "2023-12-06",
+    "last": "2023-12-06",
+    "last_tx": "0x7af6e590959695b0687860af7947c901a30f410b26f98427ffffd45052dadfa3",
+    "list": [
+     {
+      "date": "2023-12-06",
+      "tx": "0x7af6e590959695b0687860af7947c901a30f410b26f98427ffffd45052dadfa3",
+      "topics": [
+       "f6e03fc7140406db327a72dcf07e34b7f4e3adca"
+      ],
+      "data": "0x"
+     }
+    ]
+   }
+  },
+  "decoded": [],
+  "incomplete": false,
+  "safe_calls": {
+   "0x0c2bc4d2698820e12e6ebe863e7b9e2650cd5b7d": {
+    "count": 0,
+    "calls": []
+   }
+  }
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0x1d0db695f3033875d1b6a0155c38b3ee2aed3082_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0x0c2bc4d2698820e12e6ebe863e7b9e2650cd5b7d",
+  "code_raw": "data/raw/rpc-mutability/0x0c2bc4d2698820e12e6ebe863e7b9e2650cd5b7d_holdercode.json",
+  "code_len": 171,
+  "probe_raw": "data/raw/rpc-mutability/0x0c2bc4d2698820e12e6ebe863e7b9e2650cd5b7d_holderprobe.json",
+  "type": "safe",
+  "threshold": 3,
+  "n_owners": 5,
+  "owners": [
+   "0x6f8d3549eaa993755a99536566a4849b78517969",
+   "0x9a8542e1ccdc64a83356528c9739593c14b4e1ab",
+   "0x81a3cb4fcaf11d55bd098175399df09fb7970501",
+   "0x69638e337cdf22d68caf227a0ee72b6ed1d89caa",
+   "0x7a11e44842f4a371d35b78f928e7a0dbd775ab76"
+  ],
+  "version": "1.3.0",
+  "bs_name": "GnosisSafeProxy",
+  "ens": null,
+  "bs_impl_names": [
+   "GnosisSafeL2"
+  ],
+  "bs_tags": [],
+  "is_contract": true,
+  "creator": "0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2",
+  "is_verified": true,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": {
+  "addr": "0xfd4b809ad88db6ca9dbb295a4b9d23bb0093f497",
+  "code_raw": "data/raw/rpc-mutability/0xfd4b809ad88db6ca9dbb295a4b9d23bb0093f497_holdercode.json",
+  "code_len": 6562,
+  "probe_raw": "data/raw/rpc-mutability/0xfd4b809ad88db6ca9dbb295a4b9d23bb0093f497_holderprobe.json",
+  "type": "timelock",
+  "delay_s": 259200,
+  "flavour": "openzeppelin",
+  "controller": {
+   "type": "oz-proposers",
+   "proposers": [
+    {
+     "addr": "0x0c2bc4d2698820e12e6ebe863e7b9e2650cd5b7d",
+     "code_raw": "data/raw/rpc-mutability/0x0c2bc4d2698820e12e6ebe863e7b9e2650cd5b7d_holdercode.json",
+     "code_len": 171,
+     "probe_raw": "data/raw/rpc-mutability/0x0c2bc4d2698820e12e6ebe863e7b9e2650cd5b7d_holderprobe.json",
+     "type": "safe",
+     "threshold": 3,
+     "n_owners": 5,
+     "owners": [
+      "0x6f8d3549eaa993755a99536566a4849b78517969",
+      "0x9a8542e1ccdc64a83356528c9739593c14b4e1ab",
+      "0x81a3cb4fcaf11d55bd098175399df09fb7970501",
+      "0x69638e337cdf22d68caf227a0ee72b6ed1d89caa",
+      "0x7a11e44842f4a371d35b78f928e7a0dbd775ab76"
+     ],
+     "version": "1.3.0",
+     "bs_name": "GnosisSafeProxy",
+     "ens": null,
+     "bs_impl_names": [
+      "GnosisSafeL2"
+     ],
+     "bs_tags": [],
+     "is_contract": true,
+     "creator": "0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2",
+     "is_verified": true,
+     "bs_reputation": "ok"
+    }
+   ]
+  },
+  "bs_name": "SolvTimelock",
+  "ens": null,
+  "bs_impl_names": [],
+  "bs_tags": [],
+  "is_contract": true,
+  "creator": "0xd1B4ea4A0e176292D667695FC7674F845009b32E",
+  "is_verified": true,
+  "bs_reputation": "ok"
+ },
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "override",
+ "lock_functions": [],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [
+  {
+   "name": "(beacon upgrade)",
+   "category": "upgrade",
+   "gates": [
+    {
+     "type": "beacon-owner",
+     "ref": "beacon.owner()"
+    }
+   ],
+   "holder_addrs": [
+    "0x5531f96bb9e9559ae9880cc0109e06ef477aef8e"
+   ],
+   "holder_how": [
+    "beacon.owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "effective": "yes",
+   "power": "unknown",
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x5531f96bb9e9559ae9880cc0109e06ef477aef8e",
+     "type": "contract-unknown",
+     "bs_name": "PayableBeaconFactory",
+     "ens": null,
+     "desc": "contract:PayableBeaconFactory",
+     "simple": "unknown"
+    }
+   ]
+  }
+ ],
+ "class_direct": "unknown",
+ "class_reason": "live setter with unresolved holder: (beacon upgrade)",
+ "live_mutators": [
+  "(beacon upgrade)"
+ ],
+ "dependencies": [
+  {
+   "address": "0xf6e03fc7140406db327a72dcf07e34b7f4e3adca",
+   "via": "metadataDescriptor()",
+   "in_tokenuri_path": true,
+   "via_setter": false,
+   "analysis": {
+    "address": "0xf6e03fc7140406db327a72dcf07e34b7f4e3adca",
+    "verified": true,
+    "contract_name": "TransparentUpgradeableProxy",
+    "proxy": {
+     "kind": "eip1967",
+     "impl": "0x14df2c6da1f0dc78b8f6c59c92d8109c9ada160d",
+     "impl_verified": true,
+     "impl_name": "OpenFundRedemptionMetadataDescriptor",
+     "admin": {
+      "addr": "0xa4b91e229dc533a2ee53d6adbb0541721ac7495e",
+      "code_raw": "data/raw/rpc-mutability/0xa4b91e229dc533a2ee53d6adbb0541721ac7495e_holdercode.json",
+      "code_len": 1690,
+      "probe_raw": "data/raw/rpc-mutability/0xa4b91e229dc533a2ee53d6adbb0541721ac7495e_holderprobe.json",
+      "type": "contract-owned",
+      "owner": "0x0c2bc4d2698820e12e6ebe863e7b9e2650cd5b7d",
+      "controller": {
+       "addr": "0x0c2bc4d2698820e12e6ebe863e7b9e2650cd5b7d",
+       "code_raw": "data/raw/rpc-mutability/0x0c2bc4d2698820e12e6ebe863e7b9e2650cd5b7d_holdercode.json",
+       "code_len": 171,
+       "probe_raw": "data/raw/rpc-mutability/0x0c2bc4d2698820e12e6ebe863e7b9e2650cd5b7d_holderprobe.json",
+       "type": "safe",
+       "threshold": 3,
+       "n_owners": 5,
+       "owners": [
+        "0x6f8d3549eaa993755a99536566a4849b78517969",
+        "0x9a8542e1ccdc64a83356528c9739593c14b4e1ab",
+        "0x81a3cb4fcaf11d55bd098175399df09fb7970501",
+        "0x69638e337cdf22d68caf227a0ee72b6ed1d89caa",
+        "0x7a11e44842f4a371d35b78f928e7a0dbd775ab76"
+       ],
+       "version": "1.3.0",
+       "bs_name": "GnosisSafeProxy",
+       "ens": null,
+       "bs_impl_names": [
+        "GnosisSafeL2"
+       ],
+       "bs_tags": [],
+       "is_contract": true,
+       "creator": "0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2",
+       "is_verified": true,
+       "bs_reputation": "ok"
+      },
+      "bs_name": "ProxyAdmin",
+      "ens": null,
+      "bs_impl_names": [],
+      "bs_tags": [],
+      "is_contract": true,
+      "creator": "0x55C09707Fd7aFD670e82A62FaeE312903940013E",
+      "is_verified": true,
+      "bs_reputation": "ok"
+     }
+    },
+    "owner": {
+     "addr": "0x0c2bc4d2698820e12e6ebe863e7b9e2650cd5b7d",
+     "code_raw": "data/raw/rpc-mutability/0x0c2bc4d2698820e12e6ebe863e7b9e2650cd5b7d_holdercode.json",
+     "code_len": 171,
+     "probe_raw": "data/raw/rpc-mutability/0x0c2bc4d2698820e12e6ebe863e7b9e2650cd5b7d_holderprobe.json",
+     "type": "safe",
+     "threshold": 3,
+     "n_owners": 5,
+     "owners": [
+      "0x6f8d3549eaa993755a99536566a4849b78517969",
+      "0x9a8542e1ccdc64a83356528c9739593c14b4e1ab",
+      "0x81a3cb4fcaf11d55bd098175399df09fb7970501",
+      "0x69638e337cdf22d68caf227a0ee72b6ed1d89caa",
+      "0x7a11e44842f4a371d35b78f928e7a0dbd775ab76"
+     ],
+     "version": "1.3.0",
+     "bs_name": "GnosisSafeProxy",
+     "ens": null,
+     "bs_impl_names": [
+      "GnosisSafeL2"
+     ],
+     "bs_tags": [],
+     "is_contract": true,
+     "creator": "0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2",
+     "is_verified": true,
+     "bs_reputation": "ok"
+    },
+    "admin_fn": {
+     "addr": "0x0c2bc4d2698820e12e6ebe863e7b9e2650cd5b7d",
+     "code_raw": "data/raw/rpc-mutability/0x0c2bc4d2698820e12e6ebe863e7b9e2650cd5b7d_holdercode.json",
+     "code_len": 171,
+     "probe_raw": "data/raw/rpc-mutability/0x0c2bc4d2698820e12e6ebe863e7b9e2650cd5b7d_holderprobe.json",
+     "type": "safe",
+     "threshold": 3,
+     "n_owners": 5,
+     "owners": [
+      "0x6f8d3549eaa993755a99536566a4849b78517969",
+      "0x9a8542e1ccdc64a83356528c9739593c14b4e1ab",
+      "0x81a3cb4fcaf11d55bd098175399df09fb7970501",
+      "0x69638e337cdf22d68caf227a0ee72b6ed1d89caa",
+      "0x7a11e44842f4a371d35b78f928e7a0dbd775ab76"
+     ],
+     "version": "1.3.0",
+     "bs_name": "GnosisSafeProxy",
+     "ens": null,
+     "bs_impl_names": [
+      "GnosisSafeL2"
+     ],
+     "bs_tags": [],
+     "is_contract": true,
+     "creator": "0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2",
+     "is_verified": true,
+     "bs_reputation": "ok"
+    },
+    "uups": false,
+    "lock_views": {},
+    "lock_flags_true": {},
+    "lock_functions": [],
+    "class_direct": "multisig-mutable",
+    "class_reason": "live setters (multisig): (proxy admin upgrade)",
+    "live_mutators": [
+     "(proxy admin upgrade)"
+    ],
+    "mutators": [
+     {
+      "name": "(proxy admin upgrade)",
+      "category": "upgrade",
+      "gates": [
+       {
+        "type": "proxy-admin",
+        "ref": "slot"
+       }
+      ],
+      "holder_addrs": [
+       "0xa4b91e229dc533a2ee53d6adbb0541721ac7495e"
+      ],
+      "holder_how": [
+       "eip1967 admin slot"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "effective": "yes",
+      "power": "multisig",
+      "lock_linked": [],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0xa4b91e229dc533a2ee53d6adbb0541721ac7495e",
+        "type": "contract-owned",
+        "bs_name": "ProxyAdmin",
+        "ens": null,
+        "desc": "ProxyAdmin->safe 3/5",
+        "simple": "multisig"
+       }
+      ]
+     }
+    ],
+    "history": {
+     "txs": [],
+     "events": {
+      "Upgraded(address)": {
+       "n": 1,
+       "first": "2023-12-06",
+       "last": "2023-12-06",
+       "last_tx": "0xe344e494cdcfb3204570bdd4820c835072e933edfa57a5e852c0514fb718e201",
+       "list": [
+        {
+         "date": "2023-12-06",
+         "tx": "0xe344e494cdcfb3204570bdd4820c835072e933edfa57a5e852c0514fb718e201",
+         "topics": [
+          "14df2c6da1f0dc78b8f6c59c92d8109c9ada160d"
+         ],
+         "data": "0x"
+        }
+       ]
+      },
+      "AdminChanged(address,address)": {
+       "n": 1,
+       "first": "2023-12-06",
+       "last": "2023-12-06",
+       "last_tx": "0xe344e494cdcfb3204570bdd4820c835072e933edfa57a5e852c0514fb718e201",
+       "list": [
+        {
+         "date": "2023-12-06",
+         "tx": "0xe344e494cdcfb3204570bdd4820c835072e933edfa57a5e852c0514fb718e201",
+         "topics": [],
+         "data": "0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a4b91e229dc533a2ee53d6adbb0541721ac7495e"
+        }
+       ]
+      },
+      "BeaconUpgraded(address)": {
+       "n": 0
+      }
+     },
+     "decoded": [],
+     "upgrades": [
+      {
+       "date": "2023-12-06",
+       "impl": "0x14df2c6da1f0dc78b8f6c59c92d8109c9ada160d",
+       "tx": "0xe344e494cdcfb3204570bdd4820c835072e933edfa57a5e852c0514fb718e201"
+      }
+     ],
+     "incomplete": false
+    },
+    "unverified_selector_hits": [],
+    "tokenuri_path": "override"
+   }
+  },
+  {
+   "address": "0xc2f69541e3dc306777d260dc66bfd54fcb897100",
+   "via": "resolver()",
+   "in_tokenuri_path": false,
+   "via_setter": false,
+   "analysis": {
+    "address": "0xc2f69541e3dc306777d260dc66bfd54fcb897100",
+    "verified": true,
+    "contract_name": "TransparentUpgradeableProxy",
+    "proxy": {
+     "kind": "eip1967",
+     "impl": "0xe0331ccf831703d30c0eea134444104e94246b15",
+     "impl_verified": true,
+     "impl_name": "AddressResolver",
+     "admin": {
+      "addr": "0xdf22cbda3493d543a6b24abb0476f5aeeca16565",
+      "code_raw": "data/raw/rpc-mutability/0xdf22cbda3493d543a6b24abb0476f5aeeca16565_holdercode.json",
+      "code_len": 1891,
+      "probe_raw": "data/raw/rpc-mutability/0xdf22cbda3493d543a6b24abb0476f5aeeca16565_holderprobe.json",
+      "type": "contract-owned",
+      "owner": "0x0c2bc4d2698820e12e6ebe863e7b9e2650cd5b7d",
+      "controller": {
+       "addr": "0x0c2bc4d2698820e12e6ebe863e7b9e2650cd5b7d",
+       "code_raw": "data/raw/rpc-mutability/0x0c2bc4d2698820e12e6ebe863e7b9e2650cd5b7d_holdercode.json",
+       "code_len": 171,
+       "probe_raw": "data/raw/rpc-mutability/0x0c2bc4d2698820e12e6ebe863e7b9e2650cd5b7d_holderprobe.json",
+       "type": "safe",
+       "threshold": 3,
+       "n_owners": 5,
+       "owners": [
+        "0x6f8d3549eaa993755a99536566a4849b78517969",
+        "0x9a8542e1ccdc64a83356528c9739593c14b4e1ab",
+        "0x81a3cb4fcaf11d55bd098175399df09fb7970501",
+        "0x69638e337cdf22d68caf227a0ee72b6ed1d89caa",
+        "0x7a11e44842f4a371d35b78f928e7a0dbd775ab76"
+       ],
+       "version": "1.3.0",
+       "bs_name": "GnosisSafeProxy",
+       "ens": null,
+       "bs_impl_names": [
+        "GnosisSafeL2"
+       ],
+       "bs_tags": [],
+       "is_contract": true,
+       "creator": "0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2",
+       "is_verified": true,
+       "bs_reputation": "ok"
+      },
+      "bs_name": "ProxyAdmin",
+      "ens": null,
+      "bs_impl_names": [],
+      "bs_tags": [],
+      "is_contract": true,
+      "creator": "0x55C09707Fd7aFD670e82A62FaeE312903940013E",
+      "is_verified": true,
+      "bs_reputation": "ok"
+     }
+    },
+    "owner": {
+     "addr": "0x0c2bc4d2698820e12e6ebe863e7b9e2650cd5b7d",
+     "code_raw": "data/raw/rpc-mutability/0x0c2bc4d2698820e12e6ebe863e7b9e2650cd5b7d_holdercode.json",
+     "code_len": 171,
+     "probe_raw": "data/raw/rpc-mutability/0x0c2bc4d2698820e12e6ebe863e7b9e2650cd5b7d_holderprobe.json",
+     "type": "safe",
+     "threshold": 3,
+     "n_owners": 5,
+     "owners": [
+      "0x6f8d3549eaa993755a99536566a4849b78517969",
+      "0x9a8542e1ccdc64a83356528c9739593c14b4e1ab",
+      "0x81a3cb4fcaf11d55bd098175399df09fb7970501",
+      "0x69638e337cdf22d68caf227a0ee72b6ed1d89caa",
+      "0x7a11e44842f4a371d35b78f928e7a0dbd775ab76"
+     ],
+     "version": "1.3.0",
+     "bs_name": "GnosisSafeProxy",
+     "ens": null,
+     "bs_impl_names": [
+      "GnosisSafeL2"
+     ],
+     "bs_tags": [],
+     "is_contract": true,
+     "creator": "0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2",
+     "is_verified": true,
+     "bs_reputation": "ok"
+    },
+    "admin_fn": {
+     "addr": "0x0c2bc4d2698820e12e6ebe863e7b9e2650cd5b7d",
+     "code_raw": "data/raw/rpc-mutability/0x0c2bc4d2698820e12e6ebe863e7b9e2650cd5b7d_holdercode.json",
+     "code_len": 171,
+     "probe_raw": "data/raw/rpc-mutability/0x0c2bc4d2698820e12e6ebe863e7b9e2650cd5b7d_holderprobe.json",
+     "type": "safe",
+     "threshold": 3,
+     "n_owners": 5,
+     "owners": [
+      "0x6f8d3549eaa993755a99536566a4849b78517969",
+      "0x9a8542e1ccdc64a83356528c9739593c14b4e1ab",
+      "0x81a3cb4fcaf11d55bd098175399df09fb7970501",
+      "0x69638e337cdf22d68caf227a0ee72b6ed1d89caa",
+      "0x7a11e44842f4a371d35b78f928e7a0dbd775ab76"
+     ],
+     "version": "1.3.0",
+     "bs_name": "GnosisSafeProxy",
+     "ens": null,
+     "bs_impl_names": [
+      "GnosisSafeL2"
+     ],
+     "bs_tags": [],
+     "is_contract": true,
+     "creator": "0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2",
+     "is_verified": true,
+     "bs_reputation": "ok"
+    },
+    "uups": false,
+    "lock_views": {},
+    "lock_flags_true": {},
+    "lock_functions": [],
+    "class_direct": "multisig-mutable",
+    "class_reason": "live setters (multisig): changeAdmin,upgradeTo,upgradeToAndCall",
+    "live_mutators": [
+     "changeAdmin",
+     "upgradeTo",
+     "upgradeToAndCall"
+    ],
+    "mutators": [
+     {
+      "name": "changeAdmin",
+      "sig": "changeAdmin(address)",
+      "selector": "0x8f283970",
+      "category": "upgrade",
+      "inputs": [
+       "address"
+      ],
+      "gates": [
+       {
+        "type": "named",
+        "ref": "_getAdmin"
+       }
+      ],
+      "modifiers": [
+       "ifAdmin"
+      ],
+      "body_head": "_changeAdmin(newAdmin);",
+      "writes": [],
+      "power": "multisig",
+      "holder_addrs": [
+       "0xdf22cbda3493d543a6b24abb0476f5aeeca16565"
+      ],
+      "holder_how": [
+       "eip1967 admin slot"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0xdf22cbda3493d543a6b24abb0476f5aeeca16565",
+        "type": "contract-owned",
+        "bs_name": "ProxyAdmin",
+        "ens": null,
+        "desc": "ProxyAdmin->safe 3/5",
+        "simple": "multisig"
+       }
+      ]
+     },
+     {
+      "name": "upgradeTo",
+      "sig": "upgradeTo(address)",
+      "selector": "0x3659cfe6",
+      "category": "upgrade",
+      "inputs": [
+       "address"
+      ],
+      "gates": [
+       {
+        "type": "named",
+        "ref": "_getAdmin"
+       }
+      ],
+      "modifiers": [
+       "ifAdmin"
+      ],
+      "body_head": "_upgradeToAndCall(newImplementation, bytes(\"\"), false);",
+      "writes": [],
+      "power": "multisig",
+      "holder_addrs": [
+       "0xdf22cbda3493d543a6b24abb0476f5aeeca16565"
+      ],
+      "holder_how": [
+       "eip1967 admin slot"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0xdf22cbda3493d543a6b24abb0476f5aeeca16565",
+        "type": "contract-owned",
+        "bs_name": "ProxyAdmin",
+        "ens": null,
+        "desc": "ProxyAdmin->safe 3/5",
+        "simple": "multisig"
+       }
+      ]
+     },
+     {
+      "name": "upgradeToAndCall",
+      "sig": "upgradeToAndCall(address,bytes)",
+      "selector": "0x4f1ef286",
+      "category": "upgrade",
+      "inputs": [
+       "address",
+       "bytes"
+      ],
+      "gates": [
+       {
+        "type": "named",
+        "ref": "_getAdmin"
+       }
+      ],
+      "modifiers": [
+       "ifAdmin"
+      ],
+      "body_head": "_upgradeToAndCall(newImplementation, data, true);",
+      "writes": [],
+      "power": "multisig",
+      "holder_addrs": [
+       "0xdf22cbda3493d543a6b24abb0476f5aeeca16565"
+      ],
+      "holder_how": [
+       "eip1967 admin slot"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0xdf22cbda3493d543a6b24abb0476f5aeeca16565",
+        "type": "contract-owned",
+        "bs_name": "ProxyAdmin",
+        "ens": null,
+        "desc": "ProxyAdmin->safe 3/5",
+        "simple": "multisig"
+       }
+      ]
+     }
+    ],
+    "history": {
+     "txs": [],
+     "events": {
+      "Upgraded(address)": {
+       "n": 1,
+       "first": "2023-04-10",
+       "last": "2023-04-10",
+       "last_tx": "0xb6880fdbf487234ce765b0a59b3470a6749a20d2ac58ed9743078160a19b04e7",
+       "list": [
+        {
+         "date": "2023-04-10",
+         "tx": "0xb6880fdbf487234ce765b0a59b3470a6749a20d2ac58ed9743078160a19b04e7",
+         "topics": [
+          "e0331ccf831703d30c0eea134444104e94246b15"
+         ],
+         "data": "0x"
+        }
+       ]
+      },
+      "AdminChanged(address,address)": {
+       "n": 1,
+       "first": "2023-04-10",
+       "last": "2023-04-10",
+       "last_tx": "0xb6880fdbf487234ce765b0a59b3470a6749a20d2ac58ed9743078160a19b04e7",
+       "list": [
+        {
+         "date": "2023-04-10",
+         "tx": "0xb6880fdbf487234ce765b0a59b3470a6749a20d2ac58ed9743078160a19b04e7",
+         "topics": [],
+         "data": "0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000df22cbda3493d543a6b24abb0476f5aeeca16565"
+        }
+       ]
+      },
+      "BeaconUpgraded(address)": {
+       "n": 0
+      }
+     },
+     "decoded": [],
+     "upgrades": [
+      {
+       "date": "2023-04-10",
+       "impl": "0xe0331ccf831703d30c0eea134444104e94246b15",
+       "tx": "0xb6880fdbf487234ce765b0a59b3470a6749a20d2ac58ed9743078160a19b04e7"
+      }
+     ],
+     "incomplete": false
+    },
+    "unverified_selector_hits": [],
+    "tokenuri_path": "none"
+   }
+  }
+ ],
+ "meta": {
+  "address": "0x1d0db695f3033875d1b6a0155c38b3ee2aed3082",
+  "name": "General Open-end Fund Redemption",
+  "w5_claim_strength": null,
+  "w5_claim_text": null,
+  "w5_source_type": null,
+  "w5_source_url": null,
+  "holders_count": 294.0,
+  "in_w5": false,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": "onchain-renderer",
+  "census_media_class": "data-uri",
+  "census_liveness": "alive",
+  "in_census_onchain": true,
+  "standard": "ERC-721",
+  "creator": "0x55c09707fd7afd670e82a62faee312903940013e",
+  "deploy_block": 18728185.0
+ },
+ "class_deps_all": "multisig-mutable",
+ "class_deps": "multisig-mutable",
+ "class_final": "multisig-mutable",
+ "pointer_power": "multisig"
+}

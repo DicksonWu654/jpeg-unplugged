@@ -1,0 +1,104 @@
+{
+ "slug": "ab-22",
+ "rendered_at": "2026-10-21T20:39:07Z",
+ "viewport": 800,
+ "delay_s": 4,
+ "chromium": "<playwright-cache>/chromium-1243/chrome-linux64/chrome",
+ "runs": {
+  "A": {
+   "n_requests": 1,
+   "n_external": 0,
+   "actions": {},
+   "n_console_errors": 0,
+   "n_page_errors": 0,
+   "dom": {
+    "canvas": 1,
+    "svg": 0,
+    "img": 0,
+    "iframe": 0,
+    "body_text": "",
+    "title": "",
+    "fonts": []
+   }
+  },
+  "A2": {
+   "n_requests": 1,
+   "n_external": 0,
+   "actions": {},
+   "n_console_errors": 0,
+   "n_page_errors": 0,
+   "dom": {
+    "canvas": 1,
+    "svg": 0,
+    "img": 0,
+    "iframe": 0,
+    "body_text": "",
+    "title": "",
+    "fonts": []
+   }
+  },
+  "B": {
+   "n_requests": 1,
+   "n_external": 0,
+   "actions": {},
+   "n_console_errors": 0,
+   "n_page_errors": 0,
+   "dom": {
+    "canvas": 1,
+    "svg": 0,
+    "img": 0,
+    "iframe": 0,
+    "body_text": "",
+    "title": "",
+    "fonts": []
+   }
+  },
+  "C": {
+   "n_requests": 1,
+   "n_external": 0,
+   "actions": {},
+   "n_console_errors": 0,
+   "n_page_errors": 0,
+   "dom": {
+    "canvas": 1,
+    "svg": 0,
+    "img": 0,
+    "iframe": 0,
+    "body_text": "",
+    "title": "",
+    "fonts": []
+   }
+  }
+ },
+ "metrics": {
+  "noise_A_vs_A2_and_late": 0.44807,
+  "A_stats": {
+   "non_bg_frac": 0.9476,
+   "n_colors": 3087,
+   "modal": "f2f2f2"
+  },
+  "B_stats": {
+   "non_bg_frac": 0.94486,
+   "n_colors": 3096,
+   "modal": "f2f2f2"
+  },
+  "identical_threshold": 0.67211,
+  "B": {
+   "diff_frac": 0.1712,
+   "unstable_reference": true,
+   "verdict": "identical",
+   "why": "animated reference (noise 0.45); judged by ink coverage ratio 1.00"
+  },
+  "C_stats": {
+   "non_bg_frac": 0.94583,
+   "n_colors": 3086,
+   "modal": "f2f2f2"
+  },
+  "C": {
+   "diff_frac": 0.16296,
+   "unstable_reference": true,
+   "verdict": "identical",
+   "why": "animated reference (noise 0.45); judged by ink coverage ratio 1.00"
+  }
+ }
+}

@@ -1,0 +1,655 @@
+{
+ "address": "0x54bc3c7e13ec1f591286dc95908ae8fbc9c09273",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:07Z",
+ "code_raw": "data/raw/rpc-mutability/0x54bc3c7e13ec1f591286dc95908ae8fbc9c09273_code.json",
+ "code_len": 11267,
+ "slots": {
+  "slot0": "0x42697420426561636820436c756200000000000000000000000000000000001c"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0x54bc3c7e13ec1f591286dc95908ae8fbc9c09273_slots.json",
+ "verified": true,
+ "contract_name": "BitBeachClub",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [
+   {
+    "hash": "0xaabb16d270ff3e064a41411f4a5fc9217cb2357f15988061a219d796c42794ac",
+    "timestamp": "2026-07-09T05:02:23.000000Z",
+    "method": "setRenderer",
+    "from": "0xD78EF40500563C6c58f389Cfeaec4f898fEe2fB2",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25492803,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x81f4892c7e7c6b4f7f6a5393b1a2a6c0618b36fd00bf4236314f8f85eeb7498a",
+    "timestamp": "2026-07-09T04:34:35.000000Z",
+    "method": "addTraits",
+    "from": "0xD78EF40500563C6c58f389Cfeaec4f898fEe2fB2",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25492665,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xe9048569f4dcd1702f8336eb7b541a203d4bd462f2cbe0353b6339c61e7f055f",
+    "timestamp": "2026-07-09T04:34:23.000000Z",
+    "method": "addTraits",
+    "from": "0xD78EF40500563C6c58f389Cfeaec4f898fEe2fB2",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25492664,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xcbbd50d5714acf99cd1286e23ac2c2fd72065a0310883a311ab0a66da09b7d9e",
+    "timestamp": "2026-07-09T04:24:59.000000Z",
+    "method": "addTraits",
+    "from": "0xD78EF40500563C6c58f389Cfeaec4f898fEe2fB2",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25492617,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x87e489fe78bc109c0e62d89db1e5a4015e596522b5e65b2be0e8fee1d28b1216",
+    "timestamp": "2026-07-09T04:23:59.000000Z",
+    "method": "addTraits",
+    "from": "0xD78EF40500563C6c58f389Cfeaec4f898fEe2fB2",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25492612,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xa157376b5e57cfeb230e92f4a185aca56494b4507e9615832f95b2dfe4de3e44",
+    "timestamp": "2026-07-09T04:03:59.000000Z",
+    "method": "setRenderer",
+    "from": "0xD78EF40500563C6c58f389Cfeaec4f898fEe2fB2",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25492512,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x56e0014da88e65adb721479a54ab0c5064e62e7344eaab00d82e70f1b3825788",
+    "timestamp": "2026-07-09T03:24:11.000000Z",
+    "method": "setRenderer",
+    "from": "0xD78EF40500563C6c58f389Cfeaec4f898fEe2fB2",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25492314,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x52412f97270a376b1ce5754e6094f2cd728012cca90c26faa0c8e91f8a30e9d5",
+    "timestamp": "2026-07-09T02:57:35.000000Z",
+    "method": "setProvenanceHash",
+    "from": "0xD78EF40500563C6c58f389Cfeaec4f898fEe2fB2",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25492181,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x38b83ad38a322f4de1104535775e620b2233edde78d186ed43678696148c1983",
+    "timestamp": "2026-07-09T02:55:35.000000Z",
+    "method": "addTraits",
+    "from": "0xD78EF40500563C6c58f389Cfeaec4f898fEe2fB2",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25492171,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x8970c0c4e263811554407012ce8554e6f6ef03df529dd5357ae168e18380c994",
+    "timestamp": "2026-07-09T02:55:23.000000Z",
+    "method": "addTraits",
+    "from": "0xD78EF40500563C6c58f389Cfeaec4f898fEe2fB2",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25492170,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x063333c9d55f45e1cfdeaf40ba05d7232b6f59412c19c0d5d4c1ecec9b750c14",
+    "timestamp": "2026-07-09T02:55:11.000000Z",
+    "method": "addTraits",
+    "from": "0xD78EF40500563C6c58f389Cfeaec4f898fEe2fB2",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25492169,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x2a25c76c8ab473946ffe68c07e94631cbf7a2bd82f5768ee1b22acebc0437e90",
+    "timestamp": "2026-07-09T02:51:59.000000Z",
+    "method": "addTraits",
+    "from": "0xD78EF40500563C6c58f389Cfeaec4f898fEe2fB2",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25492153,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x69068b3a8c3e99a81ea5839a40863ed17d04c387d6debbfa1792a215a926828c",
+    "timestamp": "2026-07-09T02:47:59.000000Z",
+    "method": "addTraits",
+    "from": "0xD78EF40500563C6c58f389Cfeaec4f898fEe2fB2",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25492133,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x8869c632ee80b7e2b04228280464d79b05a79d718062274aba1299f3ff30f778",
+    "timestamp": "2026-07-09T02:47:23.000000Z",
+    "method": "addTraits",
+    "from": "0xD78EF40500563C6c58f389Cfeaec4f898fEe2fB2",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25492130,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xfae042e2eda24b9efe5463bbcb91a7770ff6ecc5e578d6b6f11d34532c2e037a",
+    "timestamp": "2026-07-09T02:46:11.000000Z",
+    "method": "addTraits",
+    "from": "0xD78EF40500563C6c58f389Cfeaec4f898fEe2fB2",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25492124,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x4e7d036ee61838e29a5f3f601f78ce2f2fe3f8639b49e3960a178111567cced3",
+    "timestamp": "2026-07-09T02:45:59.000000Z",
+    "method": "addTraits",
+    "from": "0xD78EF40500563C6c58f389Cfeaec4f898fEe2fB2",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25492123,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x2ccfb2b93dc523ce6d8e4ad1828619c2b8558660f51cadf168ac4f1c01ea16ee",
+    "timestamp": "2026-07-09T02:45:35.000000Z",
+    "method": "addTraits",
+    "from": "0xD78EF40500563C6c58f389Cfeaec4f898fEe2fB2",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25492121,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x0af7f23d5bf728eb7e3421b85b4bc41541db9e7e1ab92f04ad1700d279dd8706",
+    "timestamp": "2026-07-09T02:45:23.000000Z",
+    "method": "addTraits",
+    "from": "0xD78EF40500563C6c58f389Cfeaec4f898fEe2fB2",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25492120,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xd9e0a2aa84eb444ec9fbaee2287e019476975b56329e1914ac97f67e0d245694",
+    "timestamp": "2026-07-09T02:43:11.000000Z",
+    "method": "addTraits",
+    "from": "0xD78EF40500563C6c58f389Cfeaec4f898fEe2fB2",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25492109,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x44706b128c7828c460401d647239c00130044e0c0dceac0df5515ed4a59d7a74",
+    "timestamp": "2026-07-09T02:22:11.000000Z",
+    "method": "setRenderer",
+    "from": "0xD78EF40500563C6c58f389Cfeaec4f898fEe2fB2",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25492004,
+    "category": "renderer"
+   }
+  ],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 1,
+    "first": "2026-07-09",
+    "last": "2026-07-09",
+    "last_tx": "0xde6c45e674a9f071c11fb3b68c2605dccd82931a0e30cf2656c217df35af5a5b",
+    "list": [
+     {
+      "date": "2026-07-09",
+      "tx": "0xde6c45e674a9f071c11fb3b68c2605dccd82931a0e30cf2656c217df35af5a5b",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "d78ef40500563c6c58f389cfeaec4f898fee2fb2"
+      ],
+      "data": "0x"
+     }
+    ]
+   }
+  },
+  "decoded": [
+   {
+    "hash": "0x44706b128c7828c460401d647239c00130044e0c0dceac0df5515ed4a59d7a74",
+    "timestamp": "2026-07-09T02:22:11.000000Z",
+    "method": "setRenderer",
+    "category": "renderer",
+    "from": "0xD78EF40500563C6c58f389Cfeaec4f898fEe2fB2",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0xa8938aa69c6c3bdc49a293f42198df49c124dd89"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0xd9e0a2aa84eb444ec9fbaee2287e019476975b56329e1914ac97f67e0d245694",
+    "timestamp": "2026-07-09T02:43:11.000000Z",
+    "method": "addTraits",
+    "category": "renderer",
+    "from": "0xD78EF40500563C6c58f389Cfeaec4f898fEe2fB2",
+    "params": [
+     {
+      "name": "raw",
+      "type": "bytes",
+      "value": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0x0af7f23d5bf728eb7e3421b85b4bc41541db9e7e1ab92f04ad1700d279dd8706",
+    "timestamp": "2026-07-09T02:45:23.000000Z",
+    "method": "addTraits",
+    "category": "renderer",
+    "from": "0xD78EF40500563C6c58f389Cfeaec4f898fEe2fB2",
+    "params": [
+     {
+      "name": "raw",
+      "type": "bytes",
+      "value": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0x87e489fe78bc109c0e62d89db1e5a4015e596522b5e65b2be0e8fee1d28b1216",
+    "timestamp": "2026-07-09T04:23:59.000000Z",
+    "method": "addTraits",
+    "category": "renderer",
+    "from": "0xD78EF40500563C6c58f389Cfeaec4f898fEe2fB2",
+    "params": [
+     {
+      "name": "raw",
+      "type": "bytes",
+      "value": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0xcbbd50d5714acf99cd1286e23ac2c2fd72065a0310883a311ab0a66da09b7d9e",
+    "timestamp": "2026-07-09T04:24:59.000000Z",
+    "method": "addTraits",
+    "category": "renderer",
+    "from": "0xD78EF40500563C6c58f389Cfeaec4f898fEe2fB2",
+    "params": [
+     {
+      "name": "raw",
+      "type": "bytes",
+      "value": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0xe9048569f4dcd1702f8336eb7b541a203d4bd462f2cbe0353b6339c61e7f055f",
+    "timestamp": "2026-07-09T04:34:23.000000Z",
+    "method": "addTraits",
+    "category": "renderer",
+    "from": "0xD78EF40500563C6c58f389Cfeaec4f898fEe2fB2",
+    "params": [
+     {
+      "name": "raw",
+      "type": "bytes",
+      "value": "0000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0x81f4892c7e7c6b4f7f6a5393b1a2a6c0618b36fd00bf4236314f8f85eeb7498a",
+    "timestamp": "2026-07-09T04:34:35.000000Z",
+    "method": "addTraits",
+    "category": "renderer",
+    "from": "0xD78EF40500563C6c58f389Cfeaec4f898fEe2fB2",
+    "params": [
+     {
+      "name": "raw",
+      "type": "bytes",
+      "value": "0000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000300000000000000000000000000000000000000000000000000000000000000"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0xaabb16d270ff3e064a41411f4a5fc9217cb2357f15988061a219d796c42794ac",
+    "timestamp": "2026-07-09T05:02:23.000000Z",
+    "method": "setRenderer",
+    "category": "renderer",
+    "from": "0xD78EF40500563C6c58f389Cfeaec4f898fEe2fB2",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0x9bbafadf689c3eff23f767d536bd1125fc421431"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   }
+  ],
+  "ownership_transfers": [
+   {
+    "date": "2026-07-09",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0xd78ef40500563c6c58f389cfeaec4f898fee2fb2",
+    "tx": "0xde6c45e674a9f071c11fb3b68c2605dccd82931a0e30cf2656c217df35af5a5b"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0x54bc3c7e13ec1f591286dc95908ae8fbc9c09273_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0xd78ef40500563c6c58f389cfeaec4f898fee2fb2",
+  "code_raw": "data/raw/rpc-mutability/0xd78ef40500563c6c58f389cfeaec4f898fee2fb2_holdercode.json",
+  "type": "eoa",
+  "bs_name": null,
+  "ens": null,
+  "bs_impl_names": [],
+  "bs_tags": [],
+  "is_contract": false,
+  "creator": null,
+  "is_verified": false,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {
+  "artSealed": 0
+ },
+ "tokenuri_path": "override",
+ "lock_functions": [
+  "sealArt"
+ ],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [
+  {
+   "name": "addTraits",
+   "sig": "addTraits(uint8,uint8,uint16,(string,bytes,bool,uint16)[])",
+   "selector": "0x238d8573",
+   "category": "renderer",
+   "inputs": [
+    "uint8",
+    "uint8",
+    "uint16",
+    "tuple[]"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "if (artSealed) revert Sealed();\n        for (uint256 i = 0; i < items.length; ++i) {\n            uint16 idx = uint16(startIdx + i);\n            uint256 key = _k",
+   "writes": [
+    "_traits",
+    "layerCount"
+   ],
+   "effective": "no",
+   "power": "eoa",
+   "holder_addrs": [
+    "0xd78ef40500563c6c58f389cfeaec4f898fee2fb2"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [
+    "artSealed"
+   ],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xd78ef40500563c6c58f389cfeaec4f898fee2fb2",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "setRenderOrder",
+   "sig": "setRenderOrder(uint8[5])",
+   "selector": "0x92dfe1d3",
+   "category": "renderer",
+   "inputs": [
+    "uint8[5]"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "renderOrder = order;",
+   "writes": [
+    "renderOrder"
+   ],
+   "effective": "no",
+   "power": "eoa",
+   "holder_addrs": [
+    "0xd78ef40500563c6c58f389cfeaec4f898fee2fb2"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xd78ef40500563c6c58f389cfeaec4f898fee2fb2",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "setRenderer",
+   "sig": "setRenderer(address)",
+   "selector": "0x56d3163d",
+   "category": "renderer",
+   "inputs": [
+    "address"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "renderer = r;",
+   "writes": [
+    "renderer"
+   ],
+   "effective": "yes",
+   "power": "eoa",
+   "holder_addrs": [
+    "0xd78ef40500563c6c58f389cfeaec4f898fee2fb2"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xd78ef40500563c6c58f389cfeaec4f898fee2fb2",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "setProvenanceHash",
+   "sig": "setProvenanceHash(bytes32)",
+   "selector": "0x099b6bfa",
+   "category": "reveal",
+   "inputs": [
+    "bytes32"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "if (artSealed) revert Sealed();\n        provenanceHash = h;",
+   "writes": [
+    "provenanceHash"
+   ],
+   "power": "eoa",
+   "holder_addrs": [
+    "0xd78ef40500563c6c58f389cfeaec4f898fee2fb2"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [
+    "artSealed"
+   ],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xd78ef40500563c6c58f389cfeaec4f898fee2fb2",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  }
+ ],
+ "class_direct": "eoa-mutable",
+ "class_reason": "live setters (eoa): setRenderer",
+ "live_mutators": [
+  "setRenderer"
+ ],
+ "dependencies": [
+  {
+   "address": "0x9bbafadf689c3eff23f767d536bd1125fc421431",
+   "via": "renderer()",
+   "in_tokenuri_path": true,
+   "via_setter": true,
+   "analysis": {
+    "address": "0x9bbafadf689c3eff23f767d536bd1125fc421431",
+    "verified": false,
+    "contract_name": "",
+    "proxy": {
+     "kind": null
+    },
+    "owner": null,
+    "admin_fn": null,
+    "uups": false,
+    "lock_views": {},
+    "lock_flags_true": {},
+    "lock_functions": [],
+    "class_direct": "unknown",
+    "class_reason": "unverified source; no known setter selectors in bytecode",
+    "live_mutators": [],
+    "mutators": [],
+    "history": {},
+    "unverified_selector_hits": [],
+    "tokenuri_path": "n/a"
+   }
+  }
+ ],
+ "meta": {
+  "address": "0x54bc3c7e13ec1f591286dc95908ae8fbc9c09273",
+  "name": "Bit Beach Club",
+  "w5_claim_strength": "on-chain-generic",
+  "w5_claim_text": "/// @title Bit Beach Club - 10,000 fully-onchain pixel beach bums.",
+  "w5_source_type": "contract-source",
+  "w5_source_url": "https://etherscan.io/address/0x54bc3c7e13ec1f591286dc95908ae8fbc9c09273#code (src/BitBeachClub.sol:9)",
+  "holders_count": 5987.0,
+  "in_w5": true,
+  "gallery_slugs": "bit-beach-club",
+  "gallery_tokens": "1",
+  "in_gallery": true,
+  "census_meta_class": "onchain-renderer",
+  "census_media_class": "data-uri",
+  "census_liveness": "alive",
+  "in_census_onchain": true,
+  "standard": "ERC-721",
+  "creator": "0xd78ef40500563c6c58f389cfeaec4f898fee2fb2",
+  "deploy_block": 25491942.0
+ },
+ "class_deps_all": "unknown",
+ "class_deps": "unknown",
+ "class_final": "eoa-mutable",
+ "pointer_power": "eoa"
+}

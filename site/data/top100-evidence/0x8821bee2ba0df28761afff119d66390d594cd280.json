@@ -1,0 +1,612 @@
+{
+  "collection": {
+    "rank": 45,
+    "source_rank": 46,
+    "name": "DeGods",
+    "contract": "0x8821bee2ba0df28761afff119d66390d594cd280",
+    "contracts": [
+      "0x8821bee2ba0df28761afff119d66390d594cd280"
+    ],
+    "slug": "degods-ethereum",
+    "volume_usd": 112978348.19,
+    "volume_source": "CryptoSlam all-time Ethereum owner-to-owner sales, wash-filtered USD",
+    "source_url": "https://web-api.cryptoslam.io/v1/sales/rank-by-volume?timeRange=all&orderBy=rank&sortDirection=asc&offset=0&limit=100&blockchainId=0&hideInscriptions=false",
+    "ranking_evidence": "data/raw/top100-api/cryptoslam-ranking-0.json",
+    "identity_evidence": "data/raw/top100-api/cryptoslam-info-degods-ethereum.json",
+    "token_count": 9006,
+    "all_time_volume": 112978348.19,
+    "volume_currency": "USD",
+    "kind": "art-avatar",
+    "metadata_location": "http",
+    "metadata_classes": [
+      "http"
+    ],
+    "media_location": "http",
+    "primary_image_location": "http",
+    "media_classes": [
+      "http"
+    ],
+    "liveness": "alive",
+    "liveness_exact": "alive",
+    "all_declared_media_liveness": "alive",
+    "metadata_failed": false,
+    "n_alive": 3,
+    "n_dead": 0,
+    "n_unknown": 0,
+    "n_degraded": 0,
+    "key_domain_or_gateway": "animation-url.degods.com; metadata.degods.com",
+    "hosts": [
+      "animation-url.degods.com",
+      "metadata.degods.com"
+    ],
+    "hardcoded_gateways": [],
+    "http_origin_dependency": true,
+    "uses_ipfs": false,
+    "uses_arweave": false,
+    "fully_onchain_all_declared_media": false,
+    "metadata_and_primary_image_onchain": false,
+    "mutability_class": "multisig-mutable",
+    "single_key_mutable": false,
+    "single_key_repointable": false,
+    "base_uri_or_renderer": "0x8821bee2ba0df28761afff119d66390d594cd280.tokenURI/uri",
+    "control": [
+      {
+        "contract": "0x8821bee2ba0df28761afff119d66390d594cd280",
+        "class": "multisig-mutable",
+        "pointer_power": "multisig",
+        "reason": "live setters (multisig): upgradeTo,upgradeToAndCall",
+        "owner": {
+          "addr": "0x28b23effa8c23e8e402e3f8516f544e6567c41f5",
+          "code_raw": "data/raw/rpc-mutability/0x28b23effa8c23e8e402e3f8516f544e6567c41f5_holdercode.json",
+          "code_len": 171,
+          "probe_raw": "data/raw/rpc-mutability/0x28b23effa8c23e8e402e3f8516f544e6567c41f5_holderprobe.json",
+          "type": "safe",
+          "threshold": 2,
+          "n_owners": 2,
+          "owners": [
+            "0x45e772b51d39d33cc1a8469d5e6067e3f551b056",
+            "0x6e596823a8c9c48eb6fa4ab2208f34b97453a327"
+          ],
+          "version": "1.3.0",
+          "bs_name": "GnosisSafeProxy",
+          "ens": null,
+          "bs_impl_names": [
+            "GnosisSafe"
+          ],
+          "bs_tags": [],
+          "is_contract": true,
+          "creator": "0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2",
+          "is_verified": true,
+          "bs_reputation": "ok"
+        },
+        "proxy": {
+          "kind": "eip1967",
+          "impl": "0xd200856d0f9e80d27b748e0f3f80c9155adf0a1e",
+          "impl_verified": true,
+          "impl_name": "DeGodsV2"
+        },
+        "live_mutators": [
+          {
+            "name": "upgradeTo",
+            "sig": "upgradeTo(address)",
+            "category": "upgrade",
+            "power": "multisig",
+            "holders": [
+              {
+                "addr": "0x28b23effa8c23e8e402e3f8516f544e6567c41f5",
+                "type": "safe",
+                "threshold": 2,
+                "n_owners": 2,
+                "bs_name": "GnosisSafeProxy",
+                "ens": null,
+                "desc": "safe 2/2",
+                "simple": "multisig"
+              }
+            ],
+            "effective": null,
+            "reason": null
+          },
+          {
+            "name": "upgradeToAndCall",
+            "sig": "upgradeToAndCall(address,bytes)",
+            "category": "upgrade",
+            "power": "multisig",
+            "holders": [
+              {
+                "addr": "0x28b23effa8c23e8e402e3f8516f544e6567c41f5",
+                "type": "safe",
+                "threshold": 2,
+                "n_owners": 2,
+                "bs_name": "GnosisSafeProxy",
+                "ens": null,
+                "desc": "safe 2/2",
+                "simple": "multisig"
+              }
+            ],
+            "effective": null,
+            "reason": null
+          }
+        ],
+        "lock_flags": {},
+        "dependencies": [],
+        "pointer_getters": [],
+        "analyzed_at": "2026-10-23T02:51:45Z",
+        "history_incomplete": false,
+        "evidence": "data/raw/top100-mutability/0x8821bee2ba0df28761afff119d66390d594cd280.json"
+      }
+    ],
+    "samples": 3,
+    "distinct_token_ids": 3,
+    "sample_note": null,
+    "source_contracts_without_sampleable_nfts": [],
+    "ownership_scope_gaps": [],
+    "refreshed_at": "2026-10-23T03:05:02Z",
+    "opensea_rank": 18,
+    "ranking_scope_disagreement": false,
+    "metadata_adapter": false,
+    "evidence": [
+      "data/raw/top100-census/0x8821bee2ba0df28761afff119d66390d594cd280/result.json.gz"
+    ],
+    "delivery_note": null
+  },
+  "samples": [
+    {
+      "contract": "0x8821bee2ba0df28761afff119d66390d594cd280",
+      "token_id": "2",
+      "sample_unit": 1,
+      "how_found": "reused census: ownerOf-probe(0..15)/grid-min [low]",
+      "metadata_location": "http",
+      "metadata_uri": "https://metadata.degods.com/g/2.json",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "metadata.degods.com",
+          "url": "https://metadata.degods.com/g/2.json",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 2,
+          "final_url": "https://metadata.degods.com/g/2.json",
+          "content_type": "application/json; charset=utf-8",
+          "size": 874,
+          "content_length": null,
+          "sha256": "57d2e75c332dcb58cd9f3d8ed354c07857526005c9beb1cd0f47b334f6d9bcfc",
+          "t": "2026-10-23T02:50:37Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "http",
+          "host": "metadata.degods.com",
+          "gateway": null,
+          "uri": "https://metadata.degods.com/g/2-dead-rm.png",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "metadata.degods.com",
+              "url": "https://metadata.degods.com/g/2-dead-rm.png",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 4,
+              "final_url": "https://metadata.degods.com/g/2-dead-rm.png",
+              "content_type": "image/png",
+              "size": 65536,
+              "content_length": 1863517,
+              "sha256": "b74ae2199cdb71e577c35b96e19c80c94f3a5942afef096a994ae0f52a724b1b",
+              "t": "2026-10-23T02:50:37Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        },
+        {
+          "field": "animation_url",
+          "location": "http",
+          "host": "animation-url.degods.com",
+          "gateway": null,
+          "uri": "https://animation-url.degods.com?tokenId=2",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok-html",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "animation-url.degods.com",
+              "url": "https://animation-url.degods.com?tokenId=2",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok-html",
+              "seq": 5,
+              "final_url": "https://animation-url.degods.com?tokenId=2",
+              "content_type": "text/html; charset=utf-8",
+              "size": 6193,
+              "content_length": null,
+              "sha256": "d2beb6b30125ca6e95665e4de8ae53d7afba3d9d6d1335678558103c864425b3",
+              "t": "2026-10-23T02:50:37Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "http",
+        "anim_class": "http",
+        "image_verdict": "alive",
+        "anim_verdict": "alive",
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "http",
+          "animation_url": "http"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "alive",
+        "anim_verdict_exact": "alive",
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000000002",
+          "endpoint": "https://eth.rpc.blxrbdn.com",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x8821bee2ba0df28761afff119d66390d594cd280/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0x8821bee2ba0df28761afff119d66390d594cd280",
+      "token_id": "2048",
+      "sample_unit": 1,
+      "how_found": "reused census: ownerOf-probe(2042..+15) [mid]",
+      "metadata_location": "http",
+      "metadata_uri": "https://metadata.degods.com/g/2048.json",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "metadata.degods.com",
+          "url": "https://metadata.degods.com/g/2048.json",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 7,
+          "final_url": "https://metadata.degods.com/g/2048.json",
+          "content_type": "application/json; charset=utf-8",
+          "size": 894,
+          "content_length": null,
+          "sha256": "ac2ffed31c4862ef4c303ead2c62d56864cad753bed4120407638e6ef377e914",
+          "t": "2026-10-23T02:50:37Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "http",
+          "host": "metadata.degods.com",
+          "gateway": null,
+          "uri": "https://metadata.degods.com/g/2048-dead-rm.png",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "metadata.degods.com",
+              "url": "https://metadata.degods.com/g/2048-dead-rm.png",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 9,
+              "final_url": "https://metadata.degods.com/g/2048-dead-rm.png",
+              "content_type": "image/png",
+              "size": 65536,
+              "content_length": 1170409,
+              "sha256": "817743ac7aaf6557288473122e36168d826b82a1b35c14eb1a43fd326f893510",
+              "t": "2026-10-23T02:50:38Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        },
+        {
+          "field": "animation_url",
+          "location": "http",
+          "host": "animation-url.degods.com",
+          "gateway": null,
+          "uri": "https://animation-url.degods.com?tokenId=2048",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok-html",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "animation-url.degods.com",
+              "url": "https://animation-url.degods.com?tokenId=2048",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok-html",
+              "seq": 10,
+              "final_url": "https://animation-url.degods.com?tokenId=2048",
+              "content_type": "text/html; charset=utf-8",
+              "size": 6193,
+              "content_length": null,
+              "sha256": "d2beb6b30125ca6e95665e4de8ae53d7afba3d9d6d1335678558103c864425b3",
+              "t": "2026-10-23T02:50:38Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "http",
+        "anim_class": "http",
+        "image_verdict": "alive",
+        "anim_verdict": "alive",
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "http",
+          "animation_url": "http"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "alive",
+        "anim_verdict_exact": "alive",
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000000800",
+          "endpoint": "https://eth.rpc.blxrbdn.com",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x8821bee2ba0df28761afff119d66390d594cd280/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0x8821bee2ba0df28761afff119d66390d594cd280",
+      "token_id": "4083",
+      "sample_unit": 1,
+      "how_found": "reused census: ownerOf-geometric-probe [recent]",
+      "metadata_location": "http",
+      "metadata_uri": "https://metadata.degods.com/g/4083.json",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "metadata.degods.com",
+          "url": "https://metadata.degods.com/g/4083.json",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 8,
+          "final_url": "https://metadata.degods.com/g/4083.json",
+          "content_type": "application/json; charset=utf-8",
+          "size": 912,
+          "content_length": null,
+          "sha256": "11ba580cc5b9c0188d23269d7c461426dcebb1fec6e7c72d10a27674cd4f4a8c",
+          "t": "2026-10-23T02:50:38Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "http",
+          "host": "metadata.degods.com",
+          "gateway": null,
+          "uri": "https://metadata.degods.com/g/4083-dead-rm.png",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "metadata.degods.com",
+              "url": "https://metadata.degods.com/g/4083-dead-rm.png",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 11,
+              "final_url": "https://metadata.degods.com/g/4083-dead-rm.png",
+              "content_type": "image/png",
+              "size": 65536,
+              "content_length": 1381574,
+              "sha256": "b121d98afdd902386e0a42e712f9826631d6be21df620abbb0aab7c5672c65c7",
+              "t": "2026-10-23T02:50:38Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        },
+        {
+          "field": "animation_url",
+          "location": "http",
+          "host": "animation-url.degods.com",
+          "gateway": null,
+          "uri": "https://animation-url.degods.com?tokenId=4083",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok-html",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "animation-url.degods.com",
+              "url": "https://animation-url.degods.com?tokenId=4083",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok-html",
+              "seq": 12,
+              "final_url": "https://animation-url.degods.com?tokenId=4083",
+              "content_type": "text/html; charset=utf-8",
+              "size": 6193,
+              "content_length": null,
+              "sha256": "d2beb6b30125ca6e95665e4de8ae53d7afba3d9d6d1335678558103c864425b3",
+              "t": "2026-10-23T02:50:39Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "http",
+        "anim_class": "http",
+        "image_verdict": "alive",
+        "anim_verdict": "alive",
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "http",
+          "animation_url": "http"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "alive",
+        "anim_verdict_exact": "alive",
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000000ff3",
+          "endpoint": "https://eth.rpc.blxrbdn.com",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x8821bee2ba0df28761afff119d66390d594cd280/evidence.jsonl.gz"
+    }
+  ],
+  "saved_packet_index": [
+    {
+      "path": "data/raw/top100-api/opensea-contract-0x8821bee2ba0df28761afff119d66390d594cd280-attempt1-1792724302127885711.body",
+      "sha256": "e7435fbb1c5ad5f3795889b78db8f659dff6d30c6b8b48d4369204d05b353f74",
+      "retrieved_at": "2026-10-23T02:58:22Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0x8821bee2ba0df28761afff119d66390d594cd280",
+      "method": "GET",
+      "status": 401,
+      "error": null,
+      "bytes": 70,
+      "truncated": false
+    },
+    {
+      "path": "data/raw/top100-api/opensea-contract-0x8821bee2ba0df28761afff119d66390d594cd280-attempt1-1792724738483190034.body",
+      "sha256": "e7435fbb1c5ad5f3795889b78db8f659dff6d30c6b8b48d4369204d05b353f74",
+      "retrieved_at": "2026-10-23T03:05:38Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0x8821bee2ba0df28761afff119d66390d594cd280",
+      "method": "GET",
+      "status": 401,
+      "error": null,
+      "bytes": 70,
+      "truncated": false
+    },
+    {
+      "path": "data/raw/top100-census/0x8821bee2ba0df28761afff119d66390d594cd280/bodies.zip",
+      "sha256": "e0fc7d2c1a8deb839741718a3281e477e3264d7821ab9f5626fbc896ead8a6db",
+      "bytes": 7776
+    },
+    {
+      "path": "data/raw/top100-census/0x8821bee2ba0df28761afff119d66390d594cd280/evidence.jsonl.gz",
+      "sha256": "3c28b9e684b12ae14312708cb863092e333260c54f1cf0c2b12af522f4614d48",
+      "bytes": 1286
+    },
+    {
+      "path": "data/raw/top100-census/0x8821bee2ba0df28761afff119d66390d594cd280/result.json.gz",
+      "sha256": "ea6e806937fa4d957c2ccdebf5caae0881273ec64ca31f5ef269423fbd98166b",
+      "bytes": 1918
+    },
+    {
+      "path": "data/raw/top100-mutability/0x8821bee2ba0df28761afff119d66390d594cd280.json",
+      "sha256": "035cfb19d34b41274415cd1c943652232d765bb0a4c53ddd56ca2dc380b7f594",
+      "bytes": 122945
+    },
+    {
+      "path": "data/raw/top100-pointers/0x8821bee2ba0df28761afff119d66390d594cd280/result.json",
+      "sha256": "6c36db6b7ffe729010c36d492504fc444b52b78499f48005dd096fae6e4ae6a9",
+      "bytes": 203
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x8821bee2ba0df28761afff119d66390d594cd280/bodies.zip",
+      "sha256": "431d0e73b0034ade543c5601f971a5e5cc1bcd3ff1093e27c26aaee34d7e60b5",
+      "bytes": 630
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x8821bee2ba0df28761afff119d66390d594cd280/evidence.jsonl.gz",
+      "sha256": "d75cad596ba7b0e5b72475c2e8530e6adaf0b16eef6b20e7337db6dc6437996a",
+      "bytes": 684
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x8821bee2ba0df28761afff119d66390d594cd280/result.json",
+      "sha256": "54ded31f1097d7b098461b179dafef80222c8ecae7307bd63c80b9121f4d3f12",
+      "bytes": 299
+    }
+  ],
+  "interpretation": "Liveness describes sampled metadata and primary-image delivery, not permanent loss of the artwork."
+}

@@ -1,0 +1,55 @@
+{
+ "source": "data/analysis/headlines.json",
+ "generated_at": "2026-10-22T04:36:59Z",
+ "random": {
+  "onchain": {
+   "truly_onchain_census": {
+    "k": 87,
+    "n": 3000,
+    "pct": 2.9,
+    "ci95": [
+     2.357,
+     3.563
+    ]
+   },
+   "fake_onchain_A_offchain_media_of_onchain_metadata": {
+    "k": 63,
+    "n": 152,
+    "pct": 41.447,
+    "ci95": [
+     33.921,
+     49.395
+    ]
+   }
+  },
+  "exact_url": {
+   "by_gateway_host": [
+    {
+     "host": "arweave.net",
+     "collections": 176,
+     "exact_unknown": 11
+    },
+    {
+     "host": "ipfs.io",
+     "collections": 147,
+     "exact_unknown": 142
+    },
+    {
+     "host": "gateway.pinata.cloud",
+     "collections": 99,
+     "exact_unknown": 94
+    },
+    {
+     "host": "nftstorage.link",
+     "collections": 39,
+     "exact_unknown": 36
+    },
+    {
+     "host": "dweb.link",
+     "collections": 7,
+     "exact_unknown": 6
+    }
+   ]
+  }
+ }
+}

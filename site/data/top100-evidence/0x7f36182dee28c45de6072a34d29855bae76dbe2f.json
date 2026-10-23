@@ -1,0 +1,688 @@
+{
+  "collection": {
+    "rank": 33,
+    "source_rank": 33,
+    "name": "Wolf Game",
+    "contract": "0x7f36182dee28c45de6072a34d29855bae76dbe2f",
+    "contracts": [
+      "0x7f36182dee28c45de6072a34d29855bae76dbe2f",
+      "0xeb834ae72b30866af20a6ce5440fa598bfad3a42"
+    ],
+    "slug": "wolf-game",
+    "volume_usd": 150658229.45,
+    "volume_source": "CryptoSlam all-time Ethereum owner-to-owner sales, wash-filtered USD",
+    "source_url": "https://web-api.cryptoslam.io/v1/sales/rank-by-volume?timeRange=all&orderBy=rank&sortDirection=asc&offset=0&limit=100&blockchainId=0&hideInscriptions=false",
+    "ranking_evidence": "data/raw/top100-api/cryptoslam-ranking-0.json",
+    "identity_evidence": "data/raw/top100-api/cryptoslam-info-wolf-game.json",
+    "token_count": 13809,
+    "all_time_volume": 150658229.45,
+    "volume_currency": "USD",
+    "kind": "game",
+    "metadata_location": "data-uri",
+    "metadata_classes": [
+      "data-uri"
+    ],
+    "media_location": "data-uri",
+    "primary_image_location": "data-uri",
+    "media_classes": [
+      "data-uri"
+    ],
+    "liveness": "alive",
+    "liveness_exact": "alive",
+    "all_declared_media_liveness": "alive",
+    "metadata_failed": false,
+    "n_alive": 6,
+    "n_dead": 0,
+    "n_unknown": 0,
+    "n_degraded": 0,
+    "key_domain_or_gateway": "",
+    "hosts": [],
+    "hardcoded_gateways": [],
+    "http_origin_dependency": false,
+    "uses_ipfs": false,
+    "uses_arweave": false,
+    "fully_onchain_all_declared_media": true,
+    "metadata_and_primary_image_onchain": true,
+    "mutability_class": "eoa-mutable",
+    "single_key_mutable": true,
+    "single_key_repointable": true,
+    "base_uri_or_renderer": "0x7f36182dee28c45de6072a34d29855bae76dbe2f.tokenURI/uri; 0xeb834ae72b30866af20a6ce5440fa598bfad3a42.tokenURI/uri",
+    "control": [
+      {
+        "contract": "0x7f36182dee28c45de6072a34d29855bae76dbe2f",
+        "class": "eoa-mutable",
+        "pointer_power": "eoa",
+        "reason": "live setters (eoa): changeAdmin,upgradeTo,upgradeToAndCall",
+        "owner": {
+          "addr": "0x25025e203f892f50c357bc0703eaf258879a8def",
+          "code_raw": "data/raw/rpc-mutability/0x25025e203f892f50c357bc0703eaf258879a8def_holdercode.json",
+          "type": "eoa",
+          "bs_name": null,
+          "ens": "wolfgame.eth",
+          "bs_impl_names": [],
+          "bs_tags": [],
+          "is_contract": false,
+          "creator": null,
+          "is_verified": false,
+          "bs_reputation": "ok"
+        },
+        "proxy": {
+          "kind": "eip1967",
+          "impl": "0x22110d707be8a9eb9f509184e8471f9e90b55e93",
+          "impl_verified": false,
+          "impl_name": "",
+          "admin": {
+            "addr": "0x9d84a96e8234d757c079ee9daafb0834a298a329",
+            "code_raw": "data/raw/rpc-mutability/0x9d84a96e8234d757c079ee9daafb0834a298a329_holdercode.json",
+            "code_len": 1881,
+            "probe_raw": "data/raw/rpc-mutability/0x9d84a96e8234d757c079ee9daafb0834a298a329_holderprobe.json",
+            "type": "contract-owned",
+            "owner": "0x25025e203f892f50c357bc0703eaf258879a8def",
+            "controller": {
+              "addr": "0x25025e203f892f50c357bc0703eaf258879a8def",
+              "code_raw": "data/raw/rpc-mutability/0x25025e203f892f50c357bc0703eaf258879a8def_holdercode.json",
+              "type": "eoa",
+              "bs_name": null,
+              "ens": "wolfgame.eth",
+              "bs_impl_names": [],
+              "bs_tags": [],
+              "is_contract": false,
+              "creator": null,
+              "is_verified": false,
+              "bs_reputation": "ok"
+            },
+            "bs_name": "ProxyAdmin",
+            "ens": null,
+            "bs_impl_names": [],
+            "bs_tags": [],
+            "is_contract": true,
+            "creator": "0x25025E203f892F50c357BC0703eAF258879a8DEF",
+            "is_verified": true,
+            "bs_reputation": "ok"
+          }
+        },
+        "live_mutators": [
+          {
+            "name": "changeAdmin",
+            "sig": "changeAdmin(address)",
+            "category": "upgrade",
+            "power": "eoa",
+            "holders": [
+              {
+                "addr": "0x9d84a96e8234d757c079ee9daafb0834a298a329",
+                "type": "contract-owned",
+                "bs_name": "ProxyAdmin",
+                "ens": null,
+                "desc": "ProxyAdmin->eoa",
+                "simple": "eoa"
+              }
+            ],
+            "effective": null,
+            "reason": null
+          },
+          {
+            "name": "upgradeTo",
+            "sig": "upgradeTo(address)",
+            "category": "upgrade",
+            "power": "eoa",
+            "holders": [
+              {
+                "addr": "0x9d84a96e8234d757c079ee9daafb0834a298a329",
+                "type": "contract-owned",
+                "bs_name": "ProxyAdmin",
+                "ens": null,
+                "desc": "ProxyAdmin->eoa",
+                "simple": "eoa"
+              }
+            ],
+            "effective": null,
+            "reason": null
+          },
+          {
+            "name": "upgradeToAndCall",
+            "sig": "upgradeToAndCall(address,bytes)",
+            "category": "upgrade",
+            "power": "eoa",
+            "holders": [
+              {
+                "addr": "0x9d84a96e8234d757c079ee9daafb0834a298a329",
+                "type": "contract-owned",
+                "bs_name": "ProxyAdmin",
+                "ens": null,
+                "desc": "ProxyAdmin->eoa",
+                "simple": "eoa"
+              }
+            ],
+            "effective": null,
+            "reason": null
+          }
+        ],
+        "lock_flags": {},
+        "dependencies": [],
+        "pointer_getters": [],
+        "analyzed_at": "2026-10-21T23:43:24Z",
+        "history_incomplete": false,
+        "evidence": "data/mutability/evidence/0x7f36182dee28c45de6072a34d29855bae76dbe2f.json"
+      },
+      {
+        "contract": "0xeb834ae72b30866af20a6ce5440fa598bfad3a42",
+        "class": "eoa-mutable",
+        "pointer_power": null,
+        "reason": "no uri/renderer/upgrade function in ABI and not a proxy",
+        "owner": {
+          "addr": "0x25025e203f892f50c357bc0703eaf258879a8def",
+          "code_raw": "data/raw/rpc-mutability/0x25025e203f892f50c357bc0703eaf258879a8def_holdercode.json",
+          "type": "eoa",
+          "bs_name": null,
+          "ens": "wolfgame.eth",
+          "bs_impl_names": [],
+          "bs_tags": [],
+          "is_contract": false,
+          "creator": null,
+          "is_verified": false,
+          "bs_reputation": "ok"
+        },
+        "proxy": {
+          "kind": null
+        },
+        "live_mutators": [],
+        "lock_flags": {},
+        "dependencies": [
+          {
+            "contract": "0xae05b31e679a3b352d8493c09dcce739da5b2070",
+            "via": "traits()",
+            "class": "eoa-mutable",
+            "in_tokenuri_path": true
+          }
+        ],
+        "pointer_getters": [],
+        "analyzed_at": "2026-10-23T02:56:43Z",
+        "history_incomplete": false,
+        "evidence": "data/raw/top100-mutability/0xeb834ae72b30866af20a6ce5440fa598bfad3a42.json"
+      }
+    ],
+    "samples": 6,
+    "distinct_token_ids": 6,
+    "sample_note": null,
+    "source_contracts_without_sampleable_nfts": [],
+    "ownership_scope_gaps": [],
+    "refreshed_at": "2026-10-23T03:05:02Z",
+    "opensea_rank": null,
+    "ranking_scope_disagreement": false,
+    "metadata_adapter": false,
+    "evidence": [
+      "data/raw/top100-census/0x7f36182dee28c45de6072a34d29855bae76dbe2f/result.json.gz",
+      "data/raw/top100-census/0xeb834ae72b30866af20a6ce5440fa598bfad3a42/result.json.gz"
+    ],
+    "delivery_note": null
+  },
+  "samples": [
+    {
+      "contract": "0x7f36182dee28c45de6072a34d29855bae76dbe2f",
+      "token_id": "1",
+      "sample_unit": 1,
+      "how_found": "reused census: ownerOf-probe(0..15)/grid-min [low]",
+      "metadata_location": "data-uri",
+      "metadata_uri": "[inline payload; full bytes in saved RPC response]",
+      "metadata_attempts": [],
+      "media": [
+        {
+          "field": "image",
+          "location": "data-uri",
+          "host": null,
+          "gateway": null,
+          "uri": null,
+          "external_refs": [],
+          "liveness": "onchain",
+          "reason": null,
+          "attempts": []
+        }
+      ],
+      "derived": {
+        "meta_verdict": "n/a-onchain",
+        "meta_verdict_reason": null,
+        "media_class_source": "live-metadata",
+        "image_class": "data-uri",
+        "anim_class": null,
+        "image_verdict": "n/a-onchain",
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "data-uri"
+        },
+        "onchain_candidate": true,
+        "onchain_candidate_clean": true,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "n/a-onchain",
+        "image_verdict_exact": "n/a-onchain",
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": null
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000000001",
+          "endpoint": "https://eth.drpc.org",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 11330,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x7f36182dee28c45de6072a34d29855bae76dbe2f/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0x7f36182dee28c45de6072a34d29855bae76dbe2f",
+      "token_id": "6905",
+      "sample_unit": 1,
+      "how_found": "reused census: ownerOf-probe(6905..+15) [mid]",
+      "metadata_location": "data-uri",
+      "metadata_uri": "[inline payload; full bytes in saved RPC response]",
+      "metadata_attempts": [],
+      "media": [
+        {
+          "field": "image",
+          "location": "data-uri",
+          "host": null,
+          "gateway": null,
+          "uri": null,
+          "external_refs": [],
+          "liveness": "onchain",
+          "reason": null,
+          "attempts": []
+        }
+      ],
+      "derived": {
+        "meta_verdict": "n/a-onchain",
+        "meta_verdict_reason": null,
+        "media_class_source": "live-metadata",
+        "image_class": "data-uri",
+        "anim_class": null,
+        "image_verdict": "n/a-onchain",
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "data-uri"
+        },
+        "onchain_candidate": true,
+        "onchain_candidate_clean": true,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "n/a-onchain",
+        "image_verdict_exact": "n/a-onchain",
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": null
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000001af9",
+          "endpoint": "https://eth.drpc.org",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 8578,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x7f36182dee28c45de6072a34d29855bae76dbe2f/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0x7f36182dee28c45de6072a34d29855bae76dbe2f",
+      "token_id": "13809",
+      "sample_unit": 1,
+      "how_found": "reused census: ownerOf-geometric-probe [recent]",
+      "metadata_location": "data-uri",
+      "metadata_uri": "[inline payload; full bytes in saved RPC response]",
+      "metadata_attempts": [],
+      "media": [
+        {
+          "field": "image",
+          "location": "data-uri",
+          "host": null,
+          "gateway": null,
+          "uri": null,
+          "external_refs": [],
+          "liveness": "onchain",
+          "reason": null,
+          "attempts": []
+        }
+      ],
+      "derived": {
+        "meta_verdict": "n/a-onchain",
+        "meta_verdict_reason": null,
+        "media_class_source": "live-metadata",
+        "image_class": "data-uri",
+        "anim_class": null,
+        "image_verdict": "n/a-onchain",
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "data-uri"
+        },
+        "onchain_candidate": true,
+        "onchain_candidate_clean": true,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "n/a-onchain",
+        "image_verdict_exact": "n/a-onchain",
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": null
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd00000000000000000000000000000000000000000000000000000000000035f1",
+          "endpoint": "https://eth.drpc.org",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 10818,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x7f36182dee28c45de6072a34d29855bae76dbe2f/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0xeb834ae72b30866af20a6ce5440fa598bfad3a42",
+      "token_id": "1",
+      "sample_unit": 1,
+      "how_found": "tokenByIndex(0) [low; totalSupply=13809]",
+      "metadata_location": "data-uri",
+      "metadata_uri": "[inline payload; full bytes in saved RPC response]",
+      "metadata_attempts": [],
+      "media": [
+        {
+          "field": "image",
+          "location": "data-uri",
+          "host": null,
+          "gateway": null,
+          "uri": null,
+          "external_refs": [],
+          "liveness": "onchain",
+          "reason": null,
+          "attempts": []
+        }
+      ],
+      "derived": {
+        "meta_verdict": "n/a-onchain",
+        "meta_verdict_reason": null,
+        "media_class_source": "live-metadata",
+        "image_class": "data-uri",
+        "anim_class": null,
+        "image_verdict": "n/a-onchain",
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "data-uri"
+        },
+        "onchain_candidate": true,
+        "onchain_candidate_clean": true,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "n/a-onchain",
+        "image_verdict_exact": "n/a-onchain",
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": null
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000000001",
+          "endpoint": "https://eth.drpc.org",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 11330,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0xeb834ae72b30866af20a6ce5440fa598bfad3a42/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0xeb834ae72b30866af20a6ce5440fa598bfad3a42",
+      "token_id": "6905",
+      "sample_unit": 1,
+      "how_found": "tokenByIndex(6904) [mid; totalSupply=13809]",
+      "metadata_location": "data-uri",
+      "metadata_uri": "[inline payload; full bytes in saved RPC response]",
+      "metadata_attempts": [],
+      "media": [
+        {
+          "field": "image",
+          "location": "data-uri",
+          "host": null,
+          "gateway": null,
+          "uri": null,
+          "external_refs": [],
+          "liveness": "onchain",
+          "reason": null,
+          "attempts": []
+        }
+      ],
+      "derived": {
+        "meta_verdict": "n/a-onchain",
+        "meta_verdict_reason": null,
+        "media_class_source": "live-metadata",
+        "image_class": "data-uri",
+        "anim_class": null,
+        "image_verdict": "n/a-onchain",
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "data-uri"
+        },
+        "onchain_candidate": true,
+        "onchain_candidate_clean": true,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "n/a-onchain",
+        "image_verdict_exact": "n/a-onchain",
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": null
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000001af9",
+          "endpoint": "https://eth.drpc.org",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 8578,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0xeb834ae72b30866af20a6ce5440fa598bfad3a42/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0xeb834ae72b30866af20a6ce5440fa598bfad3a42",
+      "token_id": "13809",
+      "sample_unit": 1,
+      "how_found": "tokenByIndex(13808) [recent; totalSupply=13809]",
+      "metadata_location": "data-uri",
+      "metadata_uri": "[inline payload; full bytes in saved RPC response]",
+      "metadata_attempts": [],
+      "media": [
+        {
+          "field": "image",
+          "location": "data-uri",
+          "host": null,
+          "gateway": null,
+          "uri": null,
+          "external_refs": [],
+          "liveness": "onchain",
+          "reason": null,
+          "attempts": []
+        }
+      ],
+      "derived": {
+        "meta_verdict": "n/a-onchain",
+        "meta_verdict_reason": null,
+        "media_class_source": "live-metadata",
+        "image_class": "data-uri",
+        "anim_class": null,
+        "image_verdict": "n/a-onchain",
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "data-uri"
+        },
+        "onchain_candidate": true,
+        "onchain_candidate_clean": true,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "n/a-onchain",
+        "image_verdict_exact": "n/a-onchain",
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": null
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd00000000000000000000000000000000000000000000000000000000000035f1",
+          "endpoint": "https://eth.drpc.org",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 10818,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0xeb834ae72b30866af20a6ce5440fa598bfad3a42/evidence.jsonl.gz"
+    }
+  ],
+  "saved_packet_index": [
+    {
+      "path": "data/raw/top100-api/opensea-contract-0x7f36182dee28c45de6072a34d29855bae76dbe2f-attempt1-1792724292629319634.body",
+      "sha256": "e7435fbb1c5ad5f3795889b78db8f659dff6d30c6b8b48d4369204d05b353f74",
+      "retrieved_at": "2026-10-23T02:58:12Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0x7f36182dee28c45de6072a34d29855bae76dbe2f",
+      "method": "GET",
+      "status": 401,
+      "error": null,
+      "bytes": 70,
+      "truncated": false
+    },
+    {
+      "path": "data/raw/top100-api/opensea-contract-0x7f36182dee28c45de6072a34d29855bae76dbe2f-attempt1-1792724732465205806.body",
+      "sha256": "e7435fbb1c5ad5f3795889b78db8f659dff6d30c6b8b48d4369204d05b353f74",
+      "retrieved_at": "2026-10-23T03:05:32Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0x7f36182dee28c45de6072a34d29855bae76dbe2f",
+      "method": "GET",
+      "status": 401,
+      "error": null,
+      "bytes": 70,
+      "truncated": false
+    },
+    {
+      "path": "data/mutability/evidence/0x7f36182dee28c45de6072a34d29855bae76dbe2f.json",
+      "sha256": "48d4afde7d0b78080b8ef5e7d2200eb6391bbc02f828a4a45f86fd21992f179d",
+      "bytes": 8460
+    },
+    {
+      "path": "data/raw/top100-census/0x7f36182dee28c45de6072a34d29855bae76dbe2f/bodies.zip",
+      "sha256": "b4ed838dfba9895be1e4ab0273d2877ef6d80d7ec7fdc5ddb6c85e669749b0f1",
+      "bytes": 10352
+    },
+    {
+      "path": "data/raw/top100-census/0x7f36182dee28c45de6072a34d29855bae76dbe2f/evidence.jsonl.gz",
+      "sha256": "dee7584dab081c3b86ff95a51acd81268a67f4a2eafac87e30fe533a7b8f0894",
+      "bytes": 501
+    },
+    {
+      "path": "data/raw/top100-census/0x7f36182dee28c45de6072a34d29855bae76dbe2f/result.json.gz",
+      "sha256": "bf35742e2087f0775f1740aaf5b0c5cbe95ef7460d677fe37a731b7637af2a5a",
+      "bytes": 6356
+    },
+    {
+      "path": "data/raw/top100-census/0xeb834ae72b30866af20a6ce5440fa598bfad3a42/bodies.zip",
+      "sha256": "c40936a2225493b5aa2e78239a212b43038e794614c96edd96a34689eda9aeb7",
+      "bytes": 11192
+    },
+    {
+      "path": "data/raw/top100-census/0xeb834ae72b30866af20a6ce5440fa598bfad3a42/evidence.jsonl.gz",
+      "sha256": "43b8cdb5fd832380e1ff97339a40893cc37821a07ed7982e02ff743bf45a07f8",
+      "bytes": 798
+    },
+    {
+      "path": "data/raw/top100-census/0xeb834ae72b30866af20a6ce5440fa598bfad3a42/result.json.gz",
+      "sha256": "daa625c0f02ac1d2accd07bedfad89fb1688c65d4e66c554c80409717ac280af",
+      "bytes": 6378
+    },
+    {
+      "path": "data/raw/top100-mutability/0xeb834ae72b30866af20a6ce5440fa598bfad3a42.json",
+      "sha256": "d17568feaa1d9b4cd87c4e3ce79c431f55b5f83d494fb4a25a1346dc6ac1a82d",
+      "bytes": 15393
+    },
+    {
+      "path": "data/raw/top100-pointers/0x7f36182dee28c45de6072a34d29855bae76dbe2f/result.json",
+      "sha256": "87fdb86d32b14d5067da4ecd6b4fc2fc3228852e12be97acec32c6fe8e8259f1",
+      "bytes": 201
+    },
+    {
+      "path": "data/raw/top100-pointers/0xeb834ae72b30866af20a6ce5440fa598bfad3a42/result.json",
+      "sha256": "5d7ddee7db2a945481bf64bf23cd82f391a2704b634cfe42110aee37d60141da",
+      "bytes": 203
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x7f36182dee28c45de6072a34d29855bae76dbe2f/result.json",
+      "sha256": "506c2a8005ee0ca54413c561f81c66961b16bc800bde87e71476cad19e05a129",
+      "bytes": 137
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0xeb834ae72b30866af20a6ce5440fa598bfad3a42/bodies.zip",
+      "sha256": "bd6eb040f01a6867b988cedb836cece92ad3c466e7c611bfed71e3f7d0656717",
+      "bytes": 538
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0xeb834ae72b30866af20a6ce5440fa598bfad3a42/evidence.jsonl.gz",
+      "sha256": "64855c52a2d512ae92014e8d948aa974920e45424db045b831a09aca55d02709",
+      "bytes": 686
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0xeb834ae72b30866af20a6ce5440fa598bfad3a42/result.json",
+      "sha256": "525bfb403656991d26dd3e862872ed59f92b250ba9e0386da160d557c81e186e",
+      "bytes": 300
+    }
+  ],
+  "interpretation": "Liveness describes sampled metadata and primary-image delivery, not permanent loss of the artwork."
+}

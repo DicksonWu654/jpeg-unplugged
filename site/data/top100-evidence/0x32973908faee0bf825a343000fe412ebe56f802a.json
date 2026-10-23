@@ -1,0 +1,739 @@
+{
+  "collection": {
+    "rank": 32,
+    "source_rank": 32,
+    "name": "Pixelmon",
+    "contract": "0x32973908faee0bf825a343000fe412ebe56f802a",
+    "contracts": [
+      "0x32973908faee0bf825a343000fe412ebe56f802a"
+    ],
+    "slug": "pixelmon",
+    "volume_usd": 156764256.11,
+    "volume_source": "CryptoSlam all-time Ethereum owner-to-owner sales, wash-filtered USD",
+    "source_url": "https://web-api.cryptoslam.io/v1/sales/rank-by-volume?timeRange=all&orderBy=rank&sortDirection=asc&offset=0&limit=100&blockchainId=0&hideInscriptions=false",
+    "ranking_evidence": "data/raw/top100-api/cryptoslam-ranking-0.json",
+    "identity_evidence": "data/raw/top100-api/cryptoslam-info-pixelmon.json",
+    "token_count": 12945,
+    "all_time_volume": 156764256.11,
+    "volume_currency": "USD",
+    "kind": "art-avatar",
+    "metadata_location": "http",
+    "metadata_classes": [
+      "http"
+    ],
+    "media_location": "http",
+    "primary_image_location": "http",
+    "media_classes": [
+      "http"
+    ],
+    "liveness": "unknown",
+    "liveness_exact": "unknown",
+    "all_declared_media_liveness": "unknown",
+    "metadata_failed": false,
+    "n_alive": 1,
+    "n_dead": 0,
+    "n_unknown": 2,
+    "n_degraded": 0,
+    "key_domain_or_gateway": "pixelmon-metadata.pixelmon.ai; pixelmon-training-rewards.s3-accelerate.amazonaws.com; pixelmon.club",
+    "hosts": [
+      "pixelmon-metadata.pixelmon.ai",
+      "pixelmon-training-rewards.s3-accelerate.amazonaws.com",
+      "pixelmon.club"
+    ],
+    "hardcoded_gateways": [],
+    "http_origin_dependency": true,
+    "uses_ipfs": false,
+    "uses_arweave": false,
+    "fully_onchain_all_declared_media": false,
+    "metadata_and_primary_image_onchain": false,
+    "mutability_class": "eoa-mutable",
+    "single_key_mutable": true,
+    "single_key_repointable": true,
+    "base_uri_or_renderer": "0x32973908faee0bf825a343000fe412ebe56f802a.baseURI() = https://pixelmon-metadata.pixelmon.ai/api/",
+    "control": [
+      {
+        "contract": "0x32973908faee0bf825a343000fe412ebe56f802a",
+        "class": "eoa-mutable",
+        "pointer_power": "eoa",
+        "reason": "live setters (eoa): setBaseURI",
+        "owner": {
+          "addr": "0x7077e6eb69711cb89d53a51a1db1436e9522db02",
+          "code_raw": "data/raw/rpc-mutability/0x7077e6eb69711cb89d53a51a1db1436e9522db02_holdercode.json",
+          "type": "eoa",
+          "bs_name": null,
+          "ens": null,
+          "bs_impl_names": [],
+          "bs_tags": [],
+          "is_contract": false,
+          "creator": null,
+          "is_verified": false,
+          "bs_reputation": "ok"
+        },
+        "proxy": {
+          "kind": null
+        },
+        "live_mutators": [
+          {
+            "name": "setBaseURI",
+            "sig": "setBaseURI(string)",
+            "category": "uri",
+            "power": "eoa",
+            "holders": [
+              {
+                "addr": "0x7077e6eb69711cb89d53a51a1db1436e9522db02",
+                "type": "eoa",
+                "bs_name": null,
+                "ens": null,
+                "desc": "eoa",
+                "simple": "eoa"
+              }
+            ],
+            "effective": "yes",
+            "reason": null
+          }
+        ],
+        "lock_flags": {},
+        "dependencies": [],
+        "pointer_getters": [
+          {
+            "getter": "baseURI()",
+            "type": "string",
+            "ok": true,
+            "value": "https://pixelmon-metadata.pixelmon.ai/api/",
+            "error": null
+          }
+        ],
+        "analyzed_at": "2026-10-23T02:51:18Z",
+        "history_incomplete": false,
+        "evidence": "data/raw/top100-mutability/0x32973908faee0bf825a343000fe412ebe56f802a.json"
+      }
+    ],
+    "samples": 3,
+    "distinct_token_ids": 3,
+    "sample_note": null,
+    "source_contracts_without_sampleable_nfts": [],
+    "ownership_scope_gaps": [],
+    "refreshed_at": "2026-10-23T03:19:47Z",
+    "opensea_rank": 49,
+    "ranking_scope_disagreement": false,
+    "metadata_adapter": false,
+    "evidence": [
+      "data/raw/top100-census/0x32973908faee0bf825a343000fe412ebe56f802a/result.json.gz"
+    ],
+    "delivery_note": null
+  },
+  "samples": [
+    {
+      "contract": "0x32973908faee0bf825a343000fe412ebe56f802a",
+      "token_id": "0",
+      "sample_unit": 1,
+      "how_found": "reused census: ownerOf-probe(0..15)/grid-min [low]",
+      "metadata_location": "http",
+      "metadata_uri": "https://pixelmon-metadata.pixelmon.ai/api/0",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "pixelmon-metadata.pixelmon.ai",
+          "url": "https://pixelmon-metadata.pixelmon.ai/api/0",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 2,
+          "final_url": "https://pixelmon-metadata.pixelmon.ai/api/0",
+          "content_type": "application/json",
+          "size": 441,
+          "content_length": 441,
+          "sha256": "b5d212c97548c9025c1d6f20e834713b10cb0170dd812b6b1928e56e54675938",
+          "t": "2026-10-23T02:50:24Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "http",
+          "host": "pixelmon.club",
+          "gateway": null,
+          "uri": "https://pixelmon.club/images/pixelmon/Egg.jpg",
+          "external_refs": [],
+          "liveness": "unknown",
+          "reason": "bot-wall:http-4xx",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "pixelmon.club",
+              "url": "https://pixelmon.club/images/pixelmon/Egg.jpg",
+              "status": 403,
+              "error_kind": null,
+              "v": "unknown",
+              "reason": "bot-wall:http-4xx",
+              "seq": 5,
+              "final_url": "https://norgeiptv.no",
+              "content_type": "text/html; charset=UTF-8",
+              "size": 4548,
+              "content_length": null,
+              "sha256": "e6c23e078d94408c05ec64515d577dbaf7e4966eb9a3c1eabad632284727944e",
+              "t": "2026-10-23T02:50:24Z",
+              "reg_domain_dns": null,
+              "redirected": true
+            },
+            {
+              "pass": 2,
+              "gateway": "pixelmon.club",
+              "url": "https://pixelmon.club/images/pixelmon/Egg.jpg",
+              "status": 403,
+              "error_kind": null,
+              "v": "unknown",
+              "reason": "bot-wall:http-4xx",
+              "seq": 11,
+              "final_url": "https://norgeiptv.no",
+              "content_type": "text/html; charset=UTF-8",
+              "size": 4548,
+              "content_length": null,
+              "sha256": "ea940174fbf73fa0e6225a6b7b1f85afc99d7bd069e3d1dc45a971228a7fbf0c",
+              "t": "2026-10-23T02:58:40Z",
+              "reg_domain_dns": null,
+              "redirected": true
+            },
+            {
+              "pass": 2,
+              "gateway": "pixelmon.club",
+              "url": "https://pixelmon.club/images/pixelmon/Egg.jpg",
+              "status": 403,
+              "error_kind": null,
+              "v": "unknown",
+              "reason": "bot-wall:http-4xx",
+              "seq": 14,
+              "final_url": "https://norgeiptv.no",
+              "content_type": "text/html; charset=UTF-8",
+              "size": 4548,
+              "content_length": null,
+              "sha256": "c965d72621dcbedde72a7fbc3276def1bb4d479a04af2d51c00d406c6f85a827",
+              "t": "2026-10-23T03:05:02Z",
+              "reg_domain_dns": null,
+              "redirected": true
+            },
+            {
+              "pass": 2,
+              "gateway": "pixelmon.club",
+              "url": "https://pixelmon.club/images/pixelmon/Egg.jpg",
+              "status": 403,
+              "error_kind": null,
+              "v": "unknown",
+              "reason": "bot-wall:http-4xx",
+              "seq": 23,
+              "final_url": "https://norgeiptv.no",
+              "content_type": "text/html; charset=UTF-8",
+              "size": 4548,
+              "content_length": null,
+              "sha256": "17430baf9c616f3713b89d0fffb71c8a9f9d9bcffbfaa15b3cff6e140b13671f",
+              "t": "2026-10-23T03:19:46Z",
+              "reg_domain_dns": null,
+              "redirected": true
+            }
+          ]
+        },
+        {
+          "field": "animation_url",
+          "location": "http",
+          "host": "pixelmon.club",
+          "gateway": null,
+          "uri": "https://pixelmon.club/images/pixelmon/Egg.mp4",
+          "external_refs": [],
+          "liveness": "unknown",
+          "reason": "bot-wall:http-4xx",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "pixelmon.club",
+              "url": "https://pixelmon.club/images/pixelmon/Egg.mp4",
+              "status": 403,
+              "error_kind": null,
+              "v": "unknown",
+              "reason": "bot-wall:http-4xx",
+              "seq": 6,
+              "final_url": "https://norgeiptv.no",
+              "content_type": "text/html; charset=UTF-8",
+              "size": 4548,
+              "content_length": null,
+              "sha256": "d2c4e3ee09c2719cc4d432a00d019d12c83be92faa322485a40311cb183ab9bd",
+              "t": "2026-10-23T02:50:25Z",
+              "reg_domain_dns": null,
+              "redirected": true
+            },
+            {
+              "pass": 2,
+              "gateway": "pixelmon.club",
+              "url": "https://pixelmon.club/images/pixelmon/Egg.mp4",
+              "status": 403,
+              "error_kind": null,
+              "v": "unknown",
+              "reason": "bot-wall:http-4xx",
+              "seq": 12,
+              "final_url": "https://norgeiptv.no",
+              "content_type": "text/html; charset=UTF-8",
+              "size": 4548,
+              "content_length": null,
+              "sha256": "01b036f05de99d43f79a921b517e08d020ab87797966bec6f20db4907ea79a6d",
+              "t": "2026-10-23T02:58:41Z",
+              "reg_domain_dns": null,
+              "redirected": true
+            },
+            {
+              "pass": 2,
+              "gateway": "pixelmon.club",
+              "url": "https://pixelmon.club/images/pixelmon/Egg.mp4",
+              "status": 403,
+              "error_kind": null,
+              "v": "unknown",
+              "reason": "bot-wall:http-4xx",
+              "seq": 15,
+              "final_url": "https://norgeiptv.no",
+              "content_type": "text/html; charset=UTF-8",
+              "size": 4548,
+              "content_length": null,
+              "sha256": "e12c1808011493d855f44223ccf4828bca0f395b06442b0d48a00e3b29fb0a92",
+              "t": "2026-10-23T03:05:05Z",
+              "reg_domain_dns": null,
+              "redirected": true
+            },
+            {
+              "pass": 2,
+              "gateway": "pixelmon.club",
+              "url": "https://pixelmon.club/images/pixelmon/Egg.mp4",
+              "status": 403,
+              "error_kind": null,
+              "v": "unknown",
+              "reason": "bot-wall:http-4xx",
+              "seq": 24,
+              "final_url": "https://norgeiptv.no",
+              "content_type": "text/html; charset=UTF-8",
+              "size": 4548,
+              "content_length": null,
+              "sha256": "f6b5e7e22ea988a50bc2d07657d0eb5bb4ea2b452286df7b8226eaef06403071",
+              "t": "2026-10-23T03:19:46Z",
+              "reg_domain_dns": null,
+              "redirected": true
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "http",
+        "anim_class": "http",
+        "image_verdict": "unknown",
+        "anim_verdict": "unknown",
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "http",
+          "animation_url": "http"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "unknown",
+        "liveness_reason": "media-unknown:bot-wall:http-4xx",
+        "liveness_exact": "unknown",
+        "liveness_exact_reason": "media-unknown:bot-wall:http-4xx",
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "unknown",
+        "anim_verdict_exact": "unknown",
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000000000",
+          "endpoint": "https://eth.drpc.org",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x32973908faee0bf825a343000fe412ebe56f802a/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0x32973908faee0bf825a343000fe412ebe56f802a",
+      "token_id": "6503",
+      "sample_unit": 1,
+      "how_found": "reused census: ownerOf-probe(6503..+15) [mid]",
+      "metadata_location": "http",
+      "metadata_uri": "https://pixelmon-metadata.pixelmon.ai/api/6503",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "pixelmon-metadata.pixelmon.ai",
+          "url": "https://pixelmon-metadata.pixelmon.ai/api/6503",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 7,
+          "final_url": "https://pixelmon-metadata.pixelmon.ai/api/6503",
+          "content_type": "application/json",
+          "size": 755,
+          "content_length": 755,
+          "sha256": "0a6d99c7a0cf5bfa502ad5d272d530d283767d50d32167fbc56c08bc0b68a18f",
+          "t": "2026-10-23T02:50:24Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "http",
+          "host": "pixelmon-training-rewards.s3-accelerate.amazonaws.com",
+          "gateway": null,
+          "uri": "https://pixelmon-training-rewards.s3-accelerate.amazonaws.com/0/Foxphin.jpg",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "pixelmon-training-rewards.s3-accelerate.amazonaws.com",
+              "url": "https://pixelmon-training-rewards.s3-accelerate.amazonaws.com/0/Foxphin.jpg",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 9,
+              "final_url": "https://pixelmon-training-rewards.s3-accelerate.amazonaws.com/0/Foxphin.jpg",
+              "content_type": "image/jpeg",
+              "size": 65536,
+              "content_length": 643985,
+              "sha256": "2563f71d48a6bc10e1e36ffa84f48d667c872777930a3b178fa97ddcd65e2483",
+              "t": "2026-10-23T02:50:25Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        },
+        {
+          "field": "animation_url",
+          "location": "http",
+          "host": "pixelmon-training-rewards.s3-accelerate.amazonaws.com",
+          "gateway": null,
+          "uri": "https://pixelmon-training-rewards.s3-accelerate.amazonaws.com/6/Foxphin.mp4",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "pixelmon-training-rewards.s3-accelerate.amazonaws.com",
+              "url": "https://pixelmon-training-rewards.s3-accelerate.amazonaws.com/6/Foxphin.mp4",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 10,
+              "final_url": "https://pixelmon-training-rewards.s3-accelerate.amazonaws.com/6/Foxphin.mp4",
+              "content_type": "video/mp4",
+              "size": 65536,
+              "content_length": 2458187,
+              "sha256": "5f2503e28c5eac972ce9716ad313fd5e383126471172f0ccbddd1651a2b0823c",
+              "t": "2026-10-23T02:50:26Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "http",
+        "anim_class": "http",
+        "image_verdict": "alive",
+        "anim_verdict": "alive",
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "http",
+          "animation_url": "http"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "alive",
+        "anim_verdict_exact": "alive",
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000001967",
+          "endpoint": "https://eth.drpc.org",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x32973908faee0bf825a343000fe412ebe56f802a/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0x32973908faee0bf825a343000fe412ebe56f802a",
+      "token_id": "1",
+      "sample_unit": 1,
+      "how_found": "replacement for burned/stale ID; ownerOf confirmed in fresh RPC multicall",
+      "metadata_location": "http",
+      "metadata_uri": "https://pixelmon-metadata.pixelmon.ai/api/1",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "pixelmon-metadata.pixelmon.ai",
+          "url": "https://pixelmon-metadata.pixelmon.ai/api/1",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 20,
+          "final_url": "https://pixelmon-metadata.pixelmon.ai/api/1",
+          "content_type": "application/json",
+          "size": 441,
+          "content_length": 441,
+          "sha256": "08a44b836a8d9c980602bb7e61f5b8d3159c3f7a6b8cc2bb49be989a0e0bd350",
+          "t": "2026-10-23T03:18:37Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "http",
+          "host": "pixelmon.club",
+          "gateway": null,
+          "uri": "https://pixelmon.club/images/pixelmon/Egg.jpg",
+          "external_refs": [],
+          "liveness": "unknown",
+          "reason": "bot-wall:http-4xx",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "pixelmon.club",
+              "url": "https://pixelmon.club/images/pixelmon/Egg.jpg",
+              "status": 403,
+              "error_kind": null,
+              "v": "unknown",
+              "reason": "bot-wall:http-4xx",
+              "seq": 21,
+              "final_url": "https://norgeiptv.no",
+              "content_type": "text/html; charset=UTF-8",
+              "size": 4548,
+              "content_length": null,
+              "sha256": "52617815ff5436565c6cc57c3a4336e7882e90332e7ab76d8881a3355a5cd645",
+              "t": "2026-10-23T03:18:38Z",
+              "reg_domain_dns": null,
+              "redirected": true
+            },
+            {
+              "pass": 2,
+              "gateway": "pixelmon.club",
+              "url": "https://pixelmon.club/images/pixelmon/Egg.jpg",
+              "status": 403,
+              "error_kind": null,
+              "v": "unknown",
+              "reason": "bot-wall:http-4xx",
+              "seq": 25,
+              "final_url": "https://norgeiptv.no",
+              "content_type": "text/html; charset=UTF-8",
+              "size": 4548,
+              "content_length": null,
+              "sha256": "2fa4f3799d20b7d19bc92f067e26c0210b9fb7395ce1d95be08b72c437ebf52e",
+              "t": "2026-10-23T03:19:46Z",
+              "reg_domain_dns": null,
+              "redirected": true
+            }
+          ]
+        },
+        {
+          "field": "animation_url",
+          "location": "http",
+          "host": "pixelmon.club",
+          "gateway": null,
+          "uri": "https://pixelmon.club/images/pixelmon/Egg.mp4",
+          "external_refs": [],
+          "liveness": "unknown",
+          "reason": "bot-wall:http-4xx",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "pixelmon.club",
+              "url": "https://pixelmon.club/images/pixelmon/Egg.mp4",
+              "status": 403,
+              "error_kind": null,
+              "v": "unknown",
+              "reason": "bot-wall:http-4xx",
+              "seq": 22,
+              "final_url": "https://norgeiptv.no",
+              "content_type": "text/html; charset=UTF-8",
+              "size": 4548,
+              "content_length": null,
+              "sha256": "759a365f1d09f403f0794de9174fb1b4aa0af7daccad459a9fae0bc2af4195d6",
+              "t": "2026-10-23T03:18:38Z",
+              "reg_domain_dns": null,
+              "redirected": true
+            },
+            {
+              "pass": 2,
+              "gateway": "pixelmon.club",
+              "url": "https://pixelmon.club/images/pixelmon/Egg.mp4",
+              "status": 403,
+              "error_kind": null,
+              "v": "unknown",
+              "reason": "bot-wall:http-4xx",
+              "seq": 26,
+              "final_url": "https://norgeiptv.no",
+              "content_type": "text/html; charset=UTF-8",
+              "size": 4548,
+              "content_length": null,
+              "sha256": "a8135734798503aa144a1c80da3dee7df57b5d7f8ead17fa96e6ac1500f29fe8",
+              "t": "2026-10-23T03:19:47Z",
+              "reg_domain_dns": null,
+              "redirected": true
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "http",
+        "anim_class": "http",
+        "image_verdict": "unknown",
+        "anim_verdict": "unknown",
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "http",
+          "animation_url": "http"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "unknown",
+        "liveness_reason": "media-unknown:bot-wall:http-4xx",
+        "liveness_exact": "unknown",
+        "liveness_exact_reason": "media-unknown:bot-wall:http-4xx",
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "unknown",
+        "anim_verdict_exact": "unknown",
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000000001",
+          "endpoint": "https://eth.drpc.org",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x32973908faee0bf825a343000fe412ebe56f802a/evidence.jsonl.gz"
+    }
+  ],
+  "saved_packet_index": [
+    {
+      "path": "data/raw/top100-api/opensea-contract-0x32973908faee0bf825a343000fe412ebe56f802a-attempt1-1792724292119166273.body",
+      "sha256": "e7435fbb1c5ad5f3795889b78db8f659dff6d30c6b8b48d4369204d05b353f74",
+      "retrieved_at": "2026-10-23T02:58:12Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0x32973908faee0bf825a343000fe412ebe56f802a",
+      "method": "GET",
+      "status": 401,
+      "error": null,
+      "bytes": 70,
+      "truncated": false
+    },
+    {
+      "path": "data/raw/top100-api/opensea-contract-0x32973908faee0bf825a343000fe412ebe56f802a-attempt1-1792724731447751326.body",
+      "sha256": "e7435fbb1c5ad5f3795889b78db8f659dff6d30c6b8b48d4369204d05b353f74",
+      "retrieved_at": "2026-10-23T03:05:31Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0x32973908faee0bf825a343000fe412ebe56f802a",
+      "method": "GET",
+      "status": 401,
+      "error": null,
+      "bytes": 70,
+      "truncated": false
+    },
+    {
+      "path": "data/raw/top100-census/0x32973908faee0bf825a343000fe412ebe56f802a/bodies.zip",
+      "sha256": "8933087cfd7cf51463d469b6bcf590109ed22ed92a37155b8c9d7dff89d89732",
+      "bytes": 33351
+    },
+    {
+      "path": "data/raw/top100-census/0x32973908faee0bf825a343000fe412ebe56f802a/evidence.jsonl.gz",
+      "sha256": "66157144788cb3509136f1b13c569b671d71780c3dc7de387083ea7e48cea4af",
+      "bytes": 4391
+    },
+    {
+      "path": "data/raw/top100-census/0x32973908faee0bf825a343000fe412ebe56f802a/result.json.gz",
+      "sha256": "4ddf9f1bc1e11f9e7d0f9b3b99bd45ec7a429c59af884ce570d16e5acd38786c",
+      "bytes": 2970
+    },
+    {
+      "path": "data/raw/top100-mutability/0x32973908faee0bf825a343000fe412ebe56f802a.json",
+      "sha256": "370880fa1097265e594b86bbb37e679c6ef89bf00b0bd851d163ce7ef57fa0a4",
+      "bytes": 11990
+    },
+    {
+      "path": "data/raw/top100-pointers/0x32973908faee0bf825a343000fe412ebe56f802a/bodies.zip",
+      "sha256": "470b9debe678fbce1e458d5a86ad6caeec5f71dabd42dde2b307556bd3e31ad5",
+      "bytes": 241
+    },
+    {
+      "path": "data/raw/top100-pointers/0x32973908faee0bf825a343000fe412ebe56f802a/evidence.jsonl.gz",
+      "sha256": "be2936ce4d567f5fce62c718fead84d32916bbb311b39ab7091ec2acf5503ff9",
+      "bytes": 342
+    },
+    {
+      "path": "data/raw/top100-pointers/0x32973908faee0bf825a343000fe412ebe56f802a/result.json",
+      "sha256": "79a9626140c1f153ed4b6ddf24412a165a5379a2a8ad0b83309dbf4cecc8fd41",
+      "bytes": 350
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x32973908faee0bf825a343000fe412ebe56f802a/bodies.zip",
+      "sha256": "1fb4dd77f92a77338d109b4ca66d33396fc357e1eda17028e0a74a628320b5c6",
+      "bytes": 591
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x32973908faee0bf825a343000fe412ebe56f802a/evidence.jsonl.gz",
+      "sha256": "3fbc75a63b7b9e1b17cb98f430956b3416aafee54e841161f2563df1cbbf3d81",
+      "bytes": 698
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x32973908faee0bf825a343000fe412ebe56f802a/result.json",
+      "sha256": "51c9dc58d1035b6ef8336df104b47f8abdf7a81535d498846c48d38ed717ee94",
+      "bytes": 296
+    }
+  ],
+  "interpretation": "Liveness describes sampled metadata and primary-image delivery, not permanent loss of the artwork."
+}

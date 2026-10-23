@@ -1,0 +1,321 @@
+{
+ "address": "0xccbc235ef019ef4d1e23e9e22fb194d7857aa44c",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:46Z",
+ "code_raw": "data/raw/rpc-mutability/0xccbc235ef019ef4d1e23e9e22fb194d7857aa44c_code.json",
+ "code_len": 10421,
+ "slots": {
+  "slot0": "0x4c6974746c654461756768746572417065436c7562000000000000000000002a"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0xccbc235ef019ef4d1e23e9e22fb194d7857aa44c_slots.json",
+ "verified": true,
+ "contract_name": "NFT",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [
+   {
+    "hash": "0x01f8b74a9c5056907124394562533558f2fcb2e54717054b715cd16b3d51ac3e",
+    "timestamp": "2022-01-20T03:40:32.000000Z",
+    "method": "renounceOwnership",
+    "from": "0x7319f94BeC4e8F23c30aD1cD65f481b42758Ba27",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 14040065,
+    "category": "ownership"
+   },
+   {
+    "hash": "0x27eb3264bc6bb71c70cf0a669b32fffb06301ef38f6992ee85ab1f0482810c2c",
+    "timestamp": "2022-01-10T16:11:34.000000Z",
+    "method": "reveal",
+    "from": "0x7319f94BeC4e8F23c30aD1cD65f481b42758Ba27",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13978772,
+    "category": "reveal"
+   }
+  ],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 2,
+    "first": "2022-01-02",
+    "last": "2022-01-20",
+    "last_tx": "0x01f8b74a9c5056907124394562533558f2fcb2e54717054b715cd16b3d51ac3e",
+    "list": [
+     {
+      "date": "2022-01-02",
+      "tx": "0xc6d0c4d67e2693348b61850927621f3df0e472bdc3eaa18b17a3f06611bf261d",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "7319f94bec4e8f23c30ad1cd65f481b42758ba27"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2022-01-20",
+      "tx": "0x01f8b74a9c5056907124394562533558f2fcb2e54717054b715cd16b3d51ac3e",
+      "topics": [
+       "7319f94bec4e8f23c30ad1cd65f481b42758ba27",
+       "0000000000000000000000000000000000000000"
+      ],
+      "data": "0x"
+     }
+    ]
+   }
+  },
+  "decoded": [
+   {
+    "hash": "0x27eb3264bc6bb71c70cf0a669b32fffb06301ef38f6992ee85ab1f0482810c2c",
+    "timestamp": "2022-01-10T16:11:34.000000Z",
+    "method": "reveal",
+    "category": "reveal",
+    "from": "0x7319f94BeC4e8F23c30aD1cD65f481b42758Ba27",
+    "params": [],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0x01f8b74a9c5056907124394562533558f2fcb2e54717054b715cd16b3d51ac3e",
+    "timestamp": "2022-01-20T03:40:32.000000Z",
+    "method": "renounceOwnership",
+    "category": "ownership",
+    "from": "0x7319f94BeC4e8F23c30aD1cD65f481b42758Ba27",
+    "params": [],
+    "value_kinds": [],
+    "error": null
+   }
+  ],
+  "ownership_transfers": [
+   {
+    "date": "2022-01-02",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0x7319f94bec4e8f23c30ad1cd65f481b42758ba27",
+    "tx": "0xc6d0c4d67e2693348b61850927621f3df0e472bdc3eaa18b17a3f06611bf261d"
+   },
+   {
+    "date": "2022-01-20",
+    "from": "0x7319f94bec4e8f23c30ad1cd65f481b42758ba27",
+    "to": "0x0000000000000000000000000000000000000000",
+    "tx": "0x01f8b74a9c5056907124394562533558f2fcb2e54717054b715cd16b3d51ac3e"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0xccbc235ef019ef4d1e23e9e22fb194d7857aa44c_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0x0000000000000000000000000000000000000000",
+  "type": "renounced"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "override",
+ "lock_functions": [],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [
+  {
+   "name": "setBaseExtension",
+   "sig": "setBaseExtension(string)",
+   "selector": "0xda3ef23f",
+   "category": "uri",
+   "inputs": [
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "baseExtension = _newBaseExtension;",
+   "writes": [
+    "baseExtension"
+   ],
+   "effective": "yes",
+   "power": "renounced",
+   "holder_addrs": [
+    "0x0000000000000000000000000000000000000000"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x0000000000000000000000000000000000000000",
+     "type": "renounced",
+     "desc": "renounced",
+     "simple": "renounced"
+    }
+   ]
+  },
+  {
+   "name": "setBaseURI",
+   "sig": "setBaseURI(string)",
+   "selector": "0x55f804b3",
+   "category": "uri",
+   "inputs": [
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "baseURI = _newBaseURI;",
+   "writes": [
+    "baseURI"
+   ],
+   "effective": "yes",
+   "power": "renounced",
+   "holder_addrs": [
+    "0x0000000000000000000000000000000000000000"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x0000000000000000000000000000000000000000",
+     "type": "renounced",
+     "desc": "renounced",
+     "simple": "renounced"
+    }
+   ]
+  },
+  {
+   "name": "setNotRevealedURI",
+   "sig": "setNotRevealedURI(string)",
+   "selector": "0xf2c4ce1e",
+   "category": "uri",
+   "inputs": [
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "notRevealedUri = _notRevealedURI;",
+   "writes": [
+    "notRevealedUri"
+   ],
+   "effective": "yes",
+   "power": "renounced",
+   "holder_addrs": [
+    "0x0000000000000000000000000000000000000000"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x0000000000000000000000000000000000000000",
+     "type": "renounced",
+     "desc": "renounced",
+     "simple": "renounced"
+    }
+   ]
+  },
+  {
+   "name": "reveal",
+   "sig": "reveal()",
+   "selector": "0xa475b5dd",
+   "category": "reveal",
+   "inputs": [],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "revealed = true;",
+   "writes": [
+    "revealed"
+   ],
+   "power": "renounced",
+   "holder_addrs": [
+    "0x0000000000000000000000000000000000000000"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x0000000000000000000000000000000000000000",
+     "type": "renounced",
+     "desc": "renounced",
+     "simple": "renounced"
+    }
+   ]
+  }
+ ],
+ "class_direct": "immutable",
+ "class_reason": "setBaseExtension:renounced; setBaseURI:renounced; setNotRevealedURI:renounced",
+ "live_mutators": [
+  "setBaseExtension",
+  "setBaseURI",
+  "setNotRevealedURI"
+ ],
+ "dependencies": [],
+ "meta": {
+  "address": "0xccbc235ef019ef4d1e23e9e22fb194d7857aa44c",
+  "name": "LittleDaughterApeClub",
+  "w5_claim_strength": "on-chain-generic",
+  "w5_claim_text": "{{{\"sources\": {\"contracts/nft.sol\": {\"content\": \"// SPDX-License-Identifier: MIT\\r\\n\\r\\n// Amended by HashLips\\r\\n/**\\r\\n    !Disclaimer!\\r\\n    These contracts have been used to create tutorials,\\r\\n    and was created for the purpose to teach people\\r\\n    how to create smart contracts on the blockchain.\\r\\n    please review this code on your own before using any of\\r\\n    the following code for",
+  "w5_source_type": "contract-source",
+  "w5_source_url": "https://etherscan.io/address/0xccbc235ef019ef4d1e23e9e22fb194d7857aa44c#code (NFT:1)",
+  "holders_count": 120.0,
+  "in_w5": true,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": null,
+  "census_media_class": null,
+  "census_liveness": null,
+  "in_census_onchain": false,
+  "standard": "ERC-721",
+  "creator": "0x7319f94bec4e8f23c30ad1cd65f481b42758ba27",
+  "deploy_block": 13926203.0
+ },
+ "class_deps_all": "none",
+ "class_deps": "none",
+ "class_final": "immutable",
+ "pointer_power": null
+}

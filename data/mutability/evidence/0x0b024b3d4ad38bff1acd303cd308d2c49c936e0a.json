@@ -1,0 +1,322 @@
+{
+ "address": "0x0b024b3d4ad38bff1acd303cd308d2c49c936e0a",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:16Z",
+ "code_raw": "data/raw/rpc-mutability/0x0b024b3d4ad38bff1acd303cd308d2c49c936e0a_code.json",
+ "code_len": 7283,
+ "slots": {
+  "slot0": "0x4d6f746f63617420526163696e6720436c756200000000000000000000000026"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0x0b024b3d4ad38bff1acd303cd308d2c49c936e0a_slots.json",
+ "verified": true,
+ "contract_name": "MotoCatETH",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [
+   {
+    "hash": "0x25fca4d5b0973e9c9c291f2cc90ecc7259305669ac5e2992218478aaf839c20b",
+    "timestamp": "2026-08-17T01:57:35.000000Z",
+    "method": "setBaseURI",
+    "from": "0x44a90579A3b7ea65693f10e3b8E230d27cB70AaF",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25771658,
+    "category": "uri"
+   },
+   {
+    "hash": "0x92b8373b55c14f640eb3e31c29485fbd2ac5b08a2abcbab89c5a600d491dd5aa",
+    "timestamp": "2026-08-14T05:43:59.000000Z",
+    "method": "setBaseURI",
+    "from": "0x44a90579A3b7ea65693f10e3b8E230d27cB70AaF",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25751261,
+    "category": "uri"
+   }
+  ],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 1,
+    "first": "2026-08-14",
+    "last": "2026-08-14",
+    "last_tx": "0x5b80482863c8fceb810771adbc80588ec638b295be55f0b3ae618127d8923008",
+    "list": [
+     {
+      "date": "2026-08-14",
+      "tx": "0x5b80482863c8fceb810771adbc80588ec638b295be55f0b3ae618127d8923008",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "44a90579a3b7ea65693f10e3b8e230d27cb70aaf"
+      ],
+      "data": "0x"
+     }
+    ]
+   },
+   "MetadataUpdate(uint256)": {
+    "n": 0
+   },
+   "BatchMetadataUpdate(uint256,uint256)": {
+    "n": 2,
+    "first": "2026-08-14",
+    "last": "2026-08-17",
+    "last_tx": "0x25fca4d5b0973e9c9c291f2cc90ecc7259305669ac5e2992218478aaf839c20b",
+    "list": [
+     {
+      "date": "2026-08-14",
+      "tx": "0x92b8373b55c14f640eb3e31c29485fbd2ac5b08a2abcbab89c5a600d491dd5aa",
+      "topics": [],
+      "data": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004e1f"
+     },
+     {
+      "date": "2026-08-17",
+      "tx": "0x25fca4d5b0973e9c9c291f2cc90ecc7259305669ac5e2992218478aaf839c20b",
+      "topics": [],
+      "data": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004e1f"
+     }
+    ]
+   },
+   "BaseURISet(string)": {
+    "n": 2,
+    "first": "2026-08-14",
+    "last": "2026-08-17",
+    "last_tx": "0x25fca4d5b0973e9c9c291f2cc90ecc7259305669ac5e2992218478aaf839c20b",
+    "list": [
+     {
+      "date": "2026-08-14",
+      "tx": "0x92b8373b55c14f640eb3e31c29485fbd2ac5b08a2abcbab89c5a600d491dd5aa",
+      "topics": [],
+      "data": "0x00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000043"
+     },
+     {
+      "date": "2026-08-17",
+      "tx": "0x25fca4d5b0973e9c9c291f2cc90ecc7259305669ac5e2992218478aaf839c20b",
+      "topics": [],
+      "data": "0x00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000043"
+     }
+    ]
+   },
+   "ContractURIUpdated()": {
+    "n": 2,
+    "first": "2026-08-14",
+    "last": "2026-08-17",
+    "last_tx": "0x25fca4d5b0973e9c9c291f2cc90ecc7259305669ac5e2992218478aaf839c20b",
+    "list": [
+     {
+      "date": "2026-08-14",
+      "tx": "0x92b8373b55c14f640eb3e31c29485fbd2ac5b08a2abcbab89c5a600d491dd5aa",
+      "topics": [],
+      "data": "0x"
+     },
+     {
+      "date": "2026-08-17",
+      "tx": "0x25fca4d5b0973e9c9c291f2cc90ecc7259305669ac5e2992218478aaf839c20b",
+      "topics": [],
+      "data": "0x"
+     }
+    ]
+   },
+   "URILocked()": {
+    "n": 0
+   }
+  },
+  "decoded": [
+   {
+    "hash": "0x92b8373b55c14f640eb3e31c29485fbd2ac5b08a2abcbab89c5a600d491dd5aa",
+    "timestamp": "2026-08-14T05:43:59.000000Z",
+    "method": "setBaseURI",
+    "category": "uri",
+    "from": "0x44a90579A3b7ea65693f10e3b8E230d27cB70AaF",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "string",
+      "value": "ipfs://bafybeie7vm43osyeva357e5vbhogbqyhknk3ydhcnz25xlk6qrcxb2g7ru/"
+     }
+    ],
+    "value_kinds": [
+     "ipfs"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0x25fca4d5b0973e9c9c291f2cc90ecc7259305669ac5e2992218478aaf839c20b",
+    "timestamp": "2026-08-17T01:57:35.000000Z",
+    "method": "setBaseURI",
+    "category": "uri",
+    "from": "0x44a90579A3b7ea65693f10e3b8E230d27cB70AaF",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "string",
+      "value": "ipfs://bafybeiej42m6aeksjkiwjqjl3rax2mrg4ang7ypvg7qnkgb4trnjc6ysdq/"
+     }
+    ],
+    "value_kinds": [
+     "ipfs"
+    ],
+    "error": null
+   }
+  ],
+  "ownership_transfers": [
+   {
+    "date": "2026-08-14",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0x44a90579a3b7ea65693f10e3b8e230d27cb70aaf",
+    "tx": "0x5b80482863c8fceb810771adbc80588ec638b295be55f0b3ae618127d8923008"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0x0b024b3d4ad38bff1acd303cd308d2c49c936e0a_reads1.json",
+ "eip4906": true,
+ "owner": {
+  "addr": "0x44a90579a3b7ea65693f10e3b8e230d27cb70aaf",
+  "code_raw": "data/raw/rpc-mutability/0x44a90579a3b7ea65693f10e3b8e230d27cb70aaf_holdercode.json",
+  "type": "eoa",
+  "bs_name": null,
+  "ens": null,
+  "bs_impl_names": [],
+  "bs_tags": [],
+  "is_contract": false,
+  "creator": null,
+  "is_verified": false,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {
+  "uriLocked": 0
+ },
+ "tokenuri_path": "override",
+ "lock_functions": [],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [
+  {
+   "name": "lockURI",
+   "sig": "lockURI()",
+   "selector": "0x8e021c06",
+   "category": "uri",
+   "inputs": [],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "uriLocked = true;\n        emit URILocked();",
+   "writes": [
+    "uriLocked"
+   ],
+   "effective": "no",
+   "power": "eoa",
+   "holder_addrs": [
+    "0x44a90579a3b7ea65693f10e3b8e230d27cb70aaf"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [
+    "uriLocked"
+   ],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x44a90579a3b7ea65693f10e3b8e230d27cb70aaf",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "setBaseURI",
+   "sig": "setBaseURI(string)",
+   "selector": "0x55f804b3",
+   "category": "uri",
+   "inputs": [
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "if (uriLocked) revert URIIsLocked();\n        _baseTokenURI = baseURI_;\n        emit BaseURISet(baseURI_);\n        emit BatchMetadataUpdate(0, MAX_SUPPLY - 1);\n ",
+   "writes": [
+    "_baseTokenURI"
+   ],
+   "effective": "yes",
+   "power": "eoa",
+   "holder_addrs": [
+    "0x44a90579a3b7ea65693f10e3b8e230d27cb70aaf"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [
+    "uriLocked"
+   ],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x44a90579a3b7ea65693f10e3b8e230d27cb70aaf",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  }
+ ],
+ "class_direct": "eoa-mutable",
+ "class_reason": "live setters (eoa): setBaseURI",
+ "live_mutators": [
+  "setBaseURI"
+ ],
+ "dependencies": [],
+ "meta": {
+  "address": "0x0b024b3d4ad38bff1acd303cd308d2c49c936e0a",
+  "name": "Motocat Racing Club",
+  "w5_claim_strength": "on-chain-generic",
+  "w5_claim_text": "*   THE ON-CHAIN MINT PATHS WERE STRIPPED, 2026-08-07 (Danny's ruling; eth-motocats",
+  "w5_source_type": "contract-source",
+  "w5_source_url": "https://etherscan.io/address/0x0b024b3d4ad38bff1acd303cd308d2c49c936e0a#code (src/MotoCatETH.sol:16)",
+  "holders_count": 2976.0,
+  "in_w5": true,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": null,
+  "census_media_class": null,
+  "census_liveness": null,
+  "in_census_onchain": false,
+  "standard": "ERC-721",
+  "creator": "0x44a90579a3b7ea65693f10e3b8e230d27cb70aaf",
+  "deploy_block": 25750491.0
+ },
+ "class_deps_all": "none",
+ "class_deps": "none",
+ "class_final": "eoa-mutable",
+ "pointer_power": "eoa"
+}

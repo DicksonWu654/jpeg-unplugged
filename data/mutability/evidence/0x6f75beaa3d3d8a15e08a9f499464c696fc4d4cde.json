@@ -1,0 +1,2510 @@
+{
+ "address": "0x6f75beaa3d3d8a15e08a9f499464c696fc4d4cde",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:28Z",
+ "code_raw": "data/raw/rpc-mutability/0x6f75beaa3d3d8a15e08a9f499464c696fc4d4cde_code.json",
+ "code_len": 14953,
+ "slots": {
+  "slot0": "0x5371756967676c652047616d650000000000000000000000000000000000001a"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0x6f75beaa3d3d8a15e08a9f499464c696fc4d4cde_slots.json",
+ "verified": true,
+ "contract_name": "SquiggleGame",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [
+   {
+    "hash": "0xb162cfdadbec18d75f7bd5e21861f492448d2c8fc05f8043cdfd4c4c48ed1ddc",
+    "timestamp": "2022-07-25T17:13:03.000000Z",
+    "method": "lockScore",
+    "from": "0xBEA28617CF5757be6cabC36Ca9CDa266DDe9325F",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15212963,
+    "category": "lock"
+   },
+   {
+    "hash": "0xcfd4595c1f70b789c0efdbd91d60d321aa1d413eca0fd90e35bac1366cf5483c",
+    "timestamp": "2022-07-25T12:49:07.000000Z",
+    "method": "lockScore",
+    "from": "0xb963fa652274e887E7Ab9876f436e054Dfb3C3cD",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15211759,
+    "category": "lock"
+   },
+   {
+    "hash": "0x12c90ca321f87b466401bc5b6504cf4ee3641660c5315430a961c0d9f06ca21c",
+    "timestamp": "2022-07-21T13:51:36.000000Z",
+    "method": "lockScore",
+    "from": "0x3A3B854bC642282a2a4adB7BfaE49984c297578E",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15186255,
+    "category": "lock"
+   },
+   {
+    "hash": "0x162ded9e498dae454cac63e7c7c9673a66203f4ed08e1df6e50fd35a70272403",
+    "timestamp": "2022-07-20T21:55:30.000000Z",
+    "method": "lockScore",
+    "from": "0x968AF8c01D117Ac36AbcD1374eee7799Bf53CF42",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15182027,
+    "category": "lock"
+   },
+   {
+    "hash": "0xf44369919b3a1090e62f0385d3ec647e742b4e94a039de83620bccf7fc3bb427",
+    "timestamp": "2022-07-18T21:48:17.000000Z",
+    "method": "lockScore",
+    "from": "0x347d9C6ea6ACCDA235bcEE056c649d891fF08fD0",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15169117,
+    "category": "lock"
+   },
+   {
+    "hash": "0x87da7b3f48c07e2f96e26de67c6a9b52a49956290432a15ebe6739c899054d7a",
+    "timestamp": "2022-07-17T21:11:32.000000Z",
+    "method": "lockScore",
+    "from": "0x7Bf5f796E22E908E32068B42f6e1e7e2a2Ffce55",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 15162465,
+    "category": "lock"
+   },
+   {
+    "hash": "0x0cd6da66be3e24531a9686208a3c3d96c80dcbe2fb9b18a624fba71e7a1325e7",
+    "timestamp": "2022-07-17T16:42:39.000000Z",
+    "method": "lockScore",
+    "from": "0x5181e0d2908692aEc025Fa8B7AE773F52b057e5E",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15161301,
+    "category": "lock"
+   },
+   {
+    "hash": "0xe00981f502f45004b8e997f0fce50b36e31d3081d51a1ecae6438034787e98c8",
+    "timestamp": "2022-07-14T22:25:40.000000Z",
+    "method": "lockScore",
+    "from": "0x3cE8202824fD5673788F9e014d2d37ea18C2AFc5",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15143474,
+    "category": "lock"
+   },
+   {
+    "hash": "0x28544613998f837c62a2a0f1438a1fb25e3dae1f70f3df2ab8f2409e47fe5e8c",
+    "timestamp": "2022-07-14T19:12:14.000000Z",
+    "method": "lockScore",
+    "from": "0xcf8D47B55ECB6D5CAAa03353a71Af84f1cDCcAE4",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 15142601,
+    "category": "lock"
+   },
+   {
+    "hash": "0x9ae479acf8a7599764b7099c854d0d99a7559b0f508e902ff86cbe519aeae73b",
+    "timestamp": "2022-07-13T20:56:40.000000Z",
+    "method": "lockScore",
+    "from": "0x99bd730362bF96288E47Ae5736b52b48adc3A081",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 15136541,
+    "category": "lock"
+   },
+   {
+    "hash": "0xf860e98b468534fa959fca465ac46f21e9338ebd897ff2596c70adb84faf31fd",
+    "timestamp": "2022-07-12T02:58:16.000000Z",
+    "method": "lockScore",
+    "from": "0x47F53b89e84519C0b118fcB133f00C325A403ea8",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15125298,
+    "category": "lock"
+   },
+   {
+    "hash": "0x62f5a6aad3ecf51db17e7a2793397f29f938a6226974f838d2a4771c66becb72",
+    "timestamp": "2022-07-11T19:04:42.000000Z",
+    "method": "lockScore",
+    "from": "0x0971e862176f9E7C4F131a9D94290b8254E84500",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15123133,
+    "category": "lock"
+   },
+   {
+    "hash": "0xdf752208430bd37817c1e4e7d3792af8b6f9a7c08f17fc97c40791820d2d6aa2",
+    "timestamp": "2022-07-11T14:49:25.000000Z",
+    "method": "lockScore",
+    "from": "0x2aC4Cd6cD6083EE0f64bA8737E2aBaf020F942e8",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15121940,
+    "category": "lock"
+   },
+   {
+    "hash": "0x69abf70ecabc155dd136cc71c0a25e5979e10aae0af11e53b76bad1d5282d3c1",
+    "timestamp": "2022-07-11T06:01:24.000000Z",
+    "method": "lockScore",
+    "from": "0x3f4eC9943d084Da25b00E810874cD7814c9fC7dA",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15119623,
+    "category": "lock"
+   },
+   {
+    "hash": "0x7df86c3097214c57af62a1e2c6c225c552d26ac9af73429735d08c2acb89ffd9",
+    "timestamp": "2022-07-10T21:33:28.000000Z",
+    "method": "lockScore",
+    "from": "0xf5eeA3907D0Ea758cF433e3E79951DaBA436f5Fb",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15117316,
+    "category": "lock"
+   },
+   {
+    "hash": "0x41a640f15e15ebcdf58f3f9f39d07a7df38ba6f088ca32e325327c4cca57adb6",
+    "timestamp": "2022-07-10T11:53:58.000000Z",
+    "method": "lockScore",
+    "from": "0xA94b40c53432f0576E64873CE1CEAd1aae62Fc90",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15114749,
+    "category": "lock"
+   },
+   {
+    "hash": "0x39bebfbdbe375db2b39900df93b071916b522ddfb325cf654ecba81910de4208",
+    "timestamp": "2022-07-10T07:59:41.000000Z",
+    "method": "lockScore",
+    "from": "0x31356F6d29aec5c0f3F059a64d2A15622ae775D3",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15113693,
+    "category": "lock"
+   },
+   {
+    "hash": "0xf079afd4a2222080c4dbb1b8b354b52a1a2131bf8f9255e28c354216c3618ab4",
+    "timestamp": "2022-07-09T12:52:00.000000Z",
+    "method": "lockScore",
+    "from": "0xC5F1B1ea8b25B40c1e9e7bfFb41511Fee3433D31",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15108453,
+    "category": "lock"
+   },
+   {
+    "hash": "0xcabc6a432504a3a04eddf5ae18b2642917f7d10a25b66f842208b30fbf0babec",
+    "timestamp": "2022-07-09T12:51:17.000000Z",
+    "method": "lockScore",
+    "from": "0x2C290551C43989D5Cb32749628b700D0E9EA2473",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15108448,
+    "category": "lock"
+   },
+   {
+    "hash": "0x0852b2534db4d88c7596a0d6c200e4d7258b3195eab22eb34c45911b1fe2d53a",
+    "timestamp": "2022-07-09T12:49:30.000000Z",
+    "method": "lockScore",
+    "from": "0xC8F5429285F001EdFc8735B91A8401eFe4896Bee",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15108439,
+    "category": "lock"
+   },
+   {
+    "hash": "0xa39dc8c7bfc1a27714087966f811824df9d258fb167c629a48551534e8756e66",
+    "timestamp": "2022-07-09T12:48:39.000000Z",
+    "method": "lockScore",
+    "from": "0xfA4C277Bdcaaf36d9B10b1d84703703D156C074b",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15108435,
+    "category": "lock"
+   },
+   {
+    "hash": "0xb59db01040dea3816330a45fb8478cfe8ce2e1d9d0ae1f23d1c5623fff133ebe",
+    "timestamp": "2022-07-09T12:40:09.000000Z",
+    "method": "lockScore",
+    "from": "0x17A77D63765963d0Cb9deC12Fa8F62E68Fee8fD4",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 15108400,
+    "category": "lock"
+   },
+   {
+    "hash": "0x5f4bbe46efe0b08168679ced864baf45635e0587d57622830d8843cc558da2e6",
+    "timestamp": "2022-07-09T12:02:24.000000Z",
+    "method": "lockScore",
+    "from": "0x4ccF37B1d99CB5A4adbA74C0c3f6687C39b26121",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15108223,
+    "category": "lock"
+   },
+   {
+    "hash": "0xe56f7d823e0881a10c12c6ec91ed4fc0bdd9d4129d3924db2ac0fb58964833fd",
+    "timestamp": "2022-07-09T08:49:08.000000Z",
+    "method": "lockScore",
+    "from": "0x24D55b7da98A675BCe37bC89909b5F73A568a1d5",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15107403,
+    "category": "lock"
+   },
+   {
+    "hash": "0x85cb47a81b806af676a883053bf761e4f63aad70cd626983f6ea111a6a3e6e5a",
+    "timestamp": "2022-07-09T06:43:57.000000Z",
+    "method": "lockScore",
+    "from": "0x19E989a9D6D16522E4B0896020032601d30D247d",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15106822,
+    "category": "lock"
+   },
+   {
+    "hash": "0xbe789af5bd9310eff0e37b4731c6e0d72e139c865891971ff6d48546516a4dc3",
+    "timestamp": "2022-07-09T06:40:36.000000Z",
+    "method": "lockScore",
+    "from": "0x5803f2F38d84bA5CAc6B78bD26d62225BD42D673",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15106802,
+    "category": "lock"
+   },
+   {
+    "hash": "0x2e0aa60baff04336552604bd6a98badf62bd0e0c87595bc1d05077f1064bcfe5",
+    "timestamp": "2022-07-09T04:47:24.000000Z",
+    "method": "lockScore",
+    "from": "0x6E76c0EBB2d597E1981dBede53e89d168d28222C",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15106276,
+    "category": "lock"
+   },
+   {
+    "hash": "0x10100d724ba3bc85880fa57cad10a057a9f976e63f5a1b28c4f646580372922c",
+    "timestamp": "2022-07-09T04:04:21.000000Z",
+    "method": "lockScore",
+    "from": "0x2c93E366a1C730D10026465b59802aa6260251ee",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15106091,
+    "category": "lock"
+   },
+   {
+    "hash": "0xde805831ee4121f095940f92b1d1d93da6ddb5cac2d76e1c1d022e7a89b690cd",
+    "timestamp": "2022-07-09T03:40:08.000000Z",
+    "method": "lockScore",
+    "from": "0x3F08f2DA5C338754498F7e8B1dec25345104F716",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15105998,
+    "category": "lock"
+   },
+   {
+    "hash": "0x2c0d8c74ac3a1356c3e83c42f7960cf8f28e2f335d9064963019a50b349d1486",
+    "timestamp": "2022-07-09T03:36:51.000000Z",
+    "method": "lockScore",
+    "from": "0x531b5F2756F6ffe2347e4fc5C9353569Cf7045eb",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15105981,
+    "category": "lock"
+   },
+   {
+    "hash": "0x854f15d8dc7c75ddd36cc3c6c9e6cbdcdc239e87313db85decc76546f195e358",
+    "timestamp": "2022-07-09T03:36:31.000000Z",
+    "method": "lockScore",
+    "from": "0x6cdD6e35EE7282B3b0c415A964159c28a0dCae6D",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15105979,
+    "category": "lock"
+   },
+   {
+    "hash": "0xd5f4cf6e21d33c950888d1d9f29acca8128f5bd786bd58b19c0038ba510ed934",
+    "timestamp": "2022-07-09T03:36:16.000000Z",
+    "method": "lockScore",
+    "from": "0x1822E6ED3b5bBb8f9447F765A07B1Dc116fb9EA4",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15105978,
+    "category": "lock"
+   },
+   {
+    "hash": "0x16ce9c73bbe5dd6b58cfc78b512f553675d51f7d0dbd2991ad7b6e3e24fcc4f7",
+    "timestamp": "2022-07-09T02:12:58.000000Z",
+    "method": "lockScore",
+    "from": "0xEeAF3BD19eBe8823ABCc994538A930ee37A6dd3B",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15105654,
+    "category": "lock"
+   },
+   {
+    "hash": "0x5a59bba1b1e08f3bc38982da4e60e09103871df96fd22707b5227c77b9476755",
+    "timestamp": "2022-07-09T01:48:46.000000Z",
+    "method": "lockScore",
+    "from": "0x1a1743bE45F2af484E7a5841Df6Ab5dcC83649B8",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 15105564,
+    "category": "lock"
+   },
+   {
+    "hash": "0x14624893115a6b9754951b8ed53efa692c5b24ba9bf825cde8c94ca1077d5b4c",
+    "timestamp": "2022-07-09T01:31:25.000000Z",
+    "method": "lockScore",
+    "from": "0x81b515dA61a8125295bcBc64ea048eAD1f37e8D1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15105488,
+    "category": "lock"
+   },
+   {
+    "hash": "0x632b31d100b00c12fc2b67d7df04e885e459d3f0a97b2d6fd37af3b507177976",
+    "timestamp": "2022-07-09T00:56:29.000000Z",
+    "method": "lockScore",
+    "from": "0xbacC396F1586eFcf4885e8a6f6B73a8362D8FB76",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15105341,
+    "category": "lock"
+   },
+   {
+    "hash": "0xc08fd9b6d4d09bbaef5633f0cd18a98cc1b60ccf486f098f58b5417af35fff9d",
+    "timestamp": "2022-07-09T00:48:44.000000Z",
+    "method": "lockScore",
+    "from": "0x0C6552A920e44208985bE101143AC80933939013",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15105306,
+    "category": "lock"
+   },
+   {
+    "hash": "0xecaf0c44a1100e2bf3d1ee945dc9340e16d8abcdbbe4c10630c45766394b4fa9",
+    "timestamp": "2022-07-09T00:30:04.000000Z",
+    "method": "lockScore",
+    "from": "0xCf44303Ff6FC5207ABDF9A0fd6caC50670bFCC68",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15105206,
+    "category": "lock"
+   },
+   {
+    "hash": "0x43d3d46a7d17dc0cbc576d5b11fe6afb0938f303a5da2313e7b2b900269f3e23",
+    "timestamp": "2022-07-09T00:28:24.000000Z",
+    "method": "lockScore",
+    "from": "0x3Ddd280cdEA5CC80b65683c0Acc039f01f858189",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15105198,
+    "category": "lock"
+   },
+   {
+    "hash": "0x1a92b081408fbb72bc20d185e8aff5a72e333e1c03860cc33373acdab0efb8b7",
+    "timestamp": "2022-07-09T00:11:24.000000Z",
+    "method": "lockScore",
+    "from": "0xC839de0fEd241607d50aa4107aE582443B906e4c",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 15105125,
+    "category": "lock"
+   },
+   {
+    "hash": "0x5b5510a0287099fee41b70ba730b65bf8a985125afe9f43f6f93f55e5dc5f7f6",
+    "timestamp": "2022-07-08T23:45:42.000000Z",
+    "method": "lockScore",
+    "from": "0x4b2ef7127640964Bf5CEf3d1Bf8D8F72d8D386f5",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15105015,
+    "category": "lock"
+   },
+   {
+    "hash": "0xbf6bce0e533bf6f0e253fc51b561f2fb33e4c66439c4121dbe91e2f41ad01fea",
+    "timestamp": "2022-07-08T23:18:35.000000Z",
+    "method": "lockScore",
+    "from": "0x34F2aC0DD90b768b382e981E50312333A7A1A69D",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15104898,
+    "category": "lock"
+   },
+   {
+    "hash": "0x104971aae52c235e4518096f3cbab185bc36a97234827e4b29e93fc7d178bdc0",
+    "timestamp": "2022-07-08T23:17:51.000000Z",
+    "method": "lockScore",
+    "from": "0xEd1A9E046bEdb13Eb801AEd473eA142e18Eb0a4b",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15104892,
+    "category": "lock"
+   },
+   {
+    "hash": "0x7234dd7dd8fdb86354dec7125dabe8de3cde2b104372cb0bf91fc80eb8234f7a",
+    "timestamp": "2022-07-08T23:03:14.000000Z",
+    "method": "lockScore",
+    "from": "0xCFC749e90D99bEeF9e80340e9FFb6C813A49B6eC",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15104824,
+    "category": "lock"
+   },
+   {
+    "hash": "0x8536a7b1bb9c6c7ef34a49807c6e3fbd831e7db262d4661a1d89a50376bd04e7",
+    "timestamp": "2022-07-08T22:55:26.000000Z",
+    "method": "lockScore",
+    "from": "0x2566BbE9853b6b90bfE7A5788ddD01735F503982",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15104792,
+    "category": "lock"
+   },
+   {
+    "hash": "0x0e7b8394eb60e9537a6a0139a5231816643f684e0e1e704d9403a6e99fab8056",
+    "timestamp": "2022-07-08T22:42:03.000000Z",
+    "method": "lockScore",
+    "from": "0x2DdbaedDEd37E3953f194622181cD2a1c2047881",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15104729,
+    "category": "lock"
+   },
+   {
+    "hash": "0xe7264d15d87491c2f0522a86557e05a6ec4840b30461dabe967ad61917610e51",
+    "timestamp": "2022-07-08T22:38:04.000000Z",
+    "method": "lockScore",
+    "from": "0x108686b8602f3FA9E6BC48D6017a8e2b8F1D2D15",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15104713,
+    "category": "lock"
+   },
+   {
+    "hash": "0xd11e2f1383dba3f5741783e93923e6f070df174047352c7f025d3d05f28c9d33",
+    "timestamp": "2022-07-08T22:32:26.000000Z",
+    "method": "lockScore",
+    "from": "0xcC3415f9Fd1e170413a776266BceF6Ecc02511F5",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 15104686,
+    "category": "lock"
+   },
+   {
+    "hash": "0x2e2b2e92257be1cff024cf973b50aea64efbe500e5bc7ec0b7a45658ef7398bf",
+    "timestamp": "2022-07-08T22:23:54.000000Z",
+    "method": "lockScore",
+    "from": "0xf43B2bE4AA887F426F05f78604b364af667C608d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 15104651,
+    "category": "lock"
+   },
+   {
+    "hash": "0xdc848c6b82935b3cafed17aa7fed0d38c0a74f862d928115467df9a566930e7c",
+    "timestamp": "2022-07-08T22:13:17.000000Z",
+    "method": "lockScore",
+    "from": "0xE57783DA26a9818db29EFBF1C0c08cFDBC783313",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15104613,
+    "category": "lock"
+   },
+   {
+    "hash": "0xb162cfdadbec18d75f7bd5e21861f492448d2c8fc05f8043cdfd4c4c48ed1ddc",
+    "timestamp": "2022-07-25T17:13:03.000000Z",
+    "method": "lockScore",
+    "from": "0xBEA28617CF5757be6cabC36Ca9CDa266DDe9325F",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15212963,
+    "category": "lock"
+   },
+   {
+    "hash": "0xcfd4595c1f70b789c0efdbd91d60d321aa1d413eca0fd90e35bac1366cf5483c",
+    "timestamp": "2022-07-25T12:49:07.000000Z",
+    "method": "lockScore",
+    "from": "0xb963fa652274e887E7Ab9876f436e054Dfb3C3cD",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15211759,
+    "category": "lock"
+   },
+   {
+    "hash": "0x12c90ca321f87b466401bc5b6504cf4ee3641660c5315430a961c0d9f06ca21c",
+    "timestamp": "2022-07-21T13:51:36.000000Z",
+    "method": "lockScore",
+    "from": "0x3A3B854bC642282a2a4adB7BfaE49984c297578E",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15186255,
+    "category": "lock"
+   },
+   {
+    "hash": "0x162ded9e498dae454cac63e7c7c9673a66203f4ed08e1df6e50fd35a70272403",
+    "timestamp": "2022-07-20T21:55:30.000000Z",
+    "method": "lockScore",
+    "from": "0x968AF8c01D117Ac36AbcD1374eee7799Bf53CF42",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15182027,
+    "category": "lock"
+   },
+   {
+    "hash": "0xf44369919b3a1090e62f0385d3ec647e742b4e94a039de83620bccf7fc3bb427",
+    "timestamp": "2022-07-18T21:48:17.000000Z",
+    "method": "lockScore",
+    "from": "0x347d9C6ea6ACCDA235bcEE056c649d891fF08fD0",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15169117,
+    "category": "lock"
+   },
+   {
+    "hash": "0x87da7b3f48c07e2f96e26de67c6a9b52a49956290432a15ebe6739c899054d7a",
+    "timestamp": "2022-07-17T21:11:32.000000Z",
+    "method": "lockScore",
+    "from": "0x7Bf5f796E22E908E32068B42f6e1e7e2a2Ffce55",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 15162465,
+    "category": "lock"
+   },
+   {
+    "hash": "0x0cd6da66be3e24531a9686208a3c3d96c80dcbe2fb9b18a624fba71e7a1325e7",
+    "timestamp": "2022-07-17T16:42:39.000000Z",
+    "method": "lockScore",
+    "from": "0x5181e0d2908692aEc025Fa8B7AE773F52b057e5E",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15161301,
+    "category": "lock"
+   },
+   {
+    "hash": "0xe00981f502f45004b8e997f0fce50b36e31d3081d51a1ecae6438034787e98c8",
+    "timestamp": "2022-07-14T22:25:40.000000Z",
+    "method": "lockScore",
+    "from": "0x3cE8202824fD5673788F9e014d2d37ea18C2AFc5",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15143474,
+    "category": "lock"
+   },
+   {
+    "hash": "0x28544613998f837c62a2a0f1438a1fb25e3dae1f70f3df2ab8f2409e47fe5e8c",
+    "timestamp": "2022-07-14T19:12:14.000000Z",
+    "method": "lockScore",
+    "from": "0xcf8D47B55ECB6D5CAAa03353a71Af84f1cDCcAE4",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 15142601,
+    "category": "lock"
+   },
+   {
+    "hash": "0x9ae479acf8a7599764b7099c854d0d99a7559b0f508e902ff86cbe519aeae73b",
+    "timestamp": "2022-07-13T20:56:40.000000Z",
+    "method": "lockScore",
+    "from": "0x99bd730362bF96288E47Ae5736b52b48adc3A081",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 15136541,
+    "category": "lock"
+   },
+   {
+    "hash": "0xf860e98b468534fa959fca465ac46f21e9338ebd897ff2596c70adb84faf31fd",
+    "timestamp": "2022-07-12T02:58:16.000000Z",
+    "method": "lockScore",
+    "from": "0x47F53b89e84519C0b118fcB133f00C325A403ea8",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15125298,
+    "category": "lock"
+   },
+   {
+    "hash": "0x62f5a6aad3ecf51db17e7a2793397f29f938a6226974f838d2a4771c66becb72",
+    "timestamp": "2022-07-11T19:04:42.000000Z",
+    "method": "lockScore",
+    "from": "0x0971e862176f9E7C4F131a9D94290b8254E84500",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15123133,
+    "category": "lock"
+   },
+   {
+    "hash": "0xdf752208430bd37817c1e4e7d3792af8b6f9a7c08f17fc97c40791820d2d6aa2",
+    "timestamp": "2022-07-11T14:49:25.000000Z",
+    "method": "lockScore",
+    "from": "0x2aC4Cd6cD6083EE0f64bA8737E2aBaf020F942e8",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15121940,
+    "category": "lock"
+   },
+   {
+    "hash": "0x69abf70ecabc155dd136cc71c0a25e5979e10aae0af11e53b76bad1d5282d3c1",
+    "timestamp": "2022-07-11T06:01:24.000000Z",
+    "method": "lockScore",
+    "from": "0x3f4eC9943d084Da25b00E810874cD7814c9fC7dA",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15119623,
+    "category": "lock"
+   },
+   {
+    "hash": "0x7df86c3097214c57af62a1e2c6c225c552d26ac9af73429735d08c2acb89ffd9",
+    "timestamp": "2022-07-10T21:33:28.000000Z",
+    "method": "lockScore",
+    "from": "0xf5eeA3907D0Ea758cF433e3E79951DaBA436f5Fb",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15117316,
+    "category": "lock"
+   },
+   {
+    "hash": "0x41a640f15e15ebcdf58f3f9f39d07a7df38ba6f088ca32e325327c4cca57adb6",
+    "timestamp": "2022-07-10T11:53:58.000000Z",
+    "method": "lockScore",
+    "from": "0xA94b40c53432f0576E64873CE1CEAd1aae62Fc90",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15114749,
+    "category": "lock"
+   },
+   {
+    "hash": "0x39bebfbdbe375db2b39900df93b071916b522ddfb325cf654ecba81910de4208",
+    "timestamp": "2022-07-10T07:59:41.000000Z",
+    "method": "lockScore",
+    "from": "0x31356F6d29aec5c0f3F059a64d2A15622ae775D3",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15113693,
+    "category": "lock"
+   },
+   {
+    "hash": "0xf079afd4a2222080c4dbb1b8b354b52a1a2131bf8f9255e28c354216c3618ab4",
+    "timestamp": "2022-07-09T12:52:00.000000Z",
+    "method": "lockScore",
+    "from": "0xC5F1B1ea8b25B40c1e9e7bfFb41511Fee3433D31",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15108453,
+    "category": "lock"
+   },
+   {
+    "hash": "0xcabc6a432504a3a04eddf5ae18b2642917f7d10a25b66f842208b30fbf0babec",
+    "timestamp": "2022-07-09T12:51:17.000000Z",
+    "method": "lockScore",
+    "from": "0x2C290551C43989D5Cb32749628b700D0E9EA2473",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15108448,
+    "category": "lock"
+   },
+   {
+    "hash": "0x0852b2534db4d88c7596a0d6c200e4d7258b3195eab22eb34c45911b1fe2d53a",
+    "timestamp": "2022-07-09T12:49:30.000000Z",
+    "method": "lockScore",
+    "from": "0xC8F5429285F001EdFc8735B91A8401eFe4896Bee",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15108439,
+    "category": "lock"
+   },
+   {
+    "hash": "0xa39dc8c7bfc1a27714087966f811824df9d258fb167c629a48551534e8756e66",
+    "timestamp": "2022-07-09T12:48:39.000000Z",
+    "method": "lockScore",
+    "from": "0xfA4C277Bdcaaf36d9B10b1d84703703D156C074b",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15108435,
+    "category": "lock"
+   },
+   {
+    "hash": "0xb59db01040dea3816330a45fb8478cfe8ce2e1d9d0ae1f23d1c5623fff133ebe",
+    "timestamp": "2022-07-09T12:40:09.000000Z",
+    "method": "lockScore",
+    "from": "0x17A77D63765963d0Cb9deC12Fa8F62E68Fee8fD4",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 15108400,
+    "category": "lock"
+   },
+   {
+    "hash": "0x5f4bbe46efe0b08168679ced864baf45635e0587d57622830d8843cc558da2e6",
+    "timestamp": "2022-07-09T12:02:24.000000Z",
+    "method": "lockScore",
+    "from": "0x4ccF37B1d99CB5A4adbA74C0c3f6687C39b26121",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15108223,
+    "category": "lock"
+   },
+   {
+    "hash": "0xe56f7d823e0881a10c12c6ec91ed4fc0bdd9d4129d3924db2ac0fb58964833fd",
+    "timestamp": "2022-07-09T08:49:08.000000Z",
+    "method": "lockScore",
+    "from": "0x24D55b7da98A675BCe37bC89909b5F73A568a1d5",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15107403,
+    "category": "lock"
+   },
+   {
+    "hash": "0x85cb47a81b806af676a883053bf761e4f63aad70cd626983f6ea111a6a3e6e5a",
+    "timestamp": "2022-07-09T06:43:57.000000Z",
+    "method": "lockScore",
+    "from": "0x19E989a9D6D16522E4B0896020032601d30D247d",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15106822,
+    "category": "lock"
+   },
+   {
+    "hash": "0xbe789af5bd9310eff0e37b4731c6e0d72e139c865891971ff6d48546516a4dc3",
+    "timestamp": "2022-07-09T06:40:36.000000Z",
+    "method": "lockScore",
+    "from": "0x5803f2F38d84bA5CAc6B78bD26d62225BD42D673",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15106802,
+    "category": "lock"
+   },
+   {
+    "hash": "0x2e0aa60baff04336552604bd6a98badf62bd0e0c87595bc1d05077f1064bcfe5",
+    "timestamp": "2022-07-09T04:47:24.000000Z",
+    "method": "lockScore",
+    "from": "0x6E76c0EBB2d597E1981dBede53e89d168d28222C",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15106276,
+    "category": "lock"
+   },
+   {
+    "hash": "0x10100d724ba3bc85880fa57cad10a057a9f976e63f5a1b28c4f646580372922c",
+    "timestamp": "2022-07-09T04:04:21.000000Z",
+    "method": "lockScore",
+    "from": "0x2c93E366a1C730D10026465b59802aa6260251ee",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15106091,
+    "category": "lock"
+   },
+   {
+    "hash": "0xde805831ee4121f095940f92b1d1d93da6ddb5cac2d76e1c1d022e7a89b690cd",
+    "timestamp": "2022-07-09T03:40:08.000000Z",
+    "method": "lockScore",
+    "from": "0x3F08f2DA5C338754498F7e8B1dec25345104F716",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15105998,
+    "category": "lock"
+   },
+   {
+    "hash": "0x2c0d8c74ac3a1356c3e83c42f7960cf8f28e2f335d9064963019a50b349d1486",
+    "timestamp": "2022-07-09T03:36:51.000000Z",
+    "method": "lockScore",
+    "from": "0x531b5F2756F6ffe2347e4fc5C9353569Cf7045eb",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15105981,
+    "category": "lock"
+   },
+   {
+    "hash": "0x854f15d8dc7c75ddd36cc3c6c9e6cbdcdc239e87313db85decc76546f195e358",
+    "timestamp": "2022-07-09T03:36:31.000000Z",
+    "method": "lockScore",
+    "from": "0x6cdD6e35EE7282B3b0c415A964159c28a0dCae6D",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15105979,
+    "category": "lock"
+   },
+   {
+    "hash": "0xd5f4cf6e21d33c950888d1d9f29acca8128f5bd786bd58b19c0038ba510ed934",
+    "timestamp": "2022-07-09T03:36:16.000000Z",
+    "method": "lockScore",
+    "from": "0x1822E6ED3b5bBb8f9447F765A07B1Dc116fb9EA4",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15105978,
+    "category": "lock"
+   },
+   {
+    "hash": "0x16ce9c73bbe5dd6b58cfc78b512f553675d51f7d0dbd2991ad7b6e3e24fcc4f7",
+    "timestamp": "2022-07-09T02:12:58.000000Z",
+    "method": "lockScore",
+    "from": "0xEeAF3BD19eBe8823ABCc994538A930ee37A6dd3B",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15105654,
+    "category": "lock"
+   },
+   {
+    "hash": "0x5a59bba1b1e08f3bc38982da4e60e09103871df96fd22707b5227c77b9476755",
+    "timestamp": "2022-07-09T01:48:46.000000Z",
+    "method": "lockScore",
+    "from": "0x1a1743bE45F2af484E7a5841Df6Ab5dcC83649B8",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 15105564,
+    "category": "lock"
+   },
+   {
+    "hash": "0x14624893115a6b9754951b8ed53efa692c5b24ba9bf825cde8c94ca1077d5b4c",
+    "timestamp": "2022-07-09T01:31:25.000000Z",
+    "method": "lockScore",
+    "from": "0x81b515dA61a8125295bcBc64ea048eAD1f37e8D1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15105488,
+    "category": "lock"
+   },
+   {
+    "hash": "0x632b31d100b00c12fc2b67d7df04e885e459d3f0a97b2d6fd37af3b507177976",
+    "timestamp": "2022-07-09T00:56:29.000000Z",
+    "method": "lockScore",
+    "from": "0xbacC396F1586eFcf4885e8a6f6B73a8362D8FB76",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15105341,
+    "category": "lock"
+   },
+   {
+    "hash": "0xc08fd9b6d4d09bbaef5633f0cd18a98cc1b60ccf486f098f58b5417af35fff9d",
+    "timestamp": "2022-07-09T00:48:44.000000Z",
+    "method": "lockScore",
+    "from": "0x0C6552A920e44208985bE101143AC80933939013",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15105306,
+    "category": "lock"
+   },
+   {
+    "hash": "0xecaf0c44a1100e2bf3d1ee945dc9340e16d8abcdbbe4c10630c45766394b4fa9",
+    "timestamp": "2022-07-09T00:30:04.000000Z",
+    "method": "lockScore",
+    "from": "0xCf44303Ff6FC5207ABDF9A0fd6caC50670bFCC68",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15105206,
+    "category": "lock"
+   },
+   {
+    "hash": "0x43d3d46a7d17dc0cbc576d5b11fe6afb0938f303a5da2313e7b2b900269f3e23",
+    "timestamp": "2022-07-09T00:28:24.000000Z",
+    "method": "lockScore",
+    "from": "0x3Ddd280cdEA5CC80b65683c0Acc039f01f858189",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15105198,
+    "category": "lock"
+   },
+   {
+    "hash": "0x1a92b081408fbb72bc20d185e8aff5a72e333e1c03860cc33373acdab0efb8b7",
+    "timestamp": "2022-07-09T00:11:24.000000Z",
+    "method": "lockScore",
+    "from": "0xC839de0fEd241607d50aa4107aE582443B906e4c",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 15105125,
+    "category": "lock"
+   },
+   {
+    "hash": "0x5b5510a0287099fee41b70ba730b65bf8a985125afe9f43f6f93f55e5dc5f7f6",
+    "timestamp": "2022-07-08T23:45:42.000000Z",
+    "method": "lockScore",
+    "from": "0x4b2ef7127640964Bf5CEf3d1Bf8D8F72d8D386f5",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15105015,
+    "category": "lock"
+   },
+   {
+    "hash": "0xbf6bce0e533bf6f0e253fc51b561f2fb33e4c66439c4121dbe91e2f41ad01fea",
+    "timestamp": "2022-07-08T23:18:35.000000Z",
+    "method": "lockScore",
+    "from": "0x34F2aC0DD90b768b382e981E50312333A7A1A69D",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15104898,
+    "category": "lock"
+   },
+   {
+    "hash": "0x104971aae52c235e4518096f3cbab185bc36a97234827e4b29e93fc7d178bdc0",
+    "timestamp": "2022-07-08T23:17:51.000000Z",
+    "method": "lockScore",
+    "from": "0xEd1A9E046bEdb13Eb801AEd473eA142e18Eb0a4b",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15104892,
+    "category": "lock"
+   },
+   {
+    "hash": "0x7234dd7dd8fdb86354dec7125dabe8de3cde2b104372cb0bf91fc80eb8234f7a",
+    "timestamp": "2022-07-08T23:03:14.000000Z",
+    "method": "lockScore",
+    "from": "0xCFC749e90D99bEeF9e80340e9FFb6C813A49B6eC",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15104824,
+    "category": "lock"
+   },
+   {
+    "hash": "0x8536a7b1bb9c6c7ef34a49807c6e3fbd831e7db262d4661a1d89a50376bd04e7",
+    "timestamp": "2022-07-08T22:55:26.000000Z",
+    "method": "lockScore",
+    "from": "0x2566BbE9853b6b90bfE7A5788ddD01735F503982",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15104792,
+    "category": "lock"
+   },
+   {
+    "hash": "0x0e7b8394eb60e9537a6a0139a5231816643f684e0e1e704d9403a6e99fab8056",
+    "timestamp": "2022-07-08T22:42:03.000000Z",
+    "method": "lockScore",
+    "from": "0x2DdbaedDEd37E3953f194622181cD2a1c2047881",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15104729,
+    "category": "lock"
+   },
+   {
+    "hash": "0xe7264d15d87491c2f0522a86557e05a6ec4840b30461dabe967ad61917610e51",
+    "timestamp": "2022-07-08T22:38:04.000000Z",
+    "method": "lockScore",
+    "from": "0x108686b8602f3FA9E6BC48D6017a8e2b8F1D2D15",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15104713,
+    "category": "lock"
+   },
+   {
+    "hash": "0xd11e2f1383dba3f5741783e93923e6f070df174047352c7f025d3d05f28c9d33",
+    "timestamp": "2022-07-08T22:32:26.000000Z",
+    "method": "lockScore",
+    "from": "0xcC3415f9Fd1e170413a776266BceF6Ecc02511F5",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 15104686,
+    "category": "lock"
+   },
+   {
+    "hash": "0x2e2b2e92257be1cff024cf973b50aea64efbe500e5bc7ec0b7a45658ef7398bf",
+    "timestamp": "2022-07-08T22:23:54.000000Z",
+    "method": "lockScore",
+    "from": "0xf43B2bE4AA887F426F05f78604b364af667C608d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 15104651,
+    "category": "lock"
+   },
+   {
+    "hash": "0xdc848c6b82935b3cafed17aa7fed0d38c0a74f862d928115467df9a566930e7c",
+    "timestamp": "2022-07-08T22:13:17.000000Z",
+    "method": "lockScore",
+    "from": "0xE57783DA26a9818db29EFBF1C0c08cFDBC783313",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15104613,
+    "category": "lock"
+   },
+   {
+    "hash": "0xb162cfdadbec18d75f7bd5e21861f492448d2c8fc05f8043cdfd4c4c48ed1ddc",
+    "timestamp": "2022-07-25T17:13:03.000000Z",
+    "method": "lockScore",
+    "from": "0xBEA28617CF5757be6cabC36Ca9CDa266DDe9325F",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15212963,
+    "category": "lock"
+   },
+   {
+    "hash": "0xcfd4595c1f70b789c0efdbd91d60d321aa1d413eca0fd90e35bac1366cf5483c",
+    "timestamp": "2022-07-25T12:49:07.000000Z",
+    "method": "lockScore",
+    "from": "0xb963fa652274e887E7Ab9876f436e054Dfb3C3cD",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15211759,
+    "category": "lock"
+   },
+   {
+    "hash": "0x12c90ca321f87b466401bc5b6504cf4ee3641660c5315430a961c0d9f06ca21c",
+    "timestamp": "2022-07-21T13:51:36.000000Z",
+    "method": "lockScore",
+    "from": "0x3A3B854bC642282a2a4adB7BfaE49984c297578E",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15186255,
+    "category": "lock"
+   },
+   {
+    "hash": "0x162ded9e498dae454cac63e7c7c9673a66203f4ed08e1df6e50fd35a70272403",
+    "timestamp": "2022-07-20T21:55:30.000000Z",
+    "method": "lockScore",
+    "from": "0x968AF8c01D117Ac36AbcD1374eee7799Bf53CF42",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15182027,
+    "category": "lock"
+   },
+   {
+    "hash": "0xf44369919b3a1090e62f0385d3ec647e742b4e94a039de83620bccf7fc3bb427",
+    "timestamp": "2022-07-18T21:48:17.000000Z",
+    "method": "lockScore",
+    "from": "0x347d9C6ea6ACCDA235bcEE056c649d891fF08fD0",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15169117,
+    "category": "lock"
+   },
+   {
+    "hash": "0x87da7b3f48c07e2f96e26de67c6a9b52a49956290432a15ebe6739c899054d7a",
+    "timestamp": "2022-07-17T21:11:32.000000Z",
+    "method": "lockScore",
+    "from": "0x7Bf5f796E22E908E32068B42f6e1e7e2a2Ffce55",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 15162465,
+    "category": "lock"
+   },
+   {
+    "hash": "0x0cd6da66be3e24531a9686208a3c3d96c80dcbe2fb9b18a624fba71e7a1325e7",
+    "timestamp": "2022-07-17T16:42:39.000000Z",
+    "method": "lockScore",
+    "from": "0x5181e0d2908692aEc025Fa8B7AE773F52b057e5E",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15161301,
+    "category": "lock"
+   },
+   {
+    "hash": "0xe00981f502f45004b8e997f0fce50b36e31d3081d51a1ecae6438034787e98c8",
+    "timestamp": "2022-07-14T22:25:40.000000Z",
+    "method": "lockScore",
+    "from": "0x3cE8202824fD5673788F9e014d2d37ea18C2AFc5",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15143474,
+    "category": "lock"
+   },
+   {
+    "hash": "0x28544613998f837c62a2a0f1438a1fb25e3dae1f70f3df2ab8f2409e47fe5e8c",
+    "timestamp": "2022-07-14T19:12:14.000000Z",
+    "method": "lockScore",
+    "from": "0xcf8D47B55ECB6D5CAAa03353a71Af84f1cDCcAE4",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 15142601,
+    "category": "lock"
+   },
+   {
+    "hash": "0x9ae479acf8a7599764b7099c854d0d99a7559b0f508e902ff86cbe519aeae73b",
+    "timestamp": "2022-07-13T20:56:40.000000Z",
+    "method": "lockScore",
+    "from": "0x99bd730362bF96288E47Ae5736b52b48adc3A081",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 15136541,
+    "category": "lock"
+   },
+   {
+    "hash": "0xf860e98b468534fa959fca465ac46f21e9338ebd897ff2596c70adb84faf31fd",
+    "timestamp": "2022-07-12T02:58:16.000000Z",
+    "method": "lockScore",
+    "from": "0x47F53b89e84519C0b118fcB133f00C325A403ea8",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15125298,
+    "category": "lock"
+   },
+   {
+    "hash": "0x62f5a6aad3ecf51db17e7a2793397f29f938a6226974f838d2a4771c66becb72",
+    "timestamp": "2022-07-11T19:04:42.000000Z",
+    "method": "lockScore",
+    "from": "0x0971e862176f9E7C4F131a9D94290b8254E84500",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15123133,
+    "category": "lock"
+   },
+   {
+    "hash": "0xdf752208430bd37817c1e4e7d3792af8b6f9a7c08f17fc97c40791820d2d6aa2",
+    "timestamp": "2022-07-11T14:49:25.000000Z",
+    "method": "lockScore",
+    "from": "0x2aC4Cd6cD6083EE0f64bA8737E2aBaf020F942e8",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15121940,
+    "category": "lock"
+   },
+   {
+    "hash": "0x69abf70ecabc155dd136cc71c0a25e5979e10aae0af11e53b76bad1d5282d3c1",
+    "timestamp": "2022-07-11T06:01:24.000000Z",
+    "method": "lockScore",
+    "from": "0x3f4eC9943d084Da25b00E810874cD7814c9fC7dA",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15119623,
+    "category": "lock"
+   },
+   {
+    "hash": "0x7df86c3097214c57af62a1e2c6c225c552d26ac9af73429735d08c2acb89ffd9",
+    "timestamp": "2022-07-10T21:33:28.000000Z",
+    "method": "lockScore",
+    "from": "0xf5eeA3907D0Ea758cF433e3E79951DaBA436f5Fb",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15117316,
+    "category": "lock"
+   },
+   {
+    "hash": "0x41a640f15e15ebcdf58f3f9f39d07a7df38ba6f088ca32e325327c4cca57adb6",
+    "timestamp": "2022-07-10T11:53:58.000000Z",
+    "method": "lockScore",
+    "from": "0xA94b40c53432f0576E64873CE1CEAd1aae62Fc90",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15114749,
+    "category": "lock"
+   },
+   {
+    "hash": "0x39bebfbdbe375db2b39900df93b071916b522ddfb325cf654ecba81910de4208",
+    "timestamp": "2022-07-10T07:59:41.000000Z",
+    "method": "lockScore",
+    "from": "0x31356F6d29aec5c0f3F059a64d2A15622ae775D3",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15113693,
+    "category": "lock"
+   },
+   {
+    "hash": "0xf079afd4a2222080c4dbb1b8b354b52a1a2131bf8f9255e28c354216c3618ab4",
+    "timestamp": "2022-07-09T12:52:00.000000Z",
+    "method": "lockScore",
+    "from": "0xC5F1B1ea8b25B40c1e9e7bfFb41511Fee3433D31",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15108453,
+    "category": "lock"
+   },
+   {
+    "hash": "0xcabc6a432504a3a04eddf5ae18b2642917f7d10a25b66f842208b30fbf0babec",
+    "timestamp": "2022-07-09T12:51:17.000000Z",
+    "method": "lockScore",
+    "from": "0x2C290551C43989D5Cb32749628b700D0E9EA2473",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15108448,
+    "category": "lock"
+   },
+   {
+    "hash": "0x0852b2534db4d88c7596a0d6c200e4d7258b3195eab22eb34c45911b1fe2d53a",
+    "timestamp": "2022-07-09T12:49:30.000000Z",
+    "method": "lockScore",
+    "from": "0xC8F5429285F001EdFc8735B91A8401eFe4896Bee",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15108439,
+    "category": "lock"
+   },
+   {
+    "hash": "0xa39dc8c7bfc1a27714087966f811824df9d258fb167c629a48551534e8756e66",
+    "timestamp": "2022-07-09T12:48:39.000000Z",
+    "method": "lockScore",
+    "from": "0xfA4C277Bdcaaf36d9B10b1d84703703D156C074b",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15108435,
+    "category": "lock"
+   },
+   {
+    "hash": "0xb59db01040dea3816330a45fb8478cfe8ce2e1d9d0ae1f23d1c5623fff133ebe",
+    "timestamp": "2022-07-09T12:40:09.000000Z",
+    "method": "lockScore",
+    "from": "0x17A77D63765963d0Cb9deC12Fa8F62E68Fee8fD4",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 15108400,
+    "category": "lock"
+   },
+   {
+    "hash": "0x5f4bbe46efe0b08168679ced864baf45635e0587d57622830d8843cc558da2e6",
+    "timestamp": "2022-07-09T12:02:24.000000Z",
+    "method": "lockScore",
+    "from": "0x4ccF37B1d99CB5A4adbA74C0c3f6687C39b26121",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15108223,
+    "category": "lock"
+   },
+   {
+    "hash": "0xe56f7d823e0881a10c12c6ec91ed4fc0bdd9d4129d3924db2ac0fb58964833fd",
+    "timestamp": "2022-07-09T08:49:08.000000Z",
+    "method": "lockScore",
+    "from": "0x24D55b7da98A675BCe37bC89909b5F73A568a1d5",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15107403,
+    "category": "lock"
+   },
+   {
+    "hash": "0x85cb47a81b806af676a883053bf761e4f63aad70cd626983f6ea111a6a3e6e5a",
+    "timestamp": "2022-07-09T06:43:57.000000Z",
+    "method": "lockScore",
+    "from": "0x19E989a9D6D16522E4B0896020032601d30D247d",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15106822,
+    "category": "lock"
+   },
+   {
+    "hash": "0xbe789af5bd9310eff0e37b4731c6e0d72e139c865891971ff6d48546516a4dc3",
+    "timestamp": "2022-07-09T06:40:36.000000Z",
+    "method": "lockScore",
+    "from": "0x5803f2F38d84bA5CAc6B78bD26d62225BD42D673",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15106802,
+    "category": "lock"
+   },
+   {
+    "hash": "0x2e0aa60baff04336552604bd6a98badf62bd0e0c87595bc1d05077f1064bcfe5",
+    "timestamp": "2022-07-09T04:47:24.000000Z",
+    "method": "lockScore",
+    "from": "0x6E76c0EBB2d597E1981dBede53e89d168d28222C",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15106276,
+    "category": "lock"
+   },
+   {
+    "hash": "0x10100d724ba3bc85880fa57cad10a057a9f976e63f5a1b28c4f646580372922c",
+    "timestamp": "2022-07-09T04:04:21.000000Z",
+    "method": "lockScore",
+    "from": "0x2c93E366a1C730D10026465b59802aa6260251ee",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15106091,
+    "category": "lock"
+   },
+   {
+    "hash": "0xde805831ee4121f095940f92b1d1d93da6ddb5cac2d76e1c1d022e7a89b690cd",
+    "timestamp": "2022-07-09T03:40:08.000000Z",
+    "method": "lockScore",
+    "from": "0x3F08f2DA5C338754498F7e8B1dec25345104F716",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15105998,
+    "category": "lock"
+   },
+   {
+    "hash": "0x2c0d8c74ac3a1356c3e83c42f7960cf8f28e2f335d9064963019a50b349d1486",
+    "timestamp": "2022-07-09T03:36:51.000000Z",
+    "method": "lockScore",
+    "from": "0x531b5F2756F6ffe2347e4fc5C9353569Cf7045eb",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15105981,
+    "category": "lock"
+   },
+   {
+    "hash": "0x854f15d8dc7c75ddd36cc3c6c9e6cbdcdc239e87313db85decc76546f195e358",
+    "timestamp": "2022-07-09T03:36:31.000000Z",
+    "method": "lockScore",
+    "from": "0x6cdD6e35EE7282B3b0c415A964159c28a0dCae6D",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15105979,
+    "category": "lock"
+   },
+   {
+    "hash": "0xd5f4cf6e21d33c950888d1d9f29acca8128f5bd786bd58b19c0038ba510ed934",
+    "timestamp": "2022-07-09T03:36:16.000000Z",
+    "method": "lockScore",
+    "from": "0x1822E6ED3b5bBb8f9447F765A07B1Dc116fb9EA4",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15105978,
+    "category": "lock"
+   },
+   {
+    "hash": "0x16ce9c73bbe5dd6b58cfc78b512f553675d51f7d0dbd2991ad7b6e3e24fcc4f7",
+    "timestamp": "2022-07-09T02:12:58.000000Z",
+    "method": "lockScore",
+    "from": "0xEeAF3BD19eBe8823ABCc994538A930ee37A6dd3B",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15105654,
+    "category": "lock"
+   },
+   {
+    "hash": "0x5a59bba1b1e08f3bc38982da4e60e09103871df96fd22707b5227c77b9476755",
+    "timestamp": "2022-07-09T01:48:46.000000Z",
+    "method": "lockScore",
+    "from": "0x1a1743bE45F2af484E7a5841Df6Ab5dcC83649B8",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 15105564,
+    "category": "lock"
+   },
+   {
+    "hash": "0x14624893115a6b9754951b8ed53efa692c5b24ba9bf825cde8c94ca1077d5b4c",
+    "timestamp": "2022-07-09T01:31:25.000000Z",
+    "method": "lockScore",
+    "from": "0x81b515dA61a8125295bcBc64ea048eAD1f37e8D1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15105488,
+    "category": "lock"
+   },
+   {
+    "hash": "0x632b31d100b00c12fc2b67d7df04e885e459d3f0a97b2d6fd37af3b507177976",
+    "timestamp": "2022-07-09T00:56:29.000000Z",
+    "method": "lockScore",
+    "from": "0xbacC396F1586eFcf4885e8a6f6B73a8362D8FB76",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15105341,
+    "category": "lock"
+   },
+   {
+    "hash": "0xc08fd9b6d4d09bbaef5633f0cd18a98cc1b60ccf486f098f58b5417af35fff9d",
+    "timestamp": "2022-07-09T00:48:44.000000Z",
+    "method": "lockScore",
+    "from": "0x0C6552A920e44208985bE101143AC80933939013",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15105306,
+    "category": "lock"
+   },
+   {
+    "hash": "0xecaf0c44a1100e2bf3d1ee945dc9340e16d8abcdbbe4c10630c45766394b4fa9",
+    "timestamp": "2022-07-09T00:30:04.000000Z",
+    "method": "lockScore",
+    "from": "0xCf44303Ff6FC5207ABDF9A0fd6caC50670bFCC68",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15105206,
+    "category": "lock"
+   },
+   {
+    "hash": "0x43d3d46a7d17dc0cbc576d5b11fe6afb0938f303a5da2313e7b2b900269f3e23",
+    "timestamp": "2022-07-09T00:28:24.000000Z",
+    "method": "lockScore",
+    "from": "0x3Ddd280cdEA5CC80b65683c0Acc039f01f858189",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15105198,
+    "category": "lock"
+   },
+   {
+    "hash": "0x1a92b081408fbb72bc20d185e8aff5a72e333e1c03860cc33373acdab0efb8b7",
+    "timestamp": "2022-07-09T00:11:24.000000Z",
+    "method": "lockScore",
+    "from": "0xC839de0fEd241607d50aa4107aE582443B906e4c",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 15105125,
+    "category": "lock"
+   },
+   {
+    "hash": "0x5b5510a0287099fee41b70ba730b65bf8a985125afe9f43f6f93f55e5dc5f7f6",
+    "timestamp": "2022-07-08T23:45:42.000000Z",
+    "method": "lockScore",
+    "from": "0x4b2ef7127640964Bf5CEf3d1Bf8D8F72d8D386f5",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15105015,
+    "category": "lock"
+   },
+   {
+    "hash": "0xbf6bce0e533bf6f0e253fc51b561f2fb33e4c66439c4121dbe91e2f41ad01fea",
+    "timestamp": "2022-07-08T23:18:35.000000Z",
+    "method": "lockScore",
+    "from": "0x34F2aC0DD90b768b382e981E50312333A7A1A69D",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15104898,
+    "category": "lock"
+   },
+   {
+    "hash": "0x104971aae52c235e4518096f3cbab185bc36a97234827e4b29e93fc7d178bdc0",
+    "timestamp": "2022-07-08T23:17:51.000000Z",
+    "method": "lockScore",
+    "from": "0xEd1A9E046bEdb13Eb801AEd473eA142e18Eb0a4b",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15104892,
+    "category": "lock"
+   },
+   {
+    "hash": "0x7234dd7dd8fdb86354dec7125dabe8de3cde2b104372cb0bf91fc80eb8234f7a",
+    "timestamp": "2022-07-08T23:03:14.000000Z",
+    "method": "lockScore",
+    "from": "0xCFC749e90D99bEeF9e80340e9FFb6C813A49B6eC",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15104824,
+    "category": "lock"
+   },
+   {
+    "hash": "0x8536a7b1bb9c6c7ef34a49807c6e3fbd831e7db262d4661a1d89a50376bd04e7",
+    "timestamp": "2022-07-08T22:55:26.000000Z",
+    "method": "lockScore",
+    "from": "0x2566BbE9853b6b90bfE7A5788ddD01735F503982",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15104792,
+    "category": "lock"
+   },
+   {
+    "hash": "0x0e7b8394eb60e9537a6a0139a5231816643f684e0e1e704d9403a6e99fab8056",
+    "timestamp": "2022-07-08T22:42:03.000000Z",
+    "method": "lockScore",
+    "from": "0x2DdbaedDEd37E3953f194622181cD2a1c2047881",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15104729,
+    "category": "lock"
+   },
+   {
+    "hash": "0xe7264d15d87491c2f0522a86557e05a6ec4840b30461dabe967ad61917610e51",
+    "timestamp": "2022-07-08T22:38:04.000000Z",
+    "method": "lockScore",
+    "from": "0x108686b8602f3FA9E6BC48D6017a8e2b8F1D2D15",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15104713,
+    "category": "lock"
+   },
+   {
+    "hash": "0xd11e2f1383dba3f5741783e93923e6f070df174047352c7f025d3d05f28c9d33",
+    "timestamp": "2022-07-08T22:32:26.000000Z",
+    "method": "lockScore",
+    "from": "0xcC3415f9Fd1e170413a776266BceF6Ecc02511F5",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 15104686,
+    "category": "lock"
+   },
+   {
+    "hash": "0x2e2b2e92257be1cff024cf973b50aea64efbe500e5bc7ec0b7a45658ef7398bf",
+    "timestamp": "2022-07-08T22:23:54.000000Z",
+    "method": "lockScore",
+    "from": "0xf43B2bE4AA887F426F05f78604b364af667C608d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 15104651,
+    "category": "lock"
+   },
+   {
+    "hash": "0xdc848c6b82935b3cafed17aa7fed0d38c0a74f862d928115467df9a566930e7c",
+    "timestamp": "2022-07-08T22:13:17.000000Z",
+    "method": "lockScore",
+    "from": "0xE57783DA26a9818db29EFBF1C0c08cFDBC783313",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15104613,
+    "category": "lock"
+   },
+   {
+    "hash": "0xb162cfdadbec18d75f7bd5e21861f492448d2c8fc05f8043cdfd4c4c48ed1ddc",
+    "timestamp": "2022-07-25T17:13:03.000000Z",
+    "method": "lockScore",
+    "from": "0xBEA28617CF5757be6cabC36Ca9CDa266DDe9325F",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15212963,
+    "category": "lock"
+   },
+   {
+    "hash": "0xcfd4595c1f70b789c0efdbd91d60d321aa1d413eca0fd90e35bac1366cf5483c",
+    "timestamp": "2022-07-25T12:49:07.000000Z",
+    "method": "lockScore",
+    "from": "0xb963fa652274e887E7Ab9876f436e054Dfb3C3cD",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15211759,
+    "category": "lock"
+   },
+   {
+    "hash": "0x12c90ca321f87b466401bc5b6504cf4ee3641660c5315430a961c0d9f06ca21c",
+    "timestamp": "2022-07-21T13:51:36.000000Z",
+    "method": "lockScore",
+    "from": "0x3A3B854bC642282a2a4adB7BfaE49984c297578E",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15186255,
+    "category": "lock"
+   },
+   {
+    "hash": "0x162ded9e498dae454cac63e7c7c9673a66203f4ed08e1df6e50fd35a70272403",
+    "timestamp": "2022-07-20T21:55:30.000000Z",
+    "method": "lockScore",
+    "from": "0x968AF8c01D117Ac36AbcD1374eee7799Bf53CF42",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15182027,
+    "category": "lock"
+   },
+   {
+    "hash": "0xf44369919b3a1090e62f0385d3ec647e742b4e94a039de83620bccf7fc3bb427",
+    "timestamp": "2022-07-18T21:48:17.000000Z",
+    "method": "lockScore",
+    "from": "0x347d9C6ea6ACCDA235bcEE056c649d891fF08fD0",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15169117,
+    "category": "lock"
+   },
+   {
+    "hash": "0x87da7b3f48c07e2f96e26de67c6a9b52a49956290432a15ebe6739c899054d7a",
+    "timestamp": "2022-07-17T21:11:32.000000Z",
+    "method": "lockScore",
+    "from": "0x7Bf5f796E22E908E32068B42f6e1e7e2a2Ffce55",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 15162465,
+    "category": "lock"
+   },
+   {
+    "hash": "0x0cd6da66be3e24531a9686208a3c3d96c80dcbe2fb9b18a624fba71e7a1325e7",
+    "timestamp": "2022-07-17T16:42:39.000000Z",
+    "method": "lockScore",
+    "from": "0x5181e0d2908692aEc025Fa8B7AE773F52b057e5E",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15161301,
+    "category": "lock"
+   },
+   {
+    "hash": "0xe00981f502f45004b8e997f0fce50b36e31d3081d51a1ecae6438034787e98c8",
+    "timestamp": "2022-07-14T22:25:40.000000Z",
+    "method": "lockScore",
+    "from": "0x3cE8202824fD5673788F9e014d2d37ea18C2AFc5",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15143474,
+    "category": "lock"
+   },
+   {
+    "hash": "0x28544613998f837c62a2a0f1438a1fb25e3dae1f70f3df2ab8f2409e47fe5e8c",
+    "timestamp": "2022-07-14T19:12:14.000000Z",
+    "method": "lockScore",
+    "from": "0xcf8D47B55ECB6D5CAAa03353a71Af84f1cDCcAE4",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 15142601,
+    "category": "lock"
+   },
+   {
+    "hash": "0x9ae479acf8a7599764b7099c854d0d99a7559b0f508e902ff86cbe519aeae73b",
+    "timestamp": "2022-07-13T20:56:40.000000Z",
+    "method": "lockScore",
+    "from": "0x99bd730362bF96288E47Ae5736b52b48adc3A081",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 15136541,
+    "category": "lock"
+   },
+   {
+    "hash": "0xf860e98b468534fa959fca465ac46f21e9338ebd897ff2596c70adb84faf31fd",
+    "timestamp": "2022-07-12T02:58:16.000000Z",
+    "method": "lockScore",
+    "from": "0x47F53b89e84519C0b118fcB133f00C325A403ea8",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15125298,
+    "category": "lock"
+   },
+   {
+    "hash": "0x62f5a6aad3ecf51db17e7a2793397f29f938a6226974f838d2a4771c66becb72",
+    "timestamp": "2022-07-11T19:04:42.000000Z",
+    "method": "lockScore",
+    "from": "0x0971e862176f9E7C4F131a9D94290b8254E84500",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15123133,
+    "category": "lock"
+   },
+   {
+    "hash": "0xdf752208430bd37817c1e4e7d3792af8b6f9a7c08f17fc97c40791820d2d6aa2",
+    "timestamp": "2022-07-11T14:49:25.000000Z",
+    "method": "lockScore",
+    "from": "0x2aC4Cd6cD6083EE0f64bA8737E2aBaf020F942e8",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15121940,
+    "category": "lock"
+   },
+   {
+    "hash": "0x69abf70ecabc155dd136cc71c0a25e5979e10aae0af11e53b76bad1d5282d3c1",
+    "timestamp": "2022-07-11T06:01:24.000000Z",
+    "method": "lockScore",
+    "from": "0x3f4eC9943d084Da25b00E810874cD7814c9fC7dA",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15119623,
+    "category": "lock"
+   },
+   {
+    "hash": "0x7df86c3097214c57af62a1e2c6c225c552d26ac9af73429735d08c2acb89ffd9",
+    "timestamp": "2022-07-10T21:33:28.000000Z",
+    "method": "lockScore",
+    "from": "0xf5eeA3907D0Ea758cF433e3E79951DaBA436f5Fb",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15117316,
+    "category": "lock"
+   },
+   {
+    "hash": "0x41a640f15e15ebcdf58f3f9f39d07a7df38ba6f088ca32e325327c4cca57adb6",
+    "timestamp": "2022-07-10T11:53:58.000000Z",
+    "method": "lockScore",
+    "from": "0xA94b40c53432f0576E64873CE1CEAd1aae62Fc90",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15114749,
+    "category": "lock"
+   },
+   {
+    "hash": "0x39bebfbdbe375db2b39900df93b071916b522ddfb325cf654ecba81910de4208",
+    "timestamp": "2022-07-10T07:59:41.000000Z",
+    "method": "lockScore",
+    "from": "0x31356F6d29aec5c0f3F059a64d2A15622ae775D3",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15113693,
+    "category": "lock"
+   },
+   {
+    "hash": "0xf079afd4a2222080c4dbb1b8b354b52a1a2131bf8f9255e28c354216c3618ab4",
+    "timestamp": "2022-07-09T12:52:00.000000Z",
+    "method": "lockScore",
+    "from": "0xC5F1B1ea8b25B40c1e9e7bfFb41511Fee3433D31",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15108453,
+    "category": "lock"
+   },
+   {
+    "hash": "0xcabc6a432504a3a04eddf5ae18b2642917f7d10a25b66f842208b30fbf0babec",
+    "timestamp": "2022-07-09T12:51:17.000000Z",
+    "method": "lockScore",
+    "from": "0x2C290551C43989D5Cb32749628b700D0E9EA2473",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15108448,
+    "category": "lock"
+   },
+   {
+    "hash": "0x0852b2534db4d88c7596a0d6c200e4d7258b3195eab22eb34c45911b1fe2d53a",
+    "timestamp": "2022-07-09T12:49:30.000000Z",
+    "method": "lockScore",
+    "from": "0xC8F5429285F001EdFc8735B91A8401eFe4896Bee",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15108439,
+    "category": "lock"
+   },
+   {
+    "hash": "0xa39dc8c7bfc1a27714087966f811824df9d258fb167c629a48551534e8756e66",
+    "timestamp": "2022-07-09T12:48:39.000000Z",
+    "method": "lockScore",
+    "from": "0xfA4C277Bdcaaf36d9B10b1d84703703D156C074b",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15108435,
+    "category": "lock"
+   },
+   {
+    "hash": "0xb59db01040dea3816330a45fb8478cfe8ce2e1d9d0ae1f23d1c5623fff133ebe",
+    "timestamp": "2022-07-09T12:40:09.000000Z",
+    "method": "lockScore",
+    "from": "0x17A77D63765963d0Cb9deC12Fa8F62E68Fee8fD4",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 15108400,
+    "category": "lock"
+   },
+   {
+    "hash": "0x5f4bbe46efe0b08168679ced864baf45635e0587d57622830d8843cc558da2e6",
+    "timestamp": "2022-07-09T12:02:24.000000Z",
+    "method": "lockScore",
+    "from": "0x4ccF37B1d99CB5A4adbA74C0c3f6687C39b26121",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15108223,
+    "category": "lock"
+   },
+   {
+    "hash": "0xe56f7d823e0881a10c12c6ec91ed4fc0bdd9d4129d3924db2ac0fb58964833fd",
+    "timestamp": "2022-07-09T08:49:08.000000Z",
+    "method": "lockScore",
+    "from": "0x24D55b7da98A675BCe37bC89909b5F73A568a1d5",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15107403,
+    "category": "lock"
+   },
+   {
+    "hash": "0x85cb47a81b806af676a883053bf761e4f63aad70cd626983f6ea111a6a3e6e5a",
+    "timestamp": "2022-07-09T06:43:57.000000Z",
+    "method": "lockScore",
+    "from": "0x19E989a9D6D16522E4B0896020032601d30D247d",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15106822,
+    "category": "lock"
+   },
+   {
+    "hash": "0xbe789af5bd9310eff0e37b4731c6e0d72e139c865891971ff6d48546516a4dc3",
+    "timestamp": "2022-07-09T06:40:36.000000Z",
+    "method": "lockScore",
+    "from": "0x5803f2F38d84bA5CAc6B78bD26d62225BD42D673",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15106802,
+    "category": "lock"
+   },
+   {
+    "hash": "0x2e0aa60baff04336552604bd6a98badf62bd0e0c87595bc1d05077f1064bcfe5",
+    "timestamp": "2022-07-09T04:47:24.000000Z",
+    "method": "lockScore",
+    "from": "0x6E76c0EBB2d597E1981dBede53e89d168d28222C",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15106276,
+    "category": "lock"
+   },
+   {
+    "hash": "0x10100d724ba3bc85880fa57cad10a057a9f976e63f5a1b28c4f646580372922c",
+    "timestamp": "2022-07-09T04:04:21.000000Z",
+    "method": "lockScore",
+    "from": "0x2c93E366a1C730D10026465b59802aa6260251ee",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15106091,
+    "category": "lock"
+   },
+   {
+    "hash": "0xde805831ee4121f095940f92b1d1d93da6ddb5cac2d76e1c1d022e7a89b690cd",
+    "timestamp": "2022-07-09T03:40:08.000000Z",
+    "method": "lockScore",
+    "from": "0x3F08f2DA5C338754498F7e8B1dec25345104F716",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15105998,
+    "category": "lock"
+   },
+   {
+    "hash": "0x2c0d8c74ac3a1356c3e83c42f7960cf8f28e2f335d9064963019a50b349d1486",
+    "timestamp": "2022-07-09T03:36:51.000000Z",
+    "method": "lockScore",
+    "from": "0x531b5F2756F6ffe2347e4fc5C9353569Cf7045eb",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15105981,
+    "category": "lock"
+   },
+   {
+    "hash": "0x854f15d8dc7c75ddd36cc3c6c9e6cbdcdc239e87313db85decc76546f195e358",
+    "timestamp": "2022-07-09T03:36:31.000000Z",
+    "method": "lockScore",
+    "from": "0x6cdD6e35EE7282B3b0c415A964159c28a0dCae6D",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15105979,
+    "category": "lock"
+   },
+   {
+    "hash": "0xd5f4cf6e21d33c950888d1d9f29acca8128f5bd786bd58b19c0038ba510ed934",
+    "timestamp": "2022-07-09T03:36:16.000000Z",
+    "method": "lockScore",
+    "from": "0x1822E6ED3b5bBb8f9447F765A07B1Dc116fb9EA4",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15105978,
+    "category": "lock"
+   },
+   {
+    "hash": "0x16ce9c73bbe5dd6b58cfc78b512f553675d51f7d0dbd2991ad7b6e3e24fcc4f7",
+    "timestamp": "2022-07-09T02:12:58.000000Z",
+    "method": "lockScore",
+    "from": "0xEeAF3BD19eBe8823ABCc994538A930ee37A6dd3B",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15105654,
+    "category": "lock"
+   },
+   {
+    "hash": "0x5a59bba1b1e08f3bc38982da4e60e09103871df96fd22707b5227c77b9476755",
+    "timestamp": "2022-07-09T01:48:46.000000Z",
+    "method": "lockScore",
+    "from": "0x1a1743bE45F2af484E7a5841Df6Ab5dcC83649B8",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 15105564,
+    "category": "lock"
+   },
+   {
+    "hash": "0x14624893115a6b9754951b8ed53efa692c5b24ba9bf825cde8c94ca1077d5b4c",
+    "timestamp": "2022-07-09T01:31:25.000000Z",
+    "method": "lockScore",
+    "from": "0x81b515dA61a8125295bcBc64ea048eAD1f37e8D1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15105488,
+    "category": "lock"
+   },
+   {
+    "hash": "0x632b31d100b00c12fc2b67d7df04e885e459d3f0a97b2d6fd37af3b507177976",
+    "timestamp": "2022-07-09T00:56:29.000000Z",
+    "method": "lockScore",
+    "from": "0xbacC396F1586eFcf4885e8a6f6B73a8362D8FB76",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15105341,
+    "category": "lock"
+   },
+   {
+    "hash": "0xc08fd9b6d4d09bbaef5633f0cd18a98cc1b60ccf486f098f58b5417af35fff9d",
+    "timestamp": "2022-07-09T00:48:44.000000Z",
+    "method": "lockScore",
+    "from": "0x0C6552A920e44208985bE101143AC80933939013",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15105306,
+    "category": "lock"
+   },
+   {
+    "hash": "0xecaf0c44a1100e2bf3d1ee945dc9340e16d8abcdbbe4c10630c45766394b4fa9",
+    "timestamp": "2022-07-09T00:30:04.000000Z",
+    "method": "lockScore",
+    "from": "0xCf44303Ff6FC5207ABDF9A0fd6caC50670bFCC68",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15105206,
+    "category": "lock"
+   },
+   {
+    "hash": "0x43d3d46a7d17dc0cbc576d5b11fe6afb0938f303a5da2313e7b2b900269f3e23",
+    "timestamp": "2022-07-09T00:28:24.000000Z",
+    "method": "lockScore",
+    "from": "0x3Ddd280cdEA5CC80b65683c0Acc039f01f858189",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15105198,
+    "category": "lock"
+   },
+   {
+    "hash": "0x1a92b081408fbb72bc20d185e8aff5a72e333e1c03860cc33373acdab0efb8b7",
+    "timestamp": "2022-07-09T00:11:24.000000Z",
+    "method": "lockScore",
+    "from": "0xC839de0fEd241607d50aa4107aE582443B906e4c",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 15105125,
+    "category": "lock"
+   },
+   {
+    "hash": "0x5b5510a0287099fee41b70ba730b65bf8a985125afe9f43f6f93f55e5dc5f7f6",
+    "timestamp": "2022-07-08T23:45:42.000000Z",
+    "method": "lockScore",
+    "from": "0x4b2ef7127640964Bf5CEf3d1Bf8D8F72d8D386f5",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15105015,
+    "category": "lock"
+   },
+   {
+    "hash": "0xbf6bce0e533bf6f0e253fc51b561f2fb33e4c66439c4121dbe91e2f41ad01fea",
+    "timestamp": "2022-07-08T23:18:35.000000Z",
+    "method": "lockScore",
+    "from": "0x34F2aC0DD90b768b382e981E50312333A7A1A69D",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15104898,
+    "category": "lock"
+   },
+   {
+    "hash": "0x104971aae52c235e4518096f3cbab185bc36a97234827e4b29e93fc7d178bdc0",
+    "timestamp": "2022-07-08T23:17:51.000000Z",
+    "method": "lockScore",
+    "from": "0xEd1A9E046bEdb13Eb801AEd473eA142e18Eb0a4b",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15104892,
+    "category": "lock"
+   },
+   {
+    "hash": "0x7234dd7dd8fdb86354dec7125dabe8de3cde2b104372cb0bf91fc80eb8234f7a",
+    "timestamp": "2022-07-08T23:03:14.000000Z",
+    "method": "lockScore",
+    "from": "0xCFC749e90D99bEeF9e80340e9FFb6C813A49B6eC",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15104824,
+    "category": "lock"
+   },
+   {
+    "hash": "0x8536a7b1bb9c6c7ef34a49807c6e3fbd831e7db262d4661a1d89a50376bd04e7",
+    "timestamp": "2022-07-08T22:55:26.000000Z",
+    "method": "lockScore",
+    "from": "0x2566BbE9853b6b90bfE7A5788ddD01735F503982",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15104792,
+    "category": "lock"
+   },
+   {
+    "hash": "0x0e7b8394eb60e9537a6a0139a5231816643f684e0e1e704d9403a6e99fab8056",
+    "timestamp": "2022-07-08T22:42:03.000000Z",
+    "method": "lockScore",
+    "from": "0x2DdbaedDEd37E3953f194622181cD2a1c2047881",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15104729,
+    "category": "lock"
+   },
+   {
+    "hash": "0xe7264d15d87491c2f0522a86557e05a6ec4840b30461dabe967ad61917610e51",
+    "timestamp": "2022-07-08T22:38:04.000000Z",
+    "method": "lockScore",
+    "from": "0x108686b8602f3FA9E6BC48D6017a8e2b8F1D2D15",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15104713,
+    "category": "lock"
+   },
+   {
+    "hash": "0xd11e2f1383dba3f5741783e93923e6f070df174047352c7f025d3d05f28c9d33",
+    "timestamp": "2022-07-08T22:32:26.000000Z",
+    "method": "lockScore",
+    "from": "0xcC3415f9Fd1e170413a776266BceF6Ecc02511F5",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 15104686,
+    "category": "lock"
+   },
+   {
+    "hash": "0x2e2b2e92257be1cff024cf973b50aea64efbe500e5bc7ec0b7a45658ef7398bf",
+    "timestamp": "2022-07-08T22:23:54.000000Z",
+    "method": "lockScore",
+    "from": "0xf43B2bE4AA887F426F05f78604b364af667C608d",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 15104651,
+    "category": "lock"
+   },
+   {
+    "hash": "0xdc848c6b82935b3cafed17aa7fed0d38c0a74f862d928115467df9a566930e7c",
+    "timestamp": "2022-07-08T22:13:17.000000Z",
+    "method": "lockScore",
+    "from": "0xE57783DA26a9818db29EFBF1C0c08cFDBC783313",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15104613,
+    "category": "lock"
+   },
+   {
+    "truncated": true,
+    "chunk": 0
+   }
+  ],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 1,
+    "first": "2022-06-12",
+    "last": "2022-06-12",
+    "last_tx": "0x9eeaa7883c9d23f6cc61ea6342c7660f7d22898f2b49425e6f040b3097722ae8",
+    "list": [
+     {
+      "date": "2022-06-12",
+      "tx": "0x9eeaa7883c9d23f6cc61ea6342c7660f7d22898f2b49425e6f040b3097722ae8",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "fa96217c8910a260f377ed9b0dd7044692e0b7f8"
+      ],
+      "data": "0x"
+     }
+    ]
+   },
+   "ScoreLocked(address,uint256,uint64)": {
+    "n": 687,
+    "first": "2022-06-12",
+    "last": "2022-07-25",
+    "last_tx": "0xb162cfdadbec18d75f7bd5e21861f492448d2c8fc05f8043cdfd4c4c48ed1ddc",
+    "list": [
+     {
+      "date": "2022-06-12",
+      "tx": "0x141692e743036f60fa7836cab208bc029aa3a07fa45527dd77d4e0cbd8f46450",
+      "topics": [
+       "62cf3b4421fe0c9a33fbb93e483cac51fbb6a3e0",
+       "00000000000000000000000000000000000000e0",
+       "0000000000000000000000000000000000000000"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2022-06-12",
+      "tx": "0xf05d48908219ff71a029184232dc8402cb86396671d406d3b201478199628daf",
+      "topics": [
+       "df8b134fb7743acd805ecdee11335dd0cca921fc",
+       "000000000000000000000000000000000000010b",
+       "00000000000000000000000000000000000000aa"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2022-06-12",
+      "tx": "0xd3208f0781b0cf4d2fe992da7536b953934ed7e747f2b87f7cec660454ba01c3",
+      "topics": [
+       "5e130cb7f8cdcfb5a15018ee5846769703ec4478",
+       "0000000000000000000000000000000000000132",
+       "00000000000000000000000000000000000001a4"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2022-06-12",
+      "tx": "0xb7e3c479bd9d375172c4af82f3f6ec300109cc1f2cd619c6ad49f38566a8fd7c",
+      "topics": [
+       "e5798a530bb7105e148d38ac884f05c28ed8e804",
+       "00000000000000000000000000000000000001bd",
+       "0000000000000000000000000000000000000096"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2022-06-12",
+      "tx": "0xd09307d9e68817bcf4c646f6e15b959986dad8c74a1f9519d503fcf30a1aca7b",
+      "topics": [
+       "4d2c5853f18ea553cf5716a9af95bcd7f4095cc5",
+       "00000000000000000000000000000000000001e8",
+       "0000000000000000000000000000000000000096"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2022-06-12",
+      "tx": "0x5f1a1de266b0448ddd622da8fdef2f93901c0ffdd819c3f0770bcba1e5b6a595",
+      "topics": [
+       "d2749e7729d61b8daf41f4e26f5bf5d0047481ed",
+       "000000000000000000000000000000000000019e",
+       "000000000000000000000000000000000000010e"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2022-06-13",
+      "tx": "0x8b4648b1e816b67906352fa5e65d6e6751e102c0664722288d60aceb809b7ec4",
+      "topics": [
+       "42877bf500f9889975cb26dede0a973ebec60bd8",
+       "000000000000000000000000000000000000013c",
+       "000000000000000000000000000000000000014a"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2022-06-13",
+      "tx": "0x39f90f1195365a8d19df75c0ceffdfd6519991ba084dea49c1af8e68f4a6baba",
+      "topics": [
+       "431eb1851c508b2784f21860d9a0c6ef6ec24fde",
+       "00000000000000000000000000000000000000af",
+       "00000000000000000000000000000000000002b2"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2022-06-13",
+      "tx": "0x6c0984b50b4ffc03760208e4ac97f0922c2da056cf23e883ab210fe6938db6d6",
+      "topics": [
+       "6e79e6e157f55f9c3e5e01e805c13e037d49c4cf",
+       "00000000000000000000000000000000000000dc",
+       "00000000000000000000000000000000000000e6"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2022-06-13",
+      "tx": "0x0ab502b90b61402f4cb829e6cd2ec21150874529562514a012e35aa3de0b0f09",
+      "topics": [
+       "a8b6282d6655324f6ccf4f71c55f854375b79b04",
+       "00000000000000000000000000000000000002e1",
+       "0000000000000000000000000000000000000104"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2022-06-13",
+      "tx": "0x6309e0235f61b064fe0be619483c453bb97526bee2623f2989482d5ed6fcc913",
+      "topics": [
+       "d716ad4f10eade5af4ed10006678f49bd2e6624f",
+       "000000000000000000000000000000000000032e",
+       "0000000000000000000000000000000000000104"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2022-06-13",
+      "tx": "0x4935feeeb25065478d626598d698dbb8a1562ea4658caf70e26ba7a21a2b0337",
+      "topics": [
+       "5a573efafcbe072e7c5981fe62ffe6cfbebec47b",
+       "0000000000000000000000000000000000000388",
+       "0000000000000000000000000000000000000172"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2022-06-13",
+      "tx": "0x82e9ca22e5ac2755475d2f5ed1ae513bd4747800d2eab0c48bf2a6e744fa9120",
+      "topics": [
+       "b95f5d7794baa611daa997f32719b272ffeedd79",
+       "000000000000000000000000000000000000040f",
+       "00000000000000000000000000000000000000e6"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2022-06-13",
+      "tx": "0xa506c0569f68844e19a02381177b0993d11dced8b51e8ec7ecd933369c960660",
+      "topics": [
+       "3b6319fd9be47d27b02a8d9d356c4a44732f5166",
+       "0000000000000000000000000000000000000398",
+       "0000000000000000000000000000000000000316"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2022-06-14",
+      "tx": "0x95af95c1ffebb8ac390946114b82fadaf781cbbcf4016ab1bae8b5d42cbd99d2",
+      "topics": [
+       "989d7847f12f8721e2156adea3952c4a4f02a0e3",
+       "000000000000000000000000000000000000043c",
+       "0000000000000000000000000000000000000122"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2022-06-14",
+      "tx": "0x9e31d5a6dcd53c1d7751b3957d824bbed89f2d46bb53d0a5479892a08c232dff",
+      "topics": [
+       "54793fb104d9362d0ee7a79af8fb3e6e35c07b14",
+       "000000000000000000000000000000000000046f",
+       "0000000000000000000000000000000000000096"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2022-06-14",
+      "tx": "0x7cfe383c306aafc493feee11c1960b3415e3c8eb07eb112c1eb15208adb176c2",
+      "topics": [
+       "831c8ea71fa3f6cd809ca0ffb820f94457326d93",
+       "0000000000000000000000000000000000000475",
+       "00000000000000000000000000000000000001d6"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2022-06-14",
+      "tx": "0xe2481b88c325d16cf1a6e404eb1d9e1a6f2acbec2bc8dd2f97184c7174a91b4e",
+      "topics": [
+       "b2ba50115caa864c07a533b57487e02c78b3aedc",
+       "00000000000000000000000000000000000004d4",
+       "000000000000000000000000000000000000015e"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2022-06-14",
+      "tx": "0x283e6199b512fc26f7d6333aa055de6e5e29b0526efebf393cccaa12854a6445",
+      "topics": [
+       "d1327c2e2b63b8f0e51d3e1218f07a332230e4ab",
+       "0000000000000000000000000000000000000366",
+       "0000000000000000000000000000000000000230"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2022-06-14",
+      "tx": "0x957efc4a1ace9a4dc6211322061a23377e11f549af30a928487920bef1d6e336",
+      "topics": [
+       "b2c6e55eef32c0b118c548cb12d0dc04cd0c151b",
+       "000000000000000000000000000000000000006b",
+       "0000000000000000000000000000000000000492"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2022-06-14",
+      "tx": "0xc86093571ccb474b2f9c9cdcc3dcbf58ff4a0a40b90c5f6fefd9f671812b3ad1",
+      "topics": [
+       "ebfe1ab93d1122e065adcafd8c3174261e8e726f",
+       "000000000000000000000000000000000000050d",
+       "00000000000000000000000000000000000001b8"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2022-06-14",
+      "tx": "0x7a2b4c6cce00b8463f2ca47352c62fe69cd7a38e8e4903850b147dbbe0d03fcd",
+      "topics": [
+       "6b593aadb141f2680e86ef2b5f9e7382dd83756b",
+       "0000000000000000000000000000000000000397",
+       "00000000000000000000000000000000000001ea"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2022-06-15",
+      "tx": "0xdf5ca5f106c7a1bc9bdc6c259e3ef18e070f07a1c550769ea633182d2fafb7bf",
+      "topics": [
+       "5c780a9b51d8358b230c4c92342cb57b1bcf1900",
+       "00000000000000000000000000000000000002f0",
+       "000000000000000000000000000000000000017c"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2022-06-15",
+      "tx": "0x2b68105025ee18e0bc5d093d96c6666acc4e9cfea6d042b06995d9c2ed83ef61",
+      "topics": [
+       "126f066a7cec41152893803fb55b80cbbc5413cf",
+       "0000000000000000000000000000000000000088",
+       "00000000000000000000000000000000000002f8"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2022-06-15",
+      "tx": "0xefc040cdc1e1723216aeb3a4314eabf6ff72549a0326b0823f2e086e3a044164",
+      "topics": [
+       "e7b9466e2c4e8152f5d9001be489168a8a6585c1",
+       "0000000000000000000000000000000000000503",
+       "0000000000000000000000000000000000000294"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2022-06-15",
+      "tx": "0x43063947b564d223c765eebb7d35928dabaaa587e0f078488912f99d936818f8",
+      "topics": [
+       "7c0ec1a11cc89debd3a6bf35a5811833fb6af30a",
+       "0000000000000000000000000000000000000488",
+       "0000000000000000000000000000000000000140"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2022-06-15",
+      "tx": "0x966d55b4f97cae2c8311681362595cb92c4c69d8fbebf5e8b81687327320a362",
+      "topics": [
+       "49c5e1236a202462a0ee30fa525814468488cec8",
+       "0000000000000000000000000000000000000065",
+       "0000000000000000000000000000000000000212"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2022-06-15",
+      "tx": "0xbb191ab408b075fc97a9e743616e6e220923faf4a4e6d259de975ff83665822a",
+      "topics": [
+       "8e2d8f6ce901d9c558f30690fb52ea864a49bb75",
+       "000000000000000000000000000000000000034d",
+       "00000000000000000000000000000000000001ea"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2022-06-15",
+      "tx": "0x621516cf2ac354ef973750aa4fcad4b942b7b52ebcfa0a81d2dfa1ef0339604b",
+      "topics": [
+       "2cb3338f518b2d61470b4d1d503bdc84c1a04ecd",
+       "000000000000000000000000000000000000057e",
+       "000000000000000000000000000000000000006e"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2022-06-16",
+      "tx": "0x4c58637fb954b7a027120ec9a44ad7025a3b331be1bab751eaaa4a34892f9653",
+      "topics": [
+       "1f35fb8f7cd3a7ca162b528893a7e7188e1d0ff7",
+       "0000000000000000000000000000000000000408",
+       "000000000000000000000000000000000000035c"
+      ],
+      "data": "0x"
+     }
+    ]
+   }
+  },
+  "decoded": [],
+  "ownership_transfers": [
+   {
+    "date": "2022-06-12",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0xfa96217c8910a260f377ed9b0dd7044692e0b7f8",
+    "tx": "0x9eeaa7883c9d23f6cc61ea6342c7660f7d22898f2b49425e6f040b3097722ae8"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0x6f75beaa3d3d8a15e08a9f499464c696fc4d4cde_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0xfa96217c8910a260f377ed9b0dd7044692e0b7f8",
+  "code_raw": "data/raw/rpc-mutability/0xfa96217c8910a260f377ed9b0dd7044692e0b7f8_holdercode.json",
+  "type": "eoa",
+  "bs_name": null,
+  "ens": null,
+  "bs_impl_names": [],
+  "bs_tags": [],
+  "is_contract": false,
+  "creator": null,
+  "is_verified": false,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "override",
+ "lock_functions": [
+  "lockScore"
+ ],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [
+  {
+   "name": "setCoverURI",
+   "sig": "setCoverURI(string)",
+   "selector": "0xecd783c4",
+   "category": "uri",
+   "inputs": [
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "coverURI = _uri;",
+   "writes": [
+    "coverURI"
+   ],
+   "effective": "yes",
+   "power": "eoa",
+   "holder_addrs": [
+    "0xfa96217c8910a260f377ed9b0dd7044692e0b7f8"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xfa96217c8910a260f377ed9b0dd7044692e0b7f8",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "setGameURI",
+   "sig": "setGameURI(string)",
+   "selector": "0x03660969",
+   "category": "uri",
+   "inputs": [
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "gameURI = _uri;",
+   "writes": [
+    "gameURI"
+   ],
+   "effective": "yes",
+   "power": "eoa",
+   "holder_addrs": [
+    "0xfa96217c8910a260f377ed9b0dd7044692e0b7f8"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xfa96217c8910a260f377ed9b0dd7044692e0b7f8",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  }
+ ],
+ "class_direct": "eoa-mutable",
+ "class_reason": "live setters (eoa): setCoverURI,setGameURI",
+ "live_mutators": [
+  "setCoverURI",
+  "setGameURI"
+ ],
+ "dependencies": [],
+ "meta": {
+  "address": "0x6f75beaa3d3d8a15e08a9f499464c696fc4d4cde",
+  "name": "Squiggle Game",
+  "w5_claim_strength": null,
+  "w5_claim_text": null,
+  "w5_source_type": null,
+  "w5_source_url": null,
+  "holders_count": 1288.0,
+  "in_w5": false,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": "onchain-renderer",
+  "census_media_class": "ipfs",
+  "census_liveness": "alive",
+  "in_census_onchain": true,
+  "standard": "ERC-721",
+  "creator": "0xfa96217c8910a260f377ed9b0dd7044692e0b7f8",
+  "deploy_block": 14951167.0
+ },
+ "class_deps_all": "none",
+ "class_deps": "none",
+ "class_final": "eoa-mutable",
+ "pointer_power": "eoa"
+}

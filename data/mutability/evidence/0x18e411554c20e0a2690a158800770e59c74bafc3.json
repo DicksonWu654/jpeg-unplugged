@@ -1,0 +1,2293 @@
+{
+ "address": "0x18e411554c20e0a2690a158800770e59c74bafc3",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:04Z",
+ "code_raw": "data/raw/rpc-mutability/0x18e411554c20e0a2690a158800770e59c74bafc3_code.json",
+ "code_len": 12076,
+ "slots": {
+  "slot0": "0x4f6e436861696e204d79636f730000000000000000000000000000000000001a"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0x18e411554c20e0a2690a158800770e59c74bafc3_slots.json",
+ "verified": true,
+ "contract_name": "Mushroom",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [
+   {
+    "hash": "0xa41b322e4bba29785847d67727a356f55d998777621940e949289110e5fb9a13",
+    "timestamp": "2026-06-20T10:14:59.000000Z",
+    "method": "reveal",
+    "from": "0xbF55fe6aa80dA4e187082407c02803d0Db15b257",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358135,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x2ff385ae6f404b868e74ff505a855244cb607a608a0f83f6c64547fd785ecbb0",
+    "timestamp": "2026-06-20T10:09:11.000000Z",
+    "method": "reveal",
+    "from": "0xF50546E7aD4E10c7F68410DfD497ED8fC19F1b22",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25358106,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x16fa579eaa2bf4a0cce66d04d8fed93e12825df8afd31d69d93eaa5f5b6fe741",
+    "timestamp": "2026-06-20T10:08:59.000000Z",
+    "method": "reveal",
+    "from": "0xbF55fe6aa80dA4e187082407c02803d0Db15b257",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358105,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x4854819bd8364bd633cac7440001f8644a5855fd36bf3aa809c44ef2762345fa",
+    "timestamp": "2026-06-20T10:01:11.000000Z",
+    "method": "reveal",
+    "from": "0xbF55fe6aa80dA4e187082407c02803d0Db15b257",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358066,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xfee2926c0100075cd79399814bdfd93b0cfd076094703e59fe961a17f58bfb70",
+    "timestamp": "2026-06-20T09:58:23.000000Z",
+    "method": "revealBatch",
+    "from": "0x8fBd1A16B3C1679c0114c55BC195449965F432AA",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358052,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x595a97384dc0edadad654397a91db6b3925690978221e5d8976ce460b55a75f3",
+    "timestamp": "2026-06-20T09:57:35.000000Z",
+    "method": "revealBatch",
+    "from": "0x6AA4402cEC577293D785Ff500140f42BeE1aBDeF",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358048,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x3d36b81d87c48aeeae99325996f71af1587cbc015a746ec325cbbf58c7e32fe6",
+    "timestamp": "2026-06-20T09:56:59.000000Z",
+    "method": "revealBatch",
+    "from": "0x4DCcBCfFbeACaC1A789E609d986dCa147da146D9",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358045,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x385773236bd7ae54b144a30e270183c088ffa1a57660c585c6e5aff7c601104e",
+    "timestamp": "2026-06-20T09:56:35.000000Z",
+    "method": "reveal",
+    "from": "0x3973A536DbA4f876327868341136044b7c7Ddfc3",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358043,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x6870c70dfdb37ed5bd65f199f0c46e8f5ce66a2b7863521428d65911c0b40166",
+    "timestamp": "2026-06-20T09:56:35.000000Z",
+    "method": "reveal",
+    "from": "0x1F44b0D8186C9383b9c5349D60fD697550F2Bf7b",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358043,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x6cb490254f1e0a03f82aec591325d1cc54ce1a2df9b7778bc1202559a063c1c4",
+    "timestamp": "2026-06-20T09:56:23.000000Z",
+    "method": "reveal",
+    "from": "0xfb32D1B2559ED7fb950b7A061968a8f344e8Fe67",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358042,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x5a95cee679ecdf1ed1f84288afede4c4db4ba50cee61417e914c8f74688fb87f",
+    "timestamp": "2026-06-20T09:55:59.000000Z",
+    "method": "reveal",
+    "from": "0x367F91fa6DFAefc60B4c5440D13c77A92df8FBB1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358040,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xb5fbc4eb404c9ffe4b2ebf0e729013eee40cbe3b23a61b491fa92229c0f2c8c2",
+    "timestamp": "2026-06-20T09:55:35.000000Z",
+    "method": "reveal",
+    "from": "0xD4770673D2B2Ffefc54a0E9a411CAf85eF084E3D",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358038,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x6f1525984e48aed9a499676708cfe06f807c3bbab559e1947ca504e77824f25c",
+    "timestamp": "2026-06-20T09:55:23.000000Z",
+    "method": "reveal",
+    "from": "0x19759a54AB9875CA39832DF3025F0414216e33F0",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358037,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x2e961f757941ed4bf481ccfe11065c37c0b78dd15b8d6cc13ef8c2c48e9633b4",
+    "timestamp": "2026-06-20T09:53:35.000000Z",
+    "method": "reveal",
+    "from": "0xEC8CbA9A9523cfBdECd4849467DddA4BA789008D",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358028,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x1db43486e8ecbc4ecfbe8d1f0ad05b30b458e7a362ebfda98ab2298577dbf742",
+    "timestamp": "2026-06-20T09:52:47.000000Z",
+    "method": "revealBatch",
+    "from": "0x2e3f7Bb8A10BbEB703F4b0Ee0A218aA4AdB7e372",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358024,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x6783d607d05a8b1ce51110b77d537848aaf505ee52edd4f19e54fa6e1ac1c4a7",
+    "timestamp": "2026-06-20T09:52:47.000000Z",
+    "method": "reveal",
+    "from": "0x2D1b60C9Eb6331b6957b5c8fEEaA19a9684E5333",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358024,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xa8a118038897c3d65053c35f69dfa36b9bd35fa1ca1a079ffcfed0c1c504cd5e",
+    "timestamp": "2026-06-20T09:52:35.000000Z",
+    "method": "reveal",
+    "from": "0x848F25343cceF23a25629b08E81198436cb8543e",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358023,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xb06752f5aa96a53ec09d737bb1c323ace7a67844bf94c9cb0f4ebe16e6f4793b",
+    "timestamp": "2026-06-20T09:52:23.000000Z",
+    "method": "revealBatch",
+    "from": "0xa322e366cA6E9D98d034fAb7486E333665457eA1",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25358022,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x6c0980062aee1db3b6c5101f31dc214ff52986b7adab2c626744f0d418401f48",
+    "timestamp": "2026-06-20T09:51:59.000000Z",
+    "method": "reveal",
+    "from": "0x6dD312193179Ec74FfBD77fCd6d9a678aE5073F4",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358020,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x47a62420a6087257cbb48681dc2a26ff5ccffad0c67d14ebe68cc8da61e37954",
+    "timestamp": "2026-06-20T09:51:35.000000Z",
+    "method": "reveal",
+    "from": "0x775B32FF66C59aD05E62Bc87F4CD1fC02DAa358F",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358018,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xac9efdf4c869af3985b1cb338b0845528b737d239b5df336b9350f2ff078e154",
+    "timestamp": "2026-06-20T09:51:23.000000Z",
+    "method": "revealBatch",
+    "from": "0xA79115029B8a97477b2A9Dc2A7D19173BFC51333",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25358017,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xc66544c2c7108a7fac7095a295361bdd14e16a0f4a2a0b295ddacfb9370fb187",
+    "timestamp": "2026-06-20T09:51:11.000000Z",
+    "method": "reveal",
+    "from": "0x4A8fc61Cd8DCfdA4CB788Bd1f7104cD9dF7FB7b2",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358016,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xa1f7f65be2119e0e758ff1d39d658ec8f926517ff60fb311eddfbcf7a3e9e187",
+    "timestamp": "2026-06-20T09:51:11.000000Z",
+    "method": "reveal",
+    "from": "0xffEF7b97CaD7cdF1FE1fEA73bc1C0E422BD057b9",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358016,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xbc869bbbf16425319af414939cfb8dc7e9e0ec6e8461d5ebaff31c78706e6d53",
+    "timestamp": "2026-06-20T09:50:47.000000Z",
+    "method": "revealBatch",
+    "from": "0x446aB8dB67ea43fAbc3b20E3836d35965169b012",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25358014,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xac149f1ab5d097e963eb3314bcc8a40a2b09cbed403d824edf52a0223fcd0c66",
+    "timestamp": "2026-06-20T09:50:47.000000Z",
+    "method": "reveal",
+    "from": "0xe2C3e87a1050C307a28a96C1a803F6772f16D9Bd",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358014,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xf018a27f535165b3e8349236dae5011be81158b1137ab23d39d9349cc08c9256",
+    "timestamp": "2026-06-20T09:50:35.000000Z",
+    "method": "reveal",
+    "from": "0xF57979003A7d632E8c67f332DFC441f22DA77de9",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25358013,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xb9c87a7b615e8aa5efef9b8f0475c7aff2d4a23d9bc2351c0eb40ae85785465d",
+    "timestamp": "2026-06-20T09:49:47.000000Z",
+    "method": "revealBatch",
+    "from": "0x839D2BC0375bb71D92E097661F640b06f41157d7",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358009,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x43ead219e7027ed1298aff8fe4d80335d0366fb91cabe541326ac869094571a2",
+    "timestamp": "2026-06-20T09:49:35.000000Z",
+    "method": "reveal",
+    "from": "0x94ABA4219a3D29E40096D1E6fE5932d7DD27896f",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25358008,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xda96ece59e2e35bebc2089d5f4bfe48886531ef53605a65796b945adf0d33a2f",
+    "timestamp": "2026-06-20T09:49:11.000000Z",
+    "method": "reveal",
+    "from": "0xC0e6C9c51d3b949B86AddE56994b359726739E51",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358006,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x823e51593ad1d4a8b61b03fd489904a407cb9471abb5d6d9762a2e4b2581f366",
+    "timestamp": "2026-06-20T09:48:59.000000Z",
+    "method": "reveal",
+    "from": "0x007834F7E5943f4b42499E63fA9f9c08a8A10d82",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358005,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x5b476a9b9cc36c1791e4548e4034f4d54ea9e9212c2b3f6cc6b9bf9c5e7e9bd9",
+    "timestamp": "2026-06-20T09:48:35.000000Z",
+    "method": "reveal",
+    "from": "0x6AEf2fA4e44A2b14Fc46532206Bbda9571dD1E5E",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25358003,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xa64de5d80e194697b93af4a002f3564983b30c7f44284f4a0ae38637e0251869",
+    "timestamp": "2026-06-20T09:47:47.000000Z",
+    "method": "revealBatch",
+    "from": "0xd5ac64146B229AeA6a3B033a616Ca72e7Dc675DD",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357999,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x31529d654413207b2a1db6a23a64c75b22f31ee9f1ea2732275a01cfb153969a",
+    "timestamp": "2026-06-20T09:46:59.000000Z",
+    "method": "reveal",
+    "from": "0x96DE182d6Fec57a02c4717cD27327e3f13e3aA43",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357995,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x23a80152353d95cf82f45463859a0bb32cd12759949c9634a688917de52b7308",
+    "timestamp": "2026-06-20T09:46:35.000000Z",
+    "method": "revealBatch",
+    "from": "0x891bAF086668e931009Ba74d50Db9025e6fcd841",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357993,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x348216bf87162baa17a74b7e5e05c6c258d44a5e66b87f729ca7da5b15a610d8",
+    "timestamp": "2026-06-20T09:46:23.000000Z",
+    "method": "reveal",
+    "from": "0x8Eb1dd967D3242A010a8F5EF65592C1f4cff148a",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357992,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x0762f37041b753291721c2138efe9097881a169e82f07bc754c5cfd6b845eeb2",
+    "timestamp": "2026-06-20T09:45:59.000000Z",
+    "method": "reveal",
+    "from": "0x31f3E3015b00eeC7742550E6b86EfdAf77496b91",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357990,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x07761ccf8b83d72dbf58ecddbab40b20cee2d202e883250f7ef2785a4d5a9a45",
+    "timestamp": "2026-06-20T09:45:47.000000Z",
+    "method": "revealBatch",
+    "from": "0xA63d88aecC43ffd3D5cef274AF236AaCfFC2e7D0",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357989,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x78942295a83a4b1893c450e22274ede8ecc4fe386c45adc698e23de7e6dad992",
+    "timestamp": "2026-06-20T09:45:11.000000Z",
+    "method": "reveal",
+    "from": "0x2938dDbADCD29F7f8895baC1cC673b4af321087F",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357986,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x8656065ae5586bee2471f4f47c9522e409e08c1d01e4a3535592018b2c52329b",
+    "timestamp": "2026-06-20T09:44:59.000000Z",
+    "method": "revealBatch",
+    "from": "0x81ed446D922B53ab24bCe07Aee8469e2B4B4B436",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357985,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x7b4e03e39c13a190469e88e1d31dc182c0bf1b772f1bb2f6201ab987e9568f6b",
+    "timestamp": "2026-06-20T09:44:23.000000Z",
+    "method": "reveal",
+    "from": "0x67184dF635C452767fa35b3e2Aa0949d192aB6BC",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357982,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x25edba1873674432da03d770ab0e80e771a89b2237480aa312baf926e9fb57cb",
+    "timestamp": "2026-06-20T09:44:11.000000Z",
+    "method": "reveal",
+    "from": "0x6aEe1E383dA763A5740ABCC2f8263998c90e075f",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357981,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x07d1dd28bf5e30b3c901c532a4a6351523a83a4d574ddf96a9c1481904aa44cf",
+    "timestamp": "2026-06-20T09:44:11.000000Z",
+    "method": "revealBatch",
+    "from": "0xe76F75A6FD041c72Af3693Ef4972FbcEadbc633f",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25357981,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xff886bccfa92101f64b436b2ab39b25bc7bdf8abe8d45d81b14c2f03a2bc1dd2",
+    "timestamp": "2026-06-20T09:43:59.000000Z",
+    "method": "revealBatch",
+    "from": "0x15fC6050cD48afc8836e2513945A6F96fF761013",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357980,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xf50b96ada20099605178435c472da23d5a08b68c6bdf49c40f50a151eeb0955b",
+    "timestamp": "2026-06-20T09:43:47.000000Z",
+    "method": "revealBatch",
+    "from": "0x7F4b7860bA9957128c5Ce416e94784cA98b5C976",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357979,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x51d452878a56d78152fd97653f99a5d21a0c80e3ff0cd04c953bc4f0e060691d",
+    "timestamp": "2026-06-20T09:43:23.000000Z",
+    "method": "revealBatch",
+    "from": "0x6478f84a88950e39CD242df5AF9E824E897AA658",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25357977,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x98c4f794664c2fefba6daba9fe74cdf4cc248de21f08fce1c5efce3fd840e29f",
+    "timestamp": "2026-06-20T09:43:23.000000Z",
+    "method": "reveal",
+    "from": "0xB28BFab16ABB461fBC56FD2939d079DdcFb117bb",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357977,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xa13794a0edb0394e76febc3252ccc9f54f6d5fa39fdc19c4981eb6b71ef4d031",
+    "timestamp": "2026-06-20T09:42:59.000000Z",
+    "method": "reveal",
+    "from": "0x7BcC944842958670628e7CbBd15e2f75AbAB7819",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357975,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x662131c30dd2cda2c6c7cde44e3527b140d6967ec51ed1431aaec70266dbb61e",
+    "timestamp": "2026-06-20T09:42:59.000000Z",
+    "method": "reveal",
+    "from": "0x7F4b7860bA9957128c5Ce416e94784cA98b5C976",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357975,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x0a3ea69701a6dd78b32ae806c25d99b341405bfb0a39f01407b323704ba14b9b",
+    "timestamp": "2026-06-20T09:42:35.000000Z",
+    "method": "reveal",
+    "from": "0x7D5cd454cE9309B0b4DD818D1665cE4516a9B089",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25357973,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x09cc6c74646d5da80fbeca7fcdcd6eec251ad6727b0684e1d1b2cacc3097ff0d",
+    "timestamp": "2026-06-20T09:42:35.000000Z",
+    "method": "reveal",
+    "from": "0x6309752E9FC10E014759678466BCA4F924F47D21",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357973,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xa41b322e4bba29785847d67727a356f55d998777621940e949289110e5fb9a13",
+    "timestamp": "2026-06-20T10:14:59.000000Z",
+    "method": "reveal",
+    "from": "0xbF55fe6aa80dA4e187082407c02803d0Db15b257",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358135,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x2ff385ae6f404b868e74ff505a855244cb607a608a0f83f6c64547fd785ecbb0",
+    "timestamp": "2026-06-20T10:09:11.000000Z",
+    "method": "reveal",
+    "from": "0xF50546E7aD4E10c7F68410DfD497ED8fC19F1b22",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25358106,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x16fa579eaa2bf4a0cce66d04d8fed93e12825df8afd31d69d93eaa5f5b6fe741",
+    "timestamp": "2026-06-20T10:08:59.000000Z",
+    "method": "reveal",
+    "from": "0xbF55fe6aa80dA4e187082407c02803d0Db15b257",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358105,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x4854819bd8364bd633cac7440001f8644a5855fd36bf3aa809c44ef2762345fa",
+    "timestamp": "2026-06-20T10:01:11.000000Z",
+    "method": "reveal",
+    "from": "0xbF55fe6aa80dA4e187082407c02803d0Db15b257",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358066,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xfee2926c0100075cd79399814bdfd93b0cfd076094703e59fe961a17f58bfb70",
+    "timestamp": "2026-06-20T09:58:23.000000Z",
+    "method": "revealBatch",
+    "from": "0x8fBd1A16B3C1679c0114c55BC195449965F432AA",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358052,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x595a97384dc0edadad654397a91db6b3925690978221e5d8976ce460b55a75f3",
+    "timestamp": "2026-06-20T09:57:35.000000Z",
+    "method": "revealBatch",
+    "from": "0x6AA4402cEC577293D785Ff500140f42BeE1aBDeF",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358048,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x3d36b81d87c48aeeae99325996f71af1587cbc015a746ec325cbbf58c7e32fe6",
+    "timestamp": "2026-06-20T09:56:59.000000Z",
+    "method": "revealBatch",
+    "from": "0x4DCcBCfFbeACaC1A789E609d986dCa147da146D9",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358045,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x385773236bd7ae54b144a30e270183c088ffa1a57660c585c6e5aff7c601104e",
+    "timestamp": "2026-06-20T09:56:35.000000Z",
+    "method": "reveal",
+    "from": "0x3973A536DbA4f876327868341136044b7c7Ddfc3",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358043,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x6870c70dfdb37ed5bd65f199f0c46e8f5ce66a2b7863521428d65911c0b40166",
+    "timestamp": "2026-06-20T09:56:35.000000Z",
+    "method": "reveal",
+    "from": "0x1F44b0D8186C9383b9c5349D60fD697550F2Bf7b",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358043,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x6cb490254f1e0a03f82aec591325d1cc54ce1a2df9b7778bc1202559a063c1c4",
+    "timestamp": "2026-06-20T09:56:23.000000Z",
+    "method": "reveal",
+    "from": "0xfb32D1B2559ED7fb950b7A061968a8f344e8Fe67",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358042,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x5a95cee679ecdf1ed1f84288afede4c4db4ba50cee61417e914c8f74688fb87f",
+    "timestamp": "2026-06-20T09:55:59.000000Z",
+    "method": "reveal",
+    "from": "0x367F91fa6DFAefc60B4c5440D13c77A92df8FBB1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358040,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xb5fbc4eb404c9ffe4b2ebf0e729013eee40cbe3b23a61b491fa92229c0f2c8c2",
+    "timestamp": "2026-06-20T09:55:35.000000Z",
+    "method": "reveal",
+    "from": "0xD4770673D2B2Ffefc54a0E9a411CAf85eF084E3D",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358038,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x6f1525984e48aed9a499676708cfe06f807c3bbab559e1947ca504e77824f25c",
+    "timestamp": "2026-06-20T09:55:23.000000Z",
+    "method": "reveal",
+    "from": "0x19759a54AB9875CA39832DF3025F0414216e33F0",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358037,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x2e961f757941ed4bf481ccfe11065c37c0b78dd15b8d6cc13ef8c2c48e9633b4",
+    "timestamp": "2026-06-20T09:53:35.000000Z",
+    "method": "reveal",
+    "from": "0xEC8CbA9A9523cfBdECd4849467DddA4BA789008D",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358028,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x1db43486e8ecbc4ecfbe8d1f0ad05b30b458e7a362ebfda98ab2298577dbf742",
+    "timestamp": "2026-06-20T09:52:47.000000Z",
+    "method": "revealBatch",
+    "from": "0x2e3f7Bb8A10BbEB703F4b0Ee0A218aA4AdB7e372",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358024,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x6783d607d05a8b1ce51110b77d537848aaf505ee52edd4f19e54fa6e1ac1c4a7",
+    "timestamp": "2026-06-20T09:52:47.000000Z",
+    "method": "reveal",
+    "from": "0x2D1b60C9Eb6331b6957b5c8fEEaA19a9684E5333",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358024,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xa8a118038897c3d65053c35f69dfa36b9bd35fa1ca1a079ffcfed0c1c504cd5e",
+    "timestamp": "2026-06-20T09:52:35.000000Z",
+    "method": "reveal",
+    "from": "0x848F25343cceF23a25629b08E81198436cb8543e",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358023,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xb06752f5aa96a53ec09d737bb1c323ace7a67844bf94c9cb0f4ebe16e6f4793b",
+    "timestamp": "2026-06-20T09:52:23.000000Z",
+    "method": "revealBatch",
+    "from": "0xa322e366cA6E9D98d034fAb7486E333665457eA1",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25358022,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x6c0980062aee1db3b6c5101f31dc214ff52986b7adab2c626744f0d418401f48",
+    "timestamp": "2026-06-20T09:51:59.000000Z",
+    "method": "reveal",
+    "from": "0x6dD312193179Ec74FfBD77fCd6d9a678aE5073F4",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358020,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x47a62420a6087257cbb48681dc2a26ff5ccffad0c67d14ebe68cc8da61e37954",
+    "timestamp": "2026-06-20T09:51:35.000000Z",
+    "method": "reveal",
+    "from": "0x775B32FF66C59aD05E62Bc87F4CD1fC02DAa358F",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358018,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xac9efdf4c869af3985b1cb338b0845528b737d239b5df336b9350f2ff078e154",
+    "timestamp": "2026-06-20T09:51:23.000000Z",
+    "method": "revealBatch",
+    "from": "0xA79115029B8a97477b2A9Dc2A7D19173BFC51333",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25358017,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xc66544c2c7108a7fac7095a295361bdd14e16a0f4a2a0b295ddacfb9370fb187",
+    "timestamp": "2026-06-20T09:51:11.000000Z",
+    "method": "reveal",
+    "from": "0x4A8fc61Cd8DCfdA4CB788Bd1f7104cD9dF7FB7b2",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358016,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xa1f7f65be2119e0e758ff1d39d658ec8f926517ff60fb311eddfbcf7a3e9e187",
+    "timestamp": "2026-06-20T09:51:11.000000Z",
+    "method": "reveal",
+    "from": "0xffEF7b97CaD7cdF1FE1fEA73bc1C0E422BD057b9",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358016,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xbc869bbbf16425319af414939cfb8dc7e9e0ec6e8461d5ebaff31c78706e6d53",
+    "timestamp": "2026-06-20T09:50:47.000000Z",
+    "method": "revealBatch",
+    "from": "0x446aB8dB67ea43fAbc3b20E3836d35965169b012",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25358014,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xac149f1ab5d097e963eb3314bcc8a40a2b09cbed403d824edf52a0223fcd0c66",
+    "timestamp": "2026-06-20T09:50:47.000000Z",
+    "method": "reveal",
+    "from": "0xe2C3e87a1050C307a28a96C1a803F6772f16D9Bd",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358014,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xf018a27f535165b3e8349236dae5011be81158b1137ab23d39d9349cc08c9256",
+    "timestamp": "2026-06-20T09:50:35.000000Z",
+    "method": "reveal",
+    "from": "0xF57979003A7d632E8c67f332DFC441f22DA77de9",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25358013,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xb9c87a7b615e8aa5efef9b8f0475c7aff2d4a23d9bc2351c0eb40ae85785465d",
+    "timestamp": "2026-06-20T09:49:47.000000Z",
+    "method": "revealBatch",
+    "from": "0x839D2BC0375bb71D92E097661F640b06f41157d7",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358009,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x43ead219e7027ed1298aff8fe4d80335d0366fb91cabe541326ac869094571a2",
+    "timestamp": "2026-06-20T09:49:35.000000Z",
+    "method": "reveal",
+    "from": "0x94ABA4219a3D29E40096D1E6fE5932d7DD27896f",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25358008,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xda96ece59e2e35bebc2089d5f4bfe48886531ef53605a65796b945adf0d33a2f",
+    "timestamp": "2026-06-20T09:49:11.000000Z",
+    "method": "reveal",
+    "from": "0xC0e6C9c51d3b949B86AddE56994b359726739E51",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358006,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x823e51593ad1d4a8b61b03fd489904a407cb9471abb5d6d9762a2e4b2581f366",
+    "timestamp": "2026-06-20T09:48:59.000000Z",
+    "method": "reveal",
+    "from": "0x007834F7E5943f4b42499E63fA9f9c08a8A10d82",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358005,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x5b476a9b9cc36c1791e4548e4034f4d54ea9e9212c2b3f6cc6b9bf9c5e7e9bd9",
+    "timestamp": "2026-06-20T09:48:35.000000Z",
+    "method": "reveal",
+    "from": "0x6AEf2fA4e44A2b14Fc46532206Bbda9571dD1E5E",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25358003,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xa64de5d80e194697b93af4a002f3564983b30c7f44284f4a0ae38637e0251869",
+    "timestamp": "2026-06-20T09:47:47.000000Z",
+    "method": "revealBatch",
+    "from": "0xd5ac64146B229AeA6a3B033a616Ca72e7Dc675DD",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357999,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x31529d654413207b2a1db6a23a64c75b22f31ee9f1ea2732275a01cfb153969a",
+    "timestamp": "2026-06-20T09:46:59.000000Z",
+    "method": "reveal",
+    "from": "0x96DE182d6Fec57a02c4717cD27327e3f13e3aA43",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357995,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x23a80152353d95cf82f45463859a0bb32cd12759949c9634a688917de52b7308",
+    "timestamp": "2026-06-20T09:46:35.000000Z",
+    "method": "revealBatch",
+    "from": "0x891bAF086668e931009Ba74d50Db9025e6fcd841",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357993,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x348216bf87162baa17a74b7e5e05c6c258d44a5e66b87f729ca7da5b15a610d8",
+    "timestamp": "2026-06-20T09:46:23.000000Z",
+    "method": "reveal",
+    "from": "0x8Eb1dd967D3242A010a8F5EF65592C1f4cff148a",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357992,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x0762f37041b753291721c2138efe9097881a169e82f07bc754c5cfd6b845eeb2",
+    "timestamp": "2026-06-20T09:45:59.000000Z",
+    "method": "reveal",
+    "from": "0x31f3E3015b00eeC7742550E6b86EfdAf77496b91",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357990,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x07761ccf8b83d72dbf58ecddbab40b20cee2d202e883250f7ef2785a4d5a9a45",
+    "timestamp": "2026-06-20T09:45:47.000000Z",
+    "method": "revealBatch",
+    "from": "0xA63d88aecC43ffd3D5cef274AF236AaCfFC2e7D0",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357989,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x78942295a83a4b1893c450e22274ede8ecc4fe386c45adc698e23de7e6dad992",
+    "timestamp": "2026-06-20T09:45:11.000000Z",
+    "method": "reveal",
+    "from": "0x2938dDbADCD29F7f8895baC1cC673b4af321087F",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357986,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x8656065ae5586bee2471f4f47c9522e409e08c1d01e4a3535592018b2c52329b",
+    "timestamp": "2026-06-20T09:44:59.000000Z",
+    "method": "revealBatch",
+    "from": "0x81ed446D922B53ab24bCe07Aee8469e2B4B4B436",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357985,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x7b4e03e39c13a190469e88e1d31dc182c0bf1b772f1bb2f6201ab987e9568f6b",
+    "timestamp": "2026-06-20T09:44:23.000000Z",
+    "method": "reveal",
+    "from": "0x67184dF635C452767fa35b3e2Aa0949d192aB6BC",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357982,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x25edba1873674432da03d770ab0e80e771a89b2237480aa312baf926e9fb57cb",
+    "timestamp": "2026-06-20T09:44:11.000000Z",
+    "method": "reveal",
+    "from": "0x6aEe1E383dA763A5740ABCC2f8263998c90e075f",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357981,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x07d1dd28bf5e30b3c901c532a4a6351523a83a4d574ddf96a9c1481904aa44cf",
+    "timestamp": "2026-06-20T09:44:11.000000Z",
+    "method": "revealBatch",
+    "from": "0xe76F75A6FD041c72Af3693Ef4972FbcEadbc633f",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25357981,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xff886bccfa92101f64b436b2ab39b25bc7bdf8abe8d45d81b14c2f03a2bc1dd2",
+    "timestamp": "2026-06-20T09:43:59.000000Z",
+    "method": "revealBatch",
+    "from": "0x15fC6050cD48afc8836e2513945A6F96fF761013",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357980,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xf50b96ada20099605178435c472da23d5a08b68c6bdf49c40f50a151eeb0955b",
+    "timestamp": "2026-06-20T09:43:47.000000Z",
+    "method": "revealBatch",
+    "from": "0x7F4b7860bA9957128c5Ce416e94784cA98b5C976",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357979,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x51d452878a56d78152fd97653f99a5d21a0c80e3ff0cd04c953bc4f0e060691d",
+    "timestamp": "2026-06-20T09:43:23.000000Z",
+    "method": "revealBatch",
+    "from": "0x6478f84a88950e39CD242df5AF9E824E897AA658",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25357977,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x98c4f794664c2fefba6daba9fe74cdf4cc248de21f08fce1c5efce3fd840e29f",
+    "timestamp": "2026-06-20T09:43:23.000000Z",
+    "method": "reveal",
+    "from": "0xB28BFab16ABB461fBC56FD2939d079DdcFb117bb",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357977,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xa13794a0edb0394e76febc3252ccc9f54f6d5fa39fdc19c4981eb6b71ef4d031",
+    "timestamp": "2026-06-20T09:42:59.000000Z",
+    "method": "reveal",
+    "from": "0x7BcC944842958670628e7CbBd15e2f75AbAB7819",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357975,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x662131c30dd2cda2c6c7cde44e3527b140d6967ec51ed1431aaec70266dbb61e",
+    "timestamp": "2026-06-20T09:42:59.000000Z",
+    "method": "reveal",
+    "from": "0x7F4b7860bA9957128c5Ce416e94784cA98b5C976",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357975,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x0a3ea69701a6dd78b32ae806c25d99b341405bfb0a39f01407b323704ba14b9b",
+    "timestamp": "2026-06-20T09:42:35.000000Z",
+    "method": "reveal",
+    "from": "0x7D5cd454cE9309B0b4DD818D1665cE4516a9B089",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25357973,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x09cc6c74646d5da80fbeca7fcdcd6eec251ad6727b0684e1d1b2cacc3097ff0d",
+    "timestamp": "2026-06-20T09:42:35.000000Z",
+    "method": "reveal",
+    "from": "0x6309752E9FC10E014759678466BCA4F924F47D21",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357973,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xa41b322e4bba29785847d67727a356f55d998777621940e949289110e5fb9a13",
+    "timestamp": "2026-06-20T10:14:59.000000Z",
+    "method": "reveal",
+    "from": "0xbF55fe6aa80dA4e187082407c02803d0Db15b257",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358135,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x2ff385ae6f404b868e74ff505a855244cb607a608a0f83f6c64547fd785ecbb0",
+    "timestamp": "2026-06-20T10:09:11.000000Z",
+    "method": "reveal",
+    "from": "0xF50546E7aD4E10c7F68410DfD497ED8fC19F1b22",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25358106,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x16fa579eaa2bf4a0cce66d04d8fed93e12825df8afd31d69d93eaa5f5b6fe741",
+    "timestamp": "2026-06-20T10:08:59.000000Z",
+    "method": "reveal",
+    "from": "0xbF55fe6aa80dA4e187082407c02803d0Db15b257",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358105,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x4854819bd8364bd633cac7440001f8644a5855fd36bf3aa809c44ef2762345fa",
+    "timestamp": "2026-06-20T10:01:11.000000Z",
+    "method": "reveal",
+    "from": "0xbF55fe6aa80dA4e187082407c02803d0Db15b257",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358066,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xfee2926c0100075cd79399814bdfd93b0cfd076094703e59fe961a17f58bfb70",
+    "timestamp": "2026-06-20T09:58:23.000000Z",
+    "method": "revealBatch",
+    "from": "0x8fBd1A16B3C1679c0114c55BC195449965F432AA",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358052,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x595a97384dc0edadad654397a91db6b3925690978221e5d8976ce460b55a75f3",
+    "timestamp": "2026-06-20T09:57:35.000000Z",
+    "method": "revealBatch",
+    "from": "0x6AA4402cEC577293D785Ff500140f42BeE1aBDeF",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358048,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x3d36b81d87c48aeeae99325996f71af1587cbc015a746ec325cbbf58c7e32fe6",
+    "timestamp": "2026-06-20T09:56:59.000000Z",
+    "method": "revealBatch",
+    "from": "0x4DCcBCfFbeACaC1A789E609d986dCa147da146D9",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358045,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x385773236bd7ae54b144a30e270183c088ffa1a57660c585c6e5aff7c601104e",
+    "timestamp": "2026-06-20T09:56:35.000000Z",
+    "method": "reveal",
+    "from": "0x3973A536DbA4f876327868341136044b7c7Ddfc3",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358043,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x6870c70dfdb37ed5bd65f199f0c46e8f5ce66a2b7863521428d65911c0b40166",
+    "timestamp": "2026-06-20T09:56:35.000000Z",
+    "method": "reveal",
+    "from": "0x1F44b0D8186C9383b9c5349D60fD697550F2Bf7b",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358043,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x6cb490254f1e0a03f82aec591325d1cc54ce1a2df9b7778bc1202559a063c1c4",
+    "timestamp": "2026-06-20T09:56:23.000000Z",
+    "method": "reveal",
+    "from": "0xfb32D1B2559ED7fb950b7A061968a8f344e8Fe67",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358042,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x5a95cee679ecdf1ed1f84288afede4c4db4ba50cee61417e914c8f74688fb87f",
+    "timestamp": "2026-06-20T09:55:59.000000Z",
+    "method": "reveal",
+    "from": "0x367F91fa6DFAefc60B4c5440D13c77A92df8FBB1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358040,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xb5fbc4eb404c9ffe4b2ebf0e729013eee40cbe3b23a61b491fa92229c0f2c8c2",
+    "timestamp": "2026-06-20T09:55:35.000000Z",
+    "method": "reveal",
+    "from": "0xD4770673D2B2Ffefc54a0E9a411CAf85eF084E3D",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358038,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x6f1525984e48aed9a499676708cfe06f807c3bbab559e1947ca504e77824f25c",
+    "timestamp": "2026-06-20T09:55:23.000000Z",
+    "method": "reveal",
+    "from": "0x19759a54AB9875CA39832DF3025F0414216e33F0",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358037,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x2e961f757941ed4bf481ccfe11065c37c0b78dd15b8d6cc13ef8c2c48e9633b4",
+    "timestamp": "2026-06-20T09:53:35.000000Z",
+    "method": "reveal",
+    "from": "0xEC8CbA9A9523cfBdECd4849467DddA4BA789008D",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358028,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x1db43486e8ecbc4ecfbe8d1f0ad05b30b458e7a362ebfda98ab2298577dbf742",
+    "timestamp": "2026-06-20T09:52:47.000000Z",
+    "method": "revealBatch",
+    "from": "0x2e3f7Bb8A10BbEB703F4b0Ee0A218aA4AdB7e372",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358024,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x6783d607d05a8b1ce51110b77d537848aaf505ee52edd4f19e54fa6e1ac1c4a7",
+    "timestamp": "2026-06-20T09:52:47.000000Z",
+    "method": "reveal",
+    "from": "0x2D1b60C9Eb6331b6957b5c8fEEaA19a9684E5333",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358024,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xa8a118038897c3d65053c35f69dfa36b9bd35fa1ca1a079ffcfed0c1c504cd5e",
+    "timestamp": "2026-06-20T09:52:35.000000Z",
+    "method": "reveal",
+    "from": "0x848F25343cceF23a25629b08E81198436cb8543e",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358023,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xb06752f5aa96a53ec09d737bb1c323ace7a67844bf94c9cb0f4ebe16e6f4793b",
+    "timestamp": "2026-06-20T09:52:23.000000Z",
+    "method": "revealBatch",
+    "from": "0xa322e366cA6E9D98d034fAb7486E333665457eA1",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25358022,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x6c0980062aee1db3b6c5101f31dc214ff52986b7adab2c626744f0d418401f48",
+    "timestamp": "2026-06-20T09:51:59.000000Z",
+    "method": "reveal",
+    "from": "0x6dD312193179Ec74FfBD77fCd6d9a678aE5073F4",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358020,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x47a62420a6087257cbb48681dc2a26ff5ccffad0c67d14ebe68cc8da61e37954",
+    "timestamp": "2026-06-20T09:51:35.000000Z",
+    "method": "reveal",
+    "from": "0x775B32FF66C59aD05E62Bc87F4CD1fC02DAa358F",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358018,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xac9efdf4c869af3985b1cb338b0845528b737d239b5df336b9350f2ff078e154",
+    "timestamp": "2026-06-20T09:51:23.000000Z",
+    "method": "revealBatch",
+    "from": "0xA79115029B8a97477b2A9Dc2A7D19173BFC51333",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25358017,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xc66544c2c7108a7fac7095a295361bdd14e16a0f4a2a0b295ddacfb9370fb187",
+    "timestamp": "2026-06-20T09:51:11.000000Z",
+    "method": "reveal",
+    "from": "0x4A8fc61Cd8DCfdA4CB788Bd1f7104cD9dF7FB7b2",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358016,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xa1f7f65be2119e0e758ff1d39d658ec8f926517ff60fb311eddfbcf7a3e9e187",
+    "timestamp": "2026-06-20T09:51:11.000000Z",
+    "method": "reveal",
+    "from": "0xffEF7b97CaD7cdF1FE1fEA73bc1C0E422BD057b9",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358016,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xbc869bbbf16425319af414939cfb8dc7e9e0ec6e8461d5ebaff31c78706e6d53",
+    "timestamp": "2026-06-20T09:50:47.000000Z",
+    "method": "revealBatch",
+    "from": "0x446aB8dB67ea43fAbc3b20E3836d35965169b012",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25358014,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xac149f1ab5d097e963eb3314bcc8a40a2b09cbed403d824edf52a0223fcd0c66",
+    "timestamp": "2026-06-20T09:50:47.000000Z",
+    "method": "reveal",
+    "from": "0xe2C3e87a1050C307a28a96C1a803F6772f16D9Bd",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358014,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xf018a27f535165b3e8349236dae5011be81158b1137ab23d39d9349cc08c9256",
+    "timestamp": "2026-06-20T09:50:35.000000Z",
+    "method": "reveal",
+    "from": "0xF57979003A7d632E8c67f332DFC441f22DA77de9",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25358013,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xb9c87a7b615e8aa5efef9b8f0475c7aff2d4a23d9bc2351c0eb40ae85785465d",
+    "timestamp": "2026-06-20T09:49:47.000000Z",
+    "method": "revealBatch",
+    "from": "0x839D2BC0375bb71D92E097661F640b06f41157d7",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358009,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x43ead219e7027ed1298aff8fe4d80335d0366fb91cabe541326ac869094571a2",
+    "timestamp": "2026-06-20T09:49:35.000000Z",
+    "method": "reveal",
+    "from": "0x94ABA4219a3D29E40096D1E6fE5932d7DD27896f",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25358008,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xda96ece59e2e35bebc2089d5f4bfe48886531ef53605a65796b945adf0d33a2f",
+    "timestamp": "2026-06-20T09:49:11.000000Z",
+    "method": "reveal",
+    "from": "0xC0e6C9c51d3b949B86AddE56994b359726739E51",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358006,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x823e51593ad1d4a8b61b03fd489904a407cb9471abb5d6d9762a2e4b2581f366",
+    "timestamp": "2026-06-20T09:48:59.000000Z",
+    "method": "reveal",
+    "from": "0x007834F7E5943f4b42499E63fA9f9c08a8A10d82",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358005,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x5b476a9b9cc36c1791e4548e4034f4d54ea9e9212c2b3f6cc6b9bf9c5e7e9bd9",
+    "timestamp": "2026-06-20T09:48:35.000000Z",
+    "method": "reveal",
+    "from": "0x6AEf2fA4e44A2b14Fc46532206Bbda9571dD1E5E",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25358003,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xa64de5d80e194697b93af4a002f3564983b30c7f44284f4a0ae38637e0251869",
+    "timestamp": "2026-06-20T09:47:47.000000Z",
+    "method": "revealBatch",
+    "from": "0xd5ac64146B229AeA6a3B033a616Ca72e7Dc675DD",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357999,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x31529d654413207b2a1db6a23a64c75b22f31ee9f1ea2732275a01cfb153969a",
+    "timestamp": "2026-06-20T09:46:59.000000Z",
+    "method": "reveal",
+    "from": "0x96DE182d6Fec57a02c4717cD27327e3f13e3aA43",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357995,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x23a80152353d95cf82f45463859a0bb32cd12759949c9634a688917de52b7308",
+    "timestamp": "2026-06-20T09:46:35.000000Z",
+    "method": "revealBatch",
+    "from": "0x891bAF086668e931009Ba74d50Db9025e6fcd841",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357993,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x348216bf87162baa17a74b7e5e05c6c258d44a5e66b87f729ca7da5b15a610d8",
+    "timestamp": "2026-06-20T09:46:23.000000Z",
+    "method": "reveal",
+    "from": "0x8Eb1dd967D3242A010a8F5EF65592C1f4cff148a",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357992,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x0762f37041b753291721c2138efe9097881a169e82f07bc754c5cfd6b845eeb2",
+    "timestamp": "2026-06-20T09:45:59.000000Z",
+    "method": "reveal",
+    "from": "0x31f3E3015b00eeC7742550E6b86EfdAf77496b91",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357990,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x07761ccf8b83d72dbf58ecddbab40b20cee2d202e883250f7ef2785a4d5a9a45",
+    "timestamp": "2026-06-20T09:45:47.000000Z",
+    "method": "revealBatch",
+    "from": "0xA63d88aecC43ffd3D5cef274AF236AaCfFC2e7D0",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357989,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x78942295a83a4b1893c450e22274ede8ecc4fe386c45adc698e23de7e6dad992",
+    "timestamp": "2026-06-20T09:45:11.000000Z",
+    "method": "reveal",
+    "from": "0x2938dDbADCD29F7f8895baC1cC673b4af321087F",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357986,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x8656065ae5586bee2471f4f47c9522e409e08c1d01e4a3535592018b2c52329b",
+    "timestamp": "2026-06-20T09:44:59.000000Z",
+    "method": "revealBatch",
+    "from": "0x81ed446D922B53ab24bCe07Aee8469e2B4B4B436",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357985,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x7b4e03e39c13a190469e88e1d31dc182c0bf1b772f1bb2f6201ab987e9568f6b",
+    "timestamp": "2026-06-20T09:44:23.000000Z",
+    "method": "reveal",
+    "from": "0x67184dF635C452767fa35b3e2Aa0949d192aB6BC",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357982,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x25edba1873674432da03d770ab0e80e771a89b2237480aa312baf926e9fb57cb",
+    "timestamp": "2026-06-20T09:44:11.000000Z",
+    "method": "reveal",
+    "from": "0x6aEe1E383dA763A5740ABCC2f8263998c90e075f",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357981,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x07d1dd28bf5e30b3c901c532a4a6351523a83a4d574ddf96a9c1481904aa44cf",
+    "timestamp": "2026-06-20T09:44:11.000000Z",
+    "method": "revealBatch",
+    "from": "0xe76F75A6FD041c72Af3693Ef4972FbcEadbc633f",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25357981,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xff886bccfa92101f64b436b2ab39b25bc7bdf8abe8d45d81b14c2f03a2bc1dd2",
+    "timestamp": "2026-06-20T09:43:59.000000Z",
+    "method": "revealBatch",
+    "from": "0x15fC6050cD48afc8836e2513945A6F96fF761013",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357980,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xf50b96ada20099605178435c472da23d5a08b68c6bdf49c40f50a151eeb0955b",
+    "timestamp": "2026-06-20T09:43:47.000000Z",
+    "method": "revealBatch",
+    "from": "0x7F4b7860bA9957128c5Ce416e94784cA98b5C976",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357979,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x51d452878a56d78152fd97653f99a5d21a0c80e3ff0cd04c953bc4f0e060691d",
+    "timestamp": "2026-06-20T09:43:23.000000Z",
+    "method": "revealBatch",
+    "from": "0x6478f84a88950e39CD242df5AF9E824E897AA658",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25357977,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x98c4f794664c2fefba6daba9fe74cdf4cc248de21f08fce1c5efce3fd840e29f",
+    "timestamp": "2026-06-20T09:43:23.000000Z",
+    "method": "reveal",
+    "from": "0xB28BFab16ABB461fBC56FD2939d079DdcFb117bb",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357977,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xa13794a0edb0394e76febc3252ccc9f54f6d5fa39fdc19c4981eb6b71ef4d031",
+    "timestamp": "2026-06-20T09:42:59.000000Z",
+    "method": "reveal",
+    "from": "0x7BcC944842958670628e7CbBd15e2f75AbAB7819",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357975,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x662131c30dd2cda2c6c7cde44e3527b140d6967ec51ed1431aaec70266dbb61e",
+    "timestamp": "2026-06-20T09:42:59.000000Z",
+    "method": "reveal",
+    "from": "0x7F4b7860bA9957128c5Ce416e94784cA98b5C976",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357975,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x0a3ea69701a6dd78b32ae806c25d99b341405bfb0a39f01407b323704ba14b9b",
+    "timestamp": "2026-06-20T09:42:35.000000Z",
+    "method": "reveal",
+    "from": "0x7D5cd454cE9309B0b4DD818D1665cE4516a9B089",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25357973,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x09cc6c74646d5da80fbeca7fcdcd6eec251ad6727b0684e1d1b2cacc3097ff0d",
+    "timestamp": "2026-06-20T09:42:35.000000Z",
+    "method": "reveal",
+    "from": "0x6309752E9FC10E014759678466BCA4F924F47D21",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357973,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xa41b322e4bba29785847d67727a356f55d998777621940e949289110e5fb9a13",
+    "timestamp": "2026-06-20T10:14:59.000000Z",
+    "method": "reveal",
+    "from": "0xbF55fe6aa80dA4e187082407c02803d0Db15b257",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358135,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x2ff385ae6f404b868e74ff505a855244cb607a608a0f83f6c64547fd785ecbb0",
+    "timestamp": "2026-06-20T10:09:11.000000Z",
+    "method": "reveal",
+    "from": "0xF50546E7aD4E10c7F68410DfD497ED8fC19F1b22",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25358106,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x16fa579eaa2bf4a0cce66d04d8fed93e12825df8afd31d69d93eaa5f5b6fe741",
+    "timestamp": "2026-06-20T10:08:59.000000Z",
+    "method": "reveal",
+    "from": "0xbF55fe6aa80dA4e187082407c02803d0Db15b257",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358105,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x4854819bd8364bd633cac7440001f8644a5855fd36bf3aa809c44ef2762345fa",
+    "timestamp": "2026-06-20T10:01:11.000000Z",
+    "method": "reveal",
+    "from": "0xbF55fe6aa80dA4e187082407c02803d0Db15b257",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358066,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xfee2926c0100075cd79399814bdfd93b0cfd076094703e59fe961a17f58bfb70",
+    "timestamp": "2026-06-20T09:58:23.000000Z",
+    "method": "revealBatch",
+    "from": "0x8fBd1A16B3C1679c0114c55BC195449965F432AA",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358052,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x595a97384dc0edadad654397a91db6b3925690978221e5d8976ce460b55a75f3",
+    "timestamp": "2026-06-20T09:57:35.000000Z",
+    "method": "revealBatch",
+    "from": "0x6AA4402cEC577293D785Ff500140f42BeE1aBDeF",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358048,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x3d36b81d87c48aeeae99325996f71af1587cbc015a746ec325cbbf58c7e32fe6",
+    "timestamp": "2026-06-20T09:56:59.000000Z",
+    "method": "revealBatch",
+    "from": "0x4DCcBCfFbeACaC1A789E609d986dCa147da146D9",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358045,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x385773236bd7ae54b144a30e270183c088ffa1a57660c585c6e5aff7c601104e",
+    "timestamp": "2026-06-20T09:56:35.000000Z",
+    "method": "reveal",
+    "from": "0x3973A536DbA4f876327868341136044b7c7Ddfc3",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358043,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x6870c70dfdb37ed5bd65f199f0c46e8f5ce66a2b7863521428d65911c0b40166",
+    "timestamp": "2026-06-20T09:56:35.000000Z",
+    "method": "reveal",
+    "from": "0x1F44b0D8186C9383b9c5349D60fD697550F2Bf7b",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358043,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x6cb490254f1e0a03f82aec591325d1cc54ce1a2df9b7778bc1202559a063c1c4",
+    "timestamp": "2026-06-20T09:56:23.000000Z",
+    "method": "reveal",
+    "from": "0xfb32D1B2559ED7fb950b7A061968a8f344e8Fe67",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358042,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x5a95cee679ecdf1ed1f84288afede4c4db4ba50cee61417e914c8f74688fb87f",
+    "timestamp": "2026-06-20T09:55:59.000000Z",
+    "method": "reveal",
+    "from": "0x367F91fa6DFAefc60B4c5440D13c77A92df8FBB1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358040,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xb5fbc4eb404c9ffe4b2ebf0e729013eee40cbe3b23a61b491fa92229c0f2c8c2",
+    "timestamp": "2026-06-20T09:55:35.000000Z",
+    "method": "reveal",
+    "from": "0xD4770673D2B2Ffefc54a0E9a411CAf85eF084E3D",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358038,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x6f1525984e48aed9a499676708cfe06f807c3bbab559e1947ca504e77824f25c",
+    "timestamp": "2026-06-20T09:55:23.000000Z",
+    "method": "reveal",
+    "from": "0x19759a54AB9875CA39832DF3025F0414216e33F0",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358037,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x2e961f757941ed4bf481ccfe11065c37c0b78dd15b8d6cc13ef8c2c48e9633b4",
+    "timestamp": "2026-06-20T09:53:35.000000Z",
+    "method": "reveal",
+    "from": "0xEC8CbA9A9523cfBdECd4849467DddA4BA789008D",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358028,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x1db43486e8ecbc4ecfbe8d1f0ad05b30b458e7a362ebfda98ab2298577dbf742",
+    "timestamp": "2026-06-20T09:52:47.000000Z",
+    "method": "revealBatch",
+    "from": "0x2e3f7Bb8A10BbEB703F4b0Ee0A218aA4AdB7e372",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358024,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x6783d607d05a8b1ce51110b77d537848aaf505ee52edd4f19e54fa6e1ac1c4a7",
+    "timestamp": "2026-06-20T09:52:47.000000Z",
+    "method": "reveal",
+    "from": "0x2D1b60C9Eb6331b6957b5c8fEEaA19a9684E5333",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358024,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xa8a118038897c3d65053c35f69dfa36b9bd35fa1ca1a079ffcfed0c1c504cd5e",
+    "timestamp": "2026-06-20T09:52:35.000000Z",
+    "method": "reveal",
+    "from": "0x848F25343cceF23a25629b08E81198436cb8543e",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358023,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xb06752f5aa96a53ec09d737bb1c323ace7a67844bf94c9cb0f4ebe16e6f4793b",
+    "timestamp": "2026-06-20T09:52:23.000000Z",
+    "method": "revealBatch",
+    "from": "0xa322e366cA6E9D98d034fAb7486E333665457eA1",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25358022,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x6c0980062aee1db3b6c5101f31dc214ff52986b7adab2c626744f0d418401f48",
+    "timestamp": "2026-06-20T09:51:59.000000Z",
+    "method": "reveal",
+    "from": "0x6dD312193179Ec74FfBD77fCd6d9a678aE5073F4",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358020,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x47a62420a6087257cbb48681dc2a26ff5ccffad0c67d14ebe68cc8da61e37954",
+    "timestamp": "2026-06-20T09:51:35.000000Z",
+    "method": "reveal",
+    "from": "0x775B32FF66C59aD05E62Bc87F4CD1fC02DAa358F",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358018,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xac9efdf4c869af3985b1cb338b0845528b737d239b5df336b9350f2ff078e154",
+    "timestamp": "2026-06-20T09:51:23.000000Z",
+    "method": "revealBatch",
+    "from": "0xA79115029B8a97477b2A9Dc2A7D19173BFC51333",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25358017,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xc66544c2c7108a7fac7095a295361bdd14e16a0f4a2a0b295ddacfb9370fb187",
+    "timestamp": "2026-06-20T09:51:11.000000Z",
+    "method": "reveal",
+    "from": "0x4A8fc61Cd8DCfdA4CB788Bd1f7104cD9dF7FB7b2",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358016,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xa1f7f65be2119e0e758ff1d39d658ec8f926517ff60fb311eddfbcf7a3e9e187",
+    "timestamp": "2026-06-20T09:51:11.000000Z",
+    "method": "reveal",
+    "from": "0xffEF7b97CaD7cdF1FE1fEA73bc1C0E422BD057b9",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358016,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xbc869bbbf16425319af414939cfb8dc7e9e0ec6e8461d5ebaff31c78706e6d53",
+    "timestamp": "2026-06-20T09:50:47.000000Z",
+    "method": "revealBatch",
+    "from": "0x446aB8dB67ea43fAbc3b20E3836d35965169b012",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25358014,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xac149f1ab5d097e963eb3314bcc8a40a2b09cbed403d824edf52a0223fcd0c66",
+    "timestamp": "2026-06-20T09:50:47.000000Z",
+    "method": "reveal",
+    "from": "0xe2C3e87a1050C307a28a96C1a803F6772f16D9Bd",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358014,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xf018a27f535165b3e8349236dae5011be81158b1137ab23d39d9349cc08c9256",
+    "timestamp": "2026-06-20T09:50:35.000000Z",
+    "method": "reveal",
+    "from": "0xF57979003A7d632E8c67f332DFC441f22DA77de9",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25358013,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xb9c87a7b615e8aa5efef9b8f0475c7aff2d4a23d9bc2351c0eb40ae85785465d",
+    "timestamp": "2026-06-20T09:49:47.000000Z",
+    "method": "revealBatch",
+    "from": "0x839D2BC0375bb71D92E097661F640b06f41157d7",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358009,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x43ead219e7027ed1298aff8fe4d80335d0366fb91cabe541326ac869094571a2",
+    "timestamp": "2026-06-20T09:49:35.000000Z",
+    "method": "reveal",
+    "from": "0x94ABA4219a3D29E40096D1E6fE5932d7DD27896f",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25358008,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xda96ece59e2e35bebc2089d5f4bfe48886531ef53605a65796b945adf0d33a2f",
+    "timestamp": "2026-06-20T09:49:11.000000Z",
+    "method": "reveal",
+    "from": "0xC0e6C9c51d3b949B86AddE56994b359726739E51",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358006,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x823e51593ad1d4a8b61b03fd489904a407cb9471abb5d6d9762a2e4b2581f366",
+    "timestamp": "2026-06-20T09:48:59.000000Z",
+    "method": "reveal",
+    "from": "0x007834F7E5943f4b42499E63fA9f9c08a8A10d82",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25358005,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x5b476a9b9cc36c1791e4548e4034f4d54ea9e9212c2b3f6cc6b9bf9c5e7e9bd9",
+    "timestamp": "2026-06-20T09:48:35.000000Z",
+    "method": "reveal",
+    "from": "0x6AEf2fA4e44A2b14Fc46532206Bbda9571dD1E5E",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25358003,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xa64de5d80e194697b93af4a002f3564983b30c7f44284f4a0ae38637e0251869",
+    "timestamp": "2026-06-20T09:47:47.000000Z",
+    "method": "revealBatch",
+    "from": "0xd5ac64146B229AeA6a3B033a616Ca72e7Dc675DD",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357999,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x31529d654413207b2a1db6a23a64c75b22f31ee9f1ea2732275a01cfb153969a",
+    "timestamp": "2026-06-20T09:46:59.000000Z",
+    "method": "reveal",
+    "from": "0x96DE182d6Fec57a02c4717cD27327e3f13e3aA43",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357995,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x23a80152353d95cf82f45463859a0bb32cd12759949c9634a688917de52b7308",
+    "timestamp": "2026-06-20T09:46:35.000000Z",
+    "method": "revealBatch",
+    "from": "0x891bAF086668e931009Ba74d50Db9025e6fcd841",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357993,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x348216bf87162baa17a74b7e5e05c6c258d44a5e66b87f729ca7da5b15a610d8",
+    "timestamp": "2026-06-20T09:46:23.000000Z",
+    "method": "reveal",
+    "from": "0x8Eb1dd967D3242A010a8F5EF65592C1f4cff148a",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357992,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x0762f37041b753291721c2138efe9097881a169e82f07bc754c5cfd6b845eeb2",
+    "timestamp": "2026-06-20T09:45:59.000000Z",
+    "method": "reveal",
+    "from": "0x31f3E3015b00eeC7742550E6b86EfdAf77496b91",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357990,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x07761ccf8b83d72dbf58ecddbab40b20cee2d202e883250f7ef2785a4d5a9a45",
+    "timestamp": "2026-06-20T09:45:47.000000Z",
+    "method": "revealBatch",
+    "from": "0xA63d88aecC43ffd3D5cef274AF236AaCfFC2e7D0",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357989,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x78942295a83a4b1893c450e22274ede8ecc4fe386c45adc698e23de7e6dad992",
+    "timestamp": "2026-06-20T09:45:11.000000Z",
+    "method": "reveal",
+    "from": "0x2938dDbADCD29F7f8895baC1cC673b4af321087F",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357986,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x8656065ae5586bee2471f4f47c9522e409e08c1d01e4a3535592018b2c52329b",
+    "timestamp": "2026-06-20T09:44:59.000000Z",
+    "method": "revealBatch",
+    "from": "0x81ed446D922B53ab24bCe07Aee8469e2B4B4B436",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357985,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x7b4e03e39c13a190469e88e1d31dc182c0bf1b772f1bb2f6201ab987e9568f6b",
+    "timestamp": "2026-06-20T09:44:23.000000Z",
+    "method": "reveal",
+    "from": "0x67184dF635C452767fa35b3e2Aa0949d192aB6BC",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357982,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x25edba1873674432da03d770ab0e80e771a89b2237480aa312baf926e9fb57cb",
+    "timestamp": "2026-06-20T09:44:11.000000Z",
+    "method": "reveal",
+    "from": "0x6aEe1E383dA763A5740ABCC2f8263998c90e075f",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357981,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x07d1dd28bf5e30b3c901c532a4a6351523a83a4d574ddf96a9c1481904aa44cf",
+    "timestamp": "2026-06-20T09:44:11.000000Z",
+    "method": "revealBatch",
+    "from": "0xe76F75A6FD041c72Af3693Ef4972FbcEadbc633f",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25357981,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xff886bccfa92101f64b436b2ab39b25bc7bdf8abe8d45d81b14c2f03a2bc1dd2",
+    "timestamp": "2026-06-20T09:43:59.000000Z",
+    "method": "revealBatch",
+    "from": "0x15fC6050cD48afc8836e2513945A6F96fF761013",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357980,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xf50b96ada20099605178435c472da23d5a08b68c6bdf49c40f50a151eeb0955b",
+    "timestamp": "2026-06-20T09:43:47.000000Z",
+    "method": "revealBatch",
+    "from": "0x7F4b7860bA9957128c5Ce416e94784cA98b5C976",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357979,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x51d452878a56d78152fd97653f99a5d21a0c80e3ff0cd04c953bc4f0e060691d",
+    "timestamp": "2026-06-20T09:43:23.000000Z",
+    "method": "revealBatch",
+    "from": "0x6478f84a88950e39CD242df5AF9E824E897AA658",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 25357977,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x98c4f794664c2fefba6daba9fe74cdf4cc248de21f08fce1c5efce3fd840e29f",
+    "timestamp": "2026-06-20T09:43:23.000000Z",
+    "method": "reveal",
+    "from": "0xB28BFab16ABB461fBC56FD2939d079DdcFb117bb",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357977,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xa13794a0edb0394e76febc3252ccc9f54f6d5fa39fdc19c4981eb6b71ef4d031",
+    "timestamp": "2026-06-20T09:42:59.000000Z",
+    "method": "reveal",
+    "from": "0x7BcC944842958670628e7CbBd15e2f75AbAB7819",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357975,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x662131c30dd2cda2c6c7cde44e3527b140d6967ec51ed1431aaec70266dbb61e",
+    "timestamp": "2026-06-20T09:42:59.000000Z",
+    "method": "reveal",
+    "from": "0x7F4b7860bA9957128c5Ce416e94784cA98b5C976",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357975,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x0a3ea69701a6dd78b32ae806c25d99b341405bfb0a39f01407b323704ba14b9b",
+    "timestamp": "2026-06-20T09:42:35.000000Z",
+    "method": "reveal",
+    "from": "0x7D5cd454cE9309B0b4DD818D1665cE4516a9B089",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25357973,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x09cc6c74646d5da80fbeca7fcdcd6eec251ad6727b0684e1d1b2cacc3097ff0d",
+    "timestamp": "2026-06-20T09:42:35.000000Z",
+    "method": "reveal",
+    "from": "0x6309752E9FC10E014759678466BCA4F924F47D21",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25357973,
+    "category": "reveal"
+   },
+   {
+    "truncated": true,
+    "chunk": 0
+   }
+  ],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 1,
+    "first": "2026-06-20",
+    "last": "2026-06-20",
+    "last_tx": "0x934b961928177a42cd03609402cb480daa1e3b70778cce3ba930d31c0ab0046e",
+    "list": [
+     {
+      "date": "2026-06-20",
+      "tx": "0x934b961928177a42cd03609402cb480daa1e3b70778cce3ba930d31c0ab0046e",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "50ca4e9921cd1b91f1e72bbf10011c36404eed35"
+      ],
+      "data": "0x"
+     }
+    ]
+   },
+   "RendererFrozen()": {
+    "n": 0
+   },
+   "RendererUpdated(address)": {
+    "n": 0
+   }
+  },
+  "decoded": [
+   {
+    "hash": "0x09cc6c74646d5da80fbeca7fcdcd6eec251ad6727b0684e1d1b2cacc3097ff0d",
+    "timestamp": "2026-06-20T09:42:35.000000Z",
+    "method": "reveal",
+    "category": "reveal",
+    "from": "0x6309752E9FC10E014759678466BCA4F924F47D21",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "uint256",
+      "value": "4150"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0x2ff385ae6f404b868e74ff505a855244cb607a608a0f83f6c64547fd785ecbb0",
+    "timestamp": "2026-06-20T10:09:11.000000Z",
+    "method": "reveal",
+    "category": "reveal",
+    "from": "0xF50546E7aD4E10c7F68410DfD497ED8fC19F1b22",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "uint256",
+      "value": "7924"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0xa41b322e4bba29785847d67727a356f55d998777621940e949289110e5fb9a13",
+    "timestamp": "2026-06-20T10:14:59.000000Z",
+    "method": "reveal",
+    "category": "reveal",
+    "from": "0xbF55fe6aa80dA4e187082407c02803d0Db15b257",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "uint256",
+      "value": "8771"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   }
+  ],
+  "ownership_transfers": [
+   {
+    "date": "2026-06-20",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0x50ca4e9921cd1b91f1e72bbf10011c36404eed35",
+    "tx": "0x934b961928177a42cd03609402cb480daa1e3b70778cce3ba930d31c0ab0046e"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0x18e411554c20e0a2690a158800770e59c74bafc3_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0x50ca4e9921cd1b91f1e72bbf10011c36404eed35",
+  "code_raw": "data/raw/rpc-mutability/0x50ca4e9921cd1b91f1e72bbf10011c36404eed35_holdercode.json",
+  "type": "eoa",
+  "bs_name": null,
+  "ens": null,
+  "bs_impl_names": [],
+  "bs_tags": [],
+  "is_contract": false,
+  "creator": null,
+  "is_verified": false,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {
+  "rendererFrozen": 0
+ },
+ "tokenuri_path": "override",
+ "lock_functions": [
+  "freezeRenderer"
+ ],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [
+  {
+   "name": "setRenderer",
+   "sig": "setRenderer(address)",
+   "selector": "0x56d3163d",
+   "category": "renderer",
+   "inputs": [
+    "address"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "require(!rendererFrozen, \"renderer frozen\");\n        require(renderer_ != address(0), \"zero renderer\");\n        renderer = IMushroomRenderer(renderer_);\n       ",
+   "writes": [
+    "renderer"
+   ],
+   "effective": "yes",
+   "power": "eoa",
+   "holder_addrs": [
+    "0x50ca4e9921cd1b91f1e72bbf10011c36404eed35"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [
+    "rendererFrozen"
+   ],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x50ca4e9921cd1b91f1e72bbf10011c36404eed35",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "reveal",
+   "sig": "reveal(uint256)",
+   "selector": "0xc2ca0ac5",
+   "category": "reveal",
+   "inputs": [
+    "uint256"
+   ],
+   "gates": [],
+   "modifiers": [],
+   "body_head": "require(_ownerOf(tokenId) != address(0), \"nonexistent\");\n        ShroomState storage s = shrooms[tokenId];\n        require(!s.revealed, \"already revealed\");\n\n  ",
+   "writes": [
+    "revealed",
+    "stageBlock"
+   ],
+   "power": "unknown",
+   "holder_addrs": [],
+   "holder_how": [
+    "no access check found in header/body head"
+   ],
+   "unknown_gate": true,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": []
+  },
+  {
+   "name": "revealBatch",
+   "sig": "revealBatch(uint256[])",
+   "selector": "0x75ef961f",
+   "category": "reveal",
+   "inputs": [
+    "uint256[]"
+   ],
+   "gates": [],
+   "modifiers": [],
+   "body_head": "for (uint256 i = 0; i < tokenIds.length; ++i) {\n            reveal(tokenIds[i]);\n        }",
+   "writes": [],
+   "power": "unknown",
+   "holder_addrs": [],
+   "holder_how": [
+    "no access check found in header/body head"
+   ],
+   "unknown_gate": true,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": []
+  }
+ ],
+ "class_direct": "eoa-mutable",
+ "class_reason": "live setters (eoa): setRenderer",
+ "live_mutators": [
+  "setRenderer"
+ ],
+ "dependencies": [
+  {
+   "address": "0xa06681a726e5fa82ea9d260a85559c4466a5c2d6",
+   "via": "renderer()",
+   "in_tokenuri_path": true,
+   "via_setter": true,
+   "analysis": {
+    "address": "0xa06681a726e5fa82ea9d260a85559c4466a5c2d6",
+    "verified": true,
+    "contract_name": "MushroomRenderer",
+    "proxy": {
+     "kind": null
+    },
+    "owner": null,
+    "admin_fn": null,
+    "uups": false,
+    "lock_views": {},
+    "lock_flags_true": {},
+    "lock_functions": [],
+    "class_direct": "immutable",
+    "class_reason": "no uri/renderer/upgrade function in ABI and not a proxy",
+    "live_mutators": [],
+    "mutators": [],
+    "history": {},
+    "unverified_selector_hits": [],
+    "tokenuri_path": "override"
+   }
+  }
+ ],
+ "meta": {
+  "address": "0x18e411554c20e0a2690a158800770e59c74bafc3",
+  "name": "OnChain Mycos",
+  "w5_claim_strength": "explicit-100%/fully",
+  "w5_claim_text": "/// @notice Fully on-chain, evolving pixel-art mushrooms on Ethereum mainnet (L1).",
+  "w5_source_type": "contract-source",
+  "w5_source_url": "https://etherscan.io/address/0x18e411554c20e0a2690a158800770e59c74bafc3#code (contracts/Mushroom.sol:13)",
+  "holders_count": 7408.0,
+  "in_w5": true,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": "onchain-renderer",
+  "census_media_class": "data-uri",
+  "census_liveness": "alive",
+  "in_census_onchain": true,
+  "standard": "ERC-721",
+  "creator": "0x50ca4e9921cd1b91f1e72bbf10011c36404eed35",
+  "deploy_block": 25355203.0
+ },
+ "class_deps_all": "immutable",
+ "class_deps": "immutable",
+ "class_final": "eoa-mutable",
+ "pointer_power": "eoa"
+}

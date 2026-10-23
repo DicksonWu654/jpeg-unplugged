@@ -1,0 +1,595 @@
+{
+ "address": "0x1e9385ee28c5c7d33f3472f732fb08ce3cebce1f",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:23Z",
+ "code_raw": "data/raw/rpc-mutability/0x1e9385ee28c5c7d33f3472f732fb08ce3cebce1f_code.json",
+ "code_len": 15595,
+ "slots": {
+  "slot0": "0x000000000000000000000000c3f733ca98e0dad0386979eb96fb1722a1a05e69"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0x1e9385ee28c5c7d33f3472f732fb08ce3cebce1f_slots.json",
+ "verified": true,
+ "contract_name": "MoonCatLootprints",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [
+   {
+    "hash": "0x9a1dfcb1ba2a49ab4b741a8c9e77145b383d454531a4e7a6aefaaa6c2c980e52",
+    "timestamp": "2022-10-09T01:30:11.000000Z",
+    "method": "transferOwnership",
+    "from": "0xD342a4F0397B4268e6adce89b9B88C746AFA85Ee",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15707264,
+    "category": "ownership"
+   },
+   {
+    "hash": "0x745267cf184c571f23ee490d3d09b0a3a182b6d18c422db722474c5ffba800b7",
+    "timestamp": "2021-10-25T16:58:36.000000Z",
+    "method": "permanentlyCloseMintingWindow",
+    "from": "0xD342a4F0397B4268e6adce89b9B88C746AFA85Ee",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13487820,
+    "category": "lock"
+   },
+   {
+    "hash": "0xfaecd5e45a1e66fdfe747c20d3bf7b3871e64927afa36f425a6ac2fc16f78398",
+    "timestamp": "2021-10-25T16:57:57.000000Z",
+    "method": "reveal",
+    "from": "0xD342a4F0397B4268e6adce89b9B88C746AFA85Ee",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13487817,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x27ab52c0b9d47b84defeb010da7933ff90883afd0790abf724ad40087ccf5bbf",
+    "timestamp": "2021-10-25T16:55:56.000000Z",
+    "method": "reveal",
+    "from": "0xD342a4F0397B4268e6adce89b9B88C746AFA85Ee",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13487808,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xf7a39558155a8a0df536df1f53d6ea83fdc830ce26f29703f8f841b39b186bb4",
+    "timestamp": "2021-10-25T16:54:12.000000Z",
+    "method": "reveal",
+    "from": "0xD342a4F0397B4268e6adce89b9B88C746AFA85Ee",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13487799,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x57286346a396e61319631970974299e4131bef4fb832ccd8d2988b264fb20125",
+    "timestamp": "2021-10-25T16:52:21.000000Z",
+    "method": "reveal",
+    "from": "0xD342a4F0397B4268e6adce89b9B88C746AFA85Ee",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13487791,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x902b41ca145ea44490726235cfb0376028f9506e33aa5a7c78f2ab79fab81fc8",
+    "timestamp": "2021-10-25T16:50:44.000000Z",
+    "method": "reveal",
+    "from": "0xD342a4F0397B4268e6adce89b9B88C746AFA85Ee",
+    "from_is_contract": false,
+    "status": "Out of gas",
+    "block": 13487784,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xef38fd75827e47ec37e3eb5f4ed1d1180bbece772937cfbef95b9b9745604181",
+    "timestamp": "2021-10-25T16:48:33.000000Z",
+    "method": "reveal",
+    "from": "0xD342a4F0397B4268e6adce89b9B88C746AFA85Ee",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13487774,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xfc09d5c6928c81553fb4e514dcafc4e1203746d12e0b139452f716fe38299eba",
+    "timestamp": "2021-10-25T16:46:30.000000Z",
+    "method": "reveal",
+    "from": "0xD342a4F0397B4268e6adce89b9B88C746AFA85Ee",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13487761,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x78fcc5e9055067f4d1ecbf27dc52ca0084e6b1291a1cedeeba42ef2b877a28f2",
+    "timestamp": "2021-10-25T16:44:11.000000Z",
+    "method": "reveal",
+    "from": "0xD342a4F0397B4268e6adce89b9B88C746AFA85Ee",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13487751,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xf809e65186ebf5b9522b79ecdaa9538f2dc16b9a27c1ccaa5275b708b6e15584",
+    "timestamp": "2021-10-25T16:42:04.000000Z",
+    "method": "reveal",
+    "from": "0xD342a4F0397B4268e6adce89b9B88C746AFA85Ee",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13487741,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x03c7ef122598fbae790abbfce697df7f708693c25d6954acd8b2cd31a2a95869",
+    "timestamp": "2021-10-25T16:40:23.000000Z",
+    "method": "reveal",
+    "from": "0xD342a4F0397B4268e6adce89b9B88C746AFA85Ee",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13487736,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x87cb6d043f219a1ca1b4d1ce9c8c5d860d30db38a963aafa7f3b0576267b6a0b",
+    "timestamp": "2021-10-25T16:37:57.000000Z",
+    "method": "reveal",
+    "from": "0xD342a4F0397B4268e6adce89b9B88C746AFA85Ee",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13487725,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x776ebfae755a73986aca124e59733ad90c55a257fc7ad974d39f1d71b89049bb",
+    "timestamp": "2021-10-25T16:35:35.000000Z",
+    "method": "reveal",
+    "from": "0xD342a4F0397B4268e6adce89b9B88C746AFA85Ee",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13487715,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x42379ef53e158289328d3548dc9c525df582eca2ecdcf0d128bfb852785f7573",
+    "timestamp": "2021-10-24T22:28:17.000000Z",
+    "method": "reveal",
+    "from": "0xD342a4F0397B4268e6adce89b9B88C746AFA85Ee",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13482839,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x57059359da9fd0c55549a4d18c229b360cb41a73700d90519ded6b22bafb1b72",
+    "timestamp": "2021-09-30T15:52:02.000000Z",
+    "method": "reveal",
+    "from": "0xD342a4F0397B4268e6adce89b9B88C746AFA85Ee",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13327959,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x22083e39dc4a182448b0449c4827f3f05bc37153da736e9af859da8744cf5dab",
+    "timestamp": "2021-09-19T21:05:41.000000Z",
+    "method": "reveal",
+    "from": "0xD342a4F0397B4268e6adce89b9B88C746AFA85Ee",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13258533,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x1acd99e1ab64b89fd3ff33d16a48a9516ecc54b84886563f80c2d129afec1ba2",
+    "timestamp": "2021-09-18T15:45:12.000000Z",
+    "method": "reveal",
+    "from": "0xD342a4F0397B4268e6adce89b9B88C746AFA85Ee",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13250558,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x9e3b0271c826f1f84411ee4546edcffad1f7690393bbc01cfb3cc825f24d8339",
+    "timestamp": "2021-09-18T04:27:23.000000Z",
+    "method": "reveal",
+    "from": "0xD342a4F0397B4268e6adce89b9B88C746AFA85Ee",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13247530,
+    "category": "reveal"
+   },
+   {
+    "hash": "0x7096eb74c7e65fdc9fdf3c8d42988998c515a53355a0f10b80993521f78f1de7",
+    "timestamp": "2021-09-17T15:04:43.000000Z",
+    "method": "reveal",
+    "from": "0xD342a4F0397B4268e6adce89b9B88C746AFA85Ee",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13243922,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xf2bac944104b63108905908e2e56f894d6b581c09490156c7927732a78de12a2",
+    "timestamp": "2021-09-17T03:20:17.000000Z",
+    "method": "reveal",
+    "from": "0xD342a4F0397B4268e6adce89b9B88C746AFA85Ee",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13240808,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xdbb5acbc16cc08b66aa2e6ac73dd08a9c4dca8c8e40bd080b4b970c50721b027",
+    "timestamp": "2021-09-17T00:07:27.000000Z",
+    "method": "reveal",
+    "from": "0xD342a4F0397B4268e6adce89b9B88C746AFA85Ee",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13239932,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xf5d0b7dd9df564887be1ad28df735bc65bad5530b34522bf08ff2caa89cba9d8",
+    "timestamp": "2021-09-16T17:36:12.000000Z",
+    "method": "reveal",
+    "from": "0xD342a4F0397B4268e6adce89b9B88C746AFA85Ee",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13238176,
+    "category": "reveal"
+   },
+   {
+    "hash": "0xc9c351df55bd4b42c9fc14bf39896718d85c0480af87921350782de971e04523",
+    "timestamp": "2021-09-16T02:00:18.000000Z",
+    "method": "transferOwnership",
+    "from": "0x795afF8df356872FA867fA77241bBF27EFBD5EbA",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 13233918,
+    "category": "ownership"
+   }
+  ],
+  "events": {},
+  "decoded": [
+   {
+    "hash": "0xf5d0b7dd9df564887be1ad28df735bc65bad5530b34522bf08ff2caa89cba9d8",
+    "timestamp": "2021-09-16T17:36:12.000000Z",
+    "method": "reveal",
+    "category": "reveal",
+    "from": "0xD342a4F0397B4268e6adce89b9B88C746AFA85Ee",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "uint256",
+      "value": "110673778445966400865725667044379870869329032589237819026135354546681801306563"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0xdbb5acbc16cc08b66aa2e6ac73dd08a9c4dca8c8e40bd080b4b970c50721b027",
+    "timestamp": "2021-09-17T00:07:27.000000Z",
+    "method": "reveal",
+    "category": "reveal",
+    "from": "0xD342a4F0397B4268e6adce89b9B88C746AFA85Ee",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "uint256",
+      "value": "79824382274679431386482723916499322559144307779353642952859131051894445814081"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0xf2bac944104b63108905908e2e56f894d6b581c09490156c7927732a78de12a2",
+    "timestamp": "2021-09-17T03:20:17.000000Z",
+    "method": "reveal",
+    "category": "reveal",
+    "from": "0xD342a4F0397B4268e6adce89b9B88C746AFA85Ee",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "uint256",
+      "value": "29590235708886920974344424018292517903572602992663570041447273760048917321155"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0xef38fd75827e47ec37e3eb5f4ed1d1180bbece772937cfbef95b9b9745604181",
+    "timestamp": "2021-10-25T16:48:33.000000Z",
+    "method": "reveal",
+    "category": "reveal",
+    "from": "0xD342a4F0397B4268e6adce89b9B88C746AFA85Ee",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "uint256",
+      "value": "112099580800758943287323171961966651890725190228072319499638689474771829965147"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0x57286346a396e61319631970974299e4131bef4fb832ccd8d2988b264fb20125",
+    "timestamp": "2021-10-25T16:52:21.000000Z",
+    "method": "reveal",
+    "category": "reveal",
+    "from": "0xD342a4F0397B4268e6adce89b9B88C746AFA85Ee",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "uint256",
+      "value": "80396478540996611981952956475753566934480913995430799241478577717576318675332"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0xf7a39558155a8a0df536df1f53d6ea83fdc830ce26f29703f8f841b39b186bb4",
+    "timestamp": "2021-10-25T16:54:12.000000Z",
+    "method": "reveal",
+    "category": "reveal",
+    "from": "0xD342a4F0397B4268e6adce89b9B88C746AFA85Ee",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "uint256",
+      "value": "43520459870406960779700904944905403368656925919232564798632577651451503296580"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0x27ab52c0b9d47b84defeb010da7933ff90883afd0790abf724ad40087ccf5bbf",
+    "timestamp": "2021-10-25T16:55:56.000000Z",
+    "method": "reveal",
+    "category": "reveal",
+    "from": "0xD342a4F0397B4268e6adce89b9B88C746AFA85Ee",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "uint256",
+      "value": "108612392479273498684474794408742252501176620936886605558986976503360767099261"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0xfaecd5e45a1e66fdfe747c20d3bf7b3871e64927afa36f425a6ac2fc16f78398",
+    "timestamp": "2021-10-25T16:57:57.000000Z",
+    "method": "reveal",
+    "category": "reveal",
+    "from": "0xD342a4F0397B4268e6adce89b9B88C746AFA85Ee",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "uint256",
+      "value": "10758721685829466337613036567010835275556196333607972271846679143832732543877"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0xc9c351df55bd4b42c9fc14bf39896718d85c0480af87921350782de971e04523",
+    "timestamp": "2021-09-16T02:00:18.000000Z",
+    "method": "transferOwnership",
+    "category": "ownership",
+    "from": "0x795afF8df356872FA867fA77241bBF27EFBD5EbA",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0xd342a4f0397b4268e6adce89b9b88c746afa85ee"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0x9a1dfcb1ba2a49ab4b741a8c9e77145b383d454531a4e7a6aefaaa6c2c980e52",
+    "timestamp": "2022-10-09T01:30:11.000000Z",
+    "method": "transferOwnership",
+    "category": "ownership",
+    "from": "0xD342a4F0397B4268e6adce89b9B88C746AFA85Ee",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0xdf2e60af57c411f848b1ea12b10a404d194bce27"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0x1e9385ee28c5c7d33f3472f732fb08ce3cebce1f_reads1.json",
+ "eip4906": false,
+ "owner": null,
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {
+  "frozen": 0
+ },
+ "tokenuri_path": "override",
+ "lock_functions": [
+  "freeze",
+  "permanentlyCloseMintingWindow"
+ ],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [
+  {
+   "name": "setMetadataContract",
+   "sig": "setMetadataContract(address)",
+   "selector": "0xe5187f43",
+   "category": "renderer",
+   "inputs": [
+    "address"
+   ],
+   "gates": [
+    {
+     "type": "named",
+     "ref": "contractOwner"
+    }
+   ],
+   "modifiers": [
+    "onlyContractOwner"
+   ],
+   "body_head": "Metadata = IMoonCatLootprintsMetadata(metadataContract);",
+   "writes": [
+    "Metadata"
+   ],
+   "effective": "yes",
+   "power": "eoa",
+   "holder_addrs": [
+    "0xdf2e60af57c411f848b1ea12b10a404d194bce27"
+   ],
+   "holder_how": [
+    "contractOwner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xdf2e60af57c411f848b1ea12b10a404d194bce27",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": "team.mooncatrescue.eth",
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "reveal",
+   "sig": "reveal(uint256)",
+   "selector": "0xc2ca0ac5",
+   "category": "reveal",
+   "inputs": [
+    "uint256"
+   ],
+   "gates": [
+    {
+     "type": "named",
+     "ref": "contractOwner"
+    }
+   ],
+   "modifiers": [
+    "onlyContractOwner"
+   ],
+   "body_head": "require(pendingReveal\r\n                && block.number > revealPrepBlock\r\n                && keccak256(abi.encodePacked(revealSeed)) == revealSeedHash\r\n        ",
+   "writes": [
+    "pendingReveal",
+    "revealBlockHashes"
+   ],
+   "power": "eoa",
+   "holder_addrs": [
+    "0xdf2e60af57c411f848b1ea12b10a404d194bce27"
+   ],
+   "holder_how": [
+    "contractOwner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xdf2e60af57c411f848b1ea12b10a404d194bce27",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": "team.mooncatrescue.eth",
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  }
+ ],
+ "class_direct": "eoa-mutable",
+ "class_reason": "live setters (eoa): setMetadataContract",
+ "live_mutators": [
+  "setMetadataContract"
+ ],
+ "dependencies": [
+  {
+   "address": "0xa48b5c37ecd555354ae27f85902298ff1add7e4b",
+   "via": "Metadata()",
+   "in_tokenuri_path": true,
+   "via_setter": false,
+   "analysis": {
+    "address": "0xa48b5c37ecd555354ae27f85902298ff1add7e4b",
+    "verified": true,
+    "contract_name": "MoonCatLootprintsMetadata",
+    "proxy": {
+     "kind": null
+    },
+    "owner": null,
+    "admin_fn": null,
+    "uups": false,
+    "lock_views": {},
+    "lock_flags_true": {},
+    "lock_functions": [],
+    "class_direct": "immutable",
+    "class_reason": "no uri/renderer/upgrade function in ABI and not a proxy",
+    "live_mutators": [],
+    "mutators": [],
+    "history": {},
+    "unverified_selector_hits": [],
+    "tokenuri_path": "override"
+   }
+  }
+ ],
+ "meta": {
+  "address": "0x1e9385ee28c5c7d33f3472f732fb08ce3cebce1f",
+  "name": "MoonCatLootprint",
+  "w5_claim_strength": null,
+  "w5_claim_text": null,
+  "w5_source_type": null,
+  "w5_source_url": null,
+  "holders_count": 2309.0,
+  "in_w5": false,
+  "gallery_slugs": "mooncat-lootprint",
+  "gallery_tokens": "1",
+  "in_gallery": true,
+  "census_meta_class": "onchain-renderer",
+  "census_media_class": "data-uri",
+  "census_liveness": "alive",
+  "in_census_onchain": true,
+  "standard": "ERC-721",
+  "creator": "0x795aff8df356872fa867fa77241bbf27efbd5eba",
+  "deploy_block": 13233789.0
+ },
+ "class_deps_all": "immutable",
+ "class_deps": "immutable",
+ "class_final": "eoa-mutable",
+ "pointer_power": "eoa"
+}

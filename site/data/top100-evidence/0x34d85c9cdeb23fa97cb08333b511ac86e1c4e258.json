@@ -1,0 +1,520 @@
+{
+  "collection": {
+    "rank": 6,
+    "source_rank": 6,
+    "name": "Otherdeed",
+    "contract": "0x34d85c9cdeb23fa97cb08333b511ac86e1c4e258",
+    "contracts": [
+      "0x34d85c9cdeb23fa97cb08333b511ac86e1c4e258"
+    ],
+    "slug": "otherdeed",
+    "volume_usd": 1282539518.81,
+    "volume_source": "CryptoSlam all-time Ethereum owner-to-owner sales, wash-filtered USD",
+    "source_url": "https://web-api.cryptoslam.io/v1/sales/rank-by-volume?timeRange=all&orderBy=rank&sortDirection=asc&offset=0&limit=100&blockchainId=0&hideInscriptions=false",
+    "ranking_evidence": "data/raw/top100-api/cryptoslam-ranking-0.json",
+    "identity_evidence": "data/raw/top100-api/cryptoslam-info-otherdeed.json",
+    "token_count": 100000,
+    "all_time_volume": 1282539518.81,
+    "volume_currency": "USD",
+    "kind": "virtual-land",
+    "metadata_location": "http",
+    "metadata_classes": [
+      "http"
+    ],
+    "media_location": "http",
+    "primary_image_location": "http",
+    "media_classes": [
+      "http"
+    ],
+    "liveness": "alive",
+    "liveness_exact": "alive",
+    "all_declared_media_liveness": "alive",
+    "metadata_failed": false,
+    "n_alive": 3,
+    "n_dead": 0,
+    "n_unknown": 0,
+    "n_degraded": 0,
+    "key_domain_or_gateway": "api.otherside.xyz; assets.otherside.xyz",
+    "hosts": [
+      "api.otherside.xyz",
+      "assets.otherside.xyz"
+    ],
+    "hardcoded_gateways": [],
+    "http_origin_dependency": true,
+    "uses_ipfs": false,
+    "uses_arweave": false,
+    "fully_onchain_all_declared_media": false,
+    "metadata_and_primary_image_onchain": false,
+    "mutability_class": "multisig-mutable",
+    "single_key_mutable": false,
+    "single_key_repointable": false,
+    "base_uri_or_renderer": "0x34d85c9cdeb23fa97cb08333b511ac86e1c4e258.tokenURI/uri",
+    "control": [
+      {
+        "contract": "0x34d85c9cdeb23fa97cb08333b511ac86e1c4e258",
+        "class": "multisig-mutable",
+        "pointer_power": "multisig",
+        "reason": "live setters (multisig): loadLandMetadata,setBaseURI",
+        "owner": {
+          "addr": "0x1633b453c3ca5a244c66f4418ff5120282370053",
+          "code_raw": "data/raw/rpc-mutability/0x1633b453c3ca5a244c66f4418ff5120282370053_holdercode.json",
+          "code_len": 171,
+          "probe_raw": "data/raw/rpc-mutability/0x1633b453c3ca5a244c66f4418ff5120282370053_holderprobe.json",
+          "type": "safe",
+          "threshold": 2,
+          "n_owners": 6,
+          "owners": [
+            "0x1c9ea2b3296f2b0867817cdd7707fe78db59e426",
+            "0x1a7fa8b90caf4b63b97b5ce79fb7e215a44fa55a",
+            "0x03745b3eaef5938e8de517e43af68fdc480810d9",
+            "0x7f1a092c34094b7abe78afebc5e958044048c3d2",
+            "0xb402bc1ebdaac346c68b31b3a786016bc8e0fc31",
+            "0x8fe4f546e43bdca91819a782b3df9fb77a6c4d29"
+          ],
+          "version": "1.3.0",
+          "bs_name": "SafeProxy",
+          "ens": null,
+          "bs_impl_names": [
+            "GnosisSafe"
+          ],
+          "bs_tags": [],
+          "is_contract": true,
+          "creator": "0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2",
+          "is_verified": true,
+          "bs_reputation": "ok"
+        },
+        "proxy": {
+          "kind": null
+        },
+        "live_mutators": [
+          {
+            "name": "setBaseURI",
+            "sig": "setBaseURI(string)",
+            "category": "uri",
+            "power": "multisig",
+            "holders": [
+              {
+                "addr": "0xa858ddc0445d8131dac4d1de01f834ffcba52ef1",
+                "type": "safe",
+                "threshold": 3,
+                "n_owners": 9,
+                "bs_name": "GnosisSafeProxy",
+                "ens": null,
+                "desc": "safe 3/9",
+                "simple": "multisig"
+              }
+            ],
+            "effective": "yes",
+            "reason": null
+          },
+          {
+            "name": "loadLandMetadata",
+            "sig": "loadLandMetadata((bytes32,bytes32,uint256,uint256))",
+            "category": "renderer",
+            "power": "multisig",
+            "holders": [
+              {
+                "addr": "0xa858ddc0445d8131dac4d1de01f834ffcba52ef1",
+                "type": "safe",
+                "threshold": 3,
+                "n_owners": 9,
+                "bs_name": "GnosisSafeProxy",
+                "ens": null,
+                "desc": "safe 3/9",
+                "simple": "multisig"
+              }
+            ],
+            "effective": "unknown",
+            "reason": null
+          }
+        ],
+        "lock_flags": {},
+        "dependencies": [],
+        "pointer_getters": [],
+        "analyzed_at": "2026-10-23T02:50:34Z",
+        "history_incomplete": false,
+        "evidence": "data/raw/top100-mutability/0x34d85c9cdeb23fa97cb08333b511ac86e1c4e258.json"
+      }
+    ],
+    "samples": 3,
+    "distinct_token_ids": 3,
+    "sample_note": null,
+    "source_contracts_without_sampleable_nfts": [],
+    "ownership_scope_gaps": [],
+    "refreshed_at": "2026-10-23T03:05:00Z",
+    "opensea_rank": 6,
+    "ranking_scope_disagreement": false,
+    "metadata_adapter": false,
+    "evidence": [
+      "data/raw/top100-census/0x34d85c9cdeb23fa97cb08333b511ac86e1c4e258/result.json.gz"
+    ],
+    "delivery_note": null
+  },
+  "samples": [
+    {
+      "contract": "0x34d85c9cdeb23fa97cb08333b511ac86e1c4e258",
+      "token_id": "30000",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(0) [low; totalSupply=100000]",
+      "metadata_location": "http",
+      "metadata_uri": "https://api.otherside.xyz/lands/30000",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "api.otherside.xyz",
+          "url": "https://api.otherside.xyz/lands/30000",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 2,
+          "final_url": "https://api.otherside.xyz/lands/30000",
+          "content_type": "application/json",
+          "size": 730,
+          "content_length": null,
+          "sha256": "98142779cea725790b540ee99ec161beed08bdfbe429e17e713e5ca8a3585da3",
+          "t": "2026-10-23T02:50:13Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "http",
+          "host": "assets.otherside.xyz",
+          "gateway": null,
+          "uri": "https://assets.otherside.xyz/otherdeeds/40b2eb72dcb26858ada04438999ca02a8bc486188940f04219e4dee7ff476108.jpg",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "assets.otherside.xyz",
+              "url": "https://assets.otherside.xyz/otherdeeds/40b2eb72dcb26858ada04438999ca02a8bc486188940f04219e4dee7ff476108.jpg",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 5,
+              "final_url": "https://assets.otherside.xyz/otherdeeds/40b2eb72dcb26858ada04438999ca02a8bc486188940f04219e4dee7ff476108.jpg",
+              "content_type": "image/jpeg",
+              "size": 65536,
+              "content_length": 1900281,
+              "sha256": "ff842dd8bafe0fb48e64c5364c9d0d29eb364e2d7c22bf3888b65967f9a05fc8",
+              "t": "2026-10-23T02:50:13Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "http",
+        "anim_class": null,
+        "image_verdict": "alive",
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "http"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "alive",
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000007530",
+          "endpoint": "https://eth.rpc.blxrbdn.com",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x34d85c9cdeb23fa97cb08333b511ac86e1c4e258/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0x34d85c9cdeb23fa97cb08333b511ac86e1c4e258",
+      "token_id": "80000",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(50000) [mid; totalSupply=100000]",
+      "metadata_location": "http",
+      "metadata_uri": "https://api.otherside.xyz/lands/80000",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "api.otherside.xyz",
+          "url": "https://api.otherside.xyz/lands/80000",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 4,
+          "final_url": "https://api.otherside.xyz/lands/80000",
+          "content_type": "application/json",
+          "size": 948,
+          "content_length": null,
+          "sha256": "c6985f2874bdc47bbea013b50df8497a4e49efb8e9797f912b02bf88c41b44ea",
+          "t": "2026-10-23T02:50:13Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "http",
+          "host": "assets.otherside.xyz",
+          "gateway": null,
+          "uri": "https://assets.otherside.xyz/otherdeeds/7ae4a57d5807702d30a9a07310c3762a847bb18b54f4190b29d0b439081dfe35.jpg",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "assets.otherside.xyz",
+              "url": "https://assets.otherside.xyz/otherdeeds/7ae4a57d5807702d30a9a07310c3762a847bb18b54f4190b29d0b439081dfe35.jpg",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 8,
+              "final_url": "https://assets.otherside.xyz/otherdeeds/7ae4a57d5807702d30a9a07310c3762a847bb18b54f4190b29d0b439081dfe35.jpg",
+              "content_type": "image/jpeg",
+              "size": 65536,
+              "content_length": 1613168,
+              "sha256": "f4481b56b220c436778d4fbed818a76f3d589d4d407bc509b2f02e1385c414ad",
+              "t": "2026-10-23T02:50:13Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "http",
+        "anim_class": null,
+        "image_verdict": "alive",
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "http"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "alive",
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000013880",
+          "endpoint": "https://eth.rpc.blxrbdn.com",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x34d85c9cdeb23fa97cb08333b511ac86e1c4e258/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0x34d85c9cdeb23fa97cb08333b511ac86e1c4e258",
+      "token_id": "9959",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(99999) [recent; totalSupply=100000]",
+      "metadata_location": "http",
+      "metadata_uri": "https://api.otherside.xyz/lands/9959",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "api.otherside.xyz",
+          "url": "https://api.otherside.xyz/lands/9959",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 7,
+          "final_url": "https://api.otherside.xyz/lands/9959",
+          "content_type": "application/json",
+          "size": 652,
+          "content_length": null,
+          "sha256": "640c595b19578682ce9ec01596b4b350640dc85bd933bdc2163a4ab5c382ea51",
+          "t": "2026-10-23T02:50:14Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "http",
+          "host": "assets.otherside.xyz",
+          "gateway": null,
+          "uri": "https://assets.otherside.xyz/otherdeeds/528a15b57a4232805abd26c7d10b4ddb58c749c479454496430866196c6c8526.jpg",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "assets.otherside.xyz",
+              "url": "https://assets.otherside.xyz/otherdeeds/528a15b57a4232805abd26c7d10b4ddb58c749c479454496430866196c6c8526.jpg",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 9,
+              "final_url": "https://assets.otherside.xyz/otherdeeds/528a15b57a4232805abd26c7d10b4ddb58c749c479454496430866196c6c8526.jpg",
+              "content_type": "image/jpeg",
+              "size": 65536,
+              "content_length": 1872643,
+              "sha256": "2b3d557542de32087a0291cedfddd1552f70b3041744763559d6dc6011a5ce8b",
+              "t": "2026-10-23T02:50:14Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "http",
+        "anim_class": null,
+        "image_verdict": "alive",
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "http"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "alive",
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd00000000000000000000000000000000000000000000000000000000000026e7",
+          "endpoint": "https://eth.rpc.blxrbdn.com",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x34d85c9cdeb23fa97cb08333b511ac86e1c4e258/evidence.jsonl.gz"
+    }
+  ],
+  "saved_packet_index": [
+    {
+      "path": "data/raw/top100-api/opensea-contract-0x34d85c9cdeb23fa97cb08333b511ac86e1c4e258-attempt1-1792724272088861592.body",
+      "sha256": "e7435fbb1c5ad5f3795889b78db8f659dff6d30c6b8b48d4369204d05b353f74",
+      "retrieved_at": "2026-10-23T02:57:52Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0x34d85c9cdeb23fa97cb08333b511ac86e1c4e258",
+      "method": "GET",
+      "status": 401,
+      "error": null,
+      "bytes": 70,
+      "truncated": false
+    },
+    {
+      "path": "data/raw/top100-api/opensea-contract-0x34d85c9cdeb23fa97cb08333b511ac86e1c4e258-attempt1-1792724718376480884.body",
+      "sha256": "e7435fbb1c5ad5f3795889b78db8f659dff6d30c6b8b48d4369204d05b353f74",
+      "retrieved_at": "2026-10-23T03:05:18Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0x34d85c9cdeb23fa97cb08333b511ac86e1c4e258",
+      "method": "GET",
+      "status": 401,
+      "error": null,
+      "bytes": 70,
+      "truncated": false
+    },
+    {
+      "path": "data/raw/top100-census/0x34d85c9cdeb23fa97cb08333b511ac86e1c4e258/bodies.zip",
+      "sha256": "0657703c0d3acd197af891d5ceb901a9e9845e1e067c84d568559b40be1f0d16",
+      "bytes": 9411
+    },
+    {
+      "path": "data/raw/top100-census/0x34d85c9cdeb23fa97cb08333b511ac86e1c4e258/evidence.jsonl.gz",
+      "sha256": "8fdd3e2a75ed3cb6bfa27fbc630fed90ec3804750ab1a15a895b1869ef5d0c4d",
+      "bytes": 1232
+    },
+    {
+      "path": "data/raw/top100-census/0x34d85c9cdeb23fa97cb08333b511ac86e1c4e258/result.json.gz",
+      "sha256": "5383f5db7a1504f842ce200fa0a19c67f50a0d63b67db56ef485868393c0928f",
+      "bytes": 1770
+    },
+    {
+      "path": "data/raw/top100-mutability/0x34d85c9cdeb23fa97cb08333b511ac86e1c4e258.json",
+      "sha256": "982fda33ce6a6cc8d7fabff88aa46085ed7d94bab28664f1b2cc7026b24f9d69",
+      "bytes": 34093
+    },
+    {
+      "path": "data/raw/top100-pointers/0x34d85c9cdeb23fa97cb08333b511ac86e1c4e258/result.json",
+      "sha256": "f732e956eabb34372b6b10eb7997874c28a3144a63ed882ed286e7e8b4fe40e8",
+      "bytes": 203
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x34d85c9cdeb23fa97cb08333b511ac86e1c4e258/bodies.zip",
+      "sha256": "8a72deae628cc266890acd90b1277bec2ecc90615e234c0e8f3529d40019e9bf",
+      "bytes": 474
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x34d85c9cdeb23fa97cb08333b511ac86e1c4e258/evidence.jsonl.gz",
+      "sha256": "e50b1474ddd6efb7c109f6374395e1e471751773fadf8e1429349293a3809a5a",
+      "bytes": 697
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x34d85c9cdeb23fa97cb08333b511ac86e1c4e258/result.json",
+      "sha256": "583e90999c40cb153e607e440cbbd6f80b595d96ed625543d74fbf3b957ad1a9",
+      "bytes": 304
+    }
+  ],
+  "interpretation": "Liveness describes sampled metadata and primary-image delivery, not permanent loss of the artwork."
+}

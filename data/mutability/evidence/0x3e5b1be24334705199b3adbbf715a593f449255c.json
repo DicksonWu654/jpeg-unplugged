@@ -1,0 +1,134 @@
+{
+ "address": "0x3e5b1be24334705199b3adbbf715a593f449255c",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:36Z",
+ "code_raw": "data/raw/rpc-mutability/0x3e5b1be24334705199b3adbbf715a593f449255c_code.json",
+ "code_len": 21833,
+ "slots": {
+  "slot0": "0x50696c6f7400000000000000000000000000000000000000000000000000000a"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0x3e5b1be24334705199b3adbbf715a593f449255c_slots.json",
+ "verified": true,
+ "contract_name": "Pilot",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [
+   {
+    "hash": "0xb3fb431436ddc52274088d2235b9992c94b50782a480cefee55639b2945ce440",
+    "timestamp": "2021-09-03T21:07:44.000000Z",
+    "method": "transferOwnership",
+    "from": "0xD7A3d41A0AF242c89811f4f725497f34897A38E8",
+    "from_is_contract": false,
+    "status": "awaiting_internal_transactions",
+    "block": 13155077,
+    "category": "ownership"
+   },
+   {
+    "hash": "0x465811a1224ca99243f411936b2850d7154f2774fa270e15e5f91b2dabefbe57",
+    "timestamp": "2021-09-03T21:06:17.000000Z",
+    "method": "transferOwnership",
+    "from": "0xD7A3d41A0AF242c89811f4f725497f34897A38E8",
+    "from_is_contract": false,
+    "status": "awaiting_internal_transactions",
+    "block": 13155069,
+    "category": "ownership"
+   },
+   {
+    "hash": "0xe6665c9c03183ced448ef0748ef17c646f7360258d0e7a770ed74b724e692e93",
+    "timestamp": "2021-09-03T21:05:08.000000Z",
+    "method": "transferOwnership",
+    "from": "0xD7A3d41A0AF242c89811f4f725497f34897A38E8",
+    "from_is_contract": false,
+    "status": "awaiting_internal_transactions",
+    "block": 13155062,
+    "category": "ownership"
+   }
+  ],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 1,
+    "first": "2021-09-03",
+    "last": "2021-09-03",
+    "last_tx": "0xc5d108582a855e9dfef72cdef0ba73af7b26ebecb09fbf570ab5695ff3c9165a",
+    "list": [
+     {
+      "date": "2021-09-03",
+      "tx": "0xc5d108582a855e9dfef72cdef0ba73af7b26ebecb09fbf570ab5695ff3c9165a",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "db7acff5c907d61826863c56b18cb9a8d6fa48ce"
+      ],
+      "data": "0x"
+     }
+    ]
+   }
+  },
+  "decoded": [],
+  "ownership_transfers": [
+   {
+    "date": "2021-09-03",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0xdb7acff5c907d61826863c56b18cb9a8d6fa48ce",
+    "tx": "0xc5d108582a855e9dfef72cdef0ba73af7b26ebecb09fbf570ab5695ff3c9165a"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0x3e5b1be24334705199b3adbbf715a593f449255c_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0xdb7acff5c907d61826863c56b18cb9a8d6fa48ce",
+  "code_raw": "data/raw/rpc-mutability/0xdb7acff5c907d61826863c56b18cb9a8d6fa48ce_holdercode.json",
+  "type": "eoa",
+  "bs_name": null,
+  "ens": null,
+  "bs_impl_names": [],
+  "bs_tags": [],
+  "is_contract": false,
+  "creator": null,
+  "is_verified": false,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "override",
+ "lock_functions": [],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [],
+ "class_direct": "immutable",
+ "class_reason": "no uri/renderer/upgrade function in ABI and not a proxy",
+ "live_mutators": [],
+ "dependencies": [],
+ "meta": {
+  "address": "0x3e5b1be24334705199b3adbbf715a593f449255c",
+  "name": "Pilot",
+  "w5_claim_strength": "on-chain-generic",
+  "w5_claim_text": "'\", \"description\": \"Pilot is randomized TV/Movie/Podcast pitches generated and stored on chain. We generate the premise. You generate the buzz.\", \"image\": \"data:image/svg+xml;base64,',",
+  "w5_source_type": "contract-source",
+  "w5_source_url": "https://etherscan.io/address/0x3e5b1be24334705199b3adbbf715a593f449255c#code (Pilot:1645)",
+  "holders_count": 389.0,
+  "in_w5": true,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": null,
+  "census_media_class": null,
+  "census_liveness": null,
+  "in_census_onchain": false,
+  "standard": "ERC-721",
+  "creator": "0xdb7acff5c907d61826863c56b18cb9a8d6fa48ce",
+  "deploy_block": 13154049.0
+ },
+ "class_deps_all": "none",
+ "class_deps": "none",
+ "class_final": "immutable",
+ "pointer_power": null
+}

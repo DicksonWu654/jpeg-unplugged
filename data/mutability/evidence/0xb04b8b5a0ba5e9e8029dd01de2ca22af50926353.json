@@ -1,0 +1,291 @@
+{
+ "address": "0xb04b8b5a0ba5e9e8029dd01de2ca22af50926353",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:37Z",
+ "code_raw": "data/raw/rpc-mutability/0xb04b8b5a0ba5e9e8029dd01de2ca22af50926353_code.json",
+ "code_len": 14872,
+ "slots": {
+  "slot0": "0x000046857348ccfb6c4c270575983f0207aa65ce1dea11579fe951cffc000000"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0xb04b8b5a0ba5e9e8029dd01de2ca22af50926353_slots.json",
+ "verified": true,
+ "contract_name": "Together",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 1,
+    "first": "2023-11-21",
+    "last": "2023-11-21",
+    "last_tx": "0x2c8b805fa8a965832ecf0cdc62619fd6667ad270fd8424f75e777503fe6f5be2",
+    "list": [
+     {
+      "date": "2023-11-21",
+      "tx": "0x2c8b805fa8a965832ecf0cdc62619fd6667ad270fd8424f75e777503fe6f5be2",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "d8fb7fb541e0bfe5863c5be4b1b41bb552933383"
+      ],
+      "data": "0x"
+     }
+    ]
+   },
+   "MetadataUpdate(uint256)": {
+    "n": 136,
+    "first": "2023-11-21",
+    "last": "2023-12-10",
+    "last_tx": "0xb9baf00db16558f5187c58d87920afb1d0984daac0c3b949261f7d42b4d1f2cd",
+    "list": [
+     {
+      "date": "2023-11-21",
+      "tx": "0x15032a4fb59e488a84654f74e9e71735ada6bb36f8681cddf25b47a8041dcfcb",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000104"
+     },
+     {
+      "date": "2023-11-21",
+      "tx": "0x28a604258fa2df19747bda45c6b4a949e349e4837f95afce9a8bf2df91dbf645",
+      "topics": [],
+      "data": "0x000000000000000000000000000000000000000000000000000000000000004c"
+     },
+     {
+      "date": "2023-11-21",
+      "tx": "0x8f0012c03ae29c11a555df50cb7af48c3bd9b05b3c71aaa3f972c182e1cdf5f3",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000062"
+     },
+     {
+      "date": "2023-11-21",
+      "tx": "0xedd253f5479e7fc2639c57c278cb0d00f417840db54d280834e9b39f57b55077",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000007"
+     },
+     {
+      "date": "2023-11-21",
+      "tx": "0xf2268857a5b2f85ef679f69b5862e1127e86674e2b10121141752f6483df35f6",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000006"
+     },
+     {
+      "date": "2023-11-22",
+      "tx": "0xd2e331cd6dbe29cc9bea1dd00c093f9bde69b1e68303320499b90630c34b8f5b",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000204"
+     },
+     {
+      "date": "2023-11-22",
+      "tx": "0xc0cfa27ed9ced2761c8e120a173dcffd766538c2f4a8ee201b9b8176a4c542fd",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000138"
+     },
+     {
+      "date": "2023-11-22",
+      "tx": "0x9331bf3412efb554e8e7fdbb6da11baee2a2337fae07f48ceb1bb12fdd09f063",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000009"
+     },
+     {
+      "date": "2023-11-22",
+      "tx": "0x6381232652268b169f2f57e38ccc65f9ff25e464b386a3eb51c39d92225aada2",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000008"
+     },
+     {
+      "date": "2023-11-22",
+      "tx": "0xc00bd8b7b3f167edd3e5b7cfbb1b47847ae872b14dc06e4ae0a244d42536c29a",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000008"
+     },
+     {
+      "date": "2023-11-22",
+      "tx": "0x08af0498e6965ed47e4637c9eaeebfd95bbd86a720413bfec287fcc17ab42d5c",
+      "topics": [],
+      "data": "0x00000000000000000000000000000000000000000000000000000000000001de"
+     },
+     {
+      "date": "2023-11-22",
+      "tx": "0x566018530ab13ad379eae79e0b10ba078299d1f1230dbf9206b9648c0c5664d7",
+      "topics": [],
+      "data": "0x00000000000000000000000000000000000000000000000000000000000001d8"
+     },
+     {
+      "date": "2023-11-22",
+      "tx": "0xe9d932e3fae8252cfb661192341ce64895db12792a2f3b210251dd8fa253d697",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000063"
+     },
+     {
+      "date": "2023-11-22",
+      "tx": "0x4bdb8870a3f70403b2acd2c11bd6ccc3cfbdca41f576f09d544b7d88138f7504",
+      "topics": [],
+      "data": "0x000000000000000000000000000000000000000000000000000000000000000b"
+     },
+     {
+      "date": "2023-11-23",
+      "tx": "0xc8c2337be305341439b0245c330a0f625c18a990438742b576bf6632e1cb28f2",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000362"
+     },
+     {
+      "date": "2023-11-23",
+      "tx": "0x2e8f0b2813c861ab7ae08858968613b37547a5d9248b34e9d21cdd853ff3c1d8",
+      "topics": [],
+      "data": "0x000000000000000000000000000000000000000000000000000000000000029b"
+     },
+     {
+      "date": "2023-11-23",
+      "tx": "0xa045572ab2f015191c18593df028fef79d8f5c310895e25750512f971345f8f1",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000365"
+     },
+     {
+      "date": "2023-11-23",
+      "tx": "0x7a8ae41171173382e852d9b62b11e05c1cb89b52f4927fdff61a4a498331e1ca",
+      "topics": [],
+      "data": "0x000000000000000000000000000000000000000000000000000000000000003a"
+     },
+     {
+      "date": "2023-11-23",
+      "tx": "0x2d90f091b41477ab7a3c8e69f1b80c28ae7421106f17712d2c6c1079225ff398",
+      "topics": [],
+      "data": "0x000000000000000000000000000000000000000000000000000000000000007e"
+     },
+     {
+      "date": "2023-11-23",
+      "tx": "0x7c07e820f36262b8a042d2d79f83d995795b787a63c60bc1c45355021a658ba9",
+      "topics": [],
+      "data": "0x000000000000000000000000000000000000000000000000000000000000038a"
+     },
+     {
+      "date": "2023-11-23",
+      "tx": "0x3ef304d478cbca635f085250f02e04970fb956ca9755e74df0419e307f3c7645",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000007"
+     },
+     {
+      "date": "2023-11-24",
+      "tx": "0x4e723727b989624534695d186a5531c81407728c143cd0b2375b3615fa5ede45",
+      "topics": [],
+      "data": "0x000000000000000000000000000000000000000000000000000000000000020f"
+     },
+     {
+      "date": "2023-11-24",
+      "tx": "0xeecfed0399b2e8a8f6df250e74546a735702eb1956d52e473992869d22d3e423",
+      "topics": [],
+      "data": "0x000000000000000000000000000000000000000000000000000000000000034f"
+     },
+     {
+      "date": "2023-11-24",
+      "tx": "0xccd0ac1bafb383430199fa90306f8a59ff795d86db4627dcce8c8370ea4e30c1",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000057"
+     },
+     {
+      "date": "2023-11-24",
+      "tx": "0x94eec2b2c5c18a05dbe7eb10fa02253e3871cfc10cdcf64cca2981b86c0695d6",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000058"
+     },
+     {
+      "date": "2023-11-25",
+      "tx": "0x159568c77b835d3196bcefcdaaa4d5122186203f1998b5bc02aeae1face61384",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000292"
+     },
+     {
+      "date": "2023-11-25",
+      "tx": "0xa00d0a8f8897d5d6b78f092684908f01593ccd19affb089bf232733afd7b55e9",
+      "topics": [],
+      "data": "0x000000000000000000000000000000000000000000000000000000000000028a"
+     },
+     {
+      "date": "2023-11-25",
+      "tx": "0x2b272c8208801cc5264d1c094fdf0a94980e4b90fc2b4ca2d377399dadfdefbb",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000065"
+     },
+     {
+      "date": "2023-11-25",
+      "tx": "0x0d9570a66ce5291169a0cf0db9ac44a830c779dd90bf1148fd2c66eabfd8278a",
+      "topics": [],
+      "data": "0x000000000000000000000000000000000000000000000000000000000000029e"
+     },
+     {
+      "date": "2023-11-25",
+      "tx": "0x052140ca7c7b59c2ae61fd10f23b102830c316a2aef75785982bf737c2bdae62",
+      "topics": [],
+      "data": "0x00000000000000000000000000000000000000000000000000000000000001dc"
+     }
+    ]
+   }
+  },
+  "decoded": [],
+  "ownership_transfers": [
+   {
+    "date": "2023-11-21",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0xd8fb7fb541e0bfe5863c5be4b1b41bb552933383",
+    "tx": "0x2c8b805fa8a965832ecf0cdc62619fd6667ad270fd8424f75e777503fe6f5be2"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0xb04b8b5a0ba5e9e8029dd01de2ca22af50926353_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0xd8fb7fb541e0bfe5863c5be4b1b41bb552933383",
+  "code_raw": "data/raw/rpc-mutability/0xd8fb7fb541e0bfe5863c5be4b1b41bb552933383_holdercode.json",
+  "type": "eoa",
+  "bs_name": null,
+  "ens": null,
+  "bs_impl_names": [],
+  "bs_tags": [],
+  "is_contract": false,
+  "creator": null,
+  "is_verified": false,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "override",
+ "lock_functions": [],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [],
+ "class_direct": "immutable",
+ "class_reason": "no uri/renderer/upgrade function in ABI and not a proxy",
+ "live_mutators": [],
+ "dependencies": [],
+ "meta": {
+  "address": "0xb04b8b5a0ba5e9e8029dd01de2ca22af50926353",
+  "name": "Together",
+  "w5_claim_strength": "on-chain-generic",
+  "w5_claim_text": "Together is a 3-star onchain NFT collection exploring the creation of art as a collective.",
+  "w5_source_type": "directory",
+  "w5_source_url": "https://www.fullyonchain.art/collections/together",
+  "holders_count": 316.0,
+  "in_w5": true,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": null,
+  "census_media_class": null,
+  "census_liveness": null,
+  "in_census_onchain": false,
+  "standard": "ERC-721",
+  "creator": "0xd8fb7fb541e0bfe5863c5be4b1b41bb552933383",
+  "deploy_block": 18618974.0
+ },
+ "class_deps_all": "none",
+ "class_deps": "none",
+ "class_final": "immutable",
+ "pointer_power": null
+}

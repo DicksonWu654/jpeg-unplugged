@@ -1,0 +1,109 @@
+{
+ "slug": "chillorbs",
+ "rendered_at": "2026-10-21T20:43:49Z",
+ "viewport": 800,
+ "delay_s": 4,
+ "chromium": "<playwright-cache>/chromium-1243/chrome-linux64/chrome",
+ "runs": {
+  "A": {
+   "n_requests": 3,
+   "n_external": 2,
+   "actions": {
+    "allowed": 2
+   },
+   "n_console_errors": 0,
+   "n_page_errors": 0,
+   "dom": {
+    "canvas": 1,
+    "svg": 0,
+    "img": 0,
+    "iframe": 0,
+    "body_text": "",
+    "title": "ChillOrb",
+    "fonts": []
+   }
+  },
+  "A2": {
+   "n_requests": 3,
+   "n_external": 2,
+   "actions": {
+    "allowed": 2
+   },
+   "n_console_errors": 0,
+   "n_page_errors": 0,
+   "dom": {
+    "canvas": 1,
+    "svg": 0,
+    "img": 0,
+    "iframe": 0,
+    "body_text": "",
+    "title": "ChillOrb",
+    "fonts": []
+   }
+  },
+  "B": {
+   "n_requests": 3,
+   "n_external": 2,
+   "actions": {
+    "blocked": 2
+   },
+   "n_console_errors": 2,
+   "n_page_errors": 1,
+   "dom": {
+    "canvas": 0,
+    "svg": 0,
+    "img": 0,
+    "iframe": 0,
+    "body_text": "",
+    "title": "ChillOrb",
+    "fonts": []
+   }
+  },
+  "C": {
+   "n_requests": 3,
+   "n_external": 2,
+   "actions": {
+    "archive": 2
+   },
+   "n_console_errors": 0,
+   "n_page_errors": 0,
+   "dom": {
+    "canvas": 1,
+    "svg": 0,
+    "img": 0,
+    "iframe": 0,
+    "body_text": "",
+    "title": "ChillOrb",
+    "fonts": []
+   }
+  }
+ },
+ "metrics": {
+  "noise_A_vs_A2_and_late": 0.09028,
+  "A_stats": {
+   "non_bg_frac": 0.10758,
+   "n_colors": 197,
+   "modal": "000000"
+  },
+  "B_stats": {
+   "non_bg_frac": 0.0,
+   "n_colors": 1,
+   "modal": "000000"
+  },
+  "identical_threshold": 0.13542,
+  "B": {
+   "diff_frac": 0.09802,
+   "verdict": "broken",
+   "why": "blank where A is not"
+  },
+  "C_stats": {
+   "non_bg_frac": 0.10646,
+   "n_colors": 190,
+   "modal": "000000"
+  },
+  "C": {
+   "diff_frac": 0.01775,
+   "verdict": "identical"
+  }
+ }
+}

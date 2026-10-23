@@ -1,0 +1,21 @@
+{
+ "url": "https://ethereum-rpc.publicnode.com",
+ "method": "POST",
+ "request": {
+  "jsonrpc": "2.0",
+  "id": 1,
+  "method": "eth_call",
+  "params": [
+   {
+    "to": "0x9a7b94954751d539c63e16aa6e0557c451251394",
+    "data": "0x8da5cb5b",
+    "gas": "0x8f0d180"
+   },
+   "0x1907fbb"
+  ]
+ },
+ "status": 200,
+ "retrieved_at": "2026-10-22T08:58:23Z",
+ "sha256": "eb24d8fe9343a1ff27720a7444c58db54fda1b6b566eb540cdfbbf89738fe806",
+ "response_text": "{\"jsonrpc\":\"2.0\",\"id\":1,\"result\":\"0x0000000000000000000000009af756e7be065dca83674ec17f3703579a544da1\"}\n"
+}

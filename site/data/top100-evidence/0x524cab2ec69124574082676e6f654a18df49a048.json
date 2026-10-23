@@ -1,0 +1,497 @@
+{
+  "collection": {
+    "rank": 26,
+    "source_rank": 26,
+    "name": "LilPudgys",
+    "contract": "0x524cab2ec69124574082676e6f654a18df49a048",
+    "contracts": [
+      "0x524cab2ec69124574082676e6f654a18df49a048"
+    ],
+    "slug": "lilpudgys",
+    "volume_usd": 203915844.58,
+    "volume_source": "CryptoSlam all-time Ethereum owner-to-owner sales, wash-filtered USD",
+    "source_url": "https://web-api.cryptoslam.io/v1/sales/rank-by-volume?timeRange=all&orderBy=rank&sortDirection=asc&offset=0&limit=100&blockchainId=0&hideInscriptions=false",
+    "ranking_evidence": "data/raw/top100-api/cryptoslam-ranking-0.json",
+    "identity_evidence": "data/raw/top100-api/cryptoslam-info-lilpudgys.json",
+    "token_count": 21888,
+    "all_time_volume": 203915844.58,
+    "volume_currency": "USD",
+    "kind": "art-avatar",
+    "metadata_location": "http",
+    "metadata_classes": [
+      "http"
+    ],
+    "media_location": "http",
+    "primary_image_location": "http",
+    "media_classes": [
+      "http"
+    ],
+    "liveness": "alive",
+    "liveness_exact": "alive",
+    "all_declared_media_liveness": "alive",
+    "metadata_failed": false,
+    "n_alive": 3,
+    "n_dead": 0,
+    "n_unknown": 0,
+    "n_degraded": 0,
+    "key_domain_or_gateway": "api.pudgypenguins.io",
+    "hosts": [
+      "api.pudgypenguins.io"
+    ],
+    "hardcoded_gateways": [],
+    "http_origin_dependency": true,
+    "uses_ipfs": false,
+    "uses_arweave": false,
+    "fully_onchain_all_declared_media": false,
+    "metadata_and_primary_image_onchain": false,
+    "mutability_class": "eoa-mutable",
+    "single_key_mutable": true,
+    "single_key_repointable": true,
+    "base_uri_or_renderer": "0x524cab2ec69124574082676e6f654a18df49a048.baseTokenURI() = https://api.pudgypenguins.io/lil/",
+    "control": [
+      {
+        "contract": "0x524cab2ec69124574082676e6f654a18df49a048",
+        "class": "eoa-mutable",
+        "pointer_power": "eoa",
+        "reason": "live setters (eoa): setBaseURI",
+        "owner": {
+          "addr": "0xf54c9a0e44a5f5afd27c7ac8a176a843b9114f1d",
+          "code_raw": "data/raw/rpc-mutability/0xf54c9a0e44a5f5afd27c7ac8a176a843b9114f1d_holdercode.json",
+          "type": "eoa",
+          "bs_name": null,
+          "ens": null,
+          "bs_impl_names": [],
+          "bs_tags": [],
+          "is_contract": false,
+          "creator": null,
+          "is_verified": false,
+          "bs_reputation": "ok"
+        },
+        "proxy": {
+          "kind": null
+        },
+        "live_mutators": [
+          {
+            "name": "setBaseURI",
+            "sig": "setBaseURI(string)",
+            "category": "uri",
+            "power": "eoa",
+            "holders": [
+              {
+                "addr": "0xf54c9a0e44a5f5afd27c7ac8a176a843b9114f1d",
+                "type": "eoa",
+                "bs_name": null,
+                "ens": null,
+                "desc": "eoa",
+                "simple": "eoa"
+              }
+            ],
+            "effective": "yes",
+            "reason": null
+          }
+        ],
+        "lock_flags": {},
+        "dependencies": [],
+        "pointer_getters": [
+          {
+            "getter": "baseTokenURI()",
+            "type": "string",
+            "ok": true,
+            "value": "https://api.pudgypenguins.io/lil/",
+            "error": null
+          }
+        ],
+        "analyzed_at": "2026-10-23T02:51:08Z",
+        "history_incomplete": false,
+        "evidence": "data/raw/top100-mutability/0x524cab2ec69124574082676e6f654a18df49a048.json"
+      }
+    ],
+    "samples": 3,
+    "distinct_token_ids": 3,
+    "sample_note": null,
+    "source_contracts_without_sampleable_nfts": [],
+    "ownership_scope_gaps": [],
+    "refreshed_at": "2026-10-23T03:05:02Z",
+    "opensea_rank": 16,
+    "ranking_scope_disagreement": false,
+    "metadata_adapter": false,
+    "evidence": [
+      "data/raw/top100-census/0x524cab2ec69124574082676e6f654a18df49a048/result.json.gz"
+    ],
+    "delivery_note": null
+  },
+  "samples": [
+    {
+      "contract": "0x524cab2ec69124574082676e6f654a18df49a048",
+      "token_id": "22221",
+      "sample_unit": 1,
+      "how_found": "reused census: blockscout-instances-max [recent]",
+      "metadata_location": "http",
+      "metadata_uri": "https://api.pudgypenguins.io/lil/22221",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "api.pudgypenguins.io",
+          "url": "https://api.pudgypenguins.io/lil/22221",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 2,
+          "final_url": "https://api.pudgypenguins.io/lil/22221",
+          "content_type": "application/json",
+          "size": 504,
+          "content_length": 275,
+          "sha256": "73a5ec3a4232249ca8823935bb6644b186319a4c83459ce3f79215327db6ba76",
+          "t": "2026-10-23T02:50:20Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "http",
+          "host": "api.pudgypenguins.io",
+          "gateway": null,
+          "uri": "https://api.pudgypenguins.io/lil/image/22221",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "api.pudgypenguins.io",
+              "url": "https://api.pudgypenguins.io/lil/image/22221",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 4,
+              "final_url": "https://api.pudgypenguins.io/lil/image/22221",
+              "content_type": "image/png",
+              "size": 65536,
+              "content_length": 145433,
+              "sha256": "9a5081c8f3c68045e0610a93986bbc27c3c911b79902a31fb5b7d6d78a4254e2",
+              "t": "2026-10-23T02:50:20Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "http",
+        "anim_class": null,
+        "image_verdict": "alive",
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "http"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "alive",
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd00000000000000000000000000000000000000000000000000000000000056cd",
+          "endpoint": "https://eth.drpc.org",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x524cab2ec69124574082676e6f654a18df49a048/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0x524cab2ec69124574082676e6f654a18df49a048",
+      "token_id": "0",
+      "sample_unit": 1,
+      "how_found": "reused census: ownerOf-probe(0..15) [low]",
+      "metadata_location": "http",
+      "metadata_uri": "https://api.pudgypenguins.io/lil/0",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "api.pudgypenguins.io",
+          "url": "https://api.pudgypenguins.io/lil/0",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 6,
+          "final_url": "https://api.pudgypenguins.io/lil/0",
+          "content_type": "application/json",
+          "size": 489,
+          "content_length": 489,
+          "sha256": "14084323587286cdbff1851b399297395a5805a060b847bbdaa4a90191065fd8",
+          "t": "2026-10-23T02:50:20Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "http",
+          "host": "api.pudgypenguins.io",
+          "gateway": null,
+          "uri": "https://api.pudgypenguins.io/lil/image/0",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "api.pudgypenguins.io",
+              "url": "https://api.pudgypenguins.io/lil/image/0",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 8,
+              "final_url": "https://api.pudgypenguins.io/lil/image/0",
+              "content_type": "image/png",
+              "size": 65536,
+              "content_length": 318060,
+              "sha256": "f524d4f2d3eb4fcb80d1f27982ee62431844c221cf1a7565ec47c745a522eaf5",
+              "t": "2026-10-23T02:50:21Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "http",
+        "anim_class": null,
+        "image_verdict": "alive",
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "http"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "alive",
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000000000",
+          "endpoint": "https://eth.drpc.org",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x524cab2ec69124574082676e6f654a18df49a048/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0x524cab2ec69124574082676e6f654a18df49a048",
+      "token_id": "11110",
+      "sample_unit": 1,
+      "how_found": "reused census: ownerOf-probe(11110..+15) [mid]",
+      "metadata_location": "http",
+      "metadata_uri": "https://api.pudgypenguins.io/lil/11110",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "api.pudgypenguins.io",
+          "url": "https://api.pudgypenguins.io/lil/11110",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 7,
+          "final_url": "https://api.pudgypenguins.io/lil/11110",
+          "content_type": "application/json",
+          "size": 536,
+          "content_length": 305,
+          "sha256": "513cd1c60a46ffbdbedce8a79bbf8050cb99b2babc716b52cd905f8d19e4d8f1",
+          "t": "2026-10-23T02:50:21Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "http",
+          "host": "api.pudgypenguins.io",
+          "gateway": null,
+          "uri": "https://api.pudgypenguins.io/lil/image/11110",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "api.pudgypenguins.io",
+              "url": "https://api.pudgypenguins.io/lil/image/11110",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 9,
+              "final_url": "https://api.pudgypenguins.io/lil/image/11110",
+              "content_type": "image/png",
+              "size": 65536,
+              "content_length": 270807,
+              "sha256": "7eb16c17fd9aca7b591f52a4aee125f517b8b82fbc11e4cb3be548048d14884d",
+              "t": "2026-10-23T02:50:21Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "http",
+        "anim_class": null,
+        "image_verdict": "alive",
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "http"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "alive",
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000002b66",
+          "endpoint": "https://eth.drpc.org",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x524cab2ec69124574082676e6f654a18df49a048/evidence.jsonl.gz"
+    }
+  ],
+  "saved_packet_index": [
+    {
+      "path": "data/raw/top100-api/opensea-contract-0x524cab2ec69124574082676e6f654a18df49a048-attempt1-1792724287629397894.body",
+      "sha256": "9836ff6d8fa1fc9168dce2d7802ae9f0ae3ee81ed54a8f365ee5cad7308b84e6",
+      "retrieved_at": "2026-10-23T02:58:07Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0x524cab2ec69124574082676e6f654a18df49a048",
+      "method": "GET",
+      "status": 200,
+      "error": null,
+      "bytes": 175,
+      "truncated": false
+    },
+    {
+      "path": "data/raw/top100-api/opensea-contract-0x524cab2ec69124574082676e6f654a18df49a048.json",
+      "sha256": "9836ff6d8fa1fc9168dce2d7802ae9f0ae3ee81ed54a8f365ee5cad7308b84e6",
+      "retrieved_at": "2026-10-23T02:58:07Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0x524cab2ec69124574082676e6f654a18df49a048",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "data/raw/top100-census/0x524cab2ec69124574082676e6f654a18df49a048/bodies.zip",
+      "sha256": "cc236d1b7c58ba930c67f15271e3d5c85973f9ab93f2a3397c66c43d9728e31f",
+      "bytes": 2805
+    },
+    {
+      "path": "data/raw/top100-census/0x524cab2ec69124574082676e6f654a18df49a048/evidence.jsonl.gz",
+      "sha256": "87031282c673e113f2ad25ac787d43630143c2219e25601421ed2451f4aa214c",
+      "bytes": 1102
+    },
+    {
+      "path": "data/raw/top100-census/0x524cab2ec69124574082676e6f654a18df49a048/result.json.gz",
+      "sha256": "f92902f4df54902757281dff1daa8f9f9e1be1d148f9d648824ff0e40706be38",
+      "bytes": 1638
+    },
+    {
+      "path": "data/raw/top100-mutability/0x524cab2ec69124574082676e6f654a18df49a048.json",
+      "sha256": "7b54accd022fbc55dd80418806f1ac16ef5faced32c1219e2c4239437c6c2eb0",
+      "bytes": 6610
+    },
+    {
+      "path": "data/raw/top100-pointers/0x524cab2ec69124574082676e6f654a18df49a048/bodies.zip",
+      "sha256": "7a75c4f39d556f05d61b8ec8a8edd10375d1d10c7267f6d4bc146564d913d2b7",
+      "bytes": 247
+    },
+    {
+      "path": "data/raw/top100-pointers/0x524cab2ec69124574082676e6f654a18df49a048/evidence.jsonl.gz",
+      "sha256": "171bf9f1aae3f084fa79356c5af24796fd5d21d6effabb8007f3c99c44172c23",
+      "bytes": 339
+    },
+    {
+      "path": "data/raw/top100-pointers/0x524cab2ec69124574082676e6f654a18df49a048/result.json",
+      "sha256": "5a0584f8182702df65b2d43da1d9425eff3065ee76addae9dae13f3a5a38bc21",
+      "bytes": 346
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x524cab2ec69124574082676e6f654a18df49a048/bodies.zip",
+      "sha256": "d48fc5fa07ba896fe51f13ff59a3d21c23aabd834dcf514f6ec7b7976557247b",
+      "bytes": 630
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x524cab2ec69124574082676e6f654a18df49a048/evidence.jsonl.gz",
+      "sha256": "9e64f1d44a1cc3588b2f70be7e9248347a0c20aca0da04d3506ef67f71374605",
+      "bytes": 699
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x524cab2ec69124574082676e6f654a18df49a048/result.json",
+      "sha256": "8c2b1943668143168f77b1b6350c79ab318ca4e1027d69d528a1db828bf10092",
+      "bytes": 301
+    }
+  ],
+  "interpretation": "Liveness describes sampled metadata and primary-image delivery, not permanent loss of the artwork."
+}

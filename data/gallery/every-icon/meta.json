@@ -1,0 +1,55 @@
+{
+ "collection": "Every Icon",
+ "slug": "every-icon",
+ "contract": "0xF9a423B86afbf8dB41d7f24fa56848f56684e43F",
+ "token_id": 1,
+ "chain_method": "data URI (contract-assembled; technique labelled from verified source flags)",
+ "chain_call": "tokenURI(1)",
+ "json_name": "Every Icon #1",
+ "fields": {
+  "image": "data:image/svg+xml",
+  "animation_url": "https",
+  "external_url": null,
+  "json_how": "data-uri-base64"
+ },
+ "rpc": {
+  "default_public_ok": true,
+  "highgas_drpc_ok": null,
+  "highgas_blxr_ok": null,
+  "fork_ok": null,
+  "rpc": "public-default",
+  "needed_fork": false,
+  "unreadable_from_default_public_call": false,
+  "gas_estimate": null
+ },
+ "medium": "svg (image data URI)",
+ "primary": "image",
+ "note_animation_url": "animation_url is https://everyicon.xyz/icon/?tokenId=1",
+ "source_flags": {
+  "verified": true,
+  "contract_name": "EveryIcon",
+  "proxy": false,
+  "implementation": null,
+  "sstore2": false,
+  "ethfs": false,
+  "scripty": false,
+  "base64": true,
+  "gzip": false,
+  "data_uri": true,
+  "http_literals": [
+   "https://raw.githubusercontent.com/dievardump/solidity-dynamic-buffer",
+   "https://shiny.mirror.xyz/OUampBbIz9ebEicfGnQf5At_ReMHlZy0tB4glb9xQ0E"
+  ],
+  "ipfs_literal": false,
+  "setters": []
+ },
+ "artwork_file": "artwork.svg",
+ "doc_type": "image/svg+xml; charset=utf-8",
+ "artwork_bytes": 33452,
+ "artwork_sha256": "faf37359ccdb9bccf622a2d01b596bb634cc19b47f52f1da090eadb4e26f70ad",
+ "declared": {
+  "load": [],
+  "literals": []
+ },
+ "built_at": "2026-10-21T20:18:25Z"
+}

@@ -1,0 +1,376 @@
+{
+ "address": "0xd17fce1c4c199ff9d02c9674abf52fd35d9d058c",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:03Z",
+ "code_raw": "data/raw/rpc-mutability/0xd17fce1c4c199ff9d02c9674abf52fd35d9d058c_code.json",
+ "code_len": 18966,
+ "slots": {
+  "slot0": "0x00000000000000000000000000000000000000000000000000000000000031ff"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0xd17fce1c4c199ff9d02c9674abf52fd35d9d058c_slots.json",
+ "verified": true,
+ "contract_name": "FloorAppPass",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [
+   {
+    "hash": "0xbaff0d1b8bf4c3845c5473d05f995e34219d081a246134d9bd731d5f4b8a98dd",
+    "timestamp": "2023-02-08T21:03:11.000000Z",
+    "method": "setTokenDescription",
+    "from": "0xd640C898B0902bD02f69dE0FE8d0bd560956DB76",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 16586595,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x40c109a82c5ac350bf8e1a2c7fb771f4790a18ea8ad709d1478f666a0a32e09e",
+    "timestamp": "2023-02-08T20:58:23.000000Z",
+    "method": "setTokenDescription",
+    "from": "0xd640C898B0902bD02f69dE0FE8d0bd560956DB76",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 16586571,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x8d118674661a983061a47ca1288c291ba189d6ee652d9bf8e4711f659d655dd4",
+    "timestamp": "2023-02-08T20:53:11.000000Z",
+    "method": "setImageExtension",
+    "from": "0xd640C898B0902bD02f69dE0FE8d0bd560956DB76",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 16586545,
+    "category": "renderer"
+   }
+  ],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 1,
+    "first": "2022-08-09",
+    "last": "2022-08-09",
+    "last_tx": "0xfcfb94a29d95c63cce53eac51324273a6b6343aa7f857f6eab8c70b866ab3daa",
+    "list": [
+     {
+      "date": "2022-08-09",
+      "tx": "0xfcfb94a29d95c63cce53eac51324273a6b6343aa7f857f6eab8c70b866ab3daa",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "d640c898b0902bd02f69de0fe8d0bd560956db76"
+      ],
+      "data": "0x"
+     }
+    ]
+   }
+  },
+  "decoded": [
+   {
+    "hash": "0x8d118674661a983061a47ca1288c291ba189d6ee652d9bf8e4711f659d655dd4",
+    "timestamp": "2023-02-08T20:53:11.000000Z",
+    "method": "setImageExtension",
+    "category": "renderer",
+    "from": "0xd640C898B0902bD02f69dE0FE8d0bd560956DB76",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "string",
+      "value": ".png"
+     }
+    ],
+    "value_kinds": [
+     "other"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0x40c109a82c5ac350bf8e1a2c7fb771f4790a18ea8ad709d1478f666a0a32e09e",
+    "timestamp": "2023-02-08T20:58:23.000000Z",
+    "method": "setTokenDescription",
+    "category": "renderer",
+    "from": "0xd640C898B0902bD02f69dE0FE8d0bd560956DB76",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "string",
+      "value": "This app may or may not be notable.\n\nAn invite to use the Floor app with this wallet. Get started at https://floornfts.io/app-pass/guide"
+     }
+    ],
+    "value_kinds": [
+     "other"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0xbaff0d1b8bf4c3845c5473d05f995e34219d081a246134d9bd731d5f4b8a98dd",
+    "timestamp": "2023-02-08T21:03:11.000000Z",
+    "method": "setTokenDescription",
+    "category": "renderer",
+    "from": "0xd640C898B0902bD02f69dE0FE8d0bd560956DB76",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "string",
+      "value": "This app may or may not be notable. An invite to use the Floor app with this wallet. Get started at https://floornfts.io/app-pass/guide"
+     }
+    ],
+    "value_kinds": [
+     "other"
+    ],
+    "error": null
+   }
+  ],
+  "ownership_transfers": [
+   {
+    "date": "2022-08-09",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0xd640c898b0902bd02f69de0fe8d0bd560956db76",
+    "tx": "0xfcfb94a29d95c63cce53eac51324273a6b6343aa7f857f6eab8c70b866ab3daa"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0xd17fce1c4c199ff9d02c9674abf52fd35d9d058c_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0xd640c898b0902bd02f69de0fe8d0bd560956db76",
+  "code_raw": "data/raw/rpc-mutability/0xd640c898b0902bd02f69de0fe8d0bd560956db76_holdercode.json",
+  "type": "eoa",
+  "bs_name": null,
+  "ens": "chrismaddern.eth",
+  "bs_impl_names": [],
+  "bs_tags": [],
+  "is_contract": false,
+  "creator": null,
+  "is_verified": false,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {
+  "contractIsLocked": 0
+ },
+ "tokenuri_path": "override",
+ "lock_functions": [
+  "lockContract",
+  "renounceRole"
+ ],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [
+  {
+   "name": "setBaseImageURI",
+   "sig": "setBaseImageURI(string)",
+   "selector": "0x8647ca76",
+   "category": "uri",
+   "inputs": [
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "baseImageURI = _baseImageURI;",
+   "writes": [
+    "baseImageURI"
+   ],
+   "effective": "yes",
+   "power": "eoa",
+   "holder_addrs": [
+    "0xd640c898b0902bd02f69de0fe8d0bd560956db76"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xd640c898b0902bd02f69de0fe8d0bd560956db76",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": "chrismaddern.eth",
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "setExternalUri",
+   "sig": "setExternalUri(string)",
+   "selector": "0x1bf671c2",
+   "category": "uri",
+   "inputs": [
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "externalUrl = _externalUrl;",
+   "writes": [
+    "externalUrl"
+   ],
+   "effective": "yes",
+   "power": "eoa",
+   "holder_addrs": [
+    "0xd640c898b0902bd02f69de0fe8d0bd560956db76"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xd640c898b0902bd02f69de0fe8d0bd560956db76",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": "chrismaddern.eth",
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "setImageExtension",
+   "sig": "setImageExtension(string)",
+   "selector": "0x39e3aa7e",
+   "category": "renderer",
+   "inputs": [
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "imageExtension = _imageExtension;",
+   "writes": [
+    "imageExtension"
+   ],
+   "effective": "yes",
+   "power": "eoa",
+   "holder_addrs": [
+    "0xd640c898b0902bd02f69de0fe8d0bd560956db76"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xd640c898b0902bd02f69de0fe8d0bd560956db76",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": "chrismaddern.eth",
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "setTokenDescription",
+   "sig": "setTokenDescription(string)",
+   "selector": "0x00d5da02",
+   "category": "renderer",
+   "inputs": [
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "tokenDescription = _tokenDescription;",
+   "writes": [
+    "tokenDescription"
+   ],
+   "effective": "yes",
+   "power": "eoa",
+   "holder_addrs": [
+    "0xd640c898b0902bd02f69de0fe8d0bd560956db76"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xd640c898b0902bd02f69de0fe8d0bd560956db76",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": "chrismaddern.eth",
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  }
+ ],
+ "class_direct": "eoa-mutable",
+ "class_reason": "live setters (eoa): setBaseImageURI,setExternalUri,setImageExtension,setTokenDescription",
+ "live_mutators": [
+  "setBaseImageURI",
+  "setExternalUri",
+  "setImageExtension",
+  "setTokenDescription"
+ ],
+ "dependencies": [],
+ "meta": {
+  "address": "0xd17fce1c4c199ff9d02c9674abf52fd35d9d058c",
+  "name": "Floor App Pass",
+  "w5_claim_strength": null,
+  "w5_claim_text": null,
+  "w5_source_type": null,
+  "w5_source_url": null,
+  "holders_count": 9585.0,
+  "in_w5": false,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": "onchain-renderer",
+  "census_media_class": "http",
+  "census_liveness": "alive",
+  "in_census_onchain": true,
+  "standard": "ERC-721",
+  "creator": "0xd640c898b0902bd02f69de0fe8d0bd560956db76",
+  "deploy_block": 15310481.0
+ },
+ "class_deps_all": "none",
+ "class_deps": "none",
+ "class_final": "eoa-mutable",
+ "pointer_power": "eoa"
+}

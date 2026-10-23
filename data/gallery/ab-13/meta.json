@@ -1,0 +1,33 @@
+{
+ "collection": "Art Blocks #13 Ringers (Dmitri Cherniak)",
+ "slug": "ab-13",
+ "contract": "0xa7d8d9ef8D8Ce8992Df33D8b8CF4Aebabd5bD270",
+ "token_id": 13000000,
+ "project_id": 13,
+ "project_name": "Ringers",
+ "artist": "Dmitri Cherniak",
+ "script_type": "p5js@1.0.0",
+ "script_count": 1,
+ "script_bytes": 7680,
+ "token_hash": "0x80592a750c34878d6172ec5a198649f1318288eec606a6c7f43953192d1fb4fc",
+ "chain_method": "Art Blocks: project script on core contract + libraries from on-chain Dependency Registry, assembled by on-chain Generator getTokenHtml()",
+ "chain_call": "GenArt721Generator.getTokenHtml(0xa7d8d9ef8D8Ce8992Df33D8b8CF4Aebabd5bD270, 13000000) @ 0x953D288708bB771F969FCfD9BA0819eF506Ac718",
+ "medium": "html+js (p5js@1.0.0)",
+ "fields": {},
+ "rpc": {
+  "public_rpc_ok": true,
+  "rpc": "public",
+  "gas_estimate": 9310808
+ },
+ "generator_embeds_project_script": true,
+ "note": "tokenURI of the core contract is an HTTPS URL on the Art Blocks API; B uses the on-chain Generator output instead (the honest on-chain test)",
+ "artwork_file": "artwork.html",
+ "doc_type": "text/html; charset=utf-8",
+ "artwork_bytes": 231559,
+ "artwork_sha256": "e236843c178f9e8504ac717f16311e9e54d4d16d564c2cfa3b0183625b021b15",
+ "declared": {
+  "load": [],
+  "literals": []
+ },
+ "built_at": "2026-10-21T20:10:47Z"
+}

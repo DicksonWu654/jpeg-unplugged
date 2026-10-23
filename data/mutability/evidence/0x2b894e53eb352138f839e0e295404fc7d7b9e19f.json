@@ -1,0 +1,69 @@
+{
+ "address": "0x2b894e53eb352138f839e0e295404fc7d7b9e19f",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:13Z",
+ "code_raw": "data/raw/rpc-mutability/0x2b894e53eb352138f839e0e295404fc7d7b9e19f_code.json",
+ "code_len": 5402,
+ "slots": {
+  "slot0": "0x4d696c617764790000000000000000000000000000000000000000000000000e"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0x2b894e53eb352138f839e0e295404fc7d7b9e19f_slots.json",
+ "verified": false,
+ "contract_name": "",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": false,
+ "abi_from": null,
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 0
+   }
+  },
+  "decoded": [],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0x2b894e53eb352138f839e0e295404fc7d7b9e19f_reads1.json",
+ "eip4906": false,
+ "owner": null,
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "n/a",
+ "lock_functions": [],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [],
+ "class_direct": "unknown",
+ "class_reason": "unverified source; no known setter selectors in bytecode",
+ "live_mutators": [],
+ "dependencies": [],
+ "meta": {
+  "address": "0x2b894e53eb352138f839e0e295404fc7d7b9e19f",
+  "name": "Milawdy",
+  "w5_claim_strength": null,
+  "w5_claim_text": null,
+  "w5_source_type": null,
+  "w5_source_url": null,
+  "holders_count": 4248.0,
+  "in_w5": false,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": "onchain-renderer",
+  "census_media_class": "data-uri",
+  "census_liveness": "alive",
+  "in_census_onchain": true,
+  "standard": "ERC-721",
+  "creator": "0x63c1be449a0fa2e9b4bd3403d364f8bbc1889fe2",
+  "deploy_block": 24472040.0
+ },
+ "class_deps_all": "none",
+ "class_deps": "none",
+ "class_final": "unknown",
+ "pointer_power": null
+}

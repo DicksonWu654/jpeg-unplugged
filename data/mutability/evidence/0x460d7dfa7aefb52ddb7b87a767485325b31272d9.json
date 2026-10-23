@@ -1,0 +1,1019 @@
+{
+ "address": "0x460d7dfa7aefb52ddb7b87a767485325b31272d9",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:23Z",
+ "code_raw": "data/raw/rpc-mutability/0x460d7dfa7aefb52ddb7b87a767485325b31272d9_code.json",
+ "code_len": 14434,
+ "slots": {
+  "slot0": "0x4f6e636861696e20457465726e616c2047726f77746820506c616e747300003a"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0x460d7dfa7aefb52ddb7b87a767485325b31272d9_slots.json",
+ "verified": true,
+ "contract_name": "OnchainEternalGrowthPlants",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [
+   {
+    "hash": "0xda3aa0fb38654d3257d85ca6e622dde9804ab023b0806fd25ac6c915ad4b2c01",
+    "timestamp": "2026-05-24T23:57:35.000000Z",
+    "method": "renounceOwnership",
+    "from": "0xDa48b04cf9Dd6C007B6a4BEf6478fEa788D652f6",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25168584,
+    "category": "ownership"
+   },
+   {
+    "hash": "0xc065c9a75940f45d9a0c5493f3d07b3f1f5233d1a157bf65890235c84f551e31",
+    "timestamp": "2026-05-19T00:52:47.000000Z",
+    "method": "freezeAppearance",
+    "from": "0x7b17B27096bAAd24Fad840C4376389EC9AcCad06",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25125797,
+    "category": "lock"
+   },
+   {
+    "hash": "0x07e24857b376aec2533f9348cb6aba115855f7bf9f5e43f4674cdfb1067bc31e",
+    "timestamp": "2026-05-18T00:51:11.000000Z",
+    "method": "freezeAppearance",
+    "from": "0x7b17B27096bAAd24Fad840C4376389EC9AcCad06",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25118614,
+    "category": "lock"
+   },
+   {
+    "hash": "0x351562f9e02270e1359cb6547805bc1c5929eca1c1cbf90690b40d6986cd1ebe",
+    "timestamp": "2026-05-17T13:42:11.000000Z",
+    "method": "freezeAppearance",
+    "from": "0x7b17B27096bAAd24Fad840C4376389EC9AcCad06",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25115276,
+    "category": "lock"
+   },
+   {
+    "hash": "0x81287c2ed18d46d31ee1c3e7a8e684a3eaf6e500bd312b26e287df8c3ea8cfa0",
+    "timestamp": "2026-05-17T13:04:23.000000Z",
+    "method": "renounceOwnership",
+    "from": "0x7b17B27096bAAd24Fad840C4376389EC9AcCad06",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25115087,
+    "category": "ownership"
+   },
+   {
+    "hash": "0xd1ce4ae73844754cf140264cd95059ae2374ef48c85adb4f8b78da0b339675d6",
+    "timestamp": "2026-05-17T12:30:23.000000Z",
+    "method": "freezeAppearance",
+    "from": "0x1c4a654f6D347ff715666e0Dda61715c67a1AcF5",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25114918,
+    "category": "lock"
+   },
+   {
+    "hash": "0xfe761ae68069b84cd94bbf46e824d5391d218d83167227d964b4d88784d0de5f",
+    "timestamp": "2026-05-17T02:47:23.000000Z",
+    "method": "freezeAppearance",
+    "from": "0x7b17B27096bAAd24Fad840C4376389EC9AcCad06",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25112016,
+    "category": "lock"
+   },
+   {
+    "hash": "0x119e4fccfdedd21169a619ad8ff25b1c37c9d0eb1fe125e96c56f5d510d9e0b8",
+    "timestamp": "2026-05-16T19:40:59.000000Z",
+    "method": "renounceOwnership",
+    "from": "0xd51F9D7ae995A45e9573f0D62E0137722cB9c649",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25109889,
+    "category": "ownership"
+   },
+   {
+    "hash": "0x445f53d5e09a4e6454c724671c7f551c792d9c54a2f83f3c9634cc36f0d65eee",
+    "timestamp": "2026-05-16T19:20:11.000000Z",
+    "method": "transferOwnership",
+    "from": "0x226ECC7C22E7432193A86c66B4Dc948b2371d433",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25109785,
+    "category": "ownership"
+   },
+   {
+    "hash": "0xe979cd583b9e627bff362f687be20308537c41fad91bd1331d471df9f4d1530b",
+    "timestamp": "2026-05-16T17:23:35.000000Z",
+    "method": "renounceOwnership",
+    "from": "0xEE9d3f6034079cB06ab23141C57119b5e1d1CA0e",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25109202,
+    "category": "ownership"
+   },
+   {
+    "hash": "0x7f56ceac2b02fdfffd1e1aa2e8f269a02f95310cb0ed9b0f6873baaf991b2c68",
+    "timestamp": "2026-05-16T17:19:35.000000Z",
+    "method": "freezeAppearance",
+    "from": "0x341dc87aEA980a54B3B28EF952F2A0BF9685f66a",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25109182,
+    "category": "lock"
+   },
+   {
+    "hash": "0xb139a6dc0384715a3289a20409c79228733c0d7a2d5b458ae765dd90d4a58286",
+    "timestamp": "2026-05-16T16:59:23.000000Z",
+    "method": "renounceOwnership",
+    "from": "0x3d297a658A23446B21934F3f7f5ec3Ca02008cC8",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25109081,
+    "category": "ownership"
+   },
+   {
+    "hash": "0xf85dfd6a31f52f4f31f96f5baf31ea264372320c4e6d4d1bf1952c166598d5da",
+    "timestamp": "2026-05-16T15:25:11.000000Z",
+    "method": "renounceOwnership",
+    "from": "0x5b68423010D525Fc1E7D8E5d58c053E29102277e",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25108612,
+    "category": "ownership"
+   },
+   {
+    "hash": "0xa15682a84f53967fa1a56bf954a72ac796e4ebf11d1c144aa2356f3df452220b",
+    "timestamp": "2026-05-16T15:12:23.000000Z",
+    "method": "transferOwnership",
+    "from": "0x7776F9c91fB2b94A76938b11a29A6EE34B3EF2B0",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25108548,
+    "category": "ownership"
+   },
+   {
+    "hash": "0x7001a8a5930fec383d479833be12e60628056d4dac79cb3ae77b0e0cae7acd8c",
+    "timestamp": "2026-05-16T14:56:47.000000Z",
+    "method": "freezeAppearance",
+    "from": "0x3264B37B64Dd0C2FA3c3a2a43254041A698F1D6d",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25108470,
+    "category": "lock"
+   },
+   {
+    "hash": "0x0e9cae3614a739cb631583ed21e00483363ac935073aa82855cb4775a1f7f7cd",
+    "timestamp": "2026-05-16T14:53:35.000000Z",
+    "method": "freezeAppearance",
+    "from": "0x911385f9d6108b2a79B94b37B222066cFb84d5c2",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25108454,
+    "category": "lock"
+   },
+   {
+    "hash": "0x6bd3e4f334f1bd1718541b43645b12665871a843f8dfc60396acf685c7122de9",
+    "timestamp": "2026-05-16T14:52:23.000000Z",
+    "method": "renounceOwnership",
+    "from": "0x13a6C88f79445f0A9C026aEAebfbc17449E2A134",
+    "from_is_contract": true,
+    "status": "Reverted",
+    "block": 25108448,
+    "category": "ownership"
+   },
+   {
+    "hash": "0xbfe49269ac73448d7f439ce44c90e6cb6b523e42a705a25edf7cc768cb1ff1fb",
+    "timestamp": "2026-05-16T14:48:11.000000Z",
+    "method": "transferOwnership",
+    "from": "0x6437a1B6c7A081A2bBfC9CC5C07EaFCa2287Dd04",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25108427,
+    "category": "ownership"
+   },
+   {
+    "hash": "0x63e2a5c18e492e2d7585b1024a8910ffe7208dc235402bb0b5500743a4b08e97",
+    "timestamp": "2026-05-16T14:47:59.000000Z",
+    "method": "renounceOwnership",
+    "from": "0x13a6C88f79445f0A9C026aEAebfbc17449E2A134",
+    "from_is_contract": true,
+    "status": "Reverted",
+    "block": 25108426,
+    "category": "ownership"
+   },
+   {
+    "hash": "0x1ceb7ade7e1df4a016f62b7e6cbb2ec1b397aaed844e9dfd3a46510ca46f8731",
+    "timestamp": "2026-05-16T14:42:47.000000Z",
+    "method": "freezeAppearance",
+    "from": "0x7b17B27096bAAd24Fad840C4376389EC9AcCad06",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 25108400,
+    "category": "lock"
+   },
+   {
+    "hash": "0xe7a2d979cd0065830293e81ed51110851d1a903143a835ec25b39c86f2b21114",
+    "timestamp": "2026-05-16T14:41:59.000000Z",
+    "method": "freezeAppearance",
+    "from": "0x7b17B27096bAAd24Fad840C4376389EC9AcCad06",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25108396,
+    "category": "lock"
+   },
+   {
+    "hash": "0xa3042f0d16ca1d38462ba4c7eae21ad032bbc58babde18fa05b99f53337cf88f",
+    "timestamp": "2026-05-16T14:26:35.000000Z",
+    "method": "renounceOwnership",
+    "from": "0x28531fcbFE5385b8836B5d618DD59fF4e36d0415",
+    "from_is_contract": true,
+    "status": "Reverted",
+    "block": 25108319,
+    "category": "ownership"
+   },
+   {
+    "hash": "0xa0c2e6b9e14034ec5d11126f2971c35ac8ea3042beeaa9de68b027db3d37b7ff",
+    "timestamp": "2026-05-16T14:17:23.000000Z",
+    "method": "freezeAppearance",
+    "from": "0x9080e7F09727430d3FD28F18eA12bD2e574b1366",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25108273,
+    "category": "lock"
+   },
+   {
+    "hash": "0x3ee9bd33d554ad473ed739859d8bfad88fa4528ad7a39c6f5313c579eeacad5f",
+    "timestamp": "2026-05-16T14:15:59.000000Z",
+    "method": "freezeAppearance",
+    "from": "0x9080e7F09727430d3FD28F18eA12bD2e574b1366",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25108266,
+    "category": "lock"
+   },
+   {
+    "hash": "0x3d1769a0f22809653f8730860b9a49ce6faef257691f4db1a9afc38f5ac15493",
+    "timestamp": "2026-05-16T14:05:35.000000Z",
+    "method": "freezeAppearance",
+    "from": "0x9080e7F09727430d3FD28F18eA12bD2e574b1366",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 25108214,
+    "category": "lock"
+   }
+  ],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 2,
+    "first": "2026-05-16",
+    "last": "2026-05-17",
+    "last_tx": "0x81287c2ed18d46d31ee1c3e7a8e684a3eaf6e500bd312b26e287df8c3ea8cfa0",
+    "list": [
+     {
+      "date": "2026-05-16",
+      "tx": "0x73ae383569e05eb115a9aa65c4537141cfffa25db57698b855c13d6979d07e98",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "7b17b27096baad24fad840c4376389ec9accad06"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-05-17",
+      "tx": "0x81287c2ed18d46d31ee1c3e7a8e684a3eaf6e500bd312b26e287df8c3ea8cfa0",
+      "topics": [
+       "7b17b27096baad24fad840c4376389ec9accad06",
+       "0000000000000000000000000000000000000000"
+      ],
+      "data": "0x"
+     }
+    ]
+   },
+   "MetadataUpdate(uint256)": {
+    "n": 2000,
+    "first": "2026-05-16",
+    "last": "2026-05-16",
+    "last_tx": "0x489cd54ae6b448cae18b8f35946902f6a53cb1f3e41e21e054cd502083661287",
+    "list": [
+     {
+      "date": "2026-05-16",
+      "tx": "0x09a2ec599e571e41c39e6dc7a74c92332f8595a615039e2873ada489ed88abf0",
+      "topics": [
+       "0000000000000000000000000000000000000008"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-05-16",
+      "tx": "0x2f1cd3256e4ad2c3b89a34fc708945e76ae7b725dea8faef547249acbc044146",
+      "topics": [
+       "0000000000000000000000000000000000000050"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-05-16",
+      "tx": "0x7e491f678d76109cdbc138c4b6d51bc94908dc55235ce5535edd0a1aac71f5f3",
+      "topics": [
+       "000000000000000000000000000000000000000b"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-05-16",
+      "tx": "0x87f176759c6346f021929c3d864869962532414e6c2df5b3ccdc10d7183d6811",
+      "topics": [
+       "0000000000000000000000000000000000000047"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-05-16",
+      "tx": "0x3158aa887bae298d1268e90f086d38a3577dda2c8c0ad1a06e75c01259ae9fff",
+      "topics": [
+       "0000000000000000000000000000000000000039"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-05-16",
+      "tx": "0x52ed9064e7229824180e1796f99a24f333bd1502ff6891ceba32a0ef9b601d3e",
+      "topics": [
+       "0000000000000000000000000000000000000004"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-05-16",
+      "tx": "0x18cc9acf94870ef440ccfbe7343ecf44fcf71b3a740a38f90d61bec7c2511cb2",
+      "topics": [
+       "0000000000000000000000000000000000000009"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-05-16",
+      "tx": "0x26c478a4d3839d4d53f3e5c286d1ee94ba84b18f55ccc8c0ea9d1c19e71820e1",
+      "topics": [
+       "000000000000000000000000000000000000004b"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-05-16",
+      "tx": "0x6172dc346347e625bdb634d9a5b95d0d0671d15d1fc8b48d1e6cbcb30d510939",
+      "topics": [
+       "0000000000000000000000000000000000000006"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-05-16",
+      "tx": "0x1b995d970a063cb37a26e393571fd47c47959b5d9f398644018084a09d93839a",
+      "topics": [
+       "000000000000000000000000000000000000003c"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-05-16",
+      "tx": "0xebb44eaa40a3d6580fc47859b81ca65c580138727a5b2a099bd4fd4b969b10c1",
+      "topics": [
+       "0000000000000000000000000000000000000049"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-05-16",
+      "tx": "0x90fcb50e3254de8adbc22bfd9befc344f690b4a8cc783e465bf1db0f741da100",
+      "topics": [
+       "000000000000000000000000000000000000004c"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-05-16",
+      "tx": "0x41ea859c5d5440bf60da1aece8fc5424950d6c9f368521444f74d51b7df41f0e",
+      "topics": [
+       "0000000000000000000000000000000000000023"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-05-16",
+      "tx": "0x75ba7ffeefd6ca61a724097c6beb669c1de8caa98548e6ab44083ab90bbdf3fc",
+      "topics": [
+       "000000000000000000000000000000000000001e"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-05-16",
+      "tx": "0x36604efe8511323f285db2ac9b3e7ce811bdb3dcf83c11e6f58d535b54d13e96",
+      "topics": [
+       "000000000000000000000000000000000000001a"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-05-16",
+      "tx": "0xcdb15d5d00e30ace6843937643b7c852c8a937eb8be22ec5f5a394fc2b047151",
+      "topics": [
+       "000000000000000000000000000000000000002e"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-05-16",
+      "tx": "0x6273611ad7795fb6b69b5b12d12dbf66b72582dc7171eda2445443868fefd93a",
+      "topics": [
+       "0000000000000000000000000000000000000007"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-05-16",
+      "tx": "0xe58d9bbb2ae3d75e77e33007f63d3f984b705ce1eb959fb90531a224fa7dbb59",
+      "topics": [
+       "0000000000000000000000000000000000000046"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-05-16",
+      "tx": "0x8c0873f2eb9ed8bcffbb5934a9db4b5194d0fa325fabe319b216ca80837af6a1",
+      "topics": [
+       "0000000000000000000000000000000000000030"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-05-16",
+      "tx": "0x05eff0fcb9bd4e05b9419ac83db80fb771463c9bb03dd26ebfb0a57c6678d45a",
+      "topics": [
+       "0000000000000000000000000000000000000011"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-05-16",
+      "tx": "0x11ab02c313387636bd3e8b60d836c81a5a3747a4ac05f01b5f023285cc42de2f",
+      "topics": [
+       "0000000000000000000000000000000000000020"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-05-16",
+      "tx": "0xa677ac1fbe51ee36e56f4a6688955df9b1e2f35bfd3eb5c706f9c6c2cc26673c",
+      "topics": [
+       "0000000000000000000000000000000000000255"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-05-16",
+      "tx": "0x9c0acc87604e12d27c72e70d9d6c87b49080ad972d492d2e595319d4e6a8d4db",
+      "topics": [
+       "0000000000000000000000000000000000000377"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-05-16",
+      "tx": "0xcda7728310edd9b95f5cfc9c115534ed055fc9d69df35a8a9ccb06f2d81616b9",
+      "topics": [
+       "000000000000000000000000000000000000037f"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-05-16",
+      "tx": "0x7519bd8559bc76a46fed4c1fb88ca3b9c2068aebd2a6680fc46534fdbb762318",
+      "topics": [
+       "000000000000000000000000000000000000035e"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-05-16",
+      "tx": "0x7d203b6addb614a9126374966cf716e4dd3db6efc5c51191cb00f0e4a2dab924",
+      "topics": [
+       "0000000000000000000000000000000000000370"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-05-16",
+      "tx": "0x25163f874ee7522f57e9348b10e77aa02ea2efcac479ebc77f0a5586376375ae",
+      "topics": [
+       "0000000000000000000000000000000000000404"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-05-16",
+      "tx": "0xfdda2d5d487ef01928f5ef1fbfb9a88f9a2a4081bac98d90bc8bd791213ecaf1",
+      "topics": [
+       "00000000000000000000000000000000000003fc"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-05-16",
+      "tx": "0xcd566a4d165c720c5048c00f34498628f3cfb3b7718c5c548f51e2ff3b5cedd8",
+      "topics": [
+       "00000000000000000000000000000000000003ff"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2026-05-16",
+      "tx": "0xa0df7aa532214a5856964a73f1c6fad049a4735960f16583cab473d84a8f04fb",
+      "topics": [
+       "0000000000000000000000000000000000000258"
+      ],
+      "data": "0x"
+     }
+    ]
+   },
+   "BatchMetadataUpdate(uint256,uint256)": {
+    "n": 0
+   },
+   "AppearanceFrozen(uint256,uint8,uint32,uint32,address)": {
+    "n": 7,
+    "first": "2026-05-16",
+    "last": "2026-05-19",
+    "last_tx": "0xc065c9a75940f45d9a0c5493f3d07b3f1f5233d1a157bf65890235c84f551e31",
+    "list": [
+     {
+      "date": "2026-05-16",
+      "tx": "0x1ceb7ade7e1df4a016f62b7e6cbb2ec1b397aaed844e9dfd3a46510ca46f8731",
+      "topics": [
+       "0000000000000000000000000000000000000002",
+       "7b17b27096baad24fad840c4376389ec9accad06"
+      ],
+      "data": "0x00000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000"
+     },
+     {
+      "date": "2026-05-16",
+      "tx": "0x7f56ceac2b02fdfffd1e1aa2e8f269a02f95310cb0ed9b0f6873baaf991b2c68",
+      "topics": [
+       "000000000000000000000000000000000000202d",
+       "341dc87aea980a54b3b28ef952f2a0bf9685f66a"
+      ],
+      "data": "0x00000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000"
+     },
+     {
+      "date": "2026-05-17",
+      "tx": "0xfe761ae68069b84cd94bbf46e824d5391d218d83167227d964b4d88784d0de5f",
+      "topics": [
+       "00000000000000000000000000000000000022b1",
+       "7b17b27096baad24fad840c4376389ec9accad06"
+      ],
+      "data": "0x00000000000000000000000000000000000000000000000000000000000000030000000000000000000000000000000000000000000000000000000000000000"
+     },
+     {
+      "date": "2026-05-17",
+      "tx": "0xd1ce4ae73844754cf140264cd95059ae2374ef48c85adb4f8b78da0b339675d6",
+      "topics": [
+       "0000000000000000000000000000000000002052",
+       "1c4a654f6d347ff715666e0dda61715c67a1acf5"
+      ],
+      "data": "0x00000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000"
+     },
+     {
+      "date": "2026-05-17",
+      "tx": "0x351562f9e02270e1359cb6547805bc1c5929eca1c1cbf90690b40d6986cd1ebe",
+      "topics": [
+       "000000000000000000000000000000000000004e",
+       "7b17b27096baad24fad840c4376389ec9accad06"
+      ],
+      "data": "0x00000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000"
+     },
+     {
+      "date": "2026-05-18",
+      "tx": "0x07e24857b376aec2533f9348cb6aba115855f7bf9f5e43f4674cdfb1067bc31e",
+      "topics": [
+       "000000000000000000000000000000000000000e",
+       "7b17b27096baad24fad840c4376389ec9accad06"
+      ],
+      "data": "0x00000000000000000000000000000000000000000000000000000000000000050000000000000000000000000000000000000000000000000000000000000000"
+     },
+     {
+      "date": "2026-05-19",
+      "tx": "0xc065c9a75940f45d9a0c5493f3d07b3f1f5233d1a157bf65890235c84f551e31",
+      "topics": [
+       "0000000000000000000000000000000000000003",
+       "7b17b27096baad24fad840c4376389ec9accad06"
+      ],
+      "data": "0x00000000000000000000000000000000000000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000000"
+     }
+    ]
+   },
+   "DescriptorUpdated(address)": {
+    "n": 0
+   },
+   "FreePlantingBlockCount(uint256,uint16)": {
+    "n": 2000,
+    "first": "2026-05-16",
+    "last": "2026-05-16",
+    "last_tx": "0x8226a52c07a2418b15d6bc6c2cf402a6292cc5b5de49302eae1f55d6b376cf75",
+    "list": [
+     {
+      "date": "2026-05-16",
+      "tx": "0xa2f8dacf9692fe1bb00ec6c12db9a69197497d7d453160af7b5721856425b4eb",
+      "topics": [
+       "00000000000000000000000000000000017f18f2"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000001"
+     },
+     {
+      "date": "2026-05-16",
+      "tx": "0xa21e6e7a662afb7a66cb4e6f935273db740cdc0eda3b04fc0d86de624d2cae40",
+      "topics": [
+       "00000000000000000000000000000000017f1903"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000001"
+     },
+     {
+      "date": "2026-05-16",
+      "tx": "0x241d1f05d4536564c79be2bd62ed4e5abfd7f30474b8f032f6e9b897aa79a327",
+      "topics": [
+       "00000000000000000000000000000000017f1908"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000001"
+     },
+     {
+      "date": "2026-05-16",
+      "tx": "0x894882629f156d828a51e3a771a708d8d5d021f6fc37b82736304611f8125e2d",
+      "topics": [
+       "00000000000000000000000000000000017f1dfc"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000001"
+     },
+     {
+      "date": "2026-05-16",
+      "tx": "0x5098bfc9a04b1fa259df0257f8a7f491616c2bdaefe64fc3bda7db81b302d3c6",
+      "topics": [
+       "00000000000000000000000000000000017f1dfc"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000002"
+     },
+     {
+      "date": "2026-05-16",
+      "tx": "0xe0448c6c810dec8c9a2fc9fbdf60eebcf28965ef1597c2b83c450523d0d60538",
+      "topics": [
+       "00000000000000000000000000000000017f1dfc"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000003"
+     },
+     {
+      "date": "2026-05-16",
+      "tx": "0x75090fac49960dd3cadebb79632203d46f2fff7212ce05569d6fcf9b225ddce4",
+      "topics": [
+       "00000000000000000000000000000000017f1dfc"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000004"
+     },
+     {
+      "date": "2026-05-16",
+      "tx": "0xadce13f454b08a672ff39b84f7f84156d0458e61a2eebf4ba674aec8833dd333",
+      "topics": [
+       "00000000000000000000000000000000017f1dfc"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000005"
+     },
+     {
+      "date": "2026-05-16",
+      "tx": "0x07cfbcbb104e9cc7c03085d3805b82eef5d86d6d4592d8b3421eec3f0d479b43",
+      "topics": [
+       "00000000000000000000000000000000017f1dfe"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000001"
+     },
+     {
+      "date": "2026-05-16",
+      "tx": "0x0fb8050f59ee5ba7a57698ff32641d2ea02d7735cd91aaf256c2be4f53b452ff",
+      "topics": [
+       "00000000000000000000000000000000017f1dfe"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000002"
+     },
+     {
+      "date": "2026-05-16",
+      "tx": "0x40928493bff3d0d390b8a5ddf02520f043db39f21f34f315531f9e230f3537fc",
+      "topics": [
+       "00000000000000000000000000000000017f1dfe"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000003"
+     },
+     {
+      "date": "2026-05-16",
+      "tx": "0xb460e6e4d098974a908d987f63456007c686f55311b999924a34b9647d1e2317",
+      "topics": [
+       "00000000000000000000000000000000017f1dfe"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000004"
+     },
+     {
+      "date": "2026-05-16",
+      "tx": "0xd8dda99da57d6c76866add374bf70dace71acececbfe918d4dab3cafb3010aa3",
+      "topics": [
+       "00000000000000000000000000000000017f1dfe"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000005"
+     },
+     {
+      "date": "2026-05-16",
+      "tx": "0xf1e561dae2bc508a59565e0b9c4fbde81677648a89483397e2493743272eee38",
+      "topics": [
+       "00000000000000000000000000000000017f1e00"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000001"
+     },
+     {
+      "date": "2026-05-16",
+      "tx": "0xdda6472a123910ed8146c34896b71b4367cd9928acdbcb1984a8cfa97d792cf0",
+      "topics": [
+       "00000000000000000000000000000000017f1e00"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000002"
+     },
+     {
+      "date": "2026-05-16",
+      "tx": "0x4fb84a47edf3a34b5707ee125e9b48bdd2ba8226753611b22efebbae67a2f739",
+      "topics": [
+       "00000000000000000000000000000000017f1e01"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000001"
+     },
+     {
+      "date": "2026-05-16",
+      "tx": "0x394fb9bc0324186ec82dfed9b260f11e6e70d46ffa94d57da88ce76d73b84a32",
+      "topics": [
+       "00000000000000000000000000000000017f1e01"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000002"
+     },
+     {
+      "date": "2026-05-16",
+      "tx": "0x0c0f97e75bb555ad30baf9f983d04f2eed2217135740a2564ac3a8d4cfcf337d",
+      "topics": [
+       "00000000000000000000000000000000017f1e01"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000003"
+     },
+     {
+      "date": "2026-05-16",
+      "tx": "0x2d7be5d7965c7a9d55f05633171af37b53c18c9ef2c1fac45b03bbbfee0e4deb",
+      "topics": [
+       "00000000000000000000000000000000017f1e02"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000001"
+     },
+     {
+      "date": "2026-05-16",
+      "tx": "0x2764b163b2f61e44fd4a228eecce5340b679164bb1707654d40ae882df1040cf",
+      "topics": [
+       "00000000000000000000000000000000017f1e02"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000002"
+     },
+     {
+      "date": "2026-05-16",
+      "tx": "0x6913ee0f0be571e9027e3d4bc55850137470ead06dea34e2ceb6e78ed83ef7d8",
+      "topics": [
+       "00000000000000000000000000000000017f1e03"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000001"
+     },
+     {
+      "date": "2026-05-16",
+      "tx": "0x730aa3a6bc848a13026024fa0d0bd344e7128c6696ae6b90cb41ebf03400f1ac",
+      "topics": [
+       "00000000000000000000000000000000017f1e04"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000001"
+     },
+     {
+      "date": "2026-05-16",
+      "tx": "0xc93847760af09653f3769e457278d22ad7e6ab4f512d71765a0d19fb963577b4",
+      "topics": [
+       "00000000000000000000000000000000017f1e04"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000002"
+     },
+     {
+      "date": "2026-05-16",
+      "tx": "0x3b88db193394a45165e80c8a89cc2aabedc0604d254fae37f053a683184b8bcf",
+      "topics": [
+       "00000000000000000000000000000000017f1e05"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000001"
+     },
+     {
+      "date": "2026-05-16",
+      "tx": "0x6b87799e4ca29de6a976e7d5e23f3dca3852288c1f89653a26bb7d0cf4779b65",
+      "topics": [
+       "00000000000000000000000000000000017f1e05"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000002"
+     },
+     {
+      "date": "2026-05-16",
+      "tx": "0xa96d642d5439ffbf3a27b6c96b68d812ee89f7ce624afb62f5d6169087156f58",
+      "topics": [
+       "00000000000000000000000000000000017f1e05"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000003"
+     },
+     {
+      "date": "2026-05-16",
+      "tx": "0xae2d30d350e994ed752a4ff554c27ea4ffaad80139e274d96c14a8c8dcfabe7b",
+      "topics": [
+       "00000000000000000000000000000000017f1e05"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000004"
+     },
+     {
+      "date": "2026-05-16",
+      "tx": "0x0ab0d37d8219ad56debd01af9787404588125bea3f3c7ab71048587320927555",
+      "topics": [
+       "00000000000000000000000000000000017f1e05"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000005"
+     },
+     {
+      "date": "2026-05-16",
+      "tx": "0x4beeb9b94114f18e2aacaafce9ca77becf24bbd4f8f6ff3ca8fe547453ee50bd",
+      "topics": [
+       "00000000000000000000000000000000017f1e05"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000006"
+     },
+     {
+      "date": "2026-05-16",
+      "tx": "0x374f4341b0bc22874cf6941731c1be7dea248c3a5155b3881f69a08c910923cd",
+      "topics": [
+       "00000000000000000000000000000000017f1e06"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000001"
+     }
+    ]
+   }
+  },
+  "decoded": [
+   {
+    "hash": "0x81287c2ed18d46d31ee1c3e7a8e684a3eaf6e500bd312b26e287df8c3ea8cfa0",
+    "timestamp": "2026-05-17T13:04:23.000000Z",
+    "method": "renounceOwnership",
+    "category": "ownership",
+    "from": "0x7b17B27096bAAd24Fad840C4376389EC9AcCad06",
+    "params": [],
+    "value_kinds": [],
+    "error": null
+   }
+  ],
+  "ownership_transfers": [
+   {
+    "date": "2026-05-16",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0x7b17b27096baad24fad840c4376389ec9accad06",
+    "tx": "0x73ae383569e05eb115a9aa65c4537141cfffa25db57698b855c13d6979d07e98"
+   },
+   {
+    "date": "2026-05-17",
+    "from": "0x7b17b27096baad24fad840c4376389ec9accad06",
+    "to": "0x0000000000000000000000000000000000000000",
+    "tx": "0x81287c2ed18d46d31ee1c3e7a8e684a3eaf6e500bd312b26e287df8c3ea8cfa0"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0x460d7dfa7aefb52ddb7b87a767485325b31272d9_reads1.json",
+ "eip4906": true,
+ "owner": {
+  "addr": "0x0000000000000000000000000000000000000000",
+  "type": "renounced"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "override",
+ "lock_functions": [
+  "freezeAppearance"
+ ],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [
+  {
+   "name": "setDescriptor",
+   "sig": "setDescriptor(address)",
+   "selector": "0x01b9a397",
+   "category": "renderer",
+   "inputs": [
+    "address"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "if (newDescriptor == address(0)) revert InvalidAddress();\n        descriptor = IOEGPDescriptor(newDescriptor);\n        emit DescriptorUpdated(newDescriptor);\n  ",
+   "writes": [
+    "descriptor"
+   ],
+   "effective": "yes",
+   "power": "renounced",
+   "holder_addrs": [
+    "0x0000000000000000000000000000000000000000"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x0000000000000000000000000000000000000000",
+     "type": "renounced",
+     "desc": "renounced",
+     "simple": "renounced"
+    }
+   ]
+  }
+ ],
+ "class_direct": "immutable",
+ "class_reason": "setDescriptor:renounced",
+ "live_mutators": [
+  "setDescriptor"
+ ],
+ "dependencies": [
+  {
+   "address": "0x5aebb38a0abd2095151f467877ff091dc80cdf0e",
+   "via": "descriptor()",
+   "in_tokenuri_path": true,
+   "via_setter": true,
+   "analysis": {
+    "address": "0x5aebb38a0abd2095151f467877ff091dc80cdf0e",
+    "verified": true,
+    "contract_name": "OEGPDescriptor",
+    "proxy": {
+     "kind": null
+    },
+    "owner": null,
+    "admin_fn": null,
+    "uups": false,
+    "lock_views": {},
+    "lock_flags_true": {},
+    "lock_functions": [],
+    "class_direct": "immutable",
+    "class_reason": "no uri/renderer/upgrade function in ABI and not a proxy",
+    "live_mutators": [],
+    "mutators": [],
+    "history": {},
+    "unverified_selector_hits": [],
+    "tokenuri_path": "override"
+   }
+  }
+ ],
+ "meta": {
+  "address": "0x460d7dfa7aefb52ddb7b87a767485325b31272d9",
+  "name": "Onchain Eternal Growth Plants",
+  "w5_claim_strength": null,
+  "w5_claim_text": null,
+  "w5_source_type": null,
+  "w5_source_url": null,
+  "holders_count": 2352.0,
+  "in_w5": false,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": "onchain-renderer",
+  "census_media_class": "data-uri",
+  "census_liveness": "alive",
+  "in_census_onchain": true,
+  "standard": "ERC-721",
+  "creator": "0x7b17b27096baad24fad840c4376389ec9accad06",
+  "deploy_block": 25106143.0
+ },
+ "class_deps_all": "immutable",
+ "class_deps": "immutable",
+ "class_final": "immutable",
+ "pointer_power": null
+}

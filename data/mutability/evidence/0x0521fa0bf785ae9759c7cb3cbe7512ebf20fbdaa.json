@@ -1,0 +1,470 @@
+{
+ "address": "0x0521fa0bf785ae9759c7cb3cbe7512ebf20fbdaa",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:14Z",
+ "code_raw": "data/raw/rpc-mutability/0x0521fa0bf785ae9759c7cb3cbe7512ebf20fbdaa_code.json",
+ "code_len": 2141,
+ "slots": {
+  "eip1967_impl": "0x76699672d0fe020835b4c2cc8d8252ea2490c064",
+  "eip1967_admin": "0x7288059dece0c2c2c033a3d00f27832dde2cc1f9",
+  "slot0": "0x0000000000000000000000000000000000000000000000000000000000000001"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0x0521fa0bf785ae9759c7cb3cbe7512ebf20fbdaa_slots.json",
+ "verified": true,
+ "contract_name": "TransparentUpgradeableProxy",
+ "proxy": {
+  "kind": "eip1967",
+  "impl": "0x76699672d0fe020835b4c2cc8d8252ea2490c064",
+  "impl_verified": true,
+  "impl_name": "DegenScoreBeacon",
+  "admin": {
+   "addr": "0x7288059dece0c2c2c033a3d00f27832dde2cc1f9",
+   "code_raw": "data/raw/rpc-mutability/0x7288059dece0c2c2c033a3d00f27832dde2cc1f9_holdercode.json",
+   "code_len": 1881,
+   "probe_raw": "data/raw/rpc-mutability/0x7288059dece0c2c2c033a3d00f27832dde2cc1f9_holderprobe.json",
+   "type": "contract-owned",
+   "owner": "0x0fe8da8304edabda0fa9470b53c172e1b31d4a42",
+   "controller": {
+    "addr": "0x0fe8da8304edabda0fa9470b53c172e1b31d4a42",
+    "code_raw": "data/raw/rpc-mutability/0x0fe8da8304edabda0fa9470b53c172e1b31d4a42_holdercode.json",
+    "code_len": 171,
+    "probe_raw": "data/raw/rpc-mutability/0x0fe8da8304edabda0fa9470b53c172e1b31d4a42_holderprobe.json",
+    "type": "safe",
+    "threshold": 2,
+    "n_owners": 4,
+    "owners": [
+     "0xa0c51aea38a4cf4755bf502e461d2b47ca7c4508",
+     "0xfaa177eb2c7a366cf5cc471c04afd7b2df2c735d",
+     "0xa00b6ad40234911f700afbb53686588700ed58f4",
+     "0xdb4683d589fe86dffa4933298c86c12cbb3b595d"
+    ],
+    "version": "1.3.0",
+    "bs_name": "SafeProxy",
+    "ens": null,
+    "bs_impl_names": [
+     "GnosisSafe"
+    ],
+    "bs_tags": [],
+    "is_contract": true,
+    "creator": "0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2",
+    "is_verified": true,
+    "bs_reputation": "ok"
+   },
+   "bs_name": "ProxyAdmin",
+   "ens": null,
+   "bs_impl_names": [],
+   "bs_tags": [],
+   "is_contract": true,
+   "creator": "0xE216FC416f75BD9E6107f08d4a0b0e89725209b4",
+   "is_verified": true,
+   "bs_reputation": "ok"
+  }
+ },
+ "has_source": true,
+ "abi_from": "impl+proxy",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 2,
+    "first": "2022-11-15",
+    "last": "2022-11-15",
+    "last_tx": "0x670c19175cbe8266dfa48879871d3c6a42b6737854e37ec0c8a5e5162f24ffc3",
+    "list": [
+     {
+      "date": "2022-11-15",
+      "tx": "0x670c19175cbe8266dfa48879871d3c6a42b6737854e37ec0c8a5e5162f24ffc3",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "e216fc416f75bd9e6107f08d4a0b0e89725209b4"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2022-11-15",
+      "tx": "0x670c19175cbe8266dfa48879871d3c6a42b6737854e37ec0c8a5e5162f24ffc3",
+      "topics": [
+       "e216fc416f75bd9e6107f08d4a0b0e89725209b4",
+       "0fe8da8304edabda0fa9470b53c172e1b31d4a42"
+      ],
+      "data": "0x"
+     }
+    ]
+   },
+   "Upgraded(address)": {
+    "n": 2,
+    "first": "2022-11-15",
+    "last": "2022-11-21",
+    "last_tx": "0xfab8dce6adf898a7f4c6b47ff01a0615221d3b4d622263a51fa78cdcfc32da98",
+    "list": [
+     {
+      "date": "2022-11-15",
+      "tx": "0x670c19175cbe8266dfa48879871d3c6a42b6737854e37ec0c8a5e5162f24ffc3",
+      "topics": [
+       "8a40308096ed940ba773e133a53c97b625721d6c"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2022-11-21",
+      "tx": "0xfab8dce6adf898a7f4c6b47ff01a0615221d3b4d622263a51fa78cdcfc32da98",
+      "topics": [
+       "76699672d0fe020835b4c2cc8d8252ea2490c064"
+      ],
+      "data": "0x"
+     }
+    ]
+   },
+   "AdminChanged(address,address)": {
+    "n": 1,
+    "first": "2022-11-15",
+    "last": "2022-11-15",
+    "last_tx": "0x670c19175cbe8266dfa48879871d3c6a42b6737854e37ec0c8a5e5162f24ffc3",
+    "list": [
+     {
+      "date": "2022-11-15",
+      "tx": "0x670c19175cbe8266dfa48879871d3c6a42b6737854e37ec0c8a5e5162f24ffc3",
+      "topics": [],
+      "data": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000007288059dece0c2c2c033a3d00f27832dde2cc1f9"
+     }
+    ]
+   },
+   "BeaconUpgraded(address)": {
+    "n": 0
+   },
+   "URI(string,uint256)": {
+    "n": 0
+   }
+  },
+  "decoded": [],
+  "ownership_transfers": [
+   {
+    "date": "2022-11-15",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0xe216fc416f75bd9e6107f08d4a0b0e89725209b4",
+    "tx": "0x670c19175cbe8266dfa48879871d3c6a42b6737854e37ec0c8a5e5162f24ffc3"
+   },
+   {
+    "date": "2022-11-15",
+    "from": "0xe216fc416f75bd9e6107f08d4a0b0e89725209b4",
+    "to": "0x0fe8da8304edabda0fa9470b53c172e1b31d4a42",
+    "tx": "0x670c19175cbe8266dfa48879871d3c6a42b6737854e37ec0c8a5e5162f24ffc3"
+   }
+  ],
+  "upgrades": [
+   {
+    "date": "2022-11-15",
+    "impl": "0x8a40308096ed940ba773e133a53c97b625721d6c",
+    "tx": "0x670c19175cbe8266dfa48879871d3c6a42b6737854e37ec0c8a5e5162f24ffc3"
+   },
+   {
+    "date": "2022-11-21",
+    "impl": "0x76699672d0fe020835b4c2cc8d8252ea2490c064",
+    "tx": "0xfab8dce6adf898a7f4c6b47ff01a0615221d3b4d622263a51fa78cdcfc32da98"
+   }
+  ],
+  "incomplete": false,
+  "safe_calls": {
+   "0x0fe8da8304edabda0fa9470b53c172e1b31d4a42": {
+    "count": 1,
+    "calls": [
+     {
+      "date": "2023-12-19",
+      "method": "setFeeCollector",
+      "category": null,
+      "params": [
+       {
+        "name": "newFeeCollector",
+        "type": "address",
+        "value": "0x785454F19dA069a4d1A78523350c05E08b2D8aFB"
+       }
+      ],
+      "tx": "0x9e9e11a6024c61e1f6d7f93382a3120d27f6727caa009f60a7f5f596ac5c3da4",
+      "success": true,
+      "safe": "0x0fe8da8304edabda0fa9470b53c172e1b31d4a42",
+      "value_kinds": [
+       "address"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0x0521fa0bf785ae9759c7cb3cbe7512ebf20fbdaa_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0x0fe8da8304edabda0fa9470b53c172e1b31d4a42",
+  "code_raw": "data/raw/rpc-mutability/0x0fe8da8304edabda0fa9470b53c172e1b31d4a42_holdercode.json",
+  "code_len": 171,
+  "probe_raw": "data/raw/rpc-mutability/0x0fe8da8304edabda0fa9470b53c172e1b31d4a42_holderprobe.json",
+  "type": "safe",
+  "threshold": 2,
+  "n_owners": 4,
+  "owners": [
+   "0xa0c51aea38a4cf4755bf502e461d2b47ca7c4508",
+   "0xfaa177eb2c7a366cf5cc471c04afd7b2df2c735d",
+   "0xa00b6ad40234911f700afbb53686588700ed58f4",
+   "0xdb4683d589fe86dffa4933298c86c12cbb3b595d"
+  ],
+  "version": "1.3.0",
+  "bs_name": "SafeProxy",
+  "ens": null,
+  "bs_impl_names": [
+   "GnosisSafe"
+  ],
+  "bs_tags": [],
+  "is_contract": true,
+  "creator": "0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2",
+  "is_verified": true,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "override",
+ "lock_functions": [],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [
+  {
+   "name": "setBeaconURI",
+   "sig": "setBeaconURI(string)",
+   "selector": "0xa428a58b",
+   "category": "uri",
+   "inputs": [
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "beaconURI = _uri;",
+   "writes": [
+    "beaconURI"
+   ],
+   "effective": "yes",
+   "power": "multisig",
+   "holder_addrs": [
+    "0x0fe8da8304edabda0fa9470b53c172e1b31d4a42"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x0fe8da8304edabda0fa9470b53c172e1b31d4a42",
+     "type": "safe",
+     "threshold": 2,
+     "n_owners": 4,
+     "bs_name": "SafeProxy",
+     "ens": null,
+     "desc": "safe 2/4",
+     "simple": "multisig"
+    }
+   ]
+  },
+  {
+   "name": "setPrimaryTraitURI",
+   "sig": "setPrimaryTraitURI(string)",
+   "selector": "0xbebd026c",
+   "category": "uri",
+   "inputs": [
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "primaryTraitURI = _uri;",
+   "writes": [
+    "primaryTraitURI"
+   ],
+   "effective": "yes",
+   "power": "multisig",
+   "holder_addrs": [
+    "0x0fe8da8304edabda0fa9470b53c172e1b31d4a42"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x0fe8da8304edabda0fa9470b53c172e1b31d4a42",
+     "type": "safe",
+     "threshold": 2,
+     "n_owners": 4,
+     "bs_name": "SafeProxy",
+     "ens": null,
+     "desc": "safe 2/4",
+     "simple": "multisig"
+    }
+   ]
+  },
+  {
+   "name": "changeAdmin",
+   "sig": "changeAdmin(address)",
+   "selector": "0x8f283970",
+   "category": "upgrade",
+   "inputs": [
+    "address"
+   ],
+   "gates": [
+    {
+     "type": "named",
+     "ref": "_getAdmin"
+    }
+   ],
+   "modifiers": [
+    "ifAdmin"
+   ],
+   "body_head": "_changeAdmin(newAdmin);",
+   "writes": [],
+   "power": "multisig",
+   "holder_addrs": [
+    "0x7288059dece0c2c2c033a3d00f27832dde2cc1f9"
+   ],
+   "holder_how": [
+    "eip1967 admin slot"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x7288059dece0c2c2c033a3d00f27832dde2cc1f9",
+     "type": "contract-owned",
+     "bs_name": "ProxyAdmin",
+     "ens": null,
+     "desc": "ProxyAdmin->safe 2/4",
+     "simple": "multisig"
+    }
+   ]
+  },
+  {
+   "name": "upgradeTo",
+   "sig": "upgradeTo(address)",
+   "selector": "0x3659cfe6",
+   "category": "upgrade",
+   "inputs": [
+    "address"
+   ],
+   "gates": [],
+   "modifiers": [],
+   "body_head": "_authorizeUpgrade(newImplementation);\n        _upgradeToAndCallSecure(newImplementation, bytes(\"\"), false);",
+   "writes": [],
+   "power": "multisig",
+   "holder_addrs": [
+    "0x7288059dece0c2c2c033a3d00f27832dde2cc1f9"
+   ],
+   "holder_how": [
+    "no access check found in header/body head",
+    "fallback: eip1967 admin slot"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x7288059dece0c2c2c033a3d00f27832dde2cc1f9",
+     "type": "contract-owned",
+     "bs_name": "ProxyAdmin",
+     "ens": null,
+     "desc": "ProxyAdmin->safe 2/4",
+     "simple": "multisig"
+    }
+   ]
+  },
+  {
+   "name": "upgradeToAndCall",
+   "sig": "upgradeToAndCall(address,bytes)",
+   "selector": "0x4f1ef286",
+   "category": "upgrade",
+   "inputs": [
+    "address",
+    "bytes"
+   ],
+   "gates": [],
+   "modifiers": [],
+   "body_head": "_authorizeUpgrade(newImplementation);\n        _upgradeToAndCallSecure(newImplementation, data, true);",
+   "writes": [],
+   "power": "multisig",
+   "holder_addrs": [
+    "0x7288059dece0c2c2c033a3d00f27832dde2cc1f9"
+   ],
+   "holder_how": [
+    "no access check found in header/body head",
+    "fallback: eip1967 admin slot"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x7288059dece0c2c2c033a3d00f27832dde2cc1f9",
+     "type": "contract-owned",
+     "bs_name": "ProxyAdmin",
+     "ens": null,
+     "desc": "ProxyAdmin->safe 2/4",
+     "simple": "multisig"
+    }
+   ]
+  }
+ ],
+ "class_direct": "multisig-mutable",
+ "class_reason": "live setters (multisig): changeAdmin,setBeaconURI,setPrimaryTraitURI,upgradeTo,upgradeToAndCall",
+ "live_mutators": [
+  "changeAdmin",
+  "setBeaconURI",
+  "setPrimaryTraitURI",
+  "upgradeTo",
+  "upgradeToAndCall"
+ ],
+ "dependencies": [],
+ "meta": {
+  "address": "0x0521fa0bf785ae9759c7cb3cbe7512ebf20fbdaa",
+  "name": null,
+  "w5_claim_strength": "on-chain-generic",
+  "w5_claim_text": "* @notice The DegenScore Beacon is an Ethereum soulbound token that highlights your on-chain skills & traits across one or more wallets.",
+  "w5_source_type": "contract-source",
+  "w5_source_url": "https://etherscan.io/address/0x0521fa0bf785ae9759c7cb3cbe7512ebf20fbdaa#code (contracts/DegenScoreBeacon.sol:41)",
+  "holders_count": 3818.0,
+  "in_w5": true,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": null,
+  "census_media_class": null,
+  "census_liveness": null,
+  "in_census_onchain": false,
+  "standard": "ERC-1155",
+  "creator": "0xe216fc416f75bd9e6107f08d4a0b0e89725209b4",
+  "deploy_block": 15975193.0
+ },
+ "class_deps_all": "none",
+ "class_deps": "none",
+ "class_final": "multisig-mutable",
+ "pointer_power": "multisig"
+}

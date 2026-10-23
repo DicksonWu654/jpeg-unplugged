@@ -1,0 +1,590 @@
+{
+  "collection": {
+    "rank": 92,
+    "source_rank": 97,
+    "name": "Inhabitants: Generative Identities",
+    "contract": "0x6dc6001535e15b9def7b0f6a20a2111dfa9454e2",
+    "contracts": [
+      "0x6dc6001535e15b9def7b0f6a20a2111dfa9454e2"
+    ],
+    "slug": "metahero",
+    "volume_usd": 63362786.57,
+    "volume_source": "CryptoSlam all-time Ethereum owner-to-owner sales, wash-filtered USD",
+    "source_url": "https://web-api.cryptoslam.io/v1/sales/rank-by-volume?timeRange=all&orderBy=rank&sortDirection=asc&offset=0&limit=100&blockchainId=0&hideInscriptions=false",
+    "ranking_evidence": "data/raw/top100-api/cryptoslam-ranking-0.json",
+    "identity_evidence": "data/raw/top100-api/cryptoslam-info-metahero.json",
+    "token_count": 8152,
+    "all_time_volume": 63362786.57,
+    "volume_currency": "USD",
+    "kind": "art-avatar",
+    "metadata_location": "mixed(http,ipfs)",
+    "metadata_classes": [
+      "http",
+      "ipfs"
+    ],
+    "media_location": "http",
+    "primary_image_location": "http",
+    "media_classes": [
+      "http"
+    ],
+    "liveness": "degraded",
+    "liveness_exact": "degraded",
+    "all_declared_media_liveness": "degraded",
+    "metadata_failed": true,
+    "n_alive": 0,
+    "n_dead": 1,
+    "n_unknown": 0,
+    "n_degraded": 2,
+    "key_domain_or_gateway": "api.punkscomic.com",
+    "hosts": [
+      "api.punkscomic.com"
+    ],
+    "hardcoded_gateways": [],
+    "http_origin_dependency": true,
+    "uses_ipfs": true,
+    "uses_arweave": false,
+    "fully_onchain_all_declared_media": false,
+    "metadata_and_primary_image_onchain": false,
+    "mutability_class": "multisig-mutable",
+    "single_key_mutable": false,
+    "single_key_repointable": false,
+    "base_uri_or_renderer": "0x6dc6001535e15b9def7b0f6a20a2111dfa9454e2.tokenURI/uri",
+    "control": [
+      {
+        "contract": "0x6dc6001535e15b9def7b0f6a20a2111dfa9454e2",
+        "class": "multisig-mutable",
+        "pointer_power": "multisig",
+        "reason": "live setters (multisig): setBaseURI,setIpfsURI",
+        "owner": {
+          "addr": "0x79a20cf7331f37432e078d923074e42512e3585a",
+          "code_raw": "data/raw/rpc-mutability/0x79a20cf7331f37432e078d923074e42512e3585a_holdercode.json",
+          "code_len": 171,
+          "probe_raw": "data/raw/rpc-mutability/0x79a20cf7331f37432e078d923074e42512e3585a_holderprobe.json",
+          "type": "safe",
+          "threshold": 1,
+          "n_owners": 2,
+          "owners": [
+            "0x3449a42bb505a4b9ff5b76dabf00149b82d43faf",
+            "0x0055223627adfb6d8996ea5cc9f831148f2a4630"
+          ],
+          "version": "1.3.0",
+          "bs_name": "GnosisSafeProxy",
+          "ens": null,
+          "bs_impl_names": [
+            "GnosisSafe"
+          ],
+          "bs_tags": [],
+          "is_contract": true,
+          "creator": "0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2",
+          "is_verified": true,
+          "bs_reputation": "ok"
+        },
+        "proxy": {
+          "kind": null
+        },
+        "live_mutators": [
+          {
+            "name": "setBaseURI",
+            "sig": "setBaseURI(string)",
+            "category": "uri",
+            "power": "multisig",
+            "holders": [
+              {
+                "addr": "0x79a20cf7331f37432e078d923074e42512e3585a",
+                "type": "safe",
+                "threshold": 1,
+                "n_owners": 2,
+                "bs_name": "GnosisSafeProxy",
+                "ens": null,
+                "desc": "safe 1/2",
+                "simple": "multisig"
+              }
+            ],
+            "effective": "yes",
+            "reason": null
+          },
+          {
+            "name": "setIpfsURI",
+            "sig": "setIpfsURI(string)",
+            "category": "uri",
+            "power": "multisig",
+            "holders": [
+              {
+                "addr": "0x79a20cf7331f37432e078d923074e42512e3585a",
+                "type": "safe",
+                "threshold": 1,
+                "n_owners": 2,
+                "bs_name": "GnosisSafeProxy",
+                "ens": null,
+                "desc": "safe 1/2",
+                "simple": "multisig"
+              }
+            ],
+            "effective": "yes",
+            "reason": null
+          }
+        ],
+        "lock_flags": {},
+        "dependencies": [],
+        "pointer_getters": [],
+        "analyzed_at": "2026-10-23T02:53:22Z",
+        "history_incomplete": false,
+        "evidence": "data/raw/top100-mutability/0x6dc6001535e15b9def7b0f6a20a2111dfa9454e2.json"
+      }
+    ],
+    "samples": 3,
+    "distinct_token_ids": 3,
+    "sample_note": null,
+    "source_contracts_without_sampleable_nfts": [],
+    "ownership_scope_gaps": [],
+    "refreshed_at": "2026-10-23T03:05:06Z",
+    "opensea_rank": 116,
+    "ranking_scope_disagreement": false,
+    "metadata_adapter": false,
+    "evidence": [
+      "data/raw/top100-census/0x6dc6001535e15b9def7b0f6a20a2111dfa9454e2/result.json.gz"
+    ],
+    "delivery_note": null
+  },
+  "samples": [
+    {
+      "contract": "0x6dc6001535e15b9def7b0f6a20a2111dfa9454e2",
+      "token_id": "1",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(0) [low; totalSupply=8155]",
+      "metadata_location": "ipfs",
+      "metadata_uri": "ipfs://QmeJ1HyoBYbAJ9RHweafQr5u1dJnN2uAuRH2V2DTqxkEkW/1",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "ipfs.blockfrost.dev",
+          "url": "https://ipfs.blockfrost.dev/ipfs/QmeJ1HyoBYbAJ9RHweafQr5u1dJnN2uAuRH2V2DTqxkEkW/1",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 2,
+          "final_url": "https://ipfs.blockfrost.dev/ipfs/QmeJ1HyoBYbAJ9RHweafQr5u1dJnN2uAuRH2V2DTqxkEkW/1",
+          "content_type": "application/json",
+          "size": 807,
+          "content_length": null,
+          "sha256": "4833808f9f4d6bb6cbc9b2213f03774ba7e3dd31352f9ee01f3567f013fe7032",
+          "t": "2026-10-23T02:51:13Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "http",
+          "host": "api.punkscomic.com",
+          "gateway": null,
+          "uri": "https://api.punkscomic.com/metahero-gen/mints/female_neptune_shotgun_gold_sheath_gas_red_waves_32431775139711212612015335773502568425079317647792342126266994137600435237739.png",
+          "external_refs": [],
+          "liveness": "dead",
+          "reason": "dns-nxdomain",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "api.punkscomic.com",
+              "url": "https://api.punkscomic.com/metahero-gen/mints/female_neptune_shotgun_gold_sheath_gas_red_waves_32431775139711212612015335773502568425079317647792342126266994137600435237739.png",
+              "status": null,
+              "error_kind": "dns-nxdomain",
+              "v": "dead",
+              "reason": "dns-nxdomain",
+              "seq": 3,
+              "final_url": "https://api.punkscomic.com/metahero-gen/mints/female_neptune_shotgun_gold_sheath_gas_red_waves_32431775139711212612015335773502568425079317647792342126266994137600435237739.png",
+              "content_type": null,
+              "size": 0,
+              "content_length": null,
+              "sha256": null,
+              "t": "2026-10-23T02:51:13Z",
+              "reg_domain_dns": "ok",
+              "redirected": false
+            },
+            {
+              "pass": 2,
+              "gateway": "api.punkscomic.com",
+              "url": "https://api.punkscomic.com/metahero-gen/mints/female_neptune_shotgun_gold_sheath_gas_red_waves_32431775139711212612015335773502568425079317647792342126266994137600435237739.png",
+              "status": null,
+              "error_kind": "dns-nxdomain",
+              "v": "dead",
+              "reason": "dns-nxdomain",
+              "seq": 9,
+              "final_url": "https://api.punkscomic.com/metahero-gen/mints/female_neptune_shotgun_gold_sheath_gas_red_waves_32431775139711212612015335773502568425079317647792342126266994137600435237739.png",
+              "content_type": null,
+              "size": 0,
+              "content_length": null,
+              "sha256": null,
+              "t": "2026-10-23T02:58:41Z",
+              "reg_domain_dns": "ok",
+              "redirected": false
+            },
+            {
+              "pass": 2,
+              "gateway": "api.punkscomic.com",
+              "url": "https://api.punkscomic.com/metahero-gen/mints/female_neptune_shotgun_gold_sheath_gas_red_waves_32431775139711212612015335773502568425079317647792342126266994137600435237739.png",
+              "status": null,
+              "error_kind": "dns-nxdomain",
+              "v": "dead",
+              "reason": "dns-nxdomain",
+              "seq": 12,
+              "final_url": "https://api.punkscomic.com/metahero-gen/mints/female_neptune_shotgun_gold_sheath_gas_red_waves_32431775139711212612015335773502568425079317647792342126266994137600435237739.png",
+              "content_type": null,
+              "size": 0,
+              "content_length": null,
+              "sha256": null,
+              "t": "2026-10-23T03:05:05Z",
+              "reg_domain_dns": "ok",
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "http",
+        "anim_class": null,
+        "image_verdict": "dead",
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "http"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "degraded",
+        "liveness_reason": "media-dead:dns-nxdomain",
+        "liveness_exact": "degraded",
+        "liveness_exact_reason": "media-dead:dns-nxdomain",
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "dead",
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000000001",
+          "endpoint": "https://eth.drpc.org",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x6dc6001535e15b9def7b0f6a20a2111dfa9454e2/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0x6dc6001535e15b9def7b0f6a20a2111dfa9454e2",
+      "token_id": "4078",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(4077) [mid; totalSupply=8155]",
+      "metadata_location": "ipfs",
+      "metadata_uri": "ipfs://QmeJ1HyoBYbAJ9RHweafQr5u1dJnN2uAuRH2V2DTqxkEkW/4078",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "ipfs.blockfrost.dev",
+          "url": "https://ipfs.blockfrost.dev/ipfs/QmeJ1HyoBYbAJ9RHweafQr5u1dJnN2uAuRH2V2DTqxkEkW/4078",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 5,
+          "final_url": "https://ipfs.blockfrost.dev/ipfs/QmeJ1HyoBYbAJ9RHweafQr5u1dJnN2uAuRH2V2DTqxkEkW/4078",
+          "content_type": "application/json",
+          "size": 715,
+          "content_length": null,
+          "sha256": "6ae3b40f6830a3c3676a1693237d6248246079b57cc6a3f561e4e628148fa827",
+          "t": "2026-10-23T02:51:14Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "http",
+          "host": "api.punkscomic.com",
+          "gateway": null,
+          "uri": "https://api.punkscomic.com/metahero-gen/mints/female_neptune_alien_3_candy_alien_3_28768272924502588957000862318803048633880685771530744599499979585294241819955.png",
+          "external_refs": [],
+          "liveness": "dead",
+          "reason": "dns-nxdomain",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "api.punkscomic.com",
+              "url": "https://api.punkscomic.com/metahero-gen/mints/female_neptune_alien_3_candy_alien_3_28768272924502588957000862318803048633880685771530744599499979585294241819955.png",
+              "status": null,
+              "error_kind": "dns-nxdomain",
+              "v": "dead",
+              "reason": "dns-nxdomain",
+              "seq": 6,
+              "final_url": "https://api.punkscomic.com/metahero-gen/mints/female_neptune_alien_3_candy_alien_3_28768272924502588957000862318803048633880685771530744599499979585294241819955.png",
+              "content_type": null,
+              "size": 0,
+              "content_length": null,
+              "sha256": null,
+              "t": "2026-10-23T02:51:14Z",
+              "reg_domain_dns": "ok",
+              "redirected": false
+            },
+            {
+              "pass": 2,
+              "gateway": "api.punkscomic.com",
+              "url": "https://api.punkscomic.com/metahero-gen/mints/female_neptune_alien_3_candy_alien_3_28768272924502588957000862318803048633880685771530744599499979585294241819955.png",
+              "status": null,
+              "error_kind": "dns-nxdomain",
+              "v": "dead",
+              "reason": "dns-nxdomain",
+              "seq": 10,
+              "final_url": "https://api.punkscomic.com/metahero-gen/mints/female_neptune_alien_3_candy_alien_3_28768272924502588957000862318803048633880685771530744599499979585294241819955.png",
+              "content_type": null,
+              "size": 0,
+              "content_length": null,
+              "sha256": null,
+              "t": "2026-10-23T02:58:41Z",
+              "reg_domain_dns": "ok",
+              "redirected": false
+            },
+            {
+              "pass": 2,
+              "gateway": "api.punkscomic.com",
+              "url": "https://api.punkscomic.com/metahero-gen/mints/female_neptune_alien_3_candy_alien_3_28768272924502588957000862318803048633880685771530744599499979585294241819955.png",
+              "status": null,
+              "error_kind": "dns-nxdomain",
+              "v": "dead",
+              "reason": "dns-nxdomain",
+              "seq": 13,
+              "final_url": "https://api.punkscomic.com/metahero-gen/mints/female_neptune_alien_3_candy_alien_3_28768272924502588957000862318803048633880685771530744599499979585294241819955.png",
+              "content_type": null,
+              "size": 0,
+              "content_length": null,
+              "sha256": null,
+              "t": "2026-10-23T03:05:05Z",
+              "reg_domain_dns": "ok",
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "http",
+        "anim_class": null,
+        "image_verdict": "dead",
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "http"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "degraded",
+        "liveness_reason": "media-dead:dns-nxdomain",
+        "liveness_exact": "degraded",
+        "liveness_exact_reason": "media-dead:dns-nxdomain",
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "dead",
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000000fee",
+          "endpoint": "https://eth.drpc.org",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x6dc6001535e15b9def7b0f6a20a2111dfa9454e2/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0x6dc6001535e15b9def7b0f6a20a2111dfa9454e2",
+      "token_id": "8155",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(8154) [recent; totalSupply=8155]",
+      "metadata_location": "http",
+      "metadata_uri": "https://api.punkscomic.com:8443/metahero-gen/metadata/8155",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "api.punkscomic.com",
+          "url": "https://api.punkscomic.com:8443/metahero-gen/metadata/8155",
+          "status": null,
+          "error_kind": "dns-nxdomain",
+          "v": "dead",
+          "reason": "dns-nxdomain",
+          "seq": 8,
+          "final_url": "https://api.punkscomic.com:8443/metahero-gen/metadata/8155",
+          "content_type": null,
+          "size": 0,
+          "content_length": null,
+          "sha256": null,
+          "t": "2026-10-23T02:51:14Z",
+          "reg_domain_dns": "ok",
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "api.punkscomic.com",
+          "url": "https://api.punkscomic.com:8443/metahero-gen/metadata/8155",
+          "status": null,
+          "error_kind": "dns-nxdomain",
+          "v": "dead",
+          "reason": "dns-nxdomain",
+          "seq": 11,
+          "final_url": "https://api.punkscomic.com:8443/metahero-gen/metadata/8155",
+          "content_type": null,
+          "size": 0,
+          "content_length": null,
+          "sha256": null,
+          "t": "2026-10-23T02:58:41Z",
+          "reg_domain_dns": "ok",
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "api.punkscomic.com",
+          "url": "https://api.punkscomic.com:8443/metahero-gen/metadata/8155",
+          "status": null,
+          "error_kind": "dns-nxdomain",
+          "v": "dead",
+          "reason": "dns-nxdomain",
+          "seq": 14,
+          "final_url": "https://api.punkscomic.com:8443/metahero-gen/metadata/8155",
+          "content_type": null,
+          "size": 0,
+          "content_length": null,
+          "sha256": null,
+          "t": "2026-10-23T03:05:05Z",
+          "reg_domain_dns": "ok",
+          "redirected": false
+        }
+      ],
+      "media": [],
+      "derived": {
+        "meta_verdict": "dead",
+        "meta_verdict_reason": "dns-nxdomain",
+        "image_class": null,
+        "anim_class": null,
+        "image_verdict": null,
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {},
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "dead",
+        "liveness_reason": "dns-nxdomain",
+        "liveness_exact": "dead",
+        "liveness_exact_reason": "dns-nxdomain",
+        "meta_verdict_exact": "dead",
+        "image_verdict_exact": null,
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "dns-nxdomain"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000001fdb",
+          "endpoint": "https://eth.drpc.org",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x6dc6001535e15b9def7b0f6a20a2111dfa9454e2/evidence.jsonl.gz"
+    }
+  ],
+  "saved_packet_index": [
+    {
+      "path": "data/raw/top100-api/opensea-contract-0x6dc6001535e15b9def7b0f6a20a2111dfa9454e2-attempt1-1792724338201976783.body",
+      "sha256": "e7435fbb1c5ad5f3795889b78db8f659dff6d30c6b8b48d4369204d05b353f74",
+      "retrieved_at": "2026-10-23T02:58:58Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0x6dc6001535e15b9def7b0f6a20a2111dfa9454e2",
+      "method": "GET",
+      "status": 401,
+      "error": null,
+      "bytes": 70,
+      "truncated": false
+    },
+    {
+      "path": "data/raw/top100-api/opensea-contract-0x6dc6001535e15b9def7b0f6a20a2111dfa9454e2-attempt1-1792724765758978832.body",
+      "sha256": "e7435fbb1c5ad5f3795889b78db8f659dff6d30c6b8b48d4369204d05b353f74",
+      "retrieved_at": "2026-10-23T03:06:05Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0x6dc6001535e15b9def7b0f6a20a2111dfa9454e2",
+      "method": "GET",
+      "status": 401,
+      "error": null,
+      "bytes": 70,
+      "truncated": false
+    },
+    {
+      "path": "data/raw/top100-census/0x6dc6001535e15b9def7b0f6a20a2111dfa9454e2/bodies.zip",
+      "sha256": "ac23159e6b23de190bca3632e05a2d00d565cfaa5efccd2fc6f34fd4a5656a74",
+      "bytes": 1861
+    },
+    {
+      "path": "data/raw/top100-census/0x6dc6001535e15b9def7b0f6a20a2111dfa9454e2/evidence.jsonl.gz",
+      "sha256": "3854c11150c279b47605f7e435d18a58c6c9791b73dcf43aef6e2de7afced0f0",
+      "bytes": 2245
+    },
+    {
+      "path": "data/raw/top100-census/0x6dc6001535e15b9def7b0f6a20a2111dfa9454e2/result.json.gz",
+      "sha256": "a2813e22f93ee6bdd9baea86fb2cc7814e20ac28c5c0fa42a63ca0578ad485f3",
+      "bytes": 1886
+    },
+    {
+      "path": "data/raw/top100-mutability/0x6dc6001535e15b9def7b0f6a20a2111dfa9454e2.json",
+      "sha256": "c6acc4dae0ccd6dc8ac9c96d2db38ac588a5077e8499c7a58c8005b5bc1563da",
+      "bytes": 8578
+    },
+    {
+      "path": "data/raw/top100-pointers/0x6dc6001535e15b9def7b0f6a20a2111dfa9454e2/result.json",
+      "sha256": "7bae4ba42628b92f14d49853198a911dc229383284f2cdfd9411d923aae1cb82",
+      "bytes": 203
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x6dc6001535e15b9def7b0f6a20a2111dfa9454e2/bodies.zip",
+      "sha256": "46be2e5fc4d612c97bb04a08f730a063bdd020c342b77651411de69d20afe0ee",
+      "bytes": 635
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x6dc6001535e15b9def7b0f6a20a2111dfa9454e2/evidence.jsonl.gz",
+      "sha256": "abceedb3df2af584ba822e923feb8a64914011eba6a37adb0e57c8b9734ec681",
+      "bytes": 692
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x6dc6001535e15b9def7b0f6a20a2111dfa9454e2/result.json",
+      "sha256": "63a8a04ab2dda09447c65429a352f1b0a5d70188113e0c1b3d135aeba5b36ae9",
+      "bytes": 299
+    }
+  ],
+  "interpretation": "Liveness describes sampled metadata and primary-image delivery, not permanent loss of the artwork."
+}

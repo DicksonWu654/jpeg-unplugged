@@ -1,0 +1,561 @@
+{
+ "address": "0x999e88075692bcee3dbc07e7e64cd32f39a1d3ab",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:14Z",
+ "code_raw": "data/raw/rpc-mutability/0x999e88075692bcee3dbc07e7e64cd32f39a1d3ab_code.json",
+ "code_len": 14229,
+ "slots": {
+  "slot0": "0x57697a61726473202620447261676f6e732047616d650000000000000000002c"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0x999e88075692bcee3dbc07e7e64cd32f39a1d3ab_slots.json",
+ "verified": true,
+ "contract_name": "WnD",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [
+   {
+    "hash": "0x000a18f0b4ded4373dd7132f9d3823d416d41739ab5bf4d465a0dc0efae9bd99",
+    "timestamp": "2022-10-23T18:27:35.000000Z",
+    "method": "transferOwnership",
+    "from": "0xC7dEFA20Ec54917669f29e15D1ACB7c121b4780c",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15812596,
+    "category": "ownership"
+   }
+  ],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 2,
+    "first": "2021-12-01",
+    "last": "2022-10-23",
+    "last_tx": "0x000a18f0b4ded4373dd7132f9d3823d416d41739ab5bf4d465a0dc0efae9bd99",
+    "list": [
+     {
+      "date": "2021-12-01",
+      "tx": "0x443b41d992c3543b7418ec354a18b4955bff6732e416c8f2ada88bc0a7a303ae",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "c7defa20ec54917669f29e15d1acb7c121b4780c"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2022-10-23",
+      "tx": "0x000a18f0b4ded4373dd7132f9d3823d416d41739ab5bf4d465a0dc0efae9bd99",
+      "topics": [
+       "c7defa20ec54917669f29e15d1acb7c121b4780c",
+       "6e0e275083327cacc7195de94532c7a86c05bd05"
+      ],
+      "data": "0x"
+     }
+    ]
+   }
+  },
+  "decoded": [
+   {
+    "hash": "0x000a18f0b4ded4373dd7132f9d3823d416d41739ab5bf4d465a0dc0efae9bd99",
+    "timestamp": "2022-10-23T18:27:35.000000Z",
+    "method": "transferOwnership",
+    "category": "ownership",
+    "from": "0xC7dEFA20Ec54917669f29e15D1ACB7c121b4780c",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0x6e0e275083327cacc7195de94532c7a86c05bd05"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   }
+  ],
+  "ownership_transfers": [
+   {
+    "date": "2021-12-01",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0xc7defa20ec54917669f29e15d1acb7c121b4780c",
+    "tx": "0x443b41d992c3543b7418ec354a18b4955bff6732e416c8f2ada88bc0a7a303ae"
+   },
+   {
+    "date": "2022-10-23",
+    "from": "0xc7defa20ec54917669f29e15d1acb7c121b4780c",
+    "to": "0x6e0e275083327cacc7195de94532c7a86c05bd05",
+    "tx": "0x000a18f0b4ded4373dd7132f9d3823d416d41739ab5bf4d465a0dc0efae9bd99"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0x999e88075692bcee3dbc07e7e64cd32f39a1d3ab_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0x6e0e275083327cacc7195de94532c7a86c05bd05",
+  "code_raw": "data/raw/rpc-mutability/0x6e0e275083327cacc7195de94532c7a86c05bd05_holdercode.json",
+  "type": "eoa",
+  "bs_name": null,
+  "ens": null,
+  "bs_impl_names": [],
+  "bs_tags": [],
+  "is_contract": false,
+  "creator": null,
+  "is_verified": false,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "override",
+ "lock_functions": [],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [],
+ "class_direct": "immutable",
+ "class_reason": "no uri/renderer/upgrade function in ABI and not a proxy",
+ "live_mutators": [],
+ "dependencies": [
+  {
+   "address": "0xa895a9b7515452073d690dbe1f809536c83d1a35",
+   "via": "traits()",
+   "in_tokenuri_path": true,
+   "via_setter": false,
+   "analysis": {
+    "address": "0xa895a9b7515452073d690dbe1f809536c83d1a35",
+    "verified": true,
+    "contract_name": "Traits",
+    "proxy": {
+     "kind": null
+    },
+    "owner": {
+     "addr": "0x6e0e275083327cacc7195de94532c7a86c05bd05",
+     "code_raw": "data/raw/rpc-mutability/0x6e0e275083327cacc7195de94532c7a86c05bd05_holdercode.json",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "bs_impl_names": [],
+     "bs_tags": [],
+     "is_contract": false,
+     "creator": null,
+     "is_verified": false,
+     "bs_reputation": "ok"
+    },
+    "admin_fn": null,
+    "uups": false,
+    "lock_views": {},
+    "lock_flags_true": {},
+    "lock_functions": [],
+    "class_direct": "eoa-mutable",
+    "class_reason": "live setters (eoa): uploadTraits",
+    "live_mutators": [
+     "uploadTraits"
+    ],
+    "mutators": [
+     {
+      "name": "uploadTraits",
+      "sig": "uploadTraits(uint8,uint8[],(string,string)[])",
+      "selector": "0xd93ae3d9",
+      "category": "renderer",
+      "inputs": [
+       "uint8",
+       "uint8[]",
+       "tuple[]"
+      ],
+      "gates": [
+       {
+        "type": "owner",
+        "ref": "owner"
+       }
+      ],
+      "modifiers": [
+       "onlyOwner"
+      ],
+      "body_head": "require(traitIds.length == traits.length, \"Mismatched inputs\");\n    for (uint i = 0; i < traits.length; i++) {\n      traitData[traitType][traitIds[i]] = Trait(\n",
+      "writes": [],
+      "effective": "unknown",
+      "power": "eoa",
+      "holder_addrs": [
+       "0x6e0e275083327cacc7195de94532c7a86c05bd05"
+      ],
+      "holder_how": [
+       "owner()"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0x6e0e275083327cacc7195de94532c7a86c05bd05",
+        "type": "eoa",
+        "bs_name": null,
+        "ens": null,
+        "desc": "eoa",
+        "simple": "eoa"
+       }
+      ]
+     }
+    ],
+    "history": {
+     "txs": [
+      {
+       "hash": "0xe4f373d54e4a056e45676db85917145e5c21ae9782581f9e95147499c1c2d323",
+       "timestamp": "2022-10-23T18:27:23.000000Z",
+       "method": "0xf2fde38b",
+       "from": "0xC7dEFA20Ec54917669f29e15D1ACB7c121b4780c",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 15812595,
+       "category": null
+      },
+      {
+       "hash": "0x051d073afb61e956b9101db64120145cd90454ff41a2c6cb56d732d1af4b1869",
+       "timestamp": "2021-12-01T07:11:46.000000Z",
+       "method": "uploadTraits",
+       "from": "0xC7dEFA20Ec54917669f29e15D1ACB7c121b4780c",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 13719702,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x0310855060ac5129db8678859309bbb8f3e03b93bdab55454932e9e6744f4abc",
+       "timestamp": "2021-12-01T01:15:29.000000Z",
+       "method": "uploadTraits",
+       "from": "0xC7dEFA20Ec54917669f29e15D1ACB7c121b4780c",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 13718153,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xa97eee202f4225b7e76b1af2b4fbb9a203c70bd8c21c514726b22ed7d94ef66c",
+       "timestamp": "2021-12-01T01:15:20.000000Z",
+       "method": "uploadTraits",
+       "from": "0xC7dEFA20Ec54917669f29e15D1ACB7c121b4780c",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 13718151,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x5260e1e8413ceff9066280ae415689d834cfcc7ed77f9ddb6f89aef5bc180d0b",
+       "timestamp": "2021-12-01T01:14:56.000000Z",
+       "method": "uploadTraits",
+       "from": "0xC7dEFA20Ec54917669f29e15D1ACB7c121b4780c",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 13718149,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x0ba179fdccbdce7d1309688f9d0dedc29d3b985957b6085789221f36437c6bc4",
+       "timestamp": "2021-12-01T01:14:01.000000Z",
+       "method": "uploadTraits",
+       "from": "0xC7dEFA20Ec54917669f29e15D1ACB7c121b4780c",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 13718146,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x2a5ef7cd80a7e18d80021e999f640d641e9ab178b1f2fd4a0f89c1f97275c223",
+       "timestamp": "2021-12-01T01:13:36.000000Z",
+       "method": "uploadTraits",
+       "from": "0xC7dEFA20Ec54917669f29e15D1ACB7c121b4780c",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 13718144,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xed92f65224d11b3e5cee3416c3b7cc90936203854cea8aa15d13d286c5538f18",
+       "timestamp": "2021-12-01T01:13:03.000000Z",
+       "method": "uploadTraits",
+       "from": "0xC7dEFA20Ec54917669f29e15D1ACB7c121b4780c",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 13718141,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xd16f5c16b8da2a21a87a578ce2f2d3b3f736c9302b366b34d450c36feb754757",
+       "timestamp": "2021-12-01T01:12:33.000000Z",
+       "method": "uploadTraits",
+       "from": "0xC7dEFA20Ec54917669f29e15D1ACB7c121b4780c",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 13718139,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x3acecc40bf90ed010f330129cbd57ce0b58c5c5b3029de915c594a95c949ff47",
+       "timestamp": "2021-12-01T01:12:25.000000Z",
+       "method": "uploadTraits",
+       "from": "0xC7dEFA20Ec54917669f29e15D1ACB7c121b4780c",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 13718138,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x4c1dca127e0dccc2a03b5d047e243b6423219cffa7708eeb36bbed3e2899cdf5",
+       "timestamp": "2021-12-01T01:12:18.000000Z",
+       "method": "uploadTraits",
+       "from": "0xC7dEFA20Ec54917669f29e15D1ACB7c121b4780c",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 13718137,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x6e1068faf737b0316be7c54b886ad9e4adc4cb5fefa5a9b4017c4695f5cf0ce2",
+       "timestamp": "2021-12-01T01:12:02.000000Z",
+       "method": "uploadTraits",
+       "from": "0xC7dEFA20Ec54917669f29e15D1ACB7c121b4780c",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 13718135,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xd3400c381f77ff56cddccc2ca80db2d99d71a4dcbf7fd37f91231785bf1b188d",
+       "timestamp": "2021-12-01T01:11:09.000000Z",
+       "method": "uploadTraits",
+       "from": "0xC7dEFA20Ec54917669f29e15D1ACB7c121b4780c",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 13718132,
+       "category": "renderer"
+      },
+      {
+       "hash": "0x9240b6c85a65690b10b1aba900004511c4e538763a07aa75077366ea0848f664",
+       "timestamp": "2021-12-01T01:11:04.000000Z",
+       "method": "uploadTraits",
+       "from": "0xC7dEFA20Ec54917669f29e15D1ACB7c121b4780c",
+       "from_is_contract": false,
+       "status": "success",
+       "block": 13718131,
+       "category": "renderer"
+      },
+      {
+       "hash": "0xcd7a488ad7cac0973ec03847468e46425f17d5a34e811a0ca76321a62e521bb4",
+       "timestamp": "2021-12-01T01:09:14.000000Z",
+       "method": "uploadTraits",
+       "from": "0xC7dEFA20Ec54917669f29e15D1ACB7c121b4780c",
+       "from_is_contract": false,
+       "status": "Out of gas",
+       "block": 13718119,
+       "category": "renderer"
+      }
+     ],
+     "events": {
+      "OwnershipTransferred(address,address)": {
+       "n": 2,
+       "first": "2021-12-01",
+       "last": "2022-10-23",
+       "last_tx": "0xe4f373d54e4a056e45676db85917145e5c21ae9782581f9e95147499c1c2d323",
+       "list": [
+        {
+         "date": "2021-12-01",
+         "tx": "0x4427763f7bb6c6e73eefd29633c252cc3c3d4efca01ef84798825d110386cef4",
+         "topics": [
+          "0000000000000000000000000000000000000000",
+          "c7defa20ec54917669f29e15d1acb7c121b4780c"
+         ],
+         "data": "0x"
+        },
+        {
+         "date": "2022-10-23",
+         "tx": "0xe4f373d54e4a056e45676db85917145e5c21ae9782581f9e95147499c1c2d323",
+         "topics": [
+          "c7defa20ec54917669f29e15d1acb7c121b4780c",
+          "6e0e275083327cacc7195de94532c7a86c05bd05"
+         ],
+         "data": "0x"
+        }
+       ]
+      }
+     },
+     "decoded": [
+      {
+       "hash": "0x9240b6c85a65690b10b1aba900004511c4e538763a07aa75077366ea0848f664",
+       "timestamp": "2021-12-01T01:11:04.000000Z",
+       "method": "uploadTraits",
+       "category": "renderer",
+       "from": "0xC7dEFA20Ec54917669f29e15D1ACB7c121b4780c",
+       "params": [
+        {
+         "name": "raw",
+         "type": "bytes",
+         "value": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006000000000000000000000000000000000000000000000000000000000000001"
+        }
+       ],
+       "value_kinds": [],
+       "error": null
+      },
+      {
+       "hash": "0xd3400c381f77ff56cddccc2ca80db2d99d71a4dcbf7fd37f91231785bf1b188d",
+       "timestamp": "2021-12-01T01:11:09.000000Z",
+       "method": "uploadTraits",
+       "category": "renderer",
+       "from": "0xC7dEFA20Ec54917669f29e15D1ACB7c121b4780c",
+       "params": [
+        {
+         "name": "raw",
+         "type": "bytes",
+         "value": "0000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000006000000000000000000000000000000000000000000000000000000000000001"
+        }
+       ],
+       "value_kinds": [],
+       "error": null
+      },
+      {
+       "hash": "0x6e1068faf737b0316be7c54b886ad9e4adc4cb5fefa5a9b4017c4695f5cf0ce2",
+       "timestamp": "2021-12-01T01:12:02.000000Z",
+       "method": "uploadTraits",
+       "category": "renderer",
+       "from": "0xC7dEFA20Ec54917669f29e15D1ACB7c121b4780c",
+       "params": [
+        {
+         "name": "raw",
+         "type": "bytes",
+         "value": "0000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000006000000000000000000000000000000000000000000000000000000000000001"
+        }
+       ],
+       "value_kinds": [],
+       "error": null
+      },
+      {
+       "hash": "0x0ba179fdccbdce7d1309688f9d0dedc29d3b985957b6085789221f36437c6bc4",
+       "timestamp": "2021-12-01T01:14:01.000000Z",
+       "method": "uploadTraits",
+       "category": "renderer",
+       "from": "0xC7dEFA20Ec54917669f29e15D1ACB7c121b4780c",
+       "params": [
+        {
+         "name": "raw",
+         "type": "bytes",
+         "value": "000000000000000000000000000000000000000000000000000000000000000c000000000000000000000000000000000000000000000000000000000000006000000000000000000000000000000000000000000000000000000000000001"
+        }
+       ],
+       "value_kinds": [],
+       "error": null
+      },
+      {
+       "hash": "0x5260e1e8413ceff9066280ae415689d834cfcc7ed77f9ddb6f89aef5bc180d0b",
+       "timestamp": "2021-12-01T01:14:56.000000Z",
+       "method": "uploadTraits",
+       "category": "renderer",
+       "from": "0xC7dEFA20Ec54917669f29e15D1ACB7c121b4780c",
+       "params": [
+        {
+         "name": "raw",
+         "type": "bytes",
+         "value": "000000000000000000000000000000000000000000000000000000000000000e000000000000000000000000000000000000000000000000000000000000006000000000000000000000000000000000000000000000000000000000000002"
+        }
+       ],
+       "value_kinds": [],
+       "error": null
+      },
+      {
+       "hash": "0xa97eee202f4225b7e76b1af2b4fbb9a203c70bd8c21c514726b22ed7d94ef66c",
+       "timestamp": "2021-12-01T01:15:20.000000Z",
+       "method": "uploadTraits",
+       "category": "renderer",
+       "from": "0xC7dEFA20Ec54917669f29e15D1ACB7c121b4780c",
+       "params": [
+        {
+         "name": "raw",
+         "type": "bytes",
+         "value": "000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000006000000000000000000000000000000000000000000000000000000000000001"
+        }
+       ],
+       "value_kinds": [],
+       "error": null
+      },
+      {
+       "hash": "0x0310855060ac5129db8678859309bbb8f3e03b93bdab55454932e9e6744f4abc",
+       "timestamp": "2021-12-01T01:15:29.000000Z",
+       "method": "uploadTraits",
+       "category": "renderer",
+       "from": "0xC7dEFA20Ec54917669f29e15D1ACB7c121b4780c",
+       "params": [
+        {
+         "name": "raw",
+         "type": "bytes",
+         "value": "000000000000000000000000000000000000000000000000000000000000000f000000000000000000000000000000000000000000000000000000000000006000000000000000000000000000000000000000000000000000000000000001"
+        }
+       ],
+       "value_kinds": [],
+       "error": null
+      },
+      {
+       "hash": "0x051d073afb61e956b9101db64120145cd90454ff41a2c6cb56d732d1af4b1869",
+       "timestamp": "2021-12-01T07:11:46.000000Z",
+       "method": "uploadTraits",
+       "category": "renderer",
+       "from": "0xC7dEFA20Ec54917669f29e15D1ACB7c121b4780c",
+       "params": [
+        {
+         "name": "raw",
+         "type": "bytes",
+         "value": "000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000006000000000000000000000000000000000000000000000000000000000000001"
+        }
+       ],
+       "value_kinds": [],
+       "error": null
+      }
+     ],
+     "ownership_transfers": [
+      {
+       "date": "2021-12-01",
+       "from": "0x0000000000000000000000000000000000000000",
+       "to": "0xc7defa20ec54917669f29e15d1acb7c121b4780c",
+       "tx": "0x4427763f7bb6c6e73eefd29633c252cc3c3d4efca01ef84798825d110386cef4"
+      },
+      {
+       "date": "2022-10-23",
+       "from": "0xc7defa20ec54917669f29e15d1acb7c121b4780c",
+       "to": "0x6e0e275083327cacc7195de94532c7a86c05bd05",
+       "tx": "0xe4f373d54e4a056e45676db85917145e5c21ae9782581f9e95147499c1c2d323"
+      }
+     ],
+     "incomplete": false
+    },
+    "unverified_selector_hits": [],
+    "tokenuri_path": "override"
+   }
+  }
+ ],
+ "meta": {
+  "address": "0x999e88075692bcee3dbc07e7e64cd32f39a1d3ab",
+  "name": "Wizards & Dragons Game",
+  "w5_claim_strength": null,
+  "w5_claim_text": null,
+  "w5_source_type": null,
+  "w5_source_url": null,
+  "holders_count": 3706.0,
+  "in_w5": false,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": "onchain-renderer",
+  "census_media_class": "data-uri",
+  "census_liveness": "alive",
+  "in_census_onchain": true,
+  "standard": "ERC-721",
+  "creator": "0xc7defa20ec54917669f29e15d1acb7c121b4780c",
+  "deploy_block": 13717993.0
+ },
+ "class_deps_all": "eoa-mutable",
+ "class_deps": "eoa-mutable",
+ "class_final": "eoa-mutable",
+ "pointer_power": null
+}

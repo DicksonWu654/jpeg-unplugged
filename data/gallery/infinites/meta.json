@@ -1,0 +1,56 @@
+{
+ "collection": "Infinites",
+ "slug": "infinites",
+ "contract": "0x327450151c11D54442A0c974b25DD12Dd902A722",
+ "token_id": 1,
+ "chain_method": "data URI (contract-assembled; technique labelled from verified source flags)",
+ "chain_call": "tokenURI(1)",
+ "json_name": "Infinite #1",
+ "fields": {
+  "image": "data:image/svg+xml",
+  "animation_url": null,
+  "external_url": null,
+  "json_how": "data-uri-base64"
+ },
+ "rpc": {
+  "default_public_ok": true,
+  "highgas_drpc_ok": null,
+  "highgas_blxr_ok": null,
+  "fork_ok": null,
+  "rpc": "public-default",
+  "needed_fork": false,
+  "unreadable_from_default_public_call": false,
+  "gas_estimate": null
+ },
+ "medium": "svg (image data URI)",
+ "primary": "image",
+ "source_flags": {
+  "verified": true,
+  "contract_name": "ERC1967Proxy",
+  "proxy": true,
+  "implementation": "0xebd35f6a0e7a973ed1ecd37e4a19efb971e9a061",
+  "sstore2": false,
+  "ethfs": false,
+  "scripty": false,
+  "base64": false,
+  "gzip": false,
+  "data_uri": false,
+  "http_literals": [],
+  "ipfs_literal": false,
+  "setters": [
+   "upgradeTo"
+  ],
+  "implementation_flags": {
+   "verified": false
+  }
+ },
+ "artwork_file": "artwork.svg",
+ "doc_type": "image/svg+xml; charset=utf-8",
+ "artwork_bytes": 2817,
+ "artwork_sha256": "3fba9c6cd52f38cca0f8685702331e346396c65f0f8702c8d563482738f761c8",
+ "declared": {
+  "load": [],
+  "literals": []
+ },
+ "built_at": "2026-10-21T20:18:26Z"
+}

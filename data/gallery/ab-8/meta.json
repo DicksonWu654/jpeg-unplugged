@@ -1,0 +1,35 @@
+{
+ "collection": "Art Blocks #8 Singularity (Hideki Tsukamoto)",
+ "slug": "ab-8",
+ "contract": "0xa7d8d9ef8D8Ce8992Df33D8b8CF4Aebabd5bD270",
+ "token_id": 8000000,
+ "project_id": 8,
+ "project_name": "Singularity",
+ "artist": "Hideki Tsukamoto",
+ "script_type": "js@N/A",
+ "script_count": 1,
+ "script_bytes": 14289,
+ "token_hash": "0x063f43824719df21ca82494e0c96f42f99b6b0961641e13158d328bce0974753",
+ "chain_method": "Art Blocks: project script on core contract + libraries from on-chain Dependency Registry, assembled by on-chain Generator getTokenHtml()",
+ "chain_call": "GenArt721Generator.getTokenHtml(0xa7d8d9ef8D8Ce8992Df33D8b8CF4Aebabd5bD270, 8000000) @ 0x953D288708bB771F969FCfD9BA0819eF506Ac718",
+ "medium": "html+js (js@N/A)",
+ "fields": {},
+ "rpc": {
+  "public_rpc_ok": true,
+  "rpc": "public",
+  "gas_estimate": 1700756
+ },
+ "generator_embeds_project_script": true,
+ "note": "tokenURI of the core contract is an HTTPS URL on the Art Blocks API; B uses the on-chain Generator output instead (the honest on-chain test)",
+ "artwork_file": "artwork.html",
+ "doc_type": "text/html; charset=utf-8",
+ "artwork_bytes": 21039,
+ "artwork_sha256": "415fbb91005768a5e898320850307103fbca458e414cc17a2086c73462f70a74",
+ "declared": {
+  "load": [],
+  "literals": [
+   "https://github.com/runemadsen/rune.noise.js/blob/master/src/noise.js"
+  ]
+ },
+ "built_at": "2026-10-21T20:09:48Z"
+}

@@ -1,0 +1,51 @@
+{
+ "collection": "merge.",
+ "slug": "merge",
+ "contract": "0xc3f8a0F5841aBFf777d3eefA5047e8D413a1C9AB",
+ "token_id": 1,
+ "chain_method": "data URI (contract-assembled; technique labelled from verified source flags)",
+ "chain_call": "tokenURI(1)",
+ "json_name": "m(12149) #1",
+ "fields": {
+  "image": "inline-svg-in-json",
+  "animation_url": null,
+  "external_url": null,
+  "json_how": "data-uri-base64"
+ },
+ "rpc": {
+  "default_public_ok": true,
+  "highgas_drpc_ok": null,
+  "highgas_blxr_ok": null,
+  "fork_ok": null,
+  "rpc": "public-default",
+  "needed_fork": false,
+  "unreadable_from_default_public_call": false,
+  "gas_estimate": null
+ },
+ "medium": "svg (inline in JSON image field)",
+ "primary": "image",
+ "source_flags": {
+  "verified": true,
+  "contract_name": "Merge",
+  "proxy": false,
+  "implementation": null,
+  "sstore2": false,
+  "ethfs": false,
+  "scripty": false,
+  "base64": true,
+  "gzip": false,
+  "data_uri": true,
+  "http_literals": [],
+  "ipfs_literal": false,
+  "setters": []
+ },
+ "artwork_file": "artwork.svg",
+ "doc_type": "image/svg+xml; charset=utf-8",
+ "artwork_bytes": 423,
+ "artwork_sha256": "a793cc71a67c15c9a2a886448865bf17ecfb1cda9d8ad5c01d831a4455cb577b",
+ "declared": {
+  "load": [],
+  "literals": []
+ },
+ "built_at": "2026-10-21T20:18:23Z"
+}

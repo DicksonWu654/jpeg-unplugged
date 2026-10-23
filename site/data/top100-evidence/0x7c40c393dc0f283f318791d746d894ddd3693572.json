@@ -1,0 +1,388 @@
+{
+  "collection": {
+    "rank": 68,
+    "source_rank": 73,
+    "name": "Mooncats",
+    "contract": "0x7c40c393dc0f283f318791d746d894ddd3693572",
+    "contracts": [
+      "0x7c40c393dc0f283f318791d746d894ddd3693572"
+    ],
+    "slug": "mooncats",
+    "volume_usd": 78229997.2626,
+    "volume_source": "CryptoSlam all-time Ethereum owner-to-owner sales, wash-filtered USD",
+    "source_url": "https://web-api.cryptoslam.io/v1/sales/rank-by-volume?timeRange=all&orderBy=rank&sortDirection=asc&offset=0&limit=100&blockchainId=0&hideInscriptions=false",
+    "ranking_evidence": "data/raw/top100-api/cryptoslam-ranking-0.json",
+    "identity_evidence": "data/raw/top100-api/cryptoslam-info-mooncats.json",
+    "token_count": 0,
+    "all_time_volume": 78229997.2626,
+    "volume_currency": "USD",
+    "kind": "art-avatar",
+    "metadata_location": "broken",
+    "metadata_classes": [
+      "broken"
+    ],
+    "media_location": "unresolved",
+    "primary_image_location": "unresolved",
+    "media_classes": [],
+    "liveness": "dead",
+    "liveness_exact": "dead",
+    "all_declared_media_liveness": "dead",
+    "metadata_failed": true,
+    "n_alive": 0,
+    "n_dead": 3,
+    "n_unknown": 0,
+    "n_degraded": 0,
+    "key_domain_or_gateway": "",
+    "hosts": [],
+    "hardcoded_gateways": [],
+    "http_origin_dependency": false,
+    "uses_ipfs": false,
+    "uses_arweave": false,
+    "fully_onchain_all_declared_media": false,
+    "metadata_and_primary_image_onchain": false,
+    "mutability_class": "immutable",
+    "single_key_mutable": false,
+    "single_key_repointable": false,
+    "base_uri_or_renderer": "0x7c40c393dc0f283f318791d746d894ddd3693572._baseURI() = https://api.polyself.xyz/mooncats/",
+    "control": [
+      {
+        "contract": "0x7c40c393dc0f283f318791d746d894ddd3693572",
+        "class": "immutable",
+        "pointer_power": null,
+        "reason": "setBaseURI:inert(not read by tokenURI)",
+        "owner": null,
+        "proxy": {
+          "kind": null
+        },
+        "live_mutators": [],
+        "lock_flags": {},
+        "dependencies": [],
+        "pointer_getters": [
+          {
+            "getter": "_baseURI()",
+            "type": "string",
+            "ok": true,
+            "value": "https://api.polyself.xyz/mooncats/",
+            "error": null
+          },
+          {
+            "getter": "baseURI()",
+            "type": "string",
+            "ok": true,
+            "value": "",
+            "error": null
+          }
+        ],
+        "analyzed_at": "2026-10-23T02:52:38Z",
+        "history_incomplete": false,
+        "evidence": "data/raw/top100-mutability/0x7c40c393dc0f283f318791d746d894ddd3693572.json"
+      }
+    ],
+    "samples": 3,
+    "distinct_token_ids": 3,
+    "sample_note": null,
+    "source_contracts_without_sampleable_nfts": [],
+    "ownership_scope_gaps": [],
+    "refreshed_at": "2026-10-23T03:19:46Z",
+    "opensea_rank": null,
+    "ranking_scope_disagreement": false,
+    "metadata_adapter": false,
+    "evidence": [
+      "data/raw/top100-census/0x7c40c393dc0f283f318791d746d894ddd3693572/result.json.gz"
+    ],
+    "delivery_note": "Wrapped MoonCatsRescue: owned IDs 4, 8 and 9 return empty tokenURI strings. Broken wrapper metadata, not a finding that the legacy MoonCats artwork is dead. The fallback uri call reverts; tokenURI itself succeeds."
+  },
+  "samples": [
+    {
+      "contract": "0x7c40c393dc0f283f318791d746d894ddd3693572",
+      "token_id": "4",
+      "sample_unit": 1,
+      "how_found": "replacement for burned/stale ID; ownerOf confirmed in fresh RPC multicall",
+      "metadata_location": "broken",
+      "metadata_uri": null,
+      "metadata_attempts": [],
+      "media": [],
+      "derived": {
+        "meta_verdict": "dead",
+        "meta_verdict_reason": "empty-tokenuri",
+        "image_class": null,
+        "anim_class": null,
+        "image_verdict": null,
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {},
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "dead",
+        "liveness_reason": "empty-tokenuri",
+        "liveness_exact": "dead",
+        "liveness_exact_reason": "empty-tokenuri",
+        "meta_verdict_exact": "dead",
+        "image_verdict_exact": null,
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "empty-tokenuri"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000000004",
+          "endpoint": "https://eth.rpc.blxrbdn.com",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 130,
+          "decoded_ok": true,
+          "note": null,
+          "empty_or_bad": true
+        },
+        {
+          "fn": "uri",
+          "calldata": "0x0e89341c0000000000000000000000000000000000000000000000000000000000000004",
+          "endpoint": "https://eth.drpc.org",
+          "ok": false,
+          "revert": true,
+          "error": "3: execution reverted",
+          "raw_result_len": 0,
+          "fallback": [
+            {
+              "endpoint": "https://rpc.mevblocker.io",
+              "ok": false,
+              "revert": true,
+              "error": "3: execution reverted"
+            },
+            {
+              "endpoint": "https://eth-mainnet.public.blastapi.io",
+              "ok": false,
+              "revert": true,
+              "error": "3: execution reverted"
+            }
+          ],
+          "revert_confirmed_on_fallback": true
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x7c40c393dc0f283f318791d746d894ddd3693572/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0x7c40c393dc0f283f318791d746d894ddd3693572",
+      "token_id": "8",
+      "sample_unit": 1,
+      "how_found": "replacement for burned/stale ID; ownerOf confirmed in fresh RPC multicall",
+      "metadata_location": "broken",
+      "metadata_uri": null,
+      "metadata_attempts": [],
+      "media": [],
+      "derived": {
+        "meta_verdict": "dead",
+        "meta_verdict_reason": "empty-tokenuri",
+        "image_class": null,
+        "anim_class": null,
+        "image_verdict": null,
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {},
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "dead",
+        "liveness_reason": "empty-tokenuri",
+        "liveness_exact": "dead",
+        "liveness_exact_reason": "empty-tokenuri",
+        "meta_verdict_exact": "dead",
+        "image_verdict_exact": null,
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "empty-tokenuri"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000000008",
+          "endpoint": "https://eth.rpc.blxrbdn.com",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 130,
+          "decoded_ok": true,
+          "note": null,
+          "empty_or_bad": true
+        },
+        {
+          "fn": "uri",
+          "calldata": "0x0e89341c0000000000000000000000000000000000000000000000000000000000000008",
+          "endpoint": "https://eth.drpc.org",
+          "ok": false,
+          "revert": true,
+          "error": "3: execution reverted",
+          "raw_result_len": 0,
+          "fallback": [
+            {
+              "endpoint": "https://rpc.mevblocker.io",
+              "ok": false,
+              "revert": true,
+              "error": "3: execution reverted"
+            },
+            {
+              "endpoint": "https://eth-mainnet.public.blastapi.io",
+              "ok": false,
+              "revert": true,
+              "error": "3: execution reverted"
+            }
+          ],
+          "revert_confirmed_on_fallback": true
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x7c40c393dc0f283f318791d746d894ddd3693572/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0x7c40c393dc0f283f318791d746d894ddd3693572",
+      "token_id": "9",
+      "sample_unit": 1,
+      "how_found": "replacement for burned/stale ID; ownerOf confirmed in fresh RPC multicall",
+      "metadata_location": "broken",
+      "metadata_uri": null,
+      "metadata_attempts": [],
+      "media": [],
+      "derived": {
+        "meta_verdict": "dead",
+        "meta_verdict_reason": "empty-tokenuri",
+        "image_class": null,
+        "anim_class": null,
+        "image_verdict": null,
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {},
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "dead",
+        "liveness_reason": "empty-tokenuri",
+        "liveness_exact": "dead",
+        "liveness_exact_reason": "empty-tokenuri",
+        "meta_verdict_exact": "dead",
+        "image_verdict_exact": null,
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "empty-tokenuri"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000000009",
+          "endpoint": "https://eth.rpc.blxrbdn.com",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 130,
+          "decoded_ok": true,
+          "note": null,
+          "empty_or_bad": true
+        },
+        {
+          "fn": "uri",
+          "calldata": "0x0e89341c0000000000000000000000000000000000000000000000000000000000000009",
+          "endpoint": "https://eth.rpc.blxrbdn.com",
+          "ok": false,
+          "revert": true,
+          "error": "3: execution reverted",
+          "raw_result_len": 0,
+          "fallback": [
+            {
+              "endpoint": "https://rpc.mevblocker.io",
+              "ok": false,
+              "revert": true,
+              "error": "3: execution reverted"
+            },
+            {
+              "endpoint": "https://eth-mainnet.public.blastapi.io",
+              "ok": false,
+              "revert": true,
+              "error": "3: execution reverted"
+            }
+          ],
+          "revert_confirmed_on_fallback": true
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x7c40c393dc0f283f318791d746d894ddd3693572/evidence.jsonl.gz"
+    }
+  ],
+  "saved_packet_index": [
+    {
+      "path": "data/raw/top100-api/opensea-contract-0x7c40c393dc0f283f318791d746d894ddd3693572-attempt1-1792724320629419077.body",
+      "sha256": "e7435fbb1c5ad5f3795889b78db8f659dff6d30c6b8b48d4369204d05b353f74",
+      "retrieved_at": "2026-10-23T02:58:40Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0x7c40c393dc0f283f318791d746d894ddd3693572",
+      "method": "GET",
+      "status": 401,
+      "error": null,
+      "bytes": 70,
+      "truncated": false
+    },
+    {
+      "path": "data/raw/top100-api/opensea-contract-0x7c40c393dc0f283f318791d746d894ddd3693572-attempt1-1792724750616672779.body",
+      "sha256": "e7435fbb1c5ad5f3795889b78db8f659dff6d30c6b8b48d4369204d05b353f74",
+      "retrieved_at": "2026-10-23T03:05:50Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0x7c40c393dc0f283f318791d746d894ddd3693572",
+      "method": "GET",
+      "status": 401,
+      "error": null,
+      "bytes": 70,
+      "truncated": false
+    },
+    {
+      "path": "data/raw/top100-census/0x7c40c393dc0f283f318791d746d894ddd3693572/bodies.zip",
+      "sha256": "f13269e998363cfc6b761a1008b1b937aa8845ecbb625ee53306740cb6aee454",
+      "bytes": 23693
+    },
+    {
+      "path": "data/raw/top100-census/0x7c40c393dc0f283f318791d746d894ddd3693572/evidence.jsonl.gz",
+      "sha256": "efc410e312aa93af89105c293e0c4b4d256209ec3f02ad75bf617f5a03bcf53d",
+      "bytes": 4677
+    },
+    {
+      "path": "data/raw/top100-census/0x7c40c393dc0f283f318791d746d894ddd3693572/result.json.gz",
+      "sha256": "7ff719bed50d24320ef412bc8a2547e791206abc02ccc309a86df86af28ca80a",
+      "bytes": 1183
+    },
+    {
+      "path": "data/raw/top100-mutability/0x7c40c393dc0f283f318791d746d894ddd3693572.json",
+      "sha256": "0d386bef3b3ed3158731e18cef7113ea247a2e398b112dbc6abf8521c6c2050a",
+      "bytes": 2992
+    },
+    {
+      "path": "data/raw/top100-pointers/0x7c40c393dc0f283f318791d746d894ddd3693572/bodies.zip",
+      "sha256": "54b98560eb94ffd9c660a0b32f8d547072efdf088a1c6b4d46b5967b9bbcf6f7",
+      "bytes": 404
+    },
+    {
+      "path": "data/raw/top100-pointers/0x7c40c393dc0f283f318791d746d894ddd3693572/evidence.jsonl.gz",
+      "sha256": "1f255849abce8899b9333813d7067cdaed6af45d8ac8381cd308c7f4d3aa534c",
+      "bytes": 436
+    },
+    {
+      "path": "data/raw/top100-pointers/0x7c40c393dc0f283f318791d746d894ddd3693572/result.json",
+      "sha256": "a86dc3a38eba022942b59e3442a51a4351caea4e88718a721f336a67638bc0b6",
+      "bytes": 447
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x7c40c393dc0f283f318791d746d894ddd3693572/bodies.zip",
+      "sha256": "b58683771c89bfd96c59f5fffc4b37c322a4f0e5688623f6141c6b2337edaf30",
+      "bytes": 593
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x7c40c393dc0f283f318791d746d894ddd3693572/evidence.jsonl.gz",
+      "sha256": "0567864b3cff73d9de44310ca0ae2422838e76b8c1581a4ddd9d1aa1347d5c21",
+      "bytes": 693
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x7c40c393dc0f283f318791d746d894ddd3693572/result.json",
+      "sha256": "80eade2637fabed5dbf1942de34445e02e530ac3b8b5c79e3aa37e803bdf3e84",
+      "bytes": 293
+    }
+  ],
+  "interpretation": "Liveness describes sampled metadata and primary-image delivery, not permanent loss of the artwork."
+}

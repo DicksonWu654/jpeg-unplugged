@@ -1,0 +1,399 @@
+{
+  "collection": {
+    "rank": 17,
+    "source_rank": 17,
+    "name": "Flying Tulip PUT",
+    "contract": "0xa4215daaf3745e14e96e169e0e7706c479ce04f2",
+    "contracts": [
+      "0xa4215daaf3745e14e96e169e0e7706c479ce04f2"
+    ],
+    "slug": "flying-tulip-put-1",
+    "volume_usd": 285750536.09,
+    "volume_source": "CryptoSlam all-time Ethereum owner-to-owner sales, wash-filtered USD",
+    "source_url": "https://web-api.cryptoslam.io/v1/sales/rank-by-volume?timeRange=all&orderBy=rank&sortDirection=asc&offset=0&limit=100&blockchainId=0&hideInscriptions=false",
+    "ranking_evidence": "data/raw/top100-api/cryptoslam-ranking-0.json",
+    "identity_evidence": "data/raw/top100-api/cryptoslam-info-flying-tulip-put-1.json",
+    "token_count": 9153,
+    "all_time_volume": 285750536.09,
+    "volume_currency": "USD",
+    "kind": "financial-position",
+    "metadata_location": "http",
+    "metadata_classes": [
+      "http"
+    ],
+    "media_location": "unresolved",
+    "primary_image_location": "unresolved",
+    "media_classes": [],
+    "liveness": "alive",
+    "liveness_exact": "alive",
+    "all_declared_media_liveness": "alive",
+    "metadata_failed": false,
+    "n_alive": 3,
+    "n_dead": 0,
+    "n_unknown": 0,
+    "n_degraded": 0,
+    "key_domain_or_gateway": "flyingtulip.com",
+    "hosts": [
+      "flyingtulip.com"
+    ],
+    "hardcoded_gateways": [],
+    "http_origin_dependency": true,
+    "uses_ipfs": false,
+    "uses_arweave": false,
+    "fully_onchain_all_declared_media": false,
+    "metadata_and_primary_image_onchain": false,
+    "mutability_class": "unknown",
+    "single_key_mutable": false,
+    "single_key_repointable": false,
+    "base_uri_or_renderer": "0xa4215daaf3745e14e96e169e0e7706c479ce04f2.baseTokenURI() = https://flyingtulip.com/assets/images/put/FlyingTulip_PUT.webp",
+    "control": [
+      {
+        "contract": "0xa4215daaf3745e14e96e169e0e7706c479ce04f2",
+        "class": "unknown",
+        "pointer_power": null,
+        "reason": "live setter with unresolved holder: setAppendTokenIdInURI,setBaseTokenURI,upgradeToAndCall",
+        "owner": null,
+        "proxy": {
+          "kind": "eip1967",
+          "impl": "0xc55253ea84050700e1efa8878d4a5053b6bf7c5e",
+          "impl_verified": true,
+          "impl_name": "pFT"
+        },
+        "live_mutators": [
+          {
+            "name": "setAppendTokenIdInURI",
+            "sig": "setAppendTokenIdInURI(bool)",
+            "category": "uri",
+            "power": "unknown",
+            "holders": [],
+            "effective": "yes",
+            "reason": null
+          },
+          {
+            "name": "setBaseTokenURI",
+            "sig": "setBaseTokenURI(string)",
+            "category": "uri",
+            "power": "unknown",
+            "holders": [],
+            "effective": "yes",
+            "reason": null
+          },
+          {
+            "name": "upgradeToAndCall",
+            "sig": "upgradeToAndCall(address,bytes)",
+            "category": "upgrade",
+            "power": "unknown",
+            "holders": [],
+            "effective": null,
+            "reason": null
+          }
+        ],
+        "lock_flags": {},
+        "dependencies": [],
+        "pointer_getters": [
+          {
+            "getter": "baseTokenURI()",
+            "type": "string",
+            "ok": true,
+            "value": "https://flyingtulip.com/assets/images/put/FlyingTulip_PUT.webp",
+            "error": null
+          }
+        ],
+        "analyzed_at": "2026-10-23T02:50:55Z",
+        "history_incomplete": false,
+        "evidence": "data/raw/top100-mutability/0xa4215daaf3745e14e96e169e0e7706c479ce04f2.json"
+      }
+    ],
+    "samples": 3,
+    "distinct_token_ids": 3,
+    "sample_note": null,
+    "source_contracts_without_sampleable_nfts": [],
+    "ownership_scope_gaps": [],
+    "refreshed_at": "2026-10-23T03:05:01Z",
+    "opensea_rank": null,
+    "ranking_scope_disagreement": false,
+    "metadata_adapter": false,
+    "evidence": [
+      "data/raw/top100-census/0xa4215daaf3745e14e96e169e0e7706c479ce04f2/result.json.gz"
+    ],
+    "delivery_note": null
+  },
+  "samples": [
+    {
+      "contract": "0xa4215daaf3745e14e96e169e0e7706c479ce04f2",
+      "token_id": "0",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(0) [low; totalSupply=3785]",
+      "metadata_location": "http",
+      "metadata_uri": "https://flyingtulip.com/assets/images/put/FlyingTulip_PUT.webp",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "flyingtulip.com",
+          "url": "https://flyingtulip.com/assets/images/put/FlyingTulip_PUT.webp",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "tokenuri-is-media:webp",
+          "seq": 2,
+          "final_url": "https://flyingtulip.com/assets/images/put/FlyingTulip_PUT.webp",
+          "content_type": "image/webp",
+          "size": 39420,
+          "content_length": 39420,
+          "sha256": "647c386da9b238b0d17af4644d7c0b44d5c4ca738e11b945f4e8778124228a0c",
+          "t": "2026-10-23T02:50:13Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "tokenuri-is-media:webp",
+        "media_class_source": "live-metadata",
+        "image_class": null,
+        "anim_class": null,
+        "image_verdict": null,
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {},
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": "no-media-field",
+        "liveness_exact": "alive",
+        "liveness_exact_reason": "no-media-field",
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": null,
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "tokenuri-is-media:webp"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000000000",
+          "endpoint": "https://eth.drpc.org",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0xa4215daaf3745e14e96e169e0e7706c479ce04f2/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0xa4215daaf3745e14e96e169e0e7706c479ce04f2",
+      "token_id": "8230",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(1892) [mid; totalSupply=3785]",
+      "metadata_location": "http",
+      "metadata_uri": "https://flyingtulip.com/assets/images/put/FlyingTulip_PUT.webp",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "flyingtulip.com",
+          "url": "https://flyingtulip.com/assets/images/put/FlyingTulip_PUT.webp",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "tokenuri-is-media:webp",
+          "seq": 4,
+          "final_url": "https://flyingtulip.com/assets/images/put/FlyingTulip_PUT.webp",
+          "content_type": "image/webp",
+          "size": 39420,
+          "content_length": 39420,
+          "sha256": "647c386da9b238b0d17af4644d7c0b44d5c4ca738e11b945f4e8778124228a0c",
+          "t": "2026-10-23T02:50:13Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "tokenuri-is-media:webp",
+        "media_class_source": "live-metadata",
+        "image_class": null,
+        "anim_class": null,
+        "image_verdict": null,
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {},
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": "no-media-field",
+        "liveness_exact": "alive",
+        "liveness_exact_reason": "no-media-field",
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": null,
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "tokenuri-is-media:webp"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000002026",
+          "endpoint": "https://eth.drpc.org",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0xa4215daaf3745e14e96e169e0e7706c479ce04f2/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0xa4215daaf3745e14e96e169e0e7706c479ce04f2",
+      "token_id": "5240",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(3784) [recent; totalSupply=3785]",
+      "metadata_location": "http",
+      "metadata_uri": "https://flyingtulip.com/assets/images/put/FlyingTulip_PUT.webp",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "flyingtulip.com",
+          "url": "https://flyingtulip.com/assets/images/put/FlyingTulip_PUT.webp",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "tokenuri-is-media:webp",
+          "seq": 6,
+          "final_url": "https://flyingtulip.com/assets/images/put/FlyingTulip_PUT.webp",
+          "content_type": "image/webp",
+          "size": 39420,
+          "content_length": 39420,
+          "sha256": "647c386da9b238b0d17af4644d7c0b44d5c4ca738e11b945f4e8778124228a0c",
+          "t": "2026-10-23T02:50:13Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "tokenuri-is-media:webp",
+        "media_class_source": "live-metadata",
+        "image_class": null,
+        "anim_class": null,
+        "image_verdict": null,
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {},
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": "no-media-field",
+        "liveness_exact": "alive",
+        "liveness_exact_reason": "no-media-field",
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": null,
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "tokenuri-is-media:webp"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000001478",
+          "endpoint": "https://eth.drpc.org",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0xa4215daaf3745e14e96e169e0e7706c479ce04f2/evidence.jsonl.gz"
+    }
+  ],
+  "saved_packet_index": [
+    {
+      "path": "data/raw/top100-api/opensea-contract-0xa4215daaf3745e14e96e169e0e7706c479ce04f2-attempt1-1792724280919846133.body",
+      "sha256": "e7435fbb1c5ad5f3795889b78db8f659dff6d30c6b8b48d4369204d05b353f74",
+      "retrieved_at": "2026-10-23T02:58:00Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0xa4215daaf3745e14e96e169e0e7706c479ce04f2",
+      "method": "GET",
+      "status": 401,
+      "error": null,
+      "bytes": 70,
+      "truncated": false
+    },
+    {
+      "path": "data/raw/top100-api/opensea-contract-0xa4215daaf3745e14e96e169e0e7706c479ce04f2-attempt1-1792724722927233760.body",
+      "sha256": "e7435fbb1c5ad5f3795889b78db8f659dff6d30c6b8b48d4369204d05b353f74",
+      "retrieved_at": "2026-10-23T03:05:22Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0xa4215daaf3745e14e96e169e0e7706c479ce04f2",
+      "method": "GET",
+      "status": 401,
+      "error": null,
+      "bytes": 70,
+      "truncated": false
+    },
+    {
+      "path": "data/raw/top100-census/0xa4215daaf3745e14e96e169e0e7706c479ce04f2/bodies.zip",
+      "sha256": "882a11b54a1bb7edf54530c94bdb5f22cac7a74095fb7f5cc5a11f6dac685645",
+      "bytes": 39584
+    },
+    {
+      "path": "data/raw/top100-census/0xa4215daaf3745e14e96e169e0e7706c479ce04f2/evidence.jsonl.gz",
+      "sha256": "8bf086e19f85a47f28c916438c967087c4b66affceab3e0b7b2b14cacb925bfa",
+      "bytes": 659
+    },
+    {
+      "path": "data/raw/top100-census/0xa4215daaf3745e14e96e169e0e7706c479ce04f2/result.json.gz",
+      "sha256": "c0c85c0d563f1b297583733ad2cdfc1470b68aa241c9fc6ac467aea27e975868",
+      "bytes": 1135
+    },
+    {
+      "path": "data/raw/top100-mutability/0xa4215daaf3745e14e96e169e0e7706c479ce04f2.json",
+      "sha256": "04daeb37a248d4e081de9a694b1467834c8e5cdb9c54da0965b61388b3649306",
+      "bytes": 4846
+    },
+    {
+      "path": "data/raw/top100-pointers/0xa4215daaf3745e14e96e169e0e7706c479ce04f2/bodies.zip",
+      "sha256": "62276c2d2f8db87b65796300ecb1c625a18f1ecc2c997efac101fca8fcd900f9",
+      "bytes": 274
+    },
+    {
+      "path": "data/raw/top100-pointers/0xa4215daaf3745e14e96e169e0e7706c479ce04f2/evidence.jsonl.gz",
+      "sha256": "861a892439b8cf0029f70e9f48fb703e20241f9c8f01d8f81c55cc01035bdeee",
+      "bytes": 341
+    },
+    {
+      "path": "data/raw/top100-pointers/0xa4215daaf3745e14e96e169e0e7706c479ce04f2/result.json",
+      "sha256": "095ae5317c3d985133735581f6fe59a7fc386a02b281c7566620e422e4d3eee4",
+      "bytes": 375
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0xa4215daaf3745e14e96e169e0e7706c479ce04f2/bodies.zip",
+      "sha256": "b4fe663b9c539eede29e6601597143b245b8403eaf10585f4b9d324e68e29b88",
+      "bytes": 632
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0xa4215daaf3745e14e96e169e0e7706c479ce04f2/evidence.jsonl.gz",
+      "sha256": "bd147be9c3d07e27b26bc764fe09697570ab365d940361e2fce6f20eae6bb275",
+      "bytes": 687
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0xa4215daaf3745e14e96e169e0e7706c479ce04f2/result.json",
+      "sha256": "74adb81b252c8ff9e9fdbb48bae9adb0a107164a5876d4ea46f897836379a359",
+      "bytes": 299
+    }
+  ],
+  "interpretation": "Liveness describes sampled metadata and primary-image delivery, not permanent loss of the artwork."
+}

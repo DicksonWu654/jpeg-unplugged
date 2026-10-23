@@ -1,0 +1,22 @@
+[
+ {
+  "t": 0.232,
+  "url": "https://onchain.invalid/",
+  "type": "document",
+  "method": "GET",
+  "frame": "about:blank",
+  "action": "served-from-chain",
+  "status": 200,
+  "bytes": null
+ },
+ {
+  "t": 0.304,
+  "url": "https://cdnjs.cloudflare.com/ajax/libs/regl/2.1.0/regl.min.js",
+  "type": "script",
+  "method": "GET",
+  "frame": "https://onchain.invalid/",
+  "action": "allowed",
+  "status": 200,
+  "bytes": 86891
+ }
+]

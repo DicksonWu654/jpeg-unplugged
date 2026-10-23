@@ -1,0 +1,35 @@
+{
+ "collection": "Art Blocks #76 dino pals (hideo)",
+ "slug": "ab-76",
+ "contract": "0xa7d8d9ef8D8Ce8992Df33D8b8CF4Aebabd5bD270",
+ "token_id": 76000000,
+ "project_id": 76,
+ "project_name": "dino pals",
+ "artist": "hideo",
+ "script_type": "zdog@0.1.0",
+ "script_count": 2,
+ "script_bytes": 11325,
+ "token_hash": "0xf000b14700008501aa4a25e77dcd7d074389e753c8e64e3fedf0c1bd3577f718",
+ "chain_method": "Art Blocks: project script on core contract + libraries from on-chain Dependency Registry, assembled by on-chain Generator getTokenHtml()",
+ "chain_call": "GenArt721Generator.getTokenHtml(0xa7d8d9ef8D8Ce8992Df33D8b8CF4Aebabd5bD270, 76000000) @ 0x953D288708bB771F969FCfD9BA0819eF506Ac718",
+ "medium": "html+js (zdog@0.1.0)",
+ "fields": {},
+ "rpc": {
+  "public_rpc_ok": true,
+  "rpc": "public",
+  "gas_estimate": 1481479
+ },
+ "generator_embeds_project_script": true,
+ "note": "tokenURI of the core contract is an HTTPS URL on the Art Blocks API; B uses the on-chain Generator output instead (the honest on-chain test)",
+ "artwork_file": "artwork.html",
+ "doc_type": "text/html; charset=utf-8",
+ "artwork_bytes": 18171,
+ "artwork_sha256": "738c04b240a1817376343e3d4d0ef7dbdc14b198e54303cc7c536eb7f5052e5e",
+ "declared": {
+  "load": [
+   "https://unpkg.com/zdog@1/dist/zdog.dist.min.js"
+  ],
+  "literals": []
+ },
+ "built_at": "2026-10-21T20:12:39Z"
+}

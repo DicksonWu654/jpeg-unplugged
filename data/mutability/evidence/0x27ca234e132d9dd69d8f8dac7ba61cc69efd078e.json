@@ -1,0 +1,367 @@
+{
+ "address": "0x27ca234e132d9dd69d8f8dac7ba61cc69efd078e",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:38Z",
+ "code_raw": "data/raw/rpc-mutability/0x27ca234e132d9dd69d8f8dac7ba61cc69efd078e_code.json",
+ "code_len": 44,
+ "slots": {
+  "slot0": "0x0000000000000000000000000000000100000000000000015c01ffffffff02ee"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0x27ca234e132d9dd69d8f8dac7ba61cc69efd078e_slots.json",
+ "verified": true,
+ "contract_name": "N2MERC721A",
+ "proxy": {
+  "kind": "explorer-detected",
+  "impl": "0x0000000000a248a99f797ec03160a76b18415074",
+  "impl_verified": true,
+  "impl_name": "N2MERC721A"
+ },
+ "has_source": true,
+ "abi_from": "impl+proxy",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 1,
+    "first": "2025-02-12",
+    "last": "2025-02-12",
+    "last_tx": "0x0b9b451016aef474991d4c81d915456eb5ff8db779493b50acfef9115c40cb67",
+    "list": [
+     {
+      "date": "2025-02-12",
+      "tx": "0x0b9b451016aef474991d4c81d915456eb5ff8db779493b50acfef9115c40cb67",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "b918f149e75250ea48838ffe6d3b20402fc4750a"
+      ],
+      "data": "0x"
+     }
+    ]
+   },
+   "Upgraded(address)": {
+    "n": 0
+   },
+   "AdminChanged(address,address)": {
+    "n": 0
+   },
+   "BeaconUpgraded(address)": {
+    "n": 0
+   },
+   "BatchMetadataUpdate(uint256,uint256)": {
+    "n": 0
+   },
+   "Locked(uint256)": {
+    "n": 0
+   },
+   "ContractURIUpdated()": {
+    "n": 0
+   },
+   "TraitMetadataURIUpdated()": {
+    "n": 0
+   },
+   "Unlocked(uint256)": {
+    "n": 0
+   }
+  },
+  "decoded": [],
+  "ownership_transfers": [
+   {
+    "date": "2025-02-12",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0xb918f149e75250ea48838ffe6d3b20402fc4750a",
+    "tx": "0x0b9b451016aef474991d4c81d915456eb5ff8db779493b50acfef9115c40cb67"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0x27ca234e132d9dd69d8f8dac7ba61cc69efd078e_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0xb918f149e75250ea48838ffe6d3b20402fc4750a",
+  "code_raw": "data/raw/rpc-mutability/0xb918f149e75250ea48838ffe6d3b20402fc4750a_holdercode.json",
+  "type": "eoa",
+  "bs_name": null,
+  "ens": null,
+  "bs_impl_names": [],
+  "bs_tags": [],
+  "is_contract": false,
+  "creator": null,
+  "is_verified": false,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "inherited",
+ "hidden_owner_unconfirmed": [
+  "0xb918f149e75250ea48838ffe6d3b20402fc4750a"
+ ],
+ "lock_functions": [],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [
+  {
+   "name": "setBaseURI",
+   "sig": "setBaseURI(string,bytes32,bool,bool)",
+   "selector": "0x636737ab",
+   "category": "uri",
+   "inputs": [
+    "string",
+    "bytes32",
+    "bool",
+    "bool"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "if (isMetadataFixed()) _revert(MetadataAlreadyFixed.selector);\n        if (freezeMetadata) {\n            if (isPlaceholder) _revert(PlacerholderCantFreezeMetada",
+   "writes": [
+    "_baseURICIDHash",
+    "_baseURIString",
+    "_hasPlaceholder",
+    "_isMetadataEditable"
+   ],
+   "effective": "yes",
+   "power": "eoa",
+   "holder_addrs": [
+    "0xb918f149e75250ea48838ffe6d3b20402fc4750a"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xb918f149e75250ea48838ffe6d3b20402fc4750a",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "setTraitMetadataURI",
+   "sig": "setTraitMetadataURI(string)",
+   "selector": "0x2094a036",
+   "category": "uri",
+   "inputs": [
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "_traitMetadataURI = uri;\n\n        emit TraitMetadataURIUpdated();",
+   "writes": [
+    "_traitMetadataURI"
+   ],
+   "effective": "no",
+   "power": "eoa",
+   "holder_addrs": [
+    "0xb918f149e75250ea48838ffe6d3b20402fc4750a"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xb918f149e75250ea48838ffe6d3b20402fc4750a",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "setTrait",
+   "sig": "setTrait(uint256,bytes32,bytes32)",
+   "selector": "0x2bf453e3",
+   "category": "renderer",
+   "inputs": [
+    "uint256",
+    "bytes32",
+    "bytes32"
+   ],
+   "gates": [
+    {
+     "type": "named",
+     "ref": "tokenOwner"
+    },
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [],
+   "body_head": "address tokenOwner = _ownerOf(tokenId);\n        if (tokenOwner == msg.sender) {\n             \n            if (_traitPermissions[traitKey].ownerCanUpdateValue==f",
+   "writes": [],
+   "effective": "unknown",
+   "power": "eoa",
+   "holder_addrs": [
+    "0xb918f149e75250ea48838ffe6d3b20402fc4750a"
+   ],
+   "holder_how": [
+    "tokenOwner (no public getter)",
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xb918f149e75250ea48838ffe6d3b20402fc4750a",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "setTraitsPermissions",
+   "sig": "setTraitsPermissions(bytes32[],bytes32[])",
+   "selector": "0xc0ac0738",
+   "category": "renderer",
+   "inputs": [
+    "bytes32[]",
+    "bytes32[]"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "for (uint256 i; i < ownerCanUpdateTraitKeys.length; i++) {\n            _traitPermissions[ownerCanUpdateTraitKeys[i]].ownerCanUpdateValue = true;\n        }\n     ",
+   "writes": [
+    "onlyOnce",
+    "ownerCanUpdateValue"
+   ],
+   "effective": "no",
+   "power": "eoa",
+   "holder_addrs": [
+    "0xb918f149e75250ea48838ffe6d3b20402fc4750a"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xb918f149e75250ea48838ffe6d3b20402fc4750a",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "setContractURI",
+   "sig": "setContractURI(bytes32)",
+   "selector": "0x227a722e",
+   "category": "contracturi",
+   "inputs": [
+    "bytes32"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "_contractURIMetadataCIDHash = newContractURIMetadataCIDHash;\n        emit ContractURIUpdated();",
+   "writes": [
+    "_contractURIMetadataCIDHash"
+   ],
+   "power": "eoa",
+   "holder_addrs": [
+    "0xb918f149e75250ea48838ffe6d3b20402fc4750a"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xb918f149e75250ea48838ffe6d3b20402fc4750a",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  }
+ ],
+ "class_direct": "eoa-mutable",
+ "class_reason": "live setters (eoa): setBaseURI,setTrait",
+ "live_mutators": [
+  "setBaseURI",
+  "setTrait"
+ ],
+ "dependencies": [],
+ "meta": {
+  "address": "0x27ca234e132d9dd69d8f8dac7ba61cc69efd078e",
+  "name": "Gold Supporter Pin",
+  "w5_claim_strength": null,
+  "w5_claim_text": null,
+  "w5_source_type": null,
+  "w5_source_url": null,
+  "holders_count": 250.0,
+  "in_w5": false,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": "data-uri",
+  "census_media_class": "ipfs",
+  "census_liveness": "alive",
+  "in_census_onchain": true,
+  "standard": "ERC-721",
+  "creator": "0xb918f149e75250ea48838ffe6d3b20402fc4750a",
+  "deploy_block": 21829392.0
+ },
+ "class_deps_all": "none",
+ "class_deps": "none",
+ "class_final": "eoa-mutable",
+ "pointer_power": "eoa"
+}

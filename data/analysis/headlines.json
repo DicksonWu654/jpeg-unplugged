@@ -1,0 +1,5401 @@
+{
+ "meta": {
+  "generated_at": "2026-10-22T04:36:59Z",
+  "census_rows_by_stratum": {
+   "top": 11186,
+   "random": 3000,
+   "spam-random": 5
+  },
+  "population_non_spam_collections": 49494,
+  "random_stratum_n": 3000,
+  "random_stratum_complete": true,
+  "census_last_finished_at": "2026-10-22T02:21:24Z",
+  "estimator": "collection-weighted proportions with 95% Wilson CIs on the uniform random sample (fpc ignored, conservative: n/N=6%); weighted views use a percentile bootstrap (2000 resamples) over collections",
+  "caveats": [
+   "unit is the collection (>=100 holders, non-spam), not the NFT",
+   "media location is unresolved for collections whose off-chain metadata could not be fetched (see media_location_all)",
+   "'truly on-chain' is census-level (metadata and all sampled media on-chain, no external loading refs); only collections also in the gallery gallery were render-tested"
+  ]
+ },
+ "random": {
+  "label": "random (uniform, 3000 non-spam collections)",
+  "n": 3000,
+  "metadata_location": {
+   "data-uri": {
+    "k": 30,
+    "n": 3000,
+    "pct": 1.0,
+    "ci95": [
+     0.701,
+     1.424
+    ]
+   },
+   "onchain-renderer": {
+    "k": 122,
+    "n": 3000,
+    "pct": 4.067,
+    "ci95": [
+     3.417,
+     4.834
+    ]
+   },
+   "ipfs": {
+    "k": 1656,
+    "n": 3000,
+    "pct": 55.2,
+    "ci95": [
+     53.415,
+     56.972
+    ]
+   },
+   "arweave": {
+    "k": 183,
+    "n": 3000,
+    "pct": 6.1,
+    "ci95": [
+     5.298,
+     7.014
+    ]
+   },
+   "http": {
+    "k": 869,
+    "n": 3000,
+    "pct": 28.967,
+    "ci95": [
+     27.371,
+     30.616
+    ]
+   },
+   "broken": {
+    "k": 140,
+    "n": 3000,
+    "pct": 4.667,
+    "ci95": [
+     3.968,
+     5.481
+    ]
+   },
+   "other": {
+    "k": 0,
+    "n": 3000,
+    "pct": 0.0,
+    "ci95": [
+     0.0,
+     0.128
+    ]
+   }
+  },
+  "media_location_all": {
+   "data-uri": {
+    "k": 93,
+    "n": 3000,
+    "pct": 3.1,
+    "ci95": [
+     2.537,
+     3.783
+    ]
+   },
+   "onchain-renderer": {
+    "k": 0,
+    "n": 3000,
+    "pct": 0.0,
+    "ci95": [
+     0.0,
+     0.128
+    ]
+   },
+   "ipfs": {
+    "k": 1541,
+    "n": 3000,
+    "pct": 51.367,
+    "ci95": [
+     49.578,
+     53.152
+    ]
+   },
+   "arweave": {
+    "k": 194,
+    "n": 3000,
+    "pct": 6.467,
+    "ci95": [
+     5.641,
+     7.404
+    ]
+   },
+   "http": {
+    "k": 328,
+    "n": 3000,
+    "pct": 10.933,
+    "ci95": [
+     9.866,
+     12.1
+    ]
+   },
+   "broken": {
+    "k": 3,
+    "n": 3000,
+    "pct": 0.1,
+    "ci95": [
+     0.034,
+     0.294
+    ]
+   },
+   "none": {
+    "k": 13,
+    "n": 3000,
+    "pct": 0.433,
+    "ci95": [
+     0.253,
+     0.74
+    ]
+   },
+   "unresolved": {
+    "k": 828,
+    "n": 3000,
+    "pct": 27.6,
+    "ci95": [
+     26.03,
+     29.227
+    ]
+   }
+  },
+  "media_location_resolved": {
+   "n_resolved": 2172,
+   "data-uri": {
+    "k": 93,
+    "n": 2172,
+    "pct": 4.282,
+    "ci95": [
+     3.508,
+     5.217
+    ]
+   },
+   "onchain-renderer": {
+    "k": 0,
+    "n": 2172,
+    "pct": 0.0,
+    "ci95": [
+     0.0,
+     0.177
+    ]
+   },
+   "ipfs": {
+    "k": 1541,
+    "n": 2172,
+    "pct": 70.948,
+    "ci95": [
+     69.003,
+     72.819
+    ]
+   },
+   "arweave": {
+    "k": 194,
+    "n": 2172,
+    "pct": 8.932,
+    "ci95": [
+     7.804,
+     10.205
+    ]
+   },
+   "http": {
+    "k": 328,
+    "n": 2172,
+    "pct": 15.101,
+    "ci95": [
+     13.657,
+     16.669
+    ]
+   },
+   "broken": {
+    "k": 3,
+    "n": 2172,
+    "pct": 0.138,
+    "ci95": [
+     0.047,
+     0.405
+    ]
+   },
+   "none": {
+    "k": 13,
+    "n": 2172,
+    "pct": 0.599,
+    "ci95": [
+     0.35,
+     1.021
+    ]
+   }
+  },
+  "any_animation_url": {
+   "k": 274,
+   "n": 3000,
+   "pct": 9.133,
+   "ci95": [
+    8.154,
+    10.217
+   ]
+  },
+  "onchain": {
+   "metadata_onchain": {
+    "k": 152,
+    "n": 3000,
+    "pct": 5.067,
+    "ci95": [
+     4.338,
+     5.911
+    ]
+   },
+   "media_onchain_all": {
+    "k": 93,
+    "n": 3000,
+    "pct": 3.1,
+    "ci95": [
+     2.537,
+     3.783
+    ]
+   },
+   "onchain_candidate_incl_external_refs": {
+    "k": 87,
+    "n": 3000,
+    "pct": 2.9,
+    "ci95": [
+     2.357,
+     3.563
+    ]
+   },
+   "truly_onchain_census": {
+    "k": 87,
+    "n": 3000,
+    "pct": 2.9,
+    "ci95": [
+     2.357,
+     3.563
+    ]
+   },
+   "fake_onchain_A_offchain_media_of_all": {
+    "k": 63,
+    "n": 3000,
+    "pct": 2.1,
+    "ci95": [
+     1.645,
+     2.678
+    ]
+   },
+   "fake_onchain_A_offchain_media_of_onchain_metadata": {
+    "k": 63,
+    "n": 152,
+    "pct": 41.447,
+    "ci95": [
+     33.921,
+     49.395
+    ]
+   },
+   "fake_onchain_B_onchain_media_external_refs_of_all": {
+    "k": 0,
+    "n": 3000,
+    "pct": 0.0,
+    "ci95": [
+     0.0,
+     0.128
+    ]
+   },
+   "fake_onchain_B_of_onchain_metadata": {
+    "k": 0,
+    "n": 152,
+    "pct": 0.0,
+    "ci95": [
+     0.0,
+     2.465
+    ]
+   },
+   "onchain_metadata_media_split": {
+    "data-uri": 91,
+    "onchain-renderer": 0,
+    "ipfs": 41,
+    "arweave": 4,
+    "http": 15,
+    "broken": 0,
+    "none": 1,
+    "unresolved": 0
+   },
+   "of_onchain_metadata_n": 152,
+   "metadata_renderer_vs_datauri": {
+    "data-uri": 30,
+    "onchain-renderer": 122
+   },
+   "metadata_mixed_across_tokens": {
+    "k": 53,
+    "n": 3000,
+    "pct": 1.767,
+    "ci95": [
+     1.353,
+     2.303
+    ]
+   }
+  },
+  "liveness": {
+   "all": {
+    "alive": {
+     "k": 1830,
+     "n": 3000,
+     "pct": 61.0,
+     "ci95": [
+      59.242,
+      62.73
+     ]
+    },
+    "degraded": {
+     "k": 180,
+     "n": 3000,
+     "pct": 6.0,
+     "ci95": [
+      5.205,
+      6.907
+     ]
+    },
+    "dead": {
+     "k": 908,
+     "n": 3000,
+     "pct": 30.267,
+     "ci95": [
+      28.649,
+      31.935
+     ]
+    },
+    "unknown": {
+     "k": 82,
+     "n": 3000,
+     "pct": 2.733,
+     "ci95": [
+      2.208,
+      3.38
+     ]
+    }
+   },
+   "unknown_excluded": {
+    "n_resolved": 2918,
+    "alive": {
+     "k": 1830,
+     "n": 2918,
+     "pct": 62.714,
+     "ci95": [
+      60.944,
+      64.451
+     ]
+    },
+    "degraded": {
+     "k": 180,
+     "n": 2918,
+     "pct": 6.169,
+     "ci95": [
+      5.352,
+      7.1
+     ]
+    },
+    "dead": {
+     "k": 908,
+     "n": 2918,
+     "pct": 31.117,
+     "ci95": [
+      29.463,
+      32.821
+     ]
+    },
+    "dead_or_degraded": {
+     "k": 1088,
+     "n": 2918,
+     "pct": 37.286,
+     "ci95": [
+      35.549,
+      39.056
+     ]
+    }
+   },
+   "bounds_dead": {
+    "lower_unknown_alive": {
+     "k": 908,
+     "n": 3000,
+     "pct": 30.267,
+     "ci95": [
+      28.649,
+      31.935
+     ]
+    },
+    "upper_unknown_dead": {
+     "k": 990,
+     "n": 3000,
+     "pct": 33.0,
+     "ci95": [
+      31.34,
+      34.703
+     ]
+    }
+   },
+   "bounds_dead_or_degraded": {
+    "lower": {
+     "k": 1088,
+     "n": 3000,
+     "pct": 36.267,
+     "ci95": [
+      34.565,
+      38.004
+     ]
+    },
+    "upper": {
+     "k": 1170,
+     "n": 3000,
+     "pct": 39.0,
+     "ci95": [
+      37.27,
+      40.758
+     ]
+    }
+   },
+   "bounds_alive": {
+    "lower_unknown_dead": {
+     "k": 1830,
+     "n": 3000,
+     "pct": 61.0,
+     "ci95": [
+      59.242,
+      62.73
+     ]
+    },
+    "upper_unknown_alive": {
+     "k": 1912,
+     "n": 3000,
+     "pct": 63.733,
+     "ci95": [
+      61.996,
+      65.435
+     ]
+    }
+   },
+   "alive_that_are_onchain": 137
+  },
+  "liveness_offchain_metadata_only": {
+   "n": 2848,
+   "alive": {
+    "k": 1693,
+    "n": 2848,
+    "pct": 59.445,
+    "ci95": [
+     57.63,
+     61.235
+    ]
+   },
+   "degraded": {
+    "k": 167,
+    "n": 2848,
+    "pct": 5.864,
+    "ci95": [
+     5.059,
+     6.788
+    ]
+   },
+   "dead": {
+    "k": 908,
+    "n": 2848,
+    "pct": 31.882,
+    "ci95": [
+     30.196,
+     33.617
+    ]
+   },
+   "unknown": {
+    "k": 80,
+    "n": 2848,
+    "pct": 2.809,
+    "ci95": [
+     2.263,
+     3.482
+    ]
+   },
+   "dead_or_degraded_unknown_excluded": {
+    "k": 1075,
+    "n": 2768,
+    "pct": 38.837,
+    "ci95": [
+     37.038,
+     40.667
+    ]
+   }
+  },
+  "dead_reasons": {
+   "n_dead_or_degraded": 1088,
+   "dead_only": {
+    "dns": {
+     "k": 413,
+     "n": 3000,
+     "pct": 13.767,
+     "ci95": [
+      12.58,
+      15.046
+     ]
+    },
+    "ipfs-not-found": {
+     "k": 201,
+     "n": 3000,
+     "pct": 6.7,
+     "ci95": [
+      5.86,
+      7.651
+     ]
+    },
+    "http-4xx": {
+     "k": 93,
+     "n": 3000,
+     "pct": 3.1,
+     "ci95": [
+      2.537,
+      3.783
+     ]
+    },
+    "tokenuri-revert": {
+     "k": 80,
+     "n": 3000,
+     "pct": 2.667,
+     "ci95": [
+      2.148,
+      3.307
+     ]
+    },
+    "tls": {
+     "k": 28,
+     "n": 3000,
+     "pct": 0.933,
+     "ci95": [
+      0.647,
+      1.346
+     ]
+    },
+    "not-json": {
+     "k": 25,
+     "n": 3000,
+     "pct": 0.833,
+     "ci95": [
+      0.565,
+      1.227
+     ]
+    },
+    "bad-tokenuri": {
+     "k": 22,
+     "n": 3000,
+     "pct": 0.733,
+     "ci95": [
+      0.485,
+      1.108
+     ]
+    },
+    "connection": {
+     "k": 22,
+     "n": 3000,
+     "pct": 0.733,
+     "ci95": [
+      0.485,
+      1.108
+     ]
+    },
+    "http-5xx": {
+     "k": 20,
+     "n": 3000,
+     "pct": 0.667,
+     "ci95": [
+      0.432,
+      1.028
+     ]
+    },
+    "parked": {
+     "k": 3,
+     "n": 3000,
+     "pct": 0.1,
+     "ci95": [
+      0.034,
+      0.294
+     ]
+    },
+    "other": {
+     "k": 1,
+     "n": 3000,
+     "pct": 0.033,
+     "ci95": [
+      0.006,
+      0.189
+     ]
+    }
+   },
+   "dead_or_degraded": {
+    "dns": {
+     "k": 421,
+     "n": 3000,
+     "pct": 14.033,
+     "ci95": [
+      12.836,
+      15.322
+     ]
+    },
+    "ipfs-not-found": {
+     "k": 338,
+     "n": 3000,
+     "pct": 11.267,
+     "ci95": [
+      10.184,
+      12.448
+     ]
+    },
+    "http-4xx": {
+     "k": 111,
+     "n": 3000,
+     "pct": 3.7,
+     "ci95": [
+      3.082,
+      4.437
+     ]
+    },
+    "tokenuri-revert": {
+     "k": 87,
+     "n": 3000,
+     "pct": 2.9,
+     "ci95": [
+      2.357,
+      3.563
+     ]
+    },
+    "tls": {
+     "k": 29,
+     "n": 3000,
+     "pct": 0.967,
+     "ci95": [
+      0.674,
+      1.385
+     ]
+    },
+    "bad-tokenuri": {
+     "k": 25,
+     "n": 3000,
+     "pct": 0.833,
+     "ci95": [
+      0.565,
+      1.227
+     ]
+    },
+    "not-json": {
+     "k": 25,
+     "n": 3000,
+     "pct": 0.833,
+     "ci95": [
+      0.565,
+      1.227
+     ]
+    },
+    "connection": {
+     "k": 22,
+     "n": 3000,
+     "pct": 0.733,
+     "ci95": [
+      0.485,
+      1.108
+     ]
+    },
+    "http-5xx": {
+     "k": 20,
+     "n": 3000,
+     "pct": 0.667,
+     "ci95": [
+      0.432,
+      1.028
+     ]
+    },
+    "arweave-not-found": {
+     "k": 6,
+     "n": 3000,
+     "pct": 0.2,
+     "ci95": [
+      0.092,
+      0.436
+     ]
+    },
+    "parked": {
+     "k": 3,
+     "n": 3000,
+     "pct": 0.1,
+     "ci95": [
+      0.034,
+      0.294
+     ]
+    },
+    "other": {
+     "k": 1,
+     "n": 3000,
+     "pct": 0.033,
+     "ci95": [
+      0.006,
+      0.189
+     ]
+    }
+   },
+   "dead_or_degraded_share_of_failures": {
+    "dns": {
+     "k": 421,
+     "n": 1088,
+     "pct": 38.695,
+     "ci95": [
+      35.845,
+      41.624
+     ]
+    },
+    "ipfs-not-found": {
+     "k": 338,
+     "n": 1088,
+     "pct": 31.066,
+     "ci95": [
+      28.387,
+      33.879
+     ]
+    },
+    "http-4xx": {
+     "k": 111,
+     "n": 1088,
+     "pct": 10.202,
+     "ci95": [
+      8.541,
+      12.143
+     ]
+    },
+    "tokenuri-revert": {
+     "k": 87,
+     "n": 1088,
+     "pct": 7.996,
+     "ci95": [
+      6.528,
+      9.76
+     ]
+    },
+    "tls": {
+     "k": 29,
+     "n": 1088,
+     "pct": 2.665,
+     "ci95": [
+      1.862,
+      3.802
+     ]
+    },
+    "bad-tokenuri": {
+     "k": 25,
+     "n": 1088,
+     "pct": 2.298,
+     "ci95": [
+      1.561,
+      3.37
+     ]
+    },
+    "not-json": {
+     "k": 25,
+     "n": 1088,
+     "pct": 2.298,
+     "ci95": [
+      1.561,
+      3.37
+     ]
+    },
+    "connection": {
+     "k": 22,
+     "n": 1088,
+     "pct": 2.022,
+     "ci95": [
+      1.339,
+      3.043
+     ]
+    },
+    "http-5xx": {
+     "k": 20,
+     "n": 1088,
+     "pct": 1.838,
+     "ci95": [
+      1.193,
+      2.822
+     ]
+    },
+    "arweave-not-found": {
+     "k": 6,
+     "n": 1088,
+     "pct": 0.551,
+     "ci95": [
+      0.253,
+      1.198
+     ]
+    },
+    "parked": {
+     "k": 3,
+     "n": 1088,
+     "pct": 0.276,
+     "ci95": [
+      0.094,
+      0.808
+     ]
+    },
+    "other": {
+     "k": 1,
+     "n": 1088,
+     "pct": 0.092,
+     "ci95": [
+      0.016,
+      0.519
+     ]
+    }
+   },
+   "dead_only_soft_ipfs_arweave_not_found": {
+    "k": 201,
+    "n": 3000,
+    "pct": 6.7,
+    "ci95": [
+     5.86,
+     7.651
+    ]
+   },
+   "dead_hard_evidence_dns_tls_http_revert_etc": {
+    "k": 707,
+    "n": 3000,
+    "pct": 23.567,
+    "ci95": [
+     22.082,
+     25.119
+    ]
+   },
+   "dead_excluding_tokenuri_revert": {
+    "k": 828,
+    "n": 3000,
+    "pct": 27.6,
+    "ci95": [
+     26.03,
+     29.227
+    ]
+   },
+   "unknown_why": {
+    "http-5xx": 42,
+    "timeout": 20,
+    "unspecified": 8,
+    "other": 7,
+    "http-4xx": 3,
+    "connection": 1,
+    "dns": 1
+   }
+  },
+  "exact_url": {
+   "liveness_exact": {
+    "alive": {
+     "k": 1540,
+     "n": 3000,
+     "pct": 51.333,
+     "ci95": [
+      49.544,
+      53.119
+     ]
+    },
+    "degraded": {
+     "k": 152,
+     "n": 3000,
+     "pct": 5.067,
+     "ci95": [
+      4.338,
+      5.911
+     ]
+    },
+    "dead": {
+     "k": 890,
+     "n": 3000,
+     "pct": 29.667,
+     "ci95": [
+      28.059,
+      31.326
+     ]
+    },
+    "unknown": {
+     "k": 418,
+     "n": 3000,
+     "pct": 13.933,
+     "ci95": [
+      12.74,
+      15.219
+     ]
+    }
+   },
+   "content_alive_exact_dead": {
+    "k": 11,
+    "n": 3000,
+    "pct": 0.367,
+    "ci95": [
+     0.205,
+     0.655
+    ]
+   },
+   "content_alive_exact_dead_hosts": {
+    "gateway.lighthouse.storage": 6,
+    "cf-ipfs.com": 3,
+    "ipfs.infura.io": 2
+   },
+   "hardcode_a_dead_gateway_any_token": {
+    "k": 14,
+    "n": 3000,
+    "pct": 0.467,
+    "ci95": [
+     0.278,
+     0.782
+    ]
+   },
+   "dead_gateway_hosts_collections": {
+    "gateway.lighthouse.storage": 6,
+    "cf-ipfs.com": 3,
+    "ipfs.infura.io": 3,
+    "cloudflare-ipfs.com": 2
+   },
+   "content_alive_exact_unknown_botwalled": {
+    "k": 279,
+    "n": 3000,
+    "pct": 9.3,
+    "ci95": [
+     8.312,
+     10.392
+    ]
+   },
+   "collections_hardcoding_any_gateway": {
+    "k": 591,
+    "n": 3000,
+    "pct": 19.7,
+    "ci95": [
+     18.316,
+     21.162
+    ]
+   },
+   "by_gateway_host": [
+    {
+     "host": "arweave.net",
+     "collections": 176,
+     "exact_dead": 0,
+     "exact_unknown": 11,
+     "exact_alive": 159,
+     "content_alive": 168,
+     "content_dead_or_degraded": 7,
+     "content_alive_but_exact_dead_collections": 0
+    },
+    {
+     "host": "ipfs.io",
+     "collections": 147,
+     "exact_dead": 1,
+     "exact_unknown": 142,
+     "exact_alive": 4,
+     "content_alive": 108,
+     "content_dead_or_degraded": 32,
+     "content_alive_but_exact_dead_collections": 0
+    },
+    {
+     "host": "gateway.pinata.cloud",
+     "collections": 99,
+     "exact_dead": 4,
+     "exact_unknown": 94,
+     "exact_alive": 1,
+     "content_alive": 74,
+     "content_dead_or_degraded": 21,
+     "content_alive_but_exact_dead_collections": 1
+    },
+    {
+     "host": "nftstorage.link",
+     "collections": 39,
+     "exact_dead": 1,
+     "exact_unknown": 36,
+     "exact_alive": 1,
+     "content_alive": 36,
+     "content_dead_or_degraded": 3,
+     "content_alive_but_exact_dead_collections": 0
+    },
+    {
+     "host": "dweb.link",
+     "collections": 7,
+     "exact_dead": 1,
+     "exact_unknown": 6,
+     "exact_alive": 0,
+     "content_alive": 3,
+     "content_dead_or_degraded": 4,
+     "content_alive_but_exact_dead_collections": 0
+    },
+    {
+     "host": "gateway.lighthouse.storage",
+     "collections": 6,
+     "exact_dead": 0,
+     "exact_unknown": 0,
+     "exact_alive": 0,
+     "content_alive": 5,
+     "content_dead_or_degraded": 0,
+     "content_alive_but_exact_dead_collections": 6
+    },
+    {
+     "host": "cf-ipfs.com",
+     "collections": 3,
+     "exact_dead": 1,
+     "exact_unknown": 0,
+     "exact_alive": 0,
+     "content_alive": 3,
+     "content_dead_or_degraded": 0,
+     "content_alive_but_exact_dead_collections": 3
+    },
+    {
+     "host": "ipfs.filebase.io",
+     "collections": 3,
+     "exact_dead": 0,
+     "exact_unknown": 2,
+     "exact_alive": 1,
+     "content_alive": 1,
+     "content_dead_or_degraded": 1,
+     "content_alive_but_exact_dead_collections": 0
+    },
+    {
+     "host": "ipfs.infura.io",
+     "collections": 3,
+     "exact_dead": 2,
+     "exact_unknown": 0,
+     "exact_alive": 0,
+     "content_alive": 2,
+     "content_dead_or_degraded": 1,
+     "content_alive_but_exact_dead_collections": 2
+    },
+    {
+     "host": "opensea.mypinata.cloud",
+     "collections": 3,
+     "exact_dead": 0,
+     "exact_unknown": 3,
+     "exact_alive": 0,
+     "content_alive": 2,
+     "content_dead_or_degraded": 1,
+     "content_alive_but_exact_dead_collections": 0
+    },
+    {
+     "host": "w3s.link",
+     "collections": 3,
+     "exact_dead": 1,
+     "exact_unknown": 2,
+     "exact_alive": 0,
+     "content_alive": 2,
+     "content_dead_or_degraded": 1,
+     "content_alive_but_exact_dead_collections": 0
+    },
+    {
+     "host": "bapesclan.mypinata.cloud",
+     "collections": 2,
+     "exact_dead": 0,
+     "exact_unknown": 2,
+     "exact_alive": 0,
+     "content_alive": 2,
+     "content_dead_or_degraded": 0,
+     "content_alive_but_exact_dead_collections": 0
+    },
+    {
+     "host": "cloudflare-ipfs.com",
+     "collections": 2,
+     "exact_dead": 0,
+     "exact_unknown": 0,
+     "exact_alive": 0,
+     "content_alive": 0,
+     "content_dead_or_degraded": 2,
+     "content_alive_but_exact_dead_collections": 0
+    },
+    {
+     "host": "ikzttp.mypinata.cloud",
+     "collections": 2,
+     "exact_dead": 0,
+     "exact_unknown": 2,
+     "exact_alive": 0,
+     "content_alive": 2,
+     "content_dead_or_degraded": 0,
+     "content_alive_but_exact_dead_collections": 0
+    },
+    {
+     "host": "wcnft.mypinata.cloud",
+     "collections": 2,
+     "exact_dead": 0,
+     "exact_unknown": 2,
+     "exact_alive": 0,
+     "content_alive": 2,
+     "content_dead_or_degraded": 0,
+     "content_alive_but_exact_dead_collections": 0
+    },
+    {
+     "host": "4ubp2l6gporvyqahh226dnwdrkg5t2464a3bil6n63zqxky.arweave.net",
+     "collections": 1,
+     "exact_dead": 0,
+     "exact_unknown": 0,
+     "exact_alive": 1,
+     "content_alive": 1,
+     "content_dead_or_degraded": 0,
+     "content_alive_but_exact_dead_collections": 0
+    },
+    {
+     "host": "aiokaybears.mypinata.cloud",
+     "collections": 1,
+     "exact_dead": 0,
+     "exact_unknown": 1,
+     "exact_alive": 0,
+     "content_alive": 1,
+     "content_dead_or_degraded": 0,
+     "content_alive_but_exact_dead_collections": 0
+    },
+    {
+     "host": "airdrophouses.mypinata.cloud",
+     "collections": 1,
+     "exact_dead": 0,
+     "exact_unknown": 0,
+     "exact_alive": 1,
+     "content_alive": 1,
+     "content_dead_or_degraded": 0,
+     "content_alive_but_exact_dead_collections": 0
+    },
+    {
+     "host": "aivatar.mypinata.cloud",
+     "collections": 1,
+     "exact_dead": 0,
+     "exact_unknown": 0,
+     "exact_alive": 1,
+     "content_alive": 1,
+     "content_dead_or_degraded": 0,
+     "content_alive_but_exact_dead_collections": 0
+    },
+    {
+     "host": "alpha-bulls.mypinata.cloud",
+     "collections": 1,
+     "exact_dead": 0,
+     "exact_unknown": 1,
+     "exact_alive": 0,
+     "content_alive": 1,
+     "content_dead_or_degraded": 0,
+     "content_alive_but_exact_dead_collections": 0
+    },
+    {
+     "host": "amaranth-elaborate-primate-236.mypinata.cloud",
+     "collections": 1,
+     "exact_dead": 0,
+     "exact_unknown": 0,
+     "exact_alive": 1,
+     "content_alive": 1,
+     "content_dead_or_degraded": 0,
+     "content_alive_but_exact_dead_collections": 0
+    },
+    {
+     "host": "amethyst-giant-mouse-602.mypinata.cloud",
+     "collections": 1,
+     "exact_dead": 0,
+     "exact_unknown": 0,
+     "exact_alive": 1,
+     "content_alive": 1,
+     "content_dead_or_degraded": 0,
+     "content_alive_but_exact_dead_collections": 0
+    },
+    {
+     "host": "apepooclub.mypinata.cloud",
+     "collections": 1,
+     "exact_dead": 0,
+     "exact_unknown": 1,
+     "exact_alive": 0,
+     "content_alive": 1,
+     "content_dead_or_degraded": 0,
+     "content_alive_but_exact_dead_collections": 0
+    },
+    {
+     "host": "aqua-magnetic-capybara-898.mypinata.cloud",
+     "collections": 1,
+     "exact_dead": 0,
+     "exact_unknown": 1,
+     "exact_alive": 0,
+     "content_alive": 1,
+     "content_dead_or_degraded": 0,
+     "content_alive_but_exact_dead_collections": 0
+    },
+    {
+     "host": "aqua-obvious-partridge-900.mypinata.cloud",
+     "collections": 1,
+     "exact_dead": 0,
+     "exact_unknown": 1,
+     "exact_alive": 0,
+     "content_alive": 1,
+     "content_dead_or_degraded": 0,
+     "content_alive_but_exact_dead_collections": 0
+    }
+   ]
+  },
+  "weighted": {
+   "holder_weighted": {
+    "note": "weights = holders_count (sum of per-collection holder slots; one wallet in k collections counts k times)",
+    "n": 3000,
+    "meta_onchain": {
+     "pct": 7.324,
+     "ci95": [
+      4.679,
+      11.22
+     ],
+     "n": 3000,
+     "weight_total": 2464809.0
+    },
+    "truly_onchain": {
+     "pct": 3.892,
+     "ci95": [
+      2.612,
+      5.372
+     ],
+     "n": 3000,
+     "weight_total": 2464809.0
+    },
+    "fake_a": {
+     "pct": 3.336,
+     "ci95": [
+      1.245,
+      6.91
+     ],
+     "n": 3000,
+     "weight_total": 2464809.0
+    },
+    "alive": {
+     "pct": 68.33,
+     "ci95": [
+      64.104,
+      72.904
+     ],
+     "n": 3000,
+     "weight_total": 2464809.0
+    },
+    "degraded": {
+     "pct": 5.856,
+     "ci95": [
+      4.446,
+      7.578
+     ],
+     "n": 3000,
+     "weight_total": 2464809.0
+    },
+    "dead": {
+     "pct": 23.456,
+     "ci95": [
+      19.975,
+      27.004
+     ],
+     "n": 3000,
+     "weight_total": 2464809.0
+    },
+    "unknown": {
+     "pct": 2.358,
+     "ci95": [
+      1.609,
+      3.295
+     ],
+     "n": 3000,
+     "weight_total": 2464809.0
+    },
+    "dead_or_degraded": {
+     "pct": 29.312,
+     "ci95": [
+      24.986,
+      33.311
+     ],
+     "n": 3000,
+     "weight_total": 2464809.0
+    },
+    "dead_or_degraded_or_unknown": {
+     "pct": 31.67,
+     "ci95": [
+      27.096,
+      35.896
+     ],
+     "n": 3000,
+     "weight_total": 2464809.0
+    }
+   },
+   "token_weighted_erc721_known_supply": {
+    "note": "ERC-721 collections with a plausible total_supply (1..1e6); weights = total_supply",
+    "n": 2243,
+    "meta_onchain": {
+     "pct": 7.603,
+     "ci95": [
+      5.27,
+      10.327
+     ],
+     "n": 2243,
+     "weight_total": 6454117.0
+    },
+    "truly_onchain": {
+     "pct": 4.453,
+     "ci95": [
+      2.852,
+      6.401
+     ],
+     "n": 2243,
+     "weight_total": 6454117.0
+    },
+    "fake_a": {
+     "pct": 2.961,
+     "ci95": [
+      1.367,
+      4.99
+     ],
+     "n": 2243,
+     "weight_total": 6454117.0
+    },
+    "alive": {
+     "pct": 67.297,
+     "ci95": [
+      64.066,
+      70.309
+     ],
+     "n": 2243,
+     "weight_total": 6454117.0
+    },
+    "degraded": {
+     "pct": 7.259,
+     "ci95": [
+      5.661,
+      8.89
+     ],
+     "n": 2243,
+     "weight_total": 6454117.0
+    },
+    "dead": {
+     "pct": 22.803,
+     "ci95": [
+      20.104,
+      25.802
+     ],
+     "n": 2243,
+     "weight_total": 6454117.0
+    },
+    "unknown": {
+     "pct": 2.641,
+     "ci95": [
+      1.73,
+      3.625
+     ],
+     "n": 2243,
+     "weight_total": 6454117.0
+    },
+    "dead_or_degraded": {
+     "pct": 30.062,
+     "ci95": [
+      27.025,
+      33.168
+     ],
+     "n": 2243,
+     "weight_total": 6454117.0
+    },
+    "dead_or_degraded_or_unknown": {
+     "pct": 32.703,
+     "ci95": [
+      29.691,
+      35.934
+     ],
+     "n": 2243,
+     "weight_total": 6454117.0
+    }
+   },
+   "token_weighted_all_supply_imputed": {
+    "note": "all collections; unknown/implausible supply replaced by holders_count (lower bound on tokens)",
+    "n": 3000,
+    "meta_onchain": {
+     "pct": 7.143,
+     "ci95": [
+      5.046,
+      9.629
+     ],
+     "n": 3000,
+     "weight_total": 7165111.0
+    },
+    "truly_onchain": {
+     "pct": 4.216,
+     "ci95": [
+      2.773,
+      6.024
+     ],
+     "n": 3000,
+     "weight_total": 7165111.0
+    },
+    "fake_a": {
+     "pct": 2.757,
+     "ci95": [
+      1.234,
+      4.605
+     ],
+     "n": 3000,
+     "weight_total": 7165111.0
+    },
+    "alive": {
+     "pct": 67.434,
+     "ci95": [
+      64.385,
+      70.61
+     ],
+     "n": 3000,
+     "weight_total": 7165111.0
+    },
+    "degraded": {
+     "pct": 6.827,
+     "ci95": [
+      5.402,
+      8.312
+     ],
+     "n": 3000,
+     "weight_total": 7165111.0
+    },
+    "dead": {
+     "pct": 23.149,
+     "ci95": [
+      20.41,
+      25.918
+     ],
+     "n": 3000,
+     "weight_total": 7165111.0
+    },
+    "unknown": {
+     "pct": 2.59,
+     "ci95": [
+      1.784,
+      3.53
+     ],
+     "n": 3000,
+     "weight_total": 7165111.0
+    },
+    "dead_or_degraded": {
+     "pct": 29.976,
+     "ci95": [
+      26.945,
+      32.976
+     ],
+     "n": 3000,
+     "weight_total": 7165111.0
+    },
+    "dead_or_degraded_or_unknown": {
+     "pct": 32.566,
+     "ci95": [
+      29.39,
+      35.615
+     ],
+     "n": 3000,
+     "weight_total": 7165111.0
+    }
+   }
+  },
+  "by_year": [
+   {
+    "year": "2017",
+    "n": 1,
+    "median_holders": 128.0,
+    "meta_onchain": {
+     "k": 0,
+     "n": 1,
+     "pct": 0.0,
+     "ci95": [
+      0.0,
+      79.345
+     ]
+    },
+    "truly_onchain": {
+     "k": 0,
+     "n": 1,
+     "pct": 0.0,
+     "ci95": [
+      0.0,
+      79.345
+     ]
+    },
+    "fake_a": {
+     "k": 0,
+     "n": 1,
+     "pct": 0.0,
+     "ci95": [
+      0.0,
+      79.345
+     ]
+    },
+    "meta_ipfs": {
+     "k": 0,
+     "n": 1,
+     "pct": 0.0,
+     "ci95": [
+      0.0,
+      79.345
+     ]
+    },
+    "meta_http": {
+     "k": 0,
+     "n": 1,
+     "pct": 0.0,
+     "ci95": [
+      0.0,
+      79.345
+     ]
+    },
+    "meta_arweave": {
+     "k": 0,
+     "n": 1,
+     "pct": 0.0,
+     "ci95": [
+      0.0,
+      79.345
+     ]
+    },
+    "meta_broken": {
+     "k": 1,
+     "n": 1,
+     "pct": 100.0,
+     "ci95": [
+      20.655,
+      100.0
+     ]
+    },
+    "alive": {
+     "k": 0,
+     "n": 1,
+     "pct": 0.0,
+     "ci95": [
+      0.0,
+      79.345
+     ]
+    },
+    "degraded": {
+     "k": 0,
+     "n": 1,
+     "pct": 0.0,
+     "ci95": [
+      0.0,
+      79.345
+     ]
+    },
+    "dead": {
+     "k": 1,
+     "n": 1,
+     "pct": 100.0,
+     "ci95": [
+      20.655,
+      100.0
+     ]
+    },
+    "unknown": {
+     "k": 0,
+     "n": 1,
+     "pct": 0.0,
+     "ci95": [
+      0.0,
+      79.345
+     ]
+    },
+    "dead_or_degraded": {
+     "k": 1,
+     "n": 1,
+     "pct": 100.0,
+     "ci95": [
+      20.655,
+      100.0
+     ]
+    },
+    "dead_or_degraded_or_unknown": {
+     "k": 1,
+     "n": 1,
+     "pct": 100.0,
+     "ci95": [
+      20.655,
+      100.0
+     ]
+    },
+    "dead_or_degraded_unknown_excluded": {
+     "k": 1,
+     "n": 1,
+     "pct": 100.0,
+     "ci95": [
+      20.655,
+      100.0
+     ]
+    },
+    "offchain_dead_or_degraded_unknown_excluded": {
+     "k": 1,
+     "n": 1,
+     "pct": 100.0,
+     "ci95": [
+      20.655,
+      100.0
+     ]
+    },
+    "media_ipfs": {
+     "k": 0,
+     "n": 1,
+     "pct": 0.0,
+     "ci95": [
+      0.0,
+      79.345
+     ]
+    },
+    "media_http": {
+     "k": 0,
+     "n": 1,
+     "pct": 0.0,
+     "ci95": [
+      0.0,
+      79.345
+     ]
+    },
+    "media_arweave": {
+     "k": 0,
+     "n": 1,
+     "pct": 0.0,
+     "ci95": [
+      0.0,
+      79.345
+     ]
+    },
+    "holder_weighted_dead_or_degraded": {
+     "pct": 100.0,
+     "ci95": [
+      100.0,
+      100.0
+     ],
+     "n": 1,
+     "weight_total": 128.0
+    },
+    "holder_weighted_truly_onchain": {
+     "pct": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "n": 1,
+     "weight_total": 128.0
+    },
+    "dead_reasons": {
+     "tokenuri-revert": 1
+    }
+   },
+   {
+    "year": "2018",
+    "n": 5,
+    "median_holders": 345.0,
+    "meta_onchain": {
+     "k": 0,
+     "n": 5,
+     "pct": 0.0,
+     "ci95": [
+      0.0,
+      43.448
+     ]
+    },
+    "truly_onchain": {
+     "k": 0,
+     "n": 5,
+     "pct": 0.0,
+     "ci95": [
+      0.0,
+      43.448
+     ]
+    },
+    "fake_a": {
+     "k": 0,
+     "n": 5,
+     "pct": 0.0,
+     "ci95": [
+      0.0,
+      43.448
+     ]
+    },
+    "meta_ipfs": {
+     "k": 0,
+     "n": 5,
+     "pct": 0.0,
+     "ci95": [
+      0.0,
+      43.448
+     ]
+    },
+    "meta_http": {
+     "k": 2,
+     "n": 5,
+     "pct": 40.0,
+     "ci95": [
+      11.762,
+      76.928
+     ]
+    },
+    "meta_arweave": {
+     "k": 0,
+     "n": 5,
+     "pct": 0.0,
+     "ci95": [
+      0.0,
+      43.448
+     ]
+    },
+    "meta_broken": {
+     "k": 3,
+     "n": 5,
+     "pct": 60.0,
+     "ci95": [
+      23.072,
+      88.238
+     ]
+    },
+    "alive": {
+     "k": 0,
+     "n": 5,
+     "pct": 0.0,
+     "ci95": [
+      0.0,
+      43.448
+     ]
+    },
+    "degraded": {
+     "k": 1,
+     "n": 5,
+     "pct": 20.0,
+     "ci95": [
+      3.622,
+      62.447
+     ]
+    },
+    "dead": {
+     "k": 3,
+     "n": 5,
+     "pct": 60.0,
+     "ci95": [
+      23.072,
+      88.238
+     ]
+    },
+    "unknown": {
+     "k": 1,
+     "n": 5,
+     "pct": 20.0,
+     "ci95": [
+      3.622,
+      62.447
+     ]
+    },
+    "dead_or_degraded": {
+     "k": 4,
+     "n": 5,
+     "pct": 80.0,
+     "ci95": [
+      37.553,
+      96.378
+     ]
+    },
+    "dead_or_degraded_or_unknown": {
+     "k": 5,
+     "n": 5,
+     "pct": 100.0,
+     "ci95": [
+      56.552,
+      100.0
+     ]
+    },
+    "dead_or_degraded_unknown_excluded": {
+     "k": 4,
+     "n": 4,
+     "pct": 100.0,
+     "ci95": [
+      51.011,
+      100.0
+     ]
+    },
+    "offchain_dead_or_degraded_unknown_excluded": {
+     "k": 4,
+     "n": 4,
+     "pct": 100.0,
+     "ci95": [
+      51.011,
+      100.0
+     ]
+    },
+    "media_ipfs": {
+     "k": 0,
+     "n": 5,
+     "pct": 0.0,
+     "ci95": [
+      0.0,
+      43.448
+     ]
+    },
+    "media_http": {
+     "k": 1,
+     "n": 5,
+     "pct": 20.0,
+     "ci95": [
+      3.622,
+      62.447
+     ]
+    },
+    "media_arweave": {
+     "k": 0,
+     "n": 5,
+     "pct": 0.0,
+     "ci95": [
+      0.0,
+      43.448
+     ]
+    },
+    "holder_weighted_dead_or_degraded": {
+     "pct": 93.424,
+     "ci95": [
+      47.137,
+      100.0
+     ],
+     "n": 5,
+     "weight_total": 5246.0
+    },
+    "holder_weighted_truly_onchain": {
+     "pct": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "n": 5,
+     "weight_total": 5246.0
+    },
+    "dead_reasons": {
+     "tokenuri-revert": 3,
+     "http-4xx": 1
+    }
+   },
+   {
+    "year": "2019",
+    "n": 6,
+    "median_holders": 251.5,
+    "meta_onchain": {
+     "k": 0,
+     "n": 6,
+     "pct": 0.0,
+     "ci95": [
+      0.0,
+      39.033
+     ]
+    },
+    "truly_onchain": {
+     "k": 0,
+     "n": 6,
+     "pct": 0.0,
+     "ci95": [
+      0.0,
+      39.033
+     ]
+    },
+    "fake_a": {
+     "k": 0,
+     "n": 6,
+     "pct": 0.0,
+     "ci95": [
+      0.0,
+      39.033
+     ]
+    },
+    "meta_ipfs": {
+     "k": 0,
+     "n": 6,
+     "pct": 0.0,
+     "ci95": [
+      0.0,
+      39.033
+     ]
+    },
+    "meta_http": {
+     "k": 5,
+     "n": 6,
+     "pct": 83.333,
+     "ci95": [
+      43.65,
+      96.995
+     ]
+    },
+    "meta_arweave": {
+     "k": 0,
+     "n": 6,
+     "pct": 0.0,
+     "ci95": [
+      0.0,
+      39.033
+     ]
+    },
+    "meta_broken": {
+     "k": 1,
+     "n": 6,
+     "pct": 16.667,
+     "ci95": [
+      3.005,
+      56.35
+     ]
+    },
+    "alive": {
+     "k": 1,
+     "n": 6,
+     "pct": 16.667,
+     "ci95": [
+      3.005,
+      56.35
+     ]
+    },
+    "degraded": {
+     "k": 0,
+     "n": 6,
+     "pct": 0.0,
+     "ci95": [
+      0.0,
+      39.033
+     ]
+    },
+    "dead": {
+     "k": 5,
+     "n": 6,
+     "pct": 83.333,
+     "ci95": [
+      43.65,
+      96.995
+     ]
+    },
+    "unknown": {
+     "k": 0,
+     "n": 6,
+     "pct": 0.0,
+     "ci95": [
+      0.0,
+      39.033
+     ]
+    },
+    "dead_or_degraded": {
+     "k": 5,
+     "n": 6,
+     "pct": 83.333,
+     "ci95": [
+      43.65,
+      96.995
+     ]
+    },
+    "dead_or_degraded_or_unknown": {
+     "k": 5,
+     "n": 6,
+     "pct": 83.333,
+     "ci95": [
+      43.65,
+      96.995
+     ]
+    },
+    "dead_or_degraded_unknown_excluded": {
+     "k": 5,
+     "n": 6,
+     "pct": 83.333,
+     "ci95": [
+      43.65,
+      96.995
+     ]
+    },
+    "offchain_dead_or_degraded_unknown_excluded": {
+     "k": 5,
+     "n": 6,
+     "pct": 83.333,
+     "ci95": [
+      43.65,
+      96.995
+     ]
+    },
+    "media_ipfs": {
+     "k": 0,
+     "n": 6,
+     "pct": 0.0,
+     "ci95": [
+      0.0,
+      39.033
+     ]
+    },
+    "media_http": {
+     "k": 2,
+     "n": 6,
+     "pct": 33.333,
+     "ci95": [
+      9.677,
+      70.001
+     ]
+    },
+    "media_arweave": {
+     "k": 0,
+     "n": 6,
+     "pct": 0.0,
+     "ci95": [
+      0.0,
+      39.033
+     ]
+    },
+    "holder_weighted_dead_or_degraded": {
+     "pct": 72.886,
+     "ci95": [
+      27.676,
+      100.0
+     ],
+     "n": 6,
+     "weight_total": 1549.0
+    },
+    "holder_weighted_truly_onchain": {
+     "pct": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "n": 6,
+     "weight_total": 1549.0
+    },
+    "dead_reasons": {
+     "http-4xx": 2,
+     "tokenuri-revert": 1,
+     "dns": 1,
+     "tls": 1
+    }
+   },
+   {
+    "year": "2020",
+    "n": 25,
+    "median_holders": 244.0,
+    "meta_onchain": {
+     "k": 0,
+     "n": 25,
+     "pct": 0.0,
+     "ci95": [
+      0.0,
+      13.319
+     ]
+    },
+    "truly_onchain": {
+     "k": 0,
+     "n": 25,
+     "pct": 0.0,
+     "ci95": [
+      0.0,
+      13.319
+     ]
+    },
+    "fake_a": {
+     "k": 0,
+     "n": 25,
+     "pct": 0.0,
+     "ci95": [
+      0.0,
+      13.319
+     ]
+    },
+    "meta_ipfs": {
+     "k": 8,
+     "n": 25,
+     "pct": 32.0,
+     "ci95": [
+      17.205,
+      51.59
+     ]
+    },
+    "meta_http": {
+     "k": 13,
+     "n": 25,
+     "pct": 52.0,
+     "ci95": [
+      33.499,
+      69.969
+     ]
+    },
+    "meta_arweave": {
+     "k": 1,
+     "n": 25,
+     "pct": 4.0,
+     "ci95": [
+      0.71,
+      19.544
+     ]
+    },
+    "meta_broken": {
+     "k": 3,
+     "n": 25,
+     "pct": 12.0,
+     "ci95": [
+      4.167,
+      29.956
+     ]
+    },
+    "alive": {
+     "k": 12,
+     "n": 25,
+     "pct": 48.0,
+     "ci95": [
+      30.031,
+      66.501
+     ]
+    },
+    "degraded": {
+     "k": 0,
+     "n": 25,
+     "pct": 0.0,
+     "ci95": [
+      0.0,
+      13.319
+     ]
+    },
+    "dead": {
+     "k": 12,
+     "n": 25,
+     "pct": 48.0,
+     "ci95": [
+      30.031,
+      66.501
+     ]
+    },
+    "unknown": {
+     "k": 1,
+     "n": 25,
+     "pct": 4.0,
+     "ci95": [
+      0.71,
+      19.544
+     ]
+    },
+    "dead_or_degraded": {
+     "k": 12,
+     "n": 25,
+     "pct": 48.0,
+     "ci95": [
+      30.031,
+      66.501
+     ]
+    },
+    "dead_or_degraded_or_unknown": {
+     "k": 13,
+     "n": 25,
+     "pct": 52.0,
+     "ci95": [
+      33.499,
+      69.969
+     ]
+    },
+    "dead_or_degraded_unknown_excluded": {
+     "k": 12,
+     "n": 24,
+     "pct": 50.0,
+     "ci95": [
+      31.427,
+      68.573
+     ]
+    },
+    "offchain_dead_or_degraded_unknown_excluded": {
+     "k": 12,
+     "n": 24,
+     "pct": 50.0,
+     "ci95": [
+      31.427,
+      68.573
+     ]
+    },
+    "media_ipfs": {
+     "k": 7,
+     "n": 25,
+     "pct": 28.0,
+     "ci95": [
+      14.284,
+      47.577
+     ]
+    },
+    "media_http": {
+     "k": 4,
+     "n": 25,
+     "pct": 16.0,
+     "ci95": [
+      6.403,
+      34.654
+     ]
+    },
+    "media_arweave": {
+     "k": 1,
+     "n": 25,
+     "pct": 4.0,
+     "ci95": [
+      0.71,
+      19.544
+     ]
+    },
+    "holder_weighted_dead_or_degraded": {
+     "pct": 2.781,
+     "ci95": [
+      0.518,
+      60.35
+     ],
+     "n": 25,
+     "weight_total": 157852.0
+    },
+    "holder_weighted_truly_onchain": {
+     "pct": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "n": 25,
+     "weight_total": 157852.0
+    },
+    "dead_reasons": {
+     "dns": 4,
+     "tokenuri-revert": 2,
+     "not-json": 2,
+     "http-4xx": 1,
+     "bad-tokenuri": 1,
+     "tls": 1,
+     "ipfs-not-found": 1
+    }
+   },
+   {
+    "year": "2021",
+    "n": 290,
+    "median_holders": 399.0,
+    "meta_onchain": {
+     "k": 21,
+     "n": 290,
+     "pct": 7.241,
+     "ci95": [
+      4.785,
+      10.816
+     ]
+    },
+    "truly_onchain": {
+     "k": 15,
+     "n": 290,
+     "pct": 5.172,
+     "ci95": [
+      3.159,
+      8.358
+     ]
+    },
+    "fake_a": {
+     "k": 5,
+     "n": 290,
+     "pct": 1.724,
+     "ci95": [
+      0.739,
+      3.972
+     ]
+    },
+    "meta_ipfs": {
+     "k": 128,
+     "n": 290,
+     "pct": 44.138,
+     "ci95": [
+      38.537,
+      49.893
+     ]
+    },
+    "meta_http": {
+     "k": 126,
+     "n": 290,
+     "pct": 43.448,
+     "ci95": [
+      37.866,
+      49.202
+     ]
+    },
+    "meta_arweave": {
+     "k": 6,
+     "n": 290,
+     "pct": 2.069,
+     "ci95": [
+      0.952,
+      4.44
+     ]
+    },
+    "meta_broken": {
+     "k": 9,
+     "n": 290,
+     "pct": 3.103,
+     "ci95": [
+      1.641,
+      5.792
+     ]
+    },
+    "alive": {
+     "k": 166,
+     "n": 290,
+     "pct": 57.241,
+     "ci95": [
+      51.489,
+      62.804
+     ]
+    },
+    "degraded": {
+     "k": 16,
+     "n": 290,
+     "pct": 5.517,
+     "ci95": [
+      3.424,
+      8.773
+     ]
+    },
+    "dead": {
+     "k": 100,
+     "n": 290,
+     "pct": 34.483,
+     "ci95": [
+      29.247,
+      40.124
+     ]
+    },
+    "unknown": {
+     "k": 8,
+     "n": 290,
+     "pct": 2.759,
+     "ci95": [
+      1.404,
+      5.348
+     ]
+    },
+    "dead_or_degraded": {
+     "k": 116,
+     "n": 290,
+     "pct": 40.0,
+     "ci95": [
+      34.528,
+      45.734
+     ]
+    },
+    "dead_or_degraded_or_unknown": {
+     "k": 124,
+     "n": 290,
+     "pct": 42.759,
+     "ci95": [
+      37.196,
+      48.511
+     ]
+    },
+    "dead_or_degraded_unknown_excluded": {
+     "k": 116,
+     "n": 282,
+     "pct": 41.135,
+     "ci95": [
+      35.548,
+      46.96
+     ]
+    },
+    "offchain_dead_or_degraded_unknown_excluded": {
+     "k": 112,
+     "n": 261,
+     "pct": 42.912,
+     "ci95": [
+      37.053,
+      48.977
+     ]
+    },
+    "media_ipfs": {
+     "k": 121,
+     "n": 290,
+     "pct": 41.724,
+     "ci95": [
+      36.193,
+      47.471
+     ]
+    },
+    "media_http": {
+     "k": 45,
+     "n": 290,
+     "pct": 15.517,
+     "ci95": [
+      11.804,
+      20.132
+     ]
+    },
+    "media_arweave": {
+     "k": 7,
+     "n": 290,
+     "pct": 2.414,
+     "ci95": [
+      1.174,
+      4.898
+     ]
+    },
+    "holder_weighted_dead_or_degraded": {
+     "pct": 39.943,
+     "ci95": [
+      30.831,
+      48.071
+     ],
+     "n": 290,
+     "weight_total": 281360.0
+    },
+    "holder_weighted_truly_onchain": {
+     "pct": 4.188,
+     "ci95": [
+      1.876,
+      7.733
+     ],
+     "n": 290,
+     "weight_total": 281360.0
+    },
+    "dead_reasons": {
+     "dns": 38,
+     "http-4xx": 30,
+     "ipfs-not-found": 24,
+     "tokenuri-revert": 8,
+     "tls": 6,
+     "not-json": 3,
+     "connection": 2,
+     "bad-tokenuri": 2,
+     "arweave-not-found": 1,
+     "http-5xx": 1,
+     "parked": 1
+    }
+   },
+   {
+    "year": "2022",
+    "n": 1634,
+    "median_holders": 354.0,
+    "meta_onchain": {
+     "k": 44,
+     "n": 1634,
+     "pct": 2.693,
+     "ci95": [
+      2.012,
+      3.595
+     ]
+    },
+    "truly_onchain": {
+     "k": 25,
+     "n": 1634,
+     "pct": 1.53,
+     "ci95": [
+      1.038,
+      2.249
+     ]
+    },
+    "fake_a": {
+     "k": 19,
+     "n": 1634,
+     "pct": 1.163,
+     "ci95": [
+      0.746,
+      1.809
+     ]
+    },
+    "meta_ipfs": {
+     "k": 915,
+     "n": 1634,
+     "pct": 55.998,
+     "ci95": [
+      53.579,
+      58.388
+     ]
+    },
+    "meta_http": {
+     "k": 517,
+     "n": 1634,
+     "pct": 31.64,
+     "ci95": [
+      29.43,
+      33.936
+     ]
+    },
+    "meta_arweave": {
+     "k": 85,
+     "n": 1634,
+     "pct": 5.202,
+     "ci95": [
+      4.226,
+      6.388
+     ]
+    },
+    "meta_broken": {
+     "k": 73,
+     "n": 1634,
+     "pct": 4.468,
+     "ci95": [
+      3.568,
+      5.581
+     ]
+    },
+    "alive": {
+     "k": 866,
+     "n": 1634,
+     "pct": 52.999,
+     "ci95": [
+      50.575,
+      55.409
+     ]
+    },
+    "degraded": {
+     "k": 104,
+     "n": 1634,
+     "pct": 6.365,
+     "ci95": [
+      5.28,
+      7.654
+     ]
+    },
+    "dead": {
+     "k": 615,
+     "n": 1634,
+     "pct": 37.638,
+     "ci95": [
+      35.32,
+      40.013
+     ]
+    },
+    "unknown": {
+     "k": 49,
+     "n": 1634,
+     "pct": 2.999,
+     "ci95": [
+      2.276,
+      3.942
+     ]
+    },
+    "dead_or_degraded": {
+     "k": 719,
+     "n": 1634,
+     "pct": 44.002,
+     "ci95": [
+      41.612,
+      46.421
+     ]
+    },
+    "dead_or_degraded_or_unknown": {
+     "k": 768,
+     "n": 1634,
+     "pct": 47.001,
+     "ci95": [
+      44.591,
+      49.425
+     ]
+    },
+    "dead_or_degraded_unknown_excluded": {
+     "k": 719,
+     "n": 1585,
+     "pct": 45.363,
+     "ci95": [
+      42.926,
+      47.822
+     ]
+    },
+    "offchain_dead_or_degraded_unknown_excluded": {
+     "k": 713,
+     "n": 1542,
+     "pct": 46.239,
+     "ci95": [
+      43.763,
+      48.733
+     ]
+    },
+    "media_ipfs": {
+     "k": 824,
+     "n": 1634,
+     "pct": 50.428,
+     "ci95": [
+      48.006,
+      52.849
+     ]
+    },
+    "media_http": {
+     "k": 139,
+     "n": 1634,
+     "pct": 8.507,
+     "ci95": [
+      7.249,
+      9.959
+     ]
+    },
+    "media_arweave": {
+     "k": 92,
+     "n": 1634,
+     "pct": 5.63,
+     "ci95": [
+      4.613,
+      6.856
+     ]
+    },
+    "holder_weighted_dead_or_degraded": {
+     "pct": 35.261,
+     "ci95": [
+      31.935,
+      39.322
+     ],
+     "n": 1634,
+     "weight_total": 1192259.0
+    },
+    "holder_weighted_truly_onchain": {
+     "pct": 2.363,
+     "ci95": [
+      1.104,
+      3.637
+     ],
+     "n": 1634,
+     "weight_total": 1192259.0
+    },
+    "dead_reasons": {
+     "dns": 336,
+     "ipfs-not-found": 216,
+     "http-4xx": 49,
+     "tokenuri-revert": 23,
+     "connection": 20,
+     "tls": 19,
+     "not-json": 19,
+     "bad-tokenuri": 17,
+     "http-5xx": 13,
+     "arweave-not-found": 4,
+     "parked": 2,
+     "other": 1
+    }
+   },
+   {
+    "year": "2023",
+    "n": 648,
+    "median_holders": 310.5,
+    "meta_onchain": {
+     "k": 42,
+     "n": 648,
+     "pct": 6.481,
+     "ci95": [
+      4.831,
+      8.645
+     ]
+    },
+    "truly_onchain": {
+     "k": 16,
+     "n": 648,
+     "pct": 2.469,
+     "ci95": [
+      1.525,
+      3.973
+     ]
+    },
+    "fake_a": {
+     "k": 26,
+     "n": 648,
+     "pct": 4.012,
+     "ci95": [
+      2.753,
+      5.814
+     ]
+    },
+    "meta_ipfs": {
+     "k": 359,
+     "n": 648,
+     "pct": 55.401,
+     "ci95": [
+      51.553,
+      59.185
+     ]
+    },
+    "meta_http": {
+     "k": 155,
+     "n": 648,
+     "pct": 23.92,
+     "ci95": [
+      20.795,
+      27.352
+     ]
+    },
+    "meta_arweave": {
+     "k": 78,
+     "n": 648,
+     "pct": 12.037,
+     "ci95": [
+      9.753,
+      14.769
+     ]
+    },
+    "meta_broken": {
+     "k": 14,
+     "n": 648,
+     "pct": 2.16,
+     "ci95": [
+      1.291,
+      3.594
+     ]
+    },
+    "alive": {
+     "k": 485,
+     "n": 648,
+     "pct": 74.846,
+     "ci95": [
+      71.365,
+      78.033
+     ]
+    },
+    "degraded": {
+     "k": 46,
+     "n": 648,
+     "pct": 7.099,
+     "ci95": [
+      5.364,
+      9.339
+     ]
+    },
+    "dead": {
+     "k": 100,
+     "n": 648,
+     "pct": 15.432,
+     "ci95": [
+      12.855,
+      18.417
+     ]
+    },
+    "unknown": {
+     "k": 17,
+     "n": 648,
+     "pct": 2.623,
+     "ci95": [
+      1.644,
+      4.161
+     ]
+    },
+    "dead_or_degraded": {
+     "k": 146,
+     "n": 648,
+     "pct": 22.531,
+     "ci95": [
+      19.481,
+      25.904
+     ]
+    },
+    "dead_or_degraded_or_unknown": {
+     "k": 163,
+     "n": 648,
+     "pct": 25.154,
+     "ci95": [
+      21.967,
+      28.635
+     ]
+    },
+    "dead_or_degraded_unknown_excluded": {
+     "k": 146,
+     "n": 631,
+     "pct": 23.138,
+     "ci95": [
+      20.016,
+      26.585
+     ]
+    },
+    "offchain_dead_or_degraded_unknown_excluded": {
+     "k": 144,
+     "n": 589,
+     "pct": 24.448,
+     "ci95": [
+      21.15,
+      28.077
+     ]
+    },
+    "media_ipfs": {
+     "k": 353,
+     "n": 648,
+     "pct": 54.475,
+     "ci95": [
+      50.626,
+      58.272
+     ]
+    },
+    "media_http": {
+     "k": 100,
+     "n": 648,
+     "pct": 15.432,
+     "ci95": [
+      12.855,
+      18.417
+     ]
+    },
+    "media_arweave": {
+     "k": 80,
+     "n": 648,
+     "pct": 12.346,
+     "ci95": [
+      10.033,
+      15.103
+     ]
+    },
+    "holder_weighted_dead_or_degraded": {
+     "pct": 23.093,
+     "ci95": [
+      16.071,
+      31.141
+     ],
+     "n": 648,
+     "weight_total": 481919.0
+    },
+    "holder_weighted_truly_onchain": {
+     "pct": 1.802,
+     "ci95": [
+      0.479,
+      3.653
+     ],
+     "n": 648,
+     "weight_total": 481919.0
+    },
+    "dead_reasons": {
+     "ipfs-not-found": 69,
+     "dns": 36,
+     "http-4xx": 18,
+     "tokenuri-revert": 13,
+     "http-5xx": 4,
+     "bad-tokenuri": 4,
+     "not-json": 1,
+     "tls": 1
+    }
+   },
+   {
+    "year": "2024",
+    "n": 77,
+    "median_holders": 317.0,
+    "meta_onchain": {
+     "k": 6,
+     "n": 77,
+     "pct": 7.792,
+     "ci95": [
+      3.62,
+      15.976
+     ]
+    },
+    "truly_onchain": {
+     "k": 3,
+     "n": 77,
+     "pct": 3.896,
+     "ci95": [
+      1.334,
+      10.84
+     ]
+    },
+    "fake_a": {
+     "k": 3,
+     "n": 77,
+     "pct": 3.896,
+     "ci95": [
+      1.334,
+      10.84
+     ]
+    },
+    "meta_ipfs": {
+     "k": 45,
+     "n": 77,
+     "pct": 58.442,
+     "ci95": [
+      47.29,
+      68.791
+     ]
+    },
+    "meta_http": {
+     "k": 20,
+     "n": 77,
+     "pct": 25.974,
+     "ci95": [
+      17.489,
+      36.742
+     ]
+    },
+    "meta_arweave": {
+     "k": 5,
+     "n": 77,
+     "pct": 6.494,
+     "ci95": [
+      2.805,
+      14.316
+     ]
+    },
+    "meta_broken": {
+     "k": 1,
+     "n": 77,
+     "pct": 1.299,
+     "ci95": [
+      0.23,
+      6.996
+     ]
+    },
+    "alive": {
+     "k": 52,
+     "n": 77,
+     "pct": 67.532,
+     "ci95": [
+      56.458,
+      76.941
+     ]
+    },
+    "degraded": {
+     "k": 5,
+     "n": 77,
+     "pct": 6.494,
+     "ci95": [
+      2.805,
+      14.316
+     ]
+    },
+    "dead": {
+     "k": 18,
+     "n": 77,
+     "pct": 23.377,
+     "ci95": [
+      15.33,
+      33.954
+     ]
+    },
+    "unknown": {
+     "k": 2,
+     "n": 77,
+     "pct": 2.597,
+     "ci95": [
+      0.715,
+      8.985
+     ]
+    },
+    "dead_or_degraded": {
+     "k": 23,
+     "n": 77,
+     "pct": 29.87,
+     "ci95": [
+      20.804,
+      40.849
+     ]
+    },
+    "dead_or_degraded_or_unknown": {
+     "k": 25,
+     "n": 77,
+     "pct": 32.468,
+     "ci95": [
+      23.059,
+      43.542
+     ]
+    },
+    "dead_or_degraded_unknown_excluded": {
+     "k": 23,
+     "n": 75,
+     "pct": 30.667,
+     "ci95": [
+      21.387,
+      41.83
+     ]
+    },
+    "offchain_dead_or_degraded_unknown_excluded": {
+     "k": 23,
+     "n": 69,
+     "pct": 33.333,
+     "ci95": [
+      23.351,
+      45.074
+     ]
+    },
+    "media_ipfs": {
+     "k": 38,
+     "n": 77,
+     "pct": 49.351,
+     "ci95": [
+      38.483,
+      60.28
+     ]
+    },
+    "media_http": {
+     "k": 13,
+     "n": 77,
+     "pct": 16.883,
+     "ci95": [
+      10.141,
+      26.773
+     ]
+    },
+    "media_arweave": {
+     "k": 7,
+     "n": 77,
+     "pct": 9.091,
+     "ci95": [
+      4.474,
+      17.596
+     ]
+    },
+    "holder_weighted_dead_or_degraded": {
+     "pct": 30.497,
+     "ci95": [
+      15.585,
+      46.973
+     ],
+     "n": 77,
+     "weight_total": 50458.0
+    },
+    "holder_weighted_truly_onchain": {
+     "pct": 3.714,
+     "ci95": [
+      0.0,
+      10.469
+     ],
+     "n": 77,
+     "weight_total": 50458.0
+    },
+    "dead_reasons": {
+     "ipfs-not-found": 9,
+     "dns": 5,
+     "http-4xx": 5,
+     "bad-tokenuri": 1,
+     "tls": 1,
+     "http-5xx": 1,
+     "arweave-not-found": 1
+    }
+   },
+   {
+    "year": "2025",
+    "n": 78,
+    "median_holders": 311.5,
+    "meta_onchain": {
+     "k": 11,
+     "n": 78,
+     "pct": 14.103,
+     "ci95": [
+      8.061,
+      23.514
+     ]
+    },
+    "truly_onchain": {
+     "k": 2,
+     "n": 78,
+     "pct": 2.564,
+     "ci95": [
+      0.706,
+      8.875
+     ]
+    },
+    "fake_a": {
+     "k": 9,
+     "n": 78,
+     "pct": 11.538,
+     "ci95": [
+      6.191,
+      20.497
+     ]
+    },
+    "meta_ipfs": {
+     "k": 48,
+     "n": 78,
+     "pct": 61.538,
+     "ci95": [
+      50.443,
+      71.551
+     ]
+    },
+    "meta_http": {
+     "k": 14,
+     "n": 78,
+     "pct": 17.949,
+     "ci95": [
+      11.004,
+      27.902
+     ]
+    },
+    "meta_arweave": {
+     "k": 2,
+     "n": 78,
+     "pct": 2.564,
+     "ci95": [
+      0.706,
+      8.875
+     ]
+    },
+    "meta_broken": {
+     "k": 3,
+     "n": 78,
+     "pct": 3.846,
+     "ci95": [
+      1.317,
+      10.708
+     ]
+    },
+    "alive": {
+     "k": 66,
+     "n": 78,
+     "pct": 84.615,
+     "ci95": [
+      75.007,
+      90.974
+     ]
+    },
+    "degraded": {
+     "k": 3,
+     "n": 78,
+     "pct": 3.846,
+     "ci95": [
+      1.317,
+      10.708
+     ]
+    },
+    "dead": {
+     "k": 7,
+     "n": 78,
+     "pct": 8.974,
+     "ci95": [
+      4.415,
+      17.385
+     ]
+    },
+    "unknown": {
+     "k": 2,
+     "n": 78,
+     "pct": 2.564,
+     "ci95": [
+      0.706,
+      8.875
+     ]
+    },
+    "dead_or_degraded": {
+     "k": 10,
+     "n": 78,
+     "pct": 12.821,
+     "ci95": [
+      7.115,
+      22.016
+     ]
+    },
+    "dead_or_degraded_or_unknown": {
+     "k": 12,
+     "n": 78,
+     "pct": 15.385,
+     "ci95": [
+      9.026,
+      24.993
+     ]
+    },
+    "dead_or_degraded_unknown_excluded": {
+     "k": 10,
+     "n": 76,
+     "pct": 13.158,
+     "ci95": [
+      7.307,
+      22.554
+     ]
+    },
+    "offchain_dead_or_degraded_unknown_excluded": {
+     "k": 10,
+     "n": 66,
+     "pct": 15.152,
+     "ci95": [
+      8.444,
+      25.693
+     ]
+    },
+    "media_ipfs": {
+     "k": 58,
+     "n": 78,
+     "pct": 74.359,
+     "ci95": [
+      63.687,
+      82.745
+     ]
+    },
+    "media_http": {
+     "k": 10,
+     "n": 78,
+     "pct": 12.821,
+     "ci95": [
+      7.115,
+      22.016
+     ]
+    },
+    "media_arweave": {
+     "k": 1,
+     "n": 78,
+     "pct": 1.282,
+     "ci95": [
+      0.227,
+      6.911
+     ]
+    },
+    "holder_weighted_dead_or_degraded": {
+     "pct": 20.79,
+     "ci95": [
+      3.742,
+      42.561
+     ],
+     "n": 78,
+     "weight_total": 57115.0
+    },
+    "holder_weighted_truly_onchain": {
+     "pct": 13.667,
+     "ci95": [
+      0.0,
+      40.729
+     ],
+     "n": 78,
+     "weight_total": 57115.0
+    },
+    "dead_reasons": {
+     "ipfs-not-found": 5,
+     "tokenuri-revert": 3,
+     "http-4xx": 1,
+     "dns": 1
+    }
+   },
+   {
+    "year": "2026",
+    "n": 236,
+    "median_holders": 473.0,
+    "meta_onchain": {
+     "k": 28,
+     "n": 236,
+     "pct": 11.864,
+     "ci95": [
+      8.337,
+      16.613
+     ]
+    },
+    "truly_onchain": {
+     "k": 26,
+     "n": 236,
+     "pct": 11.017,
+     "ci95": [
+      7.63,
+      15.653
+     ]
+    },
+    "fake_a": {
+     "k": 1,
+     "n": 236,
+     "pct": 0.424,
+     "ci95": [
+      0.075,
+      2.361
+     ]
+    },
+    "meta_ipfs": {
+     "k": 153,
+     "n": 236,
+     "pct": 64.831,
+     "ci95": [
+      58.545,
+      70.641
+     ]
+    },
+    "meta_http": {
+     "k": 17,
+     "n": 236,
+     "pct": 7.203,
+     "ci95": [
+      4.546,
+      11.232
+     ]
+    },
+    "meta_arweave": {
+     "k": 6,
+     "n": 236,
+     "pct": 2.542,
+     "ci95": [
+      1.17,
+      5.435
+     ]
+    },
+    "meta_broken": {
+     "k": 32,
+     "n": 236,
+     "pct": 13.559,
+     "ci95": [
+      9.771,
+      18.515
+     ]
+    },
+    "alive": {
+     "k": 182,
+     "n": 236,
+     "pct": 77.119,
+     "ci95": [
+      71.35,
+      82.018
+     ]
+    },
+    "degraded": {
+     "k": 5,
+     "n": 236,
+     "pct": 2.119,
+     "ci95": [
+      0.908,
+      4.863
+     ]
+    },
+    "dead": {
+     "k": 47,
+     "n": 236,
+     "pct": 19.915,
+     "ci95": [
+      15.32,
+      25.474
+     ]
+    },
+    "unknown": {
+     "k": 2,
+     "n": 236,
+     "pct": 0.847,
+     "ci95": [
+      0.233,
+      3.037
+     ]
+    },
+    "dead_or_degraded": {
+     "k": 52,
+     "n": 236,
+     "pct": 22.034,
+     "ci95": [
+      17.217,
+      27.746
+     ]
+    },
+    "dead_or_degraded_or_unknown": {
+     "k": 54,
+     "n": 236,
+     "pct": 22.881,
+     "ci95": [
+      17.982,
+      28.65
+     ]
+    },
+    "dead_or_degraded_unknown_excluded": {
+     "k": 52,
+     "n": 234,
+     "pct": 22.222,
+     "ci95": [
+      17.368,
+      27.973
+     ]
+    },
+    "offchain_dead_or_degraded_unknown_excluded": {
+     "k": 51,
+     "n": 206,
+     "pct": 24.757,
+     "ci95": [
+      19.361,
+      31.077
+     ]
+    },
+    "media_ipfs": {
+     "k": 140,
+     "n": 236,
+     "pct": 59.322,
+     "ci95": [
+      52.954,
+      65.391
+     ]
+    },
+    "media_http": {
+     "k": 14,
+     "n": 236,
+     "pct": 5.932,
+     "ci95": [
+      3.566,
+      9.71
+     ]
+    },
+    "media_arweave": {
+     "k": 6,
+     "n": 236,
+     "pct": 2.542,
+     "ci95": [
+      1.17,
+      5.435
+     ]
+    },
+    "holder_weighted_dead_or_degraded": {
+     "pct": 17.134,
+     "ci95": [
+      10.595,
+      24.795
+     ],
+     "n": 236,
+     "weight_total": 236923.0
+    },
+    "holder_weighted_truly_onchain": {
+     "pct": 15.876,
+     "ci95": [
+      7.886,
+      25.808
+     ],
+     "n": 236,
+     "weight_total": 236923.0
+    },
+    "dead_reasons": {
+     "tokenuri-revert": 33,
+     "ipfs-not-found": 14,
+     "http-4xx": 4,
+     "http-5xx": 1
+    }
+   },
+   {
+    "year": "<=2020",
+    "n": 37,
+    "median_holders": 247.0,
+    "meta_onchain": {
+     "k": 0,
+     "n": 37,
+     "pct": 0.0,
+     "ci95": [
+      0.0,
+      9.406
+     ]
+    },
+    "truly_onchain": {
+     "k": 0,
+     "n": 37,
+     "pct": 0.0,
+     "ci95": [
+      0.0,
+      9.406
+     ]
+    },
+    "fake_a": {
+     "k": 0,
+     "n": 37,
+     "pct": 0.0,
+     "ci95": [
+      0.0,
+      9.406
+     ]
+    },
+    "meta_ipfs": {
+     "k": 8,
+     "n": 37,
+     "pct": 21.622,
+     "ci95": [
+      11.387,
+      37.195
+     ]
+    },
+    "meta_http": {
+     "k": 20,
+     "n": 37,
+     "pct": 54.054,
+     "ci95": [
+      38.384,
+      68.961
+     ]
+    },
+    "meta_arweave": {
+     "k": 1,
+     "n": 37,
+     "pct": 2.703,
+     "ci95": [
+      0.479,
+      13.824
+     ]
+    },
+    "meta_broken": {
+     "k": 8,
+     "n": 37,
+     "pct": 21.622,
+     "ci95": [
+      11.387,
+      37.195
+     ]
+    },
+    "alive": {
+     "k": 13,
+     "n": 37,
+     "pct": 35.135,
+     "ci95": [
+      21.826,
+      51.241
+     ]
+    },
+    "degraded": {
+     "k": 1,
+     "n": 37,
+     "pct": 2.703,
+     "ci95": [
+      0.479,
+      13.824
+     ]
+    },
+    "dead": {
+     "k": 21,
+     "n": 37,
+     "pct": 56.757,
+     "ci95": [
+      40.914,
+      71.328
+     ]
+    },
+    "unknown": {
+     "k": 2,
+     "n": 37,
+     "pct": 5.405,
+     "ci95": [
+      1.495,
+      17.705
+     ]
+    },
+    "dead_or_degraded": {
+     "k": 22,
+     "n": 37,
+     "pct": 59.459,
+     "ci95": [
+      43.486,
+      73.653
+     ]
+    },
+    "dead_or_degraded_or_unknown": {
+     "k": 24,
+     "n": 37,
+     "pct": 64.865,
+     "ci95": [
+      48.759,
+      78.174
+     ]
+    },
+    "dead_or_degraded_unknown_excluded": {
+     "k": 22,
+     "n": 35,
+     "pct": 62.857,
+     "ci95": [
+      46.337,
+      76.834
+     ]
+    },
+    "offchain_dead_or_degraded_unknown_excluded": {
+     "k": 22,
+     "n": 35,
+     "pct": 62.857,
+     "ci95": [
+      46.337,
+      76.834
+     ]
+    },
+    "media_ipfs": {
+     "k": 7,
+     "n": 37,
+     "pct": 18.919,
+     "ci95": [
+      9.48,
+      34.205
+     ]
+    },
+    "media_http": {
+     "k": 7,
+     "n": 37,
+     "pct": 18.919,
+     "ci95": [
+      9.48,
+      34.205
+     ]
+    },
+    "media_arweave": {
+     "k": 1,
+     "n": 37,
+     "pct": 2.703,
+     "ci95": [
+      0.479,
+      13.824
+     ]
+    },
+    "holder_weighted_dead_or_degraded": {
+     "pct": 6.401,
+     "ci95": [
+      1.263,
+      73.518
+     ],
+     "n": 37,
+     "weight_total": 164775.0
+    },
+    "holder_weighted_truly_onchain": {
+     "pct": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "n": 37,
+     "weight_total": 164775.0
+    },
+    "dead_reasons": {
+     "tokenuri-revert": 7,
+     "dns": 5,
+     "http-4xx": 4,
+     "tls": 2,
+     "not-json": 2,
+     "bad-tokenuri": 1,
+     "ipfs-not-found": 1
+    }
+   }
+  ],
+  "by_standard": {
+   "ERC-1155": {
+    "n": 502,
+    "truly_onchain": {
+     "k": 2,
+     "n": 502,
+     "pct": 0.398,
+     "ci95": [
+      0.109,
+      1.441
+     ]
+    },
+    "dead_or_degraded": {
+     "k": 289,
+     "n": 502,
+     "pct": 57.57,
+     "ci95": [
+      53.205,
+      61.82
+     ]
+    }
+   },
+   "ERC-721": {
+    "n": 2498,
+    "truly_onchain": {
+     "k": 85,
+     "n": 2498,
+     "pct": 3.403,
+     "ci95": [
+      2.76,
+      4.188
+     ]
+    },
+    "dead_or_degraded": {
+     "k": 799,
+     "n": 2498,
+     "pct": 31.986,
+     "ci95": [
+      30.185,
+      33.841
+     ]
+    }
+   }
+  }
+ },
+ "top_stratum_robustness_NOT_representative": {
+  "label": "top by holders (partial; high-holder collections; descriptive only)",
+  "n": 11186,
+  "metadata_location": {
+   "data-uri": {
+    "k": 124,
+    "n": 11186,
+    "pct": 1.109,
+    "ci95": [
+     0.931,
+     1.32
+    ]
+   },
+   "onchain-renderer": {
+    "k": 520,
+    "n": 11186,
+    "pct": 4.649,
+    "ci95": [
+     4.274,
+     5.055
+    ]
+   },
+   "ipfs": {
+    "k": 6537,
+    "n": 11186,
+    "pct": 58.439,
+    "ci95": [
+     57.523,
+     59.349
+    ]
+   },
+   "arweave": {
+    "k": 487,
+    "n": 11186,
+    "pct": 4.354,
+    "ci95": [
+     3.991,
+     4.748
+    ]
+   },
+   "http": {
+    "k": 3102,
+    "n": 11186,
+    "pct": 27.731,
+    "ci95": [
+     26.909,
+     28.568
+    ]
+   },
+   "broken": {
+    "k": 291,
+    "n": 11186,
+    "pct": 2.601,
+    "ci95": [
+     2.322,
+     2.913
+    ]
+   },
+   "other": {
+    "k": 125,
+    "n": 11186,
+    "pct": 1.117,
+    "ci95": [
+     0.939,
+     1.33
+    ]
+   }
+  },
+  "media_location_all": {
+   "data-uri": {
+    "k": 442,
+    "n": 11186,
+    "pct": 3.951,
+    "ci95": [
+     3.606,
+     4.328
+    ]
+   },
+   "onchain-renderer": {
+    "k": 0,
+    "n": 11186,
+    "pct": 0.0,
+    "ci95": [
+     0.0,
+     0.034
+    ]
+   },
+   "ipfs": {
+    "k": 6046,
+    "n": 11186,
+    "pct": 54.05,
+    "ci95": [
+     53.125,
+     54.972
+    ]
+   },
+   "arweave": {
+    "k": 530,
+    "n": 11186,
+    "pct": 4.738,
+    "ci95": [
+     4.36,
+     5.148
+    ]
+   },
+   "http": {
+    "k": 1298,
+    "n": 11186,
+    "pct": 11.604,
+    "ci95": [
+     11.023,
+     12.211
+    ]
+   },
+   "broken": {
+    "k": 6,
+    "n": 11186,
+    "pct": 0.054,
+    "ci95": [
+     0.025,
+     0.117
+    ]
+   },
+   "none": {
+    "k": 29,
+    "n": 11186,
+    "pct": 0.259,
+    "ci95": [
+     0.181,
+     0.372
+    ]
+   },
+   "unresolved": {
+    "k": 2711,
+    "n": 11186,
+    "pct": 24.236,
+    "ci95": [
+     23.45,
+     25.039
+    ]
+   }
+  },
+  "media_location_resolved": {
+   "n_resolved": 8475,
+   "data-uri": {
+    "k": 442,
+    "n": 8475,
+    "pct": 5.215,
+    "ci95": [
+     4.762,
+     5.709
+    ]
+   },
+   "onchain-renderer": {
+    "k": 0,
+    "n": 8475,
+    "pct": 0.0,
+    "ci95": [
+     0.0,
+     0.045
+    ]
+   },
+   "ipfs": {
+    "k": 6046,
+    "n": 8475,
+    "pct": 71.339,
+    "ci95": [
+     70.367,
+     72.292
+    ]
+   },
+   "arweave": {
+    "k": 530,
+    "n": 8475,
+    "pct": 6.254,
+    "ci95": [
+     5.758,
+     6.789
+    ]
+   },
+   "http": {
+    "k": 1298,
+    "n": 8475,
+    "pct": 15.316,
+    "ci95": [
+     14.565,
+     16.098
+    ]
+   },
+   "broken": {
+    "k": 6,
+    "n": 8475,
+    "pct": 0.071,
+    "ci95": [
+     0.032,
+     0.154
+    ]
+   },
+   "none": {
+    "k": 29,
+    "n": 8475,
+    "pct": 0.342,
+    "ci95": [
+     0.238,
+     0.491
+    ]
+   }
+  },
+  "any_animation_url": {
+   "k": 1024,
+   "n": 11186,
+   "pct": 9.154,
+   "ci95": [
+    8.634,
+    9.703
+   ]
+  },
+  "onchain": {
+   "metadata_onchain": {
+    "k": 644,
+    "n": 11186,
+    "pct": 5.757,
+    "ci95": [
+     5.341,
+     6.204
+    ]
+   },
+   "media_onchain_all": {
+    "k": 442,
+    "n": 11186,
+    "pct": 3.951,
+    "ci95": [
+     3.606,
+     4.328
+    ]
+   },
+   "onchain_candidate_incl_external_refs": {
+    "k": 416,
+    "n": 11186,
+    "pct": 3.719,
+    "ci95": [
+     3.384,
+     4.086
+    ]
+   },
+   "truly_onchain_census": {
+    "k": 414,
+    "n": 11186,
+    "pct": 3.701,
+    "ci95": [
+     3.367,
+     4.067
+    ]
+   },
+   "fake_onchain_A_offchain_media_of_all": {
+    "k": 222,
+    "n": 11186,
+    "pct": 1.985,
+    "ci95": [
+     1.742,
+     2.26
+    ]
+   },
+   "fake_onchain_A_offchain_media_of_onchain_metadata": {
+    "k": 222,
+    "n": 644,
+    "pct": 34.472,
+    "ci95": [
+     30.903,
+     38.225
+    ]
+   },
+   "fake_onchain_B_onchain_media_external_refs_of_all": {
+    "k": 2,
+    "n": 11186,
+    "pct": 0.018,
+    "ci95": [
+     0.005,
+     0.065
+    ]
+   },
+   "fake_onchain_B_of_onchain_metadata": {
+    "k": 2,
+    "n": 644,
+    "pct": 0.311,
+    "ci95": [
+     0.085,
+     1.125
+    ]
+   },
+   "onchain_metadata_media_split": {
+    "data-uri": 427,
+    "onchain-renderer": 0,
+    "ipfs": 144,
+    "arweave": 19,
+    "http": 51,
+    "broken": 2,
+    "none": 1,
+    "unresolved": 0
+   },
+   "of_onchain_metadata_n": 644,
+   "metadata_renderer_vs_datauri": {
+    "data-uri": 124,
+    "onchain-renderer": 520
+   },
+   "metadata_mixed_across_tokens": {
+    "k": 103,
+    "n": 11186,
+    "pct": 0.921,
+    "ci95": [
+     0.76,
+     1.115
+    ]
+   }
+  },
+  "liveness": {
+   "all": {
+    "alive": {
+     "k": 7099,
+     "n": 11186,
+     "pct": 63.463,
+     "ci95": [
+      62.566,
+      64.351
+     ]
+    },
+    "degraded": {
+     "k": 651,
+     "n": 11186,
+     "pct": 5.82,
+     "ci95": [
+      5.401,
+      6.269
+     ]
+    },
+    "dead": {
+     "k": 2517,
+     "n": 11186,
+     "pct": 22.501,
+     "ci95": [
+      21.737,
+      23.285
+     ]
+    },
+    "unknown": {
+     "k": 919,
+     "n": 11186,
+     "pct": 8.216,
+     "ci95": [
+      7.721,
+      8.739
+     ]
+    }
+   },
+   "unknown_excluded": {
+    "n_resolved": 10267,
+    "alive": {
+     "k": 7099,
+     "n": 10267,
+     "pct": 69.144,
+     "ci95": [
+      68.243,
+      70.03
+     ]
+    },
+    "degraded": {
+     "k": 651,
+     "n": 10267,
+     "pct": 6.341,
+     "ci95": [
+      5.885,
+      6.829
+     ]
+    },
+    "dead": {
+     "k": 2517,
+     "n": 10267,
+     "pct": 24.515,
+     "ci95": [
+      23.693,
+      25.357
+     ]
+    },
+    "dead_or_degraded": {
+     "k": 3168,
+     "n": 10267,
+     "pct": 30.856,
+     "ci95": [
+      29.97,
+      31.757
+     ]
+    }
+   },
+   "bounds_dead": {
+    "lower_unknown_alive": {
+     "k": 2517,
+     "n": 11186,
+     "pct": 22.501,
+     "ci95": [
+      21.737,
+      23.285
+     ]
+    },
+    "upper_unknown_dead": {
+     "k": 3436,
+     "n": 11186,
+     "pct": 30.717,
+     "ci95": [
+      29.869,
+      31.578
+     ]
+    }
+   },
+   "bounds_dead_or_degraded": {
+    "lower": {
+     "k": 3168,
+     "n": 11186,
+     "pct": 28.321,
+     "ci95": [
+      27.494,
+      29.163
+     ]
+    },
+    "upper": {
+     "k": 4087,
+     "n": 11186,
+     "pct": 36.537,
+     "ci95": [
+      35.649,
+      37.434
+     ]
+    }
+   },
+   "bounds_alive": {
+    "lower_unknown_dead": {
+     "k": 7099,
+     "n": 11186,
+     "pct": 63.463,
+     "ci95": [
+      62.566,
+      64.351
+     ]
+    },
+    "upper_unknown_alive": {
+     "k": 8018,
+     "n": 11186,
+     "pct": 71.679,
+     "ci95": [
+      70.837,
+      72.506
+     ]
+    }
+   },
+   "alive_that_are_onchain": 610
+  },
+  "liveness_offchain_metadata_only": {
+   "n": 10542,
+   "alive": {
+    "k": 6489,
+    "n": 10542,
+    "pct": 61.554,
+    "ci95": [
+     60.621,
+     62.478
+    ]
+   },
+   "degraded": {
+    "k": 622,
+    "n": 10542,
+    "pct": 5.9,
+    "ci95": [
+     5.466,
+     6.366
+    ]
+   },
+   "dead": {
+    "k": 2517,
+    "n": 10542,
+    "pct": 23.876,
+    "ci95": [
+     23.072,
+     24.699
+    ]
+   },
+   "unknown": {
+    "k": 914,
+    "n": 10542,
+    "pct": 8.67,
+    "ci95": [
+     8.148,
+     9.222
+    ]
+   },
+   "dead_or_degraded_unknown_excluded": {
+    "k": 3139,
+    "n": 9628,
+    "pct": 32.603,
+    "ci95": [
+     31.674,
+     33.546
+    ]
+   }
+  },
+  "dead_reasons": {
+   "n_dead_or_degraded": 3168,
+   "dead_only": {
+    "dns": {
+     "k": 1059,
+     "n": 11186,
+     "pct": 9.467,
+     "ci95": [
+      8.938,
+      10.024
+     ]
+    },
+    "ipfs-not-found": {
+     "k": 471,
+     "n": 11186,
+     "pct": 4.211,
+     "ci95": [
+      3.854,
+      4.599
+     ]
+    },
+    "http-4xx": {
+     "k": 417,
+     "n": 11186,
+     "pct": 3.728,
+     "ci95": [
+      3.392,
+      4.095
+     ]
+    },
+    "tokenuri-revert": {
+     "k": 179,
+     "n": 11186,
+     "pct": 1.6,
+     "ci95": [
+      1.384,
+      1.85
+     ]
+    },
+    "http-5xx": {
+     "k": 108,
+     "n": 11186,
+     "pct": 0.965,
+     "ci95": [
+      0.8,
+      1.164
+     ]
+    },
+    "tls": {
+     "k": 98,
+     "n": 11186,
+     "pct": 0.876,
+     "ci95": [
+      0.719,
+      1.066
+     ]
+    },
+    "bad-tokenuri": {
+     "k": 66,
+     "n": 11186,
+     "pct": 0.59,
+     "ci95": [
+      0.464,
+      0.75
+     ]
+    },
+    "not-json": {
+     "k": 57,
+     "n": 11186,
+     "pct": 0.51,
+     "ci95": [
+      0.394,
+      0.66
+     ]
+    },
+    "connection": {
+     "k": 41,
+     "n": 11186,
+     "pct": 0.367,
+     "ci95": [
+      0.27,
+      0.497
+     ]
+    },
+    "other": {
+     "k": 9,
+     "n": 11186,
+     "pct": 0.08,
+     "ci95": [
+      0.042,
+      0.153
+     ]
+    },
+    "parked": {
+     "k": 8,
+     "n": 11186,
+     "pct": 0.072,
+     "ci95": [
+      0.036,
+      0.141
+     ]
+    },
+    "arweave-not-found": {
+     "k": 4,
+     "n": 11186,
+     "pct": 0.036,
+     "ci95": [
+      0.014,
+      0.092
+     ]
+    }
+   },
+   "dead_or_degraded": {
+    "dns": {
+     "k": 1090,
+     "n": 11186,
+     "pct": 9.744,
+     "ci95": [
+      9.208,
+      10.308
+     ]
+    },
+    "ipfs-not-found": {
+     "k": 942,
+     "n": 11186,
+     "pct": 8.421,
+     "ci95": [
+      7.921,
+      8.95
+     ]
+    },
+    "http-4xx": {
+     "k": 490,
+     "n": 11186,
+     "pct": 4.38,
+     "ci95": [
+      4.017,
+      4.776
+     ]
+    },
+    "tokenuri-revert": {
+     "k": 206,
+     "n": 11186,
+     "pct": 1.842,
+     "ci95": [
+      1.608,
+      2.108
+     ]
+    },
+    "http-5xx": {
+     "k": 119,
+     "n": 11186,
+     "pct": 1.064,
+     "ci95": [
+      0.89,
+      1.271
+     ]
+    },
+    "tls": {
+     "k": 103,
+     "n": 11186,
+     "pct": 0.921,
+     "ci95": [
+      0.76,
+      1.115
+     ]
+    },
+    "bad-tokenuri": {
+     "k": 82,
+     "n": 11186,
+     "pct": 0.733,
+     "ci95": [
+      0.591,
+      0.909
+     ]
+    },
+    "not-json": {
+     "k": 61,
+     "n": 11186,
+     "pct": 0.545,
+     "ci95": [
+      0.425,
+      0.7
+     ]
+    },
+    "connection": {
+     "k": 42,
+     "n": 11186,
+     "pct": 0.375,
+     "ci95": [
+      0.278,
+      0.507
+     ]
+    },
+    "arweave-not-found": {
+     "k": 14,
+     "n": 11186,
+     "pct": 0.125,
+     "ci95": [
+      0.075,
+      0.21
+     ]
+    },
+    "other": {
+     "k": 11,
+     "n": 11186,
+     "pct": 0.098,
+     "ci95": [
+      0.055,
+      0.176
+     ]
+    },
+    "parked": {
+     "k": 8,
+     "n": 11186,
+     "pct": 0.072,
+     "ci95": [
+      0.036,
+      0.141
+     ]
+    }
+   },
+   "dead_or_degraded_share_of_failures": {
+    "dns": {
+     "k": 1090,
+     "n": 3168,
+     "pct": 34.407,
+     "ci95": [
+      32.772,
+      36.079
+     ]
+    },
+    "ipfs-not-found": {
+     "k": 942,
+     "n": 3168,
+     "pct": 29.735,
+     "ci95": [
+      28.168,
+      31.35
+     ]
+    },
+    "http-4xx": {
+     "k": 490,
+     "n": 3168,
+     "pct": 15.467,
+     "ci95": [
+      14.25,
+      16.768
+     ]
+    },
+    "tokenuri-revert": {
+     "k": 206,
+     "n": 3168,
+     "pct": 6.503,
+     "ci95": [
+      5.695,
+      7.415
+     ]
+    },
+    "http-5xx": {
+     "k": 119,
+     "n": 3168,
+     "pct": 3.756,
+     "ci95": [
+      3.148,
+      4.476
+     ]
+    },
+    "tls": {
+     "k": 103,
+     "n": 3168,
+     "pct": 3.251,
+     "ci95": [
+      2.688,
+      3.928
+     ]
+    },
+    "bad-tokenuri": {
+     "k": 82,
+     "n": 3168,
+     "pct": 2.588,
+     "ci95": [
+      2.09,
+      3.201
+     ]
+    },
+    "not-json": {
+     "k": 61,
+     "n": 3168,
+     "pct": 1.926,
+     "ci95": [
+      1.502,
+      2.465
+     ]
+    },
+    "connection": {
+     "k": 42,
+     "n": 3168,
+     "pct": 1.326,
+     "ci95": [
+      0.982,
+      1.787
+     ]
+    },
+    "arweave-not-found": {
+     "k": 14,
+     "n": 3168,
+     "pct": 0.442,
+     "ci95": [
+      0.263,
+      0.74
+     ]
+    },
+    "other": {
+     "k": 11,
+     "n": 3168,
+     "pct": 0.347,
+     "ci95": [
+      0.194,
+      0.621
+     ]
+    },
+    "parked": {
+     "k": 8,
+     "n": 3168,
+     "pct": 0.253,
+     "ci95": [
+      0.128,
+      0.498
+     ]
+    }
+   },
+   "dead_only_soft_ipfs_arweave_not_found": {
+    "k": 475,
+    "n": 11186,
+    "pct": 4.246,
+    "ci95": [
+     3.888,
+     4.636
+    ]
+   },
+   "dead_hard_evidence_dns_tls_http_revert_etc": {
+    "k": 2042,
+    "n": 11186,
+    "pct": 18.255,
+    "ci95": [
+     17.55,
+     18.982
+    ]
+   },
+   "dead_excluding_tokenuri_revert": {
+    "k": 2338,
+    "n": 11186,
+    "pct": 20.901,
+    "ci95": [
+     20.158,
+     21.665
+    ]
+   },
+   "unknown_why": {
+    "http-5xx": 503,
+    "timeout": 196,
+    "unspecified": 138,
+    "other": 49,
+    "http-4xx": 16,
+    "dns": 11,
+    "connection": 4,
+    "tls": 1,
+    "not-json": 1
+   }
+  },
+  "exact_url": {
+   "liveness_exact": {
+    "alive": {
+     "k": 5969,
+     "n": 11186,
+     "pct": 53.361,
+     "ci95": [
+      52.436,
+      54.285
+     ]
+    },
+    "degraded": {
+     "k": 533,
+     "n": 11186,
+     "pct": 4.765,
+     "ci95": [
+      4.385,
+      5.175
+     ]
+    },
+    "dead": {
+     "k": 2496,
+     "n": 11186,
+     "pct": 22.314,
+     "ci95": [
+      21.552,
+      23.095
+     ]
+    },
+    "unknown": {
+     "k": 2188,
+     "n": 11186,
+     "pct": 19.56,
+     "ci95": [
+      18.836,
+      20.306
+     ]
+    }
+   },
+   "content_alive_exact_dead": {
+    "k": 32,
+    "n": 11186,
+    "pct": 0.286,
+    "ci95": [
+     0.203,
+     0.404
+    ]
+   },
+   "content_alive_exact_dead_hosts": {
+    "cloudflare-ipfs.com": 19,
+    "gateway.lighthouse.storage": 7,
+    "ipfs.infura.io": 3,
+    "infura-ipfs.io": 2,
+    "ar-io.net": 1
+   },
+   "hardcode_a_dead_gateway_any_token": {
+    "k": 55,
+    "n": 11186,
+    "pct": 0.492,
+    "ci95": [
+     0.378,
+     0.639
+    ]
+   },
+   "dead_gateway_hosts_collections": {
+    "cloudflare-ipfs.com": 26,
+    "gateway.lighthouse.storage": 17,
+    "ipfs.infura.io": 5,
+    "infura-ipfs.io": 4,
+    "ipfs.fleek.co": 2,
+    "ar-io.net": 1
+   },
+   "content_alive_exact_unknown_botwalled": {
+    "k": 1099,
+    "n": 11186,
+    "pct": 9.825,
+    "ci95": [
+     9.287,
+     10.39
+    ]
+   },
+   "collections_hardcoding_any_gateway": {
+    "k": 2201,
+    "n": 11186,
+    "pct": 19.676,
+    "ci95": [
+     18.95,
+     20.423
+    ]
+   },
+   "by_gateway_host": [
+    {
+     "host": "arweave.net",
+     "collections": 490,
+     "exact_dead": 3,
+     "exact_unknown": 33,
+     "exact_alive": 443,
+     "content_alive": 473,
+     "content_dead_or_degraded": 16,
+     "content_alive_but_exact_dead_collections": 0
+    },
+    {
+     "host": "ipfs.io",
+     "collections": 484,
+     "exact_dead": 7,
+     "exact_unknown": 463,
+     "exact_alive": 13,
+     "content_alive": 361,
+     "content_dead_or_degraded": 84,
+     "content_alive_but_exact_dead_collections": 0
+    },
+    {
+     "host": "gateway.pinata.cloud",
+     "collections": 440,
+     "exact_dead": 2,
+     "exact_unknown": 432,
+     "exact_alive": 5,
+     "content_alive": 357,
+     "content_dead_or_degraded": 53,
+     "content_alive_but_exact_dead_collections": 0
+    },
+    {
+     "host": "nftstorage.link",
+     "collections": 142,
+     "exact_dead": 2,
+     "exact_unknown": 136,
+     "exact_alive": 2,
+     "content_alive": 111,
+     "content_dead_or_degraded": 18,
+     "content_alive_but_exact_dead_collections": 2
+    },
+    {
+     "host": "quicknode.quicknode-ipfs.com",
+     "collections": 52,
+     "exact_dead": 0,
+     "exact_unknown": 2,
+     "exact_alive": 50,
+     "content_alive": 51,
+     "content_dead_or_degraded": 1,
+     "content_alive_but_exact_dead_collections": 0
+    },
+    {
+     "host": "bullyapes.mypinata.cloud",
+     "collections": 38,
+     "exact_dead": 0,
+     "exact_unknown": 38,
+     "exact_alive": 0,
+     "content_alive": 38,
+     "content_dead_or_degraded": 0,
+     "content_alive_but_exact_dead_collections": 0
+    },
+    {
+     "host": "cloudflare-ipfs.com",
+     "collections": 27,
+     "exact_dead": 21,
+     "exact_unknown": 1,
+     "exact_alive": 0,
+     "content_alive": 17,
+     "content_dead_or_degraded": 9,
+     "content_alive_but_exact_dead_collections": 19
+    },
+    {
+     "host": "dweb.link",
+     "collections": 17,
+     "exact_dead": 0,
+     "exact_unknown": 17,
+     "exact_alive": 0,
+     "content_alive": 11,
+     "content_dead_or_degraded": 3,
+     "content_alive_but_exact_dead_collections": 0
+    },
+    {
+     "host": "gateway.lighthouse.storage",
+     "collections": 17,
+     "exact_dead": 12,
+     "exact_unknown": 0,
+     "exact_alive": 0,
+     "content_alive": 5,
+     "content_dead_or_degraded": 9,
+     "content_alive_but_exact_dead_collections": 7
+    },
+    {
+     "host": "w3s.link",
+     "collections": 15,
+     "exact_dead": 0,
+     "exact_unknown": 15,
+     "exact_alive": 0,
+     "content_alive": 6,
+     "content_dead_or_degraded": 3,
+     "content_alive_but_exact_dead_collections": 0
+    },
+    {
+     "host": "ipfs.filebase.io",
+     "collections": 14,
+     "exact_dead": 0,
+     "exact_unknown": 5,
+     "exact_alive": 9,
+     "content_alive": 8,
+     "content_dead_or_degraded": 3,
+     "content_alive_but_exact_dead_collections": 0
+    },
+    {
+     "host": "ikzttp.mypinata.cloud",
+     "collections": 11,
+     "exact_dead": 0,
+     "exact_unknown": 11,
+     "exact_alive": 0,
+     "content_alive": 11,
+     "content_dead_or_degraded": 0,
+     "content_alive_but_exact_dead_collections": 0
+    },
+    {
+     "host": "opensea.mypinata.cloud",
+     "collections": 11,
+     "exact_dead": 6,
+     "exact_unknown": 5,
+     "exact_alive": 0,
+     "content_alive": 3,
+     "content_dead_or_degraded": 7,
+     "content_alive_but_exact_dead_collections": 0
+    },
+    {
+     "host": "gateway.ipfs.io",
+     "collections": 7,
+     "exact_dead": 0,
+     "exact_unknown": 7,
+     "exact_alive": 0,
+     "content_alive": 4,
+     "content_dead_or_degraded": 2,
+     "content_alive_but_exact_dead_collections": 0
+    },
+    {
+     "host": "mirrorpass.mypinata.cloud",
+     "collections": 7,
+     "exact_dead": 0,
+     "exact_unknown": 7,
+     "exact_alive": 0,
+     "content_alive": 7,
+     "content_dead_or_degraded": 0,
+     "content_alive_but_exact_dead_collections": 0
+    },
+    {
+     "host": "ipfs.infura.io",
+     "collections": 5,
+     "exact_dead": 2,
+     "exact_unknown": 0,
+     "exact_alive": 0,
+     "content_alive": 3,
+     "content_dead_or_degraded": 1,
+     "content_alive_but_exact_dead_collections": 3
+    },
+    {
+     "host": "litwtf.mypinata.cloud",
+     "collections": 5,
+     "exact_dead": 0,
+     "exact_unknown": 0,
+     "exact_alive": 5,
+     "content_alive": 5,
+     "content_dead_or_degraded": 0,
+     "content_alive_but_exact_dead_collections": 0
+    },
+    {
+     "host": "floki.mypinata.cloud",
+     "collections": 4,
+     "exact_dead": 0,
+     "exact_unknown": 0,
+     "exact_alive": 3,
+     "content_alive": 3,
+     "content_dead_or_degraded": 1,
+     "content_alive_but_exact_dead_collections": 0
+    },
+    {
+     "host": "infura-ipfs.io",
+     "collections": 4,
+     "exact_dead": 4,
+     "exact_unknown": 0,
+     "exact_alive": 0,
+     "content_alive": 2,
+     "content_dead_or_degraded": 1,
+     "content_alive_but_exact_dead_collections": 2
+    },
+    {
+     "host": "l-market.mypinata.cloud",
+     "collections": 4,
+     "exact_dead": 0,
+     "exact_unknown": 0,
+     "exact_alive": 4,
+     "content_alive": 4,
+     "content_dead_or_degraded": 0,
+     "content_alive_but_exact_dead_collections": 0
+    },
+    {
+     "host": "nervous.mypinata.cloud",
+     "collections": 4,
+     "exact_dead": 0,
+     "exact_unknown": 2,
+     "exact_alive": 2,
+     "content_alive": 3,
+     "content_dead_or_degraded": 1,
+     "content_alive_but_exact_dead_collections": 0
+    },
+    {
+     "host": "nftdata.parallelnft.com",
+     "collections": 4,
+     "exact_dead": 0,
+     "exact_unknown": 0,
+     "exact_alive": 4,
+     "content_alive": 4,
+     "content_dead_or_degraded": 0,
+     "content_alive_but_exact_dead_collections": 0
+    },
+    {
+     "host": "bapesclan.mypinata.cloud",
+     "collections": 3,
+     "exact_dead": 0,
+     "exact_unknown": 3,
+     "exact_alive": 0,
+     "content_alive": 3,
+     "content_dead_or_degraded": 0,
+     "content_alive_but_exact_dead_collections": 0
+    },
+    {
+     "host": "cosmiclabs.mypinata.cloud",
+     "collections": 3,
+     "exact_dead": 0,
+     "exact_unknown": 0,
+     "exact_alive": 3,
+     "content_alive": 3,
+     "content_dead_or_degraded": 0,
+     "content_alive_but_exact_dead_collections": 0
+    },
+    {
+     "host": "creature.mypinata.cloud",
+     "collections": 3,
+     "exact_dead": 0,
+     "exact_unknown": 3,
+     "exact_alive": 0,
+     "content_alive": 3,
+     "content_dead_or_degraded": 0,
+     "content_alive_but_exact_dead_collections": 0
+    }
+   ]
+  }
+ },
+ "claims_funnel": {
+  "definition": "Manually reviewed project-authored claims only; funnel stages concern ordinary tokenURI resolution, not truth of alternate-data storage claims.",
+  "reviewed_candidate_collections": 283,
+  "w5_distinct_addresses_case_insensitive": 160,
+  "w5_non_implied_claimants": 160,
+  "w5_non_implied_in_universe": 160,
+  "w5_non_implied_spam_flagged": 1,
+  "claimants_in_census": 105,
+  "claimants_not_yet_in_census": 55,
+  "all_claimants_non_implied": {
+   "claimants": 105,
+   "a_tokenURI_onchain": {
+    "k": 91,
+    "n": 105,
+    "pct": 86.667,
+    "ci95": [
+     78.856,
+     91.889
+    ]
+   },
+   "b_media_also_onchain": {
+    "k": 81,
+    "n": 105,
+    "pct": 77.143,
+    "ci95": [
+     68.238,
+     84.132
+    ]
+   },
+   "c_renders_unplugged_clean": {
+    "k": 81,
+    "n": 105,
+    "pct": 77.143,
+    "ci95": [
+     68.238,
+     84.132
+    ]
+   },
+   "c_of_which_render_tested_w4": 22,
+   "d_also_immutable": {
+    "k": 41,
+    "n": 105,
+    "pct": 39.048,
+    "ci95": [
+     30.261,
+     48.608
+    ]
+   },
+   "c_w6_not_assessed_or_unknown": 2,
+   "c_mutable_split": {
+    "immutable": 41,
+    "eoa-mutable": 35,
+    "unknown": 2,
+    "multisig-mutable": 2,
+    "dao-or-timelock-mutable": 1
+   },
+   "failed_at": {
+    "tokenURI_offchain": 13,
+    "tokenURI_broken_or_other": 1,
+    "media_offchain_or_unresolved": 10,
+    "external_refs_or_render_broken": 0,
+    "known_mutation_path": 38
+   },
+   "live_pointer_power": {
+    "none": 44,
+    "eoa": 34,
+    "multisig": 2,
+    "dao-or-timelock": 1
+   },
+   "liveness_of_claimants": {
+    "alive": 99,
+    "degraded": 3,
+    "dead": 2,
+    "unknown": 1
+   },
+   "tokenURI_location": {
+    "onchain-renderer": 90,
+    "http": 11,
+    "arweave": 1,
+    "ipfs": 1,
+    "data-uri": 1,
+    "broken": 1
+   }
+  },
+  "explicit_100": {
+   "claimants": 69,
+   "a_tokenURI_onchain": {
+    "k": 60,
+    "n": 69,
+    "pct": 86.957,
+    "ci95": [
+     77.032,
+     92.983
+    ]
+   },
+   "b_media_also_onchain": {
+    "k": 57,
+    "n": 69,
+    "pct": 82.609,
+    "ci95": [
+     72.016,
+     89.762
+    ]
+   },
+   "c_renders_unplugged_clean": {
+    "k": 57,
+    "n": 69,
+    "pct": 82.609,
+    "ci95": [
+     72.016,
+     89.762
+    ]
+   },
+   "c_of_which_render_tested_w4": 16,
+   "d_also_immutable": {
+    "k": 30,
+    "n": 69,
+    "pct": 43.478,
+    "ci95": [
+     32.433,
+     55.212
+    ]
+   },
+   "c_w6_not_assessed_or_unknown": 2,
+   "c_mutable_split": {
+    "immutable": 30,
+    "eoa-mutable": 24,
+    "unknown": 2,
+    "multisig-mutable": 1
+   },
+   "failed_at": {
+    "tokenURI_offchain": 8,
+    "tokenURI_broken_or_other": 1,
+    "media_offchain_or_unresolved": 3,
+    "external_refs_or_render_broken": 0,
+    "known_mutation_path": 25
+   },
+   "live_pointer_power": {
+    "none": 33,
+    "eoa": 23,
+    "multisig": 1
+   },
+   "liveness_of_claimants": {
+    "alive": 65,
+    "dead": 2,
+    "degraded": 1,
+    "unknown": 1
+   },
+   "tokenURI_location": {
+    "onchain-renderer": 59,
+    "http": 7,
+    "ipfs": 1,
+    "data-uri": 1,
+    "broken": 1
+   }
+  },
+  "generic": {
+   "claimants": 35,
+   "a_tokenURI_onchain": {
+    "k": 30,
+    "n": 35,
+    "pct": 85.714,
+    "ci95": [
+     70.624,
+     93.74
+    ]
+   },
+   "b_media_also_onchain": {
+    "k": 23,
+    "n": 35,
+    "pct": 65.714,
+    "ci95": [
+     49.152,
+     79.168
+    ]
+   },
+   "c_renders_unplugged_clean": {
+    "k": 23,
+    "n": 35,
+    "pct": 65.714,
+    "ci95": [
+     49.152,
+     79.168
+    ]
+   },
+   "c_of_which_render_tested_w4": 6,
+   "d_also_immutable": {
+    "k": 10,
+    "n": 35,
+    "pct": 28.571,
+    "ci95": [
+     16.327,
+     45.055
+    ]
+   },
+   "c_w6_not_assessed_or_unknown": 0,
+   "c_mutable_split": {
+    "eoa-mutable": 11,
+    "immutable": 10,
+    "dao-or-timelock-mutable": 1,
+    "multisig-mutable": 1
+   },
+   "failed_at": {
+    "tokenURI_offchain": 5,
+    "tokenURI_broken_or_other": 0,
+    "media_offchain_or_unresolved": 7,
+    "external_refs_or_render_broken": 0,
+    "known_mutation_path": 13
+   },
+   "live_pointer_power": {
+    "eoa": 11,
+    "none": 10,
+    "dao-or-timelock": 1,
+    "multisig": 1
+   },
+   "liveness_of_claimants": {
+    "alive": 33,
+    "degraded": 2
+   },
+   "tokenURI_location": {
+    "onchain-renderer": 30,
+    "http": 4,
+    "arweave": 1
+   }
+  },
+  "storage_forever": {
+   "claimants": 1,
+   "a_tokenURI_onchain": {
+    "k": 1,
+    "n": 1,
+    "pct": 100.0,
+    "ci95": [
+     20.655,
+     100.0
+    ]
+   },
+   "b_media_also_onchain": {
+    "k": 1,
+    "n": 1,
+    "pct": 100.0,
+    "ci95": [
+     20.655,
+     100.0
+    ]
+   },
+   "c_renders_unplugged_clean": {
+    "k": 1,
+    "n": 1,
+    "pct": 100.0,
+    "ci95": [
+     20.655,
+     100.0
+    ]
+   },
+   "c_of_which_render_tested_w4": 0,
+   "d_also_immutable": {
+    "k": 1,
+    "n": 1,
+    "pct": 100.0,
+    "ci95": [
+     20.655,
+     100.0
+    ]
+   },
+   "c_w6_not_assessed_or_unknown": 0,
+   "c_mutable_split": {
+    "immutable": 1
+   },
+   "failed_at": {
+    "tokenURI_offchain": 0,
+    "tokenURI_broken_or_other": 0,
+    "media_offchain_or_unresolved": 0,
+    "external_refs_or_render_broken": 0,
+    "known_mutation_path": 0
+   },
+   "live_pointer_power": {
+    "none": 1
+   },
+   "liveness_of_claimants": {
+    "alive": 1
+   },
+   "tokenURI_location": {
+    "onchain-renderer": 1
+   }
+  },
+  "random_stratum_claimants_unbiased_subset": {
+   "claimants": 15,
+   "a_tokenURI_onchain": {
+    "k": 13,
+    "n": 15,
+    "pct": 86.667,
+    "ci95": [
+     62.118,
+     96.264
+    ]
+   },
+   "b_media_also_onchain": {
+    "k": 11,
+    "n": 15,
+    "pct": 73.333,
+    "ci95": [
+     48.05,
+     89.103
+    ]
+   },
+   "c_renders_unplugged_clean": {
+    "k": 11,
+    "n": 15,
+    "pct": 73.333,
+    "ci95": [
+     48.05,
+     89.103
+    ]
+   },
+   "c_of_which_render_tested_w4": 1,
+   "d_also_immutable": {
+    "k": 5,
+    "n": 15,
+    "pct": 33.333,
+    "ci95": [
+     15.176,
+     58.286
+    ]
+   },
+   "c_w6_not_assessed_or_unknown": 0,
+   "c_mutable_split": {
+    "eoa-mutable": 6,
+    "immutable": 5
+   },
+   "failed_at": {
+    "tokenURI_offchain": 2,
+    "tokenURI_broken_or_other": 0,
+    "media_offchain_or_unresolved": 2,
+    "external_refs_or_render_broken": 0,
+    "known_mutation_path": 6
+   },
+   "live_pointer_power": {
+    "eoa": 6,
+    "none": 5
+   },
+   "liveness_of_claimants": {
+    "alive": 14,
+    "degraded": 1
+   },
+   "tokenURI_location": {
+    "onchain-renderer": 13,
+    "http": 2
+   }
+  },
+  "by_stratum": {
+   "top": 90,
+   "random": 15
+  },
+  "w6_class_final_of_claimants": {
+   "eoa-mutable": 49,
+   "immutable": 46,
+   "unknown": 5,
+   "multisig-mutable": 4,
+   "dao-or-timelock-mutable": 1
+  },
+  "claim_verdicts_site": {
+   "holds": 88,
+   "partial": 9,
+   "unverified": 8
+  },
+  "baseline_random_nonclaimants_truly_onchain": {
+   "k": 76,
+   "n": 2985,
+   "pct": 2.546,
+   "ci95": [
+    2.039,
+    3.175
+   ]
+  }
+ },
+ "claims_summary": {
+  "reviewed_collections": {
+   "value": 283,
+   "definition": "Distinct original reviewed candidate collections; every saved candidate quote was read against raw evidence."
+  },
+  "reviewed_quote_rows": {
+   "value": 518,
+   "definition": "All original quote rows for that population plus explicitly identified recovered quotes from the same raw evidence; casing duplicates remain visible."
+  },
+  "valid_quote_rows": {
+   "value": 265,
+   "definition": "Quote rows accepted under the strict project-authorship and art/metadata storage rule."
+  },
+  "claimants": {
+   "value": 160,
+   "definition": "Distinct reviewed collections with at least one accepted project-authored art/metadata storage statement."
+  },
+  "excluded_collections": {
+   "value": 123,
+   "definition": "Reviewed candidate collections with no accepted project-authored storage statement."
+  },
+  "explicit_100_fully_claimants": {
+   "value": 103,
+   "definition": "Reviewed claimants whose selected strongest accepted quote explicitly says 100%, fully, entirely or completely on-chain; storage-forever alone is excluded."
+  },
+  "claimants_repointable_one_account": {
+   "value": 81,
+   "definition": "A live, effective URI-string setter, renderer/descriptor address swap, or upgrade on the ordinary token metadata/art path, controlled by one EOA or one multisig account. Data-only edits are excluded. A multisig account may require several signatures; this does not mean one private key.",
+   "denominator": 160,
+   "pct": 50.625
+  },
+  "claimants_repointable_eoa": {
+   "value": 75,
+   "definition": "Same live-pointer definition, restricted to EOA control.",
+   "denominator": 160,
+   "pct": 46.875
+  },
+  "claimants_repointable_multisig": {
+   "value": 6,
+   "definition": "Same live-pointer definition, restricted to one multisig account.",
+   "denominator": 160,
+   "pct": 3.75
+  },
+  "explicit_repointable_one_account": {
+   "value": 53,
+   "definition": "A live, effective URI-string setter, renderer/descriptor address swap, or upgrade on the ordinary token metadata/art path, controlled by one EOA or one multisig account. Data-only edits are excluded. A multisig account may require several signatures; this does not mean one private key. Restricted to the explicit subset.",
+   "denominator": 103,
+   "pct": 51.456
+  },
+  "explicit_repointable_eoa": {
+   "value": 51,
+   "definition": "Explicit subset with live pointer control by an EOA.",
+   "denominator": 103,
+   "pct": 49.515
+  },
+  "explicit_repointable_multisig": {
+   "value": 2,
+   "definition": "Explicit subset with live pointer control by one multisig account.",
+   "denominator": 103,
+   "pct": 1.942
+  },
+  "claimants_data_mutable_only": {
+   "value": 6,
+   "definition": "Reviewed claimants classed EOA/multisig mutable but lacking live EOA/multisig pointer power; data-only edits are not repointing."
+  },
+  "explicit_data_mutable_only": {
+   "value": 5,
+   "definition": "Same data-only definition, restricted to the explicit subset."
+  },
+  "contradicted_claims": {
+   "value": 0,
+   "definition": "Saved evidence establishes that the selected project statement is false as stated, accounting for alternate data paths and its scope. Only this outcome may be called a failed claim.",
+   "denominator": 160,
+   "pct": 0.0
+  },
+  "explicit_contradicted_claims": {
+   "value": 0,
+   "definition": "Saved evidence establishes that the selected project statement is false as stated, accounting for alternate data paths and its scope. Only this outcome may be called a failed claim. Restricted to the explicit subset.",
+   "denominator": 103,
+   "pct": 0.0
+  },
+  "mutation_audit_contracts": {
+   "value": 606,
+   "definition": "Historical 606-contract mutation audit population retained to make before/after comparisons coherent; it is not the claimant denominator."
+  },
+  "audit_repointable_eoa": {
+   "value": 302,
+   "definition": "The publication definition for repointable by a single EOA: live effective pointer power, including in-path dependencies and upgrades; excludes data-only changes."
+  },
+  "audit_repointable_multisig": {
+   "value": 23,
+   "definition": "Historical mutation-audit contracts with live pointer power held by a multisig account."
+  },
+  "audit_broad_eoa_mutable": {
+   "value": 323,
+   "definition": "Diagnostic broad class: some EOA-controlled effective mutation path, including data-only edits. Must not be labelled repointable."
+  },
+  "audit_broad_eoa_without_pointer": {
+   "value": 21,
+   "definition": "Difference between the broad EOA mutation class and the narrower live-pointer EOA definition."
+  },
+  "claimants_in_census": {
+   "value": 105,
+   "definition": "Reviewed claimants with a completed census collection row; denominator for the ordinary-pointer funnel."
+  },
+  "claimants_outside_census": {
+   "value": 55,
+   "definition": "Reviewed claimants without a completed census row; scored separately with additional saved reads where available."
+  },
+  "outcome_holds": {
+   "value": 131,
+   "definition": "The selected project statement is supported for its stated art/metadata scope by the sampled saved evidence. This does not imply immutable control, successful browser rendering, or exhaustive collection coverage.",
+   "denominator": 160,
+   "pct": 81.875
+  },
+  "explicit_outcome_holds": {
+   "value": 88,
+   "definition": "The selected project statement is supported for its stated art/metadata scope by the sampled saved evidence. This does not imply immutable control, successful browser rendering, or exhaustive collection coverage. Explicit subset only.",
+   "denominator": 103,
+   "pct": 85.437
+  },
+  "outcome_onchain-data-offchain-pointer": {
+   "value": 11,
+   "definition": "Art/data bytes or creative code are evidenced on Ethereum, while ordinary tokenURI or a marketplace media/preview field points off-chain. This supports a data-storage claim and is not a false claim.",
+   "denominator": 160,
+   "pct": 6.875
+  },
+  "explicit_outcome_onchain-data-offchain-pointer": {
+   "value": 4,
+   "definition": "Art/data bytes or creative code are evidenced on Ethereum, while ordinary tokenURI or a marketplace media/preview field points off-chain. This supports a data-storage claim and is not a false claim. Explicit subset only.",
+   "denominator": 103,
+   "pct": 3.883
+  },
+  "outcome_contradicted": {
+   "value": 0,
+   "definition": "Saved evidence establishes that the selected project statement is false as stated, accounting for alternate data paths and its scope. Only this outcome may be called a failed claim.",
+   "denominator": 160,
+   "pct": 0.0
+  },
+  "explicit_outcome_contradicted": {
+   "value": 0,
+   "definition": "Saved evidence establishes that the selected project statement is false as stated, accounting for alternate data paths and its scope. Only this outcome may be called a failed claim. Explicit subset only.",
+   "denominator": 103,
+   "pct": 0.0
+  },
+  "outcome_unverifiable": {
+   "value": 18,
+   "definition": "The scoped statement is not resolved by available reads, incomplete coverage, gas limits or ambiguous wording; neither true nor false is asserted.",
+   "denominator": 160,
+   "pct": 11.25
+  },
+  "explicit_outcome_unverifiable": {
+   "value": 11,
+   "definition": "The scoped statement is not resolved by available reads, incomplete coverage, gas limits or ambiguous wording; neither true nor false is asserted. Explicit subset only.",
+   "denominator": 103,
+   "pct": 10.68
+  }
+ }
+}

@@ -1,0 +1,658 @@
+{
+ "address": "0x4e1824ca2e3dcef21d8eabcf11ccd2b5fd46774b",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:22Z",
+ "code_raw": "data/raw/rpc-mutability/0x4e1824ca2e3dcef21d8eabcf11ccd2b5fd46774b_code.json",
+ "code_len": 15196,
+ "slots": {
+  "slot0": "0x000000000000000000000000347b895ccbe5a54a0af201fe0a2121127d6056c9"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0x4e1824ca2e3dcef21d8eabcf11ccd2b5fd46774b_slots.json",
+ "verified": true,
+ "contract_name": "ChainRunnersXR",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [
+   {
+    "hash": "0x561e9bb1422961b4b87a09132b40897185c4ab0315c136ae69908855690fdf32",
+    "timestamp": "2023-02-13T04:35:23.000000Z",
+    "method": "transferOwnership",
+    "from": "0x44A2ee3bB45d002157d2508C1003A4e055D52Bc8",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 16617485,
+    "category": "ownership"
+   },
+   {
+    "hash": "0x8c71c84ff69cc4306a109bbe7ab4d6e0910fdf8747590aab76f0cb699016f174",
+    "timestamp": "2022-08-27T05:52:25.000000Z",
+    "method": "setXRRenderingContractAddress",
+    "from": "0x44A2ee3bB45d002157d2508C1003A4e055D52Bc8",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15419872,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x457b282046d4b32e8f9714b7b161609d53c5f2c60882db693b5f7119635e906f",
+    "timestamp": "2022-08-25T19:31:08.000000Z",
+    "method": "setXRRenderingContractAddress",
+    "from": "0x44A2ee3bB45d002157d2508C1003A4e055D52Bc8",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 15410915,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x5c2eb686b3cb24126cfda3eefd49fa05d97254e0d47e4e542146afb0e62aee62",
+    "timestamp": "2022-05-20T18:28:18.000000Z",
+    "method": "setXRRenderingContractAddress",
+    "from": "0x44A2ee3bB45d002157d2508C1003A4e055D52Bc8",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 14812657,
+    "category": "renderer"
+   },
+   {
+    "hash": "0xbb7f8ed7660e7c431233d42ff358383768a672498d96559d949758defc95638a",
+    "timestamp": "2022-05-20T17:48:25.000000Z",
+    "method": "reveal",
+    "from": "0x44A2ee3bB45d002157d2508C1003A4e055D52Bc8",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 14812478,
+    "category": "reveal"
+   }
+  ],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 2,
+    "first": "2022-05-20",
+    "last": "2023-02-13",
+    "last_tx": "0x561e9bb1422961b4b87a09132b40897185c4ab0315c136ae69908855690fdf32",
+    "list": [
+     {
+      "date": "2022-05-20",
+      "tx": "0x8adf2f575d2198eb4c8fafe419919655b446dd44955efe0ce663be86da8addde",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "44a2ee3bb45d002157d2508c1003a4e055d52bc8"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2023-02-13",
+      "tx": "0x561e9bb1422961b4b87a09132b40897185c4ab0315c136ae69908855690fdf32",
+      "topics": [
+       "44a2ee3bb45d002157d2508c1003a4e055d52bc8",
+       "347b895ccbe5a54a0af201fe0a2121127d6056c9"
+      ],
+      "data": "0x"
+     }
+    ]
+   }
+  },
+  "decoded": [
+   {
+    "hash": "0xbb7f8ed7660e7c431233d42ff358383768a672498d96559d949758defc95638a",
+    "timestamp": "2022-05-20T17:48:25.000000Z",
+    "method": "reveal",
+    "category": "reveal",
+    "from": "0x44A2ee3bB45d002157d2508C1003A4e055D52Bc8",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "uint256",
+      "value": "21705124049494454940711508683920497854366677698061004191240013415056994988847"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   },
+   {
+    "hash": "0x5c2eb686b3cb24126cfda3eefd49fa05d97254e0d47e4e542146afb0e62aee62",
+    "timestamp": "2022-05-20T18:28:18.000000Z",
+    "method": "setXRRenderingContractAddress",
+    "category": "renderer",
+    "from": "0x44A2ee3bB45d002157d2508C1003A4e055D52Bc8",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0x76d2d20dc9c39d683844ebb1e4428025b83914d1"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0x457b282046d4b32e8f9714b7b161609d53c5f2c60882db693b5f7119635e906f",
+    "timestamp": "2022-08-25T19:31:08.000000Z",
+    "method": "setXRRenderingContractAddress",
+    "category": "renderer",
+    "from": "0x44A2ee3bB45d002157d2508C1003A4e055D52Bc8",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0xef1a382416d93c985f68ddd610e575e6d7d2612c"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0x8c71c84ff69cc4306a109bbe7ab4d6e0910fdf8747590aab76f0cb699016f174",
+    "timestamp": "2022-08-27T05:52:25.000000Z",
+    "method": "setXRRenderingContractAddress",
+    "category": "renderer",
+    "from": "0x44A2ee3bB45d002157d2508C1003A4e055D52Bc8",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0xc0adaba35305bcff0e991f96ea1f28273e4a4502"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0x561e9bb1422961b4b87a09132b40897185c4ab0315c136ae69908855690fdf32",
+    "timestamp": "2023-02-13T04:35:23.000000Z",
+    "method": "transferOwnership",
+    "category": "ownership",
+    "from": "0x44A2ee3bB45d002157d2508C1003A4e055D52Bc8",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0x347b895ccbe5a54a0af201fe0a2121127d6056c9"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   }
+  ],
+  "ownership_transfers": [
+   {
+    "date": "2022-05-20",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0x44a2ee3bb45d002157d2508c1003a4e055d52bc8",
+    "tx": "0x8adf2f575d2198eb4c8fafe419919655b446dd44955efe0ce663be86da8addde"
+   },
+   {
+    "date": "2023-02-13",
+    "from": "0x44a2ee3bb45d002157d2508c1003a4e055d52bc8",
+    "to": "0x347b895ccbe5a54a0af201fe0a2121127d6056c9",
+    "tx": "0x561e9bb1422961b4b87a09132b40897185c4ab0315c136ae69908855690fdf32"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0x4e1824ca2e3dcef21d8eabcf11ccd2b5fd46774b_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0x347b895ccbe5a54a0af201fe0a2121127d6056c9",
+  "code_raw": "data/raw/rpc-mutability/0x347b895ccbe5a54a0af201fe0a2121127d6056c9_holdercode.json",
+  "code_len": 4944,
+  "probe_raw": "data/raw/rpc-mutability/0x347b895ccbe5a54a0af201fe0a2121127d6056c9_holderprobe.json",
+  "type": "contract-owned",
+  "owner": "0x44a2ee3bb45d002157d2508c1003a4e055d52bc8",
+  "controller": {
+   "addr": "0x44a2ee3bb45d002157d2508c1003a4e055d52bc8",
+   "code_raw": "data/raw/rpc-mutability/0x44a2ee3bb45d002157d2508c1003a4e055d52bc8_holdercode.json",
+   "type": "eoa",
+   "bs_name": null,
+   "ens": null,
+   "bs_impl_names": [],
+   "bs_tags": [],
+   "is_contract": false,
+   "creator": null,
+   "is_verified": false,
+   "bs_reputation": "ok"
+  },
+  "bs_name": "ChainRunnersBurnEvent",
+  "ens": null,
+  "bs_impl_names": [],
+  "bs_tags": [],
+  "is_contract": true,
+  "creator": "0x44A2ee3bB45d002157d2508C1003A4e055D52Bc8",
+  "is_verified": true,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "override",
+ "lock_functions": [],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [
+  {
+   "name": "setXRRenderingContractAddress",
+   "sig": "setXRRenderingContractAddress(address)",
+   "selector": "0x45481440",
+   "category": "renderer",
+   "inputs": [
+    "address"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "xrRendererContractAddress = _xrRenderingContractAddress;",
+   "writes": [
+    "xrRendererContractAddress"
+   ],
+   "effective": "yes",
+   "power": "eoa",
+   "holder_addrs": [
+    "0x347b895ccbe5a54a0af201fe0a2121127d6056c9"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x347b895ccbe5a54a0af201fe0a2121127d6056c9",
+     "type": "contract-owned",
+     "bs_name": "ChainRunnersBurnEvent",
+     "ens": null,
+     "desc": "ChainRunnersBurnEvent->eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "reveal",
+   "sig": "reveal(uint256)",
+   "selector": "0xc2ca0ac5",
+   "category": "reveal",
+   "inputs": [
+    "uint256"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "revealSeed = _revealSeed;",
+   "writes": [
+    "revealSeed"
+   ],
+   "power": "eoa",
+   "holder_addrs": [
+    "0x347b895ccbe5a54a0af201fe0a2121127d6056c9"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x347b895ccbe5a54a0af201fe0a2121127d6056c9",
+     "type": "contract-owned",
+     "bs_name": "ChainRunnersBurnEvent",
+     "ens": null,
+     "desc": "ChainRunnersBurnEvent->eoa",
+     "simple": "eoa"
+    }
+   ]
+  }
+ ],
+ "class_direct": "eoa-mutable",
+ "class_reason": "live setters (eoa): setXRRenderingContractAddress",
+ "live_mutators": [
+  "setXRRenderingContractAddress"
+ ],
+ "dependencies": [
+  {
+   "address": "0xc0adaba35305bcff0e991f96ea1f28273e4a4502",
+   "via": "xrRendererContractAddress()",
+   "in_tokenuri_path": false,
+   "via_setter": false,
+   "analysis": {
+    "address": "0xc0adaba35305bcff0e991f96ea1f28273e4a4502",
+    "verified": true,
+    "contract_name": "ChainRunnersXRRendererV2",
+    "proxy": {
+     "kind": null
+    },
+    "owner": {
+     "addr": "0x44a2ee3bb45d002157d2508c1003a4e055d52bc8",
+     "code_raw": "data/raw/rpc-mutability/0x44a2ee3bb45d002157d2508c1003a4e055d52bc8_holdercode.json",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": null,
+     "bs_impl_names": [],
+     "bs_tags": [],
+     "is_contract": false,
+     "creator": null,
+     "is_verified": false,
+     "bs_reputation": "ok"
+    },
+    "admin_fn": null,
+    "uups": false,
+    "lock_views": {},
+    "lock_flags_true": {},
+    "lock_functions": [],
+    "class_direct": "eoa-mutable",
+    "class_reason": "live setters (eoa): setXRBaseRendererContractAddress",
+    "live_mutators": [
+     "setXRBaseRendererContractAddress"
+    ],
+    "mutators": [
+     {
+      "name": "setBaseAnimationURI",
+      "sig": "setBaseAnimationURI(string)",
+      "selector": "0x741b36c0",
+      "category": "uri",
+      "inputs": [
+       "string"
+      ],
+      "gates": [
+       {
+        "type": "owner",
+        "ref": "owner"
+       }
+      ],
+      "modifiers": [
+       "onlyOwner"
+      ],
+      "body_head": "baseAnimationURI = _baseAnimationURI;",
+      "writes": [
+       "baseAnimationURI"
+      ],
+      "effective": "no",
+      "power": "eoa",
+      "holder_addrs": [
+       "0x44a2ee3bb45d002157d2508c1003a4e055d52bc8"
+      ],
+      "holder_how": [
+       "owner()"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0x44a2ee3bb45d002157d2508c1003a4e055d52bc8",
+        "type": "eoa",
+        "bs_name": null,
+        "ens": null,
+        "desc": "eoa",
+        "simple": "eoa"
+       }
+      ]
+     },
+     {
+      "name": "setBaseExternalURI",
+      "sig": "setBaseExternalURI(string)",
+      "selector": "0xf803f410",
+      "category": "uri",
+      "inputs": [
+       "string"
+      ],
+      "gates": [
+       {
+        "type": "owner",
+        "ref": "owner"
+       }
+      ],
+      "modifiers": [
+       "onlyOwner"
+      ],
+      "body_head": "_baseExternalURI = baseExternalURI;",
+      "writes": [
+       "_baseExternalURI"
+      ],
+      "effective": "no",
+      "power": "eoa",
+      "holder_addrs": [
+       "0x44a2ee3bb45d002157d2508c1003a4e055d52bc8"
+      ],
+      "holder_how": [
+       "owner()"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0x44a2ee3bb45d002157d2508c1003a4e055d52bc8",
+        "type": "eoa",
+        "bs_name": null,
+        "ens": null,
+        "desc": "eoa",
+        "simple": "eoa"
+       }
+      ]
+     },
+     {
+      "name": "setBaseImageURI",
+      "sig": "setBaseImageURI(string)",
+      "selector": "0x8647ca76",
+      "category": "uri",
+      "inputs": [
+       "string"
+      ],
+      "gates": [
+       {
+        "type": "owner",
+        "ref": "owner"
+       }
+      ],
+      "modifiers": [
+       "onlyOwner"
+      ],
+      "body_head": "baseImageURI = _baseImageURI;",
+      "writes": [
+       "baseImageURI"
+      ],
+      "effective": "no",
+      "power": "eoa",
+      "holder_addrs": [
+       "0x44a2ee3bb45d002157d2508c1003a4e055d52bc8"
+      ],
+      "holder_how": [
+       "owner()"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0x44a2ee3bb45d002157d2508c1003a4e055d52bc8",
+        "type": "eoa",
+        "bs_name": null,
+        "ens": null,
+        "desc": "eoa",
+        "simple": "eoa"
+       }
+      ]
+     },
+     {
+      "name": "setBaseModelURI",
+      "sig": "setBaseModelURI(string)",
+      "selector": "0xe168b4af",
+      "category": "uri",
+      "inputs": [
+       "string"
+      ],
+      "gates": [
+       {
+        "type": "owner",
+        "ref": "owner"
+       }
+      ],
+      "modifiers": [
+       "onlyOwner"
+      ],
+      "body_head": "baseModelURI = _baseModelURI;",
+      "writes": [
+       "baseModelURI"
+      ],
+      "effective": "no",
+      "power": "eoa",
+      "holder_addrs": [
+       "0x44a2ee3bb45d002157d2508c1003a4e055d52bc8"
+      ],
+      "holder_how": [
+       "owner()"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0x44a2ee3bb45d002157d2508c1003a4e055d52bc8",
+        "type": "eoa",
+        "bs_name": null,
+        "ens": null,
+        "desc": "eoa",
+        "simple": "eoa"
+       }
+      ]
+     },
+     {
+      "name": "setXRBaseRendererContractAddress",
+      "sig": "setXRBaseRendererContractAddress(address)",
+      "selector": "0xa8c41c68",
+      "category": "renderer",
+      "inputs": [
+       "address"
+      ],
+      "gates": [
+       {
+        "type": "owner",
+        "ref": "owner"
+       }
+      ],
+      "modifiers": [
+       "onlyOwner"
+      ],
+      "body_head": "_xrBaseRendererContractAddress = xrBaseRendererContractAddress;",
+      "writes": [
+       "_xrBaseRendererContractAddress"
+      ],
+      "effective": "yes",
+      "power": "eoa",
+      "holder_addrs": [
+       "0x44a2ee3bb45d002157d2508c1003a4e055d52bc8"
+      ],
+      "holder_how": [
+       "owner()"
+      ],
+      "unknown_gate": false,
+      "token_owner_gated": false,
+      "lock_linked": [],
+      "frozen": false,
+      "holders": [
+       {
+        "addr": "0x44a2ee3bb45d002157d2508c1003a4e055d52bc8",
+        "type": "eoa",
+        "bs_name": null,
+        "ens": null,
+        "desc": "eoa",
+        "simple": "eoa"
+       }
+      ]
+     }
+    ],
+    "history": {
+     "txs": [],
+     "events": {
+      "OwnershipTransferred(address,address)": {
+       "n": 1,
+       "first": "2022-08-27",
+       "last": "2022-08-27",
+       "last_tx": "0x56268da4e3847ca13e9e998c239f947245b865238c49234e9155dfffe272df96",
+       "list": [
+        {
+         "date": "2022-08-27",
+         "tx": "0x56268da4e3847ca13e9e998c239f947245b865238c49234e9155dfffe272df96",
+         "topics": [
+          "0000000000000000000000000000000000000000",
+          "44a2ee3bb45d002157d2508c1003a4e055d52bc8"
+         ],
+         "data": "0x"
+        }
+       ]
+      }
+     },
+     "decoded": [],
+     "ownership_transfers": [
+      {
+       "date": "2022-08-27",
+       "from": "0x0000000000000000000000000000000000000000",
+       "to": "0x44a2ee3bb45d002157d2508c1003a4e055d52bc8",
+       "tx": "0x56268da4e3847ca13e9e998c239f947245b865238c49234e9155dfffe272df96"
+      }
+     ],
+     "incomplete": false
+    },
+    "unverified_selector_hits": [],
+    "tokenuri_path": "override"
+   }
+  }
+ ],
+ "meta": {
+  "address": "0x4e1824ca2e3dcef21d8eabcf11ccd2b5fd46774b",
+  "name": "Chain Runners XR",
+  "w5_claim_strength": null,
+  "w5_claim_text": null,
+  "w5_source_type": null,
+  "w5_source_url": null,
+  "holders_count": 2441.0,
+  "in_w5": false,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": "onchain-renderer",
+  "census_media_class": "http",
+  "census_liveness": "alive",
+  "in_census_onchain": true,
+  "standard": "ERC-721",
+  "creator": "0x44a2ee3bb45d002157d2508c1003a4e055d52bc8",
+  "deploy_block": 14812438.0
+ },
+ "class_deps_all": "eoa-mutable",
+ "class_deps": "none",
+ "class_final": "eoa-mutable",
+ "pointer_power": "eoa"
+}

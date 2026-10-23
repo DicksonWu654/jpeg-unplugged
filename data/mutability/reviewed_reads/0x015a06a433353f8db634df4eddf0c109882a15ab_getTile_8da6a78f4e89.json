@@ -1,0 +1,21 @@
+{
+ "url": "https://ethereum-rpc.publicnode.com",
+ "method": "POST",
+ "request": {
+  "jsonrpc": "2.0",
+  "id": 1,
+  "method": "eth_call",
+  "params": [
+   {
+    "to": "0x015a06a433353f8db634df4eddf0c109882a15ab",
+    "data": "0xac2c8bb50000000000000000000000000000000000000000000000000000000000000001",
+    "gas": "0x8f0d180"
+   },
+   "0x1907fbb"
+  ]
+ },
+ "status": 200,
+ "retrieved_at": "2026-10-22T09:08:01Z",
+ "sha256": "59cc338152c712e9e0ec4c7b8d50f37bc2664251603df8cf35f69ff0781bb0de",
+ "response_text": "{\"jsonrpc\":\"2.0\",\"id\":1,\"error\":{\"code\":-32003,\"message\":\"EVM error: InvalidJump\"}}\n"
+}

@@ -1,0 +1,22 @@
+[
+ {
+  "t": 0.142,
+  "url": "https://onchain.invalid/",
+  "type": "document",
+  "method": "GET",
+  "frame": "about:blank",
+  "action": "served-from-chain",
+  "status": 200,
+  "bytes": null
+ },
+ {
+  "t": 0.167,
+  "url": "https://api.ipify.org/?format=json",
+  "type": "fetch",
+  "method": "GET",
+  "frame": "https://onchain.invalid/",
+  "action": "blocked",
+  "failure": "net::ERR_BLOCKED_BY_CLIENT.Inspector",
+  "status": null
+ }
+]

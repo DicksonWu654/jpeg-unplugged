@@ -1,0 +1,563 @@
+{
+  "collection": {
+    "rank": 70,
+    "source_rank": 75,
+    "name": "Opepen Edition",
+    "contract": "0x6339e5e072086621540d0362c4e3cea0d643e114",
+    "contracts": [
+      "0x6339e5e072086621540d0362c4e3cea0d643e114"
+    ],
+    "slug": "opepen-edition",
+    "volume_usd": 75869829.67,
+    "volume_source": "CryptoSlam all-time Ethereum owner-to-owner sales, wash-filtered USD",
+    "source_url": "https://web-api.cryptoslam.io/v1/sales/rank-by-volume?timeRange=all&orderBy=rank&sortDirection=asc&offset=0&limit=100&blockchainId=0&hideInscriptions=false",
+    "ranking_evidence": "data/raw/top100-api/cryptoslam-ranking-0.json",
+    "identity_evidence": "data/raw/top100-api/cryptoslam-info-opepen-edition.json",
+    "token_count": 16000,
+    "all_time_volume": 75869829.67,
+    "volume_currency": "USD",
+    "kind": "art-avatar",
+    "metadata_location": "http",
+    "metadata_classes": [
+      "http"
+    ],
+    "media_location": "mixed(http,ipfs)",
+    "primary_image_location": "mixed(http,ipfs)",
+    "media_classes": [
+      "http",
+      "ipfs"
+    ],
+    "liveness": "alive",
+    "liveness_exact": "alive",
+    "all_declared_media_liveness": "alive",
+    "metadata_failed": false,
+    "n_alive": 3,
+    "n_dead": 0,
+    "n_unknown": 0,
+    "n_degraded": 0,
+    "key_domain_or_gateway": "metadata.opepen.art; opepenai.nyc3.digitaloceanspaces.com",
+    "hosts": [
+      "metadata.opepen.art",
+      "opepenai.nyc3.digitaloceanspaces.com"
+    ],
+    "hardcoded_gateways": [],
+    "http_origin_dependency": true,
+    "uses_ipfs": true,
+    "uses_arweave": false,
+    "fully_onchain_all_declared_media": false,
+    "metadata_and_primary_image_onchain": false,
+    "mutability_class": "eoa-mutable",
+    "single_key_mutable": true,
+    "single_key_repointable": true,
+    "base_uri_or_renderer": "0x6339e5e072086621540d0362c4e3cea0d643e114.metadataRenderer() = 0xdb21d1aba4fce565b5751a38558a7596b51b5e22",
+    "control": [
+      {
+        "contract": "0x6339e5e072086621540d0362c4e3cea0d643e114",
+        "class": "eoa-mutable",
+        "pointer_power": "eoa",
+        "reason": "live setters (eoa): setMetadataRenderer,upgradeTo,upgradeToAndCall",
+        "owner": {
+          "addr": "0xc8f8e2f59dd95ff67c3d39109eca2e2a017d4c8a",
+          "code_raw": "data/raw/rpc-mutability/0xc8f8e2f59dd95ff67c3d39109eca2e2a017d4c8a_holdercode.json",
+          "type": "eoa",
+          "bs_name": null,
+          "ens": "visualizevalue.eth",
+          "bs_impl_names": [],
+          "bs_tags": [],
+          "is_contract": false,
+          "creator": null,
+          "is_verified": false,
+          "bs_reputation": "ok"
+        },
+        "proxy": {
+          "kind": "eip1967",
+          "impl": "0x5eb5babcefea846b220c82f222f00df95934f5f0",
+          "impl_verified": true,
+          "impl_name": "ERC721Drop"
+        },
+        "live_mutators": [
+          {
+            "name": "setMetadataRenderer",
+            "sig": "setMetadataRenderer(address,bytes)",
+            "category": "renderer",
+            "power": "eoa",
+            "holders": [
+              {
+                "addr": "0xc8f8e2f59dd95ff67c3d39109eca2e2a017d4c8a",
+                "type": "eoa",
+                "bs_name": null,
+                "ens": "visualizevalue.eth",
+                "desc": "eoa",
+                "simple": "eoa"
+              }
+            ],
+            "effective": "yes",
+            "reason": null
+          },
+          {
+            "name": "upgradeTo",
+            "sig": "upgradeTo(address)",
+            "category": "upgrade",
+            "power": "eoa",
+            "holders": [
+              {
+                "addr": "0xc8f8e2f59dd95ff67c3d39109eca2e2a017d4c8a",
+                "type": "eoa",
+                "bs_name": null,
+                "ens": "visualizevalue.eth",
+                "desc": "eoa",
+                "simple": "eoa"
+              }
+            ],
+            "effective": null,
+            "reason": null
+          },
+          {
+            "name": "upgradeToAndCall",
+            "sig": "upgradeToAndCall(address,bytes)",
+            "category": "upgrade",
+            "power": "eoa",
+            "holders": [
+              {
+                "addr": "0xc8f8e2f59dd95ff67c3d39109eca2e2a017d4c8a",
+                "type": "eoa",
+                "bs_name": null,
+                "ens": "visualizevalue.eth",
+                "desc": "eoa",
+                "simple": "eoa"
+              }
+            ],
+            "effective": null,
+            "reason": null
+          }
+        ],
+        "lock_flags": {},
+        "dependencies": [
+          {
+            "contract": "0xdb21d1aba4fce565b5751a38558a7596b51b5e22",
+            "via": "metadataRenderer()",
+            "class": "unknown",
+            "in_tokenuri_path": true
+          }
+        ],
+        "pointer_getters": [
+          {
+            "getter": "contractURI()",
+            "type": "string",
+            "ok": true,
+            "value": "https://metadata.opepen.art/opepen.json",
+            "error": null
+          },
+          {
+            "getter": "metadataRenderer()",
+            "type": "address",
+            "ok": true,
+            "value": "0xdb21d1aba4fce565b5751a38558a7596b51b5e22",
+            "error": null
+          }
+        ],
+        "analyzed_at": "2026-10-23T02:52:40Z",
+        "history_incomplete": false,
+        "evidence": "data/raw/top100-mutability/0x6339e5e072086621540d0362c4e3cea0d643e114.json"
+      }
+    ],
+    "samples": 3,
+    "distinct_token_ids": 3,
+    "sample_note": null,
+    "source_contracts_without_sampleable_nfts": [],
+    "ownership_scope_gaps": [],
+    "refreshed_at": "2026-10-23T03:05:04Z",
+    "opensea_rank": 35,
+    "ranking_scope_disagreement": false,
+    "metadata_adapter": false,
+    "evidence": [
+      "data/raw/top100-census/0x6339e5e072086621540d0362c4e3cea0d643e114/result.json.gz"
+    ],
+    "delivery_note": null
+  },
+  "samples": [
+    {
+      "contract": "0x6339e5e072086621540d0362c4e3cea0d643e114",
+      "token_id": "16000",
+      "sample_unit": 1,
+      "how_found": "reused census: blockscout-instances-max [recent]",
+      "metadata_location": "http",
+      "metadata_uri": "https://metadata.opepen.art/16000/metadata.json",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "metadata.opepen.art",
+          "url": "https://metadata.opepen.art/16000/metadata.json",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 2,
+          "final_url": "https://metadata.opepen.art/16000/metadata.json",
+          "content_type": "application/json; charset=utf-8",
+          "size": 543,
+          "content_length": 543,
+          "sha256": "869b2b0aef961c0827bd505a5fcc7f68f9e04b9342dba8efac26f50ca35e0f68",
+          "t": "2026-10-23T02:50:50Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "http",
+          "host": "opepenai.nyc3.digitaloceanspaces.com",
+          "gateway": null,
+          "uri": "https://opepenai.nyc3.digitaloceanspaces.com/images/316a7402-0d0f-4aa5-b846-52e653f47975.gif",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "opepenai.nyc3.digitaloceanspaces.com",
+              "url": "https://opepenai.nyc3.digitaloceanspaces.com/images/316a7402-0d0f-4aa5-b846-52e653f47975.gif",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 5,
+              "final_url": "https://opepenai.nyc3.digitaloceanspaces.com/images/316a7402-0d0f-4aa5-b846-52e653f47975.gif",
+              "content_type": "image/gif",
+              "size": 65536,
+              "content_length": 3816292,
+              "sha256": "c5be2183ff19731b5608441e6e482d5dec759c29c389a8b549f26173f199eb50",
+              "t": "2026-10-23T02:50:51Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "http",
+        "anim_class": null,
+        "image_verdict": "alive",
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "http"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "alive",
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000003e80",
+          "endpoint": "https://eth.rpc.blxrbdn.com",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x6339e5e072086621540d0362c4e3cea0d643e114/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0x6339e5e072086621540d0362c4e3cea0d643e114",
+      "token_id": "1",
+      "sample_unit": 1,
+      "how_found": "reused census: ownerOf-probe(0..15) [low]",
+      "metadata_location": "http",
+      "metadata_uri": "https://metadata.opepen.art/1/metadata.json",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "metadata.opepen.art",
+          "url": "https://metadata.opepen.art/1/metadata.json",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 4,
+          "final_url": "https://metadata.opepen.art/1/metadata.json",
+          "content_type": "application/json; charset=utf-8",
+          "size": 291,
+          "content_length": 291,
+          "sha256": "c257d73e9f309f5542aeef666e0f5befab94d2bb5531becbf3d86df32310ec33",
+          "t": "2026-10-23T02:50:51Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "ipfs",
+          "host": null,
+          "gateway": null,
+          "uri": "ipfs://QmVXvZ5Sp6aSDBrWvtJ5gZ3bwNWRqqY3iPvyF8nveWj5HF/5.png",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "magic.decentralized-content.com",
+              "url": "https://magic.decentralized-content.com/ipfs/QmVXvZ5Sp6aSDBrWvtJ5gZ3bwNWRqqY3iPvyF8nveWj5HF/5.png",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 6,
+              "final_url": "https://magic.decentralized-content.com/ipfs/QmVXvZ5Sp6aSDBrWvtJ5gZ3bwNWRqqY3iPvyF8nveWj5HF/5.png",
+              "content_type": "image/png",
+              "size": 28745,
+              "content_length": 28745,
+              "sha256": "9896ea7d0036cd71ef3b411b024bf971b4a39c768513651bd4ac4b8075446569",
+              "t": "2026-10-23T02:50:51Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "ipfs",
+        "anim_class": null,
+        "image_verdict": "alive",
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "ipfs"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "alive",
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000000001",
+          "endpoint": "https://eth.rpc.blxrbdn.com",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x6339e5e072086621540d0362c4e3cea0d643e114/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0x6339e5e072086621540d0362c4e3cea0d643e114",
+      "token_id": "8000",
+      "sample_unit": 1,
+      "how_found": "reused census: ownerOf-probe(8000..+15) [mid]",
+      "metadata_location": "http",
+      "metadata_uri": "https://metadata.opepen.art/8000/metadata.json",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "metadata.opepen.art",
+          "url": "https://metadata.opepen.art/8000/metadata.json",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 8,
+          "final_url": "https://metadata.opepen.art/8000/metadata.json",
+          "content_type": "application/json; charset=utf-8",
+          "size": 525,
+          "content_length": 525,
+          "sha256": "d1f1bf18b20cb2aa8fcae391b8e1f11fe11e4c7ac3a2ca68e03a2832c6c5b52a",
+          "t": "2026-10-23T02:50:51Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "http",
+          "host": "opepenai.nyc3.digitaloceanspaces.com",
+          "gateway": null,
+          "uri": "https://opepenai.nyc3.digitaloceanspaces.com/images/21dea8f4-a6e2-4756-892c-784335f32802.png",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "opepenai.nyc3.digitaloceanspaces.com",
+              "url": "https://opepenai.nyc3.digitaloceanspaces.com/images/21dea8f4-a6e2-4756-892c-784335f32802.png",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 9,
+              "final_url": "https://opepenai.nyc3.digitaloceanspaces.com/images/21dea8f4-a6e2-4756-892c-784335f32802.png",
+              "content_type": "image/png",
+              "size": 65536,
+              "content_length": 9354320,
+              "sha256": "e66bc9b4d9685c1e92b50c8ca220c568daccce27e21a798521d5488771a44777",
+              "t": "2026-10-23T02:50:51Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "http",
+        "anim_class": null,
+        "image_verdict": "alive",
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "http"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "alive",
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000001f40",
+          "endpoint": "https://eth.rpc.blxrbdn.com",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x6339e5e072086621540d0362c4e3cea0d643e114/evidence.jsonl.gz"
+    }
+  ],
+  "saved_packet_index": [
+    {
+      "path": "data/raw/top100-api/opensea-contract-0x6339e5e072086621540d0362c4e3cea0d643e114-attempt1-1792724322659534906.body",
+      "sha256": "e7435fbb1c5ad5f3795889b78db8f659dff6d30c6b8b48d4369204d05b353f74",
+      "retrieved_at": "2026-10-23T02:58:42Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0x6339e5e072086621540d0362c4e3cea0d643e114",
+      "method": "GET",
+      "status": 401,
+      "error": null,
+      "bytes": 70,
+      "truncated": false
+    },
+    {
+      "path": "data/raw/top100-api/opensea-contract-0x6339e5e072086621540d0362c4e3cea0d643e114-attempt1-1792724752077402422.body",
+      "sha256": "fe5719abe6bd5d76b54ca26c8f0dad25024eacc1dfa756ae63d5559e8e633e50",
+      "retrieved_at": "2026-10-23T03:05:52Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0x6339e5e072086621540d0362c4e3cea0d643e114",
+      "method": "GET",
+      "status": 200,
+      "error": null,
+      "bytes": 184,
+      "truncated": false
+    },
+    {
+      "path": "data/raw/top100-api/opensea-contract-0x6339e5e072086621540d0362c4e3cea0d643e114.json",
+      "sha256": "fe5719abe6bd5d76b54ca26c8f0dad25024eacc1dfa756ae63d5559e8e633e50",
+      "retrieved_at": "2026-10-23T03:05:52Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0x6339e5e072086621540d0362c4e3cea0d643e114",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "data/raw/top100-census/0x6339e5e072086621540d0362c4e3cea0d643e114/bodies.zip",
+      "sha256": "20e11e7830318eccf446425502710c7f30f969013495af63db7522e7032a37e9",
+      "bytes": 11914
+    },
+    {
+      "path": "data/raw/top100-census/0x6339e5e072086621540d0362c4e3cea0d643e114/evidence.jsonl.gz",
+      "sha256": "ec351a4c555c6fa4b4415f61ae4da187c901ba7eefa85cf62c58588fb6ad09e2",
+      "bytes": 1279
+    },
+    {
+      "path": "data/raw/top100-census/0x6339e5e072086621540d0362c4e3cea0d643e114/result.json.gz",
+      "sha256": "9faf2422bb3c1ea92cf06b715d0aaaf39d420f47ad3ec82c8f4bafd8ceafaba1",
+      "bytes": 1978
+    },
+    {
+      "path": "data/raw/top100-mutability/0x6339e5e072086621540d0362c4e3cea0d643e114.json",
+      "sha256": "0eb62573d9abd108c0b4f303390cd80876430a2371f5501e64c6a3b8fd9613a4",
+      "bytes": 12075
+    },
+    {
+      "path": "data/raw/top100-pointers/0x6339e5e072086621540d0362c4e3cea0d643e114/bodies.zip",
+      "sha256": "a82028deff52c1fd1cea35c35a85b0134a221a903a3d941d748946bf02da75b3",
+      "bytes": 458
+    },
+    {
+      "path": "data/raw/top100-pointers/0x6339e5e072086621540d0362c4e3cea0d643e114/evidence.jsonl.gz",
+      "sha256": "d640311df2f83d3d544ff9a3f8115c5f7cda163103a11e7f88393b8cabbee1fd",
+      "bytes": 449
+    },
+    {
+      "path": "data/raw/top100-pointers/0x6339e5e072086621540d0362c4e3cea0d643e114/result.json",
+      "sha256": "d865bd18b02958e714259de355c2a814839b453835943b3e08451b6327147481",
+      "bytes": 507
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x6339e5e072086621540d0362c4e3cea0d643e114/bodies.zip",
+      "sha256": "b8935aed87b57d74d8c03350fb8e84fb49c5cfa2a6b50beb911ddd97eefb43a0",
+      "bytes": 634
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x6339e5e072086621540d0362c4e3cea0d643e114/evidence.jsonl.gz",
+      "sha256": "12e6b0b4c89e23411efb1af7ea055162dc8a811a41cb4ccd546f3e66c56c3f0c",
+      "bytes": 691
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x6339e5e072086621540d0362c4e3cea0d643e114/result.json",
+      "sha256": "b212c46913cabef65a013aaa19cacb6e7852187199cdb821db5920d5a105b1d9",
+      "bytes": 300
+    }
+  ],
+  "interpretation": "Liveness describes sampled metadata and primary-image delivery, not permanent loss of the artwork."
+}

@@ -1,0 +1,227 @@
+{
+ "address": "0x947600ad1ad2fadf88faf7d30193d363208fc76d",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:36Z",
+ "code_raw": "data/raw/rpc-mutability/0x947600ad1ad2fadf88faf7d30193d363208fc76d_code.json",
+ "code_len": 17632,
+ "slots": {
+  "slot0": "0x536861636b6c6564000000000000000000000000000000000000000000000010"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0x947600ad1ad2fadf88faf7d30193d363208fc76d_slots.json",
+ "verified": true,
+ "contract_name": "Shackled",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [
+   {
+    "hash": "0xfd60702a709da3f78fdc87c3ac42c38aabb6058fef41de0ca64163871969d211",
+    "timestamp": "2022-02-12T15:01:00.000000Z",
+    "method": "transferOwnership",
+    "from": "0x54f38Fbabb88b69256524dbf61E101758BEFd4aE",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 14191946,
+    "category": "ownership"
+   }
+  ],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 2,
+    "first": "2022-02-08",
+    "last": "2022-02-12",
+    "last_tx": "0xfd60702a709da3f78fdc87c3ac42c38aabb6058fef41de0ca64163871969d211",
+    "list": [
+     {
+      "date": "2022-02-08",
+      "tx": "0x7f8b29dded6f28f397f306dae7717941b89ba8690266307f589699bb1ad31604",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "54f38fbabb88b69256524dbf61e101758befd4ae"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2022-02-12",
+      "tx": "0xfd60702a709da3f78fdc87c3ac42c38aabb6058fef41de0ca64163871969d211",
+      "topics": [
+       "54f38fbabb88b69256524dbf61e101758befd4ae",
+       "a0385041eb8ec23ad04a76c8a50b85ca0c7ff770"
+      ],
+      "data": "0x"
+     }
+    ]
+   }
+  },
+  "decoded": [
+   {
+    "hash": "0xfd60702a709da3f78fdc87c3ac42c38aabb6058fef41de0ca64163871969d211",
+    "timestamp": "2022-02-12T15:01:00.000000Z",
+    "method": "transferOwnership",
+    "category": "ownership",
+    "from": "0x54f38Fbabb88b69256524dbf61E101758BEFd4aE",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0xa0385041eb8ec23ad04a76c8a50b85ca0c7ff770"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   }
+  ],
+  "ownership_transfers": [
+   {
+    "date": "2022-02-08",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0x54f38fbabb88b69256524dbf61e101758befd4ae",
+    "tx": "0x7f8b29dded6f28f397f306dae7717941b89ba8690266307f589699bb1ad31604"
+   },
+   {
+    "date": "2022-02-12",
+    "from": "0x54f38fbabb88b69256524dbf61e101758befd4ae",
+    "to": "0xa0385041eb8ec23ad04a76c8a50b85ca0c7ff770",
+    "tx": "0xfd60702a709da3f78fdc87c3ac42c38aabb6058fef41de0ca64163871969d211"
+   }
+  ],
+  "incomplete": false,
+  "safe_calls": {
+   "0xa0385041eb8ec23ad04a76c8a50b85ca0c7ff770": {
+    "count": 1,
+    "calls": [
+     {
+      "date": "2022-03-04",
+      "method": "withdrawEth",
+      "category": null,
+      "params": [],
+      "tx": "0x54cbf34503e8bf39b2d9d7c68317def6c8bd95b345a9ee0856d1b8bf0a81df87",
+      "success": true,
+      "safe": "0xa0385041eb8ec23ad04a76c8a50b85ca0c7ff770",
+      "value_kinds": []
+     }
+    ]
+   }
+  }
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0x947600ad1ad2fadf88faf7d30193d363208fc76d_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0xa0385041eb8ec23ad04a76c8a50b85ca0c7ff770",
+  "code_raw": "data/raw/rpc-mutability/0xa0385041eb8ec23ad04a76c8a50b85ca0c7ff770_holdercode.json",
+  "code_len": 171,
+  "probe_raw": "data/raw/rpc-mutability/0xa0385041eb8ec23ad04a76c8a50b85ca0c7ff770_holderprobe.json",
+  "type": "safe",
+  "threshold": 3,
+  "n_owners": 4,
+  "owners": [
+   "0xe35d04383c3145ef9f097c5c0df366c276341ac9",
+   "0x2622c831c46483e67ab938d324ce432919710151",
+   "0x54f38fbabb88b69256524dbf61e101758befd4ae",
+   "0x5c7d92736a6db05b85ef1aebbc3190f05cff3008"
+  ],
+  "version": "1.3.0",
+  "bs_name": "SafeProxy",
+  "ens": null,
+  "bs_impl_names": [
+   "GnosisSafe"
+  ],
+  "bs_tags": [],
+  "is_contract": true,
+  "creator": "0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2",
+  "is_verified": true,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "override",
+ "lock_functions": [],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [
+  {
+   "name": "updateCanvasDim",
+   "sig": "updateCanvasDim(int256)",
+   "selector": "0xe5998447",
+   "category": "renderer",
+   "inputs": [
+    "int256"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "canvasDim = _canvasDim;",
+   "writes": [
+    "canvasDim"
+   ],
+   "effective": "yes",
+   "power": "multisig",
+   "holder_addrs": [
+    "0xa0385041eb8ec23ad04a76c8a50b85ca0c7ff770"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0xa0385041eb8ec23ad04a76c8a50b85ca0c7ff770",
+     "type": "safe",
+     "threshold": 3,
+     "n_owners": 4,
+     "bs_name": "SafeProxy",
+     "ens": null,
+     "desc": "safe 3/4",
+     "simple": "multisig"
+    }
+   ]
+  }
+ ],
+ "class_direct": "multisig-mutable",
+ "class_reason": "live setters (multisig): updateCanvasDim",
+ "live_mutators": [
+  "updateCanvasDim"
+ ],
+ "dependencies": [],
+ "meta": {
+  "address": "0x947600ad1ad2fadf88faf7d30193d363208fc76d",
+  "name": "Shackled Genesis",
+  "w5_claim_strength": "on-chain-generic",
+  "w5_claim_text": "The value of every single pixel in the 3D rendered image is determined via on-chain operations.",
+  "w5_source_type": "directory",
+  "w5_source_url": "https://www.fullyonchain.art/collections/shackled-genesis",
+  "holders_count": 361.0,
+  "in_w5": true,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": null,
+  "census_media_class": null,
+  "census_liveness": null,
+  "in_census_onchain": false,
+  "standard": "ERC-721",
+  "creator": "0x54f38fbabb88b69256524dbf61e101758befd4ae",
+  "deploy_block": 14165138.0
+ },
+ "class_deps_all": "none",
+ "class_deps": "none",
+ "class_final": "multisig-mutable",
+ "pointer_power": null
+}

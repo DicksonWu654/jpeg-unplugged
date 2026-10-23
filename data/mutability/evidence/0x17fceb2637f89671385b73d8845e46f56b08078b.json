@@ -1,0 +1,452 @@
+{
+ "address": "0x17fceb2637f89671385b73d8845e46f56b08078b",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:15Z",
+ "code_raw": "data/raw/rpc-mutability/0x17fceb2637f89671385b73d8845e46f56b08078b_code.json",
+ "code_len": 18090,
+ "slots": {
+  "slot0": "0x0000000000000000000000000000000000000000000000000000000000002710"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0x17fceb2637f89671385b73d8845e46f56b08078b_slots.json",
+ "verified": true,
+ "contract_name": "Indelible",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [
+   {
+    "hash": "0xd18b8d177b87ab56dbf269406381714aee50f4837e3d254a91e5866dc954ba24",
+    "timestamp": "2023-03-08T03:53:11.000000Z",
+    "method": "setRenderOfTokenId",
+    "from": "0x88A0EcF7E83968A20C3563563701F7B4164E2B42",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 16780991,
+    "category": "renderer"
+   },
+   {
+    "hash": "0x910f750457830294dcfb471e675191861d30f1e022c17b4828359c92bd147861",
+    "timestamp": "2023-03-07T20:08:35.000000Z",
+    "method": "setBaseURI",
+    "from": "0x2052051A0474fB0B98283b3F38C13b0B0B6a3677",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 16778696,
+    "category": "uri"
+   },
+   {
+    "hash": "0x8a5b7ae05e6d18541b2dc5ebba47ad5d191067b8cdf3fa119fe674efc06e028a",
+    "timestamp": "2023-03-07T19:49:35.000000Z",
+    "method": "setBanditsRenderer",
+    "from": "0x2052051A0474fB0B98283b3F38C13b0B0B6a3677",
+    "from_is_contract": true,
+    "status": "success",
+    "block": 16778601,
+    "category": "renderer"
+   }
+  ],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 1,
+    "first": "2023-03-07",
+    "last": "2023-03-07",
+    "last_tx": "0x4fe6168d6161c5a8c213fb16e13c8427b6c15428c417de46f230e60ef9f21fdb",
+    "list": [
+     {
+      "date": "2023-03-07",
+      "tx": "0x4fe6168d6161c5a8c213fb16e13c8427b6c15428c417de46f230e60ef9f21fdb",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "2052051a0474fb0b98283b3f38c13b0b0b6a3677"
+      ],
+      "data": "0x"
+     }
+    ]
+   },
+   "MetadataUpdate(uint256)": {
+    "n": 1,
+    "first": "2023-03-08",
+    "last": "2023-03-08",
+    "last_tx": "0xd18b8d177b87ab56dbf269406381714aee50f4837e3d254a91e5866dc954ba24",
+    "list": [
+     {
+      "date": "2023-03-08",
+      "tx": "0xd18b8d177b87ab56dbf269406381714aee50f4837e3d254a91e5866dc954ba24",
+      "topics": [],
+      "data": "0x00000000000000000000000000000000000000000000000000000000000007c5"
+     }
+    ]
+   },
+   "BatchMetadataUpdate(uint256,uint256)": {
+    "n": 2,
+    "first": "2023-03-07",
+    "last": "2023-03-07",
+    "last_tx": "0x910f750457830294dcfb471e675191861d30f1e022c17b4828359c92bd147861",
+    "list": [
+     {
+      "date": "2023-03-07",
+      "tx": "0x8a5b7ae05e6d18541b2dc5ebba47ad5d191067b8cdf3fa119fe674efc06e028a",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000270f"
+     },
+     {
+      "date": "2023-03-07",
+      "tx": "0x910f750457830294dcfb471e675191861d30f1e022c17b4828359c92bd147861",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000270f"
+     }
+    ]
+   }
+  },
+  "decoded": [
+   {
+    "hash": "0x8a5b7ae05e6d18541b2dc5ebba47ad5d191067b8cdf3fa119fe674efc06e028a",
+    "timestamp": "2023-03-07T19:49:35.000000Z",
+    "method": "setBanditsRenderer",
+    "category": "renderer",
+    "from": "0x2052051A0474fB0B98283b3F38C13b0B0B6a3677",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0x9abb5fdf39572347bfa6240a76add56530ff968f"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0x910f750457830294dcfb471e675191861d30f1e022c17b4828359c92bd147861",
+    "timestamp": "2023-03-07T20:08:35.000000Z",
+    "method": "setBaseURI",
+    "category": "uri",
+    "from": "0x2052051A0474fB0B98283b3F38C13b0B0B6a3677",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "string",
+      "value": "https://app.indelible.xyz/api/png/0x17fceb2637f89671385b73d8845e46f56b08078b/"
+     }
+    ],
+    "value_kinds": [
+     "http"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0xd18b8d177b87ab56dbf269406381714aee50f4837e3d254a91e5866dc954ba24",
+    "timestamp": "2023-03-08T03:53:11.000000Z",
+    "method": "setRenderOfTokenId",
+    "category": "renderer",
+    "from": "0x88A0EcF7E83968A20C3563563701F7B4164E2B42",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "uint256",
+      "value": "1989"
+     },
+     {
+      "name": "arg1",
+      "type": "bool",
+      "value": "True"
+     }
+    ],
+    "value_kinds": [],
+    "error": null
+   }
+  ],
+  "ownership_transfers": [
+   {
+    "date": "2023-03-07",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0x2052051a0474fb0b98283b3f38c13b0b0b6a3677",
+    "tx": "0x4fe6168d6161c5a8c213fb16e13c8427b6c15428c417de46f230e60ef9f21fdb"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0x17fceb2637f89671385b73d8845e46f56b08078b_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0x2052051a0474fb0b98283b3f38c13b0b0b6a3677",
+  "code_raw": "data/raw/rpc-mutability/0x2052051a0474fb0b98283b3f38c13b0b0b6a3677_holdercode.json",
+  "type": "eoa",
+  "note": "EIP-7702 delegated EOA",
+  "bs_name": null,
+  "ens": "hirsch.howdy.eth",
+  "bs_impl_names": [
+   "SemiModularAccount7702"
+  ],
+  "bs_tags": [],
+  "is_contract": true,
+  "creator": null,
+  "is_verified": true,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "override",
+ "lock_functions": [],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [
+  {
+   "name": "setBaseURI",
+   "sig": "setBaseURI(string)",
+   "selector": "0x55f804b3",
+   "category": "uri",
+   "inputs": [
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "baseURI = uri;\n        emit BatchMetadataUpdate(0, maxSupply - 1);",
+   "writes": [
+    "baseURI"
+   ],
+   "effective": "yes",
+   "power": "eoa",
+   "holder_addrs": [
+    "0x2052051a0474fb0b98283b3f38c13b0b0b6a3677"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x2052051a0474fb0b98283b3f38c13b0b0b6a3677",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": "hirsch.howdy.eth",
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "setBanditsRenderer",
+   "sig": "setBanditsRenderer(address)",
+   "selector": "0x472fa02a",
+   "category": "renderer",
+   "inputs": [
+    "address"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "banditsRenderer = banditsRendererAddress;\n        emit BatchMetadataUpdate(0, maxSupply - 1);",
+   "writes": [
+    "banditsRenderer"
+   ],
+   "effective": "yes",
+   "power": "eoa",
+   "holder_addrs": [
+    "0x2052051a0474fb0b98283b3f38c13b0b0b6a3677"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x2052051a0474fb0b98283b3f38c13b0b0b6a3677",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": "hirsch.howdy.eth",
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "setRenderOfTokenId",
+   "sig": "setRenderOfTokenId(uint256,bool)",
+   "selector": "0xdbe9875f",
+   "category": "renderer",
+   "inputs": [
+    "uint256",
+    "bool"
+   ],
+   "gates": [
+    {
+     "type": "token-owner",
+     "ref": "ownerOf"
+    }
+   ],
+   "modifiers": [],
+   "body_head": "require(msg.sender == ownerOf(tokenId), \"Not token owner\");\n        _renderTokenOffChain[tokenId] = renderOffChain;\n        emit MetadataUpdate(tokenId);",
+   "writes": [
+    "_renderTokenOffChain"
+   ],
+   "effective": "yes",
+   "power": "token-holder",
+   "holder_addrs": [],
+   "holder_how": [
+    "ownerOf"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": true,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": []
+  }
+ ],
+ "class_direct": "eoa-mutable",
+ "class_reason": "live setters (eoa): setBanditsRenderer,setBaseURI",
+ "live_mutators": [
+  "setBanditsRenderer",
+  "setBaseURI",
+  "setRenderOfTokenId"
+ ],
+ "dependencies": [
+  {
+   "address": "0x9abb5fdf39572347bfa6240a76add56530ff968f",
+   "via": "banditsRenderer()",
+   "in_tokenuri_path": false,
+   "via_setter": true,
+   "analysis": {
+    "address": "0x9abb5fdf39572347bfa6240a76add56530ff968f",
+    "verified": true,
+    "contract_name": "BanditsRenderer",
+    "proxy": {
+     "kind": null
+    },
+    "owner": {
+     "addr": "0x2052051a0474fb0b98283b3f38c13b0b0b6a3677",
+     "code_raw": "data/raw/rpc-mutability/0x2052051a0474fb0b98283b3f38c13b0b0b6a3677_holdercode.json",
+     "type": "eoa",
+     "note": "EIP-7702 delegated EOA",
+     "bs_name": null,
+     "ens": "hirsch.howdy.eth",
+     "bs_impl_names": [
+      "SemiModularAccount7702"
+     ],
+     "bs_tags": [],
+     "is_contract": true,
+     "creator": null,
+     "is_verified": true,
+     "bs_reputation": "ok"
+    },
+    "admin_fn": null,
+    "uups": false,
+    "lock_views": {},
+    "lock_flags_true": {},
+    "lock_functions": [],
+    "class_direct": "immutable",
+    "class_reason": "no uri/renderer/upgrade function in ABI and not a proxy",
+    "live_mutators": [],
+    "mutators": [],
+    "history": {},
+    "unverified_selector_hits": [],
+    "tokenuri_path": "none"
+   }
+  },
+  {
+   "address": "0x3cc6cdda760b79bafa08df41ecfa224f810dceb6",
+   "via": "constant DEFAULT_SUBSCRIPTION",
+   "in_tokenuri_path": false,
+   "via_setter": false,
+   "analysis": {
+    "address": "0x3cc6cdda760b79bafa08df41ecfa224f810dceb6",
+    "verified": true,
+    "contract_name": "OwnedRegistrant",
+    "proxy": {
+     "kind": null
+    },
+    "owner": {
+     "addr": "0xc669b5f25f03be2ac0323037cb57f49eb543657a",
+     "code_raw": "data/raw/rpc-mutability/0xc669b5f25f03be2ac0323037cb57f49eb543657a_holdercode.json",
+     "code_len": 171,
+     "probe_raw": "data/raw/rpc-mutability/0xc669b5f25f03be2ac0323037cb57f49eb543657a_holderprobe.json",
+     "type": "safe",
+     "threshold": 5,
+     "n_owners": 7,
+     "owners": [
+      "0x1049f38c6ef26b195cdaf54337e8079eea9376f1",
+      "0x59f4ec41bfdca22b4c0f1fd4b4ced52f79c3d09f",
+      "0x435949f7363093620bb0d3900180c22273f076ab",
+      "0xe80a65eb7a3018deda407e621ef5fb5b416678ca",
+      "0xb20f88febd0adc79c58982c9cc88938de81fe451",
+      "0xbf81d02f3ee59e79af3d9337a186f65c9fae39f3",
+      "0x30809f074db2fb7cfdf68b1d25cfac7c96b5fb6c"
+     ],
+     "version": "1.3.0",
+     "bs_name": "GnosisSafeProxy",
+     "ens": null,
+     "bs_impl_names": [
+      "GnosisSafe"
+     ],
+     "bs_tags": [],
+     "is_contract": true,
+     "creator": "0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2",
+     "is_verified": true,
+     "bs_reputation": "ok"
+    },
+    "admin_fn": null,
+    "uups": false,
+    "lock_views": {},
+    "lock_flags_true": {},
+    "lock_functions": [],
+    "class_direct": "immutable",
+    "class_reason": "no uri/renderer/upgrade function in ABI and not a proxy",
+    "live_mutators": [],
+    "mutators": [],
+    "history": {},
+    "unverified_selector_hits": [],
+    "tokenuri_path": "none"
+   }
+  }
+ ],
+ "meta": {
+  "address": "0x17fceb2637f89671385b73d8845e46f56b08078b",
+  "name": "OnChainBandits",
+  "w5_claim_strength": null,
+  "w5_claim_text": null,
+  "w5_source_type": null,
+  "w5_source_url": null,
+  "holders_count": 3534.0,
+  "in_w5": false,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": "onchain-renderer",
+  "census_media_class": "data-uri",
+  "census_liveness": "alive",
+  "in_census_onchain": true,
+  "standard": "ERC-721",
+  "creator": "0x2052051a0474fb0b98283b3f38c13b0b0b6a3677",
+  "deploy_block": 16778418.0
+ },
+ "class_deps_all": "immutable",
+ "class_deps": "immutable",
+ "class_final": "eoa-mutable",
+ "pointer_power": "eoa"
+}

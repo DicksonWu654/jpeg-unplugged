@@ -1,0 +1,59 @@
+{
+ "collection": "Floadmaps [ERC-1155]",
+ "slug": "floadmaps",
+ "contract": "0x1F95CFfd675F2a63455Cf693bA6C1AF63E73600A",
+ "token_id": 1,
+ "chain_method": "ERC-1155 uri(): data URI (contract-assembled)",
+ "chain_call": "uri(1)",
+ "json_name": "#1",
+ "fields": {
+  "image": "data:image/svg+xml",
+  "animation_url": null,
+  "external_url": null,
+  "json_how": "data-uri-base64"
+ },
+ "rpc": {
+  "default_public_ok": true,
+  "highgas_drpc_ok": null,
+  "highgas_blxr_ok": null,
+  "fork_ok": null,
+  "rpc": "public-default",
+  "needed_fork": false,
+  "unreadable_from_default_public_call": false,
+  "gas_estimate": null
+ },
+ "medium": "svg (image data URI)",
+ "primary": "image",
+ "source_flags": {
+  "verified": true,
+  "contract_name": "Floadmap1155",
+  "proxy": false,
+  "implementation": null,
+  "sstore2": false,
+  "ethfs": false,
+  "scripty": false,
+  "base64": true,
+  "gzip": false,
+  "data_uri": true,
+  "http_literals": [
+   "http://www.apache.org/licenses/",
+   "http://www.apache.org/licenses/LICENSE-2.0",
+   "https://api.blitmap.com/v1/metadata/",
+   "https://token-cdn-domain/",
+   "https://token-cdn-domain/000000000000000000000000000000000000000000000000000000000004cce0.json"
+  ],
+  "ipfs_literal": false,
+  "setters": [
+   "setBaseURI"
+  ]
+ },
+ "artwork_file": "artwork.svg",
+ "doc_type": "image/svg+xml; charset=utf-8",
+ "artwork_bytes": 1616,
+ "artwork_sha256": "712e8d1ba57ef74a2103df9283184f891493dbe2179ad3099c5b6aad619838dc",
+ "declared": {
+  "load": [],
+  "literals": []
+ },
+ "built_at": "2026-10-21T20:26:31Z"
+}

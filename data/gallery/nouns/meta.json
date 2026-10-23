@@ -1,0 +1,36 @@
+{
+ "collection": "Nouns",
+ "slug": "nouns",
+ "contract": "0x9C8fF314C9Bc7F6e59A9d9225Fb22946427eDC03",
+ "token_id": 1500,
+ "chain_method": "data URI: NounsDescriptorV3 inflates SSTORE2 art (heavy gas)",
+ "chain_call": "tokenURI(1500)",
+ "json_name": "Noun 1500",
+ "fields": {
+  "image": "data:image/svg+xml",
+  "animation_url": null,
+  "external_url": null,
+  "json_how": "data-uri-base64"
+ },
+ "rpc": {
+  "default_public_ok": false,
+  "highgas_drpc_ok": false,
+  "highgas_blxr_ok": false,
+  "fork_ok": true,
+  "rpc": "local anvil fork (public RPCs revert even with explicit gas)",
+  "needed_fork": true,
+  "unreadable_from_default_public_call": true,
+  "gas_estimate": 119289149
+ },
+ "medium": "svg (image data URI)",
+ "primary": "image",
+ "artwork_file": "artwork.svg",
+ "doc_type": "image/svg+xml; charset=utf-8",
+ "artwork_bytes": 8251,
+ "artwork_sha256": "cb8d66a119613bbf67c9cc99b319983a6baba47926c1771e6dcf0688be121859",
+ "declared": {
+  "load": [],
+  "literals": []
+ },
+ "built_at": "2026-10-21T20:13:26Z"
+}

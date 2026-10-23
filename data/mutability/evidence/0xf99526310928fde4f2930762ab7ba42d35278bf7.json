@@ -1,0 +1,144 @@
+{
+ "address": "0xf99526310928fde4f2930762ab7ba42d35278bf7",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:16Z",
+ "code_raw": "data/raw/rpc-mutability/0xf99526310928fde4f2930762ab7ba42d35278bf7_code.json",
+ "code_len": 19001,
+ "slots": {
+  "slot0": "0x466f726d6100000000000000000000000000000000000000000000000000000a"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0xf99526310928fde4f2930762ab7ba42d35278bf7_slots.json",
+ "verified": true,
+ "contract_name": "Forma",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [
+   {
+    "hash": "0x363c5df338ad617c008d86eaaab620dc466a44f1f8e51279fa7aa5144ab243c3",
+    "timestamp": "2026-04-14T06:45:59.000000Z",
+    "method": "renounceOwnership",
+    "from": "0xC8fFc41A2435f05dC0B6E7A25032A647F040f9eD",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 24876326,
+    "category": "ownership"
+   },
+   {
+    "hash": "0xaf8a8b94c356215a54c29dac84535819fc33552c23622a73c0bfc9cabc3acf74",
+    "timestamp": "2026-04-14T06:42:47.000000Z",
+    "method": "renounceOwnership",
+    "from": "0xC8fFc41A2435f05dC0B6E7A25032A647F040f9eD",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 24876310,
+    "category": "ownership"
+   },
+   {
+    "hash": "0x3ee61bae774beff4d2872e00e966f1d59333ac6624a0f8caa008b7e91eaa14d7",
+    "timestamp": "2026-04-14T06:42:23.000000Z",
+    "method": "renounceOwnership",
+    "from": "0xC8fFc41A2435f05dC0B6E7A25032A647F040f9eD",
+    "from_is_contract": false,
+    "status": "Reverted",
+    "block": 24876308,
+    "category": "ownership"
+   },
+   {
+    "hash": "0xecfee444670623378f76411e0ad7ccb40c1deea43d58cb62876c08d58cefe1d9",
+    "timestamp": "2026-04-14T06:38:47.000000Z",
+    "method": "renounceOwnership",
+    "from": "0x32ad230480D1D795A164C171A77d6Cef8A31E715",
+    "from_is_contract": true,
+    "status": "Reverted",
+    "block": 24876290,
+    "category": "ownership"
+   }
+  ],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 1,
+    "first": "2026-04-13",
+    "last": "2026-04-13",
+    "last_tx": "0x3e0701be7004e20a7c16fb529f6d7d4b11ba6ffcf393b7d3aefa7cf9d437b2f8",
+    "list": [
+     {
+      "date": "2026-04-13",
+      "tx": "0x3e0701be7004e20a7c16fb529f6d7d4b11ba6ffcf393b7d3aefa7cf9d437b2f8",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "7ca6d3edbefebf9e0d61e783896e00669626c761"
+      ],
+      "data": "0x"
+     }
+    ]
+   }
+  },
+  "decoded": [],
+  "ownership_transfers": [
+   {
+    "date": "2026-04-13",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0x7ca6d3edbefebf9e0d61e783896e00669626c761",
+    "tx": "0x3e0701be7004e20a7c16fb529f6d7d4b11ba6ffcf393b7d3aefa7cf9d437b2f8"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0xf99526310928fde4f2930762ab7ba42d35278bf7_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0x7ca6d3edbefebf9e0d61e783896e00669626c761",
+  "code_raw": "data/raw/rpc-mutability/0x7ca6d3edbefebf9e0d61e783896e00669626c761_holdercode.json",
+  "type": "eoa",
+  "bs_name": null,
+  "ens": null,
+  "bs_impl_names": [],
+  "bs_tags": [],
+  "is_contract": false,
+  "creator": null,
+  "is_verified": false,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "override",
+ "lock_functions": [],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [],
+ "class_direct": "immutable",
+ "class_reason": "no uri/renderer/upgrade function in ABI and not a proxy",
+ "live_mutators": [],
+ "dependencies": [],
+ "meta": {
+  "address": "0xf99526310928fde4f2930762ab7ba42d35278bf7",
+  "name": "Forma",
+  "w5_claim_strength": null,
+  "w5_claim_text": null,
+  "w5_source_type": null,
+  "w5_source_url": null,
+  "holders_count": 3145.0,
+  "in_w5": false,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": "onchain-renderer",
+  "census_media_class": "data-uri",
+  "census_liveness": "alive",
+  "in_census_onchain": true,
+  "standard": "ERC-721",
+  "creator": "0x7ca6d3edbefebf9e0d61e783896e00669626c761",
+  "deploy_block": 24874206.0
+ },
+ "class_deps_all": "none",
+ "class_deps": "none",
+ "class_final": "immutable",
+ "pointer_power": null
+}

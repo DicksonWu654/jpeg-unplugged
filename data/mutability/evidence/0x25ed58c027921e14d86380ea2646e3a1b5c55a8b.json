@@ -1,0 +1,168 @@
+{
+ "address": "0x25ed58c027921e14d86380ea2646e3a1b5c55a8b",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:06Z",
+ "code_raw": "data/raw/rpc-mutability/0x25ed58c027921e14d86380ea2646e3a1b5c55a8b_code.json",
+ "code_len": 21435,
+ "slots": {
+  "slot0": "0x4465767320666f72205265766f6c7574696f6e00000000000000000000000026"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0x25ed58c027921e14d86380ea2646e3a1b5c55a8b_slots.json",
+ "verified": true,
+ "contract_name": "Dev",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [
+   {
+    "hash": "0x5c5f2c2fe5b14f4b7ada7464432b5993d75cc6ec2860a6508a8cf642bdf6c9fd",
+    "timestamp": "2024-01-03T21:11:35.000000Z",
+    "method": "transferOwnership",
+    "from": "0x91D7a9e7C09477392290FE16c1b243E4A36d279a",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 18929417,
+    "category": "ownership"
+   }
+  ],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 2,
+    "first": "2021-09-03",
+    "last": "2024-01-03",
+    "last_tx": "0x5c5f2c2fe5b14f4b7ada7464432b5993d75cc6ec2860a6508a8cf642bdf6c9fd",
+    "list": [
+     {
+      "date": "2021-09-03",
+      "tx": "0x3d2a6a1c41380cba413d1cfd2706ebb11e1dd759d704639dd9d84c2691997330",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "91d7a9e7c09477392290fe16c1b243e4a36d279a"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2024-01-03",
+      "tx": "0x5c5f2c2fe5b14f4b7ada7464432b5993d75cc6ec2860a6508a8cf642bdf6c9fd",
+      "topics": [
+       "91d7a9e7c09477392290fe16c1b243e4a36d279a",
+       "7128f5ff32ed07ce12e6a9debe32bb40f9884b3c"
+      ],
+      "data": "0x"
+     }
+    ]
+   }
+  },
+  "decoded": [
+   {
+    "hash": "0x5c5f2c2fe5b14f4b7ada7464432b5993d75cc6ec2860a6508a8cf642bdf6c9fd",
+    "timestamp": "2024-01-03T21:11:35.000000Z",
+    "method": "transferOwnership",
+    "category": "ownership",
+    "from": "0x91D7a9e7C09477392290FE16c1b243E4A36d279a",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0x7128f5ff32ed07ce12e6a9debe32bb40f9884b3c"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   }
+  ],
+  "ownership_transfers": [
+   {
+    "date": "2021-09-03",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0x91d7a9e7c09477392290fe16c1b243e4a36d279a",
+    "tx": "0x3d2a6a1c41380cba413d1cfd2706ebb11e1dd759d704639dd9d84c2691997330"
+   },
+   {
+    "date": "2024-01-03",
+    "from": "0x91d7a9e7c09477392290fe16c1b243e4a36d279a",
+    "to": "0x7128f5ff32ed07ce12e6a9debe32bb40f9884b3c",
+    "tx": "0x5c5f2c2fe5b14f4b7ada7464432b5993d75cc6ec2860a6508a8cf642bdf6c9fd"
+   }
+  ],
+  "incomplete": false,
+  "safe_calls": {
+   "0x7128f5ff32ed07ce12e6a9debe32bb40f9884b3c": {
+    "count": 0,
+    "calls": []
+   }
+  }
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0x25ed58c027921e14d86380ea2646e3a1b5c55a8b_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0x7128f5ff32ed07ce12e6a9debe32bb40f9884b3c",
+  "code_raw": "data/raw/rpc-mutability/0x7128f5ff32ed07ce12e6a9debe32bb40f9884b3c_holdercode.json",
+  "code_len": 171,
+  "probe_raw": "data/raw/rpc-mutability/0x7128f5ff32ed07ce12e6a9debe32bb40f9884b3c_holderprobe.json",
+  "type": "safe",
+  "threshold": 3,
+  "n_owners": 5,
+  "owners": [
+   "0x9934f8ccfdf5e008ac8c07bf00582a833cd33b99",
+   "0xd35d68fe3f7ae603d984b3b17c9dfe156b973fd5",
+   "0xe0450b049f70841aec78ac6e3db7b0a753e22357",
+   "0xeffb282259291e05060927ec1205e49751a5a97a",
+   "0x6961367ef8b92c1a306a68c87add9eafd09f7787"
+  ],
+  "version": "1.3.0",
+  "bs_name": "GnosisSafeProxy",
+  "ens": "developerdao.eth",
+  "bs_impl_names": [
+   "GnosisSafe"
+  ],
+  "bs_tags": [],
+  "is_contract": true,
+  "creator": "0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2",
+  "is_verified": true,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "override",
+ "lock_functions": [],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [],
+ "class_direct": "immutable",
+ "class_reason": "no uri/renderer/upgrade function in ABI and not a proxy",
+ "live_mutators": [],
+ "dependencies": [],
+ "meta": {
+  "address": "0x25ed58c027921e14d86380ea2646e3a1b5c55a8b",
+  "name": "Devs for Revolution",
+  "w5_claim_strength": null,
+  "w5_claim_text": null,
+  "w5_source_type": null,
+  "w5_source_url": null,
+  "holders_count": 6336.0,
+  "in_w5": false,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": "onchain-renderer",
+  "census_media_class": "data-uri",
+  "census_liveness": "alive",
+  "in_census_onchain": true,
+  "standard": "ERC-721",
+  "creator": "0x91d7a9e7c09477392290fe16c1b243e4a36d279a",
+  "deploy_block": 13153967.0
+ },
+ "class_deps_all": "none",
+ "class_deps": "none",
+ "class_final": "immutable",
+ "pointer_power": null
+}

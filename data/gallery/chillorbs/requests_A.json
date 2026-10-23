@@ -1,0 +1,32 @@
+[
+ {
+  "t": 0.168,
+  "url": "https://onchain.invalid/",
+  "type": "document",
+  "method": "GET",
+  "frame": "about:blank",
+  "action": "served-from-chain",
+  "status": 200,
+  "bytes": null
+ },
+ {
+  "t": 0.193,
+  "url": "https://cdnjs.cloudflare.com/ajax/libs/seedrandom/3.0.5/seedrandom.min.js",
+  "type": "script",
+  "method": "GET",
+  "frame": "https://onchain.invalid/",
+  "action": "allowed",
+  "status": 200,
+  "bytes": 1631
+ },
+ {
+  "t": 0.197,
+  "url": "https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.min.js",
+  "type": "script",
+  "method": "GET",
+  "frame": "https://onchain.invalid/",
+  "action": "allowed",
+  "status": 200,
+  "bytes": 898364
+ }
+]

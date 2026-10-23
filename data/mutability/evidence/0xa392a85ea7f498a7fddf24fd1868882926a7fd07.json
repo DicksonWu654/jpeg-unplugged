@@ -1,0 +1,131 @@
+{
+ "address": "0xa392a85ea7f498a7fddf24fd1868882926a7fd07",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:16Z",
+ "code_raw": "data/raw/rpc-mutability/0xa392a85ea7f498a7fddf24fd1868882926a7fd07_code.json",
+ "code_len": 11196,
+ "slots": {
+  "slot0": "0x0000000000000000000000000000000000000000000000000000000000000e4e"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0xa392a85ea7f498a7fddf24fd1868882926a7fd07_slots.json",
+ "verified": true,
+ "contract_name": "FilthyGoblins",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 1,
+    "first": "2026-05-18",
+    "last": "2026-05-18",
+    "last_tx": "0xd107846819f52c32b767bb1018ec214c568a15e68ed3fbad32caf616fc056c7b",
+    "list": [
+     {
+      "date": "2026-05-18",
+      "tx": "0xd107846819f52c32b767bb1018ec214c568a15e68ed3fbad32caf616fc056c7b",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "ad7012d8b1f31f6d562f171a7360b8ce43b5cf6c"
+      ],
+      "data": "0x"
+     }
+    ]
+   }
+  },
+  "decoded": [],
+  "ownership_transfers": [
+   {
+    "date": "2026-05-18",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0xad7012d8b1f31f6d562f171a7360b8ce43b5cf6c",
+    "tx": "0xd107846819f52c32b767bb1018ec214c568a15e68ed3fbad32caf616fc056c7b"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0xa392a85ea7f498a7fddf24fd1868882926a7fd07_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0xad7012d8b1f31f6d562f171a7360b8ce43b5cf6c",
+  "code_raw": "data/raw/rpc-mutability/0xad7012d8b1f31f6d562f171a7360b8ce43b5cf6c_holdercode.json",
+  "type": "eoa",
+  "bs_name": null,
+  "ens": null,
+  "bs_impl_names": [],
+  "bs_tags": [],
+  "is_contract": false,
+  "creator": null,
+  "is_verified": false,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "override",
+ "lock_functions": [],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [],
+ "class_direct": "immutable",
+ "class_reason": "no uri/renderer/upgrade function in ABI and not a proxy",
+ "live_mutators": [],
+ "dependencies": [
+  {
+   "address": "0x271aea0775b4ff4e30303e41681a65013b96b9d4",
+   "via": "renderer()",
+   "in_tokenuri_path": true,
+   "via_setter": false,
+   "analysis": {
+    "address": "0x271aea0775b4ff4e30303e41681a65013b96b9d4",
+    "verified": true,
+    "contract_name": "FilthyGoblinsRenderer",
+    "proxy": {
+     "kind": null
+    },
+    "owner": null,
+    "admin_fn": null,
+    "uups": false,
+    "lock_views": {},
+    "lock_flags_true": {},
+    "lock_functions": [],
+    "class_direct": "immutable",
+    "class_reason": "no uri/renderer/upgrade function in ABI and not a proxy",
+    "live_mutators": [],
+    "mutators": [],
+    "history": {},
+    "unverified_selector_hits": [],
+    "tokenuri_path": "none"
+   }
+  }
+ ],
+ "meta": {
+  "address": "0xa392a85ea7f498a7fddf24fd1868882926a7fd07",
+  "name": "Filthy Goblins",
+  "w5_claim_strength": null,
+  "w5_claim_text": null,
+  "w5_source_type": null,
+  "w5_source_url": null,
+  "holders_count": 3065.0,
+  "in_w5": false,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": "onchain-renderer",
+  "census_media_class": "data-uri",
+  "census_liveness": "alive",
+  "in_census_onchain": true,
+  "standard": "ERC-721",
+  "creator": "0xad7012d8b1f31f6d562f171a7360b8ce43b5cf6c",
+  "deploy_block": 25124242.0
+ },
+ "class_deps_all": "immutable",
+ "class_deps": "immutable",
+ "class_final": "immutable",
+ "pointer_power": null
+}

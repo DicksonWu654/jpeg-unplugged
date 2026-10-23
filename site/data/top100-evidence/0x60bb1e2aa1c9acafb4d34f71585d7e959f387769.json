@@ -1,0 +1,513 @@
+{
+  "collection": {
+    "rank": 94,
+    "source_rank": 99,
+    "name": "Art Gobblers",
+    "contract": "0x60bb1e2aa1c9acafb4d34f71585d7e959f387769",
+    "contracts": [
+      "0x60bb1e2aa1c9acafb4d34f71585d7e959f387769"
+    ],
+    "slug": "art-gobblers",
+    "volume_usd": 61958191.37,
+    "volume_source": "CryptoSlam all-time Ethereum owner-to-owner sales, wash-filtered USD",
+    "source_url": "https://web-api.cryptoslam.io/v1/sales/rank-by-volume?timeRange=all&orderBy=rank&sortDirection=asc&offset=0&limit=100&blockchainId=0&hideInscriptions=false",
+    "ranking_evidence": "data/raw/top100-api/cryptoslam-ranking-0.json",
+    "identity_evidence": "data/raw/top100-api/cryptoslam-info-art-gobblers.json",
+    "token_count": 9346,
+    "all_time_volume": 61958191.37,
+    "volume_currency": "USD",
+    "kind": "art-avatar",
+    "metadata_location": "http",
+    "metadata_classes": [
+      "http"
+    ],
+    "media_location": "http",
+    "primary_image_location": "http",
+    "media_classes": [
+      "http"
+    ],
+    "liveness": "degraded",
+    "liveness_exact": "degraded",
+    "all_declared_media_liveness": "degraded",
+    "metadata_failed": true,
+    "n_alive": 2,
+    "n_dead": 1,
+    "n_unknown": 0,
+    "n_degraded": 0,
+    "key_domain_or_gateway": "nfts.artgobblers.com; storage.googleapis.com",
+    "hosts": [
+      "nfts.artgobblers.com",
+      "storage.googleapis.com"
+    ],
+    "hardcoded_gateways": [],
+    "http_origin_dependency": true,
+    "uses_ipfs": false,
+    "uses_arweave": false,
+    "fully_onchain_all_declared_media": false,
+    "metadata_and_primary_image_onchain": false,
+    "mutability_class": "immutable",
+    "single_key_mutable": false,
+    "single_key_repointable": false,
+    "base_uri_or_renderer": "0x60bb1e2aa1c9acafb4d34f71585d7e959f387769.BASE_URI() = https://nfts.artgobblers.com/api/gobblers/",
+    "control": [
+      {
+        "contract": "0x60bb1e2aa1c9acafb4d34f71585d7e959f387769",
+        "class": "immutable",
+        "pointer_power": null,
+        "reason": "no uri/renderer/upgrade function in ABI and not a proxy",
+        "owner": {
+          "addr": "0x2719e6fddd9e33c077866dac6bcdc40eb54cd4f7",
+          "code_raw": "data/raw/rpc-mutability/0x2719e6fddd9e33c077866dac6bcdc40eb54cd4f7_holdercode.json",
+          "code_len": 171,
+          "probe_raw": "data/raw/rpc-mutability/0x2719e6fddd9e33c077866dac6bcdc40eb54cd4f7_holderprobe.json",
+          "type": "safe",
+          "threshold": 2,
+          "n_owners": 5,
+          "owners": [
+            "0x504e95b66f3a784d40799f4122816f223a040ca2",
+            "0x66b2dde4ffdb99101b4d6bc1c3681cfc2c1188a6",
+            "0x700de2829a44fd5f062fe3e1c5d5988e0e99f9d1",
+            "0xc8940173b9c1b5c9dd829828db90cbbbbf3e659b",
+            "0x1c113a4c0f19022f6e9806c86db50f1da335cb0b"
+          ],
+          "version": "1.3.0",
+          "bs_name": "SafeProxy",
+          "ens": null,
+          "bs_impl_names": [
+            "GnosisSafe"
+          ],
+          "bs_tags": [],
+          "is_contract": true,
+          "creator": "0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2",
+          "is_verified": true,
+          "bs_reputation": "ok"
+        },
+        "proxy": {
+          "kind": null
+        },
+        "live_mutators": [],
+        "lock_flags": {},
+        "dependencies": [],
+        "pointer_getters": [
+          {
+            "getter": "BASE_URI()",
+            "type": "string",
+            "ok": true,
+            "value": "https://nfts.artgobblers.com/api/gobblers/",
+            "error": null
+          },
+          {
+            "getter": "UNREVEALED_URI()",
+            "type": "string",
+            "ok": true,
+            "value": "https://nfts.artgobblers.com/api/gobblers/unrevealed",
+            "error": null
+          }
+        ],
+        "analyzed_at": "2026-10-23T02:53:26Z",
+        "history_incomplete": false,
+        "evidence": "data/raw/top100-mutability/0x60bb1e2aa1c9acafb4d34f71585d7e959f387769.json"
+      }
+    ],
+    "samples": 3,
+    "distinct_token_ids": 3,
+    "sample_note": null,
+    "source_contracts_without_sampleable_nfts": [],
+    "ownership_scope_gaps": [],
+    "refreshed_at": "2026-10-23T03:05:06Z",
+    "opensea_rank": 88,
+    "ranking_scope_disagreement": false,
+    "metadata_adapter": false,
+    "evidence": [
+      "data/raw/top100-census/0x60bb1e2aa1c9acafb4d34f71585d7e959f387769/result.json.gz"
+    ],
+    "delivery_note": "Degraded, not dead: metadata and images for owned IDs 1 and 5000 load; owned ID 10000 returns http-4xx in both passes."
+  },
+  "samples": [
+    {
+      "contract": "0x60bb1e2aa1c9acafb4d34f71585d7e959f387769",
+      "token_id": "1",
+      "sample_unit": 1,
+      "how_found": "reused census: ownerOf-probe(0..15)/grid-min [low]",
+      "metadata_location": "http",
+      "metadata_uri": "https://nfts.artgobblers.com/api/gobblers/7650",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "nfts.artgobblers.com",
+          "url": "https://nfts.artgobblers.com/api/gobblers/7650",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 3,
+          "final_url": "https://nfts.artgobblers.com/api/gobblers/7650",
+          "content_type": "application/json; charset=utf-8",
+          "size": 894,
+          "content_length": null,
+          "sha256": "1cf57bfcdc06c29cece77c96b3e5d640e5eb262cddef37045e2c7dcaa43103d4",
+          "t": "2026-10-23T02:51:15Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "http",
+          "host": "storage.googleapis.com",
+          "gateway": null,
+          "uri": "https://storage.googleapis.com/gobblers.artgobblers.com/gifs/7650.gif",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "storage.googleapis.com",
+              "url": "https://storage.googleapis.com/gobblers.artgobblers.com/gifs/7650.gif",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 5,
+              "final_url": "https://storage.googleapis.com/gobblers.artgobblers.com/gifs/7650.gif",
+              "content_type": "image/gif",
+              "size": 65536,
+              "content_length": 884214,
+              "sha256": "6fba9c8d6b00bb0900366e3dc070954ee1b9fb04c0ce753e208438ff6973f00f",
+              "t": "2026-10-23T02:51:16Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "http",
+        "anim_class": null,
+        "image_verdict": "alive",
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "http"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "alive",
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000000001",
+          "endpoint": "https://eth.drpc.org",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x60bb1e2aa1c9acafb4d34f71585d7e959f387769/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0x60bb1e2aa1c9acafb4d34f71585d7e959f387769",
+      "token_id": "5000",
+      "sample_unit": 1,
+      "how_found": "reused census: ownerOf-probe(5000..+15) [mid]",
+      "metadata_location": "http",
+      "metadata_uri": "https://nfts.artgobblers.com/api/gobblers/585",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "nfts.artgobblers.com",
+          "url": "https://nfts.artgobblers.com/api/gobblers/585",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 4,
+          "final_url": "https://nfts.artgobblers.com/api/gobblers/585",
+          "content_type": "application/json; charset=utf-8",
+          "size": 906,
+          "content_length": null,
+          "sha256": "463c40548f44512eecdae9cb9f80a390013f9f890f4d88d5abfd3e51782340c1",
+          "t": "2026-10-23T02:51:16Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "http",
+          "host": "storage.googleapis.com",
+          "gateway": null,
+          "uri": "https://storage.googleapis.com/gobblers.artgobblers.com/gifs/585.gif",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "storage.googleapis.com",
+              "url": "https://storage.googleapis.com/gobblers.artgobblers.com/gifs/585.gif",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 8,
+              "final_url": "https://storage.googleapis.com/gobblers.artgobblers.com/gifs/585.gif",
+              "content_type": "image/gif",
+              "size": 65536,
+              "content_length": 2958221,
+              "sha256": "c513fd64bf86e998ea249c85c2898cd84deef5661baa223b833fc28c8ca5bada",
+              "t": "2026-10-23T02:51:16Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "http",
+        "anim_class": null,
+        "image_verdict": "alive",
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "http"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "alive",
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000001388",
+          "endpoint": "https://eth.drpc.org",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x60bb1e2aa1c9acafb4d34f71585d7e959f387769/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0x60bb1e2aa1c9acafb4d34f71585d7e959f387769",
+      "token_id": "10000",
+      "sample_unit": 1,
+      "how_found": "reused census: ownerOf-geometric-probe [recent]",
+      "metadata_location": "http",
+      "metadata_uri": "https://nfts.artgobblers.com/api/gobblers/10000",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "nfts.artgobblers.com",
+          "url": "https://nfts.artgobblers.com/api/gobblers/10000",
+          "status": 404,
+          "error_kind": null,
+          "v": "dead",
+          "reason": "http-4xx",
+          "seq": 7,
+          "final_url": "https://nfts.artgobblers.com/api/gobblers/10000",
+          "content_type": "application/json; charset=utf-8",
+          "size": 48,
+          "content_length": 48,
+          "sha256": "3822f4ccb4e618f65063126daee8d73ac06e91683c613880525143a7323999e0",
+          "t": "2026-10-23T02:51:16Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "nfts.artgobblers.com",
+          "url": "https://nfts.artgobblers.com/api/gobblers/10000",
+          "status": 404,
+          "error_kind": null,
+          "v": "dead",
+          "reason": "http-4xx",
+          "seq": 9,
+          "final_url": "https://nfts.artgobblers.com/api/gobblers/10000",
+          "content_type": "application/json; charset=utf-8",
+          "size": 48,
+          "content_length": 48,
+          "sha256": "3822f4ccb4e618f65063126daee8d73ac06e91683c613880525143a7323999e0",
+          "t": "2026-10-23T02:58:41Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        },
+        {
+          "pass": 2,
+          "gateway": "nfts.artgobblers.com",
+          "url": "https://nfts.artgobblers.com/api/gobblers/10000",
+          "status": 404,
+          "error_kind": null,
+          "v": "dead",
+          "reason": "http-4xx",
+          "seq": 10,
+          "final_url": "https://nfts.artgobblers.com/api/gobblers/10000",
+          "content_type": "application/json; charset=utf-8",
+          "size": 48,
+          "content_length": 48,
+          "sha256": "3822f4ccb4e618f65063126daee8d73ac06e91683c613880525143a7323999e0",
+          "t": "2026-10-23T03:05:05Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [],
+      "derived": {
+        "meta_verdict": "dead",
+        "meta_verdict_reason": "http-4xx",
+        "image_class": null,
+        "anim_class": null,
+        "image_verdict": null,
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {},
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "dead",
+        "liveness_reason": "http-4xx",
+        "liveness_exact": "dead",
+        "liveness_exact_reason": "http-4xx",
+        "meta_verdict_exact": "dead",
+        "image_verdict_exact": null,
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "http-4xx"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000002710",
+          "endpoint": "https://eth.drpc.org",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x60bb1e2aa1c9acafb4d34f71585d7e959f387769/evidence.jsonl.gz"
+    }
+  ],
+  "saved_packet_index": [
+    {
+      "path": "data/raw/top100-api/opensea-contract-0x60bb1e2aa1c9acafb4d34f71585d7e959f387769-attempt1-1792724339179729953.body",
+      "sha256": "e7435fbb1c5ad5f3795889b78db8f659dff6d30c6b8b48d4369204d05b353f74",
+      "retrieved_at": "2026-10-23T02:58:59Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0x60bb1e2aa1c9acafb4d34f71585d7e959f387769",
+      "method": "GET",
+      "status": 401,
+      "error": null,
+      "bytes": 70,
+      "truncated": false
+    },
+    {
+      "path": "data/raw/top100-api/opensea-contract-0x60bb1e2aa1c9acafb4d34f71585d7e959f387769-attempt1-1792724767747273493.body",
+      "sha256": "63757344d095b408291c3419d96610af40958e2cdccc46c48d0ddb5bddbdaa46",
+      "retrieved_at": "2026-10-23T03:06:07Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0x60bb1e2aa1c9acafb4d34f71585d7e959f387769",
+      "method": "GET",
+      "status": 200,
+      "error": null,
+      "bytes": 179,
+      "truncated": false
+    },
+    {
+      "path": "data/raw/top100-api/opensea-contract-0x60bb1e2aa1c9acafb4d34f71585d7e959f387769.json",
+      "sha256": "63757344d095b408291c3419d96610af40958e2cdccc46c48d0ddb5bddbdaa46",
+      "retrieved_at": "2026-10-23T03:06:07Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0x60bb1e2aa1c9acafb4d34f71585d7e959f387769",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "data/raw/top100-census/0x60bb1e2aa1c9acafb4d34f71585d7e959f387769/bodies.zip",
+      "sha256": "08da48fd29f8a746844534d05602ae4979adce2cd49dbc1234bbd9743f1de1b0",
+      "bytes": 10640
+    },
+    {
+      "path": "data/raw/top100-census/0x60bb1e2aa1c9acafb4d34f71585d7e959f387769/evidence.jsonl.gz",
+      "sha256": "f64f5e9501ae249db9002de4226b745d71225e8115e33aaec0a6f42da2c38fbd",
+      "bytes": 1793
+    },
+    {
+      "path": "data/raw/top100-census/0x60bb1e2aa1c9acafb4d34f71585d7e959f387769/result.json.gz",
+      "sha256": "a252e9f7979bfd5ae864cedac9d0a9d855d30f816479450e48855c071da8d5eb",
+      "bytes": 1744
+    },
+    {
+      "path": "data/raw/top100-mutability/0x60bb1e2aa1c9acafb4d34f71585d7e959f387769.json",
+      "sha256": "5d3d8d3760c06d52cc0e3373d65e23b6bfb7ab4768ecb04eef640cb9413b8a07",
+      "bytes": 83164
+    },
+    {
+      "path": "data/raw/top100-pointers/0x60bb1e2aa1c9acafb4d34f71585d7e959f387769/bodies.zip",
+      "sha256": "19d1d69f0fb24ecc48671754c5fb742792c605d358634499593418ab131c2b6a",
+      "bytes": 486
+    },
+    {
+      "path": "data/raw/top100-pointers/0x60bb1e2aa1c9acafb4d34f71585d7e959f387769/evidence.jsonl.gz",
+      "sha256": "34c5ebd747acee00792ef2c780b065704c19a50a3f8877ff1f557ab9f3c5e039",
+      "bytes": 453
+    },
+    {
+      "path": "data/raw/top100-pointers/0x60bb1e2aa1c9acafb4d34f71585d7e959f387769/result.json",
+      "sha256": "a31d7fb0f72eb6e797b2c5538e8625c96573bd30d6962a74c94f2bd9dd633f85",
+      "bytes": 514
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x60bb1e2aa1c9acafb4d34f71585d7e959f387769/bodies.zip",
+      "sha256": "8ae39e16a52654961f3c38f061fc00468ddd3d15af70c9e328bb54ac40a5aa91",
+      "bytes": 628
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x60bb1e2aa1c9acafb4d34f71585d7e959f387769/evidence.jsonl.gz",
+      "sha256": "897a8b259b70d8865d555ff4eac1b4a6ac4705644dd3952ecf59d94af7a8777f",
+      "bytes": 688
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x60bb1e2aa1c9acafb4d34f71585d7e959f387769/result.json",
+      "sha256": "6b78612760b40327d8a0f2060319d053babaeea21650515f265790039b6181ea",
+      "bytes": 300
+    }
+  ],
+  "interpretation": "Liveness describes sampled metadata and primary-image delivery, not permanent loss of the artwork."
+}

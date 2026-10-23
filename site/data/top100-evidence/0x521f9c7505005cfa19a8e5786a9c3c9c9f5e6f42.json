@@ -1,0 +1,608 @@
+{
+  "collection": {
+    "rank": 88,
+    "source_rank": 93,
+    "name": "Forgotten Runes Wizards Cult",
+    "contract": "0x521f9c7505005cfa19a8e5786a9c3c9c9f5e6f42",
+    "contracts": [
+      "0x521f9c7505005cfa19a8e5786a9c3c9c9f5e6f42"
+    ],
+    "slug": "forgottenruneswizardscult",
+    "volume_usd": 65177516.99,
+    "volume_source": "CryptoSlam all-time Ethereum owner-to-owner sales, wash-filtered USD",
+    "source_url": "https://web-api.cryptoslam.io/v1/sales/rank-by-volume?timeRange=all&orderBy=rank&sortDirection=asc&offset=0&limit=100&blockchainId=0&hideInscriptions=false",
+    "ranking_evidence": "data/raw/top100-api/cryptoslam-ranking-0.json",
+    "identity_evidence": "data/raw/top100-api/cryptoslam-info-forgottenruneswizardscult.json",
+    "token_count": 10000,
+    "all_time_volume": 65177516.99,
+    "volume_currency": "USD",
+    "kind": "art-avatar",
+    "metadata_location": "http",
+    "metadata_classes": [
+      "http"
+    ],
+    "media_location": "mixed(http,ipfs)",
+    "primary_image_location": "ipfs",
+    "media_classes": [
+      "http",
+      "ipfs"
+    ],
+    "liveness": "alive",
+    "liveness_exact": "alive",
+    "all_declared_media_liveness": "alive",
+    "metadata_failed": false,
+    "n_alive": 3,
+    "n_dead": 0,
+    "n_unknown": 0,
+    "n_degraded": 0,
+    "key_domain_or_gateway": "portal.forgottenrunes.com; www.forgottenrunes.com",
+    "hosts": [
+      "portal.forgottenrunes.com",
+      "www.forgottenrunes.com"
+    ],
+    "hardcoded_gateways": [],
+    "http_origin_dependency": true,
+    "uses_ipfs": true,
+    "uses_arweave": false,
+    "fully_onchain_all_declared_media": false,
+    "metadata_and_primary_image_onchain": false,
+    "mutability_class": "eoa-mutable",
+    "single_key_mutable": true,
+    "single_key_repointable": true,
+    "base_uri_or_renderer": "0x521f9c7505005cfa19a8e5786a9c3c9c9f5e6f42.baseURI() = https://portal.forgottenrunes.com/api/wizards/data/",
+    "control": [
+      {
+        "contract": "0x521f9c7505005cfa19a8e5786a9c3c9c9f5e6f42",
+        "class": "eoa-mutable",
+        "pointer_power": "eoa",
+        "reason": "live setters (eoa): setBaseURI",
+        "owner": {
+          "addr": "0xd584fe736e5aad97c437c579e884d15b17a54a51",
+          "code_raw": "data/raw/rpc-mutability/0xd584fe736e5aad97c437c579e884d15b17a54a51_holdercode.json",
+          "type": "eoa",
+          "bs_name": null,
+          "ens": null,
+          "bs_impl_names": [],
+          "bs_tags": [],
+          "is_contract": false,
+          "creator": null,
+          "is_verified": false,
+          "bs_reputation": "ok"
+        },
+        "proxy": {
+          "kind": null
+        },
+        "live_mutators": [
+          {
+            "name": "setBaseURI",
+            "sig": "setBaseURI(string)",
+            "category": "uri",
+            "power": "eoa",
+            "holders": [
+              {
+                "addr": "0xd584fe736e5aad97c437c579e884d15b17a54a51",
+                "type": "eoa",
+                "bs_name": null,
+                "ens": null,
+                "desc": "eoa",
+                "simple": "eoa"
+              }
+            ],
+            "effective": "unknown",
+            "reason": null
+          },
+          {
+            "name": "uploadWizardsImage",
+            "sig": "uploadWizardsImage(bytes)",
+            "category": "renderer",
+            "power": "unknown",
+            "holders": [],
+            "effective": "unknown",
+            "reason": null
+          }
+        ],
+        "lock_flags": {},
+        "dependencies": [],
+        "pointer_getters": [
+          {
+            "getter": "METADATA_PROVENANCE_HASH()",
+            "type": "string",
+            "ok": true,
+            "value": "",
+            "error": null
+          },
+          {
+            "getter": "baseURI()",
+            "type": "string",
+            "ok": true,
+            "value": "https://portal.forgottenrunes.com/api/wizards/data/",
+            "error": null
+          }
+        ],
+        "analyzed_at": "2026-10-21T23:43:16Z",
+        "history_incomplete": false,
+        "evidence": "data/mutability/evidence/0x521f9c7505005cfa19a8e5786a9c3c9c9f5e6f42.json"
+      }
+    ],
+    "samples": 3,
+    "distinct_token_ids": 3,
+    "sample_note": null,
+    "source_contracts_without_sampleable_nfts": [],
+    "ownership_scope_gaps": [],
+    "refreshed_at": "2026-10-23T03:05:05Z",
+    "opensea_rank": 118,
+    "ranking_scope_disagreement": false,
+    "metadata_adapter": false,
+    "evidence": [
+      "data/raw/top100-census/0x521f9c7505005cfa19a8e5786a9c3c9c9f5e6f42/result.json.gz"
+    ],
+    "delivery_note": null
+  },
+  "samples": [
+    {
+      "contract": "0x521f9c7505005cfa19a8e5786a9c3c9c9f5e6f42",
+      "token_id": "0",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(0) [low; totalSupply=9256]",
+      "metadata_location": "http",
+      "metadata_uri": "https://portal.forgottenrunes.com/api/wizards/data/0",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "portal.forgottenrunes.com",
+          "url": "https://portal.forgottenrunes.com/api/wizards/data/0",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 2,
+          "final_url": "https://portal.forgottenrunes.com/api/wizards/data/0",
+          "content_type": "application/json",
+          "size": 944,
+          "content_length": null,
+          "sha256": "c09cc953181d10675cb572fe7a684580e3a8884f9044b114f4f1c109e72595c4",
+          "t": "2026-10-23T02:51:10Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "ipfs",
+          "host": null,
+          "gateway": null,
+          "uri": "ipfs://QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/0.png",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "ipfs.raribleuserdata.com",
+              "url": "https://ipfs.raribleuserdata.com/ipfs/QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/0.png",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 7,
+              "final_url": "https://ipfs.raribleuserdata.com/ipfs/QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/0.png",
+              "content_type": "image/png",
+              "size": 5890,
+              "content_length": 5890,
+              "sha256": "9544c974ed1d5d363ac69660a01dc47a14b3d32b5482ddb601cf566ee8534da4",
+              "t": "2026-10-23T02:51:10Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        },
+        {
+          "field": "animation_url",
+          "location": "http",
+          "host": "www.forgottenrunes.com",
+          "gateway": null,
+          "uri": "https://www.forgottenrunes.com/viewer/wizards/0",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok-html",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "www.forgottenrunes.com",
+              "url": "https://www.forgottenrunes.com/viewer/wizards/0",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok-html",
+              "seq": 8,
+              "final_url": "https://www.forgottenrunes.com/viewer/wizards/0",
+              "content_type": "text/html; charset=utf-8",
+              "size": 35686,
+              "content_length": null,
+              "sha256": "f046c3464a083dfd56766d20de54837af99a5c4facde9a861651730579ff5f01",
+              "t": "2026-10-23T02:51:11Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "ipfs",
+        "anim_class": "http",
+        "image_verdict": "alive",
+        "anim_verdict": "alive",
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "ipfs",
+          "animation_url": "http"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "alive",
+        "anim_verdict_exact": "alive",
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000000000",
+          "endpoint": "https://eth.rpc.blxrbdn.com",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x521f9c7505005cfa19a8e5786a9c3c9c9f5e6f42/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0x521f9c7505005cfa19a8e5786a9c3c9c9f5e6f42",
+      "token_id": "4628",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(4628) [mid; totalSupply=9256]",
+      "metadata_location": "http",
+      "metadata_uri": "https://portal.forgottenrunes.com/api/wizards/data/4628",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "portal.forgottenrunes.com",
+          "url": "https://portal.forgottenrunes.com/api/wizards/data/4628",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 4,
+          "final_url": "https://portal.forgottenrunes.com/api/wizards/data/4628",
+          "content_type": "application/json",
+          "size": 959,
+          "content_length": null,
+          "sha256": "32c6d1c0ba0acc5952e7008f120cee87d57a182c63cc869fcf4f565c8a360242",
+          "t": "2026-10-23T02:51:11Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "ipfs",
+          "host": null,
+          "gateway": null,
+          "uri": "ipfs://QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/4628.png",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "ipfs.raribleuserdata.com",
+              "url": "https://ipfs.raribleuserdata.com/ipfs/QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/4628.png",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 9,
+              "final_url": "https://ipfs.raribleuserdata.com/ipfs/QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/4628.png",
+              "content_type": "image/png",
+              "size": 5823,
+              "content_length": 5823,
+              "sha256": "91832e4cb41195ee41ee00f579b62616717dfb80c2d76e35404633a4b95ffdf4",
+              "t": "2026-10-23T02:51:11Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        },
+        {
+          "field": "animation_url",
+          "location": "http",
+          "host": "www.forgottenrunes.com",
+          "gateway": null,
+          "uri": "https://www.forgottenrunes.com/viewer/wizards/4628",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok-html",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "www.forgottenrunes.com",
+              "url": "https://www.forgottenrunes.com/viewer/wizards/4628",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok-html",
+              "seq": 10,
+              "final_url": "https://www.forgottenrunes.com/viewer/wizards/4628",
+              "content_type": "text/html; charset=utf-8",
+              "size": 35692,
+              "content_length": null,
+              "sha256": "7a6a72c510eb91f44eb6ad766fa51608287cf732a2b09725eb1d42ef04645197",
+              "t": "2026-10-23T02:51:11Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "ipfs",
+        "anim_class": "http",
+        "image_verdict": "alive",
+        "anim_verdict": "alive",
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "ipfs",
+          "animation_url": "http"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "alive",
+        "anim_verdict_exact": "alive",
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000001214",
+          "endpoint": "https://eth.rpc.blxrbdn.com",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x521f9c7505005cfa19a8e5786a9c3c9c9f5e6f42/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0x521f9c7505005cfa19a8e5786a9c3c9c9f5e6f42",
+      "token_id": "9255",
+      "sample_unit": 1,
+      "how_found": "reused census: tokenByIndex(9255) [recent; totalSupply=9256]",
+      "metadata_location": "http",
+      "metadata_uri": "https://portal.forgottenrunes.com/api/wizards/data/9255",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "portal.forgottenrunes.com",
+          "url": "https://portal.forgottenrunes.com/api/wizards/data/9255",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 6,
+          "final_url": "https://portal.forgottenrunes.com/api/wizards/data/9255",
+          "content_type": "application/json",
+          "size": 1048,
+          "content_length": null,
+          "sha256": "001785c2a6d01df0f23140987cbec795181a82bcc933aaf51b6fa792494eb4f5",
+          "t": "2026-10-23T02:51:11Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "ipfs",
+          "host": null,
+          "gateway": null,
+          "uri": "ipfs://QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/9255.png",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "ipfs.raribleuserdata.com",
+              "url": "https://ipfs.raribleuserdata.com/ipfs/QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/9255.png",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 11,
+              "final_url": "https://ipfs.raribleuserdata.com/ipfs/QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/9255.png",
+              "content_type": "image/png",
+              "size": 6399,
+              "content_length": 6399,
+              "sha256": "8744d22a8d785ef62c2fe3a7986c6f26113b176f8287264b83051bacd7f0398a",
+              "t": "2026-10-23T02:51:11Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        },
+        {
+          "field": "animation_url",
+          "location": "http",
+          "host": "www.forgottenrunes.com",
+          "gateway": null,
+          "uri": "https://www.forgottenrunes.com/viewer/wizards/9255",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok-html",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "www.forgottenrunes.com",
+              "url": "https://www.forgottenrunes.com/viewer/wizards/9255",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok-html",
+              "seq": 12,
+              "final_url": "https://www.forgottenrunes.com/viewer/wizards/9255",
+              "content_type": "text/html; charset=utf-8",
+              "size": 35692,
+              "content_length": null,
+              "sha256": "381e0a8f5d733f4fd7095f7338cbc7539da41bb8971e13b77148712cd9f36c98",
+              "t": "2026-10-23T02:51:13Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "ipfs",
+        "anim_class": "http",
+        "image_verdict": "alive",
+        "anim_verdict": "alive",
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "ipfs",
+          "animation_url": "http"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "alive",
+        "anim_verdict_exact": "alive",
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000002427",
+          "endpoint": "https://eth.rpc.blxrbdn.com",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x521f9c7505005cfa19a8e5786a9c3c9c9f5e6f42/evidence.jsonl.gz"
+    }
+  ],
+  "saved_packet_index": [
+    {
+      "path": "data/raw/top100-api/opensea-contract-0x521f9c7505005cfa19a8e5786a9c3c9c9f5e6f42-attempt1-1792724334755693251.body",
+      "sha256": "796981aa7f1da516f20ea287596b40bfe6fb2b9561390013c1253744e476cd74",
+      "retrieved_at": "2026-10-23T02:58:54Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0x521f9c7505005cfa19a8e5786a9c3c9c9f5e6f42",
+      "method": "GET",
+      "status": 200,
+      "error": null,
+      "bytes": 209,
+      "truncated": false
+    },
+    {
+      "path": "data/raw/top100-api/opensea-contract-0x521f9c7505005cfa19a8e5786a9c3c9c9f5e6f42.json",
+      "sha256": "796981aa7f1da516f20ea287596b40bfe6fb2b9561390013c1253744e476cd74",
+      "retrieved_at": "2026-10-23T02:58:54Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0x521f9c7505005cfa19a8e5786a9c3c9c9f5e6f42",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "data/mutability/evidence/0x521f9c7505005cfa19a8e5786a9c3c9c9f5e6f42.json",
+      "sha256": "ce9621c51184ce6fe70af8e9b2bf691a9f901c8c9c228abb3a10ce8e4e3ec621",
+      "bytes": 10030
+    },
+    {
+      "path": "data/raw/top100-census/0x521f9c7505005cfa19a8e5786a9c3c9c9f5e6f42/bodies.zip",
+      "sha256": "82187accb2a377341f9371ea7b9b35e3fefbdfeb8b86f9b7822087446ac3f383",
+      "bytes": 14212
+    },
+    {
+      "path": "data/raw/top100-census/0x521f9c7505005cfa19a8e5786a9c3c9c9f5e6f42/evidence.jsonl.gz",
+      "sha256": "2bd248d8a6a187ac78d856b258eb2f57985c87d5ea01782c100ac081ac4416b1",
+      "bytes": 1455
+    },
+    {
+      "path": "data/raw/top100-census/0x521f9c7505005cfa19a8e5786a9c3c9c9f5e6f42/result.json.gz",
+      "sha256": "f6ad9e84b5310aec6054f65f127665d3281816cbf4f2f25f408168d486016803",
+      "bytes": 2235
+    },
+    {
+      "path": "data/raw/top100-pointers/0x521f9c7505005cfa19a8e5786a9c3c9c9f5e6f42/bodies.zip",
+      "sha256": "be1b7c0c40c7958b1541642666157dee93956e3fbdc38120c9e44097182398d0",
+      "bytes": 451
+    },
+    {
+      "path": "data/raw/top100-pointers/0x521f9c7505005cfa19a8e5786a9c3c9c9f5e6f42/evidence.jsonl.gz",
+      "sha256": "7e64b003ffae308e5835b00c485303cbf729bd167d13fd8b4b44fb0407eb73f0",
+      "bytes": 466
+    },
+    {
+      "path": "data/raw/top100-pointers/0x521f9c7505005cfa19a8e5786a9c3c9c9f5e6f42/result.json",
+      "sha256": "e9c3ee2bb008c9b798799122da4ddc9e3538189fee699fb2fb4efba8fd806506",
+      "bytes": 478
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x521f9c7505005cfa19a8e5786a9c3c9c9f5e6f42/bodies.zip",
+      "sha256": "0e47d5a321a2348adf3b868f13a8e6073216e86668b5fc727eb6f6fcb153a6aa",
+      "bytes": 632
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x521f9c7505005cfa19a8e5786a9c3c9c9f5e6f42/evidence.jsonl.gz",
+      "sha256": "e1187bf4675ce18b6ced0119460231fe29af91158d6d19ff90ce6ae10d30e096",
+      "bytes": 690
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x521f9c7505005cfa19a8e5786a9c3c9c9f5e6f42/result.json",
+      "sha256": "c5626075274312c62f542a8175beecd3d4ddb0af8229d8b420d5d80eb403d90f",
+      "bytes": 299
+    }
+  ],
+  "interpretation": "Liveness describes sampled metadata and primary-image delivery, not permanent loss of the artwork."
+}

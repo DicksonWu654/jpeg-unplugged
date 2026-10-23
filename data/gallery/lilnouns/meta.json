@@ -1,0 +1,36 @@
+{
+ "collection": "Lil Nouns",
+ "slug": "lilnouns",
+ "contract": "0x4b10701Bfd7BFEdc47d50562b76b436fbB5BdB3B",
+ "token_id": 1500,
+ "chain_method": "data URI: Nouns-fork descriptor (heavy gas)",
+ "chain_call": "tokenURI(1500)",
+ "json_name": "Lil Noun 1500",
+ "fields": {
+  "image": "data:image/svg+xml",
+  "animation_url": null,
+  "external_url": null,
+  "json_how": "data-uri-base64"
+ },
+ "rpc": {
+  "default_public_ok": false,
+  "highgas_drpc_ok": false,
+  "highgas_blxr_ok": false,
+  "fork_ok": true,
+  "rpc": "local anvil fork (public RPCs revert even with explicit gas)",
+  "needed_fork": true,
+  "unreadable_from_default_public_call": true,
+  "gas_estimate": 110003480
+ },
+ "medium": "svg (image data URI)",
+ "primary": "image",
+ "artwork_file": "artwork.svg",
+ "doc_type": "image/svg+xml; charset=utf-8",
+ "artwork_bytes": 8450,
+ "artwork_sha256": "a7a0e5cccc4143b45b4b1ac4d250d8c0e481b9f62c8a63bc334395e2893f6d23",
+ "declared": {
+  "load": [],
+  "literals": []
+ },
+ "built_at": "2026-10-21T20:13:32Z"
+}

@@ -1,0 +1,10 @@
+<html>
+<head>
+<style>#c{o:h;d:b;m:0 a}</style>
+</head>
+<body>
+<script>function gP(ip){var ca=document.createElement("canvas");ca.width=window.innerWidth/1;ca.height=window.innerHeight/1;document.body.appendChild(ca);var ctx=ca.getContext("2d");var o=ip.split(".");var a=o[0]%256;var b=o[1]%256;var c=o[2]%256;var d=o[3]%256;var c1="hsl("+(a*b)%360+",100%,50%)";var c2="hsl("+(b*c)%270+",100%,50%)";var c3="hsl("+(c*d)%270+",100%,50%)";var sC="hsl("+(a+b)%180+",100%,50%)";var s=Math.floor((a+b+c-d)%2);var si=Math.floor((a+b/c+d)%50)+10;var sg=Math.floor((a+b+c+d)%50)+20;var t=0;setInterval(function(){ctx.clearRect(0,0,ca.width,ca.height);for(var i=0;i<ca.width;i+=sg){for(var j=0;j<ca.height;j+=sg){var x=i+si*Math.sin((i+j+t)/10);var y=j+si*Math.cos((i+j+t)/10);var g=ctx.createRadialGradient(x,y,1,x,y,si);g.addColorStop(0,c1);g.addColorStop(1,c2);ctx.fillStyle=g;if(s===0){ctx.beginPath();ctx.arc(x,y,si,0,2*Math.PI);ctx.fill();ctx.stroke();ctx.strokeStyle=sC;}
+else{ctx.beginPath();ctx.moveTo(x+si*Math.cos(0),y+si*Math.sin(0));for(var ag=0;ag<7;ag++){ctx.lineTo(x+si*Math.cos(ag*2*Math.PI/6),y+si*Math.sin(ag*2*Math.PI/6));}
+ctx.fill();ctx.stroke();ctx.strokeStyle=sC;}}}
+t+=0.03;},16);}
+const ipElem=document.getElementById("ip");let ip="";fetch("https://api.ipify.org?format=json").then(res=>res.json()).then(data=>{ip=data.ip;gP(ip);});</script></body></html>

@@ -1,0 +1,651 @@
+{
+  "collection": {
+    "rank": 63,
+    "source_rank": 66,
+    "name": "Potatoz",
+    "contract": "0x39ee2c7b3cb80254225884ca001f57118c8f21b6",
+    "contracts": [
+      "0x39ee2c7b3cb80254225884ca001f57118c8f21b6"
+    ],
+    "slug": "potatoz",
+    "volume_usd": 88815630.03,
+    "volume_source": "CryptoSlam all-time Ethereum owner-to-owner sales, wash-filtered USD",
+    "source_url": "https://web-api.cryptoslam.io/v1/sales/rank-by-volume?timeRange=all&orderBy=rank&sortDirection=asc&offset=0&limit=100&blockchainId=0&hideInscriptions=false",
+    "ranking_evidence": "data/raw/top100-api/cryptoslam-ranking-0.json",
+    "identity_evidence": "data/raw/top100-api/cryptoslam-info-potatoz.json",
+    "token_count": 9999,
+    "all_time_volume": 88815630.03,
+    "volume_currency": "USD",
+    "kind": "art-avatar",
+    "metadata_location": "http",
+    "metadata_classes": [
+      "http"
+    ],
+    "media_location": "http",
+    "primary_image_location": "http",
+    "media_classes": [
+      "http"
+    ],
+    "liveness": "alive",
+    "liveness_exact": "alive",
+    "all_declared_media_liveness": "alive",
+    "metadata_failed": false,
+    "n_alive": 3,
+    "n_dead": 0,
+    "n_unknown": 0,
+    "n_degraded": 0,
+    "key_domain_or_gateway": "grow-api.memeland.com",
+    "hosts": [
+      "grow-api.memeland.com"
+    ],
+    "hardcoded_gateways": [],
+    "http_origin_dependency": true,
+    "uses_ipfs": false,
+    "uses_arweave": false,
+    "fully_onchain_all_declared_media": false,
+    "metadata_and_primary_image_onchain": false,
+    "mutability_class": "eoa-mutable",
+    "single_key_mutable": true,
+    "single_key_repointable": true,
+    "base_uri_or_renderer": "0x39ee2c7b3cb80254225884ca001f57118c8f21b6.baseTokenURI() = https://grow-api.memeland.com/token/metadata/",
+    "control": [
+      {
+        "contract": "0x39ee2c7b3cb80254225884ca001f57118c8f21b6",
+        "class": "eoa-mutable",
+        "pointer_power": "eoa",
+        "reason": "live setters (eoa): changeAdmin,setBaseURI,setTokenURIOverride,setTokenURISuffix,upgradeTo,upgradeToAndCall",
+        "owner": {
+          "addr": "0x1c593c369136264abfb908b4b20e74c9a5949417",
+          "code_raw": "data/raw/rpc-mutability/0x1c593c369136264abfb908b4b20e74c9a5949417_holdercode.json",
+          "type": "eoa",
+          "bs_name": null,
+          "ens": "memeland.eth",
+          "bs_impl_names": [],
+          "bs_tags": [],
+          "is_contract": false,
+          "creator": null,
+          "is_verified": false,
+          "bs_reputation": "ok"
+        },
+        "proxy": {
+          "kind": "eip1967",
+          "impl": "0x7f0dc7328b92455e6f545f099851ad704049f5b5",
+          "impl_verified": true,
+          "impl_name": "Potatoz",
+          "admin": {
+            "addr": "0x72115c0c35fb0cf9dad52fcc6f9f55b6b61cdeb1",
+            "code_raw": "data/raw/rpc-mutability/0x72115c0c35fb0cf9dad52fcc6f9f55b6b61cdeb1_holdercode.json",
+            "code_len": 1640,
+            "probe_raw": "data/raw/rpc-mutability/0x72115c0c35fb0cf9dad52fcc6f9f55b6b61cdeb1_holderprobe.json",
+            "type": "contract-owned",
+            "owner": "0x105e8dd64d13b960ff082b1fb342e357f9168cd3",
+            "controller": {
+              "addr": "0x105e8dd64d13b960ff082b1fb342e357f9168cd3",
+              "code_raw": "data/raw/rpc-mutability/0x105e8dd64d13b960ff082b1fb342e357f9168cd3_holdercode.json",
+              "type": "eoa",
+              "bs_name": null,
+              "ens": null,
+              "bs_impl_names": [],
+              "bs_tags": [],
+              "is_contract": false,
+              "creator": null,
+              "is_verified": false,
+              "bs_reputation": "ok"
+            },
+            "bs_name": "ProxyAdmin",
+            "ens": null,
+            "bs_impl_names": [],
+            "bs_tags": [],
+            "is_contract": true,
+            "creator": "0x105E8dd64D13b960fF082B1fB342e357F9168Cd3",
+            "is_verified": true,
+            "bs_reputation": "ok"
+          }
+        },
+        "live_mutators": [
+          {
+            "name": "setBaseURI",
+            "sig": "setBaseURI(string)",
+            "category": "uri",
+            "power": "eoa",
+            "holders": [
+              {
+                "addr": "0x1c593c369136264abfb908b4b20e74c9a5949417",
+                "type": "eoa",
+                "bs_name": null,
+                "ens": "memeland.eth",
+                "desc": "eoa",
+                "simple": "eoa"
+              }
+            ],
+            "effective": "yes",
+            "reason": null
+          },
+          {
+            "name": "setTokenURIOverride",
+            "sig": "setTokenURIOverride(string)",
+            "category": "uri",
+            "power": "eoa",
+            "holders": [
+              {
+                "addr": "0x1c593c369136264abfb908b4b20e74c9a5949417",
+                "type": "eoa",
+                "bs_name": null,
+                "ens": "memeland.eth",
+                "desc": "eoa",
+                "simple": "eoa"
+              }
+            ],
+            "effective": "yes",
+            "reason": null
+          },
+          {
+            "name": "setTokenURISuffix",
+            "sig": "setTokenURISuffix(string)",
+            "category": "uri",
+            "power": "eoa",
+            "holders": [
+              {
+                "addr": "0x1c593c369136264abfb908b4b20e74c9a5949417",
+                "type": "eoa",
+                "bs_name": null,
+                "ens": "memeland.eth",
+                "desc": "eoa",
+                "simple": "eoa"
+              }
+            ],
+            "effective": "yes",
+            "reason": null
+          },
+          {
+            "name": "changeAdmin",
+            "sig": "changeAdmin(address)",
+            "category": "upgrade",
+            "power": "eoa",
+            "holders": [
+              {
+                "addr": "0x72115c0c35fb0cf9dad52fcc6f9f55b6b61cdeb1",
+                "type": "contract-owned",
+                "bs_name": "ProxyAdmin",
+                "ens": null,
+                "desc": "ProxyAdmin->eoa",
+                "simple": "eoa"
+              }
+            ],
+            "effective": null,
+            "reason": null
+          },
+          {
+            "name": "upgradeTo",
+            "sig": "upgradeTo(address)",
+            "category": "upgrade",
+            "power": "eoa",
+            "holders": [
+              {
+                "addr": "0x72115c0c35fb0cf9dad52fcc6f9f55b6b61cdeb1",
+                "type": "contract-owned",
+                "bs_name": "ProxyAdmin",
+                "ens": null,
+                "desc": "ProxyAdmin->eoa",
+                "simple": "eoa"
+              }
+            ],
+            "effective": null,
+            "reason": null
+          },
+          {
+            "name": "upgradeToAndCall",
+            "sig": "upgradeToAndCall(address,bytes)",
+            "category": "upgrade",
+            "power": "eoa",
+            "holders": [
+              {
+                "addr": "0x72115c0c35fb0cf9dad52fcc6f9f55b6b61cdeb1",
+                "type": "contract-owned",
+                "bs_name": "ProxyAdmin",
+                "ens": null,
+                "desc": "ProxyAdmin->eoa",
+                "simple": "eoa"
+              }
+            ],
+            "effective": null,
+            "reason": null
+          }
+        ],
+        "lock_flags": {},
+        "dependencies": [
+          {
+            "contract": "0x3cc6cdda760b79bafa08df41ecfa224f810dceb6",
+            "via": "constant DEFAULT_SUBSCRIPTION",
+            "class": "immutable",
+            "in_tokenuri_path": false
+          }
+        ],
+        "pointer_getters": [
+          {
+            "getter": "baseTokenURI()",
+            "type": "string",
+            "ok": true,
+            "value": "https://grow-api.memeland.com/token/metadata/",
+            "error": null
+          },
+          {
+            "getter": "tokenURIOverride()",
+            "type": "string",
+            "ok": true,
+            "value": "",
+            "error": null
+          },
+          {
+            "getter": "tokenURISuffix()",
+            "type": "string",
+            "ok": true,
+            "value": ".json",
+            "error": null
+          }
+        ],
+        "analyzed_at": "2026-10-23T02:52:21Z",
+        "history_incomplete": false,
+        "evidence": "data/raw/top100-mutability/0x39ee2c7b3cb80254225884ca001f57118c8f21b6.json"
+      }
+    ],
+    "samples": 3,
+    "distinct_token_ids": 3,
+    "sample_note": null,
+    "source_contracts_without_sampleable_nfts": [],
+    "ownership_scope_gaps": [],
+    "refreshed_at": "2026-10-23T03:05:04Z",
+    "opensea_rank": 59,
+    "ranking_scope_disagreement": false,
+    "metadata_adapter": false,
+    "evidence": [
+      "data/raw/top100-census/0x39ee2c7b3cb80254225884ca001f57118c8f21b6/result.json.gz"
+    ],
+    "delivery_note": null
+  },
+  "samples": [
+    {
+      "contract": "0x39ee2c7b3cb80254225884ca001f57118c8f21b6",
+      "token_id": "0",
+      "sample_unit": 1,
+      "how_found": "reused census: ownerOf-probe(0..15)/grid-min [low]",
+      "metadata_location": "http",
+      "metadata_uri": "https://grow-api.memeland.com/token/metadata/0.json",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "grow-api.memeland.com",
+          "url": "https://grow-api.memeland.com/token/metadata/0.json",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 2,
+          "final_url": "https://grow-api.memeland.com/token/metadata/0.json",
+          "content_type": "application/json; charset=utf-8",
+          "size": 247,
+          "content_length": null,
+          "sha256": "3fdb085e7f0404fee1654cee16bb7134ca959ea9732efdd65d575d96dad65ebb",
+          "t": "2026-10-23T02:50:48Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "http",
+          "host": "grow-api.memeland.com",
+          "gateway": null,
+          "uri": "https://grow-api.memeland.com/token/images/0.gif",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "grow-api.memeland.com",
+              "url": "https://grow-api.memeland.com/token/images/0.gif",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 4,
+              "final_url": "https://grow-api.memeland.com/token/images/0.gif",
+              "content_type": "image/gif",
+              "size": 65536,
+              "content_length": 149201,
+              "sha256": "1119c7ac8139036fc8aa2662a6c4aca1c152be03e814ec6b3a0c1082c180b232",
+              "t": "2026-10-23T02:50:49Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "http",
+        "anim_class": null,
+        "image_verdict": "alive",
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "http"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "alive",
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000000000",
+          "endpoint": "https://eth.drpc.org",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x39ee2c7b3cb80254225884ca001f57118c8f21b6/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0x39ee2c7b3cb80254225884ca001f57118c8f21b6",
+      "token_id": "4999",
+      "sample_unit": 1,
+      "how_found": "reused census: ownerOf-probe(4999..+15) [mid]",
+      "metadata_location": "http",
+      "metadata_uri": "https://grow-api.memeland.com/token/metadata/4999.json",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "grow-api.memeland.com",
+          "url": "https://grow-api.memeland.com/token/metadata/4999.json",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 6,
+          "final_url": "https://grow-api.memeland.com/token/metadata/4999.json",
+          "content_type": "application/json; charset=utf-8",
+          "size": 349,
+          "content_length": null,
+          "sha256": "54c6109e061d6a21df7233200289d25ee9e0f58f082d392be1463d6e7d107e38",
+          "t": "2026-10-23T02:50:49Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "http",
+          "host": "grow-api.memeland.com",
+          "gateway": null,
+          "uri": "https://grow-api.memeland.com/token/images/4999.gif",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "grow-api.memeland.com",
+              "url": "https://grow-api.memeland.com/token/images/4999.gif",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 8,
+              "final_url": "https://grow-api.memeland.com/token/images/4999.gif",
+              "content_type": "image/gif",
+              "size": 65536,
+              "content_length": 217400,
+              "sha256": "ff87ad0b8107be1c1c68a7bbaaf1f68461be1637f97e91efb5fb3748fb2b249f",
+              "t": "2026-10-23T02:50:49Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "http",
+        "anim_class": null,
+        "image_verdict": "alive",
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "http"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "alive",
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000001387",
+          "endpoint": "https://eth.drpc.org",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x39ee2c7b3cb80254225884ca001f57118c8f21b6/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0x39ee2c7b3cb80254225884ca001f57118c8f21b6",
+      "token_id": "9998",
+      "sample_unit": 1,
+      "how_found": "reused census: ownerOf-probe(totalSupply=9999) [recent]",
+      "metadata_location": "http",
+      "metadata_uri": "https://grow-api.memeland.com/token/metadata/9998.json",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "grow-api.memeland.com",
+          "url": "https://grow-api.memeland.com/token/metadata/9998.json",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 7,
+          "final_url": "https://grow-api.memeland.com/token/metadata/9998.json",
+          "content_type": "application/json; charset=utf-8",
+          "size": 346,
+          "content_length": null,
+          "sha256": "3c7114d3ba7f6647445813aef4fad198febab27fb6c7701d45c7f835119c89c1",
+          "t": "2026-10-23T02:50:49Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "http",
+          "host": "grow-api.memeland.com",
+          "gateway": null,
+          "uri": "https://grow-api.memeland.com/token/images/9998.gif",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "grow-api.memeland.com",
+              "url": "https://grow-api.memeland.com/token/images/9998.gif",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 9,
+              "final_url": "https://grow-api.memeland.com/token/images/9998.gif",
+              "content_type": "image/gif",
+              "size": 65536,
+              "content_length": 154110,
+              "sha256": "d6e64a29f8049fb62ea9fdb84baa71009676c0aa179870c6ff2663b5098acc6d",
+              "t": "2026-10-23T02:50:49Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "http",
+        "anim_class": null,
+        "image_verdict": "alive",
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "http"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "alive",
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd000000000000000000000000000000000000000000000000000000000000270e",
+          "endpoint": "https://eth.drpc.org",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x39ee2c7b3cb80254225884ca001f57118c8f21b6/evidence.jsonl.gz"
+    }
+  ],
+  "saved_packet_index": [
+    {
+      "path": "data/raw/top100-api/opensea-contract-0x39ee2c7b3cb80254225884ca001f57118c8f21b6-attempt1-1792724316646333002.body",
+      "sha256": "e7435fbb1c5ad5f3795889b78db8f659dff6d30c6b8b48d4369204d05b353f74",
+      "retrieved_at": "2026-10-23T02:58:36Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0x39ee2c7b3cb80254225884ca001f57118c8f21b6",
+      "method": "GET",
+      "status": 401,
+      "error": null,
+      "bytes": 70,
+      "truncated": false
+    },
+    {
+      "path": "data/raw/top100-api/opensea-contract-0x39ee2c7b3cb80254225884ca001f57118c8f21b6-attempt1-1792724748071561563.body",
+      "sha256": "ddec9c72cc2d1351b38a2a02fae20d2571b160c4f1545c85da1e10b4dbb0da8e",
+      "retrieved_at": "2026-10-23T03:05:48Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0x39ee2c7b3cb80254225884ca001f57118c8f21b6",
+      "method": "GET",
+      "status": 200,
+      "error": null,
+      "bytes": 187,
+      "truncated": false
+    },
+    {
+      "path": "data/raw/top100-api/opensea-contract-0x39ee2c7b3cb80254225884ca001f57118c8f21b6.json",
+      "sha256": "ddec9c72cc2d1351b38a2a02fae20d2571b160c4f1545c85da1e10b4dbb0da8e",
+      "retrieved_at": "2026-10-23T03:05:48Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0x39ee2c7b3cb80254225884ca001f57118c8f21b6",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "data/raw/top100-census/0x39ee2c7b3cb80254225884ca001f57118c8f21b6/bodies.zip",
+      "sha256": "d4081a2f95ba5759ec7f1f819dc06df2c275653b8edb0964fbf64ea0a315bb50",
+      "bytes": 14278
+    },
+    {
+      "path": "data/raw/top100-census/0x39ee2c7b3cb80254225884ca001f57118c8f21b6/evidence.jsonl.gz",
+      "sha256": "d106803c3864ae1c4c096fd6158d4b5a4c18060938c34e5910d73a6df4ca0da3",
+      "bytes": 1118
+    },
+    {
+      "path": "data/raw/top100-census/0x39ee2c7b3cb80254225884ca001f57118c8f21b6/result.json.gz",
+      "sha256": "40414fb9bf9d0256684083559c46c96980d8d7e9a49dc7997822ff8081fdfece",
+      "bytes": 1657
+    },
+    {
+      "path": "data/raw/top100-mutability/0x39ee2c7b3cb80254225884ca001f57118c8f21b6.json",
+      "sha256": "2c495a60a718d423f40cefc20fc1993ff495fcc4d828d2a1aae2b71917a10b35",
+      "bytes": 34449
+    },
+    {
+      "path": "data/raw/top100-pointers/0x39ee2c7b3cb80254225884ca001f57118c8f21b6/bodies.zip",
+      "sha256": "66f1df4e86a8b244f8b18defbfc5bddbe3f419c3ecd9e91df404a2d3280193c0",
+      "bytes": 628
+    },
+    {
+      "path": "data/raw/top100-pointers/0x39ee2c7b3cb80254225884ca001f57118c8f21b6/evidence.jsonl.gz",
+      "sha256": "487697aa6e5dde347a0a28e79262970ef0338463663648319da4eeed67f84cef",
+      "bytes": 532
+    },
+    {
+      "path": "data/raw/top100-pointers/0x39ee2c7b3cb80254225884ca001f57118c8f21b6/result.json",
+      "sha256": "74eca86f368367750812562a9a7871a6aefe2bb17f2101f361e52cf4a2c2fccb",
+      "bytes": 587
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x39ee2c7b3cb80254225884ca001f57118c8f21b6/bodies.zip",
+      "sha256": "c2275329358336960824cb9bbbb4992b8a93e21f47ee624d63656a91d7d48357",
+      "bytes": 630
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x39ee2c7b3cb80254225884ca001f57118c8f21b6/evidence.jsonl.gz",
+      "sha256": "5216c024158a3fa6ba025b9527874c7462881e8326b767cd68b767b1214d51c3",
+      "bytes": 691
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x39ee2c7b3cb80254225884ca001f57118c8f21b6/result.json",
+      "sha256": "357ea3125101f8a12b65cc4788c786ea142372425de4199f2a5e5adae6fe2416",
+      "bytes": 299
+    }
+  ],
+  "interpretation": "Liveness describes sampled metadata and primary-image delivery, not permanent loss of the artwork."
+}

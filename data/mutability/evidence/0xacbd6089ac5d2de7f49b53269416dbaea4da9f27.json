@@ -1,0 +1,528 @@
+{
+ "address": "0xacbd6089ac5d2de7f49b53269416dbaea4da9f27",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:29Z",
+ "code_raw": "data/raw/rpc-mutability/0xacbd6089ac5d2de7f49b53269416dbaea4da9f27_code.json",
+ "code_len": 13035,
+ "slots": {},
+ "slots_raw": "data/raw/rpc-mutability/0xacbd6089ac5d2de7f49b53269416dbaea4da9f27_slots.json",
+ "verified": true,
+ "contract_name": "ZooOfNeuralAutomata",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [
+   {
+    "hash": "0xc9c0299766c87dbacc511fdc79c0d99f9a1d705e1dd5634169d5a16bc04c1276",
+    "timestamp": "2023-02-06T04:33:23.000000Z",
+    "method": "updateBaseURI",
+    "from": "0x0aa0Bc25769C52e623D09A9764e079A221BeA2a1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 16567382,
+    "category": "uri"
+   },
+   {
+    "hash": "0xde7094b937d14e2e98e748480b5d8b116e2af1f2a4db7b04959167c69a8b0946",
+    "timestamp": "2023-02-03T03:01:11.000000Z",
+    "method": "transferOwnership",
+    "from": "0x966685481e52B636ea474aa5C6ffB0cA20A7Caf0",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 16545445,
+    "category": "ownership"
+   },
+   {
+    "hash": "0x27d2dfcb24ce3fa4002cb922105f7a2a267727d4d62c2eaabcf449d8fe55a277",
+    "timestamp": "2023-02-03T03:00:35.000000Z",
+    "method": "transferOwnership",
+    "from": "0x0aa0Bc25769C52e623D09A9764e079A221BeA2a1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 16545442,
+    "category": "ownership"
+   },
+   {
+    "hash": "0xaec216d2678ae9a43c117ba0bb387b9c37b75da2ee95deb2ed30c745e1f97502",
+    "timestamp": "2023-01-29T00:00:23.000000Z",
+    "method": "transferOwnership",
+    "from": "0x966685481e52B636ea474aa5C6ffB0cA20A7Caf0",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 16508759,
+    "category": "ownership"
+   },
+   {
+    "hash": "0x44e58c6e55cedc4b99a638dcde3272195a30d6f8e2dfa84bdca35295f5e3a7ec",
+    "timestamp": "2023-01-28T23:59:35.000000Z",
+    "method": "transferOwnership",
+    "from": "0x0aa0Bc25769C52e623D09A9764e079A221BeA2a1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 16508755,
+    "category": "ownership"
+   },
+   {
+    "hash": "0x4f93280f57597dae7dac59be9848bc90940fd2bfb5783c8a30063e185d27d58e",
+    "timestamp": "2023-01-25T01:12:59.000000Z",
+    "method": "transferOwnership",
+    "from": "0x966685481e52B636ea474aa5C6ffB0cA20A7Caf0",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 16480476,
+    "category": "ownership"
+   },
+   {
+    "hash": "0x7b10463c60837db5201c272160239b332c204b3a8db51142621c1af7379613a8",
+    "timestamp": "2023-01-25T01:11:35.000000Z",
+    "method": "transferOwnership",
+    "from": "0x0aa0Bc25769C52e623D09A9764e079A221BeA2a1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 16480469,
+    "category": "ownership"
+   },
+   {
+    "hash": "0xc2629fb3b4378dd0be62f52028e34dae6035f622490deb49f72bd7999833a3d3",
+    "timestamp": "2023-01-22T14:59:11.000000Z",
+    "method": "transferOwnership",
+    "from": "0x966685481e52B636ea474aa5C6ffB0cA20A7Caf0",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 16463094,
+    "category": "ownership"
+   },
+   {
+    "hash": "0x0f1e892635f2a0096e6e510e839e88ab438603c5cdf1f5da5bd7ccbf7721f5c3",
+    "timestamp": "2023-01-22T14:52:47.000000Z",
+    "method": "transferOwnership",
+    "from": "0x0aa0Bc25769C52e623D09A9764e079A221BeA2a1",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 16463062,
+    "category": "ownership"
+   },
+   {
+    "hash": "0x5d348a2dd4c39a0070794b69df2309e658ef1fd4623f55ab92d501133407e0dc",
+    "timestamp": "2023-01-14T22:11:47.000000Z",
+    "method": "transferOwnership",
+    "from": "0x966685481e52B636ea474aa5C6ffB0cA20A7Caf0",
+    "from_is_contract": false,
+    "status": "success",
+    "block": 16407949,
+    "category": "ownership"
+   }
+  ],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 10,
+    "first": "2023-01-14",
+    "last": "2023-02-03",
+    "last_tx": "0xde7094b937d14e2e98e748480b5d8b116e2af1f2a4db7b04959167c69a8b0946",
+    "list": [
+     {
+      "date": "2023-01-14",
+      "tx": "0x38c2e02a2af62be1ffbf074337c8ec48e1aacf8963463a2cb5cbfe6aeca790d6",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "966685481e52b636ea474aa5c6ffb0ca20a7caf0"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2023-01-14",
+      "tx": "0x5d348a2dd4c39a0070794b69df2309e658ef1fd4623f55ab92d501133407e0dc",
+      "topics": [
+       "966685481e52b636ea474aa5c6ffb0ca20a7caf0",
+       "0aa0bc25769c52e623d09a9764e079a221bea2a1"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2023-01-22",
+      "tx": "0x0f1e892635f2a0096e6e510e839e88ab438603c5cdf1f5da5bd7ccbf7721f5c3",
+      "topics": [
+       "0aa0bc25769c52e623d09a9764e079a221bea2a1",
+       "966685481e52b636ea474aa5c6ffb0ca20a7caf0"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2023-01-22",
+      "tx": "0xc2629fb3b4378dd0be62f52028e34dae6035f622490deb49f72bd7999833a3d3",
+      "topics": [
+       "966685481e52b636ea474aa5c6ffb0ca20a7caf0",
+       "0aa0bc25769c52e623d09a9764e079a221bea2a1"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2023-01-25",
+      "tx": "0x7b10463c60837db5201c272160239b332c204b3a8db51142621c1af7379613a8",
+      "topics": [
+       "0aa0bc25769c52e623d09a9764e079a221bea2a1",
+       "966685481e52b636ea474aa5c6ffb0ca20a7caf0"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2023-01-25",
+      "tx": "0x4f93280f57597dae7dac59be9848bc90940fd2bfb5783c8a30063e185d27d58e",
+      "topics": [
+       "966685481e52b636ea474aa5c6ffb0ca20a7caf0",
+       "0aa0bc25769c52e623d09a9764e079a221bea2a1"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2023-01-28",
+      "tx": "0x44e58c6e55cedc4b99a638dcde3272195a30d6f8e2dfa84bdca35295f5e3a7ec",
+      "topics": [
+       "0aa0bc25769c52e623d09a9764e079a221bea2a1",
+       "966685481e52b636ea474aa5c6ffb0ca20a7caf0"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2023-01-29",
+      "tx": "0xaec216d2678ae9a43c117ba0bb387b9c37b75da2ee95deb2ed30c745e1f97502",
+      "topics": [
+       "966685481e52b636ea474aa5c6ffb0ca20a7caf0",
+       "0aa0bc25769c52e623d09a9764e079a221bea2a1"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2023-02-03",
+      "tx": "0x27d2dfcb24ce3fa4002cb922105f7a2a267727d4d62c2eaabcf449d8fe55a277",
+      "topics": [
+       "0aa0bc25769c52e623d09a9764e079a221bea2a1",
+       "966685481e52b636ea474aa5c6ffb0ca20a7caf0"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2023-02-03",
+      "tx": "0xde7094b937d14e2e98e748480b5d8b116e2af1f2a4db7b04959167c69a8b0946",
+      "topics": [
+       "966685481e52b636ea474aa5c6ffb0ca20a7caf0",
+       "0aa0bc25769c52e623d09a9764e079a221bea2a1"
+      ],
+      "data": "0x"
+     }
+    ]
+   },
+   "URI(string,uint256)": {
+    "n": 0
+   }
+  },
+  "decoded": [
+   {
+    "hash": "0xc9c0299766c87dbacc511fdc79c0d99f9a1d705e1dd5634169d5a16bc04c1276",
+    "timestamp": "2023-02-06T04:33:23.000000Z",
+    "method": "updateBaseURI",
+    "category": "uri",
+    "from": "0x0aa0Bc25769C52e623D09A9764e079A221BeA2a1",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "uint256",
+      "value": "4"
+     },
+     {
+      "name": "arg1",
+      "type": "string",
+      "value": "{\"name\":\"Spaces\",\"image\":\"ipfs://QmWW6rUgoBCUBxhRKD1Qt3v3vfaEUupJuxYTKywHwVyLKL\",\"animation_url\":"
+     }
+    ],
+    "value_kinds": [
+     "other"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0xaec216d2678ae9a43c117ba0bb387b9c37b75da2ee95deb2ed30c745e1f97502",
+    "timestamp": "2023-01-29T00:00:23.000000Z",
+    "method": "transferOwnership",
+    "category": "ownership",
+    "from": "0x966685481e52B636ea474aa5C6ffB0cA20A7Caf0",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0x0aa0bc25769c52e623d09a9764e079a221bea2a1"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0x27d2dfcb24ce3fa4002cb922105f7a2a267727d4d62c2eaabcf449d8fe55a277",
+    "timestamp": "2023-02-03T03:00:35.000000Z",
+    "method": "transferOwnership",
+    "category": "ownership",
+    "from": "0x0aa0Bc25769C52e623D09A9764e079A221BeA2a1",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0x966685481e52b636ea474aa5c6ffb0ca20a7caf0"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   },
+   {
+    "hash": "0xde7094b937d14e2e98e748480b5d8b116e2af1f2a4db7b04959167c69a8b0946",
+    "timestamp": "2023-02-03T03:01:11.000000Z",
+    "method": "transferOwnership",
+    "category": "ownership",
+    "from": "0x966685481e52B636ea474aa5C6ffB0cA20A7Caf0",
+    "params": [
+     {
+      "name": "arg0",
+      "type": "address",
+      "value": "0x0aa0bc25769c52e623d09a9764e079a221bea2a1"
+     }
+    ],
+    "value_kinds": [
+     "address"
+    ],
+    "error": null
+   }
+  ],
+  "ownership_transfers": [
+   {
+    "date": "2023-01-22",
+    "from": "0x0aa0bc25769c52e623d09a9764e079a221bea2a1",
+    "to": "0x966685481e52b636ea474aa5c6ffb0ca20a7caf0",
+    "tx": "0x0f1e892635f2a0096e6e510e839e88ab438603c5cdf1f5da5bd7ccbf7721f5c3"
+   },
+   {
+    "date": "2023-01-22",
+    "from": "0x966685481e52b636ea474aa5c6ffb0ca20a7caf0",
+    "to": "0x0aa0bc25769c52e623d09a9764e079a221bea2a1",
+    "tx": "0xc2629fb3b4378dd0be62f52028e34dae6035f622490deb49f72bd7999833a3d3"
+   },
+   {
+    "date": "2023-01-25",
+    "from": "0x0aa0bc25769c52e623d09a9764e079a221bea2a1",
+    "to": "0x966685481e52b636ea474aa5c6ffb0ca20a7caf0",
+    "tx": "0x7b10463c60837db5201c272160239b332c204b3a8db51142621c1af7379613a8"
+   },
+   {
+    "date": "2023-01-25",
+    "from": "0x966685481e52b636ea474aa5c6ffb0ca20a7caf0",
+    "to": "0x0aa0bc25769c52e623d09a9764e079a221bea2a1",
+    "tx": "0x4f93280f57597dae7dac59be9848bc90940fd2bfb5783c8a30063e185d27d58e"
+   },
+   {
+    "date": "2023-01-28",
+    "from": "0x0aa0bc25769c52e623d09a9764e079a221bea2a1",
+    "to": "0x966685481e52b636ea474aa5c6ffb0ca20a7caf0",
+    "tx": "0x44e58c6e55cedc4b99a638dcde3272195a30d6f8e2dfa84bdca35295f5e3a7ec"
+   },
+   {
+    "date": "2023-01-29",
+    "from": "0x966685481e52b636ea474aa5c6ffb0ca20a7caf0",
+    "to": "0x0aa0bc25769c52e623d09a9764e079a221bea2a1",
+    "tx": "0xaec216d2678ae9a43c117ba0bb387b9c37b75da2ee95deb2ed30c745e1f97502"
+   },
+   {
+    "date": "2023-02-03",
+    "from": "0x0aa0bc25769c52e623d09a9764e079a221bea2a1",
+    "to": "0x966685481e52b636ea474aa5c6ffb0ca20a7caf0",
+    "tx": "0x27d2dfcb24ce3fa4002cb922105f7a2a267727d4d62c2eaabcf449d8fe55a277"
+   },
+   {
+    "date": "2023-02-03",
+    "from": "0x966685481e52b636ea474aa5c6ffb0ca20a7caf0",
+    "to": "0x0aa0bc25769c52e623d09a9764e079a221bea2a1",
+    "tx": "0xde7094b937d14e2e98e748480b5d8b116e2af1f2a4db7b04959167c69a8b0946"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0xacbd6089ac5d2de7f49b53269416dbaea4da9f27_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0x0aa0bc25769c52e623d09a9764e079a221bea2a1",
+  "code_raw": "data/raw/rpc-mutability/0x0aa0bc25769c52e623d09a9764e079a221bea2a1_holdercode.json",
+  "type": "eoa",
+  "bs_name": null,
+  "ens": "quaq.eth",
+  "bs_impl_names": [],
+  "bs_tags": [],
+  "is_contract": false,
+  "creator": null,
+  "is_verified": false,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "override",
+ "lock_functions": [
+  "freeze"
+ ],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [
+  {
+   "name": "updateBaseURI",
+   "sig": "updateBaseURI(uint256,string)",
+   "selector": "0x817234fa",
+   "category": "uri",
+   "inputs": [
+    "uint256",
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner",
+    "onlyUnfrozen(_id)"
+   ],
+   "body_head": "tokenBaseURI[_id] = _baseURI;",
+   "writes": [
+    "tokenBaseURI"
+   ],
+   "effective": "yes",
+   "power": "eoa",
+   "holder_addrs": [
+    "0x0aa0bc25769c52e623d09a9764e079a221bea2a1"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x0aa0bc25769c52e623d09a9764e079a221bea2a1",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": "quaq.eth",
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  },
+  {
+   "name": "updateContractURI",
+   "sig": "updateContractURI(string)",
+   "selector": "0x7e5b1e24",
+   "category": "contracturi",
+   "inputs": [
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "owner",
+     "ref": "owner"
+    }
+   ],
+   "modifiers": [
+    "onlyOwner"
+   ],
+   "body_head": "contractURI = _contractURI;",
+   "writes": [
+    "contractURI"
+   ],
+   "power": "eoa",
+   "holder_addrs": [
+    "0x0aa0bc25769c52e623d09a9764e079a221bea2a1"
+   ],
+   "holder_how": [
+    "owner()"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x0aa0bc25769c52e623d09a9764e079a221bea2a1",
+     "type": "eoa",
+     "bs_name": null,
+     "ens": "quaq.eth",
+     "desc": "eoa",
+     "simple": "eoa"
+    }
+   ]
+  }
+ ],
+ "class_direct": "eoa-mutable",
+ "class_reason": "live setters (eoa): updateBaseURI",
+ "live_mutators": [
+  "updateBaseURI"
+ ],
+ "dependencies": [
+  {
+   "address": "0xf464bd061c88f0b19f88e76f76fc88d38d03ac94",
+   "via": "engine()",
+   "in_tokenuri_path": true,
+   "via_setter": false,
+   "analysis": {
+    "address": "0xf464bd061c88f0b19f88e76f76fc88d38d03ac94",
+    "verified": true,
+    "contract_name": "NeuralAutomataEngine",
+    "proxy": {
+     "kind": null
+    },
+    "owner": null,
+    "admin_fn": null,
+    "uups": false,
+    "lock_views": {},
+    "lock_flags_true": {},
+    "lock_functions": [],
+    "class_direct": "immutable",
+    "class_reason": "no uri/renderer/upgrade function in ABI and not a proxy",
+    "live_mutators": [],
+    "mutators": [],
+    "history": {},
+    "unverified_selector_hits": [],
+    "tokenuri_path": "none"
+   }
+  }
+ ],
+ "meta": {
+  "address": "0xacbd6089ac5d2de7f49b53269416dbaea4da9f27",
+  "name": "Zoo of Neural Automata",
+  "w5_claim_strength": "explicit-100%/fully",
+  "w5_claim_text": "Dynamically generated and fully on-chain neural cellular automata programs from quaq.eth",
+  "w5_source_type": "contractURI",
+  "w5_source_url": "data:application/json;base64,eyJuYW1lIjoiWm9vIG9mIE5ldXJhbCBBdXRvbWF0YSIsImRlc2NyaXB0aW9uIjoiRHluYW1pY2FsbHkgZ2VuZXJhdGVkIGFuZCBmdWxseSBvbi1jaGFpbiBuZXVyYWwgY2VsbHVsYXIgYXV0b21hdGEgcHJvZ3JhbXMgZnJvbSB",
+  "holders_count": 1094.0,
+  "in_w5": true,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": null,
+  "census_media_class": null,
+  "census_liveness": null,
+  "in_census_onchain": false,
+  "standard": "ERC-1155",
+  "creator": "0x966685481e52b636ea474aa5c6ffb0ca20a7caf0",
+  "deploy_block": 16407932.0
+ },
+ "class_deps_all": "immutable",
+ "class_deps": "immutable",
+ "class_final": "eoa-mutable",
+ "pointer_power": "eoa"
+}

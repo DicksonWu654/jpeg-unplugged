@@ -1,0 +1,109 @@
+{
+ "address": "0x05acfdba4c0c13359b51eeb9c38e70a0b3d67cce",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:12Z",
+ "code_raw": "data/raw/rpc-mutability/0x05acfdba4c0c13359b51eeb9c38e70a0b3d67cce_code.json",
+ "code_len": 16272,
+ "slots": {
+  "slot0": "0x000000000000000000000000dc0a1bbce86d8fe942e1d1be99c9f799c3499da2"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0x05acfdba4c0c13359b51eeb9c38e70a0b3d67cce_slots.json",
+ "verified": false,
+ "contract_name": "",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": false,
+ "abi_from": null,
+ "unverified_selector_hits": [
+  "owner()",
+  "renounceOwnership()",
+  "setArt(address)",
+  "transferOwnership(address)"
+ ],
+ "history": {
+  "txs": [],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 1,
+    "first": "2026-10-19",
+    "last": "2026-10-19",
+    "last_tx": "0x0c58464e19eb5871a2b8c972ddf8fea270a9cf7b5528edea019378497a7f3555",
+    "list": [
+     {
+      "date": "2026-10-19",
+      "tx": "0x0c58464e19eb5871a2b8c972ddf8fea270a9cf7b5528edea019378497a7f3555",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "916f1497ad69f277c73f1de37e3f05dc01aeea96"
+      ],
+      "data": "0x"
+     }
+    ]
+   }
+  },
+  "decoded": [],
+  "ownership_transfers": [
+   {
+    "date": "2026-10-19",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0x916f1497ad69f277c73f1de37e3f05dc01aeea96",
+    "tx": "0x0c58464e19eb5871a2b8c972ddf8fea270a9cf7b5528edea019378497a7f3555"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0x05acfdba4c0c13359b51eeb9c38e70a0b3d67cce_reads1.json",
+ "eip4906": true,
+ "owner": {
+  "addr": "0x916f1497ad69f277c73f1de37e3f05dc01aeea96",
+  "code_raw": "data/raw/rpc-mutability/0x916f1497ad69f277c73f1de37e3f05dc01aeea96_holdercode.json",
+  "type": "eoa",
+  "bs_name": null,
+  "ens": null,
+  "bs_impl_names": [],
+  "bs_tags": [],
+  "is_contract": false,
+  "creator": null,
+  "is_verified": false,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "n/a",
+ "lock_functions": [],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [],
+ "likely_class_if_setters": "eoa",
+ "class_direct": "unknown",
+ "class_reason": "unverified source; selector hits: owner(),renounceOwnership(),setArt(address),transferOwnership(address)",
+ "live_mutators": [],
+ "dependencies": [],
+ "meta": {
+  "address": "0x05acfdba4c0c13359b51eeb9c38e70a0b3d67cce",
+  "name": "Hatchlings",
+  "w5_claim_strength": null,
+  "w5_claim_text": null,
+  "w5_source_type": null,
+  "w5_source_url": null,
+  "holders_count": 4271.0,
+  "in_w5": false,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": "onchain-renderer",
+  "census_media_class": "data-uri",
+  "census_liveness": "alive",
+  "in_census_onchain": true,
+  "standard": "ERC-721",
+  "creator": "0x916f1497ad69f277c73f1de37e3f05dc01aeea96",
+  "deploy_block": 26228499.0
+ },
+ "class_deps_all": "none",
+ "class_deps": "none",
+ "class_final": "unknown",
+ "pointer_power": null
+}

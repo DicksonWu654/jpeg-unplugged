@@ -1,0 +1,103 @@
+{
+ "address": "0xbb322646b92cd90c98abc4e05bace305d45dcbed",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:15Z",
+ "code_raw": "data/raw/rpc-mutability/0xbb322646b92cd90c98abc4e05bace305d45dcbed_code.json",
+ "code_len": 13751,
+ "slots": {
+  "slot0": "0x486173682043616e766173000000000000000000000000000000000000000016"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0xbb322646b92cd90c98abc4e05bace305d45dcbed_slots.json",
+ "verified": true,
+ "contract_name": "HashCanvas",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": true,
+ "abi_from": "self",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 1,
+    "first": "2026-06-21",
+    "last": "2026-06-21",
+    "last_tx": "0x65aad1f3ea69e6f3a22f6d1342652b3fbbe619427a49e6b57033c121715b1475",
+    "list": [
+     {
+      "date": "2026-06-21",
+      "tx": "0x65aad1f3ea69e6f3a22f6d1342652b3fbbe619427a49e6b57033c121715b1475",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "4f077c08bf2528bab24e801ec5da9a1d8fe18c44"
+      ],
+      "data": "0x"
+     }
+    ]
+   }
+  },
+  "decoded": [],
+  "ownership_transfers": [
+   {
+    "date": "2026-06-21",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0x4f077c08bf2528bab24e801ec5da9a1d8fe18c44",
+    "tx": "0x65aad1f3ea69e6f3a22f6d1342652b3fbbe619427a49e6b57033c121715b1475"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0xbb322646b92cd90c98abc4e05bace305d45dcbed_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0x4f077c08bf2528bab24e801ec5da9a1d8fe18c44",
+  "code_raw": "data/raw/rpc-mutability/0x4f077c08bf2528bab24e801ec5da9a1d8fe18c44_holdercode.json",
+  "type": "eoa",
+  "bs_name": null,
+  "ens": null,
+  "bs_impl_names": [],
+  "bs_tags": [],
+  "is_contract": false,
+  "creator": null,
+  "is_verified": false,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "override",
+ "lock_functions": [],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [],
+ "class_direct": "immutable",
+ "class_reason": "no uri/renderer/upgrade function in ABI and not a proxy",
+ "live_mutators": [],
+ "dependencies": [],
+ "meta": {
+  "address": "0xbb322646b92cd90c98abc4e05bace305d45dcbed",
+  "name": "Hash Canvas",
+  "w5_claim_strength": null,
+  "w5_claim_text": null,
+  "w5_source_type": null,
+  "w5_source_url": null,
+  "holders_count": 3365.0,
+  "in_w5": false,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": "onchain-renderer",
+  "census_media_class": "data-uri",
+  "census_liveness": "alive",
+  "in_census_onchain": true,
+  "standard": "ERC-721",
+  "creator": "0x4f077c08bf2528bab24e801ec5da9a1d8fe18c44",
+  "deploy_block": 25365698.0
+ },
+ "class_deps_all": "none",
+ "class_deps": "none",
+ "class_final": "immutable",
+ "pointer_power": null
+}

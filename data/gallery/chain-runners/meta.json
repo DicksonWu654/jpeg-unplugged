@@ -1,0 +1,38 @@
+{
+ "collection": "Chain Runners",
+ "slug": "chain-runners",
+ "contract": "0x97597002980134beA46250Aa0510C9B90d87A587",
+ "token_id": 1,
+ "chain_method": "data URI via renderer.onChainTokenURI(): layers in on-chain renderer",
+ "chain_call": "ChainRunnersOffChainDNARenderer.onChainTokenURI(1)",
+ "json_name": "Runner #1     ",
+ "fields": {
+  "image": "inline-svg-in-json",
+  "animation_url": null,
+  "external_url": null,
+  "json_how": "data-uri-base64"
+ },
+ "rpc": {
+  "default_public_ok": true,
+  "highgas_drpc_ok": null,
+  "highgas_blxr_ok": null,
+  "fork_ok": null,
+  "rpc": "public-default",
+  "needed_fork": false,
+  "unreadable_from_default_public_call": false,
+  "gas_estimate": null
+ },
+ "tokenURI_value": "https://api.chainrunners.xyz/tokens/metadata/1?dna=103081089982373387917516143957755319387957419765940801994810980124138188719328",
+ "note": "tokenURI() returns an HTTPS API URL (api.chainrunners.xyz); an on-chain renderer exists and is called here",
+ "medium": "svg (inline in JSON image field)",
+ "primary": "image",
+ "artwork_file": "artwork.svg",
+ "doc_type": "image/svg+xml; charset=utf-8",
+ "artwork_bytes": 43932,
+ "artwork_sha256": "d28232dd8dc54e780836ce37020628943dd4fedc7a5733bf2651e04a29f0ba9e",
+ "declared": {
+  "load": [],
+  "literals": []
+ },
+ "built_at": "2026-10-21T20:13:32Z"
+}

@@ -1,0 +1,108 @@
+{
+ "address": "0xdea65dd08eb6d51fb23038322376897c54668964",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:43:42Z",
+ "code_raw": "data/raw/rpc-mutability/0xdea65dd08eb6d51fb23038322376897c54668964_code.json",
+ "code_len": 21076,
+ "slots": {
+  "slot0": "0x467261676d656e74734e46540000000000000000000000000000000000000018"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0xdea65dd08eb6d51fb23038322376897c54668964_slots.json",
+ "verified": false,
+ "contract_name": "",
+ "proxy": {
+  "kind": null
+ },
+ "has_source": false,
+ "abi_from": null,
+ "unverified_selector_hits": [
+  "owner()",
+  "renounceOwnership()",
+  "transferOwnership(address)"
+ ],
+ "history": {
+  "txs": [],
+  "events": {
+   "OwnershipTransferred(address,address)": {
+    "n": 1,
+    "first": "2022-12-15",
+    "last": "2022-12-15",
+    "last_tx": "0xba7c2fb4fdca699d26fc3b3b2d06432a1c155427ab179884f707919e4a0ba60c",
+    "list": [
+     {
+      "date": "2022-12-15",
+      "tx": "0xba7c2fb4fdca699d26fc3b3b2d06432a1c155427ab179884f707919e4a0ba60c",
+      "topics": [
+       "0000000000000000000000000000000000000000",
+       "cc44a708f53b2904fdf332469048ecf5425eb68e"
+      ],
+      "data": "0x"
+     }
+    ]
+   }
+  },
+  "decoded": [],
+  "ownership_transfers": [
+   {
+    "date": "2022-12-15",
+    "from": "0x0000000000000000000000000000000000000000",
+    "to": "0xcc44a708f53b2904fdf332469048ecf5425eb68e",
+    "tx": "0xba7c2fb4fdca699d26fc3b3b2d06432a1c155427ab179884f707919e4a0ba60c"
+   }
+  ],
+  "incomplete": false
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0xdea65dd08eb6d51fb23038322376897c54668964_reads1.json",
+ "eip4906": false,
+ "owner": {
+  "addr": "0xcc44a708f53b2904fdf332469048ecf5425eb68e",
+  "code_raw": "data/raw/rpc-mutability/0xcc44a708f53b2904fdf332469048ecf5425eb68e_holdercode.json",
+  "type": "eoa",
+  "bs_name": null,
+  "ens": null,
+  "bs_impl_names": [],
+  "bs_tags": [],
+  "is_contract": false,
+  "creator": null,
+  "is_verified": false,
+  "bs_reputation": "ok"
+ },
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "n/a",
+ "lock_functions": [],
+ "lock_flags_true": {},
+ "roles": {},
+ "mutators": [],
+ "likely_class_if_setters": "eoa",
+ "class_direct": "unknown",
+ "class_reason": "unverified source; selector hits: owner(),renounceOwnership(),transferOwnership(address)",
+ "live_mutators": [],
+ "dependencies": [],
+ "meta": {
+  "address": "0xdea65dd08eb6d51fb23038322376897c54668964",
+  "name": "FragmentsNFT",
+  "w5_claim_strength": null,
+  "w5_claim_text": null,
+  "w5_source_type": null,
+  "w5_source_url": null,
+  "holders_count": 186.0,
+  "in_w5": false,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": "onchain-renderer",
+  "census_media_class": "data-uri",
+  "census_liveness": "alive",
+  "in_census_onchain": true,
+  "standard": "ERC-721",
+  "creator": "0xcc44a708f53b2904fdf332469048ecf5425eb68e",
+  "deploy_block": 16186598.0
+ },
+ "class_deps_all": "none",
+ "class_deps": "none",
+ "class_final": "unknown",
+ "pointer_power": null
+}

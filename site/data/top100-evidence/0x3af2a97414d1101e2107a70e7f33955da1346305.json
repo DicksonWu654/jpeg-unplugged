@@ -1,0 +1,504 @@
+{
+  "collection": {
+    "rank": 99,
+    "source_rank": 104,
+    "name": "Azuki Elemental Beans",
+    "contract": "0x3af2a97414d1101e2107a70e7f33955da1346305",
+    "contracts": [
+      "0x3af2a97414d1101e2107a70e7f33955da1346305"
+    ],
+    "slug": "mysterybean",
+    "volume_usd": 59430595.32,
+    "volume_source": "CryptoSlam all-time Ethereum owner-to-owner sales, wash-filtered USD",
+    "source_url": "https://web-api.cryptoslam.io/v1/sales/rank-by-volume?timeRange=all&orderBy=rank&sortDirection=asc&offset=100&limit=100&blockchainId=0&hideInscriptions=false",
+    "ranking_evidence": "data/raw/top100-api/cryptoslam-ranking-100.json",
+    "identity_evidence": "data/raw/top100-api/cryptoslam-info-mysterybean.json",
+    "token_count": 19940,
+    "all_time_volume": 59430595.32,
+    "volume_currency": "USD",
+    "kind": "mint-pass",
+    "metadata_location": "http",
+    "metadata_classes": [
+      "http"
+    ],
+    "media_location": "http",
+    "primary_image_location": "http",
+    "media_classes": [
+      "http"
+    ],
+    "liveness": "alive",
+    "liveness_exact": "alive",
+    "all_declared_media_liveness": "alive",
+    "metadata_failed": false,
+    "n_alive": 3,
+    "n_dead": 0,
+    "n_unknown": 0,
+    "n_degraded": 0,
+    "key_domain_or_gateway": "elementals-images.azuki.com; elementals-metadata.azuki.com",
+    "hosts": [
+      "elementals-images.azuki.com",
+      "elementals-metadata.azuki.com"
+    ],
+    "hardcoded_gateways": [],
+    "http_origin_dependency": true,
+    "uses_ipfs": false,
+    "uses_arweave": false,
+    "fully_onchain_all_declared_media": false,
+    "metadata_and_primary_image_onchain": false,
+    "mutability_class": "multisig-mutable",
+    "single_key_mutable": false,
+    "single_key_repointable": false,
+    "base_uri_or_renderer": "0x3af2a97414d1101e2107a70e7f33955da1346305.tokenURI/uri",
+    "control": [
+      {
+        "contract": "0x3af2a97414d1101e2107a70e7f33955da1346305",
+        "class": "multisig-mutable",
+        "pointer_power": "multisig",
+        "reason": "live setters (multisig): setBaseURI",
+        "owner": {
+          "addr": "0x2ae6b0630ebb4d155c6e04fcb16840ffa77760aa",
+          "code_raw": "data/raw/rpc-mutability/0x2ae6b0630ebb4d155c6e04fcb16840ffa77760aa_holdercode.json",
+          "code_len": 171,
+          "probe_raw": "data/raw/rpc-mutability/0x2ae6b0630ebb4d155c6e04fcb16840ffa77760aa_holderprobe.json",
+          "type": "safe",
+          "threshold": 3,
+          "n_owners": 6,
+          "owners": [
+            "0xdb3520a9f26ab9ab3688742fbba3e42a008392e4",
+            "0x87229cab5e62a99114d618bc853465cd0ca827d6",
+            "0x6acfbe77f63735a86175539e5d692e286dd67ebb",
+            "0x23123a47846825f44f86734ca4b10e1d52aff54d",
+            "0x2e88a59b3e9c1525c1e9f2afc7df6c4dde9b5708",
+            "0xaf98627a77d854abd806fdffaf0363375109b26d"
+          ],
+          "version": "1.3.0",
+          "bs_name": "SafeProxy",
+          "ens": null,
+          "bs_impl_names": [
+            "GnosisSafe"
+          ],
+          "bs_tags": [],
+          "is_contract": true,
+          "creator": "0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2",
+          "is_verified": true,
+          "bs_reputation": "ok"
+        },
+        "proxy": {
+          "kind": null
+        },
+        "live_mutators": [
+          {
+            "name": "setBaseURI",
+            "sig": "setBaseURI(string)",
+            "category": "uri",
+            "power": "multisig",
+            "holders": [
+              {
+                "addr": "0x2ae6b0630ebb4d155c6e04fcb16840ffa77760aa",
+                "type": "safe",
+                "threshold": 3,
+                "n_owners": 6,
+                "bs_name": "SafeProxy",
+                "ens": null,
+                "desc": "safe 3/6",
+                "simple": "multisig"
+              }
+            ],
+            "effective": "yes",
+            "reason": null
+          }
+        ],
+        "lock_flags": {},
+        "dependencies": [
+          {
+            "contract": "0x3cc6cdda760b79bafa08df41ecfa224f810dceb6",
+            "via": "constant _DEFAULT_SUBSCRIPTION",
+            "class": "immutable",
+            "in_tokenuri_path": false
+          }
+        ],
+        "pointer_getters": [],
+        "analyzed_at": "2026-10-23T02:53:40Z",
+        "history_incomplete": false,
+        "evidence": "data/raw/top100-mutability/0x3af2a97414d1101e2107a70e7f33955da1346305.json"
+      }
+    ],
+    "samples": 3,
+    "distinct_token_ids": 3,
+    "sample_note": null,
+    "source_contracts_without_sampleable_nfts": [],
+    "ownership_scope_gaps": [],
+    "refreshed_at": "2026-10-23T03:05:05Z",
+    "opensea_rank": 99,
+    "ranking_scope_disagreement": false,
+    "metadata_adapter": false,
+    "evidence": [
+      "data/raw/top100-census/0x3af2a97414d1101e2107a70e7f33955da1346305/result.json.gz"
+    ],
+    "delivery_note": null
+  },
+  "samples": [
+    {
+      "contract": "0x3af2a97414d1101e2107a70e7f33955da1346305",
+      "token_id": "0",
+      "sample_unit": 1,
+      "how_found": "reused census: ownerOf-probe(0..15)/grid-min [low]",
+      "metadata_location": "http",
+      "metadata_uri": "https://elementals-metadata.azuki.com/mystery-bean/0",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "elementals-metadata.azuki.com",
+          "url": "https://elementals-metadata.azuki.com/mystery-bean/0",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 3,
+          "final_url": "https://elementals-metadata.azuki.com/mystery-bean/0",
+          "content_type": "application/json",
+          "size": 207,
+          "content_length": null,
+          "sha256": "51182abcd2caff9287fa6d5a3d3f7d550b30371612c4f44dea7bf4d22c2ea9ab",
+          "t": "2026-10-23T02:51:23Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "http",
+          "host": "elementals-images.azuki.com",
+          "gateway": null,
+          "uri": "https://elementals-images.azuki.com/3.gif",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "elementals-images.azuki.com",
+              "url": "https://elementals-images.azuki.com/3.gif",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 5,
+              "final_url": "https://elementals-images.azuki.com/3.gif",
+              "content_type": "image/gif",
+              "size": 65536,
+              "content_length": 3065487,
+              "sha256": "e8b9e828b942fde55341e4d1b8d70f36897884e41053593d0444056e107c16c1",
+              "t": "2026-10-23T02:51:24Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "http",
+        "anim_class": null,
+        "image_verdict": "alive",
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "http"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "alive",
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000000000",
+          "endpoint": "https://eth.drpc.org",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x3af2a97414d1101e2107a70e7f33955da1346305/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0x3af2a97414d1101e2107a70e7f33955da1346305",
+      "token_id": "1092",
+      "sample_unit": 1,
+      "how_found": "reused census: ownerOf-probe(1085..+15) [mid]",
+      "metadata_location": "http",
+      "metadata_uri": "https://elementals-metadata.azuki.com/mystery-bean/1092",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "elementals-metadata.azuki.com",
+          "url": "https://elementals-metadata.azuki.com/mystery-bean/1092",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 6,
+          "final_url": "https://elementals-metadata.azuki.com/mystery-bean/1092",
+          "content_type": "application/json",
+          "size": 210,
+          "content_length": null,
+          "sha256": "e602571055aa0e2f87a175325ac4354a21fbae68cdf2266def51418f95359236",
+          "t": "2026-10-23T02:51:24Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "http",
+          "host": "elementals-images.azuki.com",
+          "gateway": null,
+          "uri": "https://elementals-images.azuki.com/2.gif",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "elementals-images.azuki.com",
+              "url": "https://elementals-images.azuki.com/2.gif",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 8,
+              "final_url": "https://elementals-images.azuki.com/2.gif",
+              "content_type": "image/gif",
+              "size": 65536,
+              "content_length": 2181204,
+              "sha256": "a09df8f3d2def9cb0c09c037ba6d1ba4330ad3905f828acc98e4f39d5046420e",
+              "t": "2026-10-23T02:51:24Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "http",
+        "anim_class": null,
+        "image_verdict": "alive",
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "http"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "alive",
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd0000000000000000000000000000000000000000000000000000000000000444",
+          "endpoint": "https://eth.drpc.org",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x3af2a97414d1101e2107a70e7f33955da1346305/evidence.jsonl.gz"
+    },
+    {
+      "contract": "0x3af2a97414d1101e2107a70e7f33955da1346305",
+      "token_id": "2171",
+      "sample_unit": 1,
+      "how_found": "reused census: ownerOf-probe(totalSupply=2170) [recent]",
+      "metadata_location": "http",
+      "metadata_uri": "https://elementals-metadata.azuki.com/mystery-bean/2171",
+      "metadata_attempts": [
+        {
+          "pass": 1,
+          "gateway": "elementals-metadata.azuki.com",
+          "url": "https://elementals-metadata.azuki.com/mystery-bean/2171",
+          "status": 200,
+          "error_kind": null,
+          "v": "alive",
+          "reason": "ok",
+          "seq": 7,
+          "final_url": "https://elementals-metadata.azuki.com/mystery-bean/2171",
+          "content_type": "application/json",
+          "size": 207,
+          "content_length": null,
+          "sha256": "07a7e5f54bd4c75de9ec6fde3e94a4991e466597cce56b797c4c28360916a383",
+          "t": "2026-10-23T02:51:24Z",
+          "reg_domain_dns": null,
+          "redirected": false
+        }
+      ],
+      "media": [
+        {
+          "field": "image",
+          "location": "http",
+          "host": "elementals-images.azuki.com",
+          "gateway": null,
+          "uri": "https://elementals-images.azuki.com/1.gif",
+          "external_refs": [],
+          "liveness": "alive",
+          "reason": "ok",
+          "attempts": [
+            {
+              "pass": 1,
+              "gateway": "elementals-images.azuki.com",
+              "url": "https://elementals-images.azuki.com/1.gif",
+              "status": 200,
+              "error_kind": null,
+              "v": "alive",
+              "reason": "ok",
+              "seq": 9,
+              "final_url": "https://elementals-images.azuki.com/1.gif",
+              "content_type": "image/gif",
+              "size": 65536,
+              "content_length": 1681423,
+              "sha256": "4ed2dc8ab2a1cdf4300c67941135cecf122613e5a3cb954ec34467aec33a7790",
+              "t": "2026-10-23T02:51:24Z",
+              "reg_domain_dns": null,
+              "redirected": false
+            }
+          ]
+        }
+      ],
+      "derived": {
+        "meta_verdict": "alive",
+        "meta_verdict_reason": "ok",
+        "media_class_source": "live-metadata",
+        "image_class": "http",
+        "anim_class": null,
+        "image_verdict": "alive",
+        "anim_verdict": null,
+        "external_refs": [],
+        "n_external_mentions": 0,
+        "media_field_classes": {
+          "image": "http"
+        },
+        "onchain_candidate": false,
+        "onchain_candidate_clean": false,
+        "liveness": "alive",
+        "liveness_reason": null,
+        "liveness_exact": "alive",
+        "liveness_exact_reason": null,
+        "meta_verdict_exact": "alive",
+        "image_verdict_exact": "alive",
+        "anim_verdict_exact": null,
+        "meta_verdict_exact_reason": "ok"
+      },
+      "special_case": null,
+      "adapter_evidence": null,
+      "rpc": [
+        {
+          "fn": "tokenURI",
+          "calldata": "0xc87b56dd000000000000000000000000000000000000000000000000000000000000087b",
+          "endpoint": "https://eth.drpc.org",
+          "ok": true,
+          "revert": false,
+          "error": null,
+          "raw_result_len": 258,
+          "decoded_ok": true,
+          "note": null
+        }
+      ],
+      "evidence": "data/raw/top100-census/0x3af2a97414d1101e2107a70e7f33955da1346305/evidence.jsonl.gz"
+    }
+  ],
+  "saved_packet_index": [
+    {
+      "path": "data/raw/top100-api/opensea-contract-0x3af2a97414d1101e2107a70e7f33955da1346305-attempt1-1792724342745368980.body",
+      "sha256": "f284a71d0b75a9939ec3235174ca61eaf6340d865c610891867b575f46e12c1b",
+      "retrieved_at": "2026-10-23T02:59:02Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0x3af2a97414d1101e2107a70e7f33955da1346305",
+      "method": "GET",
+      "status": 200,
+      "error": null,
+      "bytes": 196,
+      "truncated": false
+    },
+    {
+      "path": "data/raw/top100-api/opensea-contract-0x3af2a97414d1101e2107a70e7f33955da1346305.json",
+      "sha256": "f284a71d0b75a9939ec3235174ca61eaf6340d865c610891867b575f46e12c1b",
+      "retrieved_at": "2026-10-23T02:59:02Z",
+      "url": "https://api.opensea.io/api/v2/chain/ethereum/contract/0x3af2a97414d1101e2107a70e7f33955da1346305",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "data/raw/top100-census/0x3af2a97414d1101e2107a70e7f33955da1346305/bodies.zip",
+      "sha256": "5cb9dda85b105591190b709189e7baa976a07ed2788bbcf2478f305d06ce0e09",
+      "bytes": 12048
+    },
+    {
+      "path": "data/raw/top100-census/0x3af2a97414d1101e2107a70e7f33955da1346305/evidence.jsonl.gz",
+      "sha256": "c49f2309ce4e356a27499a01579ac3fd580f04d8ae00982c4a49093cf8ef9754",
+      "bytes": 1090
+    },
+    {
+      "path": "data/raw/top100-census/0x3af2a97414d1101e2107a70e7f33955da1346305/result.json.gz",
+      "sha256": "ba9fdb8f18692157f66c7673166c348b4874d141e81761105a94530da10dc8c9",
+      "bytes": 1650
+    },
+    {
+      "path": "data/raw/top100-mutability/0x3af2a97414d1101e2107a70e7f33955da1346305.json",
+      "sha256": "167c8d0ba95a4683ba5e0166a3186ac64d0443610091a90f8aeb45b61845825a",
+      "bytes": 25878
+    },
+    {
+      "path": "data/raw/top100-pointers/0x3af2a97414d1101e2107a70e7f33955da1346305/result.json",
+      "sha256": "4d9f7c4b1412e6bf3eba898ee9e4e151d8f99e3401aefe11988439fa30dab7fa",
+      "bytes": 203
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x3af2a97414d1101e2107a70e7f33955da1346305/bodies.zip",
+      "sha256": "86577e10b7e7e31b7dea615be0b8c6b6bef6e60a841a4f85f725c1eadff92749",
+      "bytes": 634
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x3af2a97414d1101e2107a70e7f33955da1346305/evidence.jsonl.gz",
+      "sha256": "ce59a008a1ee5c7fc527b0984f5d157f8750650cb644485be6ec3476cdfebc63",
+      "bytes": 690
+    },
+    {
+      "path": "data/raw/top100-sample-validity/0x3af2a97414d1101e2107a70e7f33955da1346305/result.json",
+      "sha256": "8f5915504712ea0e90cf2038214abd8b2019b157066112d1bf02fac30d30b5fa",
+      "bytes": 299
+    }
+  ],
+  "interpretation": "Liveness describes sampled metadata and primary-image delivery, not permanent loss of the artwork."
+}

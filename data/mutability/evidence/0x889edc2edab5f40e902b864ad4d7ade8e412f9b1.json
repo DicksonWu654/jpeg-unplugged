@@ -1,0 +1,503 @@
+{
+ "address": "0x889edc2edab5f40e902b864ad4d7ade8e412f9b1",
+ "depth": 0,
+ "analyzed_at": "2026-10-21T23:42:59Z",
+ "code_raw": "data/raw/rpc-mutability/0x889edc2edab5f40e902b864ad4d7ade8e412f9b1_code.json",
+ "code_len": 2497,
+ "slots": {
+  "eip1967_impl": "0xe42c659dc09109566720ea8b2de186c2be7d94d9",
+  "eip1967_admin": "0x3e40d73eb977dc6a537af587d48316fee66e9c8c"
+ },
+ "slots_raw": "data/raw/rpc-mutability/0x889edc2edab5f40e902b864ad4d7ade8e412f9b1_slots.json",
+ "verified": true,
+ "contract_name": "OssifiableProxy",
+ "proxy": {
+  "kind": "eip1967",
+  "impl": "0xe42c659dc09109566720ea8b2de186c2be7d94d9",
+  "impl_verified": true,
+  "impl_name": "WithdrawalQueueERC721",
+  "admin": {
+   "addr": "0x3e40d73eb977dc6a537af587d48316fee66e9c8c",
+   "code_raw": "data/raw/rpc-mutability/0x3e40d73eb977dc6a537af587d48316fee66e9c8c_holdercode.json",
+   "code_len": 1035,
+   "probe_raw": "data/raw/rpc-mutability/0x3e40d73eb977dc6a537af587d48316fee66e9c8c_holderprobe.json",
+   "type": "contract-unknown",
+   "bs_name": "AppProxyUpgradeable",
+   "ens": null,
+   "bs_impl_names": [
+    "Agent"
+   ],
+   "bs_tags": [],
+   "is_contract": true,
+   "creator": "0xb8FFC3Cd6e7Cf5a098A1c92F48009765B24088Dc",
+   "is_verified": true,
+   "bs_reputation": "ok"
+  }
+ },
+ "has_source": true,
+ "abi_from": "impl+proxy",
+ "unverified_selector_hits": [],
+ "history": {
+  "txs": [
+   {
+    "error": "TimeoutError('The read operation timed out')"
+   }
+  ],
+  "events": {
+   "Upgraded(address)": {
+    "n": 2,
+    "first": "2023-05-02",
+    "last": "2023-05-15",
+    "last_tx": "0x592d68a259af899fb435da0ac08c2fd500cb423f37f1d8ce8e3120cb84186b21",
+    "list": [
+     {
+      "date": "2023-05-02",
+      "tx": "0x98c2170be034f750f5006cb69ea0aeeaf0858b11f6324ee53d582fa4dd49bc1a",
+      "topics": [
+       "6f6541c2203196feedd14cd2c09550da1cbeda31"
+      ],
+      "data": "0x"
+     },
+     {
+      "date": "2023-05-15",
+      "tx": "0x592d68a259af899fb435da0ac08c2fd500cb423f37f1d8ce8e3120cb84186b21",
+      "topics": [
+       "e42c659dc09109566720ea8b2de186c2be7d94d9"
+      ],
+      "data": "0x"
+     }
+    ]
+   },
+   "AdminChanged(address,address)": {
+    "n": 3,
+    "first": "2023-05-02",
+    "last": "2023-05-15",
+    "last_tx": "0x592d68a259af899fb435da0ac08c2fd500cb423f37f1d8ce8e3120cb84186b21",
+    "list": [
+     {
+      "date": "2023-05-02",
+      "tx": "0x98c2170be034f750f5006cb69ea0aeeaf0858b11f6324ee53d582fa4dd49bc1a",
+      "topics": [],
+      "data": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000008ea83ad72396f1e0cd2f8e72b1461db8eb6af7b5"
+     },
+     {
+      "date": "2023-05-02",
+      "tx": "0x3f858351c81e92c5ff8a5b198f5e07bbcbe210831b0e6612c5928dd9370d92ee",
+      "topics": [],
+      "data": "0x0000000000000000000000008ea83ad72396f1e0cd2f8e72b1461db8eb6af7b5000000000000000000000000a818ff9ec93122bf9401ab4340c42de638cd600a"
+     },
+     {
+      "date": "2023-05-15",
+      "tx": "0x592d68a259af899fb435da0ac08c2fd500cb423f37f1d8ce8e3120cb84186b21",
+      "topics": [],
+      "data": "0x000000000000000000000000a818ff9ec93122bf9401ab4340c42de638cd600a0000000000000000000000003e40d73eb977dc6a537af587d48316fee66e9c8c"
+     }
+    ]
+   },
+   "BeaconUpgraded(address)": {
+    "n": 0
+   },
+   "MetadataUpdate(uint256)": {
+    "n": 0
+   },
+   "BatchMetadataUpdate(uint256,uint256)": {
+    "n": 1255,
+    "first": "2023-05-16",
+    "last": "2026-10-21",
+    "last_tx": "0x464ec49060d63b3223d5ecd015aef6e726921170ae232c1904cf3d5d92c90e4f",
+    "list": [
+     {
+      "date": "2023-05-16",
+      "tx": "0x7cdd45433bdb2953dd6cd4d4a2d37449d4f93907afdfedaf65a892f91a4ea263",
+      "topics": [],
+      "data": "0x00000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000078"
+     },
+     {
+      "date": "2023-05-17",
+      "tx": "0xe9ba59b2b3e83d93df52528d5e17c802973f5de34602dc74bcd484d5d79243ef",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000061000000000000000000000000000000000000000000000000000000000000025e"
+     },
+     {
+      "date": "2023-05-18",
+      "tx": "0xbf52777e4dd583d52104be96f7da420be977faeee97cc25a89d6c81fa919056f",
+      "topics": [],
+      "data": "0x000000000000000000000000000000000000000000000000000000000000025c0000000000000000000000000000000000000000000000000000000000000292"
+     },
+     {
+      "date": "2023-05-19",
+      "tx": "0x5489a6364dc63a9b2614c7665d15827fa3b100c80dcbd5f43d71546f205fb364",
+      "topics": [],
+      "data": "0x000000000000000000000000000000000000000000000000000000000000028600000000000000000000000000000000000000000000000000000000000002c0"
+     },
+     {
+      "date": "2023-05-20",
+      "tx": "0x54b86d0ca8df20f49ad14c3fa2899b9b21cbe144b1df7e4e0abe19896e0d22be",
+      "topics": [],
+      "data": "0x00000000000000000000000000000000000000000000000000000000000002bf0000000000000000000000000000000000000000000000000000000000000302"
+     },
+     {
+      "date": "2023-05-21",
+      "tx": "0xc52f66f46a1ed5524a1dc0a3e470015c6f8a711fc46b4b9590010db62b85eba7",
+      "topics": [],
+      "data": "0x00000000000000000000000000000000000000000000000000000000000002f70000000000000000000000000000000000000000000000000000000000000338"
+     },
+     {
+      "date": "2023-05-22",
+      "tx": "0x5b0bf1986edc261458a7d2c5bbf8369e383528d3472c8ca976bf1d526265505e",
+      "topics": [],
+      "data": "0x00000000000000000000000000000000000000000000000000000000000003310000000000000000000000000000000000000000000000000000000000000367"
+     },
+     {
+      "date": "2023-05-23",
+      "tx": "0x6908d7d4832542bb4ce03790d7ced1d1c3ff1391fd531a6b5b10a4aea9b5b486",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000364000000000000000000000000000000000000000000000000000000000000038e"
+     },
+     {
+      "date": "2023-05-24",
+      "tx": "0x8ad123ad3116fd8b6f29a3033e867ee67b9e6c2afacd5b96a29b89e2849fc17b",
+      "topics": [],
+      "data": "0x000000000000000000000000000000000000000000000000000000000000038c00000000000000000000000000000000000000000000000000000000000003c6"
+     },
+     {
+      "date": "2023-05-25",
+      "tx": "0x74f7c86d022618dd5a986f16b32b9b55ebbfa010497392670f308a14251fd374",
+      "topics": [],
+      "data": "0x00000000000000000000000000000000000000000000000000000000000003c500000000000000000000000000000000000000000000000000000000000003f6"
+     },
+     {
+      "date": "2023-05-26",
+      "tx": "0x239e1382757666216ddb1d1c6c80d6928274efd16c6fab00cac748d67fe6a239",
+      "topics": [],
+      "data": "0x00000000000000000000000000000000000000000000000000000000000003f40000000000000000000000000000000000000000000000000000000000000429"
+     },
+     {
+      "date": "2023-05-27",
+      "tx": "0x8c5ed5d40fc11b7e47340c7b5c022c96cf94e7e45bf94e61ab4aeedfa68d196f",
+      "topics": [],
+      "data": "0x00000000000000000000000000000000000000000000000000000000000004260000000000000000000000000000000000000000000000000000000000000465"
+     },
+     {
+      "date": "2023-05-28",
+      "tx": "0x15fc62bf25f4c56249ff344c8a71194394b2d8e099d003440c30ead3fe36399c",
+      "topics": [],
+      "data": "0x000000000000000000000000000000000000000000000000000000000000045f0000000000000000000000000000000000000000000000000000000000000488"
+     },
+     {
+      "date": "2023-05-29",
+      "tx": "0xae1b49c748bf2c6cf54646af293e3545dda99339dabfe7248acc2ea460e7ae8c",
+      "topics": [],
+      "data": "0x000000000000000000000000000000000000000000000000000000000000048400000000000000000000000000000000000000000000000000000000000004bf"
+     },
+     {
+      "date": "2023-05-30",
+      "tx": "0x699bb7af9bdd806b67a1075befb7d39d55800ce5c3fb618ce20038d9c843b795",
+      "topics": [],
+      "data": "0x00000000000000000000000000000000000000000000000000000000000004b800000000000000000000000000000000000000000000000000000000000004ef"
+     },
+     {
+      "date": "2023-05-31",
+      "tx": "0x8a1faece8ab1ffdbf71a2621c3f310768212c401246d36f0cdbef7e2edf078d7",
+      "topics": [],
+      "data": "0x00000000000000000000000000000000000000000000000000000000000004ed0000000000000000000000000000000000000000000000000000000000000518"
+     },
+     {
+      "date": "2023-06-01",
+      "tx": "0xabf81f89dd44731efd9f0ec67f683e7225998f90b51691d25abbb8c17e8913b2",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000515000000000000000000000000000000000000000000000000000000000000054a"
+     },
+     {
+      "date": "2023-06-02",
+      "tx": "0xe0c0a1c4ec587a186f0f6c1fdc243e3c23f8d026fed320dd49e1c44d9f55ed39",
+      "topics": [],
+      "data": "0x00000000000000000000000000000000000000000000000000000000000005430000000000000000000000000000000000000000000000000000000000000576"
+     },
+     {
+      "date": "2023-06-03",
+      "tx": "0x9f353dfc936e042bffa8b9b45e747050bd1fbe0a7fd55a324cb9f8244097d5d5",
+      "topics": [],
+      "data": "0x000000000000000000000000000000000000000000000000000000000000057300000000000000000000000000000000000000000000000000000000000005a7"
+     },
+     {
+      "date": "2023-06-04",
+      "tx": "0x43c547e156ddc3069ae0b5757749bf901ba45c03c19746032d45a78a6274104d",
+      "topics": [],
+      "data": "0x00000000000000000000000000000000000000000000000000000000000005a300000000000000000000000000000000000000000000000000000000000005e3"
+     },
+     {
+      "date": "2023-06-05",
+      "tx": "0xb32b7746bb9c2f4cd039f5e2fd60b6c5770887b8c5ec8777b22033c69747ebb9",
+      "topics": [],
+      "data": "0x00000000000000000000000000000000000000000000000000000000000005dd000000000000000000000000000000000000000000000000000000000000061e"
+     },
+     {
+      "date": "2023-06-06",
+      "tx": "0xb9cd25979d125d31e90eed261fd1711fa02feb0a104b0c366d426ad9e0b89e37",
+      "topics": [],
+      "data": "0x000000000000000000000000000000000000000000000000000000000000061b0000000000000000000000000000000000000000000000000000000000000657"
+     },
+     {
+      "date": "2023-06-07",
+      "tx": "0xea910ddf69da922defdaf74c7787fb27b454e3514e8547334442696f0b54886e",
+      "topics": [],
+      "data": "0x000000000000000000000000000000000000000000000000000000000000065100000000000000000000000000000000000000000000000000000000000006a1"
+     },
+     {
+      "date": "2023-06-08",
+      "tx": "0xb28fb0db5797821ee566e88246915ad435a62c6bbfa4de380d43e0a52485eae3",
+      "topics": [],
+      "data": "0x000000000000000000000000000000000000000000000000000000000000069a00000000000000000000000000000000000000000000000000000000000006f1"
+     },
+     {
+      "date": "2023-06-09",
+      "tx": "0x3612b8f7f31706ad71bc9ceedc8f921e56f383d2cf1d02a04b8975cfeed5528d",
+      "topics": [],
+      "data": "0x00000000000000000000000000000000000000000000000000000000000006ec0000000000000000000000000000000000000000000000000000000000000748"
+     },
+     {
+      "date": "2023-06-10",
+      "tx": "0xb2b24919dbf4c29f40e4ecccf89e0cd2ee210aae6815754214e25c4154021231",
+      "topics": [],
+      "data": "0x000000000000000000000000000000000000000000000000000000000000073e00000000000000000000000000000000000000000000000000000000000007a1"
+     },
+     {
+      "date": "2023-06-11",
+      "tx": "0xeffc325f9279da3b811519606c5228aeaec5f2201643a912ad6ec4bcaab3b1de",
+      "topics": [],
+      "data": "0x000000000000000000000000000000000000000000000000000000000000078a00000000000000000000000000000000000000000000000000000000000007eb"
+     },
+     {
+      "date": "2023-06-12",
+      "tx": "0xa9a1973a26561c7ca6b105d89c47ec8ba4c4ed7e2c2e1627692ef01dbf9c722f",
+      "topics": [],
+      "data": "0x00000000000000000000000000000000000000000000000000000000000007e70000000000000000000000000000000000000000000000000000000000000838"
+     },
+     {
+      "date": "2023-06-13",
+      "tx": "0x538de06391cee261be3b52417ad6b462c9719a5dbd0d4e0c3581fe505893f190",
+      "topics": [],
+      "data": "0x000000000000000000000000000000000000000000000000000000000000082e0000000000000000000000000000000000000000000000000000000000000889"
+     },
+     {
+      "date": "2023-06-14",
+      "tx": "0x9a9ed51f6a66dff9275b01f031a3736c915f13c0b13be6f11e386f9e586bb686",
+      "topics": [],
+      "data": "0x000000000000000000000000000000000000000000000000000000000000088000000000000000000000000000000000000000000000000000000000000008ea"
+     }
+    ]
+   },
+   "BaseURISet(string)": {
+    "n": 1,
+    "first": "2023-05-15",
+    "last": "2023-05-15",
+    "last_tx": "0x592d68a259af899fb435da0ac08c2fd500cb423f37f1d8ce8e3120cb84186b21",
+    "list": [
+     {
+      "date": "2023-05-15",
+      "tx": "0x592d68a259af899fb435da0ac08c2fd500cb423f37f1d8ce8e3120cb84186b21",
+      "topics": [],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000001d"
+     }
+    ]
+   },
+   "NftDescriptorAddressSet(address)": {
+    "n": 0
+   }
+  },
+  "decoded": [],
+  "upgrades": [
+   {
+    "date": "2023-05-02",
+    "impl": "0x6f6541c2203196feedd14cd2c09550da1cbeda31",
+    "tx": "0x98c2170be034f750f5006cb69ea0aeeaf0858b11f6324ee53d582fa4dd49bc1a"
+   },
+   {
+    "date": "2023-05-15",
+    "impl": "0xe42c659dc09109566720ea8b2de186c2be7d94d9",
+    "tx": "0x592d68a259af899fb435da0ac08c2fd500cb423f37f1d8ce8e3120cb84186b21"
+   }
+  ],
+  "incomplete": true
+ },
+ "reads1_raw": "data/raw/rpc-mutability/0x889edc2edab5f40e902b864ad4d7ade8e412f9b1_reads1.json",
+ "eip4906": true,
+ "owner": null,
+ "pending_owner": null,
+ "admin_fn": null,
+ "uups": false,
+ "lock_views": {},
+ "tokenuri_path": "override",
+ "lock_functions": [
+  "finalize",
+  "renounceRole"
+ ],
+ "lock_flags_true": {},
+ "roles": {
+  "MANAGE_TOKEN_URI_ROLE": {
+   "value": "0x000000000000000000000000000000000000000000000000000000000000006d",
+   "members": [],
+   "source": "enumerable"
+  },
+  "DEFAULT_ADMIN_ROLE": {
+   "value": "0x0000000000000000000000000000000000000000000000000000000000022001",
+   "members": [
+    "0x3e40d73eb977dc6a537af587d48316fee66e9c8c"
+   ],
+   "source": "enumerable"
+  }
+ },
+ "mutators": [
+  {
+   "name": "setBaseURI",
+   "sig": "setBaseURI(string)",
+   "selector": "0x55f804b3",
+   "category": "uri",
+   "inputs": [
+    "string"
+   ],
+   "gates": [
+    {
+     "type": "role",
+     "ref": "MANAGE_TOKEN_URI_ROLE"
+    }
+   ],
+   "modifiers": [
+    "onlyRole(MANAGE_TOKEN_URI_ROLE)"
+   ],
+   "body_head": "_getBaseURI().value = _baseURI;\n        emit BaseURISet(_baseURI);",
+   "writes": [
+    "value"
+   ],
+   "effective": "yes",
+   "power": "unknown",
+   "holder_addrs": [
+    "0x3e40d73eb977dc6a537af587d48316fee66e9c8c"
+   ],
+   "holder_how": [
+    "role:MANAGE_TOKEN_URI_ROLE"
+   ],
+   "unknown_gate": true,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x3e40d73eb977dc6a537af587d48316fee66e9c8c",
+     "type": "contract-unknown",
+     "bs_name": "AppProxyUpgradeable",
+     "ens": null,
+     "desc": "contract:AppProxyUpgradeable",
+     "simple": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "setNFTDescriptorAddress",
+   "sig": "setNFTDescriptorAddress(address)",
+   "selector": "0x92b18a47",
+   "category": "renderer",
+   "inputs": [
+    "address"
+   ],
+   "gates": [
+    {
+     "type": "role",
+     "ref": "MANAGE_TOKEN_URI_ROLE"
+    }
+   ],
+   "modifiers": [
+    "onlyRole(MANAGE_TOKEN_URI_ROLE)"
+   ],
+   "body_head": "NFT_DESCRIPTOR_ADDRESS_POSITION.setStorageAddress(_nftDescriptorAddress);\n        emit NftDescriptorAddressSet(_nftDescriptorAddress);",
+   "writes": [],
+   "effective": "unknown",
+   "power": "unknown",
+   "holder_addrs": [
+    "0x3e40d73eb977dc6a537af587d48316fee66e9c8c"
+   ],
+   "holder_how": [
+    "role:MANAGE_TOKEN_URI_ROLE"
+   ],
+   "unknown_gate": true,
+   "token_owner_gated": false,
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x3e40d73eb977dc6a537af587d48316fee66e9c8c",
+     "type": "contract-unknown",
+     "bs_name": "AppProxyUpgradeable",
+     "ens": null,
+     "desc": "contract:AppProxyUpgradeable",
+     "simple": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "(proxy admin upgrade)",
+   "category": "upgrade",
+   "gates": [
+    {
+     "type": "proxy-admin",
+     "ref": "slot"
+    }
+   ],
+   "holder_addrs": [
+    "0x3e40d73eb977dc6a537af587d48316fee66e9c8c"
+   ],
+   "holder_how": [
+    "eip1967 admin slot"
+   ],
+   "unknown_gate": false,
+   "token_owner_gated": false,
+   "effective": "yes",
+   "power": "unknown",
+   "lock_linked": [],
+   "frozen": false,
+   "holders": [
+    {
+     "addr": "0x3e40d73eb977dc6a537af587d48316fee66e9c8c",
+     "type": "contract-unknown",
+     "bs_name": "AppProxyUpgradeable",
+     "ens": null,
+     "desc": "contract:AppProxyUpgradeable",
+     "simple": "unknown"
+    }
+   ]
+  }
+ ],
+ "class_direct": "unknown",
+ "class_reason": "live setter with unresolved holder: (proxy admin upgrade),setBaseURI,setNFTDescriptorAddress",
+ "live_mutators": [
+  "(proxy admin upgrade)",
+  "setBaseURI",
+  "setNFTDescriptorAddress"
+ ],
+ "dependencies": [],
+ "meta": {
+  "address": "0x889edc2edab5f40e902b864ad4d7ade8e412f9b1",
+  "name": "Lido: stETH Withdrawal NFT",
+  "w5_claim_strength": "on-chain-generic",
+  "w5_claim_text": "// 2. Contract checks the validity of the batches on-chain and calculate the amount of eth required to",
+  "w5_source_type": "contract-source",
+  "w5_source_url": "https://etherscan.io/address/0x889edc2edab5f40e902b864ad4d7ade8e412f9b1#code (contracts/0.8.9/WithdrawalQueueBase.sol:171)",
+  "holders_count": 15547.0,
+  "in_w5": true,
+  "gallery_slugs": null,
+  "gallery_tokens": null,
+  "in_gallery": false,
+  "census_meta_class": null,
+  "census_media_class": null,
+  "census_liveness": null,
+  "in_census_onchain": false,
+  "standard": "ERC-721",
+  "creator": "0x8ea83ad72396f1e0cd2f8e72b1461db8eb6af7b5",
+  "deploy_block": 17172547.0
+ },
+ "class_deps_all": "none",
+ "class_deps": "none",
+ "class_final": "unknown",
+ "pointer_power": null
+}

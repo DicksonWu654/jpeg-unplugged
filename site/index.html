@@ -1,0 +1,398 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JPEG Unplugged</title>
+<meta name="description" content="If the internet outside Ethereum disappeared tomorrow, how many NFTs would still exist? A census of Ethereum NFT collections and a gallery of on-chain art rendered with the network cut.">
+<meta name="color-scheme" content="light dark">
+<meta property="og:type" content="website">
+<meta property="og:title" content="JPEG Unplugged">
+<meta property="og:description" content="If the internet outside Ethereum disappeared tomorrow, how many NFTs would still exist? A census of Ethereum NFT collections and a gallery of on-chain art rendered with the network cut.">
+<meta property="og:image" content="https://jpeg-unplugged.dicksonwu.xyz/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="JPEG Unplugged">
+<meta name="twitter:description" content="Pull the plug on the internet and count the NFTs that are left.">
+<meta name="twitter:image" content="https://jpeg-unplugged.dicksonwu.xyz/og.png">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230f1215'/%3E%3Cpath d='M9 4v9M15 4v9' stroke='%23eef1f3' stroke-width='3' stroke-linecap='round'/%3E%3Crect x='6' y='12' width='12' height='9' rx='2' fill='%23eef1f3'/%3E%3Cpath d='M12 21v7c0 3 4 3 8 3' stroke='%23eef1f3' stroke-width='3' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="preload" href="fonts/silkscreen-regular.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="preload" href="fonts/archivo-var-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-power="on">
+<a class="skip" href="#gallery">Skip to the gallery</a>
+
+<header class="bar" id="top">
+  <a class="brand" href="#top"><svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M9 3v8M15 3v8" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><rect x="6" y="10" width="12" height="9" fill="currentColor"/><path d="M12 19v6c0 4 5 4 9 4" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round"/></svg>JPEG Unplugged</a>
+  <nav class="bar-nav" aria-label="Sections">
+    <a href="#top100">Top 100</a>
+    <a href="#gallery">The gallery</a>
+    <a href="#findings">The findings</a>
+    <a href="#census">The data</a>
+    <a href="#method">Method</a>
+  </nav>
+  <button type="button" class="pill" id="pill" role="switch" aria-checked="true" aria-label="Network">
+    <span class="led" aria-hidden="true"></span>
+    <span class="pill-text"><span class="pill-on">Plugged in</span><span class="pill-off">Unplugged</span></span>
+  </button>
+</header>
+
+<div class="sample-banner" id="sample-banner" role="status" hidden>
+  <strong>SAMPLE DATA - not real results.</strong>
+  <span>The census numbers and charts on this page are placeholders generated to test the layout. The gallery below is real.</span>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+<main>
+<!-- ============================ HERO ============================ -->
+<section class="hero" id="hero" aria-labelledby="h1">
+  <div class="hero-in">
+    <p class="eyebrow">An Ethereum NFT survival test</p>
+    <div class="hero-layout">
+    <div class="hero-copy">
+      <h1 id="h1">Your NFT.<br>No internet.<br><span>Now what?</span></h1>
+      <p class="hero-question">If the internet outside Ethereum disappeared tomorrow, how many NFTs would still exist?</p>
+      <div class="plug" id="plug">
+          <svg viewBox="0 18 380 114" class="plug-svg" aria-hidden="true" focusable="false">
+            <path id="cable" class="cable" d="M-10 75 C 80 75 160 75 228 75" fill="none"/>
+            <g id="plug-body" class="plug-body">
+              <rect x="290" y="63" width="24" height="9" class="plug-prong"/>
+              <rect x="290" y="78" width="24" height="9" class="plug-prong"/>
+              <rect x="228" y="56" width="62" height="38" class="plug-shell"/>
+              <rect x="243" y="62" width="30" height="26" class="plug-grip"/>
+            </g>
+            <g class="socket">
+              <rect x="290" y="28" width="84" height="94" class="socket-plate"/>
+              <rect x="290" y="63" width="9" height="9" class="socket-hole"/>
+              <rect x="290" y="78" width="9" height="9" class="socket-hole"/>
+              <circle cx="344" cy="46" r="4" class="socket-screw"/>
+              <circle cx="344" cy="104" r="4" class="socket-screw"/>
+            </g>
+            <g class="sparks" id="sparks"><path d="M286 70 L274 58 M286 75 L270 75 M286 80 L274 92"/></g>
+          </svg>
+          <button type="button" class="plug-btn" id="plug-btn" role="switch" aria-checked="true">
+            <span class="plug-btn-label" id="plug-btn-label">Unplug the internet</span>
+          </button>
+        </div>
+      <p class="hero-instruction">Pull the plug. Watch the pixels go dark.<br>Then see which artworks survive below. <a href="#gallery" aria-label="Explore the gallery">↓</a></p>
+    </div>
+    <div class="hero-stage">
+      <div class="dots-wrap">
+        <div class="screen-top"><span><span data-bind="census.totals.collections">–</span> collections as pixels</span><span class="signal">● LIVE TEST</span></div>
+        <canvas id="dots" role="img" aria-label="One pixel for every census collection; the table below lists each result."></canvas>
+        <div class="dot-tip" id="dot-tip" hidden></div>
+        <p class="dots-caption" id="dots-caption">One pixel per collection.</p>
+      </div>
+
+      <div class="hero-side">
+        <p class="figure" id="figure" aria-live="polite">
+          <span class="figure-n" id="figure-n">-</span>
+          <span class="figure-of" id="figure-of"></span>
+        </p>
+        <p class="figure-sub" id="figure-sub"></p>
+        <p class="hero-answer" id="hero-answer" aria-live="polite">Reading the census…</p>
+        <details class="hero-legend"><summary>Read the pixel grid</summary><ul class="key" id="hero-key" aria-label="Key"></ul></details>
+      </div>
+    </div>
+    </div>
+  </div>
+</section>
+
+<noscript><p class="noscript">This page draws its charts from data files with JavaScript. With scripts off, the method and prior-art sections below still read fine, and the data files are linked at the bottom.</p></noscript>
+
+<!-- ============================ TOP 100 ============================ -->
+<section class="sec top100" id="top100" aria-labelledby="top100-h">
+  <div class="sec-head">
+    <p class="eyebrow">Famous names. Fragile connections.</p>
+    <h2 id="top100-h">The 100 biggest NFT collections</h2>
+  </div>
+  <div class="data-error" id="top100-error" hidden></div>
+  <div class="top100-stats" id="top100-stats"></div>
+  <div class="top100-screen">
+    <div class="top100-toolbar"><p id="top100-status" aria-live="polite">100 collections. Pull the plug.</p><button type="button" class="btn-quiet" id="top100-power">Unplug the internet</button></div>
+    <ul class="top100-legend" id="top100-legend" aria-label="Art location key"></ul>
+    <ol class="top100-wall" id="top100-wall" aria-label="Top 100 collections in rank order"></ol>
+    <p class="top100-hint">Tap a name for its row and evidence. × = dead or degraded delivery.</p>
+  </div>
+  <ul class="top100-callouts" id="top100-callouts"></ul>
+  <p class="top100-source">Source: CryptoSlam’s wash-filtered all-time Ethereum ranking; 3 sampled tokens each. <a href="#top100-table">See the full table ↓</a></p>
+</section>
+<dialog class="top100-detail" id="top100-detail" aria-labelledby="top100-detail-title">
+  <form method="dialog"><button class="btn-quiet" aria-label="Close collection details">Close</button></form>
+  <div id="top100-detail-body"></div>
+</dialog>
+
+<!-- ============================ GALLERY ============================ -->
+<section class="sec gallery" id="gallery" aria-labelledby="gallery-h">
+  <div class="sec-head">
+    <p class="eyebrow">The gallery / try it yourself</p>
+    <h2 id="gallery-h">Art, without a lifeline.</h2>
+    <p class="lede" id="gallery-lede">Art that claims to live on the chain, drawn from nothing but chain bytes. These are running live in a sandbox on your machine.</p>
+  </div>
+  <div class="data-error" id="gallery-error" hidden></div>
+
+  <div class="g-controls" id="g-controls">
+    <div class="g-power">
+      <button type="button" class="seg3" data-mode="on" aria-pressed="true">Plugged in</button>
+      <button type="button" class="seg3" data-mode="off" aria-pressed="false">Unplugged</button>
+      <button type="button" class="seg3" data-mode="archive" aria-pressed="false">Unplugged + archive</button>
+    </div>
+    <p class="g-mode-note" id="g-mode-note" aria-live="polite"></p>
+    <p class="g-live" id="g-live" aria-live="off"></p>
+  </div>
+
+  <div class="g-grid" id="g-grid"></div>
+  <details class="gallery-all" id="gallery-all">
+    <summary id="show-all-label">Show all pieces <span aria-hidden="true">+</span></summary>
+        <div class="g-filter" role="group" aria-label="Filter pieces">
+      <button type="button" class="chip" data-f="all" aria-pressed="true">All</button>
+      <button type="button" class="chip" data-f="breaks" aria-pressed="false">Goes blank unplugged</button>
+      <button type="button" class="chip" data-f="saved" aria-pressed="false">Saved by the archive</button>
+      <button type="button" class="chip" data-f="ab" aria-pressed="false">Art Blocks</button>
+      <button type="button" class="chip" data-f="other" aria-pressed="false">Everything else</button>
+    </div>
+
+    <div class="g-grid" id="g-all-grid"></div>
+  </details>
+  <p class="g-foot" id="g-foot"></p>
+</section>
+
+<dialog class="viewer" id="viewer" aria-labelledby="v-title">
+  <form method="dialog" class="v-close"><button class="btn-quiet" aria-label="Close">Close</button></form>
+  <div class="v-body">
+    <div class="v-stage" id="v-stage"></div>
+    <div class="v-info" id="v-info"></div>
+  </div>
+</dialog>
+
+<section class="sec findings" id="findings" aria-labelledby="findings-h">
+  <div class="sec-head"><p class="eyebrow">The findings / beyond the gallery</p><h2 id="findings-h">“On-chain” has fine print.</h2><p class="lede">The art can live forever. Its dependencies might not.</p></div>
+  <div class="finding-grid" id="finding-grid"></div>
+  <p class="finding-note" id="finding-note"></p>
+</section>
+
+<!-- ============================ CENSUS ============================ -->
+<section class="sec census" id="census" aria-labelledby="census-h">
+  <div class="sec-head">
+    <p class="eyebrow">Receipts, not promises</p>
+    <h2 id="census-h">Show me the data.</h2>
+    <nav class="data-nav" aria-label="Detailed data"><a href="#c-where">Storage</a><a href="#c-year">By year</a><a href="#c-gw">Gateways</a><a href="#c-claims">Claims</a><a href="#c-table">Every collection</a><a href="#hosts" id="nav-hosts" hidden>Hosts</a><a href="#pen" id="nav-pen">Who can edit</a></nav>
+    <p class="lede" id="census-lede">Non-spam Ethereum NFT collections with at least 100 holders, and what its token pointers actually point at.</p>
+  </div>
+  <div class="data-error" id="census-error" hidden></div>
+
+  <div class="chart-block" id="top100-table">
+    <h3>The top 100: every row</h3>
+    <p class="takeaway">Ranked by all-time sales. Select a name for control details and saved evidence. <a href="#top100">Back to the wall ↑</a></p>
+    <div class="table-wrap"><table class="coll top100-table"><caption class="sr">Top 100 metadata, media, liveness and control</caption><thead><tr><th scope="col">Rank</th><th scope="col">Collection</th><th scope="col">Metadata</th><th scope="col">Media</th><th scope="col">Delivery today</th><th scope="col">Who can change it</th><th scope="col">Evidence</th></tr></thead><tbody id="top100-rows"></tbody></table></div>
+  </div>
+
+  <div class="chart-block" id="c-where">
+    <h3>Where does the art live?</h3>
+    <p class="takeaway" id="t-where"></p>
+    <div id="ch-where"></div>
+  </div>
+
+  <div class="chart-grid">
+    <div class="chart-block" id="c-alive">
+      <h3>Does it load today?</h3>
+      <p class="takeaway" id="t-alive"></p>
+      <div id="ch-alive"></div>
+    </div>
+    <div class="chart-block" id="c-fake">
+      <h3>On-chain JSON, off-chain media</h3>
+      <p class="takeaway" id="t-fake"></p>
+      <div id="ch-fake"></div>
+    </div>
+  </div>
+
+  <div class="chart-block" id="c-year">
+    <h3>Does age matter?</h3>
+    <p class="takeaway" id="t-year"></p>
+    <div id="ch-year"></div>
+  </div>
+
+  <div class="chart-grid chart-grid-flip">
+    <div class="chart-block" id="c-gw">
+      <h3>Whose gateway is baked in?</h3>
+      <p class="takeaway" id="t-gw"></p>
+      <div id="ch-gw"></div>
+    </div>
+    <div class="chart-block" id="c-claims">
+      <h3>Project storage claims, reviewed</h3>
+      <p class="takeaway" id="t-claims"></p>
+      <div id="ch-claims"></div>
+      <ol class="exhibits" id="exhibits"></ol>
+      <p class="hnote" id="exhibits-note">These counts cover the full reviewed claimant set, including collections outside the random sample. It is a discovery-biased set, not an estimate for all NFTs. Outcomes concern each statement's scope; storage does not establish immutable control or successful rendering.</p>
+    </div>
+  </div>
+
+  <div class="chart-block" id="c-table">
+    <h3>Every collection</h3>
+    <p class="takeaway" id="t-table"></p>
+    <form class="filters" id="filters" role="search" onsubmit="return false">
+      <label class="f-search"><span class="sr">Search by name or address</span><input type="search" id="f-q" placeholder="Search name or 0x address" autocomplete="off"></label>
+      <label><span>Metadata</span><select id="f-meta"></select></label>
+      <label><span>Media</span><select id="f-media"></select></label>
+      <label><span>Today</span><select id="f-live"></select></label>
+      <label><span>Unplugged</span><select id="f-surv"></select></label>
+      <label><span>Deployed</span><select id="f-year"></select></label>
+      <label><span>Claim</span><select id="f-claim"></select></label>
+      <label class="f-extra" id="f-extra-wrap" hidden><input type="checkbox" id="f-extra"><span>Add high-holder collections outside the sample</span></label>
+      <button type="button" id="f-reset" class="btn-quiet">Reset</button>
+      <button type="button" id="f-csv" class="btn-quiet">Download CSV</button>
+    </form>
+    <p class="table-count" id="table-count" aria-live="polite"></p>
+    <div class="table-wrap">
+      <table class="coll" id="coll-table">
+        <thead></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <button type="button" class="btn" id="more-rows" hidden>Show more</button>
+  </div>
+</section>
+
+<!-- ============================ HOSTS (hidden unless data/hosts.json exists) ============================ -->
+<section class="sec hosts" id="hosts" aria-labelledby="hosts-h" hidden>
+  <div class="sec-head">
+    <h2 id="hosts-h">Dead servers and takeover-risk candidates</h2>
+    <p class="lede" id="hosts-lede"></p>
+  </div>
+  <div class="chart-grid">
+    <div class="chart-block" id="c-hstatus">
+      <h3>What the hostnames do today</h3>
+      <p class="takeaway" id="t-hstatus"></p>
+      <div id="ch-hstatus"></div>
+    </div>
+    <div class="chart-block" id="c-htakeover">
+      <h3>Takeover-risk candidates</h3>
+      <p class="takeaway" id="t-htakeover"></p>
+      <div id="ch-htakeover"></div>
+    </div>
+  </div>
+  <div class="chart-block" id="c-hkind" hidden>
+    <h3>By kind of host</h3>
+    <p class="takeaway" id="t-hkind"></p>
+    <div id="ch-hkind"></div>
+  </div>
+  <div class="chart-block" id="c-hex" hidden>
+    <h3>Already public</h3>
+    <ol class="exhibits" id="hosts-examples"></ol>
+  </div>
+</section>
+
+<!-- ============================ WHO HOLDS THE PEN ============================ -->
+<section class="sec pen" id="pen" aria-labelledby="pen-h" hidden>
+  <div class="sec-head">
+    <h2 id="pen-h">On-chain, but who holds the pen?</h2>
+    <p class="lede" id="pen-lede"></p>
+  </div>
+  <div class="chart-block" id="c-pclass">
+    <h3>Mutation control, including data edits</h3>
+    <p class="takeaway" id="t-pclass"></p>
+    <div id="ch-pclass"></div>
+  </div>
+  <div class="chart-grid chart-grid-flip">
+    <div class="chart-block" id="c-pfunnel">
+      <h3>Live pointer control among claimants</h3>
+      <p class="takeaway" id="t-pfunnel"></p>
+      <div id="ch-pfunnel"></div>
+    </div>
+    <div class="chart-block" id="c-ptime">
+      <h3>Pointers that moved</h3>
+      <p class="takeaway" id="t-ptime"></p>
+      <div id="ch-ptime"></div>
+      <ul class="lanes" id="pen-lanes"></ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ METHOD ============================ -->
+<section class="sec method" id="method" aria-labelledby="method-h">
+  <div class="sec-head">
+    <h2 id="method-h">Method, limits, prior art</h2>
+  </div>
+
+  <div class="prose">
+    <p class="honest">Public evidence records list each call and fetch (URL, status, time, SHA-256); corrections welcome.</p>
+
+    <h3>The top 100</h3>
+    <p>The wall uses CryptoSlam’s wash-filtered all-time Ethereum sales ranking in historical USD, with duplicate contract aliases removed. It is a separate famous-collection panel, not the random census or a definitive global ranking. Three token units per collection were checked (306 in total across source-listed contracts); 888 Inner Circle has only two distinct IDs, with a second fungible unit sampled. Small samples do not establish collection-wide health.</p>
+    <p>“Fully on-chain” requires metadata and every declared sampled media field on-chain, including CryptoPunks’ separately sealed legacy data renderer. The wall colours the media route; mixed routes use web server, then IPFS, then Arweave, with unresolved media coloured by its metadata route. Broken means the contract returned no usable metadata. Unplugging keeps only the six fully on-chain routes lit; this is a route illustration, not a browser render test. Alternate recovery contracts may exist.</p>
+    <p>“Dead or degraded” describes repeated sampled metadata or primary-image failures in this snapshot; unknown responses are excluded. Mooncats refers to the ranked wrapper’s empty metadata, not a dead legacy artwork. Art Gobblers has two loading samples and one repeated 404. One-key repointing counts live EOA pointer powers, excluding data-only edits. Server dependence counts ordinary HTTP metadata or media; dependencies overlap. Withheld origins remain unnamed. <a href="data/top100.json">Full snapshot and definitions</a>.</p>
+
+    <h3>What we counted</h3>
+    <p>The unit is one Ethereum mainnet ERC-721 or ERC-1155 collection contract with at least <span data-bind="census.criteria.min_holders">-</span> holders, as of <span data-bind="census.snapshot_date">-</span>. For each, we read <code>tokenURI</code> (or <code>uri</code>) with <code>eth_call</code> for sampled tokens, classified where the metadata JSON and the image or animation live, and then tried to fetch them. Every row links to a record of the calls and fetches (URL, status, time and SHA-256).</p>
+    <p id="m-sample" hidden>The census is a uniform random sample: <span data-bind="census.totals.collections">-</span> collections drawn at random (seed <span data-raw data-bind="census.sampling.seed">-</span>) from the <span data-bind="census.sampling.universe_collections_non_spam">-</span> non-spam collections that meet the holder threshold. Percentages are shares of the sample, and the evidence files cover the sample. The table can also show high-holder collections outside the sample; they are tagged and never enter a percentage.</p>
+    <p>The classes: <b>data-uri</b> (a <code>data:</code> URI stored in the contract), <b>onchain-renderer</b> (a <code>data:</code> URI the contract builds when you call it), <b>ipfs</b>, <b>arweave</b>, <b>http</b>, <b>broken</b> (reverts, empty, undecodable), and <b>unknown</b> for media whose location cannot be read because the off-chain metadata that names it could not be fetched. The fully on-chain candidate set has metadata and sampled media on-chain, with no external reference detected by a static scan. It is an upper bound on art that survives; rendering was tested only for the gallery set. The census includes financial position and receipt NFTs. The "On-chain JSON, off-chain media" chart counts any off-chain media field, including <code>animation_url</code>.</p>
+    <p>Liveness is conservative. Timeouts, rate limits and bot walls are recorded as <i>unknown</i>. Rows labelled <i>metadata unavailable</i> failed to return usable metadata after retries. Direct negative evidence includes DNS, TLS, HTTP errors, malformed URIs, invalid JSON, connection errors and parked responses. Contract call reverts and IPFS or Arweave content not found through public gateways are separate categories; neither establishes permanent content loss.</p>
+    <p>Takeover-risk candidates include hosts that look like deleted cloud resources whose names may be re-creatable; reclaimability was not tested. Hostnames are withheld from the public data.</p>
+
+    <h3>How the gallery is rendered</h3>
+    <p>For each gallery token we read the art from the chain only. Most contracts return a <code>data:</code> URI; for Art Blocks we call its on-chain generator contract, which assembles the page from the project script and its dependencies. The result is a self-contained HTML or SVG file. The page above loads that file into an iframe with <code>sandbox="allow-scripts"</code> and no <code>allow-same-origin</code>.</p>
+    <ul>
+      <li><b>Plugged in</b> runs the file as is, so it can fetch whatever it asks for.</li>
+      <li><b>Unplugged</b> puts a Content-Security-Policy <code>meta</code> tag first inside the document head: <code>default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' data: blob:; connect-src data: blob:; style-src 'unsafe-inline' data:; img-src data: blob:; font-src data:; media-src data: blob:</code>. The browser refuses every network request, and the piece's own code still runs. The policy includes <code>connect-src data: blob:</code> so pieces can <code>fetch()</code> a <code>data:</code> URI that is part of their own bytes, for example a shader; that reaches nothing outside the document.</li>
+      <li><b>Unplugged + archive</b> serves the same file with each declared dependency (for example <code>processing.js</code> from cdnjs) copied inline from a local archive.</li>
+    </ul>
+    <p>Pieces report what they try to fetch, and what breaks, back to the page with <code>postMessage</code>; the small counters on each tile come from that, live. The verdict labels (identical, broken, restored) come from a separate, scripted run in headless Chromium that compared screenshots under each condition; its evidence is in the repository.</p>
+
+    <h3>Who can change the art</h3>
+    <p>The historical mutation audit covers <span data-bind="mutability.universe.contracts">-</span> contracts selected for on-chain data or candidate claims. We read verified source for URI setters, renderer swaps, data edits and upgrades, then checked the gates with <code>owner()</code>, access-control roles, proxy admin slots and freeze flags. Classes include the recorded renderer or descriptor dependencies. Broad mutation classes include data-only edits; repointability requires a live effective URI, renderer or upgrade path. This retains the original control-state observations and limited dependency coverage, rather than claiming a fresh exhaustive audit. The reviewed project-authored storage statements and their outcomes are assessed independently. The displayed swap history comes from the saved setter CSV.</p>
+
+    <h3>Limits</h3>
+    <ul id="limits">
+      <li>This is a snapshot of one day's fetches. Servers that are down tonight can come back, and the reverse.</li>
+      <li>The census unit is the collection. A collection with a million tokens counts once, and we sample tokens inside each collection.</li>
+      <li>Collections with at least 100 holders is a popularity cut. It leaves out the long tail, where link rot is probably worse.</li>
+      <li>"Alive" means a fetch succeeded. Comparing the bytes with what the artist minted (hash checks) is future work.</li>
+      <li>The gallery is a hand-assembled set of on-chain candidates. How common each outcome is comes from the census.</li>
+      <li>The gallery tests the chain as it is today. Art Blocks' on-chain dependency registry is controlled by an admin, and the same generator call produced a CDN script tag before p5.js was uploaded on-chain in 2024.</li>
+      <li>Nouns’ <code>tokenURI</code> needs ~119M gas. Of six public RPCs that answered, three refused it even at 150M, one needed gas set by hand and two served it by default. We also read it from a local fork of mainnet pinned at a fixed block.</li>
+      <li>The CSP blocks fetches, forms and frames. The sandbox blocks navigation and popups. WebRTC is untested.</li>
+      <li>The thumbnails and verdicts come from headless Chromium with software WebGL; WebGL pieces run faster on a real GPU.</li>
+    </ul>
+
+    <h3>Prior art</h3>
+    <p>People have measured NFT link rot and storage before us. What we add is a 2026 snapshot, a by-deploy-year breakdown, a test of whether "on-chain" art draws with the network off, and a comparison of "fully on-chain" claims with what the contracts do. We did not find earlier work on those four points, in a search that was careful but not exhaustive.</p>
+    <ul class="refs">
+      <li>Das, Bose, Ruaro, Kruegel, Vigna. <a href="https://arxiv.org/abs/2111.08893">Understanding Security Issues in the NFT Ecosystem</a>. ACM CCS 2022. Crawled OpenSea assets and tracked which URLs stopped answering.</li>
+      <li>Wang, Gao, Wei. <a href="https://arxiv.org/abs/2212.11181">Do NFTs' Owners Really Possess their Assets? NFT-to-Asset Connection Fragility</a>. WWW 2023. A census-style study of Ethereum contracts, hosting concentration and IPFS retrievability, from 2022 data.</li>
+      <li>Balduf, Florian, Scheuermann. <a href="https://arxiv.org/abs/2210.11166">Dude, where's my NFT? Distributed Infrastructures for Digital Art</a>. DICG 2022. Inspected top digital-art NFTs by hand for on-chain storage; it counts generative art whose source is on-chain as on-chain and leaves the runtime environment out.</li>
+      <li>Hladek (ClubNFT), Right Click Save. <a href="https://www.rightclicksave.com/article/how-many-nfts-are-actually-on-the-blockchain">How many NFTs are actually on the blockchain?</a> 2022. String-matching classification of a very large NFT set into on-chain, IPFS, Arweave and HTTP.</li>
+      <li>OpenSea Help Center. <a href="https://support.opensea.io/en/articles/13355231-what-is-the-metadata-field-on-nft-pages">What is the metadata field on NFT pages?</a> A deployed five-label classifier (fully onchain, onchain metadata, decentralized, centralized, unknown). It classifies where pointers go; its documentation describes no rendering of the art.</li>
+      <li>Art Blocks. <a href="https://docs.artblocks.io/protocol/on-chain-generator.md">The Art Blocks Generator</a> and <a href="https://docs.artblocks.io/protocol/on-chain-storage.md">NFT Metadata Storage at Art Blocks</a>. The generator is what the gallery uses for Art Blocks pieces; the project's own docs say some projects still reference CDN packages.</li>
+    </ul>
+    <p>That Art Blocks pieces depend on a CDN-hosted <code>p5.js</code> was known before this project (Right Click Save, 2023; Art Blocks' own documentation). What we measure is how far it goes, across more than one platform.</p>
+
+    <h3>Data and code</h3>
+    <ul class="downloads">
+      <li><a href="data/census.json" download>census.json</a> and <a href="data/collections.json" download>collections.json</a>: the census, one row per collection, with evidence links.</li>
+      <li><a href="data/gallery.json" download>gallery.json</a> and <a href="gallery-assets/manifest.json" download>manifest.json</a>: the <span data-bind="gallery.counts.tokens">-</span> gallery tokens, with each rendered HTML or SVG file under <a href="gallery-assets/">gallery-assets/</a>.</li>
+      <li><a href="data/mutability.json" download>mutability.json</a>: who can change each on-chain contract, and the swaps we saw.</li>
+      <li><a href="data/SCHEMA.md">SCHEMA.md</a>: every field in the data files.</li>
+      <li><a href="https://github.com/DicksonWu654/jpeg-unplugged" id="repo-link">Repository</a>: code, evidence files and the analysis scripts.</li>
+    </ul>
+    <p class="datacheck" id="datacheck"></p>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <p>JPEG Unplugged. Compiled with AI agents; there will be mistakes. Corrections welcome. Public evidence records list each call and fetch (URL, status, time, SHA-256).</p>
+  <p>The site UI uses its own files and no trackers. The gallery starts plugged in; some artworks load libraries from public CDNs. Unplugged and archive modes block outside artwork requests. Fonts are self-hosted: Silkscreen for display and Archivo for reading, both under the SIL Open Font License.</p>
+</footer>
+
+<script defer src="js/core.js"></script>
+<script defer src="js/hero.js"></script>
+<script defer src="js/census.js"></script>
+<script defer src="js/extra.js"></script>
+<script defer src="js/findings.js"></script>
+<script defer src="js/top100.js"></script>
+<script defer src="js/main.js"></script>
+</body>
+</html>

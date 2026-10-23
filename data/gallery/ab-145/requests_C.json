@@ -1,0 +1,33 @@
+[
+ {
+  "t": 0.201,
+  "url": "https://onchain.invalid/",
+  "type": "document",
+  "method": "GET",
+  "frame": "about:blank",
+  "action": "served-from-chain",
+  "status": 200,
+  "bytes": null
+ },
+ {
+  "t": 0.241,
+  "url": "https://cdnjs.cloudflare.com/ajax/libs/aframe/1.2.0/aframe.min.js",
+  "type": "script",
+  "method": "GET",
+  "frame": "https://onchain.invalid/",
+  "action": "archive",
+  "sha256": "4319c2f3619c1e9a5858caeea4c9b49517d7f129f372fe1addbf259f3e21533d",
+  "status": 200,
+  "bytes": 1324388
+ },
+ {
+  "t": 1.206,
+  "url": "https://cdn.aframe.io/controllers/hands/rightHandLow.glb",
+  "type": "xhr",
+  "method": "GET",
+  "frame": "https://onchain.invalid/",
+  "action": "blocked",
+  "failure": "net::ERR_BLOCKED_BY_CLIENT.Inspector",
+  "status": null
+ }
+]
